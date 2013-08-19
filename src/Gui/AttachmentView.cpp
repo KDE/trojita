@@ -30,6 +30,7 @@
 #include "Imap/Model/Utils.h"
 
 #include <QAction>
+#include <QApplication>
 #include <QDesktopServices>
 #include <QDrag>
 #include <QFileDialog>
@@ -39,6 +40,8 @@
 #include <QMouseEvent>
 #include <QPushButton>
 #include <QLabel>
+#include <QStyle>
+#include <QStyleOption>
 #include <QTemporaryFile>
 #include <QToolButton>
 #if QT_VERSION >= QT_VERSION_CHECK(5, 0, 0)
@@ -52,41 +55,68 @@ namespace Gui
 
 AttachmentView::AttachmentView(QWidget *parent, Imap::Network::MsgPartNetAccessManager *manager,
                                const QModelIndex &partIndex, MessageView *messageView, QWidget *contentWidget):
-    QFrame(parent), m_partIndex(partIndex), m_downloadButton(0), m_messageView(messageView), m_downloadAttachment(0),
+    QFrame(parent), m_partIndex(partIndex), m_messageView(messageView), m_downloadAttachment(0),
     m_openAttachment(0), m_showHideAttachment(0), m_netAccess(manager), m_tmpFile(0),
     m_contentWidget(contentWidget)
 {
-    QVBoxLayout *contentLayout = new QVBoxLayout(this);
-    QWidget *attachmentControls = new QWidget();
-    contentLayout->addWidget(attachmentControls);
-    if (m_contentWidget) {
-        contentLayout->addWidget(m_contentWidget);
-    }
+    setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
+    setFrameStyle(QFrame::NoFrame);
 
-    QHBoxLayout *layout = new QHBoxLayout(attachmentControls);
+    QStyleOption opt;
+    opt.initFrom(this); // not actually required by styles may assume the parameter and segfault otherwise
+
+    const int padding = style()->pixelMetric(QStyle::PM_DefaultFrameWidth, &opt, this);
+    setContentsMargins(padding, 0, padding, 0);
+
+    QHBoxLayout *layout = new QHBoxLayout();
+    layout->setContentsMargins(0,0,0,0);
+
+    // should be PM_LayoutHorizontalSpacing, but is not implemented by many Qt4 styles -including oxygen- for other conflicts
+    const int spacing = style()->pixelMetric(QStyle::PM_DefaultLayoutSpacing, &opt, this);
+    layout->setSpacing(0);
 
     // Icon on the left
-    QLabel *lbl = new QLabel();
-    static const QSize iconSize(22, 22);
+    m_icon = new QToolButton(this);
+    m_icon->setAttribute(Qt::WA_NoMousePropagation, false); // inform us for DnD
+    m_icon->setAutoRaise(true);
+    m_icon->setIconSize(QSize(22,22));
+    m_icon->setToolButtonStyle(Qt::ToolButtonIconOnly);
+
+    m_menu = new QMenu(this);
+    m_downloadAttachment = m_menu->addAction(loadIcon(QLatin1String("document-save-as")), tr("Download"));
+    m_openAttachment = m_menu->addAction(tr("Open Directly"));
+    connect(m_downloadAttachment, SIGNAL(triggered()), this, SLOT(slotDownloadAttachment()));
+    connect(m_openAttachment, SIGNAL(triggered()), this, SLOT(slotOpenAttachment()));
+    if (m_contentWidget) {
+        m_showHideAttachment = m_menu->addAction(loadIcon(QLatin1String("view-preview")), tr("Show Preview"));
+        m_showHideAttachment->setCheckable(true);
+        m_showHideAttachment->setChecked(!m_contentWidget->isHidden());
+        connect(m_showHideAttachment, SIGNAL(triggered(bool)), m_contentWidget, SLOT(setVisible(bool)));
+    }
+
+    m_icon->setDefaultAction(m_downloadAttachment);
 
     QString mimeDescription = partIndex.data(Imap::Mailbox::RolePartMimeType).toString();
     QString rawMime = mimeDescription;
     QMimeType mimeType = QMimeDatabase().mimeTypeForName(mimeDescription);
     if (mimeType.isValid() && !mimeType.isDefault()) {
         mimeDescription = mimeType.comment();
-        QIcon icon = QIcon::fromTheme(mimeType.iconName(),
-                                      QIcon::fromTheme(mimeType.genericIconName(), loadIcon(QLatin1String("mail-attachment")))
-                                      );
-        lbl->setPixmap(icon.pixmap(iconSize));
+        QIcon icn = QIcon::fromTheme(mimeType.iconName(),
+                                     QIcon::fromTheme(mimeType.genericIconName(), loadIcon(QLatin1String("mail-attachment")))
+                                     );
+        m_icon->setIcon(icn);
     } else {
-        lbl->setPixmap(loadIcon(QLatin1String("mail-attachment")).pixmap(iconSize));
+        m_icon->setIcon(loadIcon(QLatin1String("mail-attachment")));
     }
-    layout->addWidget(lbl);
+    layout->addWidget(m_icon);
 
-    QWidget *labelArea = new QWidget();
-    QVBoxLayout *subLayout = new QVBoxLayout(labelArea);
+    // space between icon and label
+    layout->addSpacing(spacing);
+
+    QVBoxLayout *subLayout = new QVBoxLayout;
+    subLayout->setContentsMargins(0,0,0,0);
     // The file name shall be mouse-selectable
-    lbl = new QLabel();
+    QLabel *lbl = new QLabel(this);
     lbl->setTextFormat(Qt::PlainText);
     lbl->setText(partIndex.data(Imap::Mailbox::RolePartFileName).toString());
     lbl->setTextInteractionFlags(Qt::TextSelectableByMouse);
@@ -98,43 +128,40 @@ AttachmentView::AttachmentView(QWidget *parent, Imap::Network::MsgPartNetAccessM
     if (rawMime != mimeDescription) {
         lbl->setToolTip(rawMime);
     }
-    QFont f = lbl->font();
+    QFont f(lbl->font());
     f.setItalic(true);
-    f.setPointSizeF(f.pointSizeF() * 0.8);
+    if (f.pointSize() > -1) // don't try the below on pixel fonts ever.
+        f.setPointSizeF(f.pointSizeF() * 0.8);
     lbl->setFont(f);
     subLayout->addWidget(lbl);
-    layout->addWidget(labelArea);
-    layout->addStretch();
+    layout->addLayout(subLayout);
 
-    // Download/Open buttons
-    m_downloadButton = new QToolButton();
-    m_downloadButton->setPopupMode(QToolButton::MenuButtonPopup);
-    m_downloadButton->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
-    m_downloadButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
+    // space between label and arrow
+    layout->addSpacing(spacing);
 
-    QMenu *menu = new QMenu(this);
-    m_downloadAttachment = menu->addAction(loadIcon(QLatin1String("document-save-as")), tr("Download"));
-    m_openAttachment = menu->addAction(tr("Open Directly"));
-    connect(m_downloadAttachment, SIGNAL(triggered()), this, SLOT(slotDownloadAttachment()));
-    connect(m_openAttachment, SIGNAL(triggered()), this, SLOT(slotOpenAttachment()));
+    // Arrow
+    QToolButton *arrow = new QToolButton(this);
+    connect(arrow, SIGNAL(pressed()), SLOT(showMenu()));
+    arrow->setArrowType(Qt::DownArrow);
+    arrow->setAutoRaise(true);
+
+    layout->addWidget(arrow);
+
+    // push to left against non expanding labels
+    layout->addStretch(100);
+
+    QVBoxLayout *contentLayout = new QVBoxLayout(this);
+    contentLayout->addLayout(layout);
     if (m_contentWidget) {
-        m_showHideAttachment = menu->addAction(loadIcon(QLatin1String("view-preview")), tr("Show Preview"));
-        m_showHideAttachment->setCheckable(true);
-        m_showHideAttachment->setChecked(!m_contentWidget->isHidden());
-        connect(m_showHideAttachment, SIGNAL(triggered(bool)), m_contentWidget, SLOT(setVisible(bool)));
+        contentLayout->addWidget(m_contentWidget);
     }
-
-    m_downloadButton->setMenu(menu);
-    m_downloadButton->setDefaultAction(m_downloadAttachment);
-
-    layout->addWidget(m_downloadButton);
-    setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
-    setFrameStyle(QFrame::StyledPanel | QFrame::Raised);
 }
 
 void AttachmentView::slotDownloadAttachment()
 {
-    m_downloadButton->setEnabled(false);
+    QIcon icn = m_icon->icon(); // set to the default action by ::setEnabled
+    m_downloadAttachment->setEnabled(false);
+    m_icon->setIcon(icn);
 
     Imap::Network::FileDownloadManager *manager = new Imap::Network::FileDownloadManager(this, m_netAccess, m_partIndex);
     connect(manager, SIGNAL(fileNameRequested(QString*)), this, SLOT(slotFileNameRequested(QString*)));
@@ -180,7 +207,9 @@ void AttachmentView::slotFileNameRequested(QString *fileName)
 
 void AttachmentView::enableDownloadAgain()
 {
-    m_downloadButton->setEnabled(true);
+    QIcon icn = m_icon->icon(); // set to the default action by ::setEnabled
+    m_downloadAttachment->setEnabled(true);
+    m_icon->setIcon(icn);
 }
 
 void AttachmentView::onOpenFailed()
@@ -206,13 +235,26 @@ void AttachmentView::openDownloadedAttachment()
     m_openAttachment->setEnabled(true);
 }
 
+void AttachmentView::showMenu()
+{
+    static_cast<QToolButton*>(sender())->setDown(false);
+    QPoint p = QCursor::pos();
+    p.rx() -= m_menu->width()/2;
+    m_menu->popup(p);
+}
+
 void AttachmentView::mousePressEvent(QMouseEvent *event)
 {
-    QWidget *child = childAt(event->pos());
-    if (child == m_downloadButton) {
-        // We shouldn't really interfere with its operation
+    m_dragStartPos = event->pos();
+    QFrame::mousePressEvent(event);
+}
+
+void AttachmentView::mouseMoveEvent(QMouseEvent *event)
+{
+    QFrame::mouseMoveEvent(event);
+
+    if ((m_dragStartPos - event->pos()).manhattanLength() <  QApplication::startDragDistance())
         return;
-    }
 
     if (m_partIndex.data(Imap::Mailbox::RoleMessageUid) == 0) {
         return;
