@@ -34,11 +34,75 @@
 using namespace Gui;
 
 Spinner::Spinner(QWidget *parent) : QWidget(parent), m_step(0), m_fadeStep(0), m_timer(0),
-                                    m_startTimer(0), m_textCols(0), m_type(Sun), m_geometryDirty(false)
+                                    m_startTimer(0), m_textCols(0), m_type(Sun), m_geometryDirty(false),
+                                    m_minimum(0), m_maximum(0), m_value(-1), m_valueStep(0xff)
 {
     updateAncestors();
     hide();
 }
+
+void Spinner::setMaximum(const int maximum)
+{
+    if (maximum == m_maximum)
+        return;
+    m_maximum = maximum;
+    checkProgressMode();
+}
+
+int Spinner::maximum() const
+{
+    return m_maximum;
+}
+
+void Spinner::setMinimum(const int minimum)
+{
+    if (minimum == m_minimum)
+        return;
+    m_minimum = minimum;
+    checkProgressMode();
+}
+
+int Spinner::mimimum() const
+{
+    return m_minimum;
+}
+
+void Spinner::setValue(const int value)
+{
+    if (value == m_value)
+        return;
+    m_value = value;
+    if (m_minimum < m_maximum) {
+        m_value = qMax(m_minimum, qMin(m_value, m_maximum));
+        uchar oldValueStep = m_valueStep;
+        m_valueStep = uchar(qRound(11*(m_value-m_minimum)/float(m_maximum-m_minimum)));
+        if (oldValueStep != m_valueStep) {
+            if (!m_timer)
+                m_step = m_valueStep;
+            update();
+        }
+    }
+
+}
+
+int Spinner::value() const
+{
+    return m_value;
+}
+
+void Spinner::checkProgressMode()
+{
+    if (m_minimum < m_maximum) { // we're now in progressbar mode
+        // validate m_value
+        --m_value; // "trick" idempotence
+        setValue(m_value + 1);
+    } else { // we're now spinning
+        m_valueStep = 0xff; // invalidate
+        if (!m_timer)
+            m_timer = startTimer(100);
+    }
+}
+
 
 void Spinner::setText(const QString &text)
 {
@@ -207,7 +271,7 @@ void Spinner::paintEvent(QPaintEvent *)
         QColor c3(palette().color(foregroundRole()));
         c3.setAlpha(c2.alpha());
 
-        startAngle -= 30*16*m_step;
+        startAngle -= (30+30*m_step)*16;
         pen.setColor(c3);
         p.setPen(pen);
         p.drawArc(r, startAngle, 30*16);
@@ -254,8 +318,14 @@ void Spinner::timerEvent(QTimerEvent *e)
 {
     // timerEvent being used for being more lightweight than QTimer - no particular other reason
     if (e->timerId() == m_timer) {
-        if (++m_step > 11)
+        if (m_step == m_valueStep) {
+            if (m_fadeStep > 11) { // we can stop animation here
+                killTimer(m_timer);
+                m_timer = 0;
+            }
+        } else if (++m_step > 11) {
             m_step = 0;
+        }
         if (m_fadeStep == -1) { // stop
             hide();
             killTimer(m_timer);

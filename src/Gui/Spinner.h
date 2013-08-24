@@ -39,12 +39,32 @@ public:
     enum Type { Aperture = 0, Scythe, Elastic, Sun };
     /** Providing a @p parent that is NOT Null is mandatory! */
     explicit Spinner(QWidget *parent);
+
+    /**
+     * Optional progress indicator values
+     * Defaulting to 0,0,-1
+     */
+    int mimimum() const;
+    int maximum() const;
+    int value() const;
     /** The optional text */
     QString text() const;
     /** Set a type to control the look a bit */
     void setType(const Type t);
     Type type() const;
 public slots:
+    /**
+     * QProgressBar-a-like API
+     * When setting minimum != maximum and as soon as value becomes valid, the spinner
+     * spins on until the target value is reached and then will stop and wait for further
+     * value updates until minimum and maximum are set to an equal value (restarting the spinning)
+     *
+     * Consider using the "Sun" type if you intend to use the spinner as progress indicator
+     * While every mode is supported, the visual result will not reflect a progress indicator
+     */
+    void setMaximum(const int maximum);
+    void setMinimum(const int minimum);
+    void setValue(const int value);
     /**
      * Set an optional text in the center of the rotating stuff
      * the text of course does not rotate ;-)
@@ -72,6 +92,8 @@ private slots:
     void updateAncestors();
     void updateGeometry();
 private:
+    void checkProgressMode();
+private:
     uchar m_step;
     char m_fadeStep;
     int m_timer;
@@ -81,6 +103,8 @@ private:
     int m_textCols;
     Type m_type;
     bool m_geometryDirty;
+    int m_minimum, m_maximum, m_value;
+    uchar m_valueStep;
 };
 
 } // namespace
