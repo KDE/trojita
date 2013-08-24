@@ -37,8 +37,8 @@
 #include "ComposeWidget.h"
 #include "FromAddressProxyModel.h"
 #include "LineEdit.h"
-#include "OverlayWidget.h"
 #include "ProgressPopUp.h"
+#include "Spinner.h"
 #include "Gui/Util.h"
 #include "Window.h"
 #include "ui_ComposeWidget.h"
@@ -286,17 +286,21 @@ void ComposeWidget::send()
                                  m_settings->value(Common::SettingsNames::smtpUserKey).toString());
 
 
-    ProgressPopUp *progress = new ProgressPopUp();
-    OverlayWidget *overlay = new OverlayWidget(progress, this);
-    overlay->show();
+    Spinner *spinner = new Spinner(ui->mailText);
+    spinner->setType(Spinner::Sun);
+    spinner->setAutoDelete(true);
+
     setUiWidgetsEnabled(false);
 
-    connect(m_submission, SIGNAL(progressMin(int)), progress, SLOT(setMinimum(int)));
-    connect(m_submission, SIGNAL(progressMax(int)), progress, SLOT(setMaximum(int)));
-    connect(m_submission, SIGNAL(progress(int)), progress, SLOT(setValue(int)));
-    connect(m_submission, SIGNAL(updateStatusMessage(QString)), progress, SLOT(setLabelText(QString)));
-    connect(m_submission, SIGNAL(succeeded()), overlay, SLOT(deleteLater()));
-    connect(m_submission, SIGNAL(failed(QString)), overlay, SLOT(deleteLater()));
+    connect(m_submission, SIGNAL(progressMin(int)), spinner, SLOT(setMinimum(int)));
+    connect(m_submission, SIGNAL(progressMax(int)), spinner, SLOT(setMaximum(int)));
+    connect(m_submission, SIGNAL(progress(int)), spinner, SLOT(setValue(int)));
+    connect(m_submission, SIGNAL(updateStatusMessage(QString)), spinner, SLOT(setText(QString)));
+    connect(m_submission, SIGNAL(succeeded()), spinner, SLOT(stop()));
+    connect(m_submission, SIGNAL(failed(QString)), spinner, SLOT(setText(QString)));
+    connect(m_submission, SIGNAL(failed(QString)), spinner, SLOT(stop()));
+
+    spinner->start();
 
     m_submission->send();
 }
@@ -535,7 +539,7 @@ void ComposeWidget::sent()
     // FIXME: move back to the currently selected mailbox
 
     m_sentMail = true;
-    QTimer::singleShot(0, this, SLOT(close()));
+    QTimer::singleShot(1000, this, SLOT(close()));
 }
 
 bool ComposeWidget::parseRecipients(QList<QPair<Composer::RecipientKind, Imap::Message::MailAddress> > &results, QString &errorMessage)

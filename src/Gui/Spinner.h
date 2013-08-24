@@ -41,6 +41,12 @@ public:
     explicit Spinner(QWidget *parent);
 
     /**
+     * Whether to delete itself when hiding after the stop finished
+     */
+    bool autoDelete() const;
+    void setAutoDelete(bool autoDelete);
+
+    /**
      * Optional progress indicator values
      * Defaulting to 0,0,-1
      */
@@ -105,6 +111,7 @@ private:
     bool m_geometryDirty;
     int m_minimum, m_maximum, m_value;
     uchar m_valueStep;
+    bool m_autoDelete;
 };
 
 } // namespace

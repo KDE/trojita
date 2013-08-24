@@ -35,10 +35,21 @@ using namespace Gui;
 
 Spinner::Spinner(QWidget *parent) : QWidget(parent), m_step(0), m_fadeStep(0), m_timer(0),
                                     m_startTimer(0), m_textCols(0), m_type(Sun), m_geometryDirty(false),
-                                    m_minimum(0), m_maximum(0), m_value(-1), m_valueStep(0xff)
+                                    m_minimum(0), m_maximum(0), m_value(-1), m_valueStep(0xff),
+                                    m_autoDelete(false)
 {
     updateAncestors();
     hide();
+}
+
+bool Spinner::autoDelete() const
+{
+    return m_autoDelete;
+}
+
+void Spinner::setAutoDelete(bool autoDelete)
+{
+    m_autoDelete = autoDelete;
 }
 
 void Spinner::setMaximum(const int maximum)
@@ -206,6 +217,8 @@ void Spinner::stop()
     if (m_startTimer)
         m_startTimer->stop();
     m_fadeStep = qMax(-11, qMin(-1, -qAbs(m_fadeStep))); // [-11,-1]
+    if (!m_timer) // progress mode
+        m_timer = startTimer(100);
 }
 
 bool Spinner::event(QEvent *e)
@@ -363,6 +376,8 @@ void Spinner::timerEvent(QTimerEvent *e)
             killTimer(m_timer);
             m_timer = 0;
             m_step = 0;
+            if (m_autoDelete)
+                deleteLater();
         }
         if (m_fadeStep < 12)
             ++m_fadeStep;
