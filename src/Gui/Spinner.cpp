@@ -107,6 +107,7 @@ void Spinner::checkProgressMode()
 void Spinner::setText(const QString &text)
 {
     static const QLatin1Char newLine('\n');
+
     m_text = text;
     // calculate the maximum glyphs per row
     // this is later on used in the painting code to determine the font size
@@ -122,6 +123,37 @@ void Spinner::setText(const QString &text)
         idx = text.indexOf(newLine, lidx);
     }
     m_textCols = qMax(m_textCols, text.length() - lidx);
+
+    if (!lidx) { // text has no newline, see whether we better wrap it somewhere
+        m_textCols = 0;
+        static QRegExp whitespace(QLatin1String("\\s"));
+        QFontMetricsF fm(font());
+        const int idealCols = qCeil(qSqrt((text.length()*1.5*fm.height())/fm.maxWidth()));
+        QStringList list = m_text.split(whitespace);
+        if (list.count() <= text.length()/idealCols) {
+            foreach (const QString &s, list)
+                m_textCols = qMax(s.length(), m_textCols);
+            m_text = list.join(QString("\n"));
+        } else {
+            m_text.clear();
+            m_textCols = 0;
+            // "greedy" string build
+            static const QLatin1Char blank(' ');
+            int length = 0;
+            foreach (const QString &s, list) {
+                if ((length + s.length() + 1 - idealCols) > (idealCols - length)) {
+                    m_text += newLine;
+                    m_textCols = qMax(m_textCols, length);
+                    length = 0;
+                } else {
+                    m_text += blank;
+                    ++length;
+                }
+                m_text += s;
+                length += s.length();
+            }
+        }
+    }
 }
 
 QString Spinner::text() const
