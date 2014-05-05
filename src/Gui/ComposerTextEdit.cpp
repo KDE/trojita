@@ -30,6 +30,10 @@
 #include <QPaintEvent>
 #include <QTimer>
 #include <QUrl>
+#include "configure.cmake.h"
+#ifdef TROJITA_HAVE_SONNET
+#include <SonnetUi/sonnet/spellcheckdecorator.h>
+#endif
 
 ComposerTextEdit::ComposerTextEdit(QWidget *parent) : QTextEdit(parent)
 , m_couldBeSendRequest(false)
@@ -44,6 +48,12 @@ ComposerTextEdit::ComposerTextEdit(QWidget *parent) : QTextEdit(parent)
 
     m_pasteQuoted = new QAction(tr("Paste as Quoted Text"), this);
     connect(m_pasteQuoted, SIGNAL(triggered()), this, SLOT(slotPasteAsQuotation()));
+
+#ifdef TROJITA_HAVE_SONNET
+    Sonnet::SpellCheckDecorator *decorator = new Sonnet::SpellCheckDecorator(this);
+    // bug: it would not work until a decorator was requested...
+    Q_UNUSED(decorator->highlighter());
+#endif
 }
 
 void ComposerTextEdit::notify(const QString &n, uint timeout)
@@ -145,6 +155,7 @@ void ComposerTextEdit::paintEvent(QPaintEvent *pe)
     }
 }
 
+#if 0
 void ComposerTextEdit::contextMenuEvent(QContextMenuEvent *e)
 {
     QScopedPointer<QMenu> menu(createStandardContextMenu(e->pos()));
@@ -191,6 +202,7 @@ void ComposerTextEdit::contextMenuEvent(QContextMenuEvent *e)
     }
     menu->exec(e->globalPos());
 }
+#endif
 
 void ComposerTextEdit::slotPasteAsQuotation()
 {

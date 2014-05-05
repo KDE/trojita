@@ -49,6 +49,7 @@ trojita_option(WITH_ZLIB "Build with zlib library" AUTO)
 trojita_option(WITH_SHARED_PLUGINS "Enable shared dynamic plugins" ON)
 trojita_option(WITH_TESTS "Build tests" ON "NOT WITH_HARMATTAN")
 trojita_option(DEV_FATAL_WARNINGS "Turn build warnings into errors (developers only)" OFF)
+trojita_option(WITH_SPELLCHECKER_SONNET "Build with spellchecker through KDE's Sonnet" AUTO "WITH_DESKTOP;WITH_QT5")
 
 if(WIN32)
     trojita_option(WITH_NSIS "Build Windows NSIS installer" AUTO)
@@ -232,6 +233,13 @@ if(WITH_ZLIB)
 else()
     set(TROJITA_HAVE_ZLIB False)
     message(STATUS "Disabling COMPRESS=DEFLATE, zlib is not available")
+endif()
+
+trojita_find_package(KF5Sonnet "" "" "" "" WITH_SPELLCHECKER_SONNET)
+if(WITH_SPELLCHECKER_SONNET)
+    set(TROJITA_HAVE_SONNET True)
+else()
+    set(TROJITA_HAVE_SONNET False)
 endif()
 
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/configure.cmake.in
@@ -685,6 +693,9 @@ if(WITH_DESKTOP)
         set_property(TARGET DesktopGui APPEND PROPERTY INCLUDE_DIRECTORIES ${path_DesktopGui})
     endif()
     target_link_libraries(DesktopGui Common UiUtils Composer Imap MSA Plugins Streams qwwsmtpclient AbookAddressbook ${QT_QTWEBKIT_LIBRARY} ${QT_QTGUI_LIBRARY} ${QT_QTCORE_LIBRARY})
+    if(WITH_SPELLCHECKER_SONNET)
+        target_link_libraries(DesktopGui KF5::SonnetUi)
+    endif()
 
     # On Windows build a real Win32 GUI application without console window
     # On other platforms WIN32 flag is ignored

@@ -47,7 +47,7 @@ protected:
     void keyReleaseEvent(QKeyEvent *event);
     /** painter reimplementation for notification **/
     void paintEvent(QPaintEvent *pe);
-    virtual void contextMenuEvent(QContextMenuEvent *e);
+    //virtual void contextMenuEvent(QContextMenuEvent *e);
 private slots:
     void resetNotification();
     void slotPasteAsQuotation();
