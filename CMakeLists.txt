@@ -235,7 +235,7 @@ else()
     message(STATUS "Disabling COMPRESS=DEFLATE, zlib is not available")
 endif()
 
-trojita_find_package(KF5Sonnet "" "" "" "" WITH_SPELLCHECKER_SONNET)
+trojita_find_package(KF5Sonnet "" "https://projects.kde.org/projects/frameworks/sonnet" "Qt5 Spell Checking Library from KDE" "Spell checking support" WITH_SPELLCHECKER_SONNET)
 if(WITH_SPELLCHECKER_SONNET)
     set(TROJITA_HAVE_SONNET True)
 else()
