@@ -12,60 +12,60 @@ set(LINGUIST_PATH ${LINGUIST_PATH}/bin)
 
 if(TARGET Qt5::lupdate)
     set(QT_LUPDATE_EXECUTABLE Qt5::lupdate)
-else(TARGET Qt5::lupdate)
-    FIND_PROGRAM(QT_LUPDATE_EXECUTABLE NAMES lupdate-qt5 lupdate PATHS
+else()
+    find_program(QT_LUPDATE_EXECUTABLE NAMES lupdate-qt5 lupdate PATHS
         ${LINGUIST_PATH}
         NO_DEFAULT_PATH
     )
-endif(TARGET Qt5::lupdate)
+endif()
 
 if(QT_LUPDATE_EXECUTABLE)
   message(STATUS "Found lupdate: ${QT_LUPDATE_EXECUTABLE}")
-else(QT_LUPDATE_EXECUTABLE)
+else()
   if(Qt5LinguistForTrojita_FIND_REQUIRED)
     message(FATAL_ERROR "Could NOT find lupdate")
   else()
     message(WARNING "Could NOT find lupdate")
   endif()
-endif(QT_LUPDATE_EXECUTABLE)
+endif()
 
 if(TARGET Qt5::lrelease)
     set(QT_LRELEASE_EXECUTABLE Qt5::lrelease)
-else(TARGET Qt5::lrelease)
-    FIND_PROGRAM(QT_LRELEASE_EXECUTABLE NAMES lrelease-qt5 lrelease PATHS
+else()
+    find_program(QT_LRELEASE_EXECUTABLE NAMES lrelease-qt5 lrelease PATHS
         ${LINGUIST_PATH}
         NO_DEFAULT_PATH
     )
-endif(TARGET Qt5::lrelease)
+endif()
 
 if(QT_LRELEASE_EXECUTABLE)
   message(STATUS "Found lrelease: ${QT_LRELEASE_EXECUTABLE}")
-else(QT_LRELEASE_EXECUTABLE)
+else()
   if(Qt5LinguistForTrojita_FIND_REQUIRED)
     message(FATAL_ERROR "Could NOT find lrelease")
   else()
     message(WARNING "Could NOT find lrelease")
   endif()
-endif(QT_LRELEASE_EXECUTABLE)
+endif()
 
 if(TARGET Qt5::lconvert)
     set(QT_LCONVERT_EXECUTABLE Qt5::lconvert)
-else(TARGET Qt5::lconvert)
-    FIND_PROGRAM(QT_LCONVERT_EXECUTABLE NAMES lconvert-qt5 lconvert PATHS
+else()
+    find_program(QT_LCONVERT_EXECUTABLE NAMES lconvert-qt5 lconvert PATHS
         ${LINGUIST_PATH}
         NO_DEFAULT_PATH
     )
-endif(TARGET Qt5::lconvert)
+endif()
 
 if(QT_LCONVERT_EXECUTABLE)
   message(STATUS "Found lconvert: ${QT_LCONVERT_EXECUTABLE}")
-else(QT_LCONVERT_EXECUTABLE)
+else()
   if(Qt5LinguistForTrojita_FIND_REQUIRED)
     message(FATAL_ERROR "Could NOT find lconvert")
   else()
     message(WARNING "Could NOT find lconvert")
   endif()
-endif(QT_LCONVERT_EXECUTABLE)
+endif()
 
 mark_as_advanced(QT_LUPDATE_EXECUTABLE QT_LRELEASE_EXECUTABLE QT_LCONVERT_EXECUTABLE)
 
@@ -78,61 +78,61 @@ if(QT_LUPDATE_EXECUTABLE AND QT_LRELEASE_EXECUTABLE AND QT_LCONVERT_EXECUTABLE)
 # a target lupdate is created for you
 # update/generate your translations files
 # example: QT5_WRAP_TS(foo_QM ${foo_TS})
-MACRO (QT5_WRAP_TS outfiles)
+macro(QT5_WRAP_TS outfiles)
   # a target to manually run lupdate
-  #ADD_CUSTOM_TARGET(lupdate
+  #add_custom_target(lupdate
                     #COMMAND ${QT_LUPDATE_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR} -ts ${ARGN}
                     #WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
   #)
-  FOREACH (it ${ARGN})
-    GET_FILENAME_COMPONENT(it ${it} ABSOLUTE)
-    GET_FILENAME_COMPONENT(outfile ${it} NAME_WE)
+  foreach(it ${ARGN})
+    get_filename_component(it ${it} ABSOLUTE)
+    get_filename_component(outfile ${it} NAME_WE)
 
-    SET(outfile ${CMAKE_CURRENT_BINARY_DIR}/${outfile}.qm)
-    ADD_CUSTOM_COMMAND(OUTPUT ${outfile}
+    set(outfile ${CMAKE_CURRENT_BINARY_DIR}/${outfile}.qm)
+    add_custom_command(OUTPUT ${outfile}
                        COMMAND ${QT_LRELEASE_EXECUTABLE}
                        ARGS -compress -removeidentical -silent ${it} -qm ${outfile}
                        DEPENDS ${it}
     )
 
-    SET(${outfiles} ${${outfiles}} ${outfile})
-  ENDFOREACH (it)
-ENDMACRO (QT5_WRAP_TS)
+    set(${outfiles} ${${outfiles}} ${outfile})
+  endforeach()
+endmacro()
 
 # QT_WRAP_PO(outfiles infiles ...)
 # outfiles receives .qm generated files from
 # .po files in arguments
 # example: QT5_WRAP_PO(foo_TS ${foo_PO})
-MACRO (QT5_WRAP_PO outfiles)
-   FOREACH (it ${ARGN})
-      GET_FILENAME_COMPONENT(it ${it} ABSOLUTE)
+macro(QT5_WRAP_PO outfiles)
+   foreach(it ${ARGN})
+      get_filename_component(it ${it} ABSOLUTE)
       # PO files are foo-en_GB.po not foo_en_GB.po like Qt expects
-      GET_FILENAME_COMPONENT(fileWithDash ${it} NAME_WE)
+      get_filename_component(fileWithDash ${it} NAME_WE)
       if(NOT I18N_LANGUAGE)
         set(do_wrap ON)
-      else(NOT I18N_LANGUAGE)
+      else()
         string(REGEX MATCH "${I18N_LANGUAGE}" ln ${fileWithDash})
         if(ln)
           set(do_wrap ON)
-        else(ln)
+        else()
           set(do_wrap OFF)
-        endif(ln)
-      endif(NOT I18N_LANGUAGE)      
+        endif()
+      endif()
       if(do_wrap)
-        STRING(REPLACE "-" "_" filenameBase "${fileWithDash}")
+        string(REPLACE "-" "_" filenameBase "${fileWithDash}")
         file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/locale)
-        SET(tsfile ${CMAKE_CURRENT_BINARY_DIR}/locale/${filenameBase}.ts)
-        SET(qmfile ${CMAKE_CURRENT_BINARY_DIR}/locale/${filenameBase}.qm)
+        set(tsfile ${CMAKE_CURRENT_BINARY_DIR}/locale/${filenameBase}.ts)
+        set(qmfile ${CMAKE_CURRENT_BINARY_DIR}/locale/${filenameBase}.qm)
 
-        if (NOT EXISTS "${it}")
-           GET_FILENAME_COMPONENT(path ${it} PATH)
-           STRING(REGEX MATCH "[^-]+$" lang "${fileWithDash}")
-           set (it "${path}/${lang}.po")
-        endif (NOT EXISTS "${it}")
+        if(NOT EXISTS "${it}")
+           get_filename_component(path ${it} PATH)
+           string(REGEX MATCH "[^-]+$" lang "${fileWithDash}")
+           set(it "${path}/${lang}.po")
+       endif()
 
         # lconvert from PO to TS and then run lupdate to generate the correct strings
         # finally run lrelease as used above
-        ADD_CUSTOM_COMMAND(OUTPUT ${qmfile}
+        add_custom_command(OUTPUT ${qmfile}
                          COMMAND ${QT_LCONVERT_EXECUTABLE}
                          ARGS -i ${it} -o ${tsfile}
                          COMMAND ${QT_LUPDATE_EXECUTABLE}
@@ -142,11 +142,11 @@ MACRO (QT5_WRAP_PO outfiles)
                          DEPENDS ${it}
                          )
 
-        SET(${outfiles} ${${outfiles}} ${qmfile})
-      endif(do_wrap)
-   ENDFOREACH (it)
-ENDMACRO (QT5_WRAP_PO)
+        set(${outfiles} ${${outfiles}} ${qmfile})
+      endif()
+   endforeach()
+endmacro()
 
-else(QT_LUPDATE_EXECUTABLE AND QT_LRELEASE_EXECUTABLE AND QT_LCONVERT_EXECUTABLE)
+else()
   set(Qt5LinguistForTrojita_FOUND FALSE)
-endif(QT_LUPDATE_EXECUTABLE AND QT_LRELEASE_EXECUTABLE AND QT_LCONVERT_EXECUTABLE)
+endif()
