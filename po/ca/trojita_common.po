@@ -4,12 +4,12 @@
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2014, 2015, 2016, 2017, 2018, 2020.
-# Josep M. Ferrer <txemaq@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024.
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2024-06-27 13:56+0200\n"
+"PO-Revision-Date: 2024-10-23 22:24+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: ../src/Composer/ComposerAttachments.cpp:146
@@ -3471,8 +3471,8 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
-"El subsistema d'emmagatzematge a la memòria cau està tenint problemes de "
-"gestió de les dades baixades des del servidor IMAP. Es desactivarà tot "
+"El subsistema d'emmagatzematge a la memòria cau té problemes de gestió de "
+"les dades baixades des del servidor IMAP. Es desactivarà tot "
 "l'emmagatzematge en la memòria cau.\n"
 "\n"
 "%1"
@@ -5545,9 +5545,7 @@ msgctxt "Streams::SslTlsSocket|"
 msgid ""
 "The underlying socket is having troubles when processing connection to %1:"
 "%2: %3"
-msgstr ""
-"El sòcol subjacent està tenint problemes en processar la connexió a %1: %2: "
-"%3"
+msgstr "El sòcol subjacent té problemes en processar la connexió a %1: %2: %3"
 
 #: ../src/UiUtils/Formatting.cpp:40
 msgctxt "UiUtils::Formatting|"
