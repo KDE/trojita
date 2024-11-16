@@ -168,7 +168,7 @@
 > és on configureu l'enviament de correu electrònic. <itemizedlist>
 <listitem
 ><para
->Mètode: trieu SMTP per a connexions no encriptades, o «SMTP segur» si preferiu (i el vostre proveïdor accepta) el correu enviat a través de SSL. Si trieu «Local compatible amb el Sendmail» el &trojita; simplement passarà el vostre correu a l'aplicació Sendmail que s'executa al vostre ordinador local (i si no en teniu cap, fracassarà). Triar aquesta opció requereix que especifiqueu els paràmetres del Sendmail per utilitzar el vostre Sendmail local.</para
+>Mètode: trieu SMTP per a connexions no encriptades, o «SMTP segur» si preferiu (i el vostre proveïdor accepta) el correu enviat a través de SSL. Si trieu «Local compatible amb el Sendmail» el &trojita; simplement passarà el vostre correu a l'aplicació Sendmail que s'executa al vostre ordinador local (i si no en teniu cap, fracassarà). Triar aquesta opció requereix que especifiqueu els paràmetres del Sendmail per a utilitzar el vostre Sendmail local.</para
 ></listitem>
 <listitem
 ><para
