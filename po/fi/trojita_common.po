@@ -1,9 +1,9 @@
-# Tommi Nieminen <translator@legisign.org>, 2014, 2015, 2018, 2019, 2020, 2022.
+# SPDX-FileCopyrightText: 2014, 2015, 2018, 2019, 2020, 2022, 2024 Tommi Nieminen <translator@legisign.org>
 # Lasse Liehu <lasse.liehu@gmail.com>, 2014, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-07-18 22:22+0300\n"
+"PO-Revision-Date: 2024-11-10 11:10+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -11,8 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
-"X-Qt-Contexts: true\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 # %2 on tiedosto.
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
@@ -407,7 +406,7 @@ msgstr "Puoliksi luotettu allekirjoitus joltakulta muulta: %1 koneella %2"
 #: ../src/Cryptography/GpgMe++.cpp:456
 msgctxt "Cryptography::GpgMePart|"
 msgid "The key or at least one certificate has been revoked."
-msgstr "Avain tai vähintään yksi varmenteista on peruttu."
+msgstr "Avain tai vähintään yksi varmenteista on mitätöity."
 
 #: ../src/Cryptography/GpgMe++.cpp:461
 msgctxt "Cryptography::GpgMePart|"
