@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-12-08 15:50+0100\n"
+"PO-Revision-Date: 2024-12-15 10:46+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: ../src/Composer/ComposerAttachments.cpp:146
@@ -862,6 +862,7 @@ msgctxt "Gui::ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr "Non hai nada no campo do remitente"
 
+# skip-rule: trasno-empty2_reverse
 #: ../src/Gui/ComposeWidget.cpp:596
 msgctxt "Gui::ComposeWidget|"
 msgid "No recipients in the To field"
@@ -4680,10 +4681,11 @@ msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox has pending activity"
 msgstr "A caixa de correo ten actividade pendente"
 
+# skip-rule: trasno-enable
 #: ../src/Imap/Tasks/EnableTask.cpp:75
 msgctxt "Imap::Mailbox::EnableTask|"
 msgid "ENABLE failed, strange"
-msgstr "ENABLE fallou, raro"
+msgstr "ENABLE fallou, raro…"
 
 #: ../src/Imap/Tasks/EnableTask.cpp:86
 msgctxt "Imap::Mailbox::EnableTask|"
