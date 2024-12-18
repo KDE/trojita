@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-12-15 10:46+0100\n"
+"PO-Revision-Date: 2024-12-17 18:59+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -2475,6 +2475,7 @@ msgctxt "ImapPage|"
 msgid "Timeout of IMAP IDLE"
 msgstr "Tempo límite do IDLE de IMAP"
 
+# skip-rule: trasno-item_reverse
 #: ../src/Gui/SettingsImapPage.ui:282
 msgctxt "ImapPage|"
 msgid ""
@@ -2485,7 +2486,7 @@ msgid ""
 "The default value is 29 minutes."
 msgstr ""
 "Con que frecuencia renovar as sesións en estado IDLE.\n"
-"Isto resulta útil para evitar esgotar os tempos de espera por culpa de "
+"Isto é útil para evitar esgotar os tempos de espera por culpa de "
 "intermediarios de\n"
 "rede (middleboxes), pasarelas NAT ou outros elementos que estean en mal "
 "estado ou\n"
@@ -3173,7 +3174,7 @@ msgstr "Amosar a á&rbore de MIME"
 #: ../src/Gui/Window.cpp:355
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
-msgstr "Amosar o &historial do protocolo"
+msgstr "Amosar o rexistro do protoco&lo."
 
 #. file to save the debug log into
 #: ../src/Gui/Window.cpp:361
@@ -3389,7 +3390,7 @@ msgstr "Árbore de MIME"
 #: ../src/Gui/Window.cpp:861
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
-msgstr "Historial do protocolo"
+msgstr "Rexistro do protocolo"
 
 #: ../src/Gui/Window.cpp:938
 #, qt-format
@@ -3430,9 +3431,8 @@ msgid ""
 "The application will continue in systray. This can be disabled within the "
 "settings."
 msgstr ""
-"A aplicación continuará executándose en segundo plano e amosará unha icona "
-"na área de notificacións. Pode desactivar este comportamento desde a "
-"configuración."
+"A aplicación continuará executándose na área de notificacións. Pode "
+"desactivar este comportamento desde a configuración."
 
 #. "ALERT" is a special warning which we're required to show to the user
 #: ../src/Gui/Window.cpp:1325
