@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Marce Villarino <mvillarino@kde-espana.es>, 2012, 2013.
 # Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2013, 2015, 2016, 2017.
-# SPDX-FileCopyrightText: 2024 Adrián Chaves (Gallaecio)
+# SPDX-FileCopyrightText: 2024, 2025 Adrián Chaves (Gallaecio)
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-12-17 18:59+0100\n"
+"PO-Revision-Date: 2025-01-06 13:25+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -3874,7 +3874,7 @@ msgstr "Descargando a estrutura da mensaxe…"
 #: ../src/Imap/ConnectionState.cpp:75
 msgctxt "QObject|"
 msgid "Logged out."
-msgstr "Non autenticado."
+msgstr "Saíu."
 
 #: ../src/Imap/Model/DiskPartCache.cpp:64
 msgctxt "QObject|"
@@ -5473,7 +5473,7 @@ msgstr "Comezando o proceso «%1 %2»…"
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid "The process has exited with return code %1."
-msgstr "O proceso saíu co código de saída %1."
+msgstr "O proceso saíu co código de devolución %1."
 
 #: ../src/Streams/IODeviceSocket.cpp:205
 #, qt-format
@@ -5483,7 +5483,7 @@ msgid ""
 "\n"
 "%2"
 msgstr ""
-"O proceso saíu co código de saída %1:\n"
+"O proceso saíu co código de devolución %1:\n"
 "\n"
 "%2"
 
