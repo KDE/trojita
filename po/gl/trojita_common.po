@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-01-12 16:39+0100\n"
+"PO-Revision-Date: 2025-01-19 13:37+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -3146,7 +3146,7 @@ msgstr "Comprobar se hai mensaxes &novas"
 #: ../src/Gui/Window.cpp:315
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
-msgstr "&Actualizalo todo"
+msgstr "&Cargar todo de novo"
 
 #: ../src/Gui/Window.cpp:319
 msgctxt "Gui::MainWindow|"
@@ -4681,7 +4681,7 @@ msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox has pending activity"
 msgstr "A caixa de correo ten actividade pendente"
 
-# skip-rule: trasno-enable
+# skip-rule: trasno-enable, trasno-gl_bel
 #: ../src/Imap/Tasks/EnableTask.cpp:75
 msgctxt "Imap::Mailbox::EnableTask|"
 msgid "ENABLE failed, strange"
