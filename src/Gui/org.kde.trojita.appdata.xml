@@ -440,7 +440,7 @@
       <caption xml:lang="ar">نصوص الاقتباس الطّويلة تُطوى آليًّا</caption>
       <caption xml:lang="az">Mətn həddindən artıq olduqda yığılır</caption>
       <caption xml:lang="ca">El text citat excessivament es redueix</caption>
-      <caption xml:lang="ca-valencia">El text citat excessivament es col·lapsa</caption>
+      <caption xml:lang="ca-valencia">El text citat excessivament es reduïx</caption>
       <caption xml:lang="da">Automatisk sammenfoldning af tekst med mange citeringer</caption>
       <caption xml:lang="de">Überbordende Textzitate werden automatisch eingeklappt</caption>
       <caption xml:lang="el">Το υπέρμετρο κείμενο σε παράθεση συμπτύσσεται αυτόματα</caption>
