@@ -239,7 +239,7 @@ msgid ""
 msgstr ""
 "La clau %1 no està disponible en l'anell.\n"
 "No es pot verificar la validesa de la signatura o fer res més. El missatge "
-"podria haver estat manipulat."
+"podria haver sigut manipulat."
 
 #: ../src/Cryptography/GpgMe++.cpp:325
 msgctxt "Cryptography::GpgMePart|"
@@ -684,12 +684,12 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::Expander|"
 msgid "Click to see %1 more items"
-msgstr "Feu clic per a veure %1 elements més"
+msgstr "Cliqueu per a veure %1 elements més"
 
 #: ../src/Gui/AddressRowWidget.cpp:130
 msgctxt "Gui::Expander|"
 msgid "Click to collapse"
-msgstr "Feu clic per a reduir"
+msgstr "Cliqueu per a reduir"
 
 #: ../src/Gui/AttachmentView.cpp:87
 msgctxt "Gui::AttachmentView|"
@@ -1254,7 +1254,7 @@ msgstr "&Anterior"
 #: ../src/Gui/FindBar.cpp:86
 msgctxt "Gui::FindBar|"
 msgid "Shift+F3"
-msgstr "Maj+F3"
+msgstr "Majús+F3"
 
 #: ../src/Gui/ImapInfoDialog.ui:14
 msgctxt "ImapInfoDialog|"
@@ -1275,7 +1275,7 @@ msgstr "S'han carregat %1 (%2)"
 #: ../src/Gui/MailBoxTreeView.cpp:143
 msgctxt "Gui::MailBoxTreeView|"
 msgid "Move here\tShift"
-msgstr "Mou ací\tMaj"
+msgstr "Mou ací\t«Majús»"
 
 #: ../src/Gui/MailBoxTreeView.cpp:144
 msgctxt "Gui::MailBoxTreeView|"
@@ -2642,7 +2642,7 @@ msgstr "Alt+"
 #: ../src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:181
 msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
 msgid "Shift+"
-msgstr "Maj+"
+msgstr "Majús+"
 
 #: ../src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:203
 msgctxt "Gui::ShortcutConfigWidget|"
@@ -2682,7 +2682,7 @@ msgstr ""
 "<p>Seleccioneu una acció (amb el ratolí o les tecles de fletxa). La seua "
 "drecera es podrà canviar amb només prémer la nova drecera.</p><p>Cal tindre "
 "en compte que algunes dreceres no es poden utilitzar: «Amunt», «Avall», "
-"«Esquerra», «Dreta», «Re Pàg», «Av Pàg», «Tab», «Maj+Tab», «Retorn» i "
+"«Esquerra», «Dreta», «Re Pàg», «Av Pàg», «Tab», «Majús+Tab», «Retorn» i "
 "«Escapa».</p>"
 
 #: ../src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:31
@@ -2966,7 +2966,7 @@ msgstr "Resposta &privada"
 #: ../src/Gui/Window.cpp:249
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
-msgstr "Ctrl+Maj+A"
+msgstr "Ctrl+Majús+A"
 
 #: ../src/Gui/Window.cpp:250
 msgctxt "Gui::MainWindow|"
@@ -2976,7 +2976,7 @@ msgstr "Respon a tots ex&cepte a mi"
 #: ../src/Gui/Window.cpp:250
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
-msgstr "Ctrl+Maj+R"
+msgstr "Ctrl+Majús+R"
 
 #: ../src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
@@ -2986,7 +2986,7 @@ msgstr "Respon &a tots"
 #: ../src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
-msgstr "Ctrl+Alt+Maj+R"
+msgstr "Ctrl+Alt+Majús+R"
 
 #: ../src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
@@ -3016,7 +3016,7 @@ msgstr "&Transferix"
 #: ../src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
-msgstr "Ctrl+Maj+F"
+msgstr "Ctrl+Majús+F"
 
 #: ../src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
@@ -3046,7 +3046,7 @@ msgstr "Conn&exió cara"
 #: ../src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
-msgstr "Accés &gratuït"
+msgstr "Accés &debades"
 
 #: ../src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
@@ -4815,7 +4815,7 @@ msgstr ""
 #: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:948
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "UNSELECTed"
-msgstr "Ha estat desseleccionada"
+msgstr "Ha sigut desseleccionada"
 
 #: ../src/Imap/Tasks/ListChildMailboxesTask.cpp:59
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
