@@ -24,7 +24,6 @@
 #define IPC_H
 
 class QString;
-class QStringList;
 
 namespace Gui {
     class MainWindow;
