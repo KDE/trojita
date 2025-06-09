@@ -21,6 +21,7 @@
 */
 
 #include "DragAndDrop.h"
+#include <QIODevice>
 #include <QDataStream>
 #include <QMimeData>
 #include "Imap/Model/ItemRoles.h"

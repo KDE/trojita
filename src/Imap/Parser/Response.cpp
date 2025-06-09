@@ -19,9 +19,11 @@
    You should have received a copy of the GNU General Public License
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include <typeinfo>
-#include <QSslError>
+
 #include "Response.h"
+#include <typeinfo>
+#include <QIODevice>
+#include <QSslError>
 #include "Message.h"
 #include "LowLevelParser.h"
 #include "../Model/Model.h"

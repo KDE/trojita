@@ -23,6 +23,7 @@
 #include <QDebug>
 #include <QFontMetrics>
 #include <QIcon>
+#include <QIODevice>
 #include <QMimeData>
 #include "Imap/Model/DragAndDrop.h"
 #include "Imap/Model/MailboxTree.h"

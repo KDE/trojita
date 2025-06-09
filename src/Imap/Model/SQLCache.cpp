@@ -21,6 +21,7 @@
 */
 
 #include "SQLCache.h"
+#include <QIODevice>
 #include <QSqlError>
 #include <QSqlRecord>
 #include <QTimer>
