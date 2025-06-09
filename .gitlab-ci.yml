@@ -1,4 +1,6 @@
 include:
   - project: sysadmin/ci-utilities
     file:
-      - /gitlab-templates/linux.yml
+      # Re-enable when ported to QtWebEngine
+      #- /gitlab-templates/linux.yml
+      - /gitlab-templates/xml-lint.yml
