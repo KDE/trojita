@@ -4157,42 +4157,42 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "Pripojenie je zabité pre nešpecifikovaného dôvodu"
 
-#: ../src/Imap/Model/MsgListModel.cpp:282
+#: ../src/Imap/Model/MsgListModel.cpp:283
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Subject"
 msgstr "Predmet"
 
-#: ../src/Imap/Model/MsgListModel.cpp:284
+#: ../src/Imap/Model/MsgListModel.cpp:285
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "From"
 msgstr "Od"
 
-#: ../src/Imap/Model/MsgListModel.cpp:286
+#: ../src/Imap/Model/MsgListModel.cpp:287
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "To"
 msgstr "Pre"
 
-#: ../src/Imap/Model/MsgListModel.cpp:288
+#: ../src/Imap/Model/MsgListModel.cpp:289
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Cc"
 msgstr "Kópia"
 
-#: ../src/Imap/Model/MsgListModel.cpp:290
+#: ../src/Imap/Model/MsgListModel.cpp:291
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Bcc"
 msgstr "Skrytá kópia"
 
-#: ../src/Imap/Model/MsgListModel.cpp:292
+#: ../src/Imap/Model/MsgListModel.cpp:293
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Date"
 msgstr "Dátum"
 
-#: ../src/Imap/Model/MsgListModel.cpp:294
+#: ../src/Imap/Model/MsgListModel.cpp:295
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Received"
 msgstr "Prijaté"
 
-#: ../src/Imap/Model/MsgListModel.cpp:296
+#: ../src/Imap/Model/MsgListModel.cpp:297
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Size"
 msgstr "Veľkosť"
@@ -4255,7 +4255,7 @@ msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 msgid "(no subject)"
 msgstr "(žiadny predmet)"
 
-#: ../src/Imap/Model/SQLCache.cpp:96
+#: ../src/Imap/Model/SQLCache.cpp:97
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't create table msg_threading"
@@ -4263,7 +4263,7 @@ msgctxt "QObject|"
 msgid "Can't create table msg_threading"
 msgstr "Nie je možné vytvoriť msg_threading tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:105
+#: ../src/Imap/Model/SQLCache.cpp:106
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't create table mailbox_sync_state"
@@ -4271,7 +4271,7 @@ msgctxt "QObject|"
 msgid "Can't create table mailbox_sync_state"
 msgstr "Nie je možné vytvoriť mailbox_sync_state tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:117
+#: ../src/Imap/Model/SQLCache.cpp:118
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't create table msg_metadata"
@@ -4279,7 +4279,7 @@ msgctxt "QObject|"
 msgid "Can't create table msg_metadata"
 msgstr "Nie je možné msg_metadata tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:132
+#: ../src/Imap/Model/SQLCache.cpp:133
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't open database"
@@ -4287,7 +4287,7 @@ msgctxt "QObject|"
 msgid "Can't open database"
 msgstr "Nemôžem otvoriť databázu"
 
-#: ../src/Imap/Model/SQLCache.cpp:147
+#: ../src/Imap/Model/SQLCache.cpp:148
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to verify version"
@@ -4295,7 +4295,7 @@ msgctxt "QObject|"
 msgid "Failed to verify version"
 msgstr "Zlyhalo overenie verzie"
 
-#: ../src/Imap/Model/SQLCache.cpp:153
+#: ../src/Imap/Model/SQLCache.cpp:154
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't determine version info"
@@ -4303,7 +4303,7 @@ msgctxt "QObject|"
 msgid "Can't determine version info"
 msgstr "Nie je možné určiť informáciu o verzii"
 
-#: ../src/Imap/Model/SQLCache.cpp:162
+#: ../src/Imap/Model/SQLCache.cpp:163
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to update cache DB scheme from v1 to v2"
@@ -4311,7 +4311,7 @@ msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
 msgstr "Zlyhalo aktualizovanie schémy vyrovnávacej pamäte DB z v1 na v2"
 
-#: ../src/Imap/Model/SQLCache.cpp:171
+#: ../src/Imap/Model/SQLCache.cpp:172
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to drop old table mailbox_sync_state"
@@ -4319,7 +4319,7 @@ msgctxt "QObject|"
 msgid "Failed to drop old table mailbox_sync_state"
 msgstr "Zlyhalo zanechanie mailbox_sync_state starej tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:177
+#: ../src/Imap/Model/SQLCache.cpp:178
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to update cache DB scheme from v2/v3 to v4"
@@ -4327,7 +4327,7 @@ msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v2/v3 to v4"
 msgstr "Zlyhalo aktualizovanie schémy vyrovnávacej pamäte DB z v2/v3 na v4"
 
-#: ../src/Imap/Model/SQLCache.cpp:190
+#: ../src/Imap/Model/SQLCache.cpp:191
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to drop old table msg_metadata"
@@ -4335,7 +4335,7 @@ msgctxt "QObject|"
 msgid "Failed to drop old table msg_metadata"
 msgstr "Zlyhalo zanechanie msg_metadata starej tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:196
+#: ../src/Imap/Model/SQLCache.cpp:197
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
@@ -4343,7 +4343,7 @@ msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
 msgstr "Zlyhalo aktualizovanie schémy vyrovnávacej pamäte DB z v4/v5/v6 na v7"
 
-#: ../src/Imap/Model/SQLCache.cpp:202
+#: ../src/Imap/Model/SQLCache.cpp:203
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Unknown version"
@@ -4351,7 +4351,7 @@ msgctxt "QObject|"
 msgid "Unknown version of sqlite cache"
 msgstr "Neznáma verzia"
 
-#: ../src/Imap/Model/SQLCache.cpp:223
+#: ../src/Imap/Model/SQLCache.cpp:224
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare table structures"
@@ -4359,7 +4359,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare table structures"
 msgstr "Zlyhala príprava štruktúr tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:227
+#: ../src/Imap/Model/SQLCache.cpp:228
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't store version info"
@@ -4367,7 +4367,7 @@ msgctxt "QObject|"
 msgid "Can't store version info"
 msgstr "Nemôžem uložiť informáciu o verzii"
 
-#: ../src/Imap/Model/SQLCache.cpp:238
+#: ../src/Imap/Model/SQLCache.cpp:239
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't create table child_mailboxes"
@@ -4375,7 +4375,7 @@ msgctxt "QObject|"
 msgid "Can't create table child_mailboxes"
 msgstr "Nie je možné vytvoriť child_mailboxes tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:246
+#: ../src/Imap/Model/SQLCache.cpp:247
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't create table uid_mapping"
@@ -4383,7 +4383,7 @@ msgctxt "QObject|"
 msgid "Can't create table uid_mapping"
 msgstr "Nie je možné vytvoriť uid_mapping tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:258
+#: ../src/Imap/Model/SQLCache.cpp:259
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't create table flags"
@@ -4391,7 +4391,7 @@ msgctxt "QObject|"
 msgid "Can't create table flags"
 msgstr "Nie je možné vytvoriť vlajky tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:268
+#: ../src/Imap/Model/SQLCache.cpp:269
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Can't create table parts"
@@ -4399,7 +4399,7 @@ msgctxt "QObject|"
 msgid "Can't create table parts"
 msgstr "Nie je možné vytvoriť časti tabuľky"
 
-#: ../src/Imap/Model/SQLCache.cpp:281
+#: ../src/Imap/Model/SQLCache.cpp:282
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryChildMailboxes"
@@ -4407,7 +4407,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxes"
 msgstr "Zlyhala príprava queryChildMailboxes"
 
-#: ../src/Imap/Model/SQLCache.cpp:287
+#: ../src/Imap/Model/SQLCache.cpp:288
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryChildMailboxesFresh"
@@ -4415,7 +4415,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxesFresh"
 msgstr "Zlyhala príprava queryChildMailboxesFresh"
 
-#: ../src/Imap/Model/SQLCache.cpp:293
+#: ../src/Imap/Model/SQLCache.cpp:294
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryRemoveChildMailboxes"
@@ -4423,7 +4423,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryRemoveChildMailboxes"
 msgstr "Zlyhala príprava queryRemoveChildMailboxes"
 
-#: ../src/Imap/Model/SQLCache.cpp:299
+#: ../src/Imap/Model/SQLCache.cpp:300
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare querySetChildMailboxes"
@@ -4431,7 +4431,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare querySetChildMailboxes"
 msgstr "Zlyhala príprava querySetChildMailboxes"
 
-#: ../src/Imap/Model/SQLCache.cpp:305
+#: ../src/Imap/Model/SQLCache.cpp:306
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryMailboxSyncState"
@@ -4439,7 +4439,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryMailboxSyncState"
 msgstr "Zlyhala príprava queryMailboxSyncState"
 
-#: ../src/Imap/Model/SQLCache.cpp:313
+#: ../src/Imap/Model/SQLCache.cpp:314
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare querySetMailboxSyncState"
@@ -4447,7 +4447,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare querySetMailboxSyncState"
 msgstr "Zlyhala príprava querySetMailboxSyncState"
 
-#: ../src/Imap/Model/SQLCache.cpp:319
+#: ../src/Imap/Model/SQLCache.cpp:320
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryUidMapping"
@@ -4455,7 +4455,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryUidMapping"
 msgstr "Zlyhala príprava queryUidMapping"
 
-#: ../src/Imap/Model/SQLCache.cpp:325
+#: ../src/Imap/Model/SQLCache.cpp:326
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare querySetUidMapping"
@@ -4463,7 +4463,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare querySetUidMapping"
 msgstr "Zlyhala príprava querySetUidMapping"
 
-#: ../src/Imap/Model/SQLCache.cpp:331
+#: ../src/Imap/Model/SQLCache.cpp:332
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryClearUidMapping"
@@ -4471,7 +4471,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryClearUidMapping"
 msgstr "Zlyhala príprava queryClearUidMapping"
 
-#: ../src/Imap/Model/SQLCache.cpp:337
+#: ../src/Imap/Model/SQLCache.cpp:338
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryMessageMetadata"
@@ -4479,7 +4479,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryMessageMetadata"
 msgstr "Zlyhala príprava queryMessageMetadata"
 
-#: ../src/Imap/Model/SQLCache.cpp:343
+#: ../src/Imap/Model/SQLCache.cpp:344
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryAccssMessageMetadata"
@@ -4487,7 +4487,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryAccssMessageMetadata"
 msgstr "Zlyhala príprava queryAccssMessageMetadata"
 
-#: ../src/Imap/Model/SQLCache.cpp:349
+#: ../src/Imap/Model/SQLCache.cpp:350
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare querySetMessageMetadata"
@@ -4495,7 +4495,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageMetadata"
 msgstr "Zlyhala príprava querySetMessageMetadata"
 
-#: ../src/Imap/Model/SQLCache.cpp:355
+#: ../src/Imap/Model/SQLCache.cpp:356
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryMessageFlags"
@@ -4503,7 +4503,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryMessageFlags"
 msgstr "Zlyhala príprava queryMessageFlags"
 
-#: ../src/Imap/Model/SQLCache.cpp:361
+#: ../src/Imap/Model/SQLCache.cpp:362
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare querySetMessageFlags"
@@ -4511,7 +4511,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageFlags"
 msgstr "Zlyhala príprava querySetMessageFlags"
 
-#: ../src/Imap/Model/SQLCache.cpp:367
+#: ../src/Imap/Model/SQLCache.cpp:368
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryClearAllMessages1"
@@ -4519,7 +4519,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages1"
 msgstr "Zlyhala príprava queryClearAllMessages1"
 
-#: ../src/Imap/Model/SQLCache.cpp:373
+#: ../src/Imap/Model/SQLCache.cpp:374
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryClearAllMessages2"
@@ -4527,7 +4527,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages2"
 msgstr "Zlyhala príprava queryClearAllMessages2"
 
-#: ../src/Imap/Model/SQLCache.cpp:379
+#: ../src/Imap/Model/SQLCache.cpp:380
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryClearAllMessages3"
@@ -4535,7 +4535,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages3"
 msgstr "Zlyhala príprava queryClearAllMessages3"
 
-#: ../src/Imap/Model/SQLCache.cpp:385
+#: ../src/Imap/Model/SQLCache.cpp:386
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryClearAllMessages4"
@@ -4543,7 +4543,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages4"
 msgstr "Zlyhala príprava queryClearAllMessages4"
 
-#: ../src/Imap/Model/SQLCache.cpp:391
+#: ../src/Imap/Model/SQLCache.cpp:392
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryClearMessage1"
@@ -4551,7 +4551,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage1"
 msgstr "Zlyhala príprava queryClearMessage1"
 
-#: ../src/Imap/Model/SQLCache.cpp:397
+#: ../src/Imap/Model/SQLCache.cpp:398
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryClearMessage2"
@@ -4559,7 +4559,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage2"
 msgstr "Zlyhala príprava queryClearMessage2"
 
-#: ../src/Imap/Model/SQLCache.cpp:403
+#: ../src/Imap/Model/SQLCache.cpp:404
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryClearMessage3"
@@ -4567,7 +4567,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage3"
 msgstr "Zlyhala príprava queryClearMessage3"
 
-#: ../src/Imap/Model/SQLCache.cpp:409
+#: ../src/Imap/Model/SQLCache.cpp:410
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryMessagePart"
@@ -4575,7 +4575,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryMessagePart"
 msgstr "Zlyhala príprava queryMessagePart"
 
-#: ../src/Imap/Model/SQLCache.cpp:415
+#: ../src/Imap/Model/SQLCache.cpp:416
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare querySetMessagePart"
@@ -4583,7 +4583,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare querySetMessagePart"
 msgstr "Zlyhala príprava querySetMessagePart"
 
-#: ../src/Imap/Model/SQLCache.cpp:421
+#: ../src/Imap/Model/SQLCache.cpp:422
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryForgetMessagePart"
@@ -4591,7 +4591,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryForgetMessagePart"
 msgstr "Zlyhala príprava queryForgetMessagePart"
 
-#: ../src/Imap/Model/SQLCache.cpp:427
+#: ../src/Imap/Model/SQLCache.cpp:428
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare queryMessageThreading"
@@ -4599,7 +4599,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare queryMessageThreading"
 msgstr "Zlyhala príprava queryMessageThreading"
 
-#: ../src/Imap/Model/SQLCache.cpp:433
+#: ../src/Imap/Model/SQLCache.cpp:434
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to prepare querySetMessageThreading"
@@ -4607,7 +4607,7 @@ msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageThreading"
 msgstr "Zlyhala príprava querySetMessageThreading"
 
-#: ../src/Imap/Model/SQLCache.cpp:464
+#: ../src/Imap/Model/SQLCache.cpp:465
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryChildMailboxes failed"
@@ -4615,7 +4615,7 @@ msgctxt "QObject|"
 msgid "Query queryChildMailboxes failed"
 msgstr "Dopyt queryChildMailboxes zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:475
+#: ../src/Imap/Model/SQLCache.cpp:476
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Corrupt data when reading child items for mailbox %1, line %2"
@@ -4624,7 +4624,7 @@ msgid "Corrupt data when reading child items for mailbox %1, line %2"
 msgstr ""
 "Porušené dáta pri čítaní položky potomka pre poštovú schránku %1, riadok %2"
 
-#: ../src/Imap/Model/SQLCache.cpp:487
+#: ../src/Imap/Model/SQLCache.cpp:488
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryChildMailboxesFresh failed"
@@ -4632,7 +4632,7 @@ msgctxt "QObject|"
 msgid "Query queryChildMailboxesFresh failed"
 msgstr "Dopyt queryChildMailboxesFresh zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:512
+#: ../src/Imap/Model/SQLCache.cpp:513
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryRemoveChildMailboxes failed"
@@ -4640,7 +4640,7 @@ msgctxt "QObject|"
 msgid "Query queryRemoveChildMailboxes failed"
 msgstr "Dopyt queryRemoveChildMailboxes zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:520
+#: ../src/Imap/Model/SQLCache.cpp:521
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query querySetChildMailboxes failed"
@@ -4648,7 +4648,7 @@ msgctxt "QObject|"
 msgid "Query querySetChildMailboxes failed"
 msgstr "Dopyt querySetChildMailboxes zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:530
+#: ../src/Imap/Model/SQLCache.cpp:531
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryMailboxSyncState failed"
@@ -4656,7 +4656,7 @@ msgctxt "QObject|"
 msgid "Query queryMailboxSyncState failed"
 msgstr "Dopyt queryMailboxSyncState zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:555
+#: ../src/Imap/Model/SQLCache.cpp:556
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query querySetMailboxSyncState failed"
@@ -4664,7 +4664,7 @@ msgctxt "QObject|"
 msgid "Query querySetMailboxSyncState failed"
 msgstr "Dopyt querySetMailboxSyncState zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:565
+#: ../src/Imap/Model/SQLCache.cpp:566
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryUidMapping failed"
@@ -4672,7 +4672,7 @@ msgctxt "QObject|"
 msgid "Query queryUidMapping failed"
 msgstr "Dopyt queryUidMapping zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:590
+#: ../src/Imap/Model/SQLCache.cpp:591
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query querySetUidMapping failed"
@@ -4680,7 +4680,7 @@ msgctxt "QObject|"
 msgid "Query querySetUidMapping failed"
 msgstr "Dopyt querySetUidMapping zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:602
+#: ../src/Imap/Model/SQLCache.cpp:603
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryClearUidMapping failed"
@@ -4688,7 +4688,7 @@ msgctxt "QObject|"
 msgid "Query queryClearUidMapping failed"
 msgstr "Dopyt queryClearUidMapping zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:617
+#: ../src/Imap/Model/SQLCache.cpp:618
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryClearAllMessages1 failed"
@@ -4696,7 +4696,7 @@ msgctxt "QObject|"
 msgid "Query queryClearAllMessages1 failed"
 msgstr "Dopyt queryClearAllMessages1 zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:620
+#: ../src/Imap/Model/SQLCache.cpp:621
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryClearAllMessages2 failed"
@@ -4704,7 +4704,7 @@ msgctxt "QObject|"
 msgid "Query queryClearAllMessages2 failed"
 msgstr "Dopyt queryClearAllMessages2 zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:623
+#: ../src/Imap/Model/SQLCache.cpp:624
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryClearAllMessages3 failed"
@@ -4712,7 +4712,7 @@ msgctxt "QObject|"
 msgid "Query queryClearAllMessages3 failed"
 msgstr "Dopyt queryClearAllMessages3 zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:626
+#: ../src/Imap/Model/SQLCache.cpp:627
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryClearAllMessages4 failed"
@@ -4720,7 +4720,7 @@ msgctxt "QObject|"
 msgid "Query queryClearAllMessages4 failed"
 msgstr "Dopyt queryClearAllMessages4 zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:644
+#: ../src/Imap/Model/SQLCache.cpp:645
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryClearMessage1 failed"
@@ -4728,7 +4728,7 @@ msgctxt "QObject|"
 msgid "Query queryClearMessage1 failed"
 msgstr "Dopyt queryClearMessage1 zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:647
+#: ../src/Imap/Model/SQLCache.cpp:648
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryClearMessage2 failed"
@@ -4736,7 +4736,7 @@ msgctxt "QObject|"
 msgid "Query queryClearMessage2 failed"
 msgstr "Dopyt queryClearMessage2 zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:650
+#: ../src/Imap/Model/SQLCache.cpp:651
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryClearMessage3 failed"
@@ -4744,7 +4744,7 @@ msgctxt "QObject|"
 msgid "Query queryClearMessage3 failed"
 msgstr "Dopyt queryClearMessage3 zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:660
+#: ../src/Imap/Model/SQLCache.cpp:661
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryMessageFlags failed"
@@ -4752,7 +4752,7 @@ msgctxt "QObject|"
 msgid "Query queryMessageFlags failed"
 msgstr "Dopyt queryMessageFlags zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:686
+#: ../src/Imap/Model/SQLCache.cpp:687
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query querySetMessageFlags failed"
@@ -4760,7 +4760,7 @@ msgctxt "QObject|"
 msgid "Query querySetMessageFlags failed"
 msgstr "Dopyt querySetMessageFlags zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:696
+#: ../src/Imap/Model/SQLCache.cpp:697
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryMessageMetadata failed"
@@ -4768,7 +4768,7 @@ msgctxt "QObject|"
 msgid "Query queryMessageMetadata failed"
 msgstr "Dopyt queryMessageMetadata zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:714
+#: ../src/Imap/Model/SQLCache.cpp:715
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryAccessMessageMetadata failed"
@@ -4776,7 +4776,7 @@ msgctxt "QObject|"
 msgid "Query queryAccessMessageMetadata failed"
 msgstr "Dopyt queryAccessMessageMetadata zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:740
+#: ../src/Imap/Model/SQLCache.cpp:741
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query querySetMessageMetadata failed"
@@ -4784,7 +4784,7 @@ msgctxt "QObject|"
 msgid "Query querySetMessageMetadata failed"
 msgstr "Dopyt querySetMessageMetadata zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:751
+#: ../src/Imap/Model/SQLCache.cpp:752
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryMessagePart failed"
@@ -4792,7 +4792,7 @@ msgctxt "QObject|"
 msgid "Query queryMessagePart failed"
 msgstr "Dopyt queryMessagePart zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:772
+#: ../src/Imap/Model/SQLCache.cpp:773
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query querySetMessagePart failed"
@@ -4800,7 +4800,7 @@ msgctxt "QObject|"
 msgid "Query querySetMessagePart failed"
 msgstr "Dopyt querySetMessagePart zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:786
+#: ../src/Imap/Model/SQLCache.cpp:787
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryForgetMessagePart failed"
@@ -4808,7 +4808,7 @@ msgctxt "QObject|"
 msgid "Query queryForgetMessagePart failed"
 msgstr "Dopyt queryForgetMessagePart zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:795
+#: ../src/Imap/Model/SQLCache.cpp:796
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query queryMessageThreading failed"
@@ -4816,7 +4816,7 @@ msgctxt "QObject|"
 msgid "Query queryMessageThreading failed"
 msgstr "Dopyt queryMessageThreading zlyhal"
 
-#: ../src/Imap/Model/SQLCache.cpp:819
+#: ../src/Imap/Model/SQLCache.cpp:820
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Query querySetMessageThreading failed"

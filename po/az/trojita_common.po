@@ -4023,42 +4023,42 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "Bağlantı, bilinməyən bir səsbəbdən sona çatdı"
 
-#: ../src/Imap/Model/MsgListModel.cpp:282
+#: ../src/Imap/Model/MsgListModel.cpp:283
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Subject"
 msgstr "Mövzu"
 
-#: ../src/Imap/Model/MsgListModel.cpp:284
+#: ../src/Imap/Model/MsgListModel.cpp:285
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "From"
 msgstr "Kimdən"
 
-#: ../src/Imap/Model/MsgListModel.cpp:286
+#: ../src/Imap/Model/MsgListModel.cpp:287
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "To"
 msgstr "Kimə"
 
-#: ../src/Imap/Model/MsgListModel.cpp:288
+#: ../src/Imap/Model/MsgListModel.cpp:289
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Cc"
 msgstr "Kopyası (Cc)"
 
-#: ../src/Imap/Model/MsgListModel.cpp:290
+#: ../src/Imap/Model/MsgListModel.cpp:291
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Bcc"
 msgstr "Gizli Surəti (Bcc)"
 
-#: ../src/Imap/Model/MsgListModel.cpp:292
+#: ../src/Imap/Model/MsgListModel.cpp:293
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Date"
 msgstr "Tarix"
 
-#: ../src/Imap/Model/MsgListModel.cpp:294
+#: ../src/Imap/Model/MsgListModel.cpp:295
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Received"
 msgstr "Qəbul olundu"
 
-#: ../src/Imap/Model/MsgListModel.cpp:296
+#: ../src/Imap/Model/MsgListModel.cpp:297
 msgctxt "Imap::Mailbox::MsgListModel|"
 msgid "Size"
 msgstr "Ölçü"
@@ -4117,234 +4117,234 @@ msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 msgid "(no subject)"
 msgstr "(mövzu yoxdur)"
 
-#: ../src/Imap/Model/SQLCache.cpp:96
+#: ../src/Imap/Model/SQLCache.cpp:97
 msgctxt "QObject|"
 msgid "Can't create table msg_threading"
 msgstr "msg_threading cədvəli yaradıla bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:105
+#: ../src/Imap/Model/SQLCache.cpp:106
 msgctxt "QObject|"
 msgid "Can't create table mailbox_sync_state"
 msgstr "mailbox_sync_state cədvəli yaradıla bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:117
+#: ../src/Imap/Model/SQLCache.cpp:118
 msgctxt "QObject|"
 msgid "Can't create table msg_metadata"
 msgstr "msg_metadata cədvəli yaradıla bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:132
+#: ../src/Imap/Model/SQLCache.cpp:133
 msgctxt "QObject|"
 msgid "Can't open database"
 msgstr "Verilənlər bazası açıla bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:147
+#: ../src/Imap/Model/SQLCache.cpp:148
 msgctxt "QObject|"
 msgid "Failed to verify version"
 msgstr "Versiya təsdiqlənə bilmədi"
 
-#: ../src/Imap/Model/SQLCache.cpp:153
+#: ../src/Imap/Model/SQLCache.cpp:154
 msgctxt "QObject|"
 msgid "Can't determine version info"
 msgstr "Versiya haqqında məlumatlar aşkarlana bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:162
+#: ../src/Imap/Model/SQLCache.cpp:163
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
 msgstr ""
 "Verilənlər bazası sxeminin v1 versiyasından v2 versiyasına yenilənməsi "
 "alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:171
+#: ../src/Imap/Model/SQLCache.cpp:172
 msgctxt "QObject|"
 msgid "Failed to drop old table mailbox_sync_state"
 msgstr "Köhnə mailbox_sync_state cədvəli buraxıla bilmədi"
 
-#: ../src/Imap/Model/SQLCache.cpp:177
+#: ../src/Imap/Model/SQLCache.cpp:178
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v2/v3 to v4"
 msgstr "VB sxemi keşi v2/v3 versiyasından v4 versiyasına yenilənə bilmədi"
 
-#: ../src/Imap/Model/SQLCache.cpp:190
+#: ../src/Imap/Model/SQLCache.cpp:191
 msgctxt "QObject|"
 msgid "Failed to drop old table msg_metadata"
 msgstr "Köhnə msg_metadata cədvəli buraxıla bilmədi"
 
-#: ../src/Imap/Model/SQLCache.cpp:196
+#: ../src/Imap/Model/SQLCache.cpp:197
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
 msgstr "VB sxemi keşi v4/v5/v6 versiyasından v7 versiyasına yenilənə bilmədi"
 
-#: ../src/Imap/Model/SQLCache.cpp:202
+#: ../src/Imap/Model/SQLCache.cpp:203
 msgctxt "QObject|"
 msgid "Unknown version of sqlite cache"
 msgstr "Naməlum sqlite keş versiyası"
 
-#: ../src/Imap/Model/SQLCache.cpp:223
+#: ../src/Imap/Model/SQLCache.cpp:224
 msgctxt "QObject|"
 msgid "Failed to prepare table structures"
 msgstr "Cədvəl quruluşları hazırlana bilmədi"
 
-#: ../src/Imap/Model/SQLCache.cpp:227
+#: ../src/Imap/Model/SQLCache.cpp:228
 msgctxt "QObject|"
 msgid "Can't store version info"
 msgstr "Versiya məlumatları saxlanıla bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:238
+#: ../src/Imap/Model/SQLCache.cpp:239
 msgctxt "QObject|"
 msgid "Can't create table child_mailboxes"
 msgstr "child_mailboxes cədvəli yaradıla bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:246
+#: ../src/Imap/Model/SQLCache.cpp:247
 msgctxt "QObject|"
 msgid "Can't create table uid_mapping"
 msgstr "uid_mapping cədvəli yaradıla bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:258
+#: ../src/Imap/Model/SQLCache.cpp:259
 msgctxt "QObject|"
 msgid "Can't create table flags"
 msgstr "Bayraqlar cədvəli yaradıla bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:268
+#: ../src/Imap/Model/SQLCache.cpp:269
 msgctxt "QObject|"
 msgid "Can't create table parts"
 msgstr "Hissələr cədvəli yaradıla bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:281
+#: ../src/Imap/Model/SQLCache.cpp:282
 msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxes"
 msgstr "queryChildMailboxes hazırlana bilmir"
 
-#: ../src/Imap/Model/SQLCache.cpp:287
+#: ../src/Imap/Model/SQLCache.cpp:288
 msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxesFresh"
 msgstr "queryChildMailboxesFresh hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:293
+#: ../src/Imap/Model/SQLCache.cpp:294
 msgctxt "QObject|"
 msgid "Failed to prepare queryRemoveChildMailboxes"
 msgstr "queryRemoveChildMailboxes hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:299
+#: ../src/Imap/Model/SQLCache.cpp:300
 msgctxt "QObject|"
 msgid "Failed to prepare querySetChildMailboxes"
 msgstr "querySetChildMailboxes hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:305
+#: ../src/Imap/Model/SQLCache.cpp:306
 msgctxt "QObject|"
 msgid "Failed to prepare queryMailboxSyncState"
 msgstr "queryMailboxSyncState hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:313
+#: ../src/Imap/Model/SQLCache.cpp:314
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMailboxSyncState"
 msgstr "querySetMailboxSyncState azırlanması alınması"
 
-#: ../src/Imap/Model/SQLCache.cpp:319
+#: ../src/Imap/Model/SQLCache.cpp:320
 msgctxt "QObject|"
 msgid "Failed to prepare queryUidMapping"
 msgstr "queryUidMapping hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:325
+#: ../src/Imap/Model/SQLCache.cpp:326
 msgctxt "QObject|"
 msgid "Failed to prepare querySetUidMapping"
 msgstr "querySetUidMapping hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:331
+#: ../src/Imap/Model/SQLCache.cpp:332
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearUidMapping"
 msgstr "queryClearUidMapping hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:337
+#: ../src/Imap/Model/SQLCache.cpp:338
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageMetadata"
 msgstr "queryMessageMetadata hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:343
+#: ../src/Imap/Model/SQLCache.cpp:344
 msgctxt "QObject|"
 msgid "Failed to prepare queryAccssMessageMetadata"
 msgstr "queryAccssMessageMetadata hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:349
+#: ../src/Imap/Model/SQLCache.cpp:350
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageMetadata"
 msgstr "querySetMessageMetadata hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:355
+#: ../src/Imap/Model/SQLCache.cpp:356
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageFlags"
 msgstr "queryMessageFlags hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:361
+#: ../src/Imap/Model/SQLCache.cpp:362
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageFlags"
 msgstr "querySetMessageFlags hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:367
+#: ../src/Imap/Model/SQLCache.cpp:368
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages1"
 msgstr "queryClearAllMessages1 hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:373
+#: ../src/Imap/Model/SQLCache.cpp:374
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages2"
 msgstr "queryClearAllMessages2 hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:379
+#: ../src/Imap/Model/SQLCache.cpp:380
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages3"
 msgstr "queryClearAllMessages3 hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:385
+#: ../src/Imap/Model/SQLCache.cpp:386
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages4"
 msgstr "queryClearAllMessages4 hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:391
+#: ../src/Imap/Model/SQLCache.cpp:392
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage1"
 msgstr "queryClearMessage1 hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:397
+#: ../src/Imap/Model/SQLCache.cpp:398
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage2"
 msgstr "queryClearMessage2 hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:403
+#: ../src/Imap/Model/SQLCache.cpp:404
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage3"
 msgstr "queryClearMessage3 hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:409
+#: ../src/Imap/Model/SQLCache.cpp:410
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessagePart"
 msgstr "queryMessagePart hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:415
+#: ../src/Imap/Model/SQLCache.cpp:416
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessagePart"
 msgstr "querySetMessagePart hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:421
+#: ../src/Imap/Model/SQLCache.cpp:422
 msgctxt "QObject|"
 msgid "Failed to prepare queryForgetMessagePart"
 msgstr "queryForgetMessagePart hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:427
+#: ../src/Imap/Model/SQLCache.cpp:428
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageThreading"
 msgstr "queryMessageThreading hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:433
+#: ../src/Imap/Model/SQLCache.cpp:434
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageThreading"
 msgstr "querySetMessageThreading hazırlanması alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:464
+#: ../src/Imap/Model/SQLCache.cpp:465
 msgctxt "QObject|"
 msgid "Query queryChildMailboxes failed"
 msgstr "queryChildMailboxes sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:475
+#: ../src/Imap/Model/SQLCache.cpp:476
 #, qt-format
 msgctxt "QObject|"
 msgid "Corrupt data when reading child items for mailbox %1, line %2"
@@ -4352,127 +4352,127 @@ msgstr ""
 "%1 poçt qutusu, %2 sətri üçün uşaq elementlərinin oxunması zamanı xəta baş "
 "verdi"
 
-#: ../src/Imap/Model/SQLCache.cpp:487
+#: ../src/Imap/Model/SQLCache.cpp:488
 msgctxt "QObject|"
 msgid "Query queryChildMailboxesFresh failed"
 msgstr "queryChildMailboxesFresh sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:512
+#: ../src/Imap/Model/SQLCache.cpp:513
 msgctxt "QObject|"
 msgid "Query queryRemoveChildMailboxes failed"
 msgstr "queryRemoveChildMailboxes sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:520
+#: ../src/Imap/Model/SQLCache.cpp:521
 msgctxt "QObject|"
 msgid "Query querySetChildMailboxes failed"
 msgstr "querySetChildMailboxes sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:530
+#: ../src/Imap/Model/SQLCache.cpp:531
 msgctxt "QObject|"
 msgid "Query queryMailboxSyncState failed"
 msgstr "queryMailboxSyncState sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:555
+#: ../src/Imap/Model/SQLCache.cpp:556
 msgctxt "QObject|"
 msgid "Query querySetMailboxSyncState failed"
 msgstr "querySetMailboxSyncState sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:565
+#: ../src/Imap/Model/SQLCache.cpp:566
 msgctxt "QObject|"
 msgid "Query queryUidMapping failed"
 msgstr "queryUidMapping sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:590
+#: ../src/Imap/Model/SQLCache.cpp:591
 msgctxt "QObject|"
 msgid "Query querySetUidMapping failed"
 msgstr "querySetUidMapping sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:602
+#: ../src/Imap/Model/SQLCache.cpp:603
 msgctxt "QObject|"
 msgid "Query queryClearUidMapping failed"
 msgstr "queryClearUidMapping sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:617
+#: ../src/Imap/Model/SQLCache.cpp:618
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages1 failed"
 msgstr "queryClearAllMessages1 sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:620
+#: ../src/Imap/Model/SQLCache.cpp:621
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages2 failed"
 msgstr "queryClearAllMessages2 sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:623
+#: ../src/Imap/Model/SQLCache.cpp:624
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages3 failed"
 msgstr "queryClearAllMessages3 sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:626
+#: ../src/Imap/Model/SQLCache.cpp:627
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages4 failed"
 msgstr "queryClearAllMessages4 sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:644
+#: ../src/Imap/Model/SQLCache.cpp:645
 msgctxt "QObject|"
 msgid "Query queryClearMessage1 failed"
 msgstr "queryClearMessage1 sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:647
+#: ../src/Imap/Model/SQLCache.cpp:648
 msgctxt "QObject|"
 msgid "Query queryClearMessage2 failed"
 msgstr "queryClearMessage2 sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:650
+#: ../src/Imap/Model/SQLCache.cpp:651
 msgctxt "QObject|"
 msgid "Query queryClearMessage3 failed"
 msgstr "queryClearMessage3 sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:660
+#: ../src/Imap/Model/SQLCache.cpp:661
 msgctxt "QObject|"
 msgid "Query queryMessageFlags failed"
 msgstr "queryMessageFlags sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:686
+#: ../src/Imap/Model/SQLCache.cpp:687
 msgctxt "QObject|"
 msgid "Query querySetMessageFlags failed"
 msgstr "querySetMessageFlags sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:696
+#: ../src/Imap/Model/SQLCache.cpp:697
 msgctxt "QObject|"
 msgid "Query queryMessageMetadata failed"
 msgstr "queryMessageMetadata sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:714
+#: ../src/Imap/Model/SQLCache.cpp:715
 msgctxt "QObject|"
 msgid "Query queryAccessMessageMetadata failed"
 msgstr "queryAccessMessageMetadata sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:740
+#: ../src/Imap/Model/SQLCache.cpp:741
 msgctxt "QObject|"
 msgid "Query querySetMessageMetadata failed"
 msgstr "querySetMessageMetadata sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:751
+#: ../src/Imap/Model/SQLCache.cpp:752
 msgctxt "QObject|"
 msgid "Query queryMessagePart failed"
 msgstr "queryMessagePart sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:772
+#: ../src/Imap/Model/SQLCache.cpp:773
 msgctxt "QObject|"
 msgid "Query querySetMessagePart failed"
 msgstr "querySetMessagePart sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:786
+#: ../src/Imap/Model/SQLCache.cpp:787
 msgctxt "QObject|"
 msgid "Query queryForgetMessagePart failed"
 msgstr "queryForgetMessagePart sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:795
+#: ../src/Imap/Model/SQLCache.cpp:796
 msgctxt "QObject|"
 msgid "Query queryMessageThreading failed"
 msgstr "queryMessageThreading sorğusu alınmadı"
 
-#: ../src/Imap/Model/SQLCache.cpp:819
+#: ../src/Imap/Model/SQLCache.cpp:820
 msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
 msgstr "querySetMessageThreading sorğusu alınmadı"
