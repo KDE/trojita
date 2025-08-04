@@ -2012,7 +2012,7 @@ msgid ""
 "This password will be saved in clear text. If you do not enter password "
 "here, Trojitá will prompt for one when needed."
 msgstr ""
-"ستُحفظ كلمة المرور في نصّ صِرف. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
+"ستُحفظ كلمة السر في نصّ صِرف. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
 "الحاجة."
 
 #: ../src/Gui/SettingsDialog.cpp:909
@@ -2101,7 +2101,7 @@ msgid ""
 "This password will be saved in clear text. If you do not enter password "
 "here, Trojitá will prompt for one when needed."
 msgstr ""
-"ستُحفظ كلمة المرور في نصّ صِرف. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
+"ستُحفظ كلمة السر في نصّ صِرف. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
 "الحاجة."
 
 #: ../src/Gui/SettingsDialog.cpp:1294 ../src/Gui/SettingsDialog.cpp:1300
