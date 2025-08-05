@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-06-28 17:36+0400\n"
+"PO-Revision-Date: 2025-08-04 18:45+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -2485,7 +2485,7 @@ msgstr "أيقونة الحساب"
 #: ../src/Gui/SettingsImapPage.ui:332
 msgctxt "ImapPage|"
 msgid "Default Trojitá icon"
-msgstr "أيقونة «تروجيتا» الافتراضيّة"
+msgstr "أيقونة «تروجيتا» المبدئيّة"
 
 #: ../src/Gui/SettingsImapPage.ui:342
 msgctxt "ImapPage|"
@@ -2670,12 +2670,12 @@ msgstr "امحُ"
 msgctxt "ShortcutConfigWidget|"
 msgid ""
 "<p>Restore the default shortcut for the currently highlighted action.</p>"
-msgstr "<p>استعد الاختصار الافتراضيّ للإجراء المُبرَز حاليًّا.</p>"
+msgstr "<p>استعد الاختصار المبدئيّ للإجراء المُبرَز حاليًّا.</p>"
 
 #: ../src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:87
 msgctxt "ShortcutConfigWidget|Action for restoring default shortcut"
 msgid "Default"
-msgstr "الافتراضيّة"
+msgstr "المبدئيّة"
 
 #: ../src/Gui/ShortcutHandler/ShortcutHandler.cpp:47
 #: ../src/Gui/ShortcutHandler/ShortcutHandler.cpp:103
@@ -3322,7 +3322,7 @@ msgstr "من&ظور"
 #: ../src/Gui/Window.cpp:715
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
-msgstr "التّ&صميم"
+msgstr "الت&خطيط"
 
 #: ../src/Gui/Window.cpp:722
 #, fuzzy
