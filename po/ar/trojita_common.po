@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-08-04 18:45+0400\n"
+"PO-Revision-Date: 2025-08-05 12:36+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -1795,7 +1795,7 @@ msgstr "خزّن للأ&بد"
 #: ../src/Gui/SettingsCachePage.ui:106
 msgctxt "CachePage|"
 msgid "Notifications"
-msgstr "الإخطارات"
+msgstr "الإشعارات"
 
 #: ../src/Gui/SettingsCachePage.ui:112
 msgctxt "CachePage|"
@@ -1870,7 +1870,7 @@ msgstr ""
 #: ../src/Gui/SettingsDialog.cpp:212
 msgctxt "Gui::SettingsDialog|"
 msgid "Saving passwords failed"
-msgstr "فشل حفظ كلمات السّرّ"
+msgstr "فشل حفظ كلمات السر"
 
 #: ../src/Gui/SettingsDialog.cpp:213
 #, qt-format
@@ -1879,7 +1879,7 @@ msgid ""
 "<p>Couldn't save passwords. These were the error messages:</p>\n"
 "<p>%1</p>"
 msgstr ""
-"<p>تعذّر حفظ كلمات السّرّ. هذه كانت رسائل الخطأ:</p>\n"
+"<p>تعذّر حفظ كلمات السر. هذه كانت رسائل الخطأ:</p>\n"
 "<p>%1</p>"
 
 #: ../src/Gui/SettingsDialog.cpp:309
@@ -1912,7 +1912,7 @@ msgstr "عطّل دفتر العناوين"
 #: ../src/Gui/SettingsDialog.cpp:402
 msgctxt "Gui::GeneralPage|"
 msgid "Disable passwords"
-msgstr "عطّل كلمات السّرّ"
+msgstr "عطّل كلمات السر"
 
 #: ../src/Gui/SettingsDialog.cpp:403
 msgctxt "Gui::GeneralPage|"
@@ -2003,7 +2003,7 @@ msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
 "password here, Trojitá will prompt for one when needed."
 msgstr ""
-"ستُحفظ كلمة السّرّ في تخزين معمّى. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
+"ستُحفظ كلمة السر في تخزين معمّى. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
 "الحاجة."
 
 #: ../src/Gui/SettingsDialog.cpp:838
@@ -2092,7 +2092,7 @@ msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
 "password here, Trojitá will prompt for one when needed."
 msgstr ""
-"ستُحفظ كلمة السّرّ في تخزين معمّى. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
+"ستُحفظ كلمة السر في تخزين معمّى. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
 "الحاجة."
 
 #: ../src/Gui/SettingsDialog.cpp:1200
@@ -2187,7 +2187,7 @@ msgstr "دفتر العناوين"
 #: ../src/Gui/SettingsGeneralPage.ui:184
 msgctxt "GeneralPage|"
 msgid "Passwords"
-msgstr "كلمات السّرّ"
+msgstr "كلمات السر"
 
 #: ../src/Gui/SettingsGeneralPage.ui:201
 msgctxt "GeneralPage|"
@@ -2369,7 +2369,7 @@ msgstr "كلمة ال&سّرّ"
 #: ../src/Gui/SettingsImapPage.ui:180
 msgctxt "ImapPage|"
 msgid "Password"
-msgstr "كلمة السّرّ"
+msgstr "كلمة السر"
 
 #: ../src/Gui/SettingsImapPage.ui:183
 msgctxt "ImapPage|"
@@ -2407,7 +2407,7 @@ msgctxt "ImapPage|"
 msgid ""
 "The password will be stored in plaintext. Leave it blank for Trojitá to "
 "prompt when needed."
-msgstr "ستُحفظ كلمة السّرّ في نصّ صِرف. اتركه فارغًا ليطلبها «تروجيتا» عند الحاجة."
+msgstr "ستُحفظ كلمة السر في نصّ صِرف. اتركه فارغًا ليطلبها «تروجيتا» عند الحاجة."
 
 #: ../src/Gui/SettingsImapPage.ui:230
 msgctxt "ImapPage|"
@@ -5763,42 +5763,42 @@ msgstr ""
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Loading password from plugin %1..."
-msgstr "يحمّل كلمة السّرّ من الملحقة %1..."
+msgstr "يحمّل كلمة السر من الملحقة %1..."
 
 #: ../src/UiUtils/PasswordWatcher.cpp:86
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot read password via plugin %1"
-msgstr "تعذّرت قراءة كلمة السّرّ عبر الملحقة %1"
+msgstr "تعذّرت قراءة كلمة السر عبر الملحقة %1"
 
 #: ../src/UiUtils/PasswordWatcher.cpp:89 ../src/UiUtils/PasswordWatcher.cpp:175
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password plugin is not available."
-msgstr "ملحقة كلمة السّرّ غير متوفّرة."
+msgstr "ملحقة كلمة السر غير متوفّرة."
 
 #: ../src/UiUtils/PasswordWatcher.cpp:120
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password reading failed: %1"
-msgstr "فشلت قراءة كلمة السّرّ: %1"
+msgstr "فشلت قراءة كلمة السر: %1"
 
 #: ../src/UiUtils/PasswordWatcher.cpp:149
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password writing failed: %1"
-msgstr "فشلت كتابة كلمة السّرّ: %1"
+msgstr "فشلت كتابة كلمة السر: %1"
 
 #: ../src/UiUtils/PasswordWatcher.cpp:168
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Saving password from plugin %1..."
-msgstr "يحفظ كلمة السّرّ من الملحقة %1..."
+msgstr "يحفظ كلمة السر من الملحقة %1..."
 
 #: ../src/UiUtils/PasswordWatcher.cpp:172
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
-msgstr "تعذّر حفظ كلمة السّرّ عبر الملحقة %1"
+msgstr "تعذّر حفظ كلمة السر عبر الملحقة %1"
 
 #~ msgctxt "Gui::XtConnectPage|"
 #~ msgid "Cache Directory"
