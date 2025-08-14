@@ -1368,7 +1368,7 @@ msgstr "تحذير: المعطى '%1' غير متوقّع"
 #, qt-format
 msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
-msgstr "خطأ: فشل تسجيل سيرورة IPC: ‏%1"
+msgstr "خطأ: فشل تسجيل نسخة IPC: ‏%1"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: ../src/Gui/MessageHeadersWidget.cpp:44
@@ -5153,7 +5153,7 @@ msgstr "إرسال IMAP لا يدعمه %1"
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "Setting password is not supported by %1"
-msgstr "ضبط كلمة السّر لا يدعمه %1"
+msgstr "ضبط كلمة السر لا يدعمه %1"
 
 #: ../src/MSA/Account.cpp:233
 #, fuzzy, qt-format
