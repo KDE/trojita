@@ -4525,7 +4525,7 @@ msgid ""
 "available."
 msgstr ""
 "لا تتعرّف «كيوت» إلى أيّة جلسة شبكة. رجاء تأكّد أنّ حزمة qtvearer (أو ما "
-"يشابهها) مثبّتة. سأفترض أنّ الشّبكة متوفّرة بالفعل."
+"يشابهها) مثبّتة. سأفترض أنّ الشّبكة متوفّرة فعلًا."
 
 #: ../src/Imap/Model/TaskPresentationModel.cpp:194
 #, qt-format
@@ -4723,7 +4723,7 @@ msgstr "يزيل الرّسائل المحذوفة"
 #: ../src/Imap/Tasks/ExpungeMessagesTask.cpp:75
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "All messages are gone already"
-msgstr "اختفت كلّ الرّسائل بالفعل"
+msgstr "اختفت كلّ الرّسائل فعلًا"
 
 #: ../src/Imap/Tasks/ExpungeMessagesTask.cpp:80
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
