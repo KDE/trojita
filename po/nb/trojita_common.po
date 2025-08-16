@@ -165,8 +165,8 @@ msgid ""
 msgstr ""
 "IMAP-tilkoblingen forsvant. Du må lukke skriveruta, lagre kladden og åpne "
 "den igjen senere. Vedleggene må legges til senere. Beklager vanskelighetene, "
-"se <a href=\"https://projects.flaska.net/issues/640\">https://projects."
-"flaska.net/issues/640</a> for detaljer."
+"se <a href=\"https://projects.flaska.net/issues/640\">https://"
+"projects.flaska.net/issues/640</a> for detaljer."
 
 #: ../src/Composer/Submission.cpp:195
 msgctxt "Composer::Submission|"
@@ -5371,11 +5371,11 @@ msgstr "Sokkelen er frakoblet: %1"
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid ""
-"The underlying socket is having troubles when processing connection to %1:"
-"%2: %3"
+"The underlying socket is having troubles when processing connection to "
+"%1:%2: %3"
 msgstr ""
-"Den underliggende sokkelen har vansker når den behandler forbindelsen til %1:"
-"%2: %3"
+"Den underliggende sokkelen har vansker når den behandler forbindelsen til "
+"%1:%2: %3"
 
 #: ../src/UiUtils/Formatting.cpp:40
 msgctxt "UiUtils::Formatting|"
