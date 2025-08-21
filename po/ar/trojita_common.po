@@ -1937,9 +1937,9 @@ msgid ""
 "library, and the underlying operating system. No private information, like "
 "account settings or IMAP server details, are collected.</p>"
 msgstr ""
-"<p>إن مُكِّن، سيُظهر تروجيتا رئيسيّته عند البدء.</p><p>الخادوم البعيد سيستقبل "
+"<p>إن مُكِّن، سيُظهر تروجيتا رئيسيّته عند البدء.</p><p>الخادم البعيد سيستقبل "
 "عنوان م​إ وإصدارات تروجيتا، ومكتبة كيوت ونظام التّشغيل. لن تُجمَع أيّة معلومات "
-"شخصيّة كإعدادات الحسابات أو تفاصيل خادوم IMAP.</p>"
+"شخصيّة كإعدادات الحسابات أو تفاصيل خادم IMAP.</p>"
 
 #: ../src/Gui/SettingsDialog.cpp:507
 msgctxt "Gui::GeneralPage|"
@@ -2018,14 +2018,14 @@ msgstr ""
 #: ../src/Gui/SettingsDialog.cpp:909
 msgctxt "Gui::ImapPage|"
 msgid "The IMAP server hostname is missing here"
-msgstr "اسم مضيف خادوم IMAP ناقص هنا"
+msgstr "اسم مضيف خادم IMAP ناقص هنا"
 
 #: ../src/Gui/SettingsDialog.cpp:915
 msgctxt "Gui::ImapPage|"
 msgid ""
 "The command line to the IMAP server is missing here. Perhaps you need to use "
 "SSL or TCP?"
-msgstr "سطر الأوامر إلى خادوم IMAP ناقص هنا. لربّما تحتاج استخدام SSL أو TCP؟"
+msgstr "سطر الأوامر إلى خادم IMAP ناقص هنا. لربّما تحتاج استخدام SSL أو TCP؟"
 
 #: ../src/Gui/SettingsDialog.cpp:932
 #, fuzzy, qt-format
@@ -2107,7 +2107,7 @@ msgstr ""
 #: ../src/Gui/SettingsDialog.cpp:1294 ../src/Gui/SettingsDialog.cpp:1300
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP server hostname is missing here"
-msgstr "اسم مضيف خادوم SMTP ناقص هنا"
+msgstr "اسم مضيف خادم SMTP ناقص هنا"
 
 #: ../src/Gui/SettingsDialog.cpp:1296
 msgctxt "Gui::OutgoingPage|"
@@ -2263,7 +2263,7 @@ msgstr "ال&طّريقة"
 #: ../src/Gui/SettingsImapPage.ui:37
 msgctxt "ImapPage|"
 msgid "How to connect to the IMAP server"
-msgstr "كيفيّة الاتّصال بخادوم IMAP"
+msgstr "كيفيّة الاتّصال بخادم IMAP"
 
 #: ../src/Gui/SettingsImapPage.ui:40
 msgctxt "ImapPage|"
@@ -2305,17 +2305,17 @@ msgstr "التعمية"
 #: ../src/Gui/SettingsImapPage.ui:65
 msgctxt "ImapPage|"
 msgid "Ser&ver"
-msgstr "ال&خادوم"
+msgstr "ال&خادم"
 
 #: ../src/Gui/SettingsImapPage.ui:75
 msgctxt "ImapPage|"
 msgid "Hostname of the IMAP server"
-msgstr "اسم مضيف خادوم IMAP"
+msgstr "اسم مضيف خادم IMAP"
 
 #: ../src/Gui/SettingsImapPage.ui:78
 msgctxt "ImapPage|"
 msgid "This is the name of the IMAP server that Trojitá should connect to."
-msgstr "هذا اسم خادوم IMAP الّذي سيتّصل به تروجيتا."
+msgstr "هذا اسم خادم IMAP الّذي سيتّصل به تروجيتا."
 
 #: ../src/Gui/SettingsImapPage.ui:88
 msgctxt "ImapPage|"
@@ -2325,7 +2325,7 @@ msgstr "ال&منفذ"
 #: ../src/Gui/SettingsImapPage.ui:98
 msgctxt "ImapPage|"
 msgid "Port number of the IMAP server"
-msgstr "رقم منفذ خادوم IMAP"
+msgstr "رقم منفذ خادم IMAP"
 
 #: ../src/Gui/SettingsImapPage.ui:118
 msgctxt "ImapPage|"
@@ -2359,7 +2359,7 @@ msgstr "اسم المستخدم"
 #: ../src/Gui/SettingsImapPage.ui:160
 msgctxt "ImapPage|"
 msgid "User name to log in to the IMAP server"
-msgstr "اسم المستخدم للولوج إلى خادوم IMAP"
+msgstr "اسم المستخدم للولوج إلى خادم IMAP"
 
 #: ../src/Gui/SettingsImapPage.ui:170
 msgctxt "ImapPage|"
@@ -2412,7 +2412,7 @@ msgstr "ستُحفظ كلمة السر في نصّ صِرف. اتركه فارغ
 #: ../src/Gui/SettingsImapPage.ui:230
 msgctxt "ImapPage|"
 msgid "Path to Server &Binary"
-msgstr "المسار إلى &ثنائيّ الخادوم"
+msgstr "المسار إلى &ثنائيّ الخادم"
 
 #: ../src/Gui/SettingsImapPage.ui:240
 msgctxt "ImapPage|"
@@ -2508,7 +2508,7 @@ msgstr "التعمية"
 #: ../src/Gui/SettingsOutgoingPage.ui:50
 msgctxt "OutgoingPage|"
 msgid "Ser&ver"
-msgstr "ال&خادوم"
+msgstr "ال&خادم"
 
 #: ../src/Gui/SettingsOutgoingPage.ui:63
 msgctxt "OutgoingPage|"
@@ -3158,7 +3158,7 @@ msgstr "&لِج إلى %1"
 #: ../src/Gui/Window.cpp:366
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
-msgstr "م&علومات خادوم IMAP..."
+msgstr "م&علومات خادم IMAP..."
 
 #: ../src/Gui/Window.cpp:375
 msgctxt "Gui::MainWindow|"
@@ -3664,13 +3664,13 @@ msgstr "<p>"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
-msgstr "الخادوم: %1 %2"
+msgstr "الخادم: %1 %2"
 
 #: ../src/Gui/Window.cpp:2476
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
-msgstr "الخادوم: %1"
+msgstr "الخادم: %1"
 
 #: ../src/Gui/Window.cpp:2479
 #, qt-format
@@ -3700,7 +3700,7 @@ msgstr "</p>"
 #: ../src/Gui/Window.cpp:2489
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
-msgstr "<p>لم يرجع خادوم IMAP معلومات عنه.</p>"
+msgstr "<p>لم يرجع خادم IMAP معلومات عنه.</p>"
 
 #: ../src/Gui/Window.cpp:2493
 #, qt-format
@@ -3718,7 +3718,7 @@ msgstr "<ul>%1</ul>"
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
-msgstr "<p>لم يوفّر الخادوم معلومات عن إصدار برمجيّته.</p>"
+msgstr "<p>لم يوفّر الخادم معلومات عن إصدار برمجيّته.</p>"
 
 #: ../src/Gui/Window.cpp:2504
 #, qt-format
@@ -3770,7 +3770,7 @@ msgstr "يحلّ اسم المضيف..."
 #: ../src/Imap/ConnectionState.cpp:37
 msgctxt "QObject|"
 msgid "Connecting to the IMAP server..."
-msgstr "يتّصل بخادوم IMAP..."
+msgstr "يتّصل بخادم IMAP..."
 
 #: ../src/Imap/ConnectionState.cpp:39
 msgctxt "QObject|"
@@ -3985,14 +3985,14 @@ msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
 "</p>"
-msgstr "<p>يبدو أنّك تحاول الاتّصال بخادوم POP3. هذا لن يعمل هنا.</p>"
+msgstr "<p>يبدو أنّك تحاول الاتّصال بخادم POP3. هذا لن يعمل هنا.</p>"
 
 #: ../src/Imap/Model/Model.cpp:1145
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
 "here.</p>"
-msgstr "<p>يبدو أنّك تحاول الاتّصال بخادوم SMTP. هذا لن يعمل هنا.</p>"
+msgstr "<p>يبدو أنّك تحاول الاتّصال بخادم SMTP. هذا لن يعمل هنا.</p>"
 
 #: ../src/Imap/Model/Model.cpp:1147
 #, qt-format
@@ -4002,8 +4002,8 @@ msgid ""
 "sure you are connecting to the IMAP service. A typical port number for IMAP "
 "is 143 or 993.</p><p>The server said:</p><pre>%2</pre>"
 msgstr ""
-"<h2>هذا ليس خادوم IMAP</h2>%1<p>رجاء تحقّق من إعداداتك لتتأكّد من أنّك تتّصل "
-"بخدمة IMAP. رقم المنفذ النّموذجيّ لِـ IMAP هو 143 أو 993.</p><p>قال الخادوم:</"
+"<h2>هذا ليس خادم IMAP</h2>%1<p>رجاء تحقّق من إعداداتك لتتأكّد من أنّك تتّصل "
+"بخدمة IMAP. رقم المنفذ النّموذجيّ لِـ IMAP هو 143 أو 993.</p><p>قال الخادم:</"
 "p><pre>%2</pre>"
 
 #: ../src/Imap/Model/Model.cpp:1154
@@ -4016,15 +4016,15 @@ msgid ""
 "the details:</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 msgstr ""
-"<p>أرسل خادوم IMAP ردًّا لا نستطيع تحليله. قد يعني هذا أنّ هناك علّة في شِفرة  "
-"تروجيتا، أو أنّ خادوم IMAP الذي تتّصل به معطوب. رجاء أبلغ عن هذه كعلّة بأيّ حال. "
+"<p>أرسل خادم IMAP ردًّا لا نستطيع تحليله. قد يعني هذا أنّ هناك علّة في شِفرة  "
+"تروجيتا، أو أنّ خادم IMAP الذي تتّصل به معطوب. رجاء أبلغ عن هذه كعلّة بأيّ حال. "
 "هذه هي التّفاصيل:</p><p><b>%1</b>: ‏%2</p><pre>%3\n"
 "%4</pre>"
 
 #: ../src/Imap/Model/Model.cpp:1212
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
-msgstr "نحن لا نتحدّث مع خادوم IMAP4"
+msgstr "نحن لا نتحدّث مع خادم IMAP4"
 
 #: ../src/Imap/Model/Model.cpp:1467
 msgctxt "Imap::Mailbox::Model|"
@@ -4728,7 +4728,7 @@ msgstr "اختفت كلّ الرّسائل فعلًا"
 #: ../src/Imap/Tasks/ExpungeMessagesTask.cpp:80
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "The IMAP server doesn't support the UIDPLUS extension"
-msgstr "لا يدعم خادوم IMAP امتداد UIDPLUS"
+msgstr "لا يدعم خادم IMAP امتداد UIDPLUS"
 
 #: ../src/Imap/Tasks/ExpungeMessagesTask.cpp:95
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
@@ -4788,7 +4788,7 @@ msgid ""
 "The server sent the following ALERT:\n"
 "%1"
 msgstr ""
-"أرسل الخادوم الإنذار الآتي:\n"
+"أرسل الخادم الإنذار الآتي:\n"
 "%1"
 
 #: ../src/Imap/Tasks/ImapTask.h:191
@@ -4937,13 +4937,13 @@ msgid ""
 "The server replied with the following BAD response:\n"
 "%1"
 msgstr ""
-"ردّ الخادوم بالرّد BAD الآتي:\n"
+"ردّ الخادم بالرّد BAD الآتي:\n"
 "%1"
 
 #: ../src/Imap/Tasks/OpenConnectionTask.cpp:204
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server has greeted us with a BAD response"
-msgstr "رحّب الخادوم بنا بردّ BAD"
+msgstr "رحّب الخادم بنا بردّ BAD"
 
 #: ../src/Imap/Tasks/OpenConnectionTask.cpp:236
 #, qt-format
@@ -4979,7 +4979,7 @@ msgid ""
 "server cannot or will not allow the authentication identity to act as the "
 "requested authorization identity."
 msgstr ""
-"نجح الاستيثاق باستخدام هويّة الاستيثاق، لكنّ الخادوم لا (أو لن) يسمح لنا "
+"نجح الاستيثاق باستخدام هويّة الاستيثاق، لكنّ الخادم لا (أو لن) يسمح لنا "
 "باستيثاق الهويّة ليتصرّف حسب هويّة الاستيثاق المطلوبة."
 
 #: ../src/Imap/Tasks/OpenConnectionTask.cpp:312
@@ -5037,7 +5037,7 @@ msgstr ""
 #: ../src/Imap/Tasks/OpenConnectionTask.cpp:484
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Connecting to mail server"
-msgstr "يتّصل بخادوم البريد"
+msgstr "يتّصل بخادم البريد"
 
 #: ../src/Imap/Tasks/OpenConnectionTask.cpp:504
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
