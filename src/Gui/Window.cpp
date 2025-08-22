@@ -24,7 +24,6 @@
 #include <QAuthenticator>
 #include <QActionGroup>
 #include <QDesktopServices>
-#include <QDesktopWidget>
 #include <QDir>
 #include <QDockWidget>
 #include <QFileDialog>
@@ -2655,7 +2654,7 @@ void MainWindow::saveSizesAndState()
     if (m_skipSavingOfUI)
         return;
 
-    QRect geometry = qApp->desktop()->availableGeometry(this);
+    QRect geometry = screen()->availableGeometry();
     QString key = settingsKeyForLayout(m_layoutMode);
     if (key.isEmpty())
         return;
@@ -2689,7 +2688,7 @@ void MainWindow::saveRawStateSetting(bool enabled)
 
 void MainWindow::applySizesAndState()
 {
-    QRect geometry = qApp->desktop()->availableGeometry(this);
+    QRect geometry = screen()->availableGeometry();
     QString key = settingsKeyForLayout(m_layoutMode);
     if (key.isEmpty())
         return;

@@ -23,12 +23,12 @@
 
 #include <QAction>
 #include <QApplication>
-#include <QDesktopWidget>
 #include <QDrag>
 #include <QFontMetrics>
 #include <QHeaderView>
 #include <QKeyEvent>
 #include <QPainter>
+#include <QScreen>
 #include <QSignalMapper>
 #include <QTimer>
 #include "MsgItemDelegate.h"
@@ -176,7 +176,7 @@ void MsgListView::startDrag(Qt::DropActions supportedActions)
             return;
 
         // use screen width and itemDelegate()->sizeHint() to determine size of the pixmap
-        int screenWidth = QApplication::desktop()->screenGeometry(this).width();
+        int screenWidth = screen()->availableGeometry().width();
         int maxWidth = qMax(400, screenWidth / 4);
         QSize size(maxWidth, 0);
 

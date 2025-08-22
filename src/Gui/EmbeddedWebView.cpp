@@ -28,7 +28,6 @@
 #include <QAction>
 #include <QApplication>
 #include <QDesktopServices>
-#include <QDesktopWidget>
 #include <QLayout>
 #include <QMouseEvent>
 #include <QNetworkReply>
