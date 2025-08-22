@@ -61,8 +61,8 @@ FileLogger::~FileLogger()
 
 void FileLogger::escapeCrLf(QString &s)
 {
-    s.replace(QLatin1Char('\r'), 0x240d /* SYMBOL FOR CARRIAGE RETURN */)
-            .replace(QLatin1Char('\n'), 0x240a /* SYMBOL FOR LINE FEED */);
+    s.replace(QLatin1Char('\r'), QChar(0x240d) /* SYMBOL FOR CARRIAGE RETURN */)
+            .replace(QLatin1Char('\n'), QChar(0x240a) /* SYMBOL FOR LINE FEED */);
 }
 
 void FileLogger::log(uint connectionId, Common::LogMessage message)

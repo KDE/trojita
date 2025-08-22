@@ -212,8 +212,8 @@ void ProtocolLoggerWidget::flushToWidget(const uint connectionId, Common::RingBu
         }
 
         QString niceLine = it->message.toHtmlEscaped();
-        niceLine.replace(QLatin1Char('\r'), 0x240d /* SYMBOL FOR CARRIAGE RETURN */)
-        .replace(QLatin1Char('\n'), 0x240a /* SYMBOL FOR LINE FEED */);
+        niceLine.replace(QLatin1Char('\r'), QChar(0x240d) /* SYMBOL FOR CARRIAGE RETURN */)
+        .replace(QLatin1Char('\n'), QChar(0x240a) /* SYMBOL FOR LINE FEED */);
 
         w->appendHtml(message.arg(it->timestamp.toString(QStringLiteral("hh:mm:ss.zzz")),
                                   direction, textColor,
