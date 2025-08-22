@@ -25,6 +25,7 @@
 #include <QIcon>
 #include <QIODevice>
 #include <QMimeData>
+#include <QIODevice>
 #include "Imap/Model/DragAndDrop.h"
 #include "Imap/Model/MailboxTree.h"
 #include "Imap/Model/MailboxModel.h"

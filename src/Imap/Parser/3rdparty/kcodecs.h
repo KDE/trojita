@@ -30,10 +30,7 @@
 
 #define KDECORE_EXPORT
 
-#include <QtCore>
-
-class QByteArray;
-class QIODevice;
+#include <QByteArray>
 
 /**
  * A wrapper class for the most commonly used encoding and

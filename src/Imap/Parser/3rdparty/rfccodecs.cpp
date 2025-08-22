@@ -38,10 +38,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <QtCore/QTextCodec>
-#include <QtCore/QBuffer>
-#include <QtCore/QByteArray>
-#include <QtCore/QLatin1Char>
+#include <QBuffer>
+#include <QByteArray>
+#include <QLatin1Char>
+#include <QTextCodec>
+
 #include "kcodecs.h"
 
 using namespace KIMAP;

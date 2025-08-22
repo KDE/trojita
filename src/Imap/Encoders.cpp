@@ -60,8 +60,10 @@
 **
 ****************************************************************************/
 
+#include <QDebug>
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>
+#include <QTextCodec>
 
 #include "Encoders.h"
 #include "Parser/3rdparty/rfccodecs.h"

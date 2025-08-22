@@ -22,6 +22,7 @@
 */
 
 #include <QAuthenticator>
+#include <QActionGroup>
 #include <QDesktopServices>
 #include <QDesktopWidget>
 #include <QDir>

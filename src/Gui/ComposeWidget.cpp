@@ -22,6 +22,7 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include <QAbstractProxyModel>
+#include <QActionGroup>
 #include <QBuffer>
 #include <QFileDialog>
 #include <QGraphicsOpacityEffect>

@@ -36,7 +36,6 @@
 #include <stdlib.h>
 
 //#include <kdebug.h>
-#include <QtCore/QIODevice>
 
 namespace KCodecs
 {

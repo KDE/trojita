@@ -37,7 +37,8 @@
 #ifndef KIMAP_RFCCODECS_H
 #define KIMAP_RFCCODECS_H
 
-#include <QtCore/QString>
+#include <QByteArray>
+#include <QString>
 
 #define KIMAP_EXPORT
 
