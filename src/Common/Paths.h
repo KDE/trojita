@@ -29,7 +29,7 @@ namespace Common
 {
     typedef enum {
         LOCATION_CACHE, /**< Same as QStandardPaths::CacheLocation */
-        LOCATION_DATA, /**< Same as QStandardPaths::DataLocation */
+        LOCATION_DATA, /**< Same as QStandardPaths::AppDataLocation */
         LOCATION_DOWNLOAD /**< Same as QStandardPaths::DownloadLocation */
     } LocationType;
 

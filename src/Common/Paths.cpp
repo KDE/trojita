@@ -46,7 +46,7 @@ QString writablePath(const LocationType location)
         QCoreApplication::setOrganizationName(Common::Application::organization);
 
         map[LOCATION_CACHE] = QStandardPaths::writableLocation(QStandardPaths::CacheLocation);
-        map[LOCATION_DATA] = QStandardPaths::writableLocation(QStandardPaths::DataLocation);
+        map[LOCATION_DATA] = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
         map[LOCATION_DOWNLOAD] = QStandardPaths::writableLocation(QStandardPaths::DownloadLocation);
 
         if (map[LOCATION_CACHE].isEmpty())
