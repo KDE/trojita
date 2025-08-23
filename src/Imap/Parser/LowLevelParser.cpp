@@ -266,7 +266,7 @@ QPair<QByteArray,ParsedAs> getNString(const QByteArray &line, int &start)
 {
     if (startsWithNil(line, start)) {
         start += 3;
-        return qMakePair<>(QByteArray(), NIL);
+        return qMakePair(QByteArray(), NIL);
     } else {
         return getAString(line, start);
     }

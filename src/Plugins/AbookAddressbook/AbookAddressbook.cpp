@@ -92,7 +92,7 @@ private:
 AbookAddressbook::AbookAddressbook(QObject *parent): AddressbookPlugin(parent), m_updateTimer(0)
 {
 #define ADD(TYPE, KEY) \
-    m_fields << qMakePair<Type,QString>(TYPE, QLatin1String(KEY))
+    m_fields << qMakePair(TYPE, QLatin1String(KEY))
     ADD(Name, "name");
     ADD(Mail, "email");
     ADD(Address, "address");

@@ -282,9 +282,9 @@ void Submission::slotInvokeMsaNow()
 
     if (m_useImapSubmit && msa->supportsImapSending() && m_appendUidReceived) {
         Imap::Mailbox::UidSubmitOptionsList options;
-        options.append(qMakePair<QByteArray,QVariant>("FROM", m_source->rawFromAddress()));
+        options.append(qMakePair(QByteArrayLiteral("FROM"), m_source->rawFromAddress()));
         Q_FOREACH(const QByteArray &recipient, m_source->rawRecipientAddresses()) {
-            options.append(qMakePair<QByteArray,QVariant>("RECIPIENT", recipient));
+            options.append(qMakePair(QByteArrayLiteral("RECIPIENT"), recipient));
         }
         msa->sendImap(m_sentFolderName, m_appendUidValidity, m_appendUid, options);
     } else if (m_genUrlAuthReceived && m_useBurl) {

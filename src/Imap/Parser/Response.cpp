@@ -537,7 +537,7 @@ State::State(const QByteArray &tag, const Kind kind, const QByteArray &line, int
             if (pos != s2.size())
                 throw InvalidResponseCode("Malformed COPYUID: garbage found after the second sequence", line, start);
             respCodeData = QSharedPointer<AbstractData>(new RespData<QPair<uint,QPair<Sequence, Sequence> > >(
-                                                            qMakePair(uidValidity, qMakePair<Sequence, Sequence>(seq1, seq2))));
+                                                            qMakePair(uidValidity, qMakePair(seq1, seq2))));
             break;
         }
         case Responses::URLMECH:
@@ -788,7 +788,7 @@ ESearch::ESearch(const QByteArray &line, int &start): seqOrUids(SEQUENCE)
             // There's no syntactic difference between a single-item sequence set and one number, which is why we always parse
             // such "sequences" as full blown sequences. That's better than deal with two nasties of the ListData_t kind -- one such
             // beast is more than enough, IMHO.
-            listData.push_back(qMakePair<>(label, numbers));
+            listData.push_back(qMakePair(label, numbers));
 
             LowLevelParser::eatSpaces(line, start);
         }
