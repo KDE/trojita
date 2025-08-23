@@ -30,6 +30,7 @@
 #include "Common/Logging.h"
 #include "Imap/Model/NetworkPolicy.h"
 #include "UiUtils/Formatting.h"
+#include "UiUtils/PasswordWatcher.h"
 
 class QModelIndex;
 class QNetworkAccessManager;
@@ -37,10 +38,6 @@ class QSettings;
 
 namespace Plugins {
 class PluginManager;
-}
-
-namespace UiUtils {
-class PasswordWatcher;
 }
 
 namespace Imap {
