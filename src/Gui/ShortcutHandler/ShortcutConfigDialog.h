@@ -25,13 +25,14 @@
 
 #include <QDialog>
 
+#include "ShortcutHandler.h"
+
 class QAction;
 class QKeySequence;
 
 namespace Gui
 {
 
-class ActionDescription;
 class ShortcutConfigWidget;
 
 /**

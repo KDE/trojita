@@ -26,13 +26,13 @@
 #include <QWidget>
 #include "ui_ShortcutConfigWidget.h"
 
+#include "ShortcutHandler.h"
+
 class QAction;
 class QKeySequence;
 
 namespace Gui
 {
-
-class ActionDescription;
 
 /**
  * Application programmers are not supposed to construct this class directly.
