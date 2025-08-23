@@ -53,7 +53,7 @@ void ImapParserWriteTest::testLiteralPlus()
     }
     auto buf = SOCK->writtenStuff();
     QVERIFY(buf.startsWith(t.mk("APPEND a")));
-    QVERIFY(buf.endsWith(QByteArrayLiteral(" {4097+}\r\n") + plaintext4097 + QByteArrayLiteral("\r\n")));
+    QVERIFY(buf.endsWith(QByteArray(QByteArrayLiteral(" {4097+}\r\n") + plaintext4097 + QByteArrayLiteral("\r\n"))));
     cServer(t.last("OK stored\r\n"));
     cEmpty();
 }
@@ -69,7 +69,7 @@ void ImapParserWriteTest::testLiteralMinus()
     }
     auto buf = SOCK->writtenStuff();
     QVERIFY(buf.startsWith(t.mk("APPEND a")));
-    QVERIFY(buf.endsWith(QByteArrayLiteral(" {4096+}\r\n") + plaintext4096 + QByteArrayLiteral("\r\n")));
+    QVERIFY(buf.endsWith(QByteArray(QByteArrayLiteral(" {4096+}\r\n") + plaintext4096 + QByteArrayLiteral("\r\n"))));
     cServer(t.last("OK stored\r\n"));
     cEmpty();
 
