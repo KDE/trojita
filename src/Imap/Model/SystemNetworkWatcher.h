@@ -25,6 +25,8 @@
 
 #include "Imap/Model/NetworkWatcher.h"
 
+#include "configure.cmake.h"
+
 class QNetworkConfigurationManager;
 class QNetworkConfiguration;
 class QNetworkSession;
@@ -32,6 +34,7 @@ class QNetworkSession;
 namespace Imap {
 namespace Mailbox {
 
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 class SystemNetworkWatcher: public NetworkWatcher
 {
     Q_OBJECT
@@ -55,6 +58,18 @@ private:
     void resetSession();
     QNetworkConfiguration sessionsActiveConfiguration() const;
 };
+#else
+class SystemNetworkWatcher: public NetworkWatcher
+{
+   Q_OBJECT
+public:
+   SystemNetworkWatcher(ImapAccess *parent, Model *model);
+
+protected:
+    void setDesiredNetworkPolicy(const NetworkPolicy policy) override;
+
+};
+#endif
 
 }
 }

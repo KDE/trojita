@@ -21,13 +21,17 @@
 */
 
 #include "SystemNetworkWatcher.h"
+#include "Model.h"
+
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include <QNetworkConfigurationManager>
 #include <QNetworkSession>
-#include "Model.h"
+#endif
 
 namespace Imap {
 namespace Mailbox {
 
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 QString policyToString(const NetworkPolicy policy)
 {
     switch (policy) {
@@ -229,6 +233,22 @@ void SystemNetworkWatcher::networkSessionError()
         attemptReconnect();
     }
 }
+}
+}
+#else
+
+SystemNetworkWatcher::SystemNetworkWatcher(ImapAccess *parent, Model *model):
+    NetworkWatcher(parent, model)
+{
 
 }
+
+void SystemNetworkWatcher::setDesiredNetworkPolicy(const NetworkPolicy policy)
+{
+    m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"),
+                      QStringLiteral("Change of configuration of the current session is not implemented"));
 }
+}
+}
+
+#endif
