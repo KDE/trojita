@@ -297,11 +297,11 @@ void ImapParserParseTest::testParseUntagged_data()
                                                      QMap<QByteArray,QVariant>()));
 
     QMap<QByteArray,QVariant> listExtData;
-    listExtData["CHILDINFO"] = QStringList() << QStringLiteral("SUBSCRIBED");
+    listExtData["CHILDINFO"] = QVariantList() << QByteArrayLiteral("SUBSCRIBED");
     QTest::newRow("untagged-list-ext-childinfo")
         << QByteArray("* LIST () \"/\" \"Foo\" (\"CHILDINFO\" (\"SUBSCRIBED\"))\r\n")
         << QSharedPointer<AbstractResponse>(new List( LIST, QStringList(), QStringLiteral("/"), QStringLiteral("Foo"), listExtData));
-    listExtData["OLDNAME"] = QStringList() << QStringLiteral("blesmrt");
+    listExtData["OLDNAME"] = QVariantList() << QByteArrayLiteral("blesmrt");
     QTest::newRow("untagged-list-ext-childinfo-2")
         << QByteArray("* LIST () \"/\" \"Foo\" (\"CHILDINFO\" (\"SUBSCRIBED\") \"OLDNAME\" (\"blesmrt\"))\r\n")
         << QSharedPointer<AbstractResponse>(new List( LIST, QStringList(), QStringLiteral("/"), QStringLiteral("Foo"), listExtData));

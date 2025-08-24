@@ -55,7 +55,7 @@ void ImapLowLevelParserTest::testParseList()
     Q_ASSERT( res.canConvert( QVariant::List ) );
     list = res.toList();
     QCOMPARE( list.size(), 1 );
-    QCOMPARE( list, QVariantList() <<  "smrt" );
+    QCOMPARE( list, QVariantList() <<  QByteArrayLiteral("smrt") );
     QCOMPARE( line.size(), start );
 
     line = "[\\smrt] ahoj";
@@ -64,7 +64,7 @@ void ImapLowLevelParserTest::testParseList()
     Q_ASSERT( res.canConvert( QVariant::List ) );
     list = res.toList();
     QCOMPARE( list.size(), 1 );
-    QCOMPARE( list, QVariantList() <<  "\\smrt" );
+    QCOMPARE( list, QVariantList() <<  QByteArrayLiteral("\\smrt") );
     QCOMPARE( line.at(start), ' ' );
     ++start;
     QCOMPARE( line.at(start), 'a' );
@@ -72,16 +72,18 @@ void ImapLowLevelParserTest::testParseList()
     line = "(smrt [666] (999 1337) 3)";
     start = 0;
     res = parseList( '(', ')', line, start );
-    Q_ASSERT( res.canConvert( QVariant::List ) );
+
+    Q_ASSERT( res.canConvert( QMetaType::QVariantList ) );
     list = res.toList();
     QCOMPARE( list.size(), 4 );
-    QCOMPARE( list, QVariantList() <<  "smrt" <<
-            QVariant( QVariantList() << 666) << 
-            QVariant( QVariantList() << 999 << 1337 ) << 3 );
+    QCOMPARE( list,  QVariantList() <<  QByteArrayLiteral("smrt") <<
+              QVariant( QVariantList() << QByteArrayLiteral("666")) <<
+              QVariant( QVariantList() << QByteArrayLiteral("999") << QByteArrayLiteral("1337") ) << QByteArrayLiteral("3") );
     QCOMPARE( line.size(), start );
 
+
     try {
-        line = "ahoj";
+        line = QByteArrayLiteral("ahoj");
         start = 0;
         res = parseList( '(', ')', line, start );
         QFAIL( "parseList() against a string parameter should have thrown an exception" );
@@ -89,13 +91,15 @@ void ImapLowLevelParserTest::testParseList()
         QVERIFY( true );
     }
 
-    line = "(ahoj cau {6}\r\nnazdar 1337 \\* 666 \"aho\\\"oooj\") (bleee \\*)";
+    line = QByteArrayLiteral("(ahoj cau {6}\r\nnazdar 1337 \\* 666 \"aho\\\"oooj\") (bleee \\*)");
     start = 0;
     res = parseList( '(', ')', line, start );
     Q_ASSERT( res.canConvert( QVariant::List ) );
     list = res.toList();
     QCOMPARE( list.size(), 7 );
-    QCOMPARE( list, QVariantList() <<  "ahoj" << "cau" << "nazdar" << 1337 << "\\*" << 666 << "aho\"oooj" );
+    QCOMPARE( list, QVariantList() << QByteArrayLiteral("ahoj") << QByteArrayLiteral("cau")
+                                   << QByteArrayLiteral("nazdar") << QByteArrayLiteral("1337")
+                                   << QByteArrayLiteral("\\*") << QByteArrayLiteral("666") << QByteArrayLiteral("aho\"oooj") );
     QVERIFY( start < line.size() );
     QCOMPARE( line.at( start ), ' ' );
     ++start;
@@ -104,7 +108,7 @@ void ImapLowLevelParserTest::testParseList()
     Q_ASSERT( res.canConvert( QVariant::List ) );
     list = res.toList();
     QCOMPARE( list.size(), 2 );
-    QCOMPARE( list, QVariantList() << "bleee" << "\\*" );
+    QCOMPARE( list, QVariantList() << QByteArrayLiteral("bleee") << QByteArrayLiteral("\\*") );
     QCOMPARE( start, line.size() );
 }
 
@@ -540,7 +544,7 @@ void ImapLowLevelParserTest::testGetRFC2822DateTime_data()
         time = time.addSecs( 3600 * 13 + 60 * 27 + 17 );
         tz = ( tz + 30 ) % ( 24 * 60 );
     }
-    
+
 }
 
 QTEST_GUILESS_MAIN( ImapLowLevelParserTest )
