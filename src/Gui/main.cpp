@@ -35,6 +35,7 @@
 #include "Common/SettingsNames.h"
 #include "Gui/Util.h"
 #include "Gui/Window.h"
+#include "Imap/Model/SystemNetworkWatcher.h"
 #include "IPC/IPC.h"
 #include "UiUtils/IconLoader.h"
 
@@ -188,6 +189,11 @@ int main(int argc, char **argv)
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     settings.setIniCodec("UTF-8");
 #endif
+
+    if (!Imap::Mailbox::SystemNetworkWatcher::init()) {
+        qErr << "Failed to load network watcher.";
+        return 1;
+    }
 
     Gui::MainWindow win(&settings);
 

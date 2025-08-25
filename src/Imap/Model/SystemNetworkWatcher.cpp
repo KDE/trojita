@@ -1,4 +1,5 @@
 /* Copyright (C) 2006 - 2014 Jan Kundrát <jkt@flaska.net>
+   Copyright (c) 2025 Espen Sandøy Hustad <espen@ehustad.com>
 
    This file is part of the Trojita Qt IMAP e-mail client,
    http://trojita.flaska.net/
@@ -23,6 +24,8 @@
 #include "SystemNetworkWatcher.h"
 #include "Model.h"
 
+#include <QTimer>
+
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include <QNetworkConfigurationManager>
 #include <QNetworkSession>
@@ -31,7 +34,7 @@
 namespace Imap {
 namespace Mailbox {
 
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
+
 QString policyToString(const NetworkPolicy policy)
 {
     switch (policy) {
@@ -46,6 +49,55 @@ QString policyToString(const NetworkPolicy policy)
     return QString();
 }
 
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+
+QString meteredToString(bool isMetered)
+{
+    if (isMetered) {
+        return QStringLiteral("IS_METERED");
+    }
+
+    return QStringLiteral("IS_NOT_METERED");
+}
+
+QString reachabilityToString(QNetworkInformation::Reachability reachability)
+{
+    switch (reachability) {
+    case QNetworkInformation::Reachability::Disconnected:
+        return QStringLiteral("DISCONNECTED");
+    case QNetworkInformation::Reachability::Local:
+        return QStringLiteral("LOCAL");
+    case QNetworkInformation::Reachability::Online:
+        return QStringLiteral("ONLINE");
+    case QNetworkInformation::Reachability::Site:
+        return QStringLiteral("SITE");
+    case QNetworkInformation::Reachability::Unknown:
+        return QStringLiteral("UNKNOWN");
+    }
+    Q_ASSERT(false);
+    return QStringLiteral("UNKNOWN");
+}
+
+QString transportMediumToString(QNetworkInformation::TransportMedium current)
+{
+    switch (current) {
+    case QNetworkInformation::TransportMedium::Unknown:
+        return QStringLiteral("UNKNOWN");
+    case QNetworkInformation::TransportMedium::Ethernet:
+        return QStringLiteral("ETHERNET");
+    case QNetworkInformation::TransportMedium::Cellular:
+        return QStringLiteral("CELLULAR");
+    case QNetworkInformation::TransportMedium::WiFi:
+        return QStringLiteral("WIFI");
+    case QNetworkInformation::TransportMedium::Bluetooth:
+        return QStringLiteral("BLUETOOTH");
+    }
+    Q_ASSERT(false);
+    return QStringLiteral("UNKNOWN");
+}
+#endif
+
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 SystemNetworkWatcher::SystemNetworkWatcher(ImapAccess *parent, Model *model):
     NetworkWatcher(parent, model), m_netConfManager(0), m_session(0)
 {
@@ -80,6 +132,7 @@ void SystemNetworkWatcher::setDesiredNetworkPolicy(const NetworkPolicy policy)
                           QStringLiteral("User's preference changed: %1").arg(policyToString(policy)));
         m_desiredPolicy = policy;
     }
+
     if (m_model->networkPolicy() == NETWORK_OFFLINE && policy != NETWORK_OFFLINE) {
         // We are asked to connect, the model is not connected yet
         if (isOnline()) {
@@ -240,13 +293,127 @@ void SystemNetworkWatcher::networkSessionError()
 SystemNetworkWatcher::SystemNetworkWatcher(ImapAccess *parent, Model *model):
     NetworkWatcher(parent, model)
 {
+    // Wait with logging until the app is fully constructed,
+    // and all signals are connected.
+    // Otherwise we won't see this in the log.
+    QTimer::singleShot(0, this, [this]() {
+            this->detectCapabilities();
+        });
+}
 
+bool SystemNetworkWatcher::init()
+{
+    QNetworkInformation::loadDefaultBackend();
+    return true;
 }
 
 void SystemNetworkWatcher::setDesiredNetworkPolicy(const NetworkPolicy policy)
 {
+    if (policy != m_desiredPolicy) {
+        m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"),
+                          QStringLiteral("User's preference changed: %1").arg(policyToString(policy)));
+        m_desiredPolicy = policy;
+    }
+    if (m_model->networkPolicy() == NETWORK_OFFLINE && policy != NETWORK_OFFLINE) {
+        // We are asked to connect, the model is not connected yet
+        if (isOnline()) {
+            m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"), QStringLiteral("Network is online -> connecting"));
+            reconnectModelNetwork();
+        } else {
+            // We aren't online yet, but we will become online at some point. When that happens, reconnectModelNetwork() will
+            // be called, so there is nothing to do from this place.
+            m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"), QStringLiteral("Opening network session"));
+        }
+    } else if (m_model->networkPolicy() != NETWORK_OFFLINE && policy == NETWORK_OFFLINE) {
+        // This is pretty easy -- just disconnect the model
+        m_model->setNetworkPolicy(NETWORK_OFFLINE);
+        m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"), QStringLiteral("Closing network session"));
+    } else {
+        // No need to connect/disconnect/reconnect, yay!
+        m_model->setNetworkPolicy(m_desiredPolicy);
+    }
+}
+
+void SystemNetworkWatcher::detectCapabilities()
+{
+    auto ni = QNetworkInformation::instance();
+    QStringList caps;
+
+    if (ni->supports(QNetworkInformation::Feature::Metered)) {
+        connect(ni, &QNetworkInformation::isMeteredChanged, this, &SystemNetworkWatcher::onIsMeteredChanged);
+        caps.append(QStringLiteral("- METERED: current value (%0)").arg(meteredToString(ni->isMetered())));
+    }
+
+    if (ni->supports(QNetworkInformation::Feature::Reachability)) {
+        connect(ni, &QNetworkInformation::reachabilityChanged, this, &SystemNetworkWatcher::onReachabilityChanged);
+        caps.append(QStringLiteral("- REACHABILITY: current value (%0)").arg(reachabilityToString(ni->reachability())));
+    }
+
+    if (ni->supports(QNetworkInformation::Feature::TransportMedium)) {
+        connect(ni, &QNetworkInformation::transportMediumChanged, this, &SystemNetworkWatcher::onTransportMediumChanged);
+        caps.append(QStringLiteral("- TRANSPORTMEDIUM: current value (%0)").arg(transportMediumToString(
+                                                                                              ni->transportMedium())));
+    }
+
     m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"),
-                      QStringLiteral("Change of configuration of the current session is not implemented"));
+                      QStringLiteral("Starting, features detected:"));
+
+    caps.append(QStringLiteral("- BACKEND: %1").arg(ni->backendName()));
+    for (const QString &cap : caps) {
+        m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"), cap);
+    }
+}
+
+void SystemNetworkWatcher::onIsMeteredChanged(bool isMetered)
+{
+    m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"),
+                      QStringLiteral("Metered is changed to %0").arg(meteredToString(isMetered)));
+    if (isMetered) {
+        m_model->setNetworkPolicy(NETWORK_EXPENSIVE);
+    }
+}
+
+void SystemNetworkWatcher::onReachabilityChanged(QNetworkInformation::Reachability newReachability)
+{
+    Q_UNUSED(newReachability)
+
+    if (isOnline()) {
+        m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"), QStringLiteral("System is back online"));
+        setDesiredNetworkPolicy(m_desiredPolicy);
+    } else {
+        m_model->setNetworkPolicy(NETWORK_OFFLINE);
+        // The session remains open, so that we indicate our intention to reconnect after the connectivity is restored
+        // (or when a configured AP comes back to range, etc).
+    }
+}
+
+void SystemNetworkWatcher::onTransportMediumChanged(QNetworkInformation::TransportMedium current)
+{
+    m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"),
+                      QStringLiteral("Transport medium changed to %0").arg(transportMediumToString(current)));
+}
+
+bool SystemNetworkWatcher::isOnline()
+{
+    // This might not be strictly accurate, as the IMAP server
+    // could be running on a local or intra network, but we
+    // can't really know that
+    auto ni = QNetworkInformation::instance();
+    return ni->reachability() == QNetworkInformation::Reachability::Online;
+}
+
+void SystemNetworkWatcher::reconnectModelNetwork()
+{
+    m_model->logTrace(0, Common::LOG_OTHER, QStringLiteral("Network Session"),
+                        QStringLiteral("Session is %1").arg(
+                          QLatin1String(isOnline() ? "online" : "offline")
+                          ));
+    if (!isOnline()) {
+        m_model->setNetworkPolicy(NETWORK_OFFLINE);
+        return;
+    }
+
+    m_model->setNetworkPolicy(m_desiredPolicy);
 }
 }
 }
