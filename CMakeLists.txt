@@ -45,6 +45,7 @@ trojita_option(WITH_SHARED_PLUGINS "Enable shared dynamic plugins" ON)
 trojita_option(BUILD_TESTING "Build tests" ON)
 trojita_option(WITH_MIMETIC "Build with client-side MIME parsing" AUTO)
 trojita_option(WITH_GPGMEPP "Use GpgME's native C++ bindings" AUTO)
+trojita_option(WITH_WEBKIT "Build with support for viewing mails" ON)
 
 if(WIN32)
     trojita_option(WITH_NSIS "Build Windows NSIS installer" AUTO "WITH_DESKTOP")
@@ -60,7 +61,9 @@ find_package(Qt5Core 5.15 REQUIRED)
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Network REQUIRED)
 find_package(Qt5Sql REQUIRED)
-find_package(Qt5WebKitWidgets REQUIRED)
+
+trojita_find_package(Qt5WebKitWidgets "" "" "Qt5 Webkit" "Required for displaying mail contents" WITH_WEBKIT)
+
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5Svg REQUIRED)
 trojita_find_package(Qt5DBus "" "http://qt-project.org" "Qt5 D-Bus support" "Needed for IPC and for some plugins" WITH_DBUS)
@@ -217,6 +220,14 @@ else()
     message(STATUS "Disabling COMPRESS=DEFLATE, zlib is not available")
 endif()
 
+if (WITH_WEBKIT)
+    set(TROJITA_HAVE_WEBKIT True)
+    message(STATUS "Support for viewing mails is enabled")
+else()
+    set(TROJITA_HAVE_WEBKIT False)
+    message(STATUS "Disabling support for viewing mails, Qt Webkit is not available")
+endif()
+
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/configure.cmake.in
     ${CMAKE_CURRENT_BINARY_DIR}/configure.cmake.h)
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/src/configure-plugins.cmake.in
@@ -249,14 +260,20 @@ set(libUiUtils_SOURCES
     ${path_UiUtils}/Color.cpp
     ${path_UiUtils}/Formatting.cpp
     ${path_UiUtils}/IconLoader.cpp
-    ${path_UiUtils}/PartLoadingOptions.h
-    ${path_UiUtils}/PartVisitor.h
-    ${path_UiUtils}/PartWalker.h
-    ${path_UiUtils}/PartWalker_impl.h
     ${path_UiUtils}/PasswordWatcher.cpp
     ${path_UiUtils}/PlainTextFormatter.cpp
     ${path_UiUtils}/QaimDfsIterator.cpp
 )
+
+if(WITH_WEBKIT)
+    set(libUiUtils_SOURCES
+        ${libUiUtils_SOURCES}
+        ${path_UiUtils}/PartLoadingOptions.h
+        ${path_UiUtils}/PartVisitor.h
+        ${path_UiUtils}/PartWalker.h
+        ${path_UiUtils}/PartWalker_impl.h
+    )
+endif()
 
 set(path_IPC ${CMAKE_CURRENT_SOURCE_DIR}/src/IPC)
 
@@ -332,47 +349,31 @@ endif()
 
 set(path_DesktopGui ${CMAKE_CURRENT_SOURCE_DIR}/src/Gui)
 set(libDesktopGui_SOURCES
-    ${path_DesktopGui}/AddressRowWidget.cpp
-    ${path_DesktopGui}/AttachmentView.cpp
     ${path_DesktopGui}/ColoredItemDelegate.cpp
-    ${path_DesktopGui}/CompleteMessageWidget.cpp
     ${path_DesktopGui}/ComposeWidget.cpp
     ${path_DesktopGui}/ComposerAttachmentsList.cpp
     ${path_DesktopGui}/ComposerTextEdit.cpp
-    ${path_DesktopGui}/EmbeddedWebView.cpp
-    ${path_DesktopGui}/EnvelopeView.cpp
     ${path_DesktopGui}/ExternalElementsWidget.cpp
-    ${path_DesktopGui}/FindBar.cpp
     ${path_DesktopGui}/FindBarMixin.cpp
     ${path_DesktopGui}/FlowLayout.cpp
     ${path_DesktopGui}/FromAddressProxyModel.cpp
     ${path_DesktopGui}/LineEdit.cpp
-    ${path_DesktopGui}/LoadablePartWidget.cpp
     ${path_DesktopGui}/MailBoxTreeView.cpp
-    ${path_DesktopGui}/MessageHeadersWidget.cpp
     ${path_DesktopGui}/MessageListWidget.cpp
-    ${path_DesktopGui}/MessageSourceWidget.cpp
-    ${path_DesktopGui}/MessageView.cpp
     ${path_DesktopGui}/MsgItemDelegate.cpp
     ${path_DesktopGui}/MsgListView.cpp
     ${path_DesktopGui}/OnePanelAtTimeWidget.cpp
-    ${path_DesktopGui}/OneEnvelopeAddress.cpp
     ${path_DesktopGui}/OverlayWidget.cpp
-    ${path_DesktopGui}/PartWalker.cpp
-    ${path_DesktopGui}/PartWidget.cpp
-    ${path_DesktopGui}/PartWidgetFactoryVisitor.cpp
     ${path_DesktopGui}/PasswordDialog.cpp
     ${path_DesktopGui}/ProgressPopUp.cpp
     ${path_DesktopGui}/ProtocolLoggerWidget.cpp
     ${path_DesktopGui}/ReplaceCharValidator.cpp
     ${path_DesktopGui}/SettingsDialog.cpp
-    ${path_DesktopGui}/SimplePartWidget.cpp
     ${path_DesktopGui}/Spinner.cpp
     ${path_DesktopGui}/TagAddDialog.cpp
     ${path_DesktopGui}/TagListWidget.cpp
     ${path_DesktopGui}/TagWidget.cpp
     ${path_DesktopGui}/TaskProgressIndicator.cpp
-    ${path_DesktopGui}/UserAgentWebPage.cpp
     ${path_DesktopGui}/Util.cpp
     ${path_DesktopGui}/Window.cpp
     ${path_DesktopGui}/ShortcutHandler/ShortcutConfigDialog.cpp
@@ -382,6 +383,28 @@ set(libDesktopGui_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/icons.qrc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/license.qrc
 )
+
+if(WITH_WEBKIT)
+    set(libDesktopGui_SOURCES
+        ${libDesktopGui_SOURCES}
+        ${path_DesktopGui}/AddressRowWidget.cpp
+        ${path_DesktopGui}/AttachmentView.cpp
+        ${path_DesktopGui}/CompleteMessageWidget.cpp
+        ${path_DesktopGui}/EmbeddedWebView.cpp
+        ${path_DesktopGui}/EnvelopeView.cpp
+        ${path_DesktopGui}/FindBar.cpp
+        ${path_DesktopGui}/LoadablePartWidget.cpp
+        ${path_DesktopGui}/MessageHeadersWidget.cpp
+        ${path_DesktopGui}/MessageSourceWidget.cpp
+        ${path_DesktopGui}/MessageView.cpp
+        ${path_DesktopGui}/OneEnvelopeAddress.cpp
+        ${path_DesktopGui}/PartWalker.cpp
+        ${path_DesktopGui}/PartWidget.cpp
+        ${path_DesktopGui}/PartWidgetFactoryVisitor.cpp
+        ${path_DesktopGui}/SimplePartWidget.cpp
+        ${path_DesktopGui}/UserAgentWebPage.cpp
+)
+endif()
 
 set(libqwwsmtpclient_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/qwwsmtpclient/qwwsmtpclient.cpp)
 
@@ -673,7 +696,11 @@ if(WITH_DESKTOP)
     # The following is needed for the LineEdit widget within the .ui files.
     # The ${path_DesktopGui} is needed so that the generated ui_*.h file can find the headers of the custom widgets
     set_property(TARGET DesktopGui APPEND PROPERTY INCLUDE_DIRECTORIES ${path_DesktopGui})
-    target_link_libraries(DesktopGui Common UiUtils Composer Cryptography Imap IPC MSA Plugins Streams qwwsmtpclient Qt5::WebKitWidgets)
+    target_link_libraries(DesktopGui Common UiUtils Composer Cryptography Imap IPC MSA Plugins Streams qwwsmtpclient)
+
+    if(WITH_WEBKIT)
+        target_link_libraries(DesktopGui Qt5::WebKitWidgets)
+    endif()
 
     ecm_create_qm_loader(trojita_desktop_SOURCES trojita_qt)
 
@@ -740,7 +767,10 @@ if(BUILD_TESTING)
     trojita_test(Composer Composer_responses)
     target_link_libraries(test_Composer_responses)
     trojita_test(Composer Html_formatting)
-    target_link_libraries(test_Html_formatting Qt5::WebKitWidgets)
+    target_link_libraries(test_Html_formatting Qt5::Widgets)
+    if(WITH_WEBKIT)
+        target_link_libraries(test_Html_formatting Qt5::WebKitWidgets)
+    endif()
     trojita_test(Imap Imap_DisappearingMailboxes)
     trojita_test(Imap Imap_Idle)
     trojita_test(Imap Imap_LowLevelParser)

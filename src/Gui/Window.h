@@ -35,6 +35,7 @@
 class QAuthenticator;
 class QCloseEvent;
 class QItemSelection;
+class QLabel;
 class QMessageBox;
 class QModelIndex;
 class QScrollArea;
@@ -263,7 +264,11 @@ private:
     QTreeView *mailMimeTree;
     QDockWidget *mailMimeDock;
 
+#ifdef TROJITA_HAVE_WEBKIT
     CompleteMessageWidget *m_messageWidget;
+#else
+    QLabel *m_messageWidget;
+#endif
 
     ProtocolLoggerWidget *protocolLogger;
     QDockWidget *protocolLoggerDock;

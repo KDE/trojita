@@ -24,6 +24,7 @@
 #define TEST_HTML_FORMATTING
 
 #include <QTest>
+#include "configure.cmake.h"
 #include "UiUtils/PlainTextFormatter.h"
 
 class QWebView;

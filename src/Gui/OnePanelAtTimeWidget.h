@@ -25,7 +25,10 @@
 #include <QPointer>
 #include <QStackedWidget>
 
+#include <configure.cmake.h>
+
 class QAction;
+class QLabel;
 class QMainWindow;
 class QToolBar;
 
@@ -41,8 +44,13 @@ class OnePanelAtTimeWidget: public QStackedWidget
 {
     Q_OBJECT
 public:
+#ifdef TROJITA_HAVE_WEBKIT
     OnePanelAtTimeWidget(QMainWindow *mainWindow, MailBoxTreeView *mboxTree, MessageListWidget *msgListWidget,
                          CompleteMessageWidget *messageWidget, QToolBar *toolbar, QAction* toolbarActions);
+#else
+   OnePanelAtTimeWidget(QMainWindow *mainWindow, MailBoxTreeView *mboxTree, MessageListWidget *msgListWidget,
+                        QLabel *messageWidget, QToolBar *toolbar, QAction* toolbarActions);
+#endif
     virtual ~OnePanelAtTimeWidget();
 
 public slots:
@@ -53,7 +61,12 @@ private:
     QMainWindow *m_mainWindow;
     MailBoxTreeView *m_mboxTree;
     MessageListWidget *m_msgListWidget;
+#ifdef TROJITA_HAVE_WEBKIT
     CompleteMessageWidget *m_messageWidget;
+#else
+    QLabel *m_messageWidget;
+#endif
+
 
     QPointer<QToolBar> m_toolbar;
     QPointer<QAction> m_actionGoBack;

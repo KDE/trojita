@@ -20,12 +20,17 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include "test_Html_formatting.h"
+
 #include <QtTest>
 #include <QAction>
 #include <QTextDocument>
+
+#ifdef TROJITA_HAVE_WEBKIT
 #include <QWebFrame>
 #include <QWebView>
-#include "test_Html_formatting.h"
+#endif
+
 #include "Composer/Recipients.h"
 #include "Composer/ReplaceSignature.h"
 #include "Composer/SenderIdentitiesModel.h"
@@ -234,19 +239,25 @@ void HtmlFormattingTest::testPlainTextFormattingViaHtml_data()
 
 WebRenderingTester::WebRenderingTester()
 {
+#ifdef TROJITA_HAVE_WEBKIT
     m_web = new QWebView(0);
     m_loop = new QEventLoop(this);
     connect(m_web, &QWebView::loadFinished, m_loop, &QEventLoop::quit);
+#endif
 }
 
 WebRenderingTester::~WebRenderingTester()
 {
+#ifdef TROJITA_HAVE_WEBKIT
     delete m_web;
+#endif
 }
 
 QString WebRenderingTester::asPlainText(const QString &input, const UiUtils::FlowedFormat format,
                                         const CollapsingFlags collapsing)
 {
+#ifdef TROJITA_HAVE_WEBKIT
+
     // FIXME: bad pasted thing!
     static const QString stylesheet = QStringLiteral(
         "pre{word-wrap: break-word; white-space: pre-wrap;}"
@@ -274,11 +285,16 @@ QString WebRenderingTester::asPlainText(const QString &input, const UiUtils::Flo
     m_loop->exec();
     m_web->page()->action(QWebPage::SelectAll)->trigger();
     return m_web->page()->selectedText();
+#else
+    return QString();
+#endif
 }
 
 void WebRenderingTester::doDelayedLoad()
 {
+#ifdef TROJITA_HAVE_WEBKIT
     m_web->page()->mainFrame()->setHtml(sourceData);
+#endif
 }
 
 // ...because QCOMPARE uses a fixed buffer for 1024 bytes for the debug printing...
@@ -310,6 +326,7 @@ void HtmlFormattingTest::testPlainTextFormattingViaPaste()
     if (expandedFlowed.isEmpty())
         expandedFlowed = formattedFlowed;
 
+#ifdef TROJITA_HAVE_WEBKIT
 #ifdef SKIP_WEBKIT_TESTS
     QSKIP("ASAN build -- QtWebKit is known to be broken, skipping");
 #else
@@ -331,10 +348,13 @@ void HtmlFormattingTest::testPlainTextFormattingViaPaste()
                  visualizeWhitespace(expandedFlowed));
     }
 #endif
+#endif
 }
 
 void HtmlFormattingTest::testPlainTextFormattingViaPaste_data()
 {
+#ifdef TROJITA_HAVE_WEBKIT
+
     QTest::addColumn<QString>("source");
     QTest::addColumn<QString>("formattedFlowed");
     QTest::addColumn<QString>("formattedPlain");
@@ -587,6 +607,9 @@ void HtmlFormattingTest::testPlainTextFormattingViaPaste_data()
                        "> Ping?\n"
                        "\n"
                        "CC'd Michael directly in case he missed the emails between all the jenkins spam. I'd like to have this sorted out soon too  :)\n");
+#else
+    QSKIP("Test requires Qt Webkit");
+#endif
 }
 
 void HtmlFormattingTest::testPlainTextFormattingViaPasteDelSp()
@@ -595,6 +618,7 @@ void HtmlFormattingTest::testPlainTextFormattingViaPasteDelSp()
     QFETCH(QString, expandedFlowed);
     QFETCH(QString, expandedFlowedDelSp);
 
+#ifdef TROJITA_HAVE_WEBKIT
 #ifdef SKIP_WEBKIT_TESTS
     QSKIP("ASAN build -- QtWebKit is known to be broken, skipping");
 #else
@@ -609,11 +633,13 @@ void HtmlFormattingTest::testPlainTextFormattingViaPasteDelSp()
                  visualizeWhitespace(expandedFlowedDelSp));
     }
 #endif
+#endif
 }
 
 
 void HtmlFormattingTest::testPlainTextFormattingViaPasteDelSp_data()
 {
+#ifdef TROJITA_HAVE_WEBKIT
     QTest::addColumn<QString>("source");
     QTest::addColumn<QString>("expandedFlowed");
     QTest::addColumn<QString>("expandedFlowedDelSp");
@@ -649,6 +675,9 @@ void HtmlFormattingTest::testPlainTextFormattingViaPasteDelSp_data()
             << QStringLiteral("Yesterday: \n>> Test2A. \n>>\n>> Test2B \n>>\nTest0. \n> Test1A. \n> \n>Test 1B. ")
             << QStringLiteral("Yesterday:\n>> Test2A. \n>> \n>> Test2B \n>> \nTest0.\n> Test1A. \n> \n> Test 1B.")
             << QStringLiteral("Yesterday:\n>> Test2A.\n>> \n>> Test2B\n>> \nTest0.\n> Test1A.\n> \n> Test 1B.");
+#else
+    QSKIP("Test requires Qt Webkit");
+#endif
 }
 
 /** @short Test that the link recognition in plaintext -> HTML formatting recognizes the interesting links */
