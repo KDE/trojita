@@ -21,10 +21,6 @@
 */
 
 #include <QtTest>
-#include <QAction>
-#include <QTextDocument>
-#include <QWebFrame>
-#include <QWebView>
 #include "test_Composer_responses.h"
 #include "Composer/Mailto.h"
 #include "Composer/QuoteText.h"
