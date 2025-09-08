@@ -434,7 +434,7 @@
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=trojita&amp;format=guided</url>
   <screenshots>
     <screenshot type="default">
-      <image>http://trojita.flaska.net/img/2016-03-22-trojita-home.png</image>
+      <image>https://cdn.kde.org/screenshots/trojita/2016-03-22-trojita-home.png</image>
     </screenshot>
     <screenshot>
       <caption>Excessively quoted text is automatically collapsed</caption>
@@ -469,7 +469,7 @@
       <caption xml:lang="uk">Автоматичне згортання значних фрагментів цитованих повідомлень.</caption>
       <caption xml:lang="x-test">xxExcessively quoted text is automatically collapsedxx</caption>
       <caption xml:lang="zh-CN">引号过多的文本将自动折叠</caption>
-      <image>http://trojita.flaska.net/img/2016-03-22-quote-collapsing.png</image>
+      <image>https://cdn.kde.org/screenshots/trojita/2016-03-22-quote-collapsing.png</image>
     </screenshot>
     <screenshot>
       <caption>Encrypted and signed e-mail is supported, with status given in plain English</caption>
@@ -504,7 +504,7 @@
       <caption xml:lang="uk">Підтримка шифрування та підписування повідомлень із визначенням стану англійською.</caption>
       <caption xml:lang="x-test">xxEncrypted and signed e-mail is supported, with status given in plain Englishxx</caption>
       <caption xml:lang="zh-CN">支持加密和签名的电子邮件，其状态以纯英文给出。</caption>
-      <image>http://trojita.flaska.net/img/2016-03-22-trojita-signature-missing-key.png</image>
+      <image>https://cdn.kde.org/screenshots/trojita/2016-03-22-trojita-signature-missing-key.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
