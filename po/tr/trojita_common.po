@@ -1,27 +1,23 @@
 # Ongun Kanat <ongun.kanat@gmail.com>, 2013.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2017.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-03-18 19:45+0300\n"
+"PO-Revision-Date: 2025-09-16 06:07+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
-"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 25.07.70\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(from %2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
@@ -31,69 +27,50 @@ msgstr ""
 "(kimden: %2)"
 
 #: src/Composer/ComposerAttachments.cpp:157
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File does not exist"
 msgctxt "MessageComposer|"
 msgid "File does not exist"
-msgstr "Dosya mevcut değil"
+msgstr "Dosya yok"
 
 #: src/Composer/ComposerAttachments.cpp:160
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File is not readable"
 msgctxt "MessageComposer|"
 msgid "File is not readable"
 msgstr "Dosya okunabilir değil"
 
 #: src/Composer/ComposerAttachments.cpp:163
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1: %2, %3"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
 msgstr "%1: %2, %3"
 
 #: src/Composer/ComposerAttachments.cpp:260
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "Message not available"
 msgctxt "MessageComposer|"
 msgid "Message not available"
-msgstr "İleti ulaşılabilir değil"
+msgstr "İleti kullanılabilir değil"
 
 #: src/Composer/ComposerAttachments.cpp:263
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(%2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(%2)"
-msgstr "%1/n (%2)"
+msgstr ""
+"%1\n"
+"(%2)"
 
 #: src/Composer/ComposerAttachments.cpp:273
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP message %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP message %1"
 msgstr "IMAP iletisi %1"
 
 #: src/Composer/ComposerAttachments.cpp:384
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP part %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP part %1"
-msgstr "IMAP %1"
+msgstr "IMAP kısmı %1"
 
 #: src/Composer/ComposerAttachments.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1, %2"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
 msgstr "%1, %2"
@@ -101,7 +78,7 @@ msgstr "%1, %2"
 #: src/Composer/ExistingMessageComposer.cpp:78
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Cannot obtain IMAP URL for CATENATE"
-msgstr "CATENATE için IMAP URL'si alınamadı"
+msgstr "CATENATE için IMAP URL’si alınamadı"
 
 #: src/Composer/MessageComposer.cpp:599 src/Composer/MessageComposer.cpp:630
 #, qt-format
@@ -136,78 +113,46 @@ msgid "Signature"
 msgstr "İmza"
 
 #: src/Composer/Submission.cpp:113
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing to send"
 msgctxt "Submission|"
 msgid "Preparing to send"
 msgstr "Göndermeye hazırlanıyor"
 
 #: src/Composer/Submission.cpp:118
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Creating message"
 msgctxt "Submission|"
 msgid "Creating message"
 msgstr "İleti oluşturuluyor"
 
 #: src/Composer/Submission.cpp:123
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Saving to the sent folder"
 msgctxt "Submission|"
 msgid "Saving to the sent folder"
 msgstr "Gönderilen klasörüne kaydediliyor"
 
 #: src/Composer/Submission.cpp:128
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing message for delivery"
 msgctxt "Submission|"
 msgid "Preparing message for delivery"
 msgstr "İleti teslime hazırlanıyor"
 
 #: src/Composer/Submission.cpp:133
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Submitting message"
 msgctxt "Submission|"
 msgid "Submitting message"
 msgstr "İleti gönderiliyor"
 
 #: src/Composer/Submission.cpp:138
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Updating message keywords"
 msgctxt "Submission|"
 msgid "Updating message keywords"
 msgstr "İleti anahtar sözcükleri güncelleniyor"
 
 #: src/Composer/Submission.cpp:143
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Submission|"
 msgid "Message sent"
 msgstr "İleti gönderildi"
 
 #: src/Composer/Submission.cpp:150
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Sending failed"
 msgctxt "Submission|"
 msgid "Sending failed"
-msgstr "Gönderim başarısız oldu."
+msgstr "Gönderim başarısız oldu"
 
 #: src/Composer/Submission.cpp:180
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "The IMAP connection has disappeared. You'll have close the composer, save "
-#| "the draft and re-open it later. The attachments will have to be added "
-#| "later. Sorry for the trouble, please see <a href=\"https://projects."
-#| "flaska.net/issues/640\">https://projects.flaska.net/issues/640</a> for "
-#| "details."
 msgctxt "Submission|"
 msgid ""
 "The IMAP connection has disappeared. You'll have close the composer, save "
@@ -216,58 +161,42 @@ msgid ""
 "issues/640\">https://projects.flaska.net/issues/640</a> for details."
 msgstr ""
 "IMAP bağlantısı kayboldu. İleti oluşturucuyu kapatın, taslağı kaydedin ve "
-"sonra tekrar açın. Ekler sonradan yeniden eklenmelidir. Hata için özür "
-"dileriz, detaylar için <a href=\"https://projects.flaska.net/"
-"issues/640\">https://projects.flaska.net/issues/640</a> bağlantısına bakınız."
+"sonra yeniden açın. Ekler sonradan yeniden eklenmelidir. Hata için özür "
+"dileriz, ayrıntılar için <a href=\"https://projects.flaska.net/"
+"issues/640\">https://projects.flaska.net/issues/640</a> bağlantısına bakın."
 
 #: src/Composer/Submission.cpp:195
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Some data are not available yet"
 msgctxt "Submission|"
 msgid "Some data are not available yet"
-msgstr "Bazı veriler henüz ulaşılabilir değil"
+msgstr "Bazı veriler henüz kullanılabilir değil"
 
 #: src/Composer/Submission.cpp:211
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving failed:\n"
 " %1"
 msgstr ""
-"İletiniz şu anda gönderilmedi -- kaydetme başarısız oldu:\n"
+"İletiniz şu anda gönderilmedi — kaydetme başarısız oldu:\n"
 " %1"
 
 #: src/Composer/Submission.cpp:215
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving (CATENATE) failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving (CATENATE) failed:\n"
 " %1"
 msgstr ""
-"İletiniz şu anda gönderilemedi  -- (CATENATE) kaydetme başarısız oldu:\n"
+"İletiniz şu anda gönderilemedi — (CATENATE) kaydetme başarısız oldu:\n"
 " %1"
 
 #: src/Composer/Submission.cpp:361
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid "APPEND failed: %1"
+#, qt-format
 msgctxt "Submission|"
 msgid "APPEND failed: %1"
 msgstr "APPEND başarısız: %1"
 
 #: src/Composer/Submission.cpp:391
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "The URLAUTH response does not contain a proper URL"
 msgctxt "Submission|"
 msgid "The URLAUTH response does not contain a proper URL"
 msgstr "URLAUTH karşılığı geçerli URL barındırmıyor"
@@ -279,36 +208,22 @@ msgid "[getAuditLog failed: %1]"
 msgstr "[getAuditLog başarısız: %1]"
 
 #: src/Cryptography/GpgMe++.cpp:170
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Waiting for data..."
 msgctxt "GpgMePart|"
 msgid "Waiting for data..."
-msgstr "Veri bekleniyor..."
+msgstr "Veri bekleniyor…"
 
 #: src/Cryptography/GpgMe++.cpp:313
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted; some signature: missing key"
 msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
 msgstr "Şifreli; imza: Eksik anahtar"
 
 #: src/Cryptography/GpgMe++.cpp:313
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Some signature: missing key"
 msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
 msgstr "İmza: Eksik anahtar"
 
 #: src/Cryptography/GpgMe++.cpp:314
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid ""
-#| "Key %1 is not available in the keyring.\n"
-#| "Cannot verify signature validity or do anything else. The message might "
-#| "or might not have been tampered with."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid ""
 "Key %1 is not available in the keyring.\n"
@@ -316,634 +231,429 @@ msgid ""
 "might not have been tampered with."
 msgstr ""
 "%1 anahtar anahtarlıkta kullanılabilir değil.\n"
-"İmza geçerliliği doğrulanamıyor ya da başka bir şey yapılamıyor. İletiyle "
+"İmza geçerliliği doğrulanamıyor veya başka bir şey yapılamıyor. İletiyle "
 "oynanmış olabilir."
 
 #: src/Cryptography/GpgMe++.cpp:325
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Internal error"
 msgctxt "GpgMePart|"
 msgid "Internal error"
-msgstr "Dahili hata"
+msgstr "İçsel hata"
 
 #: src/Cryptography/GpgMe++.cpp:326
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Error when verifying signature: cannot retrieve key %1: %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
 msgstr "İmza onaylamada hata: %1 anahtarı alınamıyor: %2"
 
 #: src/Cryptography/GpgMe++.cpp:376
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, verified signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
 msgstr "Şifreli, onaylı imza"
 
 #: src/Cryptography/GpgMe++.cpp:376
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature"
 msgctxt "GpgMePart|"
 msgid "Verified signature"
 msgstr "Onaylı imza"
 
 #: src/Cryptography/GpgMe++.cpp:377
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
 msgstr "İmza %2 üstünde %1 ile onaylandı"
 
 #: src/Cryptography/GpgMe++.cpp:382
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, signed by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
-msgstr "Şifreli, yabancı tarafca imzalanmış"
+msgstr "Şifreli, yabancı tarafça imzalanmış"
 
 #: src/Cryptography/GpgMe++.cpp:382
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signed by stranger"
 msgctxt "GpgMePart|"
 msgid "Signed by stranger"
 msgstr "Yabancı tarafından imzalanmış"
 
 #: src/Cryptography/GpgMe++.cpp:383
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid ""
-#| "Verified signature, but the signer is someone else:\n"
-#| "%1\n"
-#| "Signature was made on %2."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid ""
 "Verified signature, but the signer is someone else:\n"
 "%1\n"
 "Signature was made on %2."
 msgstr ""
-"Onaylı imza, ama imzalayan başka biri:\n"
+"Onaylı imza; ancak imzalayan başka biri:\n"
 "%1\n"
-"İmza %2 üzerinde yapılmış."
+"İmza %2 tarihinde yapılmış."
 
 #: src/Cryptography/GpgMe++.cpp:390
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
 msgstr "Şifreli, kötü imza"
 
 #: src/Cryptography/GpgMe++.cpp:390
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature"
 msgctxt "GpgMePart|"
 msgid "Bad signature"
 msgstr "Kötü imza"
 
 #: src/Cryptography/GpgMe++.cpp:393
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
 msgstr "Şifreli, kötü imza: %1"
 
 #: src/Cryptography/GpgMe++.cpp:394
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
 msgstr "Kötü imza: %1"
 
 #: src/Cryptography/GpgMe++.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
 msgstr "%2 üzerinde %1 tarafından kötü imza"
 
 #: src/Cryptography/GpgMe++.cpp:399
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
-msgstr "Şifreli, ama imza yabancıya ait"
+msgstr "Şifreli; ancak imza yabancıya ait"
 
 #: src/Cryptography/GpgMe++.cpp:399
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
 msgstr "Yabancıdan kötü imza"
 
 #: src/Cryptography/GpgMe++.cpp:402
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature by stranger: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
 msgstr "Şifreli, yabancıdan kötü imza: %1"
 
 #: src/Cryptography/GpgMe++.cpp:403
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by stranger: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
 msgstr "Yabancıdan kötü imza: %1"
 
 #: src/Cryptography/GpgMe++.cpp:405
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by someone else: %1 on %2."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by someone else: %1 on %2."
-msgstr "Başka birinden kötü imza: %2 üzerinde %1."
+msgstr "Başka birinden kötü imza: %2 tarihinde %1."
 
 #: src/Cryptography/GpgMe++.cpp:421
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, some signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
 msgstr "Şifreli, imza"
 
 #: src/Cryptography/GpgMe++.cpp:421
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Some signature"
 msgctxt "GpgMePart|"
 msgid "Some signature"
 msgstr "İmza"
 
 #: src/Cryptography/GpgMe++.cpp:422
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Unknown signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature from %1 on %2"
-msgstr "%2 üzerinde %1 den bilinmeyen imza"
+msgstr "%2 tarihinde %1 kişisinden bilinmeyen imza"
 
 #: src/Cryptography/GpgMe++.cpp:426
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, some signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
 msgstr "Şifreli, yabancı tarafından bir imza"
 
 #: src/Cryptography/GpgMe++.cpp:426
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Some signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
 msgstr "Yabancıdan bir imza"
 
 #: src/Cryptography/GpgMe++.cpp:427
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Unknown signature by somebody else: %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature by somebody else: %1 on %2"
-msgstr "Başka birinden bilinmeyen imza: %2 üzerinde %1"
+msgstr "Başka birinden bilinmeyen imza: %2 tarihinde %1"
 
 #: src/Cryptography/GpgMe++.cpp:435
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, semi-trusted signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
-msgstr "Şifreli, yarı-güvenilir imza"
+msgstr "Şifreli, yarı güvenilir imza"
 
 #: src/Cryptography/GpgMe++.cpp:435
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature"
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
-msgstr "Yarı-güvenilir imza"
+msgstr "Yarı güvenilir imza"
 
 #: src/Cryptography/GpgMe++.cpp:436
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature from %1 on %2"
-msgstr "%2 üzerinde %1 tarafından yarı-güvenilir imza"
+msgstr "%2 tarihinde %1 tarafından yarı güvenilir imza"
 
 #: src/Cryptography/GpgMe++.cpp:441
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, semi-trusted signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature by stranger"
-msgstr "Şifreli, yabancıya ait yarı-güvenilir imza"
+msgstr "Şifreli, yabancıya ait yarı güvenilir imza"
 
 #: src/Cryptography/GpgMe++.cpp:442
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by stranger"
-msgstr "Yabancıya ait yarı-güvenilir imza"
+msgstr "Yabancıya ait yarı güvenilir imza"
 
 #: src/Cryptography/GpgMe++.cpp:443
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature by somebody else: %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by somebody else: %1 on %2"
-msgstr "Başka biri tarafından yarı-güvenilir imza: %2 üzerinde %1"
+msgstr "Başka biri tarafından yarı güvenilir imza: %2 tarihinde %1"
 
 #: src/Cryptography/GpgMe++.cpp:456
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "The key or at least one certificate has been revoked."
 msgctxt "GpgMePart|"
 msgid "The key or at least one certificate has been revoked."
-msgstr "Anahtar ya da en az bir sertifika iptal edilmiş."
+msgstr "Anahtar veya en az bir sertifika iptal edilmiş."
 
 #: src/Cryptography/GpgMe++.cpp:461
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "The key or one of the certificates has expired."
 msgctxt "GpgMePart|"
 msgid "The key or one of the certificates has expired."
-msgstr "Anahtar ya da sertifikalardan birinin süresi dolmuş."
+msgstr "Anahtar veya sertifikalardan birinin süresi dolmuş."
 
 #: src/Cryptography/GpgMe++.cpp:465
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature expired on %1."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Signature expired on %1."
-msgstr "İmzanın süresi %1 de dolmuş."
+msgstr "İmzanın süresi %1 tarihinde dolmuş."
 
 #: src/Cryptography/GpgMe++.cpp:470
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Can't verify due to a missing key or certificate."
 msgctxt "GpgMePart|"
 msgid "Can't verify due to a missing key or certificate."
-msgstr "Eksik anahtar ya da sertifika yüzünden onaylanamıyor."
+msgstr "Eksik anahtar veya sertifika yüzünden onaylanamıyor."
 
 #: src/Cryptography/GpgMe++.cpp:474
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "The CRL (or an equivalent mechanism) is not available."
 msgctxt "GpgMePart|"
 msgid "The CRL (or an equivalent mechanism) is not available."
-msgstr "CRL (ya da eşlenik mekanizma) kullanılabilir değil."
+msgstr "CRL (veya eşlenik mekanizma) kullanılabilir değil."
 
 #: src/Cryptography/GpgMe++.cpp:478
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Available CRL is too old."
 msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
-msgstr "Kullanılabilir CRL çok eksi."
+msgstr "Kullanılabilir CRL çok eski."
 
 #: src/Cryptography/GpgMe++.cpp:482
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "A policy requirement was not met."
 msgctxt "GpgMePart|"
 msgid "A policy requirement was not met."
-msgstr "Bir ilke gerekliliği karşılanmadı."
+msgstr "Bir politika gerekliliği karşılanmadı."
 
 #: src/Cryptography/GpgMe++.cpp:486
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "A system error occurred. %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
 msgstr "Bir sistem hatası meydana geldi. %1"
 
 #: src/Cryptography/GpgMe++.cpp:495
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is undefined."
 msgctxt "GpgMePart|"
 msgid "Signature validity is undefined."
 msgstr "İmza geçerliliği tanımlanmamış."
 
 #: src/Cryptography/GpgMe++.cpp:499
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is never to be trusted."
 msgctxt "GpgMePart|"
 msgid "Signature validity is never to be trusted."
 msgstr "İmza geçerliliği güvenilir değil."
 
 #: src/Cryptography/GpgMe++.cpp:503
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is marginal."
 msgctxt "GpgMePart|"
 msgid "Signature validity is marginal."
 msgstr "İmza geçerliliği marjinal."
 
 #: src/Cryptography/GpgMe++.cpp:507
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is full."
 msgctxt "GpgMePart|"
 msgid "Signature validity is full."
 msgstr "İmza geçerliliği tam."
 
 #: src/Cryptography/GpgMe++.cpp:511
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is ultimate."
 msgctxt "GpgMePart|"
 msgid "Signature validity is ultimate."
 msgstr "İmza geçerliliği sınırsız."
 
 #: src/Cryptography/GpgMe++.cpp:515
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is unknown."
 msgctxt "GpgMePart|"
 msgid "Signature validity is unknown."
 msgstr "İmza geçerliliği bilinmiyor."
 
 #: src/Cryptography/GpgMe++.cpp:525
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Trust chain:"
 msgctxt "GpgMePart|"
 msgid "Trust chain:"
 msgstr "Güven zinciri:"
 
 #: src/Cryptography/GpgMe++.cpp:531
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "%1(Unavailable)"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
-msgstr "%1(Kullanılamaz)"
+msgstr "%1 (kullanılamıyor)"
 
 #: src/Cryptography/GpgMe++.cpp:535
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "%1(self-signed)"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(self-signed)"
-msgstr "%1(kendinden imzalı)"
+msgstr "%1 (kendinden imzalı)"
 
 #: src/Cryptography/GpgMe++.cpp:544
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Error when retrieving key for the trust chain: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when retrieving key for the trust chain: %1"
 msgstr "Güven zinciri için anahtar alırken hata: %1"
 
 #: src/Cryptography/GpgMe++.cpp:554
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature invalidity reason: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Signature invalidity reason: %1"
-msgstr "İmza geçersizlik sebebi: %1"
+msgstr "İmza geçersizlik nedeni: %1"
 
 #: src/Cryptography/GpgMe++.cpp:616
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Malformed Signed Message"
 msgctxt "GpgMeSigned|"
 msgid "Malformed Signed Message"
 msgstr "Bozulmuş İmzalı İleti"
 
 #: src/Cryptography/GpgMe++.cpp:617
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Expected 2 parts, but found %1."
+#, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Expected 2 parts, but found %1."
-msgstr "2 kısım beklendi, ama %1 bulundu."
+msgstr "2 kısım beklendi; ancak %1 bulundu."
 
 #: src/Cryptography/GpgMe++.cpp:621
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Cannot verify signature"
 msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
 msgstr "İmza onaylanamıyor"
 
 #: src/Cryptography/GpgMe++.cpp:622
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Failed to initialize GpgME (%1)"
+#, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr "GpgME ilklendirilemedi (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:642
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Signed message is gone"
 msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
 msgstr "İmzalı ileti gitmiş"
 
 #: src/Cryptography/GpgMe++.cpp:654
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Data Unavailable"
 msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
-msgstr "Veri Kullanılamaz"
+msgstr "Veri Kullanılamıyor"
 
 #: src/Cryptography/GpgMe++.cpp:655
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid ""
-#| "Some data are not available, perhaps due to an offline network connection"
 msgctxt "GpgMeSigned|"
 msgid ""
 "Some data are not available, perhaps due to an offline network connection"
-msgstr "Bazı veriler kullanılabilir değil, belki ağ bağlantısı çevrim dışıdır"
+msgstr "Bazı veriler kullanılabilir değil, belki ağ bağlantısı çevrimdışıdır"
 
 #: src/Cryptography/GpgMe++.cpp:675
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Verifying signature..."
 msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
-msgstr "İmza onaylanıyor..."
+msgstr "İmza onaylanıyor…"
 
 #: src/Cryptography/GpgMe++.cpp:700
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "No signatures in the signed message"
 msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
 msgstr "İmzalı iletide imza yok"
 
 #: src/Cryptography/GpgMe++.cpp:740 src/Cryptography/GpgMe++.cpp:814
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Malformed Encrypted Message"
 msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
 msgstr "Bozuk Şifreli İleti"
 
 #: src/Cryptography/GpgMe++.cpp:741
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
-msgstr "Şifreli OpenPGP iletisi için 2 kısım beklendi, ama %1 bulundu."
+msgstr "Şifreli OpenPGP iletisi için 2 kısım beklendi; ancak %1 bulundu."
 
 #: src/Cryptography/GpgMe++.cpp:766
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Cannot descrypt"
 msgctxt "GpgMeEncrypted|"
 msgid "Cannot descrypt"
 msgstr "Şifre çözülemiyor"
 
 #: src/Cryptography/GpgMe++.cpp:767
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Failed to initialize GpgME (%1)"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr "GpgME ilklendirilemedi (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:787 src/Cryptography/GpgMe++.cpp:923
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message is gone"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
 msgstr "Şifreli ileti gitmiş"
 
 #: src/Cryptography/GpgMe++.cpp:797
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Data Unavailable"
 msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
-msgstr "Veri Kullanılamaz"
+msgstr "Veri Kullanılamıyor"
 
 #: src/Cryptography/GpgMe++.cpp:798
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid ""
-#| "Cannot decrypt. Some data are not available, perhaps due to an offline "
-#| "network connection."
 msgctxt "GpgMeEncrypted|"
 msgid ""
 "Cannot decrypt. Some data are not available, perhaps due to an offline "
 "network connection."
 msgstr ""
 "Şifre çözülemiyor. Bazı veriler kullanılabilir değil, belki ağ bağlantısı "
-"çevrim dışıdır."
+"çevrimdışıdır."
 
 #: src/Cryptography/GpgMe++.cpp:815
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
-msgstr ""
-"Desteklenmeyen PGP/MIME sürümü. \"Sürüm: 1\" beklenirken, \"%1\" alındı."
+msgstr "Desteklenmeyen PGP/MIME sürümü. “Sürüm: 1” beklenirken, “%1” alındı."
 
 #: src/Cryptography/GpgMe++.cpp:821
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Decrypting..."
 msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
-msgstr "Şifresi çözülüyor..."
+msgstr "Şifresi çözülüyor…"
 
 #: src/Cryptography/GpgMe++.cpp:864
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Broken encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
 msgstr "Kırık şifreli ileti"
 
 #: src/Cryptography/GpgMe++.cpp:867
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Decryption error: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Decryption error: %1"
 msgstr "Şifre çözme hatası: %1"
 
 #: src/Cryptography/GpgMe++.cpp:870
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
 msgstr "Şifreli ileti"
 
 #: src/Cryptography/GpgMe++.cpp:876
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Wrong key usage, not for encryption"
 msgctxt "GpgMeEncrypted|"
 msgid "Wrong key usage, not for encryption"
 msgstr "Yanlış anahtar kullanımı, şifreleme için değil"
 
 #: src/Cryptography/GpgMe++.cpp:880
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Unsupported algorithm: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
 msgstr "Desteklenmeyen algoritma: %1"
 
 #: src/Cryptography/GpgMe++.cpp:888
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Cannot extract recipient %1: %2"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Cannot extract recipient %1: %2"
 msgstr "Alıcı çıkarılamadı %1: %2"
 
 #: src/Cryptography/GpgMe++.cpp:893
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted to %1 (%2)"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
-msgstr "%1 e şifrelendi (%2)"
+msgstr "%1 kişisine şifrelendi (%2)"
 
 #: src/Cryptography/GpgMe++.cpp:897
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted to %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
-msgstr "%1 e şifrelendi"
+msgstr "%1 kişisine şifrelendi"
 
 #: src/Cryptography/GpgMe++.cpp:903
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Original filename: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Original filename: %1"
-msgstr "Asıl dosya adı: %1"
+msgstr "Özgün dosya adı: %1"
 
 #: src/Gui/AboutDialog.ui:14
 msgctxt "AboutDialog|"
@@ -956,20 +666,15 @@ msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
 msgstr "<p><b>Trojitá</b>, hızlı bir Qt IMAP e-posta istemcisidir</p>"
 
 #: src/Gui/AddressRowWidget.cpp:130
-#, fuzzy, qt-format
-#| msgctxt "Gui::Expander|"
-#| msgid "Click to see %1 more items"
+#, qt-format
 msgctxt "Expander|"
 msgid "Click to see %1 more items"
-msgstr "%1 öge daha görmek için tıkla"
+msgstr "%1 öge daha görmek için tıklayın"
 
 #: src/Gui/AddressRowWidget.cpp:130
-#, fuzzy
-#| msgctxt "Gui::Expander|"
-#| msgid "Click to collapse"
 msgctxt "Expander|"
 msgid "Click to collapse"
-msgstr "Daraltmak için tıkla"
+msgstr "Daraltmak için tıklayın"
 
 #: src/Gui/AttachmentView.cpp:87
 msgctxt "Gui::AttachmentView|"
@@ -1021,7 +726,7 @@ msgstr "Satıriçi Gönder"
 #: src/Gui/ComposerAttachmentsList.cpp:53
 msgctxt "ComposerAttachmentsList|"
 msgid "Rename..."
-msgstr "Yeniden Adlandır..."
+msgstr "Yeniden Adlandır…"
 
 #: src/Gui/ComposerAttachmentsList.cpp:57
 msgctxt "ComposerAttachmentsList|"
@@ -1046,7 +751,7 @@ msgstr "Alıntı Olarak Yapıştır"
 #: src/Gui/ComposeWidget.cpp:126
 msgctxt "QWidget|"
 msgid "Cancel..."
-msgstr "İptal..."
+msgstr "İptal…"
 
 #: src/Gui/ComposeWidget.cpp:126
 msgctxt "QWidget|"
@@ -1054,27 +759,16 @@ msgid "Cancel"
 msgstr "İptal"
 
 #: src/Gui/ComposeWidget.cpp:195
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Send"
 msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Gönder"
 
 #: src/Gui/ComposeWidget.cpp:234
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "New Thread"
 msgctxt "ComposeWidget|"
 msgid "New Thread"
-msgstr "Yeni Konu"
+msgstr "Yeni İleti Dizisi"
 
 #: src/Gui/ComposeWidget.cpp:237
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "This mail will be sent as a standalone message.<hr/>Change to preserve "
-#| "the reply hierarchy."
 msgctxt "ComposeWidget|"
 msgid ""
 "This mail will be sent as a standalone message.<hr/>Change to preserve the "
@@ -1084,35 +778,21 @@ msgstr ""
 "korumak için değiştirin."
 
 #: src/Gui/ComposeWidget.cpp:238
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Threaded"
 msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Konulara Ayrılmış"
 
 #: src/Gui/ComposeWidget.cpp:358
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Error"
 msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Hata"
 
 #: src/Gui/ComposeWidget.cpp:358
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Please set appropriate settings for outgoing messages."
 msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
-msgstr "Lütfen giden iletiler için uygun ayarları ayarlayın."
+msgstr "Lütfen giden iletiler için uygun ayarları yapın."
 
 #: src/Gui/ComposeWidget.cpp:511
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "It doesn't look like this is a message to the mailing list. Please fill "
-#| "in the recipients manually."
 msgctxt "ComposeWidget|"
 msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
@@ -1122,12 +802,6 @@ msgstr ""
 "doldurun."
 
 #: src/Gui/ComposeWidget.cpp:514
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "Trojitá was unable to safely determine the real e-mail address of the "
-#| "author of the message. You might want to use the \"Reply All\" function "
-#| "and trim the list of addresses manually."
 msgctxt "ComposeWidget|"
 msgid ""
 "Trojitá was unable to safely determine the real e-mail address of the author "
@@ -1135,87 +809,56 @@ msgid ""
 "the list of addresses manually."
 msgstr ""
 "Trojitá iletinin yazarının e-posta adresini güvenli bir şekilde "
-"belirleyemedi. \"Hepsini Yanıtla\" seçeneğini kullanarak tüm listeden "
-"adresleri elle seçmek isteyebilirsiniz. "
+"belirleyemedi. “Tümünü Yanıtla” seçeneğini kullanarak tüm listeden adresleri "
+"elle seçmek isteyebilirsiniz. "
 
 #: src/Gui/ComposeWidget.cpp:519
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cannot Determine Recipients"
 msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Alıcılar Belirlenemiyor"
 
 #: src/Gui/ComposeWidget.cpp:566
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Sender"
 msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Gönderen"
 
 #: src/Gui/ComposeWidget.cpp:572
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Resend Mail: %1"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "Postayı Yeniden Gönder: %1"
 
 #: src/Gui/ComposeWidget.cpp:572
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "(no subject)"
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(konu yok)"
 
 #: src/Gui/ComposeWidget.cpp:584
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Message has no subject"
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "İletinin konusu yok"
 
 #: src/Gui/ComposeWidget.cpp:587
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "The Message-ID header is missing"
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
-msgstr "Message-ID başlığı eksik"
+msgstr "Message-ID üstbilgisi eksik"
 
 #: src/Gui/ComposeWidget.cpp:590
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Message has no date"
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "İletinin tarihi yok"
 
 #: src/Gui/ComposeWidget.cpp:593
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Nothing in the From field"
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
-msgstr "From alanı boş"
+msgstr "Kimden alanı boş"
 
 #: src/Gui/ComposeWidget.cpp:596
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "No recipients in the To field"
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
-msgstr "To alanı boş"
+msgstr "Kime alanı boş"
 
 #: src/Gui/ComposeWidget.cpp:599
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "<b>This message appears to be malformed, please be careful before sending "
-#| "it.</b>"
 msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
@@ -1225,44 +868,28 @@ msgstr ""
 "dikkatli olun.</b>"
 
 #: src/Gui/ComposeWidget.cpp:688
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Authentication Required"
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Kimlik Doğrulama Gerekli"
 
 #: src/Gui/ComposeWidget.cpp:689
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 "<p>Lütfen <b>%2</b> üzerindeki <b>%1</b> için SMTP parolasını yazın:</p>"
 
 #: src/Gui/ComposeWidget.cpp:723
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save Draft?"
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Taslak kaydedilsin mi?"
 
 #: src/Gui/ComposeWidget.cpp:724
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "E-posta gönderilmedi.<br>Taslak olarak kaydetmek istiyor musunuz?"
 
 #: src/Gui/ComposeWidget.cpp:726
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved "
-#| "with the draft!</span>"
 msgctxt "ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
@@ -1278,27 +905,17 @@ msgid "Drafts"
 msgstr "Taslaklar"
 
 #: src/Gui/ComposeWidget.cpp:747
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save as"
 msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Farklı Kaydet"
 
 #: src/Gui/ComposeWidget.cpp:748
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Drafts"
 msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Taslaklar"
 
 #: src/Gui/ComposeWidget.cpp:777
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "Cannot parse recipients:\n"
-#| "%1"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid ""
 "Cannot parse recipients:\n"
@@ -1308,141 +925,93 @@ msgstr ""
 "%1"
 
 #: src/Gui/ComposeWidget.cpp:781
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "You haven't entered any recipients"
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
-msgstr "Hiç alıcı girmediniz"
+msgstr "Bir alıcı girmediniz"
 
 #: src/Gui/ComposeWidget.cpp:789
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "The From: address does not look like a valid one"
 msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
-msgstr "\"Kimden:\" adresi geçerli bir adres gibi görünmüyor"
+msgstr "“Kimden:” adresi, geçerli bir adres gibi görünmüyor"
 
 #: src/Gui/ComposeWidget.cpp:796
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr "Herhangi bir konu girmediniz. Böyle bir ileti gönderilemez, üzgünüz."
 
 #: src/Gui/ComposeWidget.cpp:828
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
 "Bu e-posta gönderim için hazırlanamıyor: bazı kısımlar kullanılabilir değil"
 
 #: src/Gui/ComposeWidget.cpp:919 src/Gui/ComposeWidget.cpp:1794
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "This mail will be marked as a response<hr/>%1"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Bu ileti yanıt olarak işaretlenecek<hr/>%1"
 
 #: src/Gui/ComposeWidget.cpp:1097
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Kime"
 
 #: src/Gui/ComposeWidget.cpp:1098
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Kopya"
 
 #: src/Gui/ComposeWidget.cpp:1099
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "ComposeWidget|"
 msgid "Bcc"
-msgstr "Gizli kopya"
+msgstr "Gizli Kopya"
 
 #: src/Gui/ComposeWidget.cpp:1101
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Resent-To"
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Şuna Yeniden Gönder"
 
 #: src/Gui/ComposeWidget.cpp:1102
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Resent-Cc"
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Yeniden Gönderme Kopyası"
 
 #: src/Gui/ComposeWidget.cpp:1103
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Resent-Bcc"
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Yeniden Gönderme Gizli Kopyası"
 
 #: src/Gui/ComposeWidget.cpp:1387
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
-msgstr "E-posta gönderimi başarısız oldu."
+msgstr "Posta Gönderilemedi"
 
 #: src/Gui/ComposeWidget.cpp:1414
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Can't parse \"%1\" as an e-mail address."
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
-msgstr "\"%1\" bir e-posta adresi olarak işlenemedi."
+msgstr "“%1”, bir e-posta adresi olarak ayrıştırılamıyor."
 
 #: src/Gui/ComposeWidget.cpp:1613
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Attach File..."
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
-msgstr "Dosya İliştir..."
+msgstr "Dosya İliştir…"
 
 #: src/Gui/ComposeWidget.cpp:1795
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "<br/>"
 msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
 #: src/Gui/ComposeWidget.cpp:1838
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Compose Mail"
 msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Posta Oluştur"
 
 #: src/Gui/ComposeWidget.cpp:1840
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "%1 - Compose Mail"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
-msgstr "%1 - Posta Oluştur"
+msgstr "%1 — Posta Oluştur"
 
 #: src/Gui/ComposeWidget.ui:51
 msgctxt "ComposeWidget|"
@@ -1457,7 +1026,7 @@ msgstr "Konu"
 #: src/Gui/ComposeWidget.ui:121
 msgctxt "ComposeWidget|"
 msgid "Attach..."
-msgstr "Ekle..."
+msgstr "Ekle…"
 
 #: src/Gui/CreateMailboxDialog.ui:14
 msgctxt "CreateMailboxDialog|"
@@ -1484,7 +1053,7 @@ msgctxt "CreateMailboxDialog|"
 msgid ""
 "Check to add this mailbox to the server-side list of subscribed mailboxes"
 msgstr ""
-"Bu mail kutusunu abone mail kutularının sunucu-taraflı listesine eklemek "
+"Bu mail kutusunu abone posta kutularının sunucu taraflı listesine eklemek "
 "için işaretleyin"
 
 #: src/Gui/CreateMailboxDialog.ui:61
@@ -1495,7 +1064,7 @@ msgstr "Ab&one Ol"
 #: src/Gui/EditFavoriteTag.ui:20
 msgctxt "EditFavoriteTag|"
 msgid "Manage Tag"
-msgstr "Etiketi Yönet"
+msgstr "Künyeyi Yönet"
 
 #: src/Gui/EditFavoriteTag.ui:29
 msgctxt "EditFavoriteTag|"
@@ -1626,7 +1195,7 @@ msgstr "Yükle"
 #: src/Gui/ExternalElementsWidget.cpp:36
 msgctxt "Gui::ExternalElementsWidget|"
 msgid "This e-mail wants to load external entities from the Internet"
-msgstr "Bu e-posta Internet'ten harici içerik yüklemek istiyor"
+msgstr "Bu e-posta, internetten dış içerik yüklemek istiyor"
 
 #: src/Gui/FindBar.cpp:49
 msgctxt "Gui::FindBar|"
@@ -1641,7 +1210,7 @@ msgstr "Tümünü &Vurgula"
 #: src/Gui/FindBar.cpp:62
 msgctxt "Gui::FindBar|"
 msgid "Esc"
-msgstr "Esc"
+msgstr "Vazgeç"
 
 #: src/Gui/FindBar.cpp:68
 msgctxt "Gui::FindBar|"
@@ -1686,25 +1255,16 @@ msgid "Load %1 (%2)"
 msgstr "%1 (%2) Yükle"
 
 #: src/Gui/MailBoxTreeView.cpp:143
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Move here\tShift"
 msgctxt "MailBoxTreeView|"
 msgid "Move here\tShift"
 msgstr "Buraya Taşı\tÜst Karakter"
 
 #: src/Gui/MailBoxTreeView.cpp:144
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Copy here\tCtrl"
 msgctxt "MailBoxTreeView|"
 msgid "Copy here\tCtrl"
 msgstr "Buraya Kopyala\tKontrol"
 
 #: src/Gui/MailBoxTreeView.cpp:145
-#, fuzzy
-#| msgctxt "QWidget|"
-#| msgid "Cancel"
 msgctxt "MailBoxTreeView|"
 msgid "Cancel"
 msgstr "İptal"
@@ -1713,7 +1273,7 @@ msgstr "İptal"
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
-msgstr "Trojitá %1 - hızlı bir Qt IMAP e-posta istemcisi"
+msgstr "Trojitá %1 — hızlı bir Qt IMAP e-posta istemcisi"
 
 #: src/Gui/main.cpp:89
 msgctxt "QObject|"
@@ -1723,7 +1283,7 @@ msgstr "Adres defteri penceresini göster."
 #: src/Gui/main.cpp:93
 msgctxt "QObject|"
 msgid "Compose new e-mail (default when url is provided)."
-msgstr "Yeni e-posta oluştur (url sağlandığında öntanımlı)."
+msgstr "Yeni e-posta oluştur (URL sağlandığında öntanımlı)."
 
 #: src/Gui/main.cpp:97
 msgctxt "QObject|"
@@ -1759,7 +1319,7 @@ msgstr "[url]"
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected argument '%1'."
-msgstr "Beklenmeyen argüman: '%1'."
+msgstr "Beklenmedik argüman “%1”."
 
 #: src/Gui/main.cpp:137
 msgctxt "QObject|"
@@ -1774,25 +1334,17 @@ msgstr "Hata: IPC örneğinin kaydı başarısız: %1"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Message headers of UID %1 in %2"
+#, qt-format
 msgctxt "MessageHeadersWidget|"
 msgid "Message headers of UID %1 in %2"
-msgstr "%2 içindeki UID %1 ileti başlıkları"
+msgstr "%2 içindeki UID %1 ileti üstbilgileri"
 
 #: src/Gui/MessageHeadersWidget.cpp:55
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageHeadersWidget|"
 msgid "Search..."
-msgstr "Ara..."
+msgstr "Ara…"
 
 #: src/Gui/MessageHeadersWidget.cpp:56
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
 msgstr "Kontrol+F"
@@ -1823,7 +1375,7 @@ msgstr "<sorgu>"
 #: src/Gui/MessageListWidget.cpp:64
 msgctxt "Gui::MessageListWidget|"
 msgid "Options for the IMAP search..."
-msgstr "IMAP araması için seçenekler..."
+msgstr "IMAP araması için seçenekler…"
 
 #: src/Gui/MessageListWidget.cpp:67
 msgctxt "Gui::MessageListWidget|"
@@ -1858,12 +1410,12 @@ msgstr "Karışık IMAP sorgusu"
 #: src/Gui/MessageListWidget.cpp:85
 msgctxt "Gui::MessageListWidget|"
 msgid "Not ..."
-msgstr "Değil..."
+msgstr "Değil…"
 
 #: src/Gui/MessageListWidget.cpp:86
 msgctxt "Gui::MessageListWidget|"
 msgid "Either... or..."
-msgstr "Ya...ya da...."
+msgstr "Ya… ya da…"
 
 #: src/Gui/MessageListWidget.cpp:88
 msgctxt "Gui::MessageListWidget|"
@@ -1883,7 +1435,7 @@ msgstr "Konu hakkında"
 #: src/Gui/MessageListWidget.cpp:92
 msgctxt "Gui::MessageListWidget|"
 msgid "Message contains ..."
-msgstr "İleti içeriği..."
+msgstr "İleti içeriği…"
 
 #: src/Gui/MessageListWidget.cpp:94
 msgctxt "Gui::MessageListWidget|"
@@ -1917,7 +1469,7 @@ msgstr ""
 #: src/Gui/MessageSourceWidget.cpp:58
 msgctxt "Gui::MessageSourceWidget|"
 msgid "Search..."
-msgstr "Ara..."
+msgstr "Ara…"
 
 #: src/Gui/MessageSourceWidget.cpp:59
 msgctxt "Gui::MessageSourceWidget|"
@@ -1925,42 +1477,25 @@ msgid "Ctrl+F"
 msgstr "Kontrol+F"
 
 #: src/Gui/MessageView.cpp:90
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageView|"
 msgid "Search..."
-msgstr "Ara..."
+msgstr "Ara…"
 
 #: src/Gui/MessageView.cpp:91
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Kontrol+F"
 
 #: src/Gui/MessageView.cpp:142
-#, fuzzy
-#| msgctxt "Gui::MessageSourceWidget|"
-#| msgid ""
-#| "Fetching\n"
-#| "Message"
 msgctxt "MessageView|"
 msgid ""
 "Fetching\n"
 "Message"
 msgstr ""
 "İleti\n"
-"Alınıyor"
+"Getiriliyor"
 
 #: src/Gui/MessageView.cpp:227
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid ""
-#| "Waiting\n"
-#| "for\n"
-#| "Message..."
 msgctxt "MessageView|"
 msgid ""
 "Waiting\n"
@@ -1969,37 +1504,27 @@ msgid ""
 msgstr ""
 "İleti\n"
 "için\n"
-"Bekleniyor..."
+"Bekleniyor…"
 
 #: src/Gui/MessageView.cpp:362
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid "you"
 msgctxt "MessageView|"
 msgid "you"
 msgstr "siz"
 
 #: src/Gui/MessageView.cpp:369
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageView|"
-#| msgid ""
-#| "On %1, %2 sent an encrypted message:\n"
-#| "> ...\n"
-#| "\n"
+#, qt-format
 msgctxt "MessageView|"
 msgid ""
 "On %1, %2 sent an encrypted message:\n"
 "> ...\n"
 "\n"
 msgstr ""
-"%1 tarihinde, %2 bir şifreli ileti gönderdi:\n"
-"> ...\n"
+"%2, %1 tarihinde şifreli bir ileti gönderdi:\n"
+"> …\n"
 "\n"
 
 #: src/Gui/MessageView.cpp:377
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageView|"
-#| msgid "On %1, %2 wrote:\n"
+#, qt-format
 msgctxt "MessageView|"
 msgid "On %1, %2 wrote:\n"
 msgstr "%2, %1 tarihinde yazdı:\n"
@@ -2020,8 +1545,8 @@ msgstr "88.8 kB"
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
 msgid_plural "+ %n additional item(s)"
-msgstr[0] "+ %n ek öge"
-msgstr[1] "+ %n ek öge"
+msgstr[0] "+%n ek öge"
+msgstr[1] "+%n ek öge"
 
 #: src/Gui/MsgListView.cpp:336
 msgctxt "Gui::MsgListView|"
@@ -2039,41 +1564,26 @@ msgid "Attachment"
 msgstr "Ek"
 
 #: src/Gui/OneEnvelopeAddress.cpp:89
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid ","
 msgctxt "OneEnvelopeAddress|"
 msgid ","
 msgstr ", "
 
 #: src/Gui/OneEnvelopeAddress.cpp:130
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "(empty display name)"
 msgctxt "OneEnvelopeAddress|"
 msgid "(empty display name)"
-msgstr "(boş görüntülenme ismi)"
+msgstr "(boş görüntü adı)"
 
 #: src/Gui/OneEnvelopeAddress.cpp:134
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "<hr/><b>Address Book:</b><br/>"
 msgctxt "OneEnvelopeAddress|"
 msgid "<hr/><b>Address Book:</b><br/>"
 msgstr "<hr/><b>Adres Defteri:</b><br/>"
 
 #: src/Gui/OneEnvelopeAddress.cpp:141
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "Copy e-mail address"
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy e-mail address"
 msgstr "E-posta adresini kopyala"
 
 #: src/Gui/OneEnvelopeAddress.cpp:146
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "Copy text"
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy text"
 msgstr "Metni kopyala"
@@ -2178,10 +1688,10 @@ msgid_plural ""
 "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more bytes)</"
 "span>"
 msgstr[0] ""
-"<br/><span style='color: #808080; font-style: italic;'>(fazladan + %n bayt)</"
+"<br/><span style='color: #808080; font-style: italic;'>(fazladan +%n bayt)</"
 "span>"
 msgstr[1] ""
-"<br/><span style='color: #808080; font-style: italic;'>(fazladan + %n bayt)</"
+"<br/><span style='color: #808080; font-style: italic;'>(fazladan +%n bayt)</"
 "span>"
 
 #: src/Gui/SettingsCachePage.ui:30
@@ -2240,8 +1750,8 @@ msgid ""
 "notifications. To subscribe a mailbox, use the context menu in the mailbox "
 "view."
 msgstr ""
-"Abone olarak işaretlenmiş e-posta klasörleri iletilere dahil edilecek. Bir "
-"posta kutusunu abone yapmak için, posta kutusu görünümündeki bağlam menüsünü "
+"Abone olarak işaretlenmiş e-posta klasörleri iletilere içerilecek. Bir posta "
+"kutusunu abone yapmak için posta kutusu görünümündeki bağlam menüsünü "
 "kullanın."
 
 #: src/Gui/SettingsCachePage.ui:135
@@ -2277,7 +1787,7 @@ msgstr "&SMTP"
 #: src/Gui/SettingsDialog.cpp:96
 msgctxt "Gui::SettingsDialog|"
 msgid "Favorite &tags"
-msgstr "Sık kullanılan &etiketler"
+msgstr "Sık kullanılan &künyeler"
 
 #: src/Gui/SettingsDialog.cpp:212
 msgctxt "Gui::SettingsDialog|"
@@ -2297,12 +1807,12 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:309
 msgctxt "Gui::FavoriteTagsPage|"
 msgid "Add New Tag"
-msgstr "Yeni Etiket Ekle"
+msgstr "Yeni Künye Ekle"
 
 #: src/Gui/SettingsDialog.cpp:317
 msgctxt "Gui::FavoriteTagsPage|"
 msgid "Edit Tag"
-msgstr "Etiketi Düzenle"
+msgstr "Künyeyi Düzenle"
 
 #: src/Gui/SettingsDialog.cpp:400
 #, qt-format
@@ -2377,7 +1887,7 @@ msgstr "Lütfen bazı kimlikleri burada tanımlayın"
 #: src/Gui/SettingsDialog.cpp:670
 msgctxt "Gui::EditFavoriteTag|"
 msgid "Select tag color"
-msgstr "Etiket rengi seç"
+msgstr "Künye rengi seç"
 
 #: src/Gui/SettingsDialog.cpp:707
 msgctxt "Gui::ImapPage|"
@@ -2641,13 +2151,13 @@ msgid ""
 "body></html>"
 msgstr ""
 "<html><head/><body><p>Bu seçeneğin seçilmesi Trojitá ve altındaki platformun "
-"Qt sürümü ve işletim sistemi ayrıntılarıyla birlikte sürüm bilgisi dahil "
-"edecektir. Lütfen bu seçeneği açık bırakmayı değerlendirin böylece "
+"Qt sürümü ve işletim sistemi ayrıntılarıyla birlikte sürüm bilgisi "
+"içerilecektir. Lütfen bu seçeneği açık bırakmayı değerlendirin böylece "
 "geliştiriciler bir şeyler ters gittiğinde geliştiriciler hata raporlarını "
 "daha rahat çözebilirler.</p><p>Veri birçok şeyin yanında IMAP'ın <code>ID</"
 "code> komutu ve giden e-postaların <code>User-Agent</code> başlığı "
-"aracılığıyla iletişim kurar.</p><p>Bu seçeneği kapatsanız bile Trojitá nın "
-"konuştuğu sunucuların ve e-postalarınız okuyan insanların Trojitá nın belli "
+"aracılığıyla iletişim kurar.</p><p>Bu seçeneği kapatsanız bile Trojitá’nın "
+"konuştuğu sunucuların ve e-postalarınız okuyan insanların Trojitá’nın belli "
 "bir sürümünü kullandığınızı bilebileceğini unutmayın.</p></body></html>"
 
 #: src/Gui/SettingsGeneralPage.ui:259
@@ -2730,7 +2240,7 @@ msgstr ""
 "p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Bağlantının en başından "
-"şifreli bir soket üstünden bağlanmak için <span style=\" font-style:italic;"
+"şifreli bir yuva üzerinden bağlanmak için <span style=\" font-style:italic;"
 "\">SSL</span>seçin.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
@@ -2859,7 +2369,7 @@ msgstr ""
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
 "p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Bu şifre bütün disk "
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Bu şifre, bütün disk "
 "üzerinde çok güvenli bir form kullanılmadıkça bu aygıtta herhangi bir "
 "şifreleme olmaksızın <span style=\" font-weight:600;\">metin</span> olarak "
 "saklanacaktır. Bu, şifrenizi burada saklamak için<span style=\" font-"
@@ -2930,7 +2440,7 @@ msgstr ""
 "imap</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Bu komutun tamamıyla "
-"etkileşimsiz çalışması gerektiğini unutmayın, yani SSH'ı parola olmadan "
+"etkileşimsiz çalışması gerektiğini unutmayın, yani SSH’yi parola olmadan "
 "oturum açabilecek şekilde, belki de anahtarlarla kullanacak şekilde "
 "ayarlamalısınız.</p></body></html>"
 
@@ -3110,7 +2620,7 @@ msgid ""
 "<p>The \"%1\" shortcut is ambiguous with the following shortcut:</p><p>%2</"
 "p><p>Do you want to assign an empty shortcut to this action?</p>"
 msgstr ""
-"<p>Bu \"%1\" kısayol şu kısayol ile belirsizlik taşıyor:</p><p>%2</p><p>Bu "
+"<p>Bu “%1” kısayolu, şu kısayol ile belirsizlik taşıyor:</p><p>%2</p><p>Bu "
 "eylem için boş bir kısayol atamak istiyor musunuz?</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:14
@@ -3132,11 +2642,11 @@ msgid ""
 "shortcuts cannot be used: \"Up\", \"Down\", \"Left\", \"Right\", \"Page Up"
 "\", \"Page Down\", \"Tab\", \"Shift+Tab\", \"Enter\" and \"Escape\".</p>"
 msgstr ""
-"<p>Bir eylem seçin (Fare veya ok tuşları ile). Seçilen kısayol yeni kısayola "
-"bastıktan sonra değişecektir.</p><p>Dikkat edin bazıları için kısayollar "
-"kullanılamaz: \"Yukarı\", \"Aşağı\", \"Sol\", \"Sağ\", \"Sayfa Yukarı\", "
-"\"Sayfa Aşağı\", \"Sekme\", \"Üst Karakter+Sekme\", \"Giriş\" ve \"Vazgeç\"."
-"</p>"
+"<p>Bir eylem seçin (Fare veya ok düğmeleri ile). Seçilen kısayol yeni "
+"kısayola bastıktan sonra değişecektir.</p><p>Bazı kısayolların kullanılamaz "
+"olduğunu aklınızdan çıkarmayın: “Yukarı”, “Aşağı”, “Sol”, “Sağ”, “Sayfa "
+"Yukarı”, “Sayfa Aşağı”, “Sekme”, “Üst Karakter+Sekme”, “Giriş” ve “Vazgeç”.</"
+"p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:31
 msgctxt "ShortcutConfigWidget|"
@@ -3193,7 +2703,7 @@ msgstr "Ana Pencere"
 #: src/Gui/ShortcutHandler/ShortcutHandler.cpp:144
 msgctxt "Gui::ShortcutHandler|"
 msgid "Configure S&hortcuts..."
-msgstr "&Kısayolları Yapılandır..."
+msgstr "&Kısayolları Yapılandır…"
 
 #: src/Gui/ShortcutHandler/ShortcutHandler.h:45
 #: src/Gui/ShortcutHandler/ShortcutHandler.h:309
@@ -3205,17 +2715,17 @@ msgstr "Ana Pencere"
 #: src/Gui/SimplePartWidget.cpp:77
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save this message part..."
-msgstr "İletiyi Kaydet..."
+msgstr "İletiyi Kaydet…"
 
 #: src/Gui/SimplePartWidget.cpp:81
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save whole message..."
-msgstr "Tüm iletiyi kaydet..."
+msgstr "Tüm iletiyi kaydet…"
 
 #: src/Gui/SimplePartWidget.cpp:85
 msgctxt "Gui::SimplePartWidget|"
 msgid "Search..."
-msgstr "Ara..."
+msgstr "Ara…"
 
 #: src/Gui/SimplePartWidget.cpp:88
 msgctxt "Gui::SimplePartWidget|"
@@ -3255,17 +2765,17 @@ msgstr "Özgün Boyut"
 #: src/Gui/TagAddDialog.ui:14
 msgctxt "TagAddDialog|"
 msgid "Add Tags"
-msgstr "Etiket Ekle"
+msgstr "Künyeler Ekle"
 
 #: src/Gui/TagAddDialog.ui:26
 msgctxt "TagAddDialog|"
 msgid "Tag names (space-separated):"
-msgstr "Etiket adları (boşlukla ayrılmış):"
+msgstr "Künye adları (boşlukla ayrılmış):"
 
 #: src/Gui/TagListWidget.cpp:107
 msgctxt "Gui::TagListWidget|"
 msgid "Disallowed tag value"
-msgstr "İzin verilmeyen etiket değeri"
+msgstr "İzin verilmeyen künye değeri"
 
 #: src/Gui/TagListWidget.cpp:108
 #, qt-format
@@ -3274,13 +2784,13 @@ msgid ""
 "No tags were set because the following given tag(s) are reserved and have "
 "been disallowed from being set in this way: %1."
 msgstr ""
-"Aşağıdaki etiket(ler) ayrılmış ve bu şekilde kullanıma kapatılmış olduğundan "
-"hiçbir etiket ayarlanmadı: %1."
+"Hiçbir etiket ayarlanmadı; çükü aşağıda verilmiş olan künyeler özel kullanım "
+"için ayrılmışlardır ve bu şekilde ayarlanmaları engellenmiştir: %1."
 
 #: src/Gui/TagWidget.cpp:59
 msgctxt "Gui::TagWidget|This is a verb!"
 msgid "Tag"
-msgstr "Etiket"
+msgstr "Künye"
 
 #: src/Gui/TaskProgressIndicator.cpp:84
 #, qt-format
@@ -3329,12 +2839,12 @@ msgstr "Ç&ık"
 #: src/Gui/Window.cpp:235
 msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
-msgstr "&Yeni İleti..."
+msgstr "&Yeni İleti…"
 
 #: src/Gui/Window.cpp:236
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
-msgstr "Taslağı Dü&zenle..."
+msgstr "Taslağı Dü&zenle…"
 
 #: src/Gui/Window.cpp:237
 msgctxt "Gui::MainWindow|"
@@ -3394,17 +2904,17 @@ msgstr "Gereksiz &Değil olarak işaretle"
 #: src/Gui/Window.cpp:246
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
-msgstr "&İletiyi Kaydet..."
+msgstr "&İletiyi Kaydet…"
 
 #: src/Gui/Window.cpp:247
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
-msgstr "İleti Kaynağını &Göster..."
+msgstr "İleti Kaynağını &Göster…"
 
 #: src/Gui/Window.cpp:248
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
-msgstr "İleti Başlıklarını &Göster..."
+msgstr "İleti Başlıklarını &Göster…"
 
 #: src/Gui/Window.cpp:248
 msgctxt "Gui::MainWindow|"
@@ -3474,7 +2984,7 @@ msgstr "Kontrol+Üst Karakter+F"
 #: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
-msgstr "Yeniden Gönder..."
+msgstr "Yeniden Gönder…"
 
 #: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
@@ -3484,7 +2994,7 @@ msgstr "&Arşiv"
 #: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
-msgstr "Adres Defteri..."
+msgstr "Adres Defteri…"
 
 #: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
@@ -3509,7 +3019,7 @@ msgstr "Bağımsız İleti Penceresini Kapat"
 #: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
-msgstr "İletiyi Yeni Pencerede aç..."
+msgstr "İletiyi Yeni Pencerede aç…"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
@@ -3549,47 +3059,47 @@ msgstr "Odağı Hızlı Arama'ya Taşı"
 #: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
-msgstr "&İlk etiketle etiketle"
+msgstr "&1. Künyeyi Tak"
 
 #: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
-msgstr "&2. etiketle etiketle"
+msgstr "&2. Künyeyi Tak"
 
 #: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
-msgstr "&3. etiketle etiketle"
+msgstr "&3. Künyeyi Tak"
 
 #: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
-msgstr "&4. etiketle etiketle"
+msgstr "&4. Künyeyi Tak"
 
 #: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
-msgstr "&5. etiketle etiketle"
+msgstr "&5. Künyeyi Tak"
 
 #: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
-msgstr "&6. etiketle etiketle"
+msgstr "&6. Künyeyi Tak"
 
 #: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
-msgstr "&7. etiketle etiketle"
+msgstr "&7. Künyeyi Tak"
 
 #: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
-msgstr "&8. etiketle etiketle"
+msgstr "&8. Künyeyi Tak"
 
 #: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
-msgstr "&9. etiketle etiketle"
+msgstr "&9. Künyeyi Tak"
 
 #: src/Gui/Window.cpp:306
 msgctxt "Gui::MainWindow|"
@@ -3649,7 +3159,7 @@ msgstr "%1 &oturumunu aç"
 #: src/Gui/Window.cpp:366
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
-msgstr "IMAP &Sunucu Bilgisi..."
+msgstr "IMAP &Sunucu Bilgisi…"
 
 #: src/Gui/Window.cpp:375
 msgctxt "Gui::MainWindow|"
@@ -3659,19 +3169,19 @@ msgstr "&Araç Çubuğunu Göster"
 #: src/Gui/Window.cpp:381
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
-msgstr "Ayar&lar..."
+msgstr "Ayar&lar…"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:476
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
-msgstr "Alt Posta Kutusu Oluştur..."
+msgstr "Alt Posta Kutusu Oluştur…"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:480
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
-msgstr "Yeni Posta Kutusu Oluştur..."
+msgstr "Yeni Posta Kutusu Oluştur…"
 
 #: src/Gui/Window.cpp:483
 msgctxt "Gui::MainWindow|"
@@ -3777,12 +3287,12 @@ msgstr "Abone Olun&an"
 #: src/Gui/Window.cpp:578
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
-msgstr "Trojitá Hakkında..."
+msgstr "Trojitá Hakkında…"
 
 #: src/Gui/Window.cpp:581
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
-msgstr "&Projeye bağış yapın"
+msgstr "&Projeye Bağış Yap"
 
 #: src/Gui/Window.cpp:586
 msgctxt "Gui::MainWindow|"
@@ -3874,14 +3384,14 @@ msgstr "&Çık"
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
 msgid_plural " - %n unread message(s)"
-msgstr[0] " - %n okunmayan ileti"
-msgstr[1] " - %n okunmayan ileti"
+msgstr[0] " — %n okunmayan ileti"
+msgstr[1] " — %n okunmayan ileti"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
 #: src/Gui/Window.cpp:1109
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
-msgstr " - çevrimdışı"
+msgstr " — çevrimdışı"
 
 #: src/Gui/Window.cpp:1118 src/Gui/Window.cpp:2530
 msgctxt "Gui::MainWindow|"
@@ -4041,7 +3551,7 @@ msgid ""
 "Opening mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
-"\"%1\" posta kutusunun açılması şu ileti ile başarısız oldu:\n"
+"Şu ileti ile “%1” posta kutusunun açılması başarısız oldu:\n"
 "%2"
 
 #: src/Gui/Window.cpp:2077
@@ -4215,85 +3725,85 @@ msgstr ""
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
 msgid_plural "%1 - %n unread - Trojitá"
-msgstr[0] "%1 - %n okunmayan - Trojitá"
-msgstr[1] "%1 - %n okunmayan - Trojitá"
+msgstr[0] "%1 — %n Okunmamış — Trojitá"
+msgstr[1] "%1 - %n Okunmamış — Trojitá"
 
 #: src/Gui/Window.cpp:2527
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
-msgstr "%1  - Trojitá"
+msgstr "%1 — Trojitá"
 
 #: src/Gui/Window.cpp:2864
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
-msgstr "\"%1\" ile etiketle"
+msgstr "“%1” ile Künyele"
 
 #: src/Imap/ConnectionState.cpp:35
 msgctxt "QObject|"
 msgid "Resolving hostname..."
-msgstr "Makine adı çözümleniyor..."
+msgstr "Makine adı çözümleniyor…"
 
 #: src/Imap/ConnectionState.cpp:37
 msgctxt "QObject|"
 msgid "Connecting to the IMAP server..."
-msgstr "IMAP sunucusuna bağlanıyor..."
+msgstr "IMAP sunucusuna bağlanıyor…"
 
 #: src/Imap/ConnectionState.cpp:39
 msgctxt "QObject|"
 msgid "Starting encryption (SSL)..."
-msgstr "Şifreleme başlatılıyor (SSL)..."
+msgstr "Şifreleme başlatılıyor (SSL)…"
 
 #: src/Imap/ConnectionState.cpp:41
 msgctxt "QObject|"
 msgid "Checking certificates (SSL)..."
-msgstr "Sertifikalar denetleniyor (SSL)..."
+msgstr "Sertifikalar denetleniyor (SSL)…"
 
 #: src/Imap/ConnectionState.cpp:43
 msgctxt "QObject|"
 msgid "Checking capabilities..."
-msgstr "Yetenekler denetleniyor..."
+msgstr "Yetenekler denetleniyor…"
 
 #: src/Imap/ConnectionState.cpp:45
 msgctxt "QObject|"
 msgid "Waiting for encryption..."
-msgstr "Şifreleme için bekleniyor..."
+msgstr "Şifreleme için bekleniyor…"
 
 #: src/Imap/ConnectionState.cpp:47
 msgctxt "QObject|"
 msgid "Asking for encryption..."
-msgstr "Şifreleme sorgulanıyor..."
+msgstr "Şifreleme sorgulanıyor…"
 
 #: src/Imap/ConnectionState.cpp:49
 msgctxt "QObject|"
 msgid "Starting encryption (STARTTLS)..."
-msgstr "Şifreleme başlatılıyor (STARTTLS)..."
+msgstr "Şifreleme başlatılıyor (STARTTLS)…"
 
 #: src/Imap/ConnectionState.cpp:51
 msgctxt "QObject|"
 msgid "Checking certificates (STARTTLS)..."
-msgstr "Sertifikalar denetleniyor (STARTTLS)..."
+msgstr "Sertifikalar denetleniyor (STARTTLS)…"
 
 #: src/Imap/ConnectionState.cpp:53
 msgctxt "QObject|"
 msgid "Checking capabilities (after STARTTLS)..."
-msgstr "Yetenekler denetleniyor (STARTTLS'den sonra)..."
+msgstr "Yetenekler denetleniyor (STARTTLS'den sonra)…"
 
 #: src/Imap/ConnectionState.cpp:55
 msgctxt "QObject|"
 msgid "Logging in..."
-msgstr "Oturum açılıyor..."
+msgstr "Oturum açılıyor…"
 
 #: src/Imap/ConnectionState.cpp:57
 msgctxt "QObject|"
 msgid "Checking capabilities (after login)..."
-msgstr "Yetenekler denetleniyor (oturum açılışı sonrası)..."
+msgstr "Yetenekler denetleniyor (oturum açılışı sonrası)…"
 
 #: src/Imap/ConnectionState.cpp:59
 msgctxt "QObject|"
 msgid "Activating compression..."
-msgstr "Sıkıştırma etkinleştiriliyor..."
+msgstr "Sıkıştırma etkinleştiriliyor…"
 
 #: src/Imap/ConnectionState.cpp:61
 msgctxt "QObject|"
@@ -4303,17 +3813,17 @@ msgstr "Oturum açıldı."
 #: src/Imap/ConnectionState.cpp:63
 msgctxt "QObject|"
 msgid "Waiting for another mailbox..."
-msgstr "Başka bir posta kutusu için bekleniyor..."
+msgstr "Başka bir posta kutusu için bekleniyor…"
 
 #: src/Imap/ConnectionState.cpp:65
 msgctxt "QObject|"
 msgid "Opening mailbox..."
-msgstr "Posta kutusu açılıyor..."
+msgstr "Posta kutusu açılıyor…"
 
 #: src/Imap/ConnectionState.cpp:67
 msgctxt "QObject|"
 msgid "Synchronizing mailbox..."
-msgstr "Posta kutusu eşitleniyor..."
+msgstr "Posta kutusu eşitleniyor…"
 
 #: src/Imap/ConnectionState.cpp:69
 msgctxt "QObject|"
@@ -4323,12 +3833,12 @@ msgstr "Posta kutusu açıldı."
 #: src/Imap/ConnectionState.cpp:71
 msgctxt "QObject|"
 msgid "Downloading message..."
-msgstr "İletiler indiriliyor..."
+msgstr "İletiler indiriliyor…"
 
 #: src/Imap/ConnectionState.cpp:73
 msgctxt "QObject|"
 msgid "Downloading message structure..."
-msgstr "İleti yapısı indiriliyor..."
+msgstr "İleti yapısı indiriliyor…"
 
 #: src/Imap/ConnectionState.cpp:75
 msgctxt "QObject|"
@@ -4424,19 +3934,19 @@ msgctxt ""
 "translated, but their order can be changed to follow the local conventions. "
 "For valid specifiers see http://doc.qt.io/qt-5/qdate.html#toString"
 msgid "MMMM yyyy"
-msgstr "AAAA yyyy"
+msgstr "MMMM yyyy"
 
 #: src/Imap/Model/MailboxTree.cpp:1718
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1...]"
-msgstr "[%1 yükleniyor...]"
+msgstr "[%1 yükleniyor…]"
 
 #: src/Imap/Model/MailboxTree.cpp:1719
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
-msgstr "[%1: %2 yükleniyor...]"
+msgstr "[%1: %2 yükleniyor…]"
 
 #: src/Imap/Model/Model.cpp:1069
 msgctxt "Imap::Mailbox::Model|"
@@ -4469,7 +3979,8 @@ msgid ""
 msgstr ""
 "<h2>Bu bir IMAP sunucusu değil</h2>%1<p>Lütfen IMAP hizmetine bağlanabilmek "
 "için gerekli ayarlarını denetleyin. IMAP için genelde kullanılan kapı "
-"numaraları 143 veya 993'tür.</p><p>Sunucu yanıtı:</p><pre>%2</pre>"
+"numaraları 143 veya 993 olarak belirlenmiştir.</p><p>Sunucu yanıtı:</p><pre>"
+"%2</pre>"
 
 #: src/Imap/Model/Model.cpp:1154
 #, qt-format
@@ -4498,65 +4009,41 @@ msgid "The connection is being killed for unspecified reason"
 msgstr "Bağlantı belirlenemeyen bir nedenle sonlandırılıyor"
 
 #: src/Imap/Model/MsgListModel.cpp:283
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Subject"
 msgctxt "MsgListModel|"
 msgid "Subject"
 msgstr "Konu"
 
 #: src/Imap/Model/MsgListModel.cpp:285
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "From"
 msgctxt "MsgListModel|"
 msgid "From"
 msgstr "Kimden"
 
 #: src/Imap/Model/MsgListModel.cpp:287
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "MsgListModel|"
 msgid "To"
 msgstr "Kime"
 
 #: src/Imap/Model/MsgListModel.cpp:289
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "MsgListModel|"
 msgid "Cc"
 msgstr "Kopya"
 
 #: src/Imap/Model/MsgListModel.cpp:291
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "MsgListModel|"
 msgid "Bcc"
-msgstr "Gizli kopya"
+msgstr "Gizli Kopya"
 
 #: src/Imap/Model/MsgListModel.cpp:293
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Date"
 msgctxt "MsgListModel|"
 msgid "Date"
 msgstr "Tarih"
 
 #: src/Imap/Model/MsgListModel.cpp:295
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Received"
 msgctxt "MsgListModel|"
 msgid "Received"
 msgstr "Alınan"
 
 #: src/Imap/Model/MsgListModel.cpp:297
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Size"
 msgctxt "MsgListModel|"
 msgid "Size"
 msgstr "Boyut"
@@ -4608,7 +4095,7 @@ msgstr[1] "%n yeni"
 #: src/Imap/Model/PrettyMsgListModel.cpp:108
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 msgid "Loading..."
-msgstr "Yükleniyor..."
+msgstr "Yükleniyor…"
 
 #: src/Imap/Model/PrettyMsgListModel.cpp:113
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
@@ -4648,7 +4135,7 @@ msgstr "Sürüm bilgisi belirlenemiyor"
 #: src/Imap/Model/SQLCache.cpp:163
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
-msgstr "Önbellek veritabanı şemasını v1'den v2'ye güncelleme işlemi başarısız"
+msgstr "Önbellek veritabanı şemasını v1’den v2’ye güncelleme işlemi başarısız"
 
 #: src/Imap/Model/SQLCache.cpp:172
 msgctxt "QObject|"
@@ -4659,7 +4146,7 @@ msgstr "Eski mailbox_sync_state tablosunu bırakma başarısız"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v2/v3 to v4"
 msgstr ""
-"Önbellek veritabanı şemasını v2/v3'den v4'e güncelleme işlemi başarısız"
+"Önbellek veritabanı şemasını v2/v3’den v4’e güncelleme işlemi başarısız"
 
 #: src/Imap/Model/SQLCache.cpp:191
 msgctxt "QObject|"
@@ -4670,7 +4157,7 @@ msgstr "msg_metadata eski tablosunu bırakma başarısız"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
 msgstr ""
-"Önbellek veritabanı şemasını v4/v5/v6 dan v7'ye güncelleme işlemi başarısız"
+"Önbellek veritabanı şemasını v4/v5/v6’dan v7’ye güncelleme işlemi başarısız"
 
 #: src/Imap/Model/SQLCache.cpp:203
 msgctxt "QObject|"
@@ -4700,7 +4187,7 @@ msgstr "uid_mapping tablosu oluşturulamıyor"
 #: src/Imap/Model/SQLCache.cpp:259
 msgctxt "QObject|"
 msgid "Can't create table flags"
-msgstr "Tablo etiketleri oluşturulamıyor"
+msgstr "Tablo bayrakları oluşturulamıyor"
 
 #: src/Imap/Model/SQLCache.cpp:269
 msgctxt "QObject|"
@@ -4941,7 +4428,7 @@ msgstr "queryMessageMetadata sorgusu başarısız oldu"
 #: src/Imap/Model/SQLCache.cpp:715
 msgctxt "QObject|"
 msgid "Query queryAccessMessageMetadata failed"
-msgstr "queryAccssMessageMetadata sorgulaması başarısız oldu"
+msgstr "queryAccssMessageMetadata sorgusu başarısız oldu"
 
 #: src/Imap/Model/SQLCache.cpp:741
 msgctxt "QObject|"
@@ -4988,13 +4475,13 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::Mailbox::TaskPresentationModel|"
 msgid "Parser %1"
-msgstr "%1 Ayrıştırıcı"
+msgstr "Ayrıştırıcı %1"
 
 #: src/Imap/Model/TaskPresentationModel.cpp:199
 #, qt-format
 msgctxt "Imap::Mailbox::TaskPresentationModel|"
 msgid "%1: %2"
-msgstr "%1 : %2"
+msgstr "%1: %2"
 
 #: src/Imap/Model/ThreadingMsgListModel.cpp:328
 msgctxt "Imap::Mailbox::ThreadingMsgListModel|"
@@ -5265,7 +4752,7 @@ msgstr "Ayrıştırıcı gitmiş"
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:713
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Logging off..."
-msgstr "Oturum kapanıyor..."
+msgstr "Oturum kapanıyor…"
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:920
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
@@ -5291,7 +4778,7 @@ msgstr "LIST başarısız"
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:105
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Mailbox no longer available -- weird timing?"
-msgstr "Posta kutusu artık kullanılabilir değil -- ilginç zamanlama?"
+msgstr "Posta kutusu artık kullanılabilir değil — ilginç zamanlama?"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:151
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
@@ -5403,7 +4890,7 @@ msgstr ""
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server error: Capabilities contain LOGINDISABLED even after STARTTLS"
 msgstr ""
-"Sunucu hatası: Yetenekler STARTTLS'den sonra bile LOGINDISABLED içeriyor"
+"Sunucu hatası: Yetenekler, STARTTLS’den sonra bile LOGINDISABLED içeriyor"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:301
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -5547,7 +5034,7 @@ msgstr "Konuşmalar getiriliyor"
 #, qt-format
 msgctxt "Imap::Mailbox::UidSubmitTask|"
 msgid "UIDVALIDITY mismatch: expected %1, got %2"
-msgstr "UIDVALIDITY uyumsuz: beklenen %1, mevcut %2"
+msgstr "UIDVALIDITY uyumsuz: %1 bekleniyordu, %2 alındı"
 
 #: src/Imap/Tasks/UidSubmitTask.cpp:84
 msgctxt "Imap::Mailbox::UidSubmitTask|"
@@ -5562,7 +5049,7 @@ msgstr "Öldürme istendi"
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:101
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
 msgid "Failed to update Mailbox FLAGS"
-msgstr "Posta kutusu etiketlerinin güncellenmesi başarısız"
+msgstr "Posta kutusu bayraklarının güncellenmesi başarısız"
 
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:110
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
@@ -5572,7 +5059,7 @@ msgstr "Posta kutusu durumu kaydediliyor"
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:121
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
 msgid "All messages got removed before we could've updated their flags"
-msgstr "Tüm iletiler etiketlerini güncelleyemeden kaldırıldı"
+msgstr "Tüm iletilerin bayrakları güncellenemeden kaldırıldı"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:138
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
@@ -5609,19 +5096,13 @@ msgid "Setting password is not supported by %1"
 msgstr "%1 tarafından parola düzenlemesi desteklenmiyor"
 
 #: src/MSA/Account.cpp:233
-#, fuzzy, qt-format
-#| msgctxt "MSA::Account|"
-#| msgid "This port is nonstandard. The default port for cleartext SMTP is %1."
+#, qt-format
 msgctxt "Account|"
 msgid "This port is nonstandard. The default port for cleartext SMTP is %1."
 msgstr "Bu kapı standart değil. Düz metin SMTP öntanımlı kapısı: %1."
 
 #: src/MSA/Account.cpp:236
-#, fuzzy, qt-format
-#| msgctxt "MSA::Account|"
-#| msgid ""
-#| "This port is nonstandard. The default port for SMTP submission secured "
-#| "via STARTTLS is %1."
+#, qt-format
 msgctxt "Account|"
 msgid ""
 "This port is nonstandard. The default port for SMTP submission secured via "
@@ -5631,11 +5112,7 @@ msgstr ""
 "%1."
 
 #: src/MSA/Account.cpp:239
-#, fuzzy, qt-format
-#| msgctxt "MSA::Account|"
-#| msgid ""
-#| "This port is nonstandard. The default port for SMTP over encrypted SSL/"
-#| "TLS connection is %1."
+#, qt-format
 msgctxt "Account|"
 msgid ""
 "This port is nonstandard. The default port for SMTP over encrypted SSL/TLS "
@@ -5921,7 +5398,7 @@ msgstr "Süreç başlatıldı"
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid "Starting process `%1 %2`"
-msgstr "Süreç başlatılıyor: `%1 %2`"
+msgstr "Süreç başlatılıyor: “%1 %2”"
 
 #: src/Streams/IODeviceSocket.cpp:202
 #, qt-format
@@ -5968,13 +5445,13 @@ msgstr " (HTTP vekil sunucu %1 ile)"
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid "Looking up %1%2..."
-msgstr "%1%2 aranıyor..."
+msgstr "%1%2 aranıyor…"
 
 #: src/Streams/IODeviceSocket.cpp:299
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid "Connecting to %1:%2%3%4..."
-msgstr "%1 bağlantısı yapılıyor: %2%3%4..."
+msgstr "%1 bağlantısı yapılıyor: %2%3%4…"
 
 #: src/Streams/IODeviceSocket.cpp:300
 msgctxt "Streams::SslTlsSocket|"
@@ -5989,7 +5466,7 @@ msgstr "Bağlandı"
 #: src/Streams/IODeviceSocket.cpp:311
 msgctxt "Streams::SslTlsSocket|"
 msgid "Negotiating encryption..."
-msgstr "Şifeleme anlaşması yapılıyor..."
+msgstr "Şifeleme anlaşması yapılıyor…"
 
 #: src/Streams/IODeviceSocket.cpp:316
 #, qt-format
@@ -6006,104 +5483,62 @@ msgid ""
 msgstr "%1 bağlantısı yapılırken temel yuvada sorunlar oluştu: %2: %3"
 
 #: src/UiUtils/Formatting.cpp:40
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "B"
 msgctxt "Formatting|"
 msgid "B"
 msgstr "B"
 
 #: src/UiUtils/Formatting.cpp:41
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "kB"
 msgctxt "Formatting|"
 msgid "kB"
 msgstr "kB"
 
 #: src/UiUtils/Formatting.cpp:42
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "MB"
 msgctxt "Formatting|"
 msgid "MB"
 msgstr "MB"
 
 #: src/UiUtils/Formatting.cpp:43
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "GB"
 msgctxt "Formatting|"
 msgid "GB"
 msgstr "GB"
 
 #: src/UiUtils/Formatting.cpp:44
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "TB"
 msgctxt "Formatting|"
 msgid "TB"
 msgstr "TB"
 
 #: src/UiUtils/Formatting.cpp:67
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::OpenConnectionTask|"
-#| msgid "%1 %2"
+#, qt-format
 msgctxt "Formatting|"
 msgid "%1 %2"
 msgstr "%1 %2"
 
 #: src/UiUtils/Formatting.cpp:86
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "hh:mm"
-msgstr "ss:dd"
+msgstr "hh:mm"
 
 #: src/UiUtils/Formatting.cpp:91
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "ddd hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "ddd hh:mm"
-msgstr "ggg ss:dd"
+msgstr "ddd hh:mm"
 
 #: src/UiUtils/Formatting.cpp:99
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "d MMM hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "d MMM hh:mm"
-msgstr "g AAA ss:dd"
+msgstr "d MMM hh:mm"
 
 #: src/UiUtils/Formatting.cpp:142
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<li><b>CN</b>: %1,<br/>\n"
-#| "<b>Organization</b>: %2,<br/>\n"
-#| "<b>Serial</b>: %3,<br/>\n"
-#| "<b>SHA1</b>: %4,<br/>\n"
-#| "<b>MD5</b>: %5</li>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<li><b>CN</b>: %1,<br/>\n"
@@ -6114,32 +5549,22 @@ msgid ""
 msgstr ""
 "<li><b>CN</b>: %1,<br/>\n"
 "<b>Kuruluş</b>: %2,<br/>\n"
-"<b>Seri no</b>: %3,<br/>\n"
+"<b>Seri №</b>: %3,<br/>\n"
 "<b>SHA1</b>: %4,<br/>\n"
 "<b>MD5</b>: %5</li>"
 
 #: src/UiUtils/Formatting.cpp:145 src/UiUtils/Formatting.cpp:146
-#, fuzzy
-#| msgctxt "Gui::EnvelopeView|"
-#| msgid ", "
 msgctxt "Formatting|"
 msgid ", "
 msgstr ", "
 
 #: src/UiUtils/Formatting.cpp:152
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "<p>The remote side doesn't have a certificate.</p>\n"
 msgctxt "Formatting|"
 msgid "<p>The remote side doesn't have a certificate.</p>\n"
 msgstr "<p>Uzak taraf bir sertifikaya sahip değil.</p>\n"
 
 #: src/UiUtils/Formatting.cpp:153
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>This is the certificate chain of the connection:</p>\n"
-#| "<ul>%1</ul>\n"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>This is the certificate chain of the connection:</p>\n"
@@ -6149,36 +5574,23 @@ msgstr ""
 "<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "\n"
 msgctxt "Formatting|"
 msgid "\n"
 msgstr "\n"
 
 #: src/UiUtils/Formatting.cpp:160
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "<li>%1</li>"
+#, qt-format
 msgctxt "Formatting|"
 msgid "<li>%1</li>"
 msgstr "<li>%1</li>"
 
 #: src/UiUtils/Formatting.cpp:163
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>According to your system's policy, this connection is secure.</p>\n"
 msgctxt "Formatting|"
 msgid "<p>According to your system's policy, this connection is secure.</p>\n"
-msgstr "<p>Sistem ilkelerinize göre, bu bağlantı güvenli.</p>\n"
+msgstr "<p>Sistem ilkelerinize göre bu bağlantı güvenli.</p>\n"
 
 #: src/UiUtils/Formatting.cpp:164
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>The connection triggered the following SSL errors:</p>\n"
-#| "<ul>%1</ul>\n"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>The connection triggered the following SSL errors:</p>\n"
@@ -6188,22 +5600,12 @@ msgstr ""
 "<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:175
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "Different SSL certificate"
 msgctxt "Formatting|"
 msgid "Different SSL certificate"
 msgstr "Farklı SSL sertifikası"
 
 #: src/UiUtils/Formatting.cpp:176
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>The public key of the SSL certificate has changed. This should only "
-#| "happen when there was a security incident on the remote server. Your "
-#| "system configuration is set to accept such certificates anyway.</p>\n"
-#| "%1\n"
-#| "<p>Would you like to connect and remember the new certificate?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>The public key of the SSL certificate has changed. This should only "
@@ -6219,23 +5621,12 @@ msgstr ""
 "<p>Bağlanmak ve yeni sertifikayı anımsamak istiyor musunuz?</p>"
 
 #: src/UiUtils/Formatting.cpp:183
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "SSL certificate looks fishy"
 msgctxt "Formatting|"
 msgid "SSL certificate looks fishy"
 msgstr "SSL Sertifikası şüpheli görünüyor"
 
 #: src/UiUtils/Formatting.cpp:184
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>The public key of the SSL certificate of the IMAP server has changed "
-#| "since the last time and your system doesn't believe that the new "
-#| "certificate is genuine.</p>\n"
-#| "%1\n"
-#| "%2\n"
-#| "<p>Would you like to connect anyway and remember the new certificate?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>The public key of the SSL certificate of the IMAP server has changed "
@@ -6252,23 +5643,12 @@ msgstr ""
 "<p>Yine de bağlanmak ve yeni sertifikayı anımsamak istiyor musunuz?</p>"
 
 #: src/UiUtils/Formatting.cpp:193 src/UiUtils/Formatting.cpp:200
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "Accept SSL connection?"
 msgctxt "Formatting|"
 msgid "Accept SSL connection?"
 msgstr "SSL bağlantısı kabul edilsin mi?"
 
 #: src/UiUtils/Formatting.cpp:194
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>This is the first time you're connecting to this IMAP server; the "
-#| "certificate is trusted by this system.</p>\n"
-#| "%1\n"
-#| "%2\n"
-#| "<p>Would you like to connect and remember this certificate's public key "
-#| "for the next time?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>This is the first time you're connecting to this IMAP server; the "
@@ -6286,16 +5666,7 @@ msgstr ""
 "anımsamak istiyor musunuz?</p>"
 
 #: src/UiUtils/Formatting.cpp:201
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>This is the first time you're connecting to this IMAP server and the "
-#| "server certificate failed validation test.</p>\n"
-#| "%1\n"
-#| "\n"
-#| "%2\n"
-#| "<p>Would you like to connect and remember this certificate's public key "
-#| "for the next time?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>This is the first time you're connecting to this IMAP server and the "
@@ -6329,7 +5700,7 @@ msgstr ""
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Loading password from plugin %1..."
-msgstr "%1 eklentisinden parola yükleniyor..."
+msgstr "%1 eklentisinden parola yükleniyor…"
 
 #: src/UiUtils/PasswordWatcher.cpp:86
 #, qt-format
@@ -6358,7 +5729,7 @@ msgstr "Parola yazma başarısız: %1"
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Saving password from plugin %1..."
-msgstr "Parola %1 eklentisinden kaydediliyor..."
+msgstr "Parola %1 eklentisinden kaydediliyor…"
 
 #: src/UiUtils/PasswordWatcher.cpp:172
 #, qt-format

@@ -1,9 +1,9 @@
-# SPDX-FileCopyrightText: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2024 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2024, 2025 Freek de Kruijf <freekdekruijf@kde.nl>
 # Erik Quaeghebeur <kde-i18n-nl@equaeghe.nospammail.net>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-05-15 10:16+0200\n"
+"PO-Revision-Date: 2025-09-16 15:32+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -12,15 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(from %2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
@@ -30,43 +26,28 @@ msgstr ""
 "(van %2)"
 
 #: src/Composer/ComposerAttachments.cpp:157
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File does not exist"
 msgctxt "MessageComposer|"
 msgid "File does not exist"
 msgstr "Bestand bestaat niet"
 
 #: src/Composer/ComposerAttachments.cpp:160
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File is not readable"
 msgctxt "MessageComposer|"
 msgid "File is not readable"
 msgstr "Bestand is niet leesbaar"
 
 #: src/Composer/ComposerAttachments.cpp:163
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1: %2, %3"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
 msgstr "%1: %2, %3"
 
 #: src/Composer/ComposerAttachments.cpp:260
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "Message not available"
 msgctxt "MessageComposer|"
 msgid "Message not available"
 msgstr "Bericht niet beschikbaar"
 
 #: src/Composer/ComposerAttachments.cpp:263
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(%2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
@@ -76,25 +57,19 @@ msgstr ""
 "(%2)"
 
 #: src/Composer/ComposerAttachments.cpp:273
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP message %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP message %1"
 msgstr "IMAP-bericht %1"
 
 #: src/Composer/ComposerAttachments.cpp:384
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP part %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP part %1"
 msgstr "IMAP-onderdeel %1"
 
 #: src/Composer/ComposerAttachments.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1, %2"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
 msgstr "%1, %2"
@@ -137,78 +112,46 @@ msgid "Signature"
 msgstr "Ondertekening"
 
 #: src/Composer/Submission.cpp:113
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing to send"
 msgctxt "Submission|"
 msgid "Preparing to send"
 msgstr "Voorbereiden voor verzending"
 
 #: src/Composer/Submission.cpp:118
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Creating message"
 msgctxt "Submission|"
 msgid "Creating message"
-msgstr "Bericht maken"
+msgstr "Bericht aanmaken"
 
 #: src/Composer/Submission.cpp:123
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Saving to the sent folder"
 msgctxt "Submission|"
 msgid "Saving to the sent folder"
-msgstr "In de map Verzonden opslaan"
+msgstr "In de map Verzenden opslaan"
 
 #: src/Composer/Submission.cpp:128
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing message for delivery"
 msgctxt "Submission|"
 msgid "Preparing message for delivery"
 msgstr "Bericht voorbereiden voor aflevering"
 
 #: src/Composer/Submission.cpp:133
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Submitting message"
 msgctxt "Submission|"
 msgid "Submitting message"
 msgstr "Bericht indienen"
 
 #: src/Composer/Submission.cpp:138
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Updating message keywords"
 msgctxt "Submission|"
 msgid "Updating message keywords"
 msgstr "Sleutelwoorden van bericht bijwerken"
 
 #: src/Composer/Submission.cpp:143
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Submission|"
 msgid "Message sent"
 msgstr "Bericht verzonden"
 
 #: src/Composer/Submission.cpp:150
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Sending failed"
 msgctxt "Submission|"
 msgid "Sending failed"
 msgstr "Verzenden is mislukt"
 
 #: src/Composer/Submission.cpp:180
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "The IMAP connection has disappeared. You'll have close the composer, save "
-#| "the draft and re-open it later. The attachments will have to be added "
-#| "later. Sorry for the trouble, please see <a href=\"https://projects."
-#| "flaska.net/issues/640\">https://projects.flaska.net/issues/640</a> for "
-#| "details."
 msgctxt "Submission|"
 msgid ""
 "The IMAP connection has disappeared. You'll have close the composer, save "
@@ -222,19 +165,12 @@ msgstr ""
 "issues/640\">https://projects.flaska.net/issues/640</a> voor details."
 
 #: src/Composer/Submission.cpp:195
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Some data are not available yet"
 msgctxt "Submission|"
 msgid "Some data are not available yet"
 msgstr "Sommige gegevens zijn nog niet beschikbaar"
 
 #: src/Composer/Submission.cpp:211
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving failed:\n"
@@ -244,11 +180,7 @@ msgstr ""
 " %1"
 
 #: src/Composer/Submission.cpp:215
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving (CATENATE) failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving (CATENATE) failed:\n"
@@ -258,17 +190,12 @@ msgstr ""
 " %1"
 
 #: src/Composer/Submission.cpp:361
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid "APPEND failed: %1"
+#, qt-format
 msgctxt "Submission|"
 msgid "APPEND failed: %1"
 msgstr "ACHTERVOEGEN is mislukt: %1"
 
 #: src/Composer/Submission.cpp:391
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "The URLAUTH response does not contain a proper URL"
 msgctxt "Submission|"
 msgid "The URLAUTH response does not contain a proper URL"
 msgstr "De respons op URLAUTH bevatte geen juiste URL"
@@ -280,36 +207,22 @@ msgid "[getAuditLog failed: %1]"
 msgstr "[getAuditLog is mislukt: %1]"
 
 #: src/Cryptography/GpgMe++.cpp:170
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Waiting for data..."
 msgctxt "GpgMePart|"
 msgid "Waiting for data..."
 msgstr "Wachten op gegevens..."
 
 #: src/Cryptography/GpgMe++.cpp:313
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted; some signature: missing key"
 msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
 msgstr "Versleuteld; een ondertekening: sleutel ontbreekt"
 
 #: src/Cryptography/GpgMe++.cpp:313
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Some signature: missing key"
 msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
 msgstr "Een ondertekening: sleutel ontbreekt"
 
 #: src/Cryptography/GpgMe++.cpp:314
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid ""
-#| "Key %1 is not available in the keyring.\n"
-#| "Cannot verify signature validity or do anything else. The message might "
-#| "or might not have been tampered with."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid ""
 "Key %1 is not available in the keyring.\n"
@@ -321,70 +234,46 @@ msgstr ""
 "het bericht kan wel of niet gerommeld zijn."
 
 #: src/Cryptography/GpgMe++.cpp:325
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Internal error"
 msgctxt "GpgMePart|"
 msgid "Internal error"
 msgstr "Interne fout"
 
 #: src/Cryptography/GpgMe++.cpp:326
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Error when verifying signature: cannot retrieve key %1: %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
 msgstr ""
-"Fout bij het verifiëren van de ondertekening: kan sleutel %1: %2 niet "
-"verifiëren"
+"Fout bij het verifiëren van de ondertekening: kan sleutel %1 niet ophalen: "
+"%2 "
 
 #: src/Cryptography/GpgMe++.cpp:376
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, verified signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
 msgstr "Versleuteld, ondertekening geverifieerd"
 
 #: src/Cryptography/GpgMe++.cpp:376
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature"
 msgctxt "GpgMePart|"
 msgid "Verified signature"
 msgstr "Ondertekening geverifieerd"
 
 #: src/Cryptography/GpgMe++.cpp:377
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
 msgstr "Ondertekening uit %1 op %2 geverifieerd"
 
 #: src/Cryptography/GpgMe++.cpp:382
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, signed by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
 msgstr "Versleuteld, ondertekend door een vreemde"
 
 #: src/Cryptography/GpgMe++.cpp:382
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signed by stranger"
 msgctxt "GpgMePart|"
 msgid "Signed by stranger"
 msgstr "Ondertekend door een vreemde"
 
 #: src/Cryptography/GpgMe++.cpp:383
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid ""
-#| "Verified signature, but the signer is someone else:\n"
-#| "%1\n"
-#| "Signature was made on %2."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid ""
 "Verified signature, but the signer is someone else:\n"
@@ -404,9 +293,6 @@ msgid "Encrypted, bad signature"
 msgstr "Versleuteld, foute ondertekening"
 
 #: src/Cryptography/GpgMe++.cpp:390
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature"
 msgctxt "GpgMePart|"
 msgid "Bad signature"
 msgstr "Foute ondertekening"
@@ -425,7 +311,7 @@ msgstr "Versleuteld, foute ondertekening: %1"
 #| msgid "Bad signature: %1"
 msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
-msgstr "Foute ondertekening: %1"
+msgstr "Foute ondertekening"
 
 #: src/Cryptography/GpgMe++.cpp:396
 #, fuzzy, qt-format
@@ -612,9 +498,6 @@ msgid "The CRL (or an equivalent mechanism) is not available."
 msgstr "De CRL (of een equivalent mechanisme) is niet beschikbaar."
 
 #: src/Cryptography/GpgMe++.cpp:478
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Available CRL is too old."
 msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
 msgstr "Beschikbare CRL (lijst ingetrokken certificaten) is te oud."
@@ -633,7 +516,7 @@ msgstr "Aan een beleidsregel is niet voldaan."
 #| msgid "A system error occurred. %1"
 msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
-msgstr "Er was een systeemfout. %1"
+msgstr "Er deed zich een systeemfout voor."
 
 #: src/Cryptography/GpgMe++.cpp:495
 #, fuzzy
@@ -697,7 +580,7 @@ msgstr "Vertrouwensketting"
 #| msgid "%1(Unavailable)"
 msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
-msgstr "%1(niet beschikbaar)"
+msgstr "Niet beschikbaar"
 
 #: src/Cryptography/GpgMe++.cpp:535
 #, fuzzy, qt-format
@@ -789,7 +672,7 @@ msgstr ""
 #| msgid "Verifying signature..."
 msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
-msgstr "Ondertekening verifiëren..."
+msgstr "Ondertekening verifiëren %1..."
 
 #: src/Cryptography/GpgMe++.cpp:700
 #, fuzzy
@@ -877,7 +760,7 @@ msgstr ""
 #| msgid "Decrypting..."
 msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
-msgstr "Ontcijferen..."
+msgstr "Ontcijferen van %1..."
 
 #: src/Cryptography/GpgMe++.cpp:864
 #, fuzzy
@@ -896,9 +779,6 @@ msgid "Decryption error: %1"
 msgstr "Ontcijferingsfout: %1"
 
 #: src/Cryptography/GpgMe++.cpp:870
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
 msgstr "Versleuteld bericht"
@@ -917,7 +797,7 @@ msgstr "Verkeerd gebruik van sleutel, niet voor versleuteling"
 #| msgid "Unsupported algorithm: %1"
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
-msgstr "Niet ondersteund algoritme: %1"
+msgstr "Niet ondersteund algoritme"
 
 #: src/Cryptography/GpgMe++.cpp:888
 #, fuzzy, qt-format
@@ -949,7 +829,7 @@ msgstr "Versleuteld aan %1"
 #| msgid "Original filename: %1"
 msgctxt "GpgMeEncrypted|"
 msgid "Original filename: %1"
-msgstr "Oorspronkelijke bestandsnaam: %1"
+msgstr "Originele bestandsnaam"
 
 #: src/Gui/AboutDialog.ui:14
 msgctxt "AboutDialog|"
@@ -1095,12 +975,9 @@ msgstr ""
 #| msgid "Threaded"
 msgctxt "ComposeWidget|"
 msgid "Threaded"
-msgstr "Gegroepeerd naar discussie"
+msgstr "Gegroepeerd"
 
 #: src/Gui/ComposeWidget.cpp:358
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Error"
 msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Fout"
@@ -1153,9 +1030,6 @@ msgid "Cannot Determine Recipients"
 msgstr "Kan de ontvangers niet bepalen"
 
 #: src/Gui/ComposeWidget.cpp:566
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Sender"
 msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Afzender"
@@ -1174,7 +1048,7 @@ msgstr "Doorgestuurde e-mail: %1"
 #| msgid "(no subject)"
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
-msgstr "(geen onderwerp)"
+msgstr "Geen onderwerp"
 
 #: src/Gui/ComposeWidget.cpp:584
 #, fuzzy
@@ -1231,9 +1105,6 @@ msgstr ""
 "het te verzenden.</b>"
 
 #: src/Gui/ComposeWidget.cpp:688
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Authentication Required"
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Authenticatie vereist"
@@ -1285,17 +1156,11 @@ msgid "Drafts"
 msgstr "Concepten"
 
 #: src/Gui/ComposeWidget.cpp:747
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save as"
 msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Opslaan als"
 
 #: src/Gui/ComposeWidget.cpp:748
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Drafts"
 msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Concepten"
@@ -1363,20 +1228,14 @@ msgstr "Dit e-mailbericht zal gemarkeerd worden als een antwoord.<hr/>%1"
 #| msgid "To"
 msgctxt "ComposeWidget|"
 msgid "To"
-msgstr "Aan"
+msgstr "Tot:"
 
 #: src/Gui/ComposeWidget.cpp:1098
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Cc"
 
 #: src/Gui/ComposeWidget.cpp:1099
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Bcc"
@@ -1387,7 +1246,7 @@ msgstr "Bcc"
 #| msgid "Resent-To"
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
-msgstr "Opnieuw-verzonden-naar"
+msgstr "Opnieuw verzonden naar"
 
 #: src/Gui/ComposeWidget.cpp:1102
 #, fuzzy
@@ -1427,7 +1286,7 @@ msgstr "Kan \"%1\" niet herkennen als een e-mailadres."
 #| msgid "Attach File..."
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
-msgstr "Bestand bijvoegen..."
+msgstr "Bestand bijvoegen"
 
 #: src/Gui/ComposeWidget.cpp:1795
 #, fuzzy
@@ -1700,7 +1559,7 @@ msgstr "Laden %1 (%2)"
 #| msgid "Move here\tShift"
 msgctxt "MailBoxTreeView|"
 msgid "Move here\tShift"
-msgstr "Hierheen verplaatsen\tShift"
+msgstr "Hierheen &verplaatsen\tShift"
 
 #: src/Gui/MailBoxTreeView.cpp:144
 #, fuzzy
@@ -1708,7 +1567,7 @@ msgstr "Hierheen verplaatsen\tShift"
 #| msgid "Copy here\tCtrl"
 msgctxt "MailBoxTreeView|"
 msgid "Copy here\tCtrl"
-msgstr "Hierheen kopiëren\tCtrl"
+msgstr "Hierheen &kopiëren\tCtrl"
 
 #: src/Gui/MailBoxTreeView.cpp:145
 #, fuzzy
@@ -1791,17 +1650,11 @@ msgid "Message headers of UID %1 in %2"
 msgstr "Berichtkoppen van UID %1 in %2"
 
 #: src/Gui/MessageHeadersWidget.cpp:55
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageHeadersWidget|"
 msgid "Search..."
 msgstr "Zoeken..."
 
 #: src/Gui/MessageHeadersWidget.cpp:56
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
@@ -1935,17 +1788,11 @@ msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
 #: src/Gui/MessageView.cpp:90
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageView|"
 msgid "Search..."
 msgstr "Zoeken..."
 
 #: src/Gui/MessageView.cpp:91
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
@@ -1987,7 +1834,7 @@ msgstr ""
 #| msgid "you"
 msgctxt "MessageView|"
 msgid "you"
-msgstr "u"
+msgstr "U"
 
 #: src/Gui/MessageView.cpp:369
 #, fuzzy, qt-format
@@ -2081,9 +1928,6 @@ msgid "Copy e-mail address"
 msgstr "E-mailadres kopiëren"
 
 #: src/Gui/OneEnvelopeAddress.cpp:146
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "Copy text"
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy text"
 msgstr "Tekst kopiëren"
@@ -4526,9 +4370,6 @@ msgid "The connection is being killed for unspecified reason"
 msgstr "De verbinding wordt afgesloten om een niet gespecificeerde reden"
 
 #: src/Imap/Model/MsgListModel.cpp:283
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Subject"
 msgctxt "MsgListModel|"
 msgid "Subject"
 msgstr "Onderwerp"
@@ -4539,7 +4380,7 @@ msgstr "Onderwerp"
 #| msgid "From"
 msgctxt "MsgListModel|"
 msgid "From"
-msgstr "Van"
+msgstr "Van:"
 
 #: src/Imap/Model/MsgListModel.cpp:287
 #, fuzzy
@@ -4547,44 +4388,29 @@ msgstr "Van"
 #| msgid "To"
 msgctxt "MsgListModel|"
 msgid "To"
-msgstr "Aan"
+msgstr "Tot:"
 
 #: src/Imap/Model/MsgListModel.cpp:289
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "MsgListModel|"
 msgid "Cc"
 msgstr "Cc"
 
 #: src/Imap/Model/MsgListModel.cpp:291
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "MsgListModel|"
 msgid "Bcc"
 msgstr "Bcc"
 
 #: src/Imap/Model/MsgListModel.cpp:293
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Date"
 msgctxt "MsgListModel|"
 msgid "Date"
 msgstr "Datum"
 
 #: src/Imap/Model/MsgListModel.cpp:295
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Received"
 msgctxt "MsgListModel|"
 msgid "Received"
 msgstr "Ontvangen"
 
 #: src/Imap/Model/MsgListModel.cpp:297
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Size"
 msgctxt "MsgListModel|"
 msgid "Size"
 msgstr "Grootte"
@@ -6049,41 +5875,26 @@ msgstr ""
 "verbinding met %1:%2: %3"
 
 #: src/UiUtils/Formatting.cpp:40
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "B"
 msgctxt "Formatting|"
 msgid "B"
 msgstr "B"
 
 #: src/UiUtils/Formatting.cpp:41
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "kB"
 msgctxt "Formatting|"
 msgid "kB"
 msgstr "kB"
 
 #: src/UiUtils/Formatting.cpp:42
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "MB"
 msgctxt "Formatting|"
 msgid "MB"
 msgstr "MB"
 
 #: src/UiUtils/Formatting.cpp:43
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "GB"
 msgctxt "Formatting|"
 msgid "GB"
 msgstr "GB"
 
 #: src/UiUtils/Formatting.cpp:44
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "TB"
 msgctxt "Formatting|"
 msgid "TB"
 msgstr "TB"
@@ -6197,7 +6008,7 @@ msgstr ""
 #| msgid "\n"
 msgctxt "Formatting|"
 msgid "\n"
-msgstr "\n"
+msgstr "N"
 
 #: src/UiUtils/Formatting.cpp:160
 #, fuzzy, qt-format
