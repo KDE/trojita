@@ -17,88 +17,59 @@ msgstr ""
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(from %2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(from %2)"
 msgstr ""
-"%1\n"
-"(来自 %2)"
 
 #: src/Composer/ComposerAttachments.cpp:157
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File does not exist"
 msgctxt "MessageComposer|"
 msgid "File does not exist"
-msgstr "文件不存在"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:160
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File is not readable"
 msgctxt "MessageComposer|"
 msgid "File is not readable"
-msgstr "文件不可读"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:163
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1: %2, %3"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
-msgstr "%1: %2, %3"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:260
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "Message not available"
 msgctxt "MessageComposer|"
 msgid "Message not available"
-msgstr "信件不可用"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:263
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(%2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(%2)"
 msgstr ""
-"%1\n"
-"(%2)"
 
 #: src/Composer/ComposerAttachments.cpp:273
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP message %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP message %1"
-msgstr "IMAP 消息 %1"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:384
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP part %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP part %1"
-msgstr "IMAP 部分 %1"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1, %2"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
-msgstr "%1, %2"
+msgstr ""
 
 #: src/Composer/ExistingMessageComposer.cpp:78
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
@@ -138,78 +109,46 @@ msgid "Signature"
 msgstr "签名"
 
 #: src/Composer/Submission.cpp:113
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing to send"
 msgctxt "Submission|"
 msgid "Preparing to send"
-msgstr "正在准备发送"
+msgstr ""
 
 #: src/Composer/Submission.cpp:118
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Creating message"
 msgctxt "Submission|"
 msgid "Creating message"
-msgstr "正在创建消息"
+msgstr ""
 
 #: src/Composer/Submission.cpp:123
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Saving to the sent folder"
 msgctxt "Submission|"
 msgid "Saving to the sent folder"
-msgstr "正在保存到“已发送”文件夹"
+msgstr ""
 
 #: src/Composer/Submission.cpp:128
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing message for delivery"
 msgctxt "Submission|"
 msgid "Preparing message for delivery"
-msgstr "正在准备发送消息"
+msgstr ""
 
 #: src/Composer/Submission.cpp:133
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Submitting message"
 msgctxt "Submission|"
 msgid "Submitting message"
-msgstr "正在提交信件"
+msgstr ""
 
 #: src/Composer/Submission.cpp:138
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Updating message keywords"
 msgctxt "Submission|"
 msgid "Updating message keywords"
-msgstr "正在更新信件关键字"
+msgstr ""
 
 #: src/Composer/Submission.cpp:143
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Submission|"
 msgid "Message sent"
-msgstr "已发出信件"
+msgstr ""
 
 #: src/Composer/Submission.cpp:150
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Sending failed"
 msgctxt "Submission|"
 msgid "Sending failed"
-msgstr "发送失败"
+msgstr ""
 
 #: src/Composer/Submission.cpp:180
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "The IMAP connection has disappeared. You'll have close the composer, save "
-#| "the draft and re-open it later. The attachments will have to be added "
-#| "later. Sorry for the trouble, please see <a href=\"https://projects."
-#| "flaska.net/issues/640\">https://projects.flaska.net/issues/640</a> for "
-#| "details."
 msgctxt "Submission|"
 msgid ""
 "The IMAP connection has disappeared. You'll have close the composer, save "
@@ -217,61 +156,38 @@ msgid ""
 "Sorry for the trouble, please see <a href=\"https://projects.flaska.net/"
 "issues/640\">https://projects.flaska.net/issues/640</a> for details."
 msgstr ""
-"IMAP 连接已消失。需要先关闭邮件编辑器，保存草稿然后重新打开。附件需要重新添"
-"加。非常抱歉造成困扰，详情请参见 <a href=\"https://projects.flaska.net/"
-"issues/640\"> https://projects.flaska.net/issues/640</a> 。"
 
 #: src/Composer/Submission.cpp:195
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Some data are not available yet"
 msgctxt "Submission|"
 msgid "Some data are not available yet"
-msgstr "某些数据尚不可用"
+msgstr ""
 
 #: src/Composer/Submission.cpp:211
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving failed:\n"
 " %1"
 msgstr ""
-"现在无法发送 -- 保存失败：\n"
-" %1"
 
 #: src/Composer/Submission.cpp:215
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving (CATENATE) failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving (CATENATE) failed:\n"
 " %1"
 msgstr ""
-"现在无法发送 — — 保存 (CATENATE) 失败:\n"
-" %1"
 
 #: src/Composer/Submission.cpp:361
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid "APPEND failed: %1"
+#, qt-format
 msgctxt "Submission|"
 msgid "APPEND failed: %1"
-msgstr "APPEND 失败： %1"
+msgstr ""
 
 #: src/Composer/Submission.cpp:391
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "The URLAUTH response does not contain a proper URL"
 msgctxt "Submission|"
 msgid "The URLAUTH response does not contain a proper URL"
-msgstr "URLAUTH 响应未包含正确的 URL"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:54
 #, qt-format
@@ -280,293 +196,194 @@ msgid "[getAuditLog failed: %1]"
 msgstr "[getAuditLog 失败： %1]"
 
 #: src/Cryptography/GpgMe++.cpp:170
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Waiting for data..."
 msgctxt "GpgMePart|"
 msgid "Waiting for data..."
-msgstr "正在等待数据..."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:313
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted; some signature: missing key"
 msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
-msgstr "已加密；一些签名：缺少密钥"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:313
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Some signature: missing key"
 msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
-msgstr "一些签名：缺少密钥"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:314
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid ""
-#| "Key %1 is not available in the keyring.\n"
-#| "Cannot verify signature validity or do anything else. The message might "
-#| "or might not have been tampered with."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid ""
 "Key %1 is not available in the keyring.\n"
 "Cannot verify signature validity or do anything else. The message might or "
 "might not have been tampered with."
 msgstr ""
-"密钥 %1 在密钥环中不可用。\n"
-"无法验证签名有效性或执行任何其他操作。消息可能已被篡改，也可能未被篡改。"
 
 #: src/Cryptography/GpgMe++.cpp:325
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Internal error"
 msgctxt "GpgMePart|"
 msgid "Internal error"
-msgstr "内部错误"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:326
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Error when verifying signature: cannot retrieve key %1: %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
-msgstr "验证签名时出现错误：无法检索密钥 %1：%2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:376
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, verified signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
-msgstr "已加密，签名已验证"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:376
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature"
 msgctxt "GpgMePart|"
 msgid "Verified signature"
-msgstr "已验证签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:377
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
-msgstr "已从 %1 在 %2 上验证签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:382
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, signed by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
-msgstr "已加密，由未知者签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:382
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signed by stranger"
 msgctxt "GpgMePart|"
 msgid "Signed by stranger"
-msgstr "由未知者签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:383
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid ""
-#| "Verified signature, but the signer is someone else:\n"
-#| "%1\n"
-#| "Signature was made on %2."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid ""
 "Verified signature, but the signer is someone else:\n"
 "%1\n"
 "Signature was made on %2."
 msgstr ""
-"已验证签名，但签名者是其他人：\n"
-"%1\n"
-"签署于 %2。"
 
 #: src/Cryptography/GpgMe++.cpp:390
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
-msgstr "已加密，损坏的签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:390
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature"
 msgctxt "GpgMePart|"
 msgid "Bad signature"
-msgstr "损坏的签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:393
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
-msgstr "已加密，损坏的签名：%1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:394
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
-msgstr "损坏的签名：%1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
-msgstr "损坏的签名，由 %1 签署于 %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:399
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
-msgstr "已加密，由未知者签署的损坏的签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:399
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
-msgstr "由未知者签署的损坏的签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:402
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature by stranger: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
-msgstr "已加密，由未知者签署的损坏的签名：%1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:403
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by stranger: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
-msgstr "由未知者签署的损坏的签名：%1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:405
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by someone else: %1 on %2."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by someone else: %1 on %2."
-msgstr "由其他人签署的损坏的签名：%1 于 %2。"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:421
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
-msgstr "已加密，损坏的签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:421
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Some signature"
-msgstr "签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:422
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Unknown signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature from %1 on %2"
-msgstr "未知签名，来自 %1 签署于 %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:426
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
-msgstr "已加密，由未知者签署的损坏的签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:426
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
-msgstr "由未知者签署的损坏的签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:427
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Unknown signature by somebody else: %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature by somebody else: %1 on %2"
-msgstr "由其他人签署的未知签名：%1 于 %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:435
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, semi-trusted signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
-msgstr "已加密，半信任签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:435
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature"
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
-msgstr "半信任签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:436
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature from %1 on %2"
-msgstr "已从 %1 在 %2 上验证签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:441
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, semi-trusted signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature by stranger"
-msgstr "已加密，半信任签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:442
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature"
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by stranger"
-msgstr "半信任签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:443
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Unknown signature by somebody else: %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by somebody else: %1 on %2"
-msgstr "由其他人签署的未知签名：%1 于 %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:456
 msgctxt "GpgMePart|"
@@ -595,12 +412,9 @@ msgid "The CRL (or an equivalent mechanism) is not available."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:478
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Available CRL is too old."
 msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
-msgstr "可用的 CRL 过旧。"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:482
 msgctxt "GpgMePart|"
@@ -684,12 +498,9 @@ msgid "Expected 2 parts, but found %1."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:621
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, verified signature"
 msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
-msgstr "已加密，签名已验证"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:622
 #, qt-format
@@ -703,12 +514,9 @@ msgid "Signed message is gone"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:654
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "Message not available"
 msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
-msgstr "信件不可用"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:655
 msgctxt "GpgMeSigned|"
@@ -717,12 +525,9 @@ msgid ""
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:675
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature"
 msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
-msgstr "已验证签名"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:700
 msgctxt "GpgMeSigned|"
@@ -730,12 +535,9 @@ msgid "No signatures in the signed message"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:740 src/Cryptography/GpgMe++.cpp:814
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
-msgstr "加密的信件"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:741
 #, qt-format
@@ -755,20 +557,14 @@ msgid "Failed to initialize GpgME (%1)"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:787 src/Cryptography/GpgMe++.cpp:923
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
-msgstr "加密的信件"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:797
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "Message not available"
 msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
-msgstr "信件不可用"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:798
 msgctxt "GpgMeEncrypted|"
@@ -784,20 +580,14 @@ msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:821
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "&Settings..."
 msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
-msgstr "&设置…"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:864
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
-msgstr "加密的信件"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:867
 #, qt-format
@@ -806,12 +596,9 @@ msgid "Decryption error: %1"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:870
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
-msgstr "加密的信件"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:876
 msgctxt "GpgMeEncrypted|"
@@ -837,20 +624,16 @@ msgid "Encrypted to %1 (%2)"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:897
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
-msgstr "已加密，损坏的签名：%1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:903
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::OpenConnectionTask|"
-#| msgid "Login failed: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Original filename: %1"
-msgstr "登录失败: %1"
+msgstr ""
 
 #: src/Gui/AboutDialog.ui:14
 msgctxt "AboutDialog|"
@@ -956,20 +739,14 @@ msgid "Cancel"
 msgstr "取消"
 
 #: src/Gui/ComposeWidget.cpp:195
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Send"
 msgctxt "ComposeWidget|"
 msgid "Send"
-msgstr "发送"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:234
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Threaded"
 msgctxt "ComposeWidget|"
 msgid "New Thread"
-msgstr "线程化"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:237
 msgctxt "ComposeWidget|"
@@ -979,20 +756,14 @@ msgid ""
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:238
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Threaded"
 msgctxt "ComposeWidget|"
 msgid "Threaded"
-msgstr "线程化"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:358
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Error"
 msgctxt "ComposeWidget|"
 msgid "Error"
-msgstr "误差"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:358
 msgctxt "ComposeWidget|"
@@ -1020,12 +791,9 @@ msgid "Cannot Determine Recipients"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:566
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Sender"
 msgctxt "ComposeWidget|"
 msgid "Sender"
-msgstr "发送者"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:572
 #, qt-format
@@ -1034,20 +802,14 @@ msgid "Resend Mail: %1"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:572
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Subject"
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
-msgstr "主题"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:584
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
-msgstr "已发出信件"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:587
 msgctxt "ComposeWidget|"
@@ -1055,12 +817,9 @@ msgid "The Message-ID header is missing"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:590
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
-msgstr "已发出信件"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:593
 msgctxt "ComposeWidget|"
@@ -1080,12 +839,9 @@ msgid ""
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:688
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Authentication Required"
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
-msgstr "需要进行身份认证"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:689
 #, qt-format
@@ -1094,12 +850,9 @@ msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:723
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save as"
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
-msgstr "另存为"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:724
 msgctxt "ComposeWidget|"
@@ -1120,20 +873,14 @@ msgid "Drafts"
 msgstr "草稿"
 
 #: src/Gui/ComposeWidget.cpp:747
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save as"
 msgctxt "ComposeWidget|"
 msgid "Save as"
-msgstr "另存为"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:748
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Drafts"
 msgctxt "ComposeWidget|"
 msgid "Drafts"
-msgstr "草稿"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:777
 #, qt-format
@@ -1170,28 +917,19 @@ msgid "This mail will be marked as a response<hr/>%1"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1097
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "ComposeWidget|"
 msgid "To"
-msgstr "到"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1098
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "ComposeWidget|"
 msgid "Cc"
-msgstr "抄送"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1099
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "ComposeWidget|"
 msgid "Bcc"
-msgstr "密送"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1101
 msgctxt "ComposeWidget|"
@@ -1220,20 +958,14 @@ msgid "Can't parse \"%1\" as an e-mail address."
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1613
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Attach File..."
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
-msgstr "附加文件..."
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1795
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "<br/>"
 msgctxt "ComposeWidget|"
 msgid "<br/>"
-msgstr "<br/>"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1838
 msgctxt "ComposeWidget|"
@@ -1496,12 +1228,9 @@ msgid "Copy here\tCtrl"
 msgstr ""
 
 #: src/Gui/MailBoxTreeView.cpp:145
-#, fuzzy
-#| msgctxt "QWidget|"
-#| msgid "Cancel"
 msgctxt "MailBoxTreeView|"
 msgid "Cancel"
-msgstr "取消"
+msgstr ""
 
 #: src/Gui/main.cpp:84
 #, qt-format
@@ -1574,20 +1303,14 @@ msgid "Message headers of UID %1 in %2"
 msgstr ""
 
 #: src/Gui/MessageHeadersWidget.cpp:55
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageHeadersWidget|"
 msgid "Search..."
-msgstr "搜索..."
+msgstr ""
 
 #: src/Gui/MessageHeadersWidget.cpp:56
-#, fuzzy
-#| msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
-#| msgid "Ctrl+"
 msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
-msgstr "Ctrl+"
+msgstr ""
 
 #: src/Gui/MessageListWidget.cpp:50
 msgctxt "Gui::MessageListWidget|"
@@ -1711,49 +1434,34 @@ msgid "Ctrl+F"
 msgstr ""
 
 #: src/Gui/MessageView.cpp:90
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageView|"
 msgid "Search..."
-msgstr "搜索..."
+msgstr ""
 
 #: src/Gui/MessageView.cpp:91
-#, fuzzy
-#| msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
-#| msgid "Ctrl+"
 msgctxt "MessageView|"
 msgid "Ctrl+F"
-msgstr "Ctrl+"
+msgstr ""
 
 #: src/Gui/MessageView.cpp:142
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Creating message"
 msgctxt "MessageView|"
 msgid ""
 "Fetching\n"
 "Message"
-msgstr "正在创建消息"
+msgstr ""
 
 #: src/Gui/MessageView.cpp:227
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Waiting for data..."
 msgctxt "MessageView|"
 msgid ""
 "Waiting\n"
 "for\n"
 "Message..."
-msgstr "正在等待数据..."
+msgstr ""
 
 #: src/Gui/MessageView.cpp:362
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid "you"
 msgctxt "MessageView|"
 msgid "you"
-msgstr "您"
+msgstr ""
 
 #: src/Gui/MessageView.cpp:369
 #, qt-format
@@ -1824,12 +1532,9 @@ msgid "Copy e-mail address"
 msgstr ""
 
 #: src/Gui/OneEnvelopeAddress.cpp:146
-#, fuzzy
-#| msgctxt "Gui::GeneralPage|"
-#| msgid "Copy"
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy text"
-msgstr "复制"
+msgstr ""
 
 #. Translators: use something very short, perhaps even "text". Don't describe this as "Clear text". This string is used as a caption of a tab showing the plaintext part of a mail which is e.g. sent in both plaintext and HTML formats.
 #: src/Gui/PartWidget.cpp:144
@@ -4060,68 +3765,44 @@ msgid "The connection is being killed for unspecified reason"
 msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:283
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Subject"
 msgctxt "MsgListModel|"
 msgid "Subject"
-msgstr "主题"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:285
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "From"
 msgctxt "MsgListModel|"
 msgid "From"
-msgstr "从"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:287
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "MsgListModel|"
 msgid "To"
-msgstr "到"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:289
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "MsgListModel|"
 msgid "Cc"
-msgstr "抄送"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:291
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "MsgListModel|"
 msgid "Bcc"
-msgstr "密送"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:293
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Date"
 msgctxt "MsgListModel|"
 msgid "Date"
-msgstr "日期"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:295
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Received"
 msgctxt "MsgListModel|"
 msgid "Received"
-msgstr "接收"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:297
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Size"
 msgctxt "MsgListModel|"
 msgid "Size"
-msgstr "大小"
+msgstr ""
 
 #: src/Imap/Model/NetworkWatcher.cpp:63
 #, qt-format
@@ -5514,94 +5195,59 @@ msgid ""
 msgstr ""
 
 #: src/UiUtils/Formatting.cpp:40
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "B"
 msgctxt "Formatting|"
 msgid "B"
-msgstr "B"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:41
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "kB"
 msgctxt "Formatting|"
 msgid "kB"
-msgstr "kB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:42
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "MB"
 msgctxt "Formatting|"
 msgid "MB"
-msgstr "MB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:43
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "GB"
 msgctxt "Formatting|"
 msgid "GB"
-msgstr "GB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:44
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "TB"
 msgctxt "Formatting|"
 msgid "TB"
-msgstr "TB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:67
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::OpenConnectionTask|"
-#| msgid "%1 %2"
+#, qt-format
 msgctxt "Formatting|"
 msgid "%1 %2"
-msgstr "%2年%1月"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:86
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "hh:mm"
-msgstr "hh:mm"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:91
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "ddd hh:mm"
-msgstr "hh:mm"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:99
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "d MMM hh:mm"
-msgstr "hh:mm"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:142
 #, qt-format
@@ -5633,20 +5279,15 @@ msgid ""
 msgstr ""
 
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "\n"
 msgctxt "Formatting|"
 msgid "\n"
-msgstr "\n"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:160
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "<li>%1</li>"
+#, qt-format
 msgctxt "Formatting|"
 msgid "<li>%1</li>"
-msgstr "<li>%1</li>"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:163
 msgctxt "Formatting|"
@@ -5772,39 +5413,3 @@ msgstr ""
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr ""
-
-#~ msgctxt "Gui::ComposeWidget|"
-#~ msgid "Drafts"
-#~ msgstr "草稿"
-
-#~ msgctxt "Gui::MailBoxTreeView|"
-#~ msgid "Cancel"
-#~ msgstr "取消"
-
-#~ msgctxt "Gui::MessageView|"
-#~ msgid "Search..."
-#~ msgstr "搜索..."
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "Subject"
-#~ msgstr "主题"
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "From"
-#~ msgstr "从"
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "To"
-#~ msgstr "到"
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "Cc"
-#~ msgstr "抄送"
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "Bcc"
-#~ msgstr "密送"
-
-#~ msgctxt "UiUtils::Formatting|"
-#~ msgid "%1 %2"
-#~ msgstr "%2年%1月"
