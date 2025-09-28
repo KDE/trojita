@@ -1,5 +1,6 @@
 /* Copyright (C) 2006 - 2015 Jan Kundrát <jkt@flaska.net>
    Copyright (C) 2013 - 2015 Pali Rohár <pali.rohar@gmail.com>
+   Copyright (C) 2025 Espen Sandøy Hustad <espen@ehustad.com>
 
    This file is part of the Trojita Qt IMAP e-mail client,
    http://trojita.flaska.net/
@@ -2710,26 +2711,30 @@ void MainWindow::saveSizesAndState()
     if (key.isEmpty())
         return;
 
-    QList<QByteArray> items;
-    items << saveGeometry();
-    items << saveState();
-    items << (m_mainVSplitter ? m_mainVSplitter->saveState() : QByteArray());
-    items << (m_mainHSplitter ? m_mainHSplitter->saveState() : QByteArray());
-    items << msgListWidget->tree->header()->saveState();
-    items << QByteArray::number(msgListWidget->tree->header()->count());
-    for (int i = 0; i < msgListWidget->tree->header()->count(); ++i) {
-        items << QByteArray::number(msgListWidget->tree->header()->sectionSize(i));
-    }
-    // a bool cannot be pushed directly onto a QByteArray so we must convert it to a number
-    items << QByteArray::number(menuBar()->isVisible());
-    QByteArray buf;
-    QDataStream stream(&buf, QIODevice::WriteOnly);
-    stream << items.size();
-    Q_FOREACH(const QByteArray &item, items) {
-        stream << item;
-    }
+    m_settings->setValue(Common::SettingsNames::settingsVersion, 1);
 
-    m_settings->setValue(key.arg(QString::number(geometry.width())), buf);
+    m_settings->beginGroup(key.arg(QString::number(geometry.width())));
+
+    m_settings->setValue(Common::SettingsNames::geometry, saveGeometry());
+    m_settings->setValue(Common::SettingsNames::windowState, saveState());
+
+    m_settings->setValue(Common::SettingsNames::mainVSplitterState,
+                         m_mainVSplitter ? m_mainVSplitter->saveState() : QByteArray());
+    m_settings->setValue(Common::SettingsNames::mainHSplitterState,
+                         m_mainHSplitter ? m_mainHSplitter->saveState() : QByteArray());
+
+    m_settings->setValue(Common::SettingsNames::messageListState, msgListWidget->tree->header()->saveState());
+    m_settings->beginWriteArray(Common::SettingsNames::messageListHeader);
+    for (auto i = 0; i < msgListWidget->tree->header()->count(); ++i) {
+        m_settings->setArrayIndex(i);
+        m_settings->setValue(Common::SettingsNames::columnWidth,
+                             QByteArray::number(msgListWidget->tree->header()->sectionSize(i)));
+    }
+    m_settings->endArray();
+
+    m_settings->setValue(Common::SettingsNames::menubarVisible, menuBar()->isVisible());
+
+    m_settings->endGroup();
 }
 
 void MainWindow::saveRawStateSetting(bool enabled)
@@ -2744,93 +2749,175 @@ void MainWindow::applySizesAndState()
     if (key.isEmpty())
         return;
 
-    QByteArray buf = m_settings->value(key.arg(QString::number(geometry.width()))).toByteArray();
-    if (buf.isEmpty())
-        return;
+    bool versionOk;
+    const int version = m_settings->value(Common::SettingsNames::settingsVersion, 0).toInt(&versionOk);
 
-    int size;
-    QDataStream stream(&buf, QIODevice::ReadOnly);
-    stream >> size;
-    QByteArray item;
+    if (!versionOk  || version < 1) {
+        convertSizesAndStateSettings();
+    }
 
     // There are slots connected to various events triggered by both restoreGeometry() and restoreState() which would attempt to
     // save our geometries and state, which is what we must avoid while this method is executing.
     bool skipSaving = m_skipSavingOfUI;
     m_skipSavingOfUI = true;
 
-    if (size-- && !stream.atEnd()) {
-        stream >> item;
+    m_settings->beginGroup(key.arg(QString::number(geometry.width())));
+    const auto g = m_settings->value(Common::SettingsNames::geometry).toByteArray();
 
-        // https://bugreports.qt-project.org/browse/QTBUG-30636
-        if (windowState() & Qt::WindowMaximized) {
-            // restoreGeometry(.) restores the wrong size for at least maximized window
-            // However, QWidget does also not notice that the configure request for this
-            // is ignored by many window managers (because users really don't like when windows
-            // drop themselves out of maximization) and has a wrong QWidget::geometry() idea from
-            // the wrong assumption the request would have been hononred.
-            //  So we just "fix" the internal geometry immediately afterwards to prevent
-            // mislayouting
-            // There's atm. no flicker due to this (and because Qt compresses events)
-            // In case it ever occurs, we can frame this in setUpdatesEnabled(false/true)
-            QRect oldGeometry = MainWindow::geometry();
-            restoreGeometry(item);
-            if (windowState() & Qt::WindowMaximized)
-                setGeometry(oldGeometry);
+    // https://bugreports.qt-project.org/browse/QTBUG-30636
+    if (windowState() & Qt::WindowMaximized) {
+        // restoreGeometry(.) restores the wrong size for at least maximized window
+        // However, QWidget does also not notice that the configure request for this
+        // is ignored by many window managers (because users really don't like when windows
+        // drop themselves out of maximization) and has a wrong QWidget::geometry() idea from
+        // the wrong assumption the request would have been hononred.
+        //  So we just "fix" the internal geometry immediately afterwards to prevent
+        // mislayouting
+        // There's atm. no flicker due to this (and because Qt compresses events)
+        // In case it ever occurs, we can frame this in setUpdatesEnabled(false/true)
+        QRect oldGeometry = MainWindow::geometry();
+        restoreGeometry(g);
+        if (windowState() & Qt::WindowMaximized)
+            setGeometry(oldGeometry);
         } else {
-            restoreGeometry(item);
-            if (windowState() & Qt::WindowMaximized) {
-                // ensure to try setting the proper geometry and have the WM constrain us
-                setGeometry(QGuiApplication::primaryScreen()->availableGeometry());
-            }
+            restoreGeometry(g);
+        if (windowState() & Qt::WindowMaximized) {
+            // ensure to try setting the proper geometry and have the WM constrain us
+            setGeometry(QGuiApplication::primaryScreen()->availableGeometry());
         }
     }
 
-    if (size-- && !stream.atEnd()) {
-        stream >> item;
-        restoreState(item);
+    restoreState(m_settings->value(Common::SettingsNames::windowState).toByteArray());
+
+    if (m_mainVSplitter) {
+        const auto s = m_settings->value(Common::SettingsNames::mainVSplitterState).toByteArray();
+        m_mainVSplitter->restoreState(s);
     }
 
-    if (size-- && !stream.atEnd()) {
-        stream >> item;
-        if (m_mainVSplitter) {
-            m_mainVSplitter->restoreState(item);
-        }
+    if (m_mainHSplitter) {
+        const auto s = m_settings->value(Common::SettingsNames::mainHSplitterState).toByteArray();
+        m_mainHSplitter->restoreState(s);
     }
 
-    if (size-- && !stream.atEnd()) {
-        stream >> item;
-        if (m_mainHSplitter) {
-            m_mainHSplitter->restoreState(item);
-        }
-    }
-
-    if (size-- && !stream.atEnd()) {
-        stream >> item;
-        msgListWidget->tree->header()->restoreState(item);
-        // got to manually update the state of the actions which control the visibility state
-        msgListWidget->tree->updateActionsAfterRestoredState();
-    }
-
+    const auto s = m_settings->value(Common::SettingsNames::messageListState).toByteArray();
+    msgListWidget->tree->header()->restoreState(s);
+    // got to manually update the state of the actions which control the visibility state
+    msgListWidget->tree->updateActionsAfterRestoredState();
     connect(msgListWidget->tree->header(), &QHeaderView::sectionCountChanged, msgListWidget->tree, &MsgListView::slotHandleNewColumns);
+
+    const auto size = m_settings->beginReadArray(Common::SettingsNames::messageListHeader);
+    for (auto i = 0; i < size; ++i) {
+        m_settings->setArrayIndex(i);
+        bool ok = false;
+        const auto sectionSize = m_settings->value(Common::SettingsNames::columnWidth).toInt(&ok);
+        if (!ok) {
+            continue;
+        }
+
+        QHeaderView::ResizeMode resizeMode = msgListWidget->tree->resizeModeForColumn(i);
+        if (sectionSize > 0 && resizeMode == QHeaderView::Interactive) {
+            // fun fact: user cannot resize by mouse when size <= 0
+            msgListWidget->tree->setColumnWidth(i, sectionSize);
+        } else {
+            msgListWidget->tree->setColumnWidth(i, msgListWidget->tree->sizeHintForColumn(i));
+        }
+        msgListWidget->tree->header()->setSectionResizeMode(i, resizeMode);
+
+    }
+    m_settings->endArray();
+
+    const auto v = m_settings->value(Common::SettingsNames::menubarVisible).toBool();
+    menuBar()->setVisible(v);
+    showMenuBar->setChecked(v);
+
+    m_settings->endGroup();
+
+    m_skipSavingOfUI = skipSaving;
+}
+
+QString MainWindow::layoutToString(const LayoutMode layout) const
+{
+    switch (layout) {
+    case LAYOUT_COMPACT:
+        return QStringLiteral("Compact");
+    case LAYOUT_WIDE:
+        return QStringLiteral("Wide");
+    case LAYOUT_ONE_AT_TIME:
+        return QStringLiteral("One At a Time");
+    }
+
+    Q_ASSERT(false);
+    return QStringLiteral("");
+}
+
+void MainWindow::convertSizesAndStateSettings()
+{
+    convertSizesAndStateSetting(LAYOUT_COMPACT);
+    convertSizesAndStateSetting(LAYOUT_WIDE);
+    convertSizesAndStateSetting(LAYOUT_ONE_AT_TIME);
+    m_settings->sync();
+}
+
+void MainWindow::convertSizesAndStateSetting(const LayoutMode layout)
+{
+    QRect geometry = screen()->availableGeometry();
+    QString key = settingsKeyForLayout(layout);
+    if (key.isEmpty())
+        return;
+
+    QByteArray buf = m_settings->value(key.arg(QString::number(geometry.width()))).toByteArray();
+    if (buf.isEmpty())
+        return;
+
+    qWarning() << "Starting conversion of layout settings for:" << layoutToString(layout);
+
+    int size;
+    QDataStream stream(&buf, QIODevice::ReadOnly);
+    stream >> size;
+    QByteArray item;
+
+    m_settings->beginGroup(key.arg(QString::number(geometry.width())));
+
+    if (size-- && !stream.atEnd()) {
+        stream >> item;
+        m_settings->setValue(Common::SettingsNames::geometry, item);
+    }
+
+    if (size-- && !stream.atEnd()) {
+        stream >> item;
+        m_settings->setValue(Common::SettingsNames::windowState, item);
+    }
+
+    if (size-- && !stream.atEnd()) {
+        stream >> item;
+        m_settings->setValue(Common::SettingsNames::mainVSplitterState, item);
+    }
+
+    if (size-- && !stream.atEnd()) {
+        stream >> item;
+        m_settings->setValue(Common::SettingsNames::mainHSplitterState, item);
+    }
+
+    if (size-- && !stream.atEnd()) {
+        stream >> item;
+        m_settings->setValue(Common::SettingsNames::messageListState, item);
+    }
 
     if (size-- && !stream.atEnd()) {
         stream >> item;
         bool ok;
         int columns = item.toInt(&ok);
         if (ok) {
-            msgListWidget->tree->header()->setStretchLastSection(false);
-            for (int i = 0; i < columns && size-- && !stream.atEnd(); ++i) {
+            m_settings->beginWriteArray(Common::SettingsNames::messageListHeader);
+             for (int i = 0; i < columns && size-- && !stream.atEnd(); ++i) {
+                m_settings->setArrayIndex(i);
                 stream >> item;
-                int sectionSize = item.toInt();
-                QHeaderView::ResizeMode resizeMode = msgListWidget->tree->resizeModeForColumn(i);
-                if (sectionSize > 0 && resizeMode == QHeaderView::Interactive) {
-                    // fun fact: user cannot resize by mouse when size <= 0
-                    msgListWidget->tree->setColumnWidth(i, sectionSize);
-                } else {
-                    msgListWidget->tree->setColumnWidth(i, msgListWidget->tree->sizeHintForColumn(i));
-                }
-                msgListWidget->tree->header()->setSectionResizeMode(i, resizeMode);
+                bool ok = false;
+                const int sectionSize = item.toInt(&ok);
+                m_settings->setValue(Common::SettingsNames::columnWidth,
+                                     ok ? sectionSize : msgListWidget->tree->sizeHintForColumn(i));
             }
+            m_settings->endArray();
         }
     }
 
@@ -2839,12 +2926,12 @@ void MainWindow::applySizesAndState()
         bool ok;
         bool visibility = item.toInt(&ok);
         if (ok) {
-            menuBar()->setVisible(visibility);
-            showMenuBar->setChecked(visibility);
+            m_settings->setValue(Common::SettingsNames::menubarVisible, visibility);
         }
     }
 
-    m_skipSavingOfUI = skipSaving;
+    m_settings->endGroup();
+    qWarning() << "Finished conversion of layout settings for:" << layoutToString(layout);
 }
 
 void MainWindow::resizeEvent(QResizeEvent *)

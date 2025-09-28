@@ -241,6 +241,9 @@ private:
     void updateActionsOnlineOffline(bool online);
 
     void applySizesAndState();
+    QString layoutToString(const LayoutMode layout) const;
+    void convertSizesAndStateSettings();
+    void convertSizesAndStateSetting(const LayoutMode layout);
     QString settingsKeyForLayout(const LayoutMode layout);
 
     void createSysTray();

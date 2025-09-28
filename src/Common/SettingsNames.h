@@ -48,6 +48,14 @@ struct SettingsNames {
     static const QString guiMailboxListShowOnlySubscribed;
     static const QString guiPreferPlaintextRendering;
     static const QString guiMainWindowLayout, guiMainWindowLayoutCompact, guiMainWindowLayoutWide, guiMainWindowLayoutOneAtTime;
+    static const QString geometry;
+    static const QString windowState;
+    static const QString mainVSplitterState;
+    static const QString mainHSplitterState;
+    static const QString messageListState;
+    static const QString messageListHeader;
+    static const QString columnWidth;
+    static const QString menubarVisible;
     static const QString guiSizesInMainWinWhenCompact, guiSizesInMainWinWhenWide, guiSizesInaMainWinWhenOneAtATime;
     static const QString guiAllowRawSearch;
     static const QString guiExpandedMailboxes;
@@ -61,6 +69,7 @@ struct SettingsNames {
     static const QString completeMessageWidgetGeometry;
     static const QString mboxDropAction;
     static const QString msgViewColorScheme;
+    static const QString settingsVersion;
 };
 
 }
