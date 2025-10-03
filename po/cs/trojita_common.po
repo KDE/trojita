@@ -17,88 +17,59 @@ msgstr ""
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(from %2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(from %2)"
 msgstr ""
-"%1\n"
-"(z %2)"
 
 #: src/Composer/ComposerAttachments.cpp:157
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File does not exist"
 msgctxt "MessageComposer|"
 msgid "File does not exist"
-msgstr "Soubor neexistuje"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:160
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File is not readable"
 msgctxt "MessageComposer|"
 msgid "File is not readable"
-msgstr "Soubor nelze přečíst"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:163
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1: %2, %3"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
-msgstr "%1: %2, %3"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:260
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "Message not available"
 msgctxt "MessageComposer|"
 msgid "Message not available"
-msgstr "Zpráva není dostupná"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:263
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(%2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(%2)"
 msgstr ""
-"%1\n"
-"(%2)"
 
 #: src/Composer/ComposerAttachments.cpp:273
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP message %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP message %1"
-msgstr "Zpráva IMAP %1"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:384
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP message %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP part %1"
-msgstr "Zpráva IMAP %1"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1, %2"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
-msgstr "%1, %2"
+msgstr ""
 
 #: src/Composer/ExistingMessageComposer.cpp:78
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
@@ -138,68 +109,44 @@ msgid "Signature"
 msgstr "Podpis"
 
 #: src/Composer/Submission.cpp:113
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing to send"
 msgctxt "Submission|"
 msgid "Preparing to send"
-msgstr "Připravuji k odeslání"
+msgstr ""
 
 #: src/Composer/Submission.cpp:118
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Creating message"
 msgctxt "Submission|"
 msgid "Creating message"
-msgstr "Vytvářím zprávu"
+msgstr ""
 
 #: src/Composer/Submission.cpp:123
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Saving to the sent folder"
 msgctxt "Submission|"
 msgid "Saving to the sent folder"
-msgstr "Ukládám do složky Odeslané"
+msgstr ""
 
 #: src/Composer/Submission.cpp:128
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing message for delivery"
 msgctxt "Submission|"
 msgid "Preparing message for delivery"
-msgstr "Připravuji zprávu k doručení"
+msgstr ""
 
 #: src/Composer/Submission.cpp:133
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Submitting message"
 msgctxt "Submission|"
 msgid "Submitting message"
-msgstr "Odesílám zprávu"
+msgstr ""
 
 #: src/Composer/Submission.cpp:138
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Updating message keywords"
 msgctxt "Submission|"
 msgid "Updating message keywords"
-msgstr "Aktualizuji klíčová slova zprávy"
+msgstr ""
 
 #: src/Composer/Submission.cpp:143
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Submission|"
 msgid "Message sent"
-msgstr "Zpráva byla odeslána"
+msgstr ""
 
 #: src/Composer/Submission.cpp:150
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Sending failed"
 msgctxt "Submission|"
 msgid "Sending failed"
-msgstr "Odesílání selhalo"
+msgstr ""
 
 #: src/Composer/Submission.cpp:180
 msgctxt "Submission|"
@@ -211,56 +158,36 @@ msgid ""
 msgstr ""
 
 #: src/Composer/Submission.cpp:195
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Some data are not available yet"
 msgctxt "Submission|"
 msgid "Some data are not available yet"
-msgstr "Některá data ještě nejsou dostupná"
+msgstr ""
 
 #: src/Composer/Submission.cpp:211
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving failed:\n"
 " %1"
 msgstr ""
-"Nelze právě odeslat -- ukládání selhalo:\n"
-" %1"
 
 #: src/Composer/Submission.cpp:215
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving (CATENATE) failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving (CATENATE) failed:\n"
 " %1"
 msgstr ""
-"Nelze právě odeslat -- ukládání (CATENATE) selhalo:\n"
-" %1"
 
 #: src/Composer/Submission.cpp:361
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid "APPEND failed: %1"
+#, qt-format
 msgctxt "Submission|"
 msgid "APPEND failed: %1"
-msgstr "APPEND selhal: %1"
+msgstr ""
 
 #: src/Composer/Submission.cpp:391
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "The URLAUTH response does not contain a proper URL"
 msgctxt "Submission|"
 msgid "The URLAUTH response does not contain a proper URL"
-msgstr "Odpověď URLAUTH neobsahuje platnou URL"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:54
 #, qt-format
@@ -269,28 +196,19 @@ msgid "[getAuditLog failed: %1]"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:170
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Waiting for data..."
 msgctxt "GpgMePart|"
 msgid "Waiting for data..."
-msgstr "Čeká se na data..."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:313
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, some signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
-msgstr "Šifrováno, nějaký podpis od neznámého"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:313
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Some signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
-msgstr "Nějaký podpis od neznámého"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:314
 #, qt-format
@@ -302,12 +220,9 @@ msgid ""
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:325
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Internal error"
 msgctxt "GpgMePart|"
 msgid "Internal error"
-msgstr "Vnitřní chyba"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:326
 #, qt-format
@@ -316,237 +231,159 @@ msgid "Error when verifying signature: cannot retrieve key %1: %2"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:376
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, verified signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
-msgstr "Šifrováno, ověřený podpis"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:376
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature"
 msgctxt "GpgMePart|"
 msgid "Verified signature"
-msgstr "Ověřený podpis"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:377
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Verified signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
-msgstr "Ověřený podpis od %1 na %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:382
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, signed by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
-msgstr "Šifrováno, podepsáno neznámou osobou"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:382
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signed by stranger"
 msgctxt "GpgMePart|"
 msgid "Signed by stranger"
-msgstr "Podepsáno neznámou osobou"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:383
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid ""
-#| "Verified signature, but the signer is someone else:\n"
-#| "%1\n"
-#| "Signature was made on %2."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid ""
 "Verified signature, but the signer is someone else:\n"
 "%1\n"
 "Signature was made on %2."
 msgstr ""
-"Ověřený podpis, ale podepisující je někdo jiný:\n"
-"%1\n"
-"Podpis byl proveden na %2."
 
 #: src/Cryptography/GpgMe++.cpp:390
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
-msgstr "Šifrováno, chybný podpis"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:390
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature"
 msgctxt "GpgMePart|"
 msgid "Bad signature"
-msgstr "Chybný podpis"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:393
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
-msgstr "Šifrováno, chybný podpis: %1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:394
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
-msgstr "Chybný podpis: %1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
-msgstr "Chybný podpis od %1 na %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:399
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
-msgstr "Šifrováno, chybný podpis od neznámého"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:399
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
-msgstr "Chybný podpis od neznámého"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:402
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, bad signature by stranger: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
-msgstr "Šifrováno, chybný podpis od neznámého: %1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:403
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by stranger: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
-msgstr "Chybný podpis od neznámého: %1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:405
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature by someone else: %1 on %2."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by someone else: %1 on %2."
-msgstr "Chybný podpis od někoho jiného: %1 na %2."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:421
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, some signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
-msgstr "Šifrováno, nějaký podpis"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:421
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Some signature"
 msgctxt "GpgMePart|"
 msgid "Some signature"
-msgstr "Nějaký podpis"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:422
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Unknown signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature from %1 on %2"
-msgstr "Neznámý podpis od %1 na %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:426
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, some signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
-msgstr "Šifrováno, nějaký podpis od neznámého"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:426
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Some signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
-msgstr "Nějaký podpis od neznámého"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:427
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Unknown signature by somebody else: %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature by somebody else: %1 on %2"
-msgstr "Neznámý podpis od někoho jiného: %1 na %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:435
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, semi-trusted signature"
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
-msgstr "Šifrováno, částečně důvěryhodný podpis"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:435
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature"
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
-msgstr "Částečně důvěryhodný podpis"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:436
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature from %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature from %1 on %2"
-msgstr "Šifrováno, částečně důvěryhodný podpis od %1 na %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:441
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, some signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature by stranger"
-msgstr "Šifrováno, nějaký podpis od neznámého"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:442
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature by stranger"
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by stranger"
-msgstr "Částečně důvěryhodný podpis od cizince"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:443
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Semi-trusted signature by somebody else: %1 on %2"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by somebody else: %1 on %2"
-msgstr "Částečně důvěryhodný podpis od někoho jiného: %1 na %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:456
 msgctxt "GpgMePart|"
@@ -575,12 +412,9 @@ msgid "The CRL (or an equivalent mechanism) is not available."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:478
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Available CRL is too old."
 msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
-msgstr "Dostupné CRL je příliš staré."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:482
 msgctxt "GpgMePart|"
@@ -588,60 +422,40 @@ msgid "A policy requirement was not met."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:486
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "A system error occurred. %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
-msgstr "Vyskytla se systémová chyba. %1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:495
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is unknown."
 msgctxt "GpgMePart|"
 msgid "Signature validity is undefined."
-msgstr "Platnost podpisu je neznámá."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:499
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is ultimate."
 msgctxt "GpgMePart|"
 msgid "Signature validity is never to be trusted."
-msgstr "Platnost podpisu je naprostá."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:503
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is full."
 msgctxt "GpgMePart|"
 msgid "Signature validity is marginal."
-msgstr "Platnost podpisu je úplná."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:507
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is full."
 msgctxt "GpgMePart|"
 msgid "Signature validity is full."
-msgstr "Platnost podpisu je úplná."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:511
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is ultimate."
 msgctxt "GpgMePart|"
 msgid "Signature validity is ultimate."
-msgstr "Platnost podpisu je naprostá."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:515
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is unknown."
 msgctxt "GpgMePart|"
 msgid "Signature validity is unknown."
-msgstr "Platnost podpisu je neznámá."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:525
 msgctxt "GpgMePart|"
@@ -649,20 +463,16 @@ msgid "Trust chain:"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:531
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "%1(Unavailable)"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
-msgstr "%1(Nedostupný)"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:535
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "%1(self-signed)"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(self-signed)"
-msgstr "%1(podepsaný sám sebou)"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:544
 #, qt-format
@@ -671,20 +481,15 @@ msgid "Error when retrieving key for the trust chain: %1"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:554
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Signature validity is full."
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Signature invalidity reason: %1"
-msgstr "Platnost podpisu je úplná."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:616
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Malformed Signed Message"
 msgctxt "GpgMeSigned|"
 msgid "Malformed Signed Message"
-msgstr "Poškozená podepsaná zpráva"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:617
 #, qt-format
@@ -693,12 +498,9 @@ msgid "Expected 2 parts, but found %1."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:621
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Encrypted, verified signature"
 msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
-msgstr "Šifrováno, ověřený podpis"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:622
 #, qt-format
@@ -707,20 +509,14 @@ msgid "Failed to initialize GpgME (%1)"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:642
-#, fuzzy
-#| msgctxt "Imap::Mailbox::FullMessageCombiner|"
-#| msgid "Message is gone"
 msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
-msgstr "Zpráva je odeslána"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:654
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Data Unavailable"
 msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
-msgstr "Data nejsou dostupná"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:655
 msgctxt "GpgMeSigned|"
@@ -729,28 +525,19 @@ msgid ""
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:675
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Verifying signature..."
 msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
-msgstr "Ověřuji podpis..."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:700
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Encrypted and signed messages"
 msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
-msgstr "Zašifrované nebo podepsané zprávy"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:740 src/Cryptography/GpgMe++.cpp:814
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Malformed Signed Message"
 msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
-msgstr "Poškozená podepsaná zpráva"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:741
 #, qt-format
@@ -759,12 +546,9 @@ msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:766
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Cannot descrypt"
 msgctxt "GpgMeEncrypted|"
 msgid "Cannot descrypt"
-msgstr "Nelze dešifrovat"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:767
 #, qt-format
@@ -773,20 +557,14 @@ msgid "Failed to initialize GpgME (%1)"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:787 src/Cryptography/GpgMe++.cpp:923
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
-msgstr "Zašifrovaná zpráva"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:797
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Data Unavailable"
 msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
-msgstr "Data nejsou dostupná"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:798
 msgctxt "GpgMeEncrypted|"
@@ -802,36 +580,25 @@ msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:821
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Decrypting..."
 msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
-msgstr "Dešifrování..."
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:864
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Broken encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
-msgstr "Poškozená zašifrovaná zpráva"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:867
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Decryption error: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Decryption error: %1"
-msgstr "Chyba v dešifrování: %1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:870
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
-msgstr "Zašifrovaná zpráva"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:876
 msgctxt "GpgMeEncrypted|"
@@ -839,44 +606,34 @@ msgid "Wrong key usage, not for encryption"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:880
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Unsupported algorithm: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
-msgstr "Nepodporovaný algoritmus: %1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:888
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Cannot extract recipient %1: %2"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Cannot extract recipient %1: %2"
-msgstr "Nelze zjistit příjemce %1: %2"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:893
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted to %1 (%2)"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
-msgstr "Zašifrováno do %1 (%2)"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:897
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted to %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
-msgstr "Zašifrováno do %1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:903
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Original filename: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Original filename: %1"
-msgstr "Původní název souboru: %1"
+msgstr ""
 
 #: src/Gui/AboutDialog.ui:14
 msgctxt "AboutDialog|"
@@ -982,20 +739,14 @@ msgid "Cancel"
 msgstr "Zrušit"
 
 #: src/Gui/ComposeWidget.cpp:195
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Send"
 msgctxt "ComposeWidget|"
 msgid "Send"
-msgstr "Odeslat"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:234
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "New Thread"
 msgctxt "ComposeWidget|"
 msgid "New Thread"
-msgstr "Nové vlákno"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:237
 msgctxt "ComposeWidget|"
@@ -1005,20 +756,14 @@ msgid ""
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:238
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Threaded"
 msgctxt "ComposeWidget|"
 msgid "Threaded"
-msgstr "Ve vláknech"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:358
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Error"
 msgctxt "ComposeWidget|"
 msgid "Error"
-msgstr "Chyba"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:358
 msgctxt "ComposeWidget|"
@@ -1026,51 +771,29 @@ msgid "Please set appropriate settings for outgoing messages."
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:511
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "It doesn't look like this is a message to the mailing list. Please fill "
-#| "in the recipients manually."
 msgctxt "ComposeWidget|"
 msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
 "the recipients manually."
 msgstr ""
-"Zpráva nevypadá jako zpráva do e-mailové konference. Prosím, vyplňte ručně "
-"příjemce."
 
 #: src/Gui/ComposeWidget.cpp:514
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "Trojitá was unable to safely determine the real e-mail address of the "
-#| "author of the message. You might want to use the \"Reply All\" function "
-#| "and trim the list of addresses manually."
 msgctxt "ComposeWidget|"
 msgid ""
 "Trojitá was unable to safely determine the real e-mail address of the author "
 "of the message. You might want to use the \"Reply All\" function and trim "
 "the list of addresses manually."
 msgstr ""
-"Trojitá nedokázala bezpečně určit skutečnou e-mailovou adresu autora zprávy. "
-"Možná budete chtít použít funkci \"Odpovědět všem\" a upravit seznam "
-"příjemců ručně."
 
 #: src/Gui/ComposeWidget.cpp:519
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cannot Determine Recipients"
 msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
-msgstr "Nelze určit příjemce"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:566
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Sender"
 msgctxt "ComposeWidget|"
 msgid "Sender"
-msgstr "Odesílatel"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:572
 #, qt-format
@@ -1079,113 +802,69 @@ msgid "Resend Mail: %1"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:572
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "(no subject)"
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
-msgstr "(žádný předmět)"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:584
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Message has no subject"
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
-msgstr "Zpráva nemá předmět"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:587
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "The Message-ID header is missing"
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
-msgstr "Hlavička Message-ID chybí"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:590
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Message has no date"
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
-msgstr "Zpráva nemá datum"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:593
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Nothing in the From field"
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
-msgstr "Nic není v poli Od"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:596
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "No recipients in the To field"
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
-msgstr "V poli Komu nejsou žádní příjemci"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:599
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "<b>This message appears to be malformed, please be careful before sending "
-#| "it.</b>"
 msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
 "</b>"
 msgstr ""
-"<b>Tato zpráva vypadá jako poškozená. Prosím, buďte s jejím odesíláním "
-"opatrní.</b>"
 
 #: src/Gui/ComposeWidget.cpp:688
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Authentication Required"
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
-msgstr "Je vyžadováno ověření totožnosti"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:689
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
-"<p>Prosím, zadejte heslo SMTP pro uživatele <b>%1</b> na <b>%2</b>:</p>"
 
 #: src/Gui/ComposeWidget.cpp:723
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save Draft?"
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
-msgstr "Uložit koncept?"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:724
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
-msgstr "E-mail nebyl odeslán.<br> Přejete si uložit koncept?"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:726
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved "
-#| "with the draft!</span>"
 msgctxt "ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
 "the draft!</span>"
 msgstr ""
-"<br><span style=\"color:red\">Varování: Přílohy <b>nejsou</b> uloženy s "
-"konceptem.</span>"
 
 #: src/Gui/ComposeWidget.cpp:737 src/Gui/Window.cpp:1514
 #: src/Gui/Window.cpp:1516
@@ -1194,50 +873,32 @@ msgid "Drafts"
 msgstr "Koncepty"
 
 #: src/Gui/ComposeWidget.cpp:747
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save as"
 msgctxt "ComposeWidget|"
 msgid "Save as"
-msgstr "Uložit jako"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:748
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Drafts"
 msgctxt "ComposeWidget|"
 msgid "Drafts"
-msgstr "Koncepty"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:777
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "Cannot parse recipients:\n"
-#| "%1"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid ""
 "Cannot parse recipients:\n"
 "%1"
 msgstr ""
-"Nelze zpracovat příjemce:\n"
-"%1"
 
 #: src/Gui/ComposeWidget.cpp:781
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "You haven't entered any recipients"
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
-msgstr "Nezadali jste žádné příjemce"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:789
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "The From: address does not look like a valid one"
 msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
-msgstr "Adresa Od: nevypadá správně"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:796
 msgctxt "ComposeWidget|"
@@ -1256,100 +917,66 @@ msgid "This mail will be marked as a response<hr/>%1"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1097
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "ComposeWidget|"
 msgid "To"
-msgstr "Komu"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1098
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "ComposeWidget|"
 msgid "Cc"
-msgstr "Kopie"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1099
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "ComposeWidget|"
 msgid "Bcc"
-msgstr "Skrytá kopie"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1101
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Resent-To"
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
-msgstr "Přeposlat-Komu"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1102
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Resent-Cc"
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
-msgstr "Přeposlat-Kopie"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1103
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Resent-Bcc"
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
-msgstr "Přeposlat-Skrytá kopie"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1387
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
-msgstr "Odeslání e-mailu selhalo"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1414
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Can't parse \"%1\" as an e-mail address."
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
-msgstr "Nelze zpracovat \"%1\" jako e-mailovou adresu"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1613
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Attach File..."
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
-msgstr "Přiložit soubor..."
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1795
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "<br/>"
 msgctxt "ComposeWidget|"
 msgid "<br/>"
-msgstr "<br/>"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1838
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Compose Mail"
 msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Napsat e-mail"
 
 #: src/Gui/ComposeWidget.cpp:1840
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "%1 - Compose Mail"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
-msgstr "%1 - Napsat e-mail"
+msgstr ""
 
 #: src/Gui/ComposeWidget.ui:51
 msgctxt "ComposeWidget|"
@@ -1592,28 +1219,19 @@ msgid "Load %1 (%2)"
 msgstr "Načíst %1 (%2)"
 
 #: src/Gui/MailBoxTreeView.cpp:143
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Move here\tShift"
 msgctxt "MailBoxTreeView|"
 msgid "Move here\tShift"
-msgstr "Přesunout sem\tShift"
+msgstr ""
 
 #: src/Gui/MailBoxTreeView.cpp:144
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Copy here\tCtrl"
 msgctxt "MailBoxTreeView|"
 msgid "Copy here\tCtrl"
-msgstr "Kopírovat sem\tCtrl"
+msgstr ""
 
 #: src/Gui/MailBoxTreeView.cpp:145
-#, fuzzy
-#| msgctxt "QWidget|"
-#| msgid "Cancel"
 msgctxt "MailBoxTreeView|"
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr ""
 
 #: src/Gui/main.cpp:84
 #, qt-format
@@ -1680,28 +1298,20 @@ msgstr ""
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Message headers of UID %1 in %2"
+#, qt-format
 msgctxt "MessageHeadersWidget|"
 msgid "Message headers of UID %1 in %2"
-msgstr "Hlavičky zprávy s UID %1 v %2"
+msgstr ""
 
 #: src/Gui/MessageHeadersWidget.cpp:55
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageHeadersWidget|"
 msgid "Search..."
-msgstr "Hledat..."
+msgstr ""
 
 #: src/Gui/MessageHeadersWidget.cpp:56
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
-msgstr "Ctrl+F"
+msgstr ""
 
 #: src/Gui/MessageListWidget.cpp:50
 msgctxt "Gui::MessageListWidget|"
@@ -1827,59 +1437,34 @@ msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
 #: src/Gui/MessageView.cpp:90
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageView|"
 msgid "Search..."
-msgstr "Hledat..."
+msgstr ""
 
 #: src/Gui/MessageView.cpp:91
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageView|"
 msgid "Ctrl+F"
-msgstr "Ctrl+F"
+msgstr ""
 
 #: src/Gui/MessageView.cpp:142
-#, fuzzy
-#| msgctxt "Gui::MessageSourceWidget|"
-#| msgid ""
-#| "Fetching\n"
-#| "Message"
 msgctxt "MessageView|"
 msgid ""
 "Fetching\n"
 "Message"
 msgstr ""
-"Stahuji\n"
-"zprávu"
 
 #: src/Gui/MessageView.cpp:227
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid ""
-#| "Waiting\n"
-#| "for\n"
-#| "Message..."
 msgctxt "MessageView|"
 msgid ""
 "Waiting\n"
 "for\n"
 "Message..."
 msgstr ""
-"Čeká\n"
-"se na\n"
-"zprávu..."
 
 #: src/Gui/MessageView.cpp:362
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid "you"
 msgctxt "MessageView|"
 msgid "you"
-msgstr "vy"
+msgstr ""
 
 #: src/Gui/MessageView.cpp:369
 #, qt-format
@@ -1891,14 +1476,10 @@ msgid ""
 msgstr ""
 
 #: src/Gui/MessageView.cpp:377
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageView|"
-#| msgid "On %1, %2 wrote:\n"
+#, qt-format
 msgctxt "MessageView|"
 msgid "On %1, %2 wrote:\n"
 msgstr ""
-"Dne %1, %2  napsal(a):\n"
-"\n"
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
 #: src/Gui/MsgListView.cpp:147
@@ -1936,12 +1517,9 @@ msgid "Attachment"
 msgstr "Příloha"
 
 #: src/Gui/OneEnvelopeAddress.cpp:89
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid ","
 msgctxt "OneEnvelopeAddress|"
 msgid ","
-msgstr ","
+msgstr ""
 
 #: src/Gui/OneEnvelopeAddress.cpp:130
 msgctxt "OneEnvelopeAddress|"
@@ -1949,28 +1527,19 @@ msgid "(empty display name)"
 msgstr ""
 
 #: src/Gui/OneEnvelopeAddress.cpp:134
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "<hr/><b>Address Book:</b><br/>"
 msgctxt "OneEnvelopeAddress|"
 msgid "<hr/><b>Address Book:</b><br/>"
-msgstr "<hr/><b>Kniha adres:</b><br/>"
+msgstr ""
 
 #: src/Gui/OneEnvelopeAddress.cpp:141
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "Copy e-mail address"
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy e-mail address"
-msgstr "Kopírovat e-mailovou adresu"
+msgstr ""
 
 #: src/Gui/OneEnvelopeAddress.cpp:146
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "Copy text"
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy text"
-msgstr "Kopírovat text"
+msgstr ""
 
 #. Translators: use something very short, perhaps even "text". Don't describe this as "Clear text". This string is used as a caption of a tab showing the plaintext part of a mail which is e.g. sent in both plaintext and HTML formats.
 #: src/Gui/PartWidget.cpp:144
@@ -4247,68 +3816,44 @@ msgid "The connection is being killed for unspecified reason"
 msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:283
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Subject"
 msgctxt "MsgListModel|"
 msgid "Subject"
-msgstr "Předmět"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:285
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "From"
 msgctxt "MsgListModel|"
 msgid "From"
-msgstr "Od"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:287
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "MsgListModel|"
 msgid "To"
-msgstr "Komu"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:289
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "MsgListModel|"
 msgid "Cc"
-msgstr "Kopie"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:291
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "MsgListModel|"
 msgid "Bcc"
-msgstr "Skrytá kopie"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:293
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Date"
 msgctxt "MsgListModel|"
 msgid "Date"
-msgstr "Datum"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:295
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Received"
 msgctxt "MsgListModel|"
 msgid "Received"
-msgstr "Přijato"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:297
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Size"
 msgctxt "MsgListModel|"
 msgid "Size"
-msgstr "Velikost"
+msgstr ""
 
 #: src/Imap/Model/NetworkWatcher.cpp:63
 #, qt-format
@@ -5717,94 +5262,59 @@ msgid ""
 msgstr "Podpůrná vrstva má problémy při zpracování spojení %1:%2: %3"
 
 #: src/UiUtils/Formatting.cpp:40
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "B"
 msgctxt "Formatting|"
 msgid "B"
-msgstr "B"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:41
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "kB"
 msgctxt "Formatting|"
 msgid "kB"
-msgstr "kB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:42
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "MB"
 msgctxt "Formatting|"
 msgid "MB"
-msgstr "MB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:43
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "GB"
 msgctxt "Formatting|"
 msgid "GB"
-msgstr "GB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:44
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "TB"
 msgctxt "Formatting|"
 msgid "TB"
-msgstr "TB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:67
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::OpenConnectionTask|"
-#| msgid "%1 %2"
+#, qt-format
 msgctxt "Formatting|"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:86
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "hh:mm"
-msgstr "hh:mm"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:91
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "ddd hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "ddd hh:mm"
-msgstr "ddd hh:mm"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:99
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "d MMM hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "d MMM hh:mm"
-msgstr "d MMM hh:mm"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:142
 #, qt-format
@@ -5818,50 +5328,33 @@ msgid ""
 msgstr ""
 
 #: src/UiUtils/Formatting.cpp:145 src/UiUtils/Formatting.cpp:146
-#, fuzzy
-#| msgctxt "Gui::EnvelopeView|"
-#| msgid ", "
 msgctxt "Formatting|"
 msgid ", "
-msgstr ", "
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:152
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "<p>The remote side doesn't have a certificate.</p>\n"
 msgctxt "Formatting|"
 msgid "<p>The remote side doesn't have a certificate.</p>\n"
-msgstr "<p>Vzdálená strana nemá certifikát.</p>\n"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:153
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>This is the certificate chain of the connection:</p>\n"
-#| "<ul>%1</ul>\n"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>This is the certificate chain of the connection:</p>\n"
 "<ul>%1</ul>\n"
 msgstr ""
-"<p>Toto je řetězec daného certifikátu:</p>\n"
-"<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "\n"
 msgctxt "Formatting|"
 msgid "\n"
-msgstr "\n"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:160
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "<li>%1</li>"
+#, qt-format
 msgctxt "Formatting|"
 msgid "<li>%1</li>"
-msgstr "<li>%1</li>"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:163
 msgctxt "Formatting|"
@@ -5869,36 +5362,20 @@ msgid "<p>According to your system's policy, this connection is secure.</p>\n"
 msgstr ""
 
 #: src/UiUtils/Formatting.cpp:164
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>The connection triggered the following SSL errors:</p>\n"
-#| "<ul>%1</ul>\n"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>The connection triggered the following SSL errors:</p>\n"
 "<ul>%1</ul>\n"
 msgstr ""
-"<p>Spojení vyvolalo následující chyby SSL:</p>\n"
-"<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:175
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "Different SSL certificate"
 msgctxt "Formatting|"
 msgid "Different SSL certificate"
-msgstr "Jiný certifikát SSL"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:176
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>The public key of the SSL certificate has changed. This should only "
-#| "happen when there was a security incident on the remote server. Your "
-#| "system configuration is set to accept such certificates anyway.</p>\n"
-#| "%1\n"
-#| "<p>Would you like to connect and remember the new certificate?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>The public key of the SSL certificate has changed. This should only "
@@ -5907,30 +5384,14 @@ msgid ""
 "%1\n"
 "<p>Would you like to connect and remember the new certificate?</p>"
 msgstr ""
-"<p>Veřejný klíč certifikátu SSL byl změněn. K tomu by mělo dojít pouze pokud "
-"na vzdáleném serveru došlo k bezpečnostnímu incidentu. Váš systém je "
-"nastaven aby tyto certifikáty přijímal i tak.</p>\n"
-"%1\n"
-"<p>Chcete se připojit a zapamatovat si nový certifikát?</p>"
 
 #: src/UiUtils/Formatting.cpp:183
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "SSL certificate looks fishy"
 msgctxt "Formatting|"
 msgid "SSL certificate looks fishy"
-msgstr "Certifikát SSL vypadá podezřele"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:184
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>The public key of the SSL certificate of the IMAP server has changed "
-#| "since the last time and your system doesn't believe that the new "
-#| "certificate is genuine.</p>\n"
-#| "%1\n"
-#| "%2\n"
-#| "<p>Would you like to connect anyway and remember the new certificate?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>The public key of the SSL certificate of the IMAP server has changed "
@@ -5940,30 +5401,14 @@ msgid ""
 "%2\n"
 "<p>Would you like to connect anyway and remember the new certificate?</p>"
 msgstr ""
-"<p>Veřejný klíč certifikátu SSL byl od minula změněn a váš systém nevěří, že "
-"to je pravý certifikát.</p>\n"
-"%1\n"
-"%2\n"
-"<p>Chcete se připojit a zapamatovat si nový certifikát?</p>"
 
 #: src/UiUtils/Formatting.cpp:193 src/UiUtils/Formatting.cpp:200
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "Accept SSL connection?"
 msgctxt "Formatting|"
 msgid "Accept SSL connection?"
-msgstr "Přijmout spojení SSL?"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:194
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>This is the first time you're connecting to this IMAP server; the "
-#| "certificate is trusted by this system.</p>\n"
-#| "%1\n"
-#| "%2\n"
-#| "<p>Would you like to connect and remember this certificate's public key "
-#| "for the next time?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>This is the first time you're connecting to this IMAP server; the "
@@ -5973,24 +5418,9 @@ msgid ""
 "<p>Would you like to connect and remember this certificate's public key for "
 "the next time?</p>"
 msgstr ""
-"<p>To je poprvé co se připojujete k tomuto serveru IMAP; Váš systém tomuto "
-"certifikátu důvěřuje.</p>\n"
-"%1\n"
-"%2\n"
-"<p>Chcete se připojit a zapamatovat si tento veřejný klíč certifikátu pro "
-"příště?</p>"
 
 #: src/UiUtils/Formatting.cpp:201
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>This is the first time you're connecting to this IMAP server and the "
-#| "server certificate failed validation test.</p>\n"
-#| "%1\n"
-#| "\n"
-#| "%2\n"
-#| "<p>Would you like to connect and remember this certificate's public key "
-#| "for the next time?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>This is the first time you're connecting to this IMAP server and the "
@@ -6001,13 +5431,6 @@ msgid ""
 "<p>Would you like to connect and remember this certificate's public key for "
 "the next time?</p>"
 msgstr ""
-"<p>To je poprvé co se připojujete k tomuto serveru IMAP a certifikát serveru "
-"neprošel testem platnosti.</p>\n"
-"%1\n"
-"\n"
-"%2\n"
-"<p>Chcete se připojit a zapamatovat si tento veřejný klíč certifikátu pro "
-"příště?</p>"
 
 #: src/UiUtils/PartWalker_impl.h:44
 msgctxt "PartWalker|"
@@ -6057,59 +5480,3 @@ msgstr "Ukládání hesel z modulu %1..."
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "Heslo nelze uložit pomocí modulu %1"
-
-#~ msgctxt "Cryptography::GpgMeEncrypted|"
-#~ msgid "Data Unavailable"
-#~ msgstr "Data nejsou dostupná"
-
-#~ msgctxt "Gui::ComposeWidget|"
-#~ msgid "Drafts"
-#~ msgstr "Koncepty"
-
-#~ msgctxt "Gui::MailBoxTreeView|"
-#~ msgid "Cancel"
-#~ msgstr "Zrušit"
-
-#~ msgctxt "Gui::MessageView|"
-#~ msgid "Search..."
-#~ msgstr "Hledat..."
-
-#~ msgctxt "Gui::MessageView|"
-#~ msgid "Ctrl+F"
-#~ msgstr "Ctrl+F"
-
-#~ msgctxt "Gui::MessageView|"
-#~ msgid ""
-#~ "Fetching\n"
-#~ "Message"
-#~ msgstr ""
-#~ "Stahuji\n"
-#~ "zprávu"
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "Subject"
-#~ msgstr "Předmět"
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "From"
-#~ msgstr "Od"
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "To"
-#~ msgstr "Komu"
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "Cc"
-#~ msgstr "Kopie"
-
-#~ msgctxt "Imap::Mailbox::MsgListModel|"
-#~ msgid "Bcc"
-#~ msgstr "Skrytá kopie"
-
-#~ msgctxt "UiUtils::Formatting|"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
-
-#~ msgctxt "UiUtils::Formatting|"
-#~ msgid ", "
-#~ msgstr ", "
