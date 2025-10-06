@@ -1709,15 +1709,16 @@ bool ComposeWidget::setReplyMode(const Composer::ReplyMode mode)
 
 void ComposeWidget::saveDraft(const QString &path)
 {
-    static const int trojitaDraftVersion = 3;
+    constexpr int trojitaDraftVersion = 4;
+
     QFile file(path);
     if (!file.open(QIODevice::WriteOnly))
         return; // TODO: error message?
     QDataStream stream(&file);
     stream.setVersion(QDataStream::Qt_4_6);
     stream << trojitaDraftVersion << m_explicitDraft << ui->sender->currentText();
-    stream << m_recipients.count();
-    for (int i = 0; i < m_recipients.count(); ++i) {
+    stream << (qint32)m_recipients.count();
+    for (auto i = 0; i < m_recipients.count(); ++i) {
         stream << m_recipients.at(i).first->itemData(m_recipients.at(i).first->currentIndex()).toInt();
         stream << m_recipients.at(i).second->text();
     }
@@ -1754,17 +1755,28 @@ void ComposeWidget::loadDraft(const QString &path)
     QDataStream stream(&file);
     stream.setVersion(QDataStream::Qt_4_6);
     QString string;
-    int version, recipientCount;
+    int version;
     stream >> version;
     stream >> m_explicitDraft;
-    stream >> string >> recipientCount; // sender / amount of recipients
+    stream >> string; // sender
+
     int senderIndex = ui->sender->findText(string);
     if (senderIndex != -1) {
         ui->sender->setCurrentIndex(senderIndex);
     } else {
         ui->sender->setEditText(string);
     }
-    for (int i = 0; i < recipientCount; ++i) {
+
+    qint32 recipientCount;
+    if (version >= 4) {
+        stream >> recipientCount;
+    } else {
+        int r;
+        stream >> r;
+        recipientCount = r;
+    }
+
+    for (auto i = 0; i < recipientCount; ++i) {
         int kind;
         stream >> kind >> string;
         if (!string.isEmpty())
