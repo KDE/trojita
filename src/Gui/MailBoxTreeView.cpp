@@ -144,7 +144,7 @@ void MailBoxTreeView::dropEvent(QDropEvent *event)
         menu.addAction(UiUtils::loadIcon(QStringLiteral("edit-copy")), tr("Copy here\tCtrl"));
         QAction *cancelAction = menu.addAction(UiUtils::loadIcon(QStringLiteral("process-stop")), tr("Cancel"));
 
-        QAction *selectedAction = menu.exec(mapToGlobal(event->pos()));
+        QAction *selectedAction = menu.exec(mapToGlobal(event->position().toPoint()));
 
         // if user closes the menu or selects cancel, ignore the event
         if (!selectedAction || selectedAction == cancelAction) {
