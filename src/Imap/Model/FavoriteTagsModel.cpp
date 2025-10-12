@@ -90,7 +90,7 @@ QVariant FavoriteTagsModel::data(const QModelIndex &index, int role) const
     case Qt::ForegroundRole:
         switch (index.column()) {
         case COLUMN_NAME:
-            color.setNamedColor(m_tags[index.row()].color);
+            color.fromString(m_tags[index.row()].color);
             return color.isValid() ? QVariant(QBrush(color)) : QVariant();
         default:
             return QVariant();
