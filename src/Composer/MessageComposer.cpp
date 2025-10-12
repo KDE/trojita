@@ -123,7 +123,7 @@ QMimeData *MessageComposer::mimeData(const QModelIndexList &indexes) const
     if (items.isEmpty())
         return 0;
 
-    stream << items.size();
+    stream << (qint32)items.size();
     Q_FOREACH(const AttachmentItem *attachment, items) {
         attachment->asDroppableMimeData(stream);
     }
@@ -194,7 +194,7 @@ bool MessageComposer::dropAttachmentList(QDataStream &stream)
         qDebug() << "drag-and-drop: cannot decode data: end of stream";
         return false;
     }
-    int num;
+    qint32 num;
     stream >> num;
     if (stream.status() != QDataStream::Ok) {
         qDebug() << "drag-and-drop: stream failed:" << stream.status();
@@ -208,7 +208,7 @@ bool MessageComposer::dropAttachmentList(QDataStream &stream)
     // A crude RAII here; there are many places where the validation might fail even though we have already allocated memory
     WillDeleteAll<QList<AttachmentItem*>> items;
 
-    for (int i = 0; i < num; ++i) {
+    for (auto i = 0; i < num; ++i) {
         int kind = -1;
         stream >> kind;
 
