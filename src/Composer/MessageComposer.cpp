@@ -35,6 +35,8 @@
 #include "Imap/Model/Utils.h"
 #include "UiUtils/IconLoader.h"
 
+#include <memory>
+
 #define CHECK_STREAM_OK_AT_END(STREAM) \
     if (!STREAM.atEnd()) { \
         qDebug() << "drag-and-drop: cannot decode data: too much data"; \
@@ -752,12 +754,13 @@ QList<QByteArray> MessageComposer::rawRecipientAddresses() const
 bool MessageComposer::addFileAttachment(const QString &path)
 {
     beginInsertRows(QModelIndex(), m_attachments.size(), m_attachments.size());
-    QScopedPointer<AttachmentItem> attachment(new FileAttachmentItem(path));
+    auto attachment = std::make_unique<FileAttachmentItem>(path);
+
     if (!attachment->isAvailableLocally())
         return false;
     if (m_shouldPreload)
         attachment->preload();
-    m_attachments << attachment.take();
+    m_attachments << attachment.release();
     endInsertRows();
     return true;
 }
@@ -821,12 +824,12 @@ void MessageComposer::prepareForwarding(const QModelIndex &index, const ForwardM
         QString mailbox = m_forwarding.data(Imap::Mailbox::RoleMailboxName).toString();
         uint uidValidity = m_forwarding.data(Imap::Mailbox::RoleMailboxUidValidity).toUInt();
         uint uid = m_forwarding.data(Imap::Mailbox::RoleMessageUid).toUInt();
-        QScopedPointer<AttachmentItem> attachment(new ImapMessageAttachmentItem(m_model, mailbox, uidValidity, uid));
+        auto attachment = std::make_unique<ImapMessageAttachmentItem>(m_model, mailbox, uidValidity, uid);
         if (m_shouldPreload) {
             attachment->preload();
         }
         attachment->setContentDispositionMode(CDN_INLINE);
-        m_attachments << attachment.take();
+        m_attachments << attachment.release();
         endInsertRows();
         break;
     }
