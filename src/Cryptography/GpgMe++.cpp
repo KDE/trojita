@@ -324,7 +324,7 @@ void GpgMePart::extractSignatureStatus(std::shared_ptr<GpgME::Context> ctx, cons
     if (keyError) {
         tldr = tr("Internal error");
         longStatus = tr("Error when verifying signature: cannot retrieve key %1: %2")
-                .arg(QString::fromUtf8(sig.fingerprint()), QString::fromUtf8(keyError.asString()));
+                .arg(QString::fromUtf8(sig.fingerprint()), QString::fromUtf8(keyError.asStdString()));
         icon = QStringLiteral("script-error");
         return;
     }
@@ -390,8 +390,8 @@ void GpgMePart::extractSignatureStatus(std::shared_ptr<GpgME::Context> ctx, cons
                 tldr = wasEncrypted ? tr("Encrypted, bad signature") : tr("Bad signature");
             } else {
                 tldr = wasEncrypted ?
-                            tr("Encrypted, bad signature: %1").arg(QString::fromUtf8(sig.status().asString()))
-                          : tr("Bad signature: %1").arg(QString::fromUtf8(sig.status().asString()));
+                            tr("Encrypted, bad signature: %1").arg(QString::fromUtf8(sig.status().asStdString()))
+                          : tr("Bad signature: %1").arg(QString::fromUtf8(sig.status().asStdString()));
             }
             longStatus = tr("Bad signature by %1 on %2").arg(signer, QLocale().toString(signDate, QLocale::ShortFormat));
         } else {
@@ -399,8 +399,8 @@ void GpgMePart::extractSignatureStatus(std::shared_ptr<GpgME::Context> ctx, cons
                 tldr = wasEncrypted ? tr("Encrypted, bad signature by stranger") : tr("Bad signature by stranger");
             } else {
                 tldr = wasEncrypted ?
-                            tr("Encrypted, bad signature by stranger: %1").arg(QString::fromUtf8(sig.status().asString()))
-                          : tr("Bad signature by stranger: %1").arg(QString::fromUtf8(sig.status().asString()));
+                            tr("Encrypted, bad signature by stranger: %1").arg(QString::fromUtf8(sig.status().asStdString()))
+                          : tr("Bad signature by stranger: %1").arg(QString::fromUtf8(sig.status().asStdString()));
             }
             longStatus = tr("Bad signature by someone else: %1 on %2.")
                              .arg(signer, QLocale().toString(signDate, QLocale::ShortFormat));
@@ -484,7 +484,7 @@ void GpgMePart::extractSignatureStatus(std::shared_ptr<GpgME::Context> ctx, cons
     if (sig.summary() & GpgME::Signature::SysError) {
         ENSURE_LINE_LF(longStatus);
         longStatus += tr("A system error occurred. %1")
-                .arg(QString::fromUtf8(sig.status().asString()));
+                .arg(QString::fromUtf8(sig.status().asStdString()));
     }
 
     if (sig.summary() & GpgME::Signature::Valid) {
@@ -542,7 +542,7 @@ void GpgMePart::extractSignatureStatus(std::shared_ptr<GpgME::Context> ctx, cons
             parentCert = ctx->key(parentCert.chainID(), keyError, false);
             if (keyError) {
                 longStatus += LF + tr("Error when retrieving key for the trust chain: %1")
-                        .arg(QString::fromUtf8(keyError.asString()));
+                        .arg(QString::fromUtf8(keyError.asStdString()));
                 break;
             }
         }
@@ -552,7 +552,7 @@ void GpgMePart::extractSignatureStatus(std::shared_ptr<GpgME::Context> ctx, cons
 #if 0
     // this always shows "Success" in my limited testing, so...
     longStatus += LF + tr("Signature invalidity reason: %1")
-            .arg(QString::fromUtf8(sig.nonValidityReason().asString()));
+            .arg(QString::fromUtf8(sig.nonValidityReason().asSStdtring()));
 #endif
 }
 
@@ -864,7 +864,7 @@ void GpgMeEncrypted::handleDataChanged(const QModelIndex &topLeft, const QModelI
                 tldr = tr("Broken encrypted message");
             }
             ENSURE_LINE_LF(longStatus);
-            longStatus += tr("Decryption error: %1").arg(QString::fromUtf8(combinedResult.first.error().asString()));
+            longStatus += tr("Decryption error: %1").arg(QString::fromUtf8(combinedResult.first.error().asStdString()));
             icon = QStringLiteral("emblem-error");
         } else if (tldr.isEmpty()) {
             tldr = tr("Encrypted message");
@@ -886,7 +886,7 @@ void GpgMeEncrypted::handleDataChanged(const QModelIndex &topLeft, const QModelI
             if (keyError) {
                 ENSURE_LINE_LF(longStatus);
                 longStatus += tr("Cannot extract recipient %1: %2")
-                        .arg(QString::fromUtf8(recipient.keyID()), QString::fromUtf8(keyError.asString()));
+                        .arg(QString::fromUtf8(recipient.keyID()), QString::fromUtf8(keyError.asStdString()));
             } else {
                 if (key.numUserIDs()) {
                     ENSURE_LINE_LF(longStatus);

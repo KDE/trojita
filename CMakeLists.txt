@@ -79,7 +79,7 @@ trojita_plugin_option(WITH_SONNET_PLUGIN "Build a plugin for spellchecking via K
 trojita_find_package(Git "" "" "" "")
 
 trojita_find_package(Mimetic "" "http://www.codesink.org/mimetic_mime_library.html" "C++ MIME Library" "Required for client-side MIME parsing" WITH_MIMETIC)
-trojita_find_package(Gpgmepp "1.8.0" "https://gnupg.org/related_software/gpgme/index.html" "C++ bindings for gpgme" "Needed for encrypted/signed e-mails" WITH_GPGMEPP)
+trojita_find_package(Gpgmepp "1.24.0" "https://gnupg.org/related_software/gpgme/index.html" "C++ bindings for gpgme" "Needed for encrypted/signed e-mails" WITH_GPGMEPP)
 trojita_find_package(QGpgmeQt6 "1.24.0" "https://gnupg.org/related_software/gpgme/index.html" "Qt 6 bindings for gpgme" "Needed for encrypted/signed e-mails" WITH_GPGMEPP)
 
 trojita_option(WITH_CRYPTO_MESSAGES "Enable support for encrypted messages" AUTO "WITH_MIMETIC;WITH_GPGMEPP")
