@@ -46,7 +46,7 @@ TagAddDialog::TagAddDialog(QWidget *parent, Imap::Mailbox::FavoriteTagsModel *m_
 
     tagsLabel->setText(tagCloud.join(QStringLiteral(", ")));
 
-    connect(tagsLabel, &QLabel::linkActivated, this, [=](const QString &link) {
+    connect(tagsLabel, &QLabel::linkActivated, this, [this](const QString &link) {
         if (!ui->lineEdit->text().isEmpty())
             ui->lineEdit->setText(ui->lineEdit->text() + QStringLiteral(" "));
         ui->lineEdit->setText(ui->lineEdit->text() + link);

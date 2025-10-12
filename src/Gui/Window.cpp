@@ -459,11 +459,11 @@ void MainWindow::createActions()
     msgListWidget->tree->addAction(moveToArchive);
     connect(moveToArchive, &QAction::triggered, this, &MainWindow::handleMoveToArchive);
 
-    auto addTagAction = [=](int row) {
+    auto addTagAction = [this](int row) {
         QAction *tag = ShortcutHandler::instance()->createAction(QStringLiteral("action_tag_").append(QString::number(row)), this);
         tag->setCheckable(true);
         msgListWidget->tree->addAction(tag);
-        connect(tag, &QAction::triggered, this, [=](const bool checked) {
+        connect(tag, &QAction::triggered, this, [=, this](const bool checked) {
             handleTag(checked, row - 1);
         });
         return tag;
@@ -1794,7 +1794,7 @@ void MainWindow::updateMessageFlagsOf(const QModelIndex &index)
          hasTag7   = isValid,
          hasTag8   = isValid,
          hasTag9   = isValid;
-    auto updateTag = [=](const QModelIndex &i, bool &hasTag, int index) {
+    auto updateTag = [this](const QModelIndex &i, bool &hasTag, int index) {
         if (hasTag && !m_favoriteTags->tagNameByIndex(index).isEmpty() &&
                 !i.data(Imap::Mailbox::RoleMessageFlags).toStringList().contains(m_favoriteTags->tagNameByIndex(index)))
         {
