@@ -88,13 +88,13 @@ MailAddress::MailAddress(const QVariantList &input, const QByteArray &line, cons
     if (input.size() != 4)
         throw ParseError("MailAddress: not four items", line, start);
 
-    if (input[0].type() != QVariant::ByteArray)
+    if (input[0].typeId() != QMetaType::QByteArray)
         throw UnexpectedHere("MailAddress: item#1 not a QByteArray", line, start);
-    if (input[1].type() != QVariant::ByteArray)
+    if (input[1].typeId() != QMetaType::QByteArray)
         throw UnexpectedHere("MailAddress: item#2 not a QByteArray", line, start);
-    if (input[2].type() != QVariant::ByteArray)
+    if (input[2].typeId() != QMetaType::QByteArray)
         throw UnexpectedHere("MailAddress: item#3 not a QByteArray", line, start);
-    if (input[3].type() != QVariant::ByteArray)
+    if (input[3].typeId() != QMetaType::QByteArray)
         throw UnexpectedHere("MailAddress: item#4 not a QByteArray", line, start);
 
     name = Imap::decodeRFC2047String(input[0].toByteArray());
@@ -159,7 +159,7 @@ QString MailAddress::prettyList(const QVariantList &list, FormattingMode mode)
 {
     QStringList buf;
     for (QVariantList::const_iterator it = list.begin(); it != list.end(); ++it) {
-        Q_ASSERT(it->type() == QVariant::StringList);
+        Q_ASSERT(it->typeId() == QMetaType::QStringList);
         QStringList item = it->toStringList();
         Q_ASSERT(item.size() == 4);
         MailAddress a(item[0], item[1], item[2], item[3]);

@@ -463,7 +463,7 @@ State::State(const QByteArray &tag, const Kind kind, const QByteArray &line, int
                     qDebug() << "Parser warning: empty PERMANENTFLAGS or BADEVENT";
                 }
                 respCodeData = QSharedPointer<AbstractData>(new RespData<QStringList>(QStringList()));
-            } else if (originalList.size() == 2 && originalList[1].type() == QVariant::List) {
+            } else if (originalList.size() == 2 && originalList[1].typeId() == QMetaType::QVariantList) {
                 respCodeData = QSharedPointer<AbstractData>(new RespData<QStringList>(originalList[1].toStringList()));
             } else {
                 // Well, we used to accept "* OK [PERMANENTFLAGS foo bar] xyz" for quite long time,
@@ -962,7 +962,7 @@ QList<NamespaceData> NamespaceData::listFromLine(const QByteArray &line, int &st
     try {
         QVariantList list = LowLevelParser::parseList('(', ')', line, start);
         for (QVariantList::const_iterator it = list.constBegin(); it != list.constEnd(); ++it) {
-            if (it->type() != QVariant::List)
+            if (it->typeId() != QMetaType::QVariantList)
                 throw UnexpectedHere("Malformed data found when processing one item "
                                      "in NAMESPACE record (not a list)", line, start);
             QStringList list = it->toStringList();
@@ -1023,7 +1023,7 @@ static void threadingHelperInsertHere(ThreadingNode *where, const QVariantList &
 {
     bool first = true;
     for (QVariantList::const_iterator it = what.begin(); it != what.end(); ++it) {
-        if (it->type() == QVariant::ByteArray) {
+        if (it->typeId() == QMetaType::QByteArray) {
             where->children.append(ThreadingNode());
             where = &(where->children.last());
             bool ok;
@@ -1034,7 +1034,7 @@ static void threadingHelperInsertHere(ThreadingNode *where, const QVariantList &
                 ss << "THREAD response: cannot parse \"" << it->toByteArray() << "\" as an unsigned integer";
                 throw UnexpectedHere(str.toUtf8().constData());
             }
-        } else if (it->type() == QVariant::List) {
+        } else if (it->typeId() == QMetaType::QVariantList) {
             if (first) {
                 where->children.append(ThreadingNode());
                 where = &(where->children.last());

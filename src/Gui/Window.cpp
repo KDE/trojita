@@ -1955,7 +1955,7 @@ void MainWindow::slotResend()
     auto recipients = QList<QPair<Composer::RecipientKind,QString>>();
     for (const auto &kind: {Imap::Mailbox::RoleMessageTo, Imap::Mailbox::RoleMessageCc, Imap::Mailbox::RoleMessageBcc}) {
         for (const auto &oneAddr : index.data(kind).toList()) {
-            Q_ASSERT(oneAddr.type() == QVariant::StringList);
+            Q_ASSERT(oneAddr.typeId() == QMetaType::QStringList);
             QStringList item = oneAddr.toStringList();
             Q_ASSERT(item.size() == 4);
             Imap::Message::MailAddress a(item[0], item[1], item[2], item[3]);

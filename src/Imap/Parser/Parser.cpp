@@ -584,18 +584,18 @@ CommandHandle Parser::uidSendmail(const uint uid, const Mailbox::UidSubmitOption
         cmd << Commands::PartOfCommand(Commands::ATOM_NO_SPACE_AROUND, " (");
         for (Mailbox::UidSubmitOptionsList::const_iterator it = submissionOptions.begin(); it != submissionOptions.end(); ++it) {
             cmd << Commands::PartOfCommand(Commands::ATOM, it->first);
-            switch (it->second.type()) {
-            case QVariant::ByteArray:
+            switch (it->second.typeId()) {
+            case QMetaType::QByteArray:
                 cmd << Commands::PartOfCommand(it->second.toByteArray());
                 break;
-            case QVariant::List:
+            case QMetaType::QVariantList:
                 cmd << Commands::PartOfCommand(Commands::ATOM_NO_SPACE_AROUND, " (");
                 Q_FOREACH(const QVariant &item, it->second.toList()) {
                     cmd << Commands::PartOfCommand(Commands::ATOM, item.toByteArray());
                 }
                 cmd << Commands::PartOfCommand(Commands::ATOM_NO_SPACE_AROUND, ")");
                 break;
-            case QVariant::Invalid:
+            case QMetaType::UnknownType:
                 cmd << Commands::PartOfCommand(Commands::ATOM, "NIL");
                 break;
             default:

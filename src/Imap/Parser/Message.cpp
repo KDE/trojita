@@ -39,17 +39,17 @@ namespace Message
 
 QList<MailAddress> Envelope::getListOfAddresses(const QVariant &in, const QByteArray &line, const int start)
 {
-    if (in.type() == QVariant::ByteArray) {
+    if (in.typeId() == QMetaType::QByteArray) {
         if (! in.toByteArray().isNull())
             throw UnexpectedHere("getListOfAddresses: byte array not null", line, start);
-    } else if (in.type() != QVariant::List) {
+    } else if (in.typeId() != QMetaType::QVariantList) {
         throw ParseError("getListOfAddresses: not a list", line, start);
     }
 
     QVariantList list = in.toList();
     QList<MailAddress> res;
     for (QVariantList::const_iterator it = list.constBegin(); it != list.constEnd(); ++it) {
-        if (it->type() != QVariant::List)
+        if (it->typeId() != QMetaType::QVariantList)
             throw UnexpectedHere("getListOfAddresses: split item not a list", line, start);   // FIXME: wrong offset
         res.append(MailAddress(it->toList(), line, start));
     }
@@ -63,7 +63,7 @@ Envelope Envelope::fromList(const QVariantList &items, const QByteArray &line, c
 
     // date
     QDateTime date;
-    if (items[0].type() == QVariant::ByteArray) {
+    if (items[0].typeId() == QMetaType::QByteArray) {
         QByteArray dateStr = items[0].toByteArray();
         if (! dateStr.isEmpty()) {
             try {
@@ -88,11 +88,11 @@ Envelope Envelope::fromList(const QVariantList &items, const QByteArray &line, c
 
     LowLevelParser::Rfc5322HeaderParser headerParser;
 
-    if (items[8].type() != QVariant::ByteArray)
+    if (items[8].typeId() != QMetaType::QByteArray)
         throw UnexpectedHere("Envelope::fromList: inReplyTo not a QByteArray", line, start);
     QByteArray inReplyTo = items[8].toByteArray();
 
-    if (items[9].type() != QVariant::ByteArray)
+    if (items[9].typeId() != QMetaType::QByteArray)
         throw UnexpectedHere("Envelope::fromList: messageId not a QByteArray", line, start);
     QByteArray messageId = items[9].toByteArray();
 
@@ -306,8 +306,8 @@ QTextStream &MultiMessage::dump(QTextStream &s, const int indent) const
 AbstractMessage::bodyFldParam_t AbstractMessage::makeBodyFldParam(const QVariant &input, const QByteArray &line, const int start)
 {
     bodyFldParam_t map;
-    if (input.type() != QVariant::List) {
-        if (input.type() == QVariant::ByteArray && input.toByteArray().isNull())
+    if (input.typeId() != QMetaType::QVariantList) {
+        if (input.typeId() == QMetaType::QByteArray && input.toByteArray().isNull())
             return map;
         throw UnexpectedHere("body-fld-param: not a list / nil", line, start);
     }
@@ -315,7 +315,7 @@ AbstractMessage::bodyFldParam_t AbstractMessage::makeBodyFldParam(const QVariant
     if (list.size() % 2)
         throw UnexpectedHere("body-fld-param: wrong number of entries", line, start);
     for (int j = 0; j < list.size(); j += 2)
-        if (list[j].type() != QVariant::ByteArray || list[j+1].type() != QVariant::ByteArray)
+        if (list[j].typeId() != QMetaType::QByteArray || list[j+1].typeId() != QMetaType::QByteArray)
             throw UnexpectedHere("body-fld-param: string not found", line, start);
         else
             map[ list[j].toByteArray().toUpper() ] = list[j+1].toByteArray();
@@ -326,8 +326,8 @@ AbstractMessage::bodyFldDsp_t AbstractMessage::makeBodyFldDsp(const QVariant &in
 {
     bodyFldDsp_t res;
 
-    if (input.type() != QVariant::List) {
-        if (input.type() == QVariant::ByteArray) {
+    if (input.typeId() != QMetaType::QVariantList) {
+        if (input.typeId() == QMetaType::QByteArray) {
             if (input.toByteArray().isNull()) {
                 return res;
             } else {
@@ -342,7 +342,7 @@ AbstractMessage::bodyFldDsp_t AbstractMessage::makeBodyFldDsp(const QVariant &in
     if (list.size() < 1) {
         throw ParseError("body-fld-dsp: empty list is not allowed", line, start);
     }
-    if (list[0].type() != QVariant::ByteArray) {
+    if (list[0].typeId() != QMetaType::QByteArray) {
         throw UnexpectedHere("body-fld-dsp: first item is not a string", line, start);
     }
     res.first = list[0].toByteArray();
@@ -359,14 +359,14 @@ AbstractMessage::bodyFldDsp_t AbstractMessage::makeBodyFldDsp(const QVariant &in
 QList<QByteArray> AbstractMessage::makeBodyFldLang(const QVariant &input, const QByteArray &line, const int start)
 {
     QList<QByteArray> res;
-    if (input.type() == QVariant::ByteArray) {
+    if (input.typeId() == QMetaType::QByteArray) {
         if (input.toByteArray().isNull())   // handle NIL
             return res;
         res << input.toByteArray();
-    } else if (input.type() == QVariant::List) {
+    } else if (input.typeId() == QMetaType::QVariantList) {
         QVariantList list = input.toList();
         for (QVariantList::const_iterator it = list.constBegin(); it != list.constEnd(); ++it)
-            if (it->type() != QVariant::ByteArray)
+            if (it->typeId() != QMetaType::QByteArray)
                 throw UnexpectedHere("body-fld-lang has wrong structure", line, start);
             else
                 res << it->toByteArray();
@@ -377,9 +377,9 @@ QList<QByteArray> AbstractMessage::makeBodyFldLang(const QVariant &input, const 
 
 uint AbstractMessage::extractUInt(const QVariant &var, const QByteArray &line, const int start)
 {
-    if (var.type() == QVariant::UInt)
+    if (var.typeId() == QMetaType::UInt)
         return var.toUInt();
-    if (var.type() == QVariant::ByteArray) {
+    if (var.typeId() == QMetaType::QByteArray) {
         bool ok = false;
         int number = var.toInt(&ok);
         if (ok) {
@@ -401,9 +401,9 @@ uint AbstractMessage::extractUInt(const QVariant &var, const QByteArray &line, c
 
 quint64 AbstractMessage::extractUInt64(const QVariant &var, const QByteArray &line, const int start)
 {
-    if (var.type() == QVariant::ULongLong)
+    if (var.typeId() == QMetaType::ULongLong)
         return var.toULongLong();
-    if (var.type() == QVariant::ByteArray) {
+    if (var.typeId() == QMetaType::QByteArray) {
         bool ok = false;
         qint64 number = var.toLongLong(&ok);
         if (ok) {
@@ -429,7 +429,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
     if (items.size() < 2)
         throw NoData("AbstractMessage::fromList: no data", line, start);
 
-    if (items[0].type() == QVariant::ByteArray) {
+    if (items[0].typeId() == QMetaType::QByteArray) {
         // it's a single-part message, hurray
 
         int i = 0;
@@ -450,7 +450,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
 
         QByteArray bodyFldId;
         if (i < items.size()) {
-            if (items[i].type() != QVariant::ByteArray)
+            if (items[i].typeId() != QMetaType::QByteArray)
                 throw UnexpectedHere("body-fld-id not recognized as a ByteArray", line, start);
             bodyFldId = items[i].toByteArray();
             ++i;
@@ -458,7 +458,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
 
         QByteArray bodyFldDesc;
         if (i < items.size()) {
-            if (items[i].type() != QVariant::ByteArray)
+            if (items[i].typeId() != QMetaType::QByteArray)
                 throw UnexpectedHere("body-fld-desc not recognized as a ByteArray", line, start);
             bodyFldDesc = items[i].toByteArray();
             ++i;
@@ -466,7 +466,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
 
         QByteArray bodyFldEnc;
         if (i < items.size()) {
-            if (items[i].type() != QVariant::ByteArray)
+            if (items[i].typeId() != QMetaType::QByteArray)
                 throw UnexpectedHere("body-fld-enc not recognized as a ByteArray", line, start);
             bodyFldEnc = items[i].toByteArray();
             ++i;
@@ -502,10 +502,10 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
                 throw NoData("too few fields for a Message-message", line, start);
 
             kind = MESSAGE;
-            if (items[i].type() == QVariant::ByteArray && items[i].toByteArray().isEmpty()) {
+            if (items[i].typeId() == QMetaType::QByteArray && items[i].toByteArray().isEmpty()) {
                 // ENVELOPE is NIL -- a server bug, but there's a chance that perhaps the body might still be readable...
                 qDebug() << "message/rfc822: yuck, got NIL for envelope";
-            } else if (items[i].type() != QVariant::List) {
+            } else if (items[i].typeId() != QMetaType::QVariantList) {
                 qDebug() << "message/rfc822: yuck, ENVELOPE is not a list";
                 RETURN_ERROR_BINARY_PART;
             } else {
@@ -513,7 +513,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
             }
             ++i;
 
-            if (items[i].type() != QVariant::List) {
+            if (items[i].typeId() != QMetaType::QVariantList) {
                 // we're screwed, let's fall back to a binary part rendering
                 qDebug() << "message/rfc822: yuck, got garbage for BODY";
                 RETURN_ERROR_BINARY_PART;
@@ -546,7 +546,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
         // body-fld-md5
         QByteArray bodyFldMd5;
         if (i < items.size()) {
-            if (items[i].type() != QVariant::ByteArray)
+            if (items[i].typeId() != QMetaType::QByteArray)
                 throw UnexpectedHere("body-fld-md5 not a ByteArray", line, start);
             bodyFldMd5 = items[i].toByteArray();
             ++i;
@@ -569,7 +569,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
         // body-fld-loc
         QByteArray bodyFldLoc;
         if (i < items.size()) {
-            if (items[i].type() != QVariant::ByteArray)
+            if (items[i].typeId() != QMetaType::QByteArray)
                 throw UnexpectedHere("body-fld-loc not found", line, start);
             bodyFldLoc = items[i].toByteArray();
             ++i;
@@ -614,7 +614,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
                    );
         }
 
-    } else if (items[0].type() == QVariant::List) {
+    } else if (items[0].typeId() == QMetaType::QVariantList) {
 
         if (items.size() < 2)
             throw ParseError("body-type-mpart: structure should be \"body* string\"", line, start);
@@ -622,12 +622,12 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
         int i = 0;
 
         QList<QSharedPointer<AbstractMessage> > bodies;
-        while (items[i].type() == QVariant::List) {
+        while (items[i].typeId() == QMetaType::QVariantList) {
             bodies << fromList(items[i].toList(), line, start);
             ++i;
         }
 
-        if (items[i].type() != QVariant::ByteArray)
+        if (items[i].typeId() != QMetaType::QByteArray)
             throw UnexpectedHere("body-type-mpart: media-subtype not recognized", line, start);
         QByteArray mediaSubType = items[i].toByteArray().toLower();
         ++i;
@@ -658,7 +658,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
         // body-fld-loc
         QByteArray bodyFldLoc;
         if (i < items.size()) {
-            if (items[i].type() != QVariant::ByteArray)
+            if (items[i].typeId() != QMetaType::QByteArray)
                 throw UnexpectedHere("body-fld-loc not found", line, start);
             bodyFldLoc = items[i].toByteArray();
             ++i;
