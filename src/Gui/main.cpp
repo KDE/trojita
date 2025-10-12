@@ -53,7 +53,6 @@ int main(int argc, char **argv)
     AppVersion::setGitVersion();
     AppVersion::setCoreApplicationData();
 
-    app.setAttribute(Qt::AA_UseHighDpiPixmaps);
     app.setDesktopFileName(QStringLiteral("org.kde.trojita"));
     app.setWindowIcon(UiUtils::loadIcon(QStringLiteral("trojita")));
 
