@@ -102,7 +102,7 @@ void ShortcutConfigWidget::addItem(const QString &actionName, const QString &tex
         QTreeWidgetItem *item = new QTreeWidgetItem(ui.shortcutTreeWidget);
         item->setText(0, parentId);
         topLevelItemNumber = topLevelItemCount;
-        item->setSizeHint(1, QSize(0, 1.5 * qApp->fontMetrics().height())); // since the second column is stretchable, it doesn't matter that the width of the size hint is set to 0
+        item->setSizeHint(1, QSize(0, 1.5 * QFontMetricsF(qApp->font()).height())); // since the second column is stretchable, it doesn't matter that the width of the size hint is set to 0
         item->setData(1, Qt::UserRole, QString());
     }
 
