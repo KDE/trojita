@@ -28,6 +28,7 @@
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>
 #include <QStringList>
+#include <QTimeZone>
 #include <QVariant>
 #include <QDateTime>
 #include "LowLevelParser.h"
@@ -497,7 +498,7 @@ QDateTime parseRFC2822DateTime(const QByteArray &input)
         shift = tzoffsethrs[match.captured(12).toUpper()] * 3600;
 
     return QDateTime(QDate(year, month, day), QTime(hours, minutes, seconds),
-                     Qt::UTC).addSecs(shift); // TODO: perhaps use  Qt::OffsetFromUTC timespec instead to preserve more information
+                     QTimeZone(QTimeZone::UTC)).addSecs(shift); // TODO: perhaps use  Qt::OffsetFromUTC timespec instead to preserve more information
 }
 
 void eatSpaces(const QByteArray &line, int &start)

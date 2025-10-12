@@ -447,75 +447,75 @@ void ImapLowLevelParserTest::testGetRFC2822DateTime_data()
       courier-imap on woodpecker.gentoo.org won't convert the following:
     QTest::newRow("date-no-leading-zero")
         << QString("Fri Apr  3 00:21:52 UTC 2009")
-        << QDateTime( QDate( 2009, 4, 3 ), QTime( 0, 21, 52), Qt::UTC );*/
+        << QDateTime( QDate( 2009, 4, 3 ), QTime( 0, 21, 52), QTimeZone(QTimeZone::UTC) );*/
 
     QTest::newRow("date-manual")
         << QStringLiteral("Wed, 09 Apr 2008 20:16:12 +0200")
-        << QDateTime( QDate( 2008, 4, 9 ), QTime( 18, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 9 ), QTime( 18, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-wo-weekday")
         << QStringLiteral("09 Apr 2008 20:16:12 +0200")
-        << QDateTime( QDate( 2008, 4, 9 ), QTime( 18, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 9 ), QTime( 18, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-no-weekday-no-zone")
         << QStringLiteral("08 Apr 2009 03:00:19")
-        << QDateTime( QDate( 2009, 4, 8 ), QTime( 3, 0, 19 ), Qt::UTC );
+        << QDateTime( QDate( 2009, 4, 8 ), QTime( 3, 0, 19 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-no-zone")
         << QStringLiteral("Wed, 08 Apr 2009 03:00:19")
-        << QDateTime( QDate( 2009, 4, 8 ), QTime( 3, 0, 19 ), Qt::UTC );
+        << QDateTime( QDate( 2009, 4, 8 ), QTime( 3, 0, 19 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-ut")
         << QStringLiteral("Wed, 09 Apr 2008 20:16:12 UT")
-        << QDateTime( QDate( 2008, 4, 9 ), QTime( 20, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 9 ), QTime( 20, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-gmt")
         << QStringLiteral("Wed, 09 Apr 2008 20:16:12 gMt")
-        << QDateTime( QDate( 2008, 4, 9 ), QTime( 20, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 9 ), QTime( 20, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-est")
         << QStringLiteral("Wed, 09 Apr 2008 13:16:12 est")
-        << QDateTime( QDate( 2008, 4, 9 ), QTime( 18, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 9 ), QTime( 18, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-edt")
         << QStringLiteral("Wed, 09 Apr 2008 13:16:12 edt")
-        << QDateTime( QDate( 2008, 4, 9 ), QTime( 17, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 9 ), QTime( 17, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-cst")
         << QStringLiteral("Wed, 09 Apr 2008 10:17:12 CST")
-        << QDateTime( QDate( 2008, 4, 9 ), QTime( 16, 17, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 9 ), QTime( 16, 17, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-cdt")
         << QStringLiteral("Wed, 09 Apr 2008 20:16:12 CDT")
-        << QDateTime( QDate( 2008, 4, 10 ), QTime( 1, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 10 ), QTime( 1, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-mst")
         << QStringLiteral("wEd, 09 APr 2001 20:16:12 mst")
-        << QDateTime( QDate( 2001, 4, 10 ), QTime( 3, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2001, 4, 10 ), QTime( 3, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-mdt")
         << QStringLiteral("Wed, 09 Apr 2008 20:16:12 mdT")
-        << QDateTime( QDate( 2008, 4, 10 ), QTime( 2, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 10 ), QTime( 2, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-pst")
         << QStringLiteral("Wed, 09 Apr 2008 20:16:12 pst")
-        << QDateTime( QDate( 2008, 4, 10 ), QTime( 4, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 10 ), QTime( 4, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-pdt")
         << QStringLiteral("Wed, 09 Apr 2008 20:16:12 pdt")
-        << QDateTime( QDate( 2008, 4, 10 ), QTime( 3, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 10 ), QTime( 3, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("date-a")
         << QStringLiteral("Wed, 09 Apr 2008 20:16:12 a")
-        << QDateTime( QDate( 2008, 4, 9 ), QTime( 20, 16, 12 ), Qt::UTC );
+        << QDateTime( QDate( 2008, 4, 9 ), QTime( 20, 16, 12 ), QTimeZone(QTimeZone::UTC) );
 
     QTest::newRow("no-seconds")
         << QStringLiteral("Sat, 25 Aug 2012 20:12 +0200")
-        << QDateTime(QDate(2012, 8, 25), QTime(18, 12, 0), Qt::UTC);
+        << QDateTime(QDate(2012, 8, 25), QTime(18, 12, 0), QTimeZone(QTimeZone::UTC));
 
     QTest::newRow("single-digit-h-m-s")
         << QStringLiteral("Sat, 25 Aug 2012 5:2:1 +0200")
-        << QDateTime(QDate(2012, 8, 25), QTime(3, 2, 1), Qt::UTC);
+        << QDateTime(QDate(2012, 8, 25), QTime(3, 2, 1), QTimeZone(QTimeZone::UTC));
 
     int month = 1;
     int day = 1;
@@ -527,7 +527,7 @@ void ImapLowLevelParserTest::testGetRFC2822DateTime_data()
     int tz = 11*60;
     bool plusOrSpace = false;
     for ( int year = 1970; year < 2035; year += 1, plusOrSpace = !plusOrSpace ) {
-        QDateTime date( QDate( year, month, day), time, Qt::UTC );
+        QDateTime date( QDate( year, month, day), time, QTimeZone(QTimeZone::UTC) );
         QString str = date.toString( QStringLiteral("%1, dd %2 yyyy hh:mm:ss %3%4%5") ).arg(
                         wDays[ date.date().dayOfWeek() - 1 ],
                         months[ month - 1 ],

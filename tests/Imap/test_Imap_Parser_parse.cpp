@@ -640,20 +640,20 @@ void ImapParserParseTest::testParseUntagged_data()
 
     fetchData.clear();
     fetchData[ "INTERNALDATE" ] = QSharedPointer<AbstractData>(
-            new RespData<QDateTime>( QDateTime( QDate(2007, 3, 7), QTime( 14, 3, 32 ), Qt::UTC ) ) );
+            new RespData<QDateTime>( QDateTime( QDate(2007, 3, 7), QTime( 14, 3, 32 ), QTimeZone(QTimeZone::UTC) ) ) );
     QTest::newRow("fetch-rfc822-internaldate")
         << QByteArray("* 123 FETCH (InternalDate \"07-Mar-2007 15:03:32 +0100\")\r\n")
         << QSharedPointer<AbstractResponse>( new Fetch( 123, fetchData ) );
 
     fetchData.clear();
     fetchData[ "INTERNALDATE" ] = QSharedPointer<AbstractData>(
-            new RespData<QDateTime>( QDateTime( QDate(1981, 4, 6), QTime( 18, 33, 32 ), Qt::UTC ) ) );
+            new RespData<QDateTime>( QDateTime( QDate(1981, 4, 6), QTime( 18, 33, 32 ), QTimeZone(QTimeZone::UTC) ) ) );
     QTest::newRow("fetch-rfc822-internaldate-shorter")
         << QByteArray("* 123 FETCH (InternalDate \"6-Apr-1981 12:03:32 -0630\")\r\n")
         << QSharedPointer<AbstractResponse>( new Fetch( 123, fetchData ) );
 
     fetchData.clear();
-    QDateTime date( QDate( 1996, 7, 17 ), QTime( 9, 23, 25 ), Qt::UTC );
+    QDateTime date( QDate( 1996, 7, 17 ), QTime( 9, 23, 25 ), QTimeZone(QTimeZone::UTC) );
     QString subject( QStringLiteral("IMAP4rev1 WG mtg summary and minutes"));
     QList<MailAddress> from, sender, replyTo, to, cc, bcc;
     from.append( MailAddress( QStringLiteral("Terry Gray"), QByteArray(), QStringLiteral("gray"), QStringLiteral("cac.washington.edu")) );
@@ -809,7 +809,7 @@ void ImapParserParseTest::testParseUntagged_data()
     bcc.clear();
     fetchData["ENVELOPE"] = QSharedPointer<AbstractData>(
             new RespData<Envelope>(
-                    Envelope( QDateTime(QDate(2011, 1, 11), QTime(9, 21, 42), Qt::UTC), QStringLiteral("blablabla"), from, sender, replyTo, to, cc, bcc, QList<QByteArray>(), QByteArray() )
+                    Envelope( QDateTime(QDate(2011, 1, 11), QTime(9, 21, 42), QTimeZone(QTimeZone::UTC)), QStringLiteral("blablabla"), from, sender, replyTo, to, cc, bcc, QList<QByteArray>(), QByteArray() )
                     ));
     fetchData["UID"] = QSharedPointer<AbstractData>(new RespData<uint>(8803));
     fetchData["RFC822.SIZE"] = QSharedPointer<AbstractData>(new RespData<quint64>(56144));
