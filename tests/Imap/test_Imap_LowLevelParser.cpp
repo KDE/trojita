@@ -52,7 +52,7 @@ void ImapLowLevelParserTest::testParseList()
     line = "(smrt)";
     start = 0;
     res = parseList( '(', ')', line, start );
-    Q_ASSERT( res.canConvert( QVariant::List ) );
+    Q_ASSERT( res.canConvert( QMetaType(QMetaType::QVariantList)) );
     list = res.toList();
     QCOMPARE( list.size(), 1 );
     QCOMPARE( list, QVariantList() <<  QByteArrayLiteral("smrt") );
@@ -61,7 +61,7 @@ void ImapLowLevelParserTest::testParseList()
     line = "[\\smrt] ahoj";
     start = 0;
     res = parseList( '[', ']', line, start );
-    Q_ASSERT( res.canConvert( QVariant::List ) );
+    Q_ASSERT( res.canConvert( QMetaType(QMetaType::QVariantList) ) );
     list = res.toList();
     QCOMPARE( list.size(), 1 );
     QCOMPARE( list, QVariantList() <<  QByteArrayLiteral("\\smrt") );
@@ -73,7 +73,7 @@ void ImapLowLevelParserTest::testParseList()
     start = 0;
     res = parseList( '(', ')', line, start );
 
-    Q_ASSERT( res.canConvert( QMetaType::QVariantList ) );
+    Q_ASSERT( res.canConvert( QMetaType(QMetaType::QVariantList) ) );
     list = res.toList();
     QCOMPARE( list.size(), 4 );
     QCOMPARE( list,  QVariantList() <<  QByteArrayLiteral("smrt") <<
@@ -94,7 +94,7 @@ void ImapLowLevelParserTest::testParseList()
     line = QByteArrayLiteral("(ahoj cau {6}\r\nnazdar 1337 \\* 666 \"aho\\\"oooj\") (bleee \\*)");
     start = 0;
     res = parseList( '(', ')', line, start );
-    Q_ASSERT( res.canConvert( QVariant::List ) );
+    Q_ASSERT( res.canConvert( QMetaType(QMetaType::QVariantList) ) );
     list = res.toList();
     QCOMPARE( list.size(), 7 );
     QCOMPARE( list, QVariantList() << QByteArrayLiteral("ahoj") << QByteArrayLiteral("cau")
@@ -105,7 +105,7 @@ void ImapLowLevelParserTest::testParseList()
     ++start;
     QVERIFY( start < line.size() );
     res = parseList( '(', ')', line, start );
-    Q_ASSERT( res.canConvert( QVariant::List ) );
+    Q_ASSERT( res.canConvert( QMetaType(QMetaType::QVariantList) ) );
     list = res.toList();
     QCOMPARE( list.size(), 2 );
     QCOMPARE( list, QVariantList() << QByteArrayLiteral("bleee") << QByteArrayLiteral("\\*") );
@@ -373,19 +373,19 @@ void ImapLowLevelParserTest::testGetAnything()
 
     line = "1337"; pos = 0;
     res = getAnything( line, pos );
-    Q_ASSERT( res.canConvert( QVariant::Int ) );
+    Q_ASSERT( res.canConvert( QMetaType(QMetaType::Int) ) );
     QCOMPARE( 1337, res.toInt() );
     QCOMPARE( pos, line.size() );
 
     line = "0 666";
     pos = 0;
     res = getAnything( line, pos );
-    Q_ASSERT( res.canConvert( QVariant::Int ) );
+    Q_ASSERT( res.canConvert( QMetaType(QMetaType::Int) ) );
     QCOMPARE( 0, res.toInt() );
     QCOMPARE( line.at( pos ), ' ' );
     ++pos;
     res = getAnything( line, pos );
-    Q_ASSERT( res.canConvert( QVariant::Int ) );
+    Q_ASSERT( res.canConvert( QMetaType(QMetaType::Int) ) );
     QCOMPARE( 666, res.toInt() );
     QCOMPARE( pos, line.size() );
 
