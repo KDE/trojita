@@ -31,8 +31,7 @@ Sendmail::Sendmail(QObject *parent, const QString &command, const QStringList &a
 {
     proc = new QProcess(this);
     connect(proc, &QProcess::started, this, &Sendmail::handleStarted);
-    // TODO: qOverload can be dropped when QT_DISABLE_DEPRECATED_BEFORE >= QT_VERSION_CHECK(5, 13, 0)
-    connect(proc, qOverload<int, QProcess::ExitStatus>(&QProcess::finished), this, &Sendmail::handleFinished);
+    connect(proc, &QProcess::finished, this, &Sendmail::handleFinished);
     connect(proc, &QProcess::errorOccurred, this, &Sendmail::handleError);
     connect(proc, &QIODevice::bytesWritten, this, &Sendmail::handleBytesWritten);
 }
