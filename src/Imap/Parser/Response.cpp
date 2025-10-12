@@ -24,6 +24,7 @@
 #include <typeinfo>
 #include <QIODevice>
 #include <QSslError>
+#include <QTimeZone>
 #include "Message.h"
 #include "LowLevelParser.h"
 #include "../Model/Model.h"
@@ -857,7 +858,7 @@ QDateTime Fetch::dateify(QByteArray str, const QByteArray &line, const int start
     default:
         throw ParseError(line, start);
     }
-    date.setTimeSpec(Qt::UTC);
+    date.setTimeZone(QTimeZone::UTC);
     return date;
 }
 

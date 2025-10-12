@@ -329,7 +329,7 @@ QString formatDateTimeWithTimeZoneAtEnd(const QDateTime &now, const QString &for
     // If there's a more Qt-ish way of doing that, please let me know.
     // that's right, both of these command are actually needed
     QDateTime nowUtc = now.toUTC();
-    nowUtc.setTimeSpec(Qt::LocalTime);
+    nowUtc.setTimeZone(QTimeZone::LocalTime);
 
     // Got to cast to a signed type to prevent unsigned underflow here. Also go to 64bits because otherwise there'd
     // a problem when the value is out-of-range for an int32.
