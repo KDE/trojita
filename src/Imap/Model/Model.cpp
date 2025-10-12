@@ -750,6 +750,24 @@ bool Model::hasChildren(const QModelIndex &parent) const
         return false;
 }
 
+QHash<int, QByteArray> Model::roleNames() const
+{
+    auto ret = QAbstractItemModel::roleNames();
+
+    ret[RoleIsFetched] = "isFetched";
+    ret[RolePartMimeType] = "mimeType";
+    ret[RolePartCharset] = "charset";
+    ret[RolePartContentFormat] = "contentFormat";
+    ret[RolePartTransferEncoding] = "transferEncoding";
+    ret[RolePartBodyFldId] = "bodyFldId";
+    ret[RolePartBodyDisposition] = "bodyDisposition";
+    ret[RolePartFileName] = "fileName";
+    ret[RolePartOctets] = "size";
+    ret[RolePartId] = "partId";
+    ret[RolePartPathToPart] = "pathToPart";
+    return ret;
+}
+
 void Model::askForChildrenOfMailbox(const QModelIndex &index, const CacheLoadingMode cacheMode)
 {
     TreeItemMailbox *mailbox = nullptr;

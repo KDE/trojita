@@ -131,6 +131,7 @@ public:
     int columnCount(const QModelIndex &index) const override;
     QVariant data(const QModelIndex &index, int role) const override;
     bool hasChildren(const QModelIndex &parent = QModelIndex()) const override;
+    QHash<int, QByteArray> roleNames() const override;
 
     void handleState(Imap::Parser *ptr, const Imap::Responses::State *const resp);
     void handleCapability(Imap::Parser *ptr, const Imap::Responses::Capability *const resp);

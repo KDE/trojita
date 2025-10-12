@@ -21,8 +21,10 @@
 */
 
 #include "VisibleTasksModel.h"
-#include "kdeui-itemviews/kdescendantsproxymodel.h"
+
 #include "ItemRoles.h"
+
+#include <KDescendantsProxyModel>
 
 namespace Imap
 {

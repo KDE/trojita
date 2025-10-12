@@ -21,12 +21,14 @@
 */
 
 #include "OneMessageModel.h"
-#include "kdeui-itemviews/kdescendantsproxymodel.h"
+
 #include "FindInterestingPart.h"
 #include "ItemRoles.h"
 #include "Model.h"
 #include "SubtreeModel.h"
 #include "Imap/Network/MsgPartNetAccessManager.h"
+
+#include <KDescendantsProxyModel>
 
 namespace Imap
 {
@@ -43,19 +45,6 @@ OneMessageModel::OneMessageModel(Model *model): QObject(model), m_subtree(nullpt
     connect(model, &QAbstractItemModel::dataChanged, this, &OneMessageModel::handleModelDataChanged);
     m_flatteningModel = new KDescendantsProxyModel(this);
     m_flatteningModel->setSourceModel(m_subtree);
-    QHash<int, QByteArray> roleNames;
-    roleNames[RoleIsFetched] = "isFetched";
-    roleNames[RolePartMimeType] = "mimeType";
-    roleNames[RolePartCharset] = "charset";
-    roleNames[RolePartContentFormat] = "contentFormat";
-    roleNames[RolePartTransferEncoding] = "transferEncoding";
-    roleNames[RolePartBodyFldId] = "bodyFldId";
-    roleNames[RolePartBodyDisposition] = "bodyDisposition";
-    roleNames[RolePartFileName] = "fileName";
-    roleNames[RolePartOctets] = "size";
-    roleNames[RolePartId] = "partId";
-    roleNames[RolePartPathToPart] = "pathToPart";
-    m_flatteningModel->proxySetRoleNames(roleNames);
 }
 
 void OneMessageModel::setMessage(const QString &mailbox, const uint uid)

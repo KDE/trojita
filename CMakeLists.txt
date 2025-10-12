@@ -70,6 +70,12 @@ find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED
         Test
         Widgets
 )
+
+find_package(KF6 REQUIRED
+    COMPONENTS
+        ItemModels
+)
+
 trojita_find_package(Qt6WebKitWidgets "" "" "Qt6 WebKit" "Required for displaying mail contents" WITH_WEBKIT)
 trojita_find_package(KPim6AkonadiContactCore "" "" "" "Required for building Akonadi address book plugin")
 trojita_plugin_option(WITH_AKONADIADDRESSBOOK_PLUGIN "Build AkonadiAddressbook plugin" KPim6AkonadiContactCore_FOUND)
@@ -472,8 +478,6 @@ set(libImap_SOURCES
     # The ModelWatcher is another debugging aid
     ${path_Imap}/Model/ModelWatcher.cpp
 
-    ${path_Imap}/Model/kdeui-itemviews/kdescendantsproxymodel.cpp
-
     ${path_Imap}/Tasks/AppendTask.cpp
     ${path_Imap}/Tasks/CopyMoveMessagesTask.cpp
     ${path_Imap}/Tasks/CreateMailboxTask.cpp
@@ -668,6 +672,7 @@ target_link_libraries(Imap
         UiUtils
     PRIVATE
         Qt::Gui
+        KF6::ItemModels
         Streams
 )
 

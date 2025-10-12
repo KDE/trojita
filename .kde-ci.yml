@@ -10,3 +10,8 @@ Dependencies:
 
 Options:
   cmake-options: '-DWITH_WEBKIT=FALSE'
+  # TODO force-inject-asan can go once
+  # tests/Cryptography/keygen.sh is
+  # removed and CMakeLists.txt includes
+  # ECMEnableSanitizers or KDECompilerSettings
+  force-inject-asan: True
