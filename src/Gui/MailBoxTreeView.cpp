@@ -115,7 +115,7 @@ void MailBoxTreeView::dragMoveEvent(QDragMoveEvent *event)
     QTreeView::dragMoveEvent(event);
     if (!event->isAccepted())
         return;
-    if (event->keyboardModifiers() == Qt::ShiftModifier)
+    if (event->modifiers() == Qt::ShiftModifier)
         event->setDropAction(Qt::MoveAction);
     else
         event->setDropAction(Qt::CopyAction);
@@ -132,9 +132,9 @@ void MailBoxTreeView::dropEvent(QDropEvent *event)
         event->ignore();
         return;
     }
-    if (event->keyboardModifiers() == Qt::ControlModifier) {
+    if (event->modifiers() == Qt::ControlModifier) {
         event->setDropAction(Qt::CopyAction);
-    } else if (event->keyboardModifiers() == Qt::ShiftModifier) {
+    } else if (event->modifiers() == Qt::ShiftModifier) {
         event->setDropAction(Qt::MoveAction);
     } else if (defaultDropAction() != Qt::IgnoreAction) {
         event->setDropAction(defaultDropAction());
