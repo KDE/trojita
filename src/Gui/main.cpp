@@ -41,32 +41,6 @@
 
 #include "static_plugins.h"
 
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-void migrateSettings(const QString &settingsName)
-{
-    QSettings utf8Settings(Common::Application::organization, settingsName);
-    utf8Settings.setIniCodec("UTF-8");
-
-    if (utf8Settings.allKeys().isEmpty()) {
-        return;
-    }
-
-    if (utf8Settings.value(Common::SettingsNames::settingsVersion, 0).toInt() > 1) {
-        return;
-    }
-
-    QSettings settings(Common::Application::organization, settingsName);
-
-    qWarning("Starting conversion of settings to UTF-8");
-    for (const QString &key : settings.allKeys()) {
-        utf8Settings.setValue(key, settings.value(key));
-    }
-    utf8Settings.setValue(Common::SettingsNames::settingsVersion, 2);
-    utf8Settings.sync();
-    qWarning("Finished conversion of settings to UTF-8");
-}
-#endif
-
 int main(int argc, char **argv)
 {
     Common::registerMetaTypes();
@@ -80,9 +54,7 @@ int main(int argc, char **argv)
     AppVersion::setCoreApplicationData();
 
     app.setAttribute(Qt::AA_UseHighDpiPixmaps);
-#if QT_VERSION >= QT_VERSION_CHECK(5, 7, 0)
     app.setDesktopFileName(QStringLiteral("org.kde.trojita"));
-#endif
     app.setWindowIcon(UiUtils::loadIcon(QStringLiteral("trojita")));
 
     QCommandLineParser parser;
@@ -176,19 +148,9 @@ int main(int argc, char **argv)
         return 0;
     }
 
-    QString settingsName = Common::Application::name;
-    if (!profileName.isEmpty()) {
-        settingsName += QLatin1Char('-') + profileName;
-    }
 
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    migrateSettings(settingsName);
-#endif
     QSettings settings(Common::Application::organization,
-                      settingsName);
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    settings.setIniCodec("UTF-8");
-#endif
+                       profileName.isEmpty() ? Common::Application::name : Common::Application::name + QLatin1Char('-') + profileName);
 
     if (!Imap::Mailbox::SystemNetworkWatcher::init()) {
         qErr << "Failed to load network watcher.";

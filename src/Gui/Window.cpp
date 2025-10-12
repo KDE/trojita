@@ -823,7 +823,6 @@ void MainWindow::createWidgets()
     m_messageWidget = new CompleteMessageWidget(this, m_settings, m_pluginManager, m_favoriteTags);
     connect(m_messageWidget->messageView, &MessageView::messageChanged, this, &MainWindow::scrollMessageUp);
     connect(m_messageWidget->messageView, &MessageView::messageChanged, this, &MainWindow::slotUpdateMessageActions);
-#if QT_VERSION >= QT_VERSION_CHECK(5, 4, 0)
     connect(m_messageWidget->messageView, &MessageView::linkHovered, [](const QString &url) {
         if (url.isEmpty()) {
             QToolTip::hideText();
@@ -835,7 +834,6 @@ void MainWindow::createWidgets()
         }
     });
     connect(m_messageWidget->messageView, &MessageView::transferError, this, &MainWindow::slotDownloadTransferError);
-#endif
 #else
    m_messageWidget = new QLabel(QStringLiteral("Message Widget placeholder"));
 #endif

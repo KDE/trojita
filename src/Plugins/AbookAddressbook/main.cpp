@@ -76,9 +76,6 @@ int main(int argc, char **argv) {
 
         int lastContact = -1, updates = 0, adds = 0;
         QSettings abook(QDir::homePath() + QLatin1String("/.abook/addressbook"), QSettings::IniFormat);
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-	abook.setIniCodec("UTF-8");
-#endif
         QStringList contacts = abook.childGroups();
         foreach (const QString &contact, contacts) {
             Common::SettingsCategoryGuard guard(&abook, contact);

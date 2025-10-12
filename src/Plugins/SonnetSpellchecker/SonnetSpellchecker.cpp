@@ -21,13 +21,9 @@
 */
 
 #include "SonnetSpellchecker.h"
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-#include <SonnetUi/sonnet/spellcheckdecorator.h>
-#include <SonnetUi/sonnet/highlighter.h>
-#else
 #include <Sonnet/SpellCheckDecorator>
 #include <Sonnet/Highlighter>
-#endif
+
 namespace Plugins {
 
 SonnetSpellchecker::SonnetSpellchecker(QObject *parent) : SpellcheckerPlugin(parent)

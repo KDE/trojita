@@ -229,9 +229,6 @@ void AbookAddressbook::readAbook(bool update)
 //     QElapsedTimer profile;
 //     profile.start();
     QSettings abook(QDir::homePath() + QLatin1String("/.abook/addressbook"), QSettings::IniFormat);
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    abook.setIniCodec("UTF-8");
-#endif
     QStringList contacts = abook.childGroups();
     foreach (const QString &contact, contacts) {
         Common::SettingsCategoryGuard guard(&abook, contact);
@@ -304,9 +301,6 @@ void AbookAddressbook::saveContacts()
 {
     m_filesystemWatcher->blockSignals(true);
     QSettings abook(QDir::homePath() + QLatin1String("/.abook/addressbook"), QSettings::IniFormat);
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    abook.setIniCodec("UTF-8");
-#endif
     abook.clear();
     for (int i = 0; i < m_contacts->rowCount(); ++i) {
         Common::SettingsCategoryGuard guard(&abook, QString::number(i));

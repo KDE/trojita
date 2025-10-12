@@ -322,15 +322,7 @@ Qt::DropActions MsgListModel::supportedDragActions() const
 
 Qt::DropActions MsgListModel::supportedDropActions() const
 {
-    // Right now the GUI code doesn't allow dropping items into mailbox by dragging them
-    // to a listing of mailbox' content, but if we just return Qt::IgnoreAction form here,
-    // stuff breaks on Qt prior to 5.4.0 because on old Qt, the proxy models call
-    // supportedDropActions() unless supportedDragActions is reimplemented on each level.
-#if QT_VERSION < QT_VERSION_CHECK(5, 4, 0)
-    return Qt::CopyAction | Qt::MoveAction;
-#else
     return Qt::IgnoreAction;
-#endif
 }
 
 QStringList MsgListModel::mimeTypes() const

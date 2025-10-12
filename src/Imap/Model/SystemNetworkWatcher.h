@@ -27,44 +27,11 @@
 
 #include "configure.cmake.h"
 
-#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
 #include <QNetworkInformation>
-#else
-class QNetworkConfigurationManager;
-class QNetworkConfiguration;
-class QNetworkSession;
-#endif
 
 namespace Imap {
 namespace Mailbox {
 
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-class SystemNetworkWatcher: public NetworkWatcher
-{
-    Q_OBJECT
-public:
-    SystemNetworkWatcher(ImapAccess *parent, Model *model);
-
-    static bool init() { return true; }
-
-public slots:
-    void reconnectModelNetwork();
-    void onGlobalOnlineStateChanged(const bool online);
-    void networkConfigurationChanged(const QNetworkConfiguration& conf);
-    void networkSessionError();
-
-protected:
-    void setDesiredNetworkPolicy(const NetworkPolicy policy) override;
-
-private:
-    QNetworkConfigurationManager *m_netConfManager;
-    QNetworkSession *m_session;
-
-    bool isOnline() const;
-    void resetSession();
-    QNetworkConfiguration sessionsActiveConfiguration() const;
-};
-#else
 class SystemNetworkWatcher: public NetworkWatcher
 {
    Q_OBJECT
@@ -86,7 +53,6 @@ private:
    bool isOnline();
    void reconnectModelNetwork();
 };
-#endif
 
 }
 }
