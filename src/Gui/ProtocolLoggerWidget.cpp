@@ -242,7 +242,7 @@ void ProtocolLoggerWidget::onConnectionClosed(uint connectionId, Imap::Connectio
             it->closedTime = now;
         }
 
-        it = logs.begin() + 1; // do not ever delete log#0, that's a special one
+        it = std::next(logs.begin(),  1); // do not ever delete log#0, that's a special one
         while (it != logs.end()) {
             if (it->closedTime != 0 && it->closedTime < cutoff) {
                 if (it->widget) {
