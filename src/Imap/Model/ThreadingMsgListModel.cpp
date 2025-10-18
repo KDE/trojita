@@ -1483,9 +1483,12 @@ void ThreadingMsgListModel::applySort()
         }
         Q_ASSERT(messages.size() == 1);
         QHash<void *,uint>::const_iterator it = ptrToInternal.constFind(messages.front());
-        // else applyThreading() taking care of it
-        if (!threadingInFlight)
-            Q_ASSERT(it != ptrToInternal.constEnd());
+        if (it == ptrToInternal.constEnd()) {
+            // else applyThreading() taking care of it
+            Q_ASSERT(threadingInFlight);
+            continue;
+        }
+
         if (!allRootIds.contains(*it)) {
             // not a thread root, so don't show it
             continue;
