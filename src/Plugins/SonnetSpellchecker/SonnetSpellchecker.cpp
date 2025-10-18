@@ -21,9 +21,13 @@
 */
 
 #include "SonnetSpellchecker.h"
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include <SonnetUi/sonnet/spellcheckdecorator.h>
 #include <SonnetUi/sonnet/highlighter.h>
-
+#else
+#include <Sonnet/SpellCheckDecorator>
+#include <Sonnet/Highlighter>
+#endif
 namespace Plugins {
 
 SonnetSpellchecker::SonnetSpellchecker(QObject *parent) : SpellcheckerPlugin(parent)
@@ -43,7 +47,7 @@ QString trojita_plugin_SonnetSpellcheckerPlugin::name() const
 
 QString trojita_plugin_SonnetSpellcheckerPlugin::description() const
 {
-    return tr("Sonnet (KF5)");
+    return tr("Sonnet");
 }
 
 Plugins::SpellcheckerPlugin *trojita_plugin_SonnetSpellcheckerPlugin::create(QObject *parent, QSettings *settings)
