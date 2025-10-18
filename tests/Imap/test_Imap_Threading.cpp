@@ -22,6 +22,7 @@
 
 #include <algorithm>
 #include <QtTest>
+#include <QStringView>
 #include "test_Imap_Threading.h"
 #include "Imap/Model/MsgListModel.h"
 #include "Imap/Model/ThreadingMsgListModel.h"
@@ -192,7 +193,7 @@ void ImapModelThreadingTest::testThreadDeletionsAdditions()
         } else if (whichOne[0] == QLatin1Char('+')) {
             // New additions. The number specifies the number of new arrivals.
             Q_ASSERT(whichOne.size() > 1);
-            int newArrivals = whichOne.midRef(1).toInt();
+            int newArrivals = QStringView(whichOne).mid(1).toInt();
             Q_ASSERT(newArrivals > 0);
 
             for (int i = 0; i < newArrivals; ++i) {

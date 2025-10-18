@@ -239,11 +239,11 @@ bool elideAddress(QString &address)
 
         // do not stash the domain and leave at least 4 chars head and tail of the local part
         const int d = qMax(8, idx - (address.length() - 60))/2;
-        address = address.leftRef(d) + ellipsis + address.rightRef(address.length() - idx + d);
+        address = address.left(d) + ellipsis + address.right(address.length() - idx + d);
     } else {
         // some longer something, just remove the overhead in the center to eg.
         // leave "https://" and "foo/index.html" intact
-        address = address.leftRef(30) + ellipsis + address.rightRef(30);
+        address = address.left(30) + ellipsis + address.right(30);
     }
     return true;
 }

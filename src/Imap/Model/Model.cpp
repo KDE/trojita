@@ -25,6 +25,7 @@
 #include <QAuthenticator>
 #include <QCoreApplication>
 #include <QDebug>
+#include <QStringView>
 #include "Model.h"
 #include "Common/FindWithUnknown.h"
 #include "Common/InvokeMethod.h"
@@ -335,7 +336,7 @@ void Model::finalizeList(Parser *parser, TreeItemMailbox *mailboxPtr)
             // rubbish, ignore
             it = listResponses.erase(it);
         } else if (it->mailbox.startsWith(prefix)) {
-            if (!mailboxPtr->separator().isEmpty() && it->mailbox.midRef(prefix.length()).contains(mailboxPtr->separator())) {
+            if (!mailboxPtr->separator().isEmpty() && QStringView(it->mailbox).mid(prefix.length()).contains(mailboxPtr->separator())) {
                 // This is about a mailbox which is nested deeper beneath the current thing (e.g., we're listing A.B.%,
                 // and the current response is A.B.C.1), so let's assume that it's some else's LIST response.
                 // The separator/delimiter checking is (hopefully) correct -- see https://tools.ietf.org/html/rfc3501#page-70 .

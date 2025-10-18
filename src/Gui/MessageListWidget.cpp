@@ -26,6 +26,7 @@
 #include <QCheckBox>
 #include <QFrame>
 #include <QMenu>
+#include <QStringView>
 #include <QTimer>
 #include <QToolButton>
 #include <QVBoxLayout>
@@ -208,7 +209,7 @@ void MessageListWidget::slotUpdateSearchCursor()
     }
     if (te < 0)
         return; // not inside tag?
-    if (m_quickSearchText->text().midRef(ts, m_queryPlaceholder.length()) == m_queryPlaceholder)
+    if (QStringView(m_quickSearchText->text()).mid(ts, m_queryPlaceholder.length()) == m_queryPlaceholder)
         m_quickSearchText->setSelection(ts, m_queryPlaceholder.length());
 }
 

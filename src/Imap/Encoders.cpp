@@ -63,6 +63,7 @@
 #include <QDebug>
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>
+#include <QStringView>
 #include <QTextCodec>
 
 #include "Encoders.h"
@@ -318,7 +319,7 @@ namespace {
         }
 
         // Copy anything left
-        out.append(str.midRef(lastPos));
+        out.append(QStringView(str).mid(lastPos));
 
         return out;
     }
