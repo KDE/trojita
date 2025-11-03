@@ -13,7 +13,7 @@ build_fedora:
     - Linux
   before_script:
     - dnf upgrade -y
-    - dnf install -y kf5-sonnet-devel mimetic-devel ninja qgpgme-qt5-devel qt5-linguist qt5-qtsvg-devel qt5-qtwebkit-devel qtkeychain-qt5-devel ragel
+    - dnf install -y kf5-sonnet-devel mimetic-devel ninja qgpgme-qt5-devel qt5-linguist qt5-qtsvg-devel qt5-qtwebkit-devel qtkeychain-qt5-devel ragel extra-cmake-modules
   script:
     - mkdir -p build && cd build
     # Avoid the akonadi addressbook plugin to not make things bigger for now

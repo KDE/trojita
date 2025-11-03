@@ -28,7 +28,6 @@
 #include <QObject>
 #include <QSettings>
 #include <QTextStream>
-#include <QTranslator>
 
 #include "AppVersion/SetCoreApplication.h"
 #include "Common/Application.h"
@@ -49,27 +48,6 @@ int main(int argc, char **argv)
 
     Q_INIT_RESOURCE(icons);
     Q_INIT_RESOURCE(license);
-
-    QTranslator qtTranslator;
-    qtTranslator.load(QLatin1String("qt_") + QLocale::system().name(),
-                      QLibraryInfo::location(QLibraryInfo::TranslationsPath));
-    app.installTranslator(&qtTranslator);
-
-    QLatin1String localeSuffix("/locale");
-    QString localeName(QLatin1String("trojita_common_") +
-                       (qgetenv("KDE_LANG") == "x-test" ? QStringLiteral("x_test") : QLocale::system().name()));
-
-    // The "installed to system" localization
-    QTranslator appSystemTranslator;
-    if (!Gui::Util::pkgDataDir().isEmpty()) {
-        appSystemTranslator.load(localeName, Gui::Util::pkgDataDir() + localeSuffix);
-        app.installTranslator(&appSystemTranslator);
-    }
-
-    // The "in the directory with the binary" localization
-    QTranslator appDirectoryTranslator;
-    appDirectoryTranslator.load(localeName, app.applicationDirPath() + localeSuffix);
-    app.installTranslator(&appDirectoryTranslator);
 
     AppVersion::setGitVersion();
     AppVersion::setCoreApplicationData();

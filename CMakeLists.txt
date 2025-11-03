@@ -1,7 +1,14 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(trojita)
-set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
+
+find_package(ECM REQUIRED NO_MODULE)
+
+set(CMAKE_MODULE_PATH
+    ${CMAKE_MODULE_PATH}
+    ${ECM_MODULE_PATH}
+    ${CMAKE_SOURCE_DIR}/cmake
+)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -23,6 +30,12 @@ endif()
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 include(TrojitaOption)
+
+# ECMPoQMTools includes QtVersionOption which creates an option to build against either
+# Qt 5 og Qt 6 if QT_MAJOR_VERSION is not set. This should be removed once Trojitá is
+# ready to build against Qt 6.
+set(QT_MAJOR_VERSION 5)
+include(ECMPoQmTools)
 
 trojita_option(WITH_DESKTOP "Build desktop version" ON)
 trojita_option(WITH_DBUS "Build with DBus library" AUTO)
@@ -49,13 +62,9 @@ find_package(Qt5Network REQUIRED)
 find_package(Qt5Sql REQUIRED)
 find_package(Qt5WebKitWidgets REQUIRED)
 find_package(Qt5Widgets REQUIRED)
-find_package(Qt5LinguistTools)
 find_package(Qt5Svg REQUIRED)
 trojita_find_package(Qt5DBus "" "http://qt-project.org" "Qt5 D-Bus support" "Needed for IPC and for some plugins" WITH_DBUS)
 trojita_find_package(Qt5Test "" "http://qt-project.org" "Qt5 QTest library" "Needed for automated tests" BUILD_TESTING)
-if(Qt5LinguistTools_FOUND)
-    find_package(Qt5LinguistForTrojita)
-endif()
 
 trojita_find_package(KF5AkonadiContact "" "" "" "Required for building Akonadi address book plugin")
 
@@ -500,26 +509,12 @@ if(WIN32)
     )
 endif()
 
-if(Qt5LinguistForTrojita_FOUND)
-    file(GLOB_RECURSE lang_PO "${CMAKE_CURRENT_SOURCE_DIR}/po/trojita_common_*.po")
-    qt5_wrap_po(trojita_QM ${lang_PO})
-    set(language_summary "")
-    foreach(po ${lang_PO})
-        string(REGEX REPLACE "^(.*)/trojita_common_(.*).po" "\\2" lang ${po})
-        list(APPEND language_summary ${lang})
-    endforeach()
-    list(SORT language_summary)
-    list(LENGTH language_summary num_languages)
-    if(num_languages)
-        message(STATUS "Available languages: ${language_summary}")
-        if(WITH_DESKTOP)
-            install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/locale/ DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/trojita/locale" REGEX "(x_test)|(.*\\.ts)" EXCLUDE)
-        endif()
-    else()
-        message(STATUS "No .po files found, will not install any languages")
-    endif()
-else()
-    message(STATUS "Qt Linguist (lupdate/lrelease/lconvert) not found, disabling localization support")
+# TODO Remove this check once scripty has updated
+# the path of po files to poqm
+if(IS_DIRECTORY "${CMAKE_SOURCE_DIR}/poqm")
+    ecm_install_po_files_as_qm(poqm)
+elseif(IS_DIRECTORY "${CMAKE_SOURCE_DIR}/po")
+    ecm_install_po_files_as_qm(po)
 endif()
 
 set(version_files ${CMAKE_CURRENT_BINARY_DIR}/trojita-version.h ${CMAKE_CURRENT_BINARY_DIR}/trojita-git-version.h)
@@ -686,9 +681,11 @@ if(WITH_DESKTOP)
     set_property(TARGET DesktopGui APPEND PROPERTY INCLUDE_DIRECTORIES ${path_DesktopGui})
     target_link_libraries(DesktopGui Common UiUtils Composer Cryptography Imap IPC MSA Plugins Streams qwwsmtpclient Qt5::WebKitWidgets)
 
+    ecm_create_qm_loader(trojita_desktop_SOURCES trojita_qt)
+
     # On Windows build a real Win32 GUI application without console window
     # On other platforms WIN32 flag is ignored
-    add_executable(trojita WIN32 ${trojita_desktop_SOURCES} ${trojita_QM})
+    add_executable(trojita WIN32 ${trojita_desktop_SOURCES})
     set_property(TARGET trojita APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
     target_link_libraries(trojita AppVersion Common UiUtils DesktopGui ${STATIC_PLUGINS})
 
