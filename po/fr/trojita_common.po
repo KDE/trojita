@@ -508,7 +508,7 @@ msgstr "%1 (Auto-signé)"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when retrieving key for the trust chain: %1"
-msgstr "Erreur lors de l'extraction de la clé pour la chaîne de confiance : %1"
+msgstr "Erreur lors de l'extraction de la clé pour la chaine de confiance : %1"
 
 #: src/Cryptography/GpgMe++.cpp:554
 #, qt-format
@@ -1056,7 +1056,7 @@ msgstr "Attacher..."
 #: src/Gui/CreateMailboxDialog.ui:14
 msgctxt "CreateMailboxDialog|"
 msgid "Create Mailbox"
-msgstr "Créer une boîte aux lettres"
+msgstr "Créer une boite aux lettres"
 
 #: src/Gui/CreateMailboxDialog.ui:22
 msgctxt "CreateMailboxDialog|"
@@ -1066,7 +1066,7 @@ msgstr "&Boîte aux lettres :"
 #: src/Gui/CreateMailboxDialog.ui:39
 msgctxt "CreateMailboxDialog|"
 msgid "Other Mai&lboxes"
-msgstr "Autres boîtes aux &lettres"
+msgstr "Autres boites aux &lettres"
 
 #: src/Gui/CreateMailboxDialog.ui:46
 msgctxt "CreateMailboxDialog|"
@@ -1078,7 +1078,7 @@ msgctxt "CreateMailboxDialog|"
 msgid ""
 "Check to add this mailbox to the server-side list of subscribed mailboxes"
 msgstr ""
-"Cocher pour ajouter cette boîte aux lettres à la liste du serveur des boîtes "
+"Cocher pour ajouter cette boite aux lettres à la liste du serveur des boites "
 "aux lettres abonnées du serveur."
 
 #: src/Gui/CreateMailboxDialog.ui:61
@@ -1391,7 +1391,7 @@ msgid ""
 "message bodies, etc).<br/><hr/>Experts who have read RFC3501 can use the "
 "<code>:=</code> prefix and switch to a raw IMAP mode."
 msgstr ""
-"Saisissez un texte à chercher au sein de cette boîte aux lettres. L'icône "
+"Saisissez un texte à chercher au sein de cette boite aux lettres. L'icône "
 "sur la gauche peut être utilisée pour limiter les options de recherche "
 "(comme s'il faut ou non inclure les adresses ou les corps des messages, "
 "etc.).<br/><hr/>Les experts qui ont lu la RFC3501 peuvent employer le "
@@ -1753,7 +1753,7 @@ msgstr "Notifications"
 msgctxt "CachePage|"
 msgid "Only the INBOX folder will be included for new message checking"
 msgstr ""
-"Seule la boîte de réception sera concernée par la vérification de nouveaux "
+"Seule la boite de réception sera concernée par la vérification de nouveaux "
 "messages."
 
 #: src/Gui/SettingsCachePage.ui:115
@@ -1768,13 +1768,13 @@ msgid ""
 "shared mailboxes, rich folder hierarchies, or IMAP proxying, for example."
 msgstr ""
 "Cela pourrait conduire à une opération extrêmement lente dans certains cas "
-"de boîtes mail partagées, de hiérarchies de dossiers importantes, ou de "
+"de boites mail partagées, de hiérarchies de dossiers importantes, ou de "
 "serveur mandataire IMAP, par exemple."
 
 #: src/Gui/SettingsCachePage.ui:125
 msgctxt "CachePage|"
 msgid "&All Mailboxes (use with care)"
-msgstr "Toutes les boîtes m&ails (à utiliser avec précaution)"
+msgstr "Toutes les boites m&ails (à utiliser avec précaution)"
 
 #: src/Gui/SettingsCachePage.ui:132
 msgctxt "CachePage|"
@@ -1784,7 +1784,7 @@ msgid ""
 "view."
 msgstr ""
 "Les dossiers de mail marqué comme abonnés seront inclus dans les "
-"notifications. Pour abonner une boîte mail, utiliser le menu contextuel de "
+"notifications. Pour abonner une boite mail, utiliser le menu contextuel de "
 "l'affichage de celle-ci."
 
 #: src/Gui/SettingsCachePage.ui:135
@@ -2111,7 +2111,7 @@ msgstr "Afficher les images en texte simple au lieu de la version HTML"
 #: src/Gui/SettingsGeneralPage.ui:55
 msgctxt "GeneralPage|"
 msgid "Show system tray icon"
-msgstr "Afficher l'icône de la boîte à miniatures"
+msgstr "Afficher l'icône de la boite à miniatures"
 
 #: src/Gui/SettingsGeneralPage.ui:62
 msgctxt "GeneralPage|"
@@ -2210,7 +2210,7 @@ msgid ""
 "move).</p>"
 msgstr ""
 "<p>Si activé, vous pouvez définir les actions de glisser-déposer par défaut "
-"pour l'arbre des boîtes mails.</p><p>Si désactivé, Trojita vous le demandera "
+"pour l'arbre des boites mails.</p><p>Si désactivé, Trojita vous le demandera "
 "à chaque fois. Vous pouvez toujours passer outre l'action définie en "
 "utiliser les touches modificatrice lors de la dépose (Contrôle : copier, "
 "Maj : déplacer).</p>"
@@ -2218,7 +2218,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:274
 msgctxt "GeneralPage|"
 msgid "Default drop action for the mbox tree"
-msgstr "Action déposer par défaut pour l'arbre des boîtes aux lettres"
+msgstr "Action déposer par défaut pour l'arbre des boites aux lettres"
 
 #: src/Gui/SettingsImapPage.ui:27
 msgctxt "ImapPage|"
@@ -3091,7 +3091,7 @@ msgstr "Taille originale"
 #: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
-msgstr "Passer le focus à la liste de boîtes mails."
+msgstr "Passer le focus à la liste de boites mails."
 
 #: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
@@ -3156,7 +3156,7 @@ msgstr "Navigation"
 #: src/Gui/Window.cpp:309
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
-msgstr "&Mettre à jour la liste des boîtes aux lettres secondaires"
+msgstr "&Mettre à jour la liste des boites aux lettres secondaires"
 
 #: src/Gui/Window.cpp:312
 msgctxt "Gui::MainWindow|"
@@ -3222,24 +3222,24 @@ msgstr "&Paramètres..."
 #: src/Gui/Window.cpp:476
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
-msgstr "Créer une boîte aux lettres secon&daire..."
+msgstr "Créer une boite aux lettres secon&daire..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:480
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
-msgstr "Créer une &nouvelle boîte aux lettres..."
+msgstr "Créer une &nouvelle boite aux lettres..."
 
 #: src/Gui/Window.cpp:483
 msgctxt "Gui::MainWindow|"
 msgid "&Mark Mailbox as Read"
-msgstr "Marque&r la boîte aux lettres comme lue"
+msgstr "Marque&r la boite aux lettres comme lue"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:487
 msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
-msgstr "&Supprimer une boîte aux lettres"
+msgstr "&Supprimer une boite aux lettres"
 
 #: src/Gui/Window.cpp:505
 msgctxt "Gui::MainWindow|"
@@ -3451,7 +3451,7 @@ msgid ""
 "The application will continue in systray. This can be disabled within the "
 "settings."
 msgstr ""
-"L'application va continuer dans la boîte à miniatures. Cette fonction peut "
+"L'application va continuer dans la boite à miniatures. Cette fonction peut "
 "être désactivée dans les paramètres."
 
 #. "ALERT" is a special warning which we're required to show to the user
@@ -3545,23 +3545,23 @@ msgstr "Créer un sous-dossier de %1"
 #: src/Gui/Window.cpp:1688
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
-msgstr "Créer une boîte aux lettres de premier niveau"
+msgstr "Créer une boite aux lettres de premier niveau"
 
 #: src/Gui/Window.cpp:1715
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
-msgstr "Supprimer une boîte aux lettres"
+msgstr "Supprimer une boite aux lettres"
 
 #: src/Gui/Window.cpp:1716
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
-msgstr "Voulez-vous vraiment supprimer la boîte aux lettres %1 ?"
+msgstr "Voulez-vous vraiment supprimer la boite aux lettres %1 ?"
 
 #: src/Gui/Window.cpp:2015
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
-msgstr "Impossible de supprimer une boîte aux lettres"
+msgstr "Impossible de supprimer une boite aux lettres"
 
 #: src/Gui/Window.cpp:2016
 #, qt-format
@@ -3570,14 +3570,14 @@ msgid ""
 "Deleting mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
-"La suppression de la boîte aux lettres « %1 » a échoué avec le message "
+"La suppression de la boite aux lettres « %1 » a échoué avec le message "
 "suivant :\n"
 "%2"
 
 #: src/Gui/Window.cpp:2021
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
-msgstr "Impossible de créer une boîte aux lettres"
+msgstr "Impossible de créer une boite aux lettres"
 
 #: src/Gui/Window.cpp:2022
 #, qt-format
@@ -3586,14 +3586,14 @@ msgid ""
 "Creating mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
-"La création de la boîte aux lettres « %1 » a échoué avec le message "
+"La création de la boite aux lettres « %1 » a échoué avec le message "
 "suivant :\n"
 "%2"
 
 #: src/Gui/Window.cpp:2027
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
-msgstr "Impossible d'ouvrir la boîte aux lettres"
+msgstr "Impossible d'ouvrir la boite aux lettres"
 
 #: src/Gui/Window.cpp:2028
 #, qt-format
@@ -3602,7 +3602,7 @@ msgid ""
 "Opening mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
-"L'ouverture de la boîte aux lettres « %1 » a échoué avec le message "
+"L'ouverture de la boite aux lettres « %1 » a échoué avec le message "
 "suivant :\n"
 "%2"
 
@@ -3867,17 +3867,17 @@ msgstr "Connecté."
 #: src/Imap/ConnectionState.cpp:63
 msgctxt "QObject|"
 msgid "Waiting for another mailbox..."
-msgstr "En attente d'une autre boîte aux lettres..."
+msgstr "En attente d'une autre boite aux lettres..."
 
 #: src/Imap/ConnectionState.cpp:65
 msgctxt "QObject|"
 msgid "Opening mailbox..."
-msgstr "Ouverture de la boîte aux lettres..."
+msgstr "Ouverture de la boite aux lettres..."
 
 #: src/Imap/ConnectionState.cpp:67
 msgctxt "QObject|"
 msgid "Synchronizing mailbox..."
-msgstr "Synchronisation de la boîte aux lettres..."
+msgstr "Synchronisation de la boite aux lettres..."
 
 #: src/Imap/ConnectionState.cpp:69
 msgctxt "QObject|"
@@ -3908,14 +3908,14 @@ msgstr "Erreur « QFile » non reconnue"
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1 for mailbox %2"
-msgstr "Impossible de supprimer le fichier %1 pour la boîte aux lettres %2"
+msgstr "Impossible de supprimer le fichier %1 pour la boite aux lettres %2"
 
 #: src/Imap/Model/DiskPartCache.cpp:95
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1 for message %2, mailbox %3"
 msgstr ""
-"Impossible de supprimer le fichier %1 pour le message %2, boîte aux lettres "
+"Impossible de supprimer le fichier %1 pour le message %2, boite aux lettres "
 "%3"
 
 #: src/Imap/Model/DiskPartCache.cpp:117
@@ -3924,7 +3924,7 @@ msgctxt "QObject|"
 msgid ""
 "Couldn't save the part %1 of message %2 (mailbox %3) into file %4: %5 (%6)"
 msgstr ""
-"Impossible d'enregistrer la partie %1 du message %2 (boîte aux lettres %3) "
+"Impossible d'enregistrer la partie %1 du message %2 (boite aux lettres %3) "
 "dans le fichier %4 : %5 (%6)"
 
 #: src/Imap/Model/FavoriteTagsModel.cpp:124
@@ -4022,7 +4022,7 @@ msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
 "</p>"
 msgstr ""
-"<p>Il apparaît que vous vous connectez à un serveur POP3. Cela ne "
+"<p>Il apparait que vous vous connectez à un serveur POP3. Cela ne "
 "fonctionnera pas ici.</p>"
 
 #: src/Imap/Model/Model.cpp:1145
@@ -4031,7 +4031,7 @@ msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
 "here.</p>"
 msgstr ""
-"<p>Il apparaît que vous vous connectez en ce moment à un serveur SMTP. Cela "
+"<p>Il apparait que vous vous connectez en ce moment à un serveur SMTP. Cela "
 "ne fonctionnera pas ici.</p>"
 
 #: src/Imap/Model/Model.cpp:1147
@@ -4405,7 +4405,7 @@ msgctxt "QObject|"
 msgid "Corrupt data when reading child items for mailbox %1, line %2"
 msgstr ""
 "Corruption de données lors de la lecture des éléments secondaires pour la "
-"boîte aux lettres %1, ligne %2"
+"boite aux lettres %1, ligne %2"
 
 #: src/Imap/Model/SQLCache.cpp:488
 msgctxt "QObject|"
@@ -4567,7 +4567,7 @@ msgid ""
 "the selected mailbox, or is missing from the current search context."
 msgstr ""
 "Ce fil d'exécution fait référence à un message supplémentaire, mais celui-ci "
-"n'est pas présent dans la boîte aux lettres sélectionnée ou est absent du "
+"n'est pas présent dans la boite aux lettres sélectionnée ou est absent du "
 "contexte de recherche actuel."
 
 #: src/Imap/Network/FileDownloadManager.cpp:45
@@ -4669,7 +4669,7 @@ msgstr "Prié de terminer"
 #: src/Imap/Tasks/CreateMailboxTask.cpp:71
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Cannot create mailbox"
-msgstr "Impossible de créer une boîte aux lettres"
+msgstr "Impossible de créer une boite aux lettres"
 
 #: src/Imap/Tasks/CreateMailboxTask.cpp:79
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
@@ -4679,30 +4679,30 @@ msgstr "Erreur dans la commande LIST après CREATE"
 #: src/Imap/Tasks/CreateMailboxTask.cpp:89
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Creating mailbox"
-msgstr "Création d'une boîte aux lettres"
+msgstr "Création d'une boite aux lettres"
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:99
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Couldn't delete mailbox"
-msgstr "Impossible de supprimer la boîte aux lettres"
+msgstr "Impossible de supprimer la boite aux lettres"
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:109
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Deleting mailbox"
-msgstr "Suppression d'une boîte aux lettres"
+msgstr "Suppression d'une boite aux lettres"
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:115
 #, qt-format
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox %1 has pending activity, so it cannot be deleted now."
 msgstr ""
-"La boîte aux lettres %1 possède des activités en attente et ne peut donc pas "
+"La boite aux lettres %1 possède des activités en attente et ne peut donc pas "
 "être supprimée maintenant."
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:116
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox has pending activity"
-msgstr "La boîte aux lettres %1 possède des activités en attente"
+msgstr "La boite aux lettres %1 possède des activités en attente"
 
 #: src/Imap/Tasks/EnableTask.cpp:75
 msgctxt "Imap::Mailbox::EnableTask|"
@@ -4717,7 +4717,7 @@ msgstr "Activation des extensions IMAP"
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:49
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 msgid "Mailbox vanished before we could expunge it"
-msgstr "La boîte aux lettres a disparu avant d'avoir pu être supprimée."
+msgstr "La boite aux lettres a disparu avant d'avoir pu être supprimée."
 
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:68
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
@@ -4752,7 +4752,7 @@ msgstr "Suppression de certains parmi les messages effacés"
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:60
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
 msgid "handleFetch: mailbox disappeared"
-msgstr "handleFetch : la boîte aux lettres a disparu"
+msgstr "handleFetch : la boite aux lettres a disparu"
 
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:80
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
@@ -4833,7 +4833,7 @@ msgstr "Déconnexion en cours..."
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "The UIDVALIDITY has changed while mailbox is open. Please reconnect."
 msgstr ""
-"La donnée « UIDVALIDITY » a changé pendant que la boîte aux lettres était "
+"La donnée « UIDVALIDITY » a changé pendant que la boite aux lettres était "
 "ouverte. Veuillez vous reconnecter."
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:948
@@ -4845,8 +4845,8 @@ msgstr "Non sélectionné"
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Mailbox vanished before we could ask for its children"
 msgstr ""
-"La boîte aux lettres à disparu avant que nous n'ayons pu lui demander ses "
-"boîtes aux lettres secondaires"
+"La boite aux lettres à disparu avant que nous n'ayons pu lui demander ses "
+"boites aux lettres secondaires"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:101
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
@@ -4856,12 +4856,12 @@ msgstr "LIST a échoué"
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:105
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Mailbox no longer available -- weird timing?"
-msgstr "La boîte aux lettres n'est plus disponible -- mauvais timing ?"
+msgstr "La boite aux lettres n'est plus disponible -- mauvais timing ?"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:151
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Listing mailboxes"
-msgstr "Listage des boîtes aux lettres"
+msgstr "Listage des boites aux lettres"
 
 #: src/Imap/Tasks/NoopTask.cpp:63
 msgctxt "Imap::Mailbox::NoopTask|"
@@ -4891,7 +4891,7 @@ msgstr "Prié d'annuler ou de terminer"
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:73
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Mailbox syncing dead or aborted"
-msgstr "Synchronisation de la boîte aux lettres interrompu ou morte."
+msgstr "Synchronisation de la boite aux lettres interrompu ou morte."
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:146
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
@@ -4901,12 +4901,12 @@ msgstr "Prié de terminer"
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1200
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Escaped from mailbox"
-msgstr "Sorti de la boîte aux lettres"
+msgstr "Sorti de la boite aux lettres"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1205
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Synchronizing mailbox"
-msgstr "Synchronisation de la boîte aux lettres"
+msgstr "Synchronisation de la boite aux lettres"
 
 #: src/Imap/Tasks/OfflineConnectionTask.cpp:55
 msgctxt "Imap::Mailbox::OfflineConnectionTask|"
@@ -5081,7 +5081,7 @@ msgstr ""
 msgctxt "Imap::Mailbox::SortTask|"
 msgid "Mailbox vanished before we could ask for threading info"
 msgstr ""
-"La boîte aux lettres a disparu avant de pouvoir lui demander les "
+"La boite aux lettres a disparu avant de pouvoir lui demander les "
 "informations sur les fils de discussion."
 
 #: src/Imap/Tasks/SortTask.cpp:150
@@ -5092,7 +5092,7 @@ msgstr "La commande de tri a échoué"
 #: src/Imap/Tasks/SortTask.cpp:243
 msgctxt "Imap::Mailbox::SortTask|"
 msgid "Sorting mailbox"
-msgstr "Tri de la boîte aux lettres"
+msgstr "Tri de la boite aux lettres"
 
 #: src/Imap/Tasks/SubscribeUnsubscribeTask.cpp:94
 msgctxt "Imap::Mailbox::SubscribeUnsubscribeTask|"
@@ -5108,7 +5108,7 @@ msgstr "Mise à jour des informations de souscription"
 msgctxt "Imap::Mailbox::ThreadTask|"
 msgid "Mailbox vanished before we could ask for threading info"
 msgstr ""
-"La boîte aux lettres a disparu avant de pouvoir lui demander les "
+"La boite aux lettres a disparu avant de pouvoir lui demander les "
 "informations sur les fils de discussion."
 
 #: src/Imap/Tasks/ThreadTask.cpp:75
@@ -5140,12 +5140,12 @@ msgstr "Prié de terminer"
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:101
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
 msgid "Failed to update Mailbox FLAGS"
-msgstr "Impossible de mettre à jours FLAGS de la boîte aux lettres"
+msgstr "Impossible de mettre à jours FLAGS de la boite aux lettres"
 
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:110
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
 msgid "Saving mailbox state"
-msgstr "Enregistrement de l'état de la boîte aux lettres"
+msgstr "Enregistrement de l'état de la boite aux lettres"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:121
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
@@ -5667,7 +5667,7 @@ msgid ""
 "<p>This is the certificate chain of the connection:</p>\n"
 "<ul>%1</ul>\n"
 msgstr ""
-"<p>Il s'agit de la chaîne de certificats de la connexion :</p>\n"
+"<p>Il s'agit de la chaine de certificats de la connexion :</p>\n"
 "<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
