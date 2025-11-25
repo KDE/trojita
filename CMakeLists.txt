@@ -509,13 +509,7 @@ if(WIN32)
     )
 endif()
 
-# TODO Remove this check once scripty has updated
-# the path of po files to poqm
-if(IS_DIRECTORY "${CMAKE_SOURCE_DIR}/poqm")
-    ecm_install_po_files_as_qm(poqm)
-elseif(IS_DIRECTORY "${CMAKE_SOURCE_DIR}/po")
-    ecm_install_po_files_as_qm(po)
-endif()
+ecm_install_po_files_as_qm(poqm)
 
 set(version_files ${CMAKE_CURRENT_BINARY_DIR}/trojita-version.h ${CMAKE_CURRENT_BINARY_DIR}/trojita-git-version.h)
 if(WITH_NSIS)
