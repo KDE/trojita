@@ -1046,17 +1046,17 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr "Indsæt som citeret tekst"
 
-#: src/Gui/ComposeWidget.cpp:126
+#: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Annullér..."
 
-#: src/Gui/ComposeWidget.cpp:126
+#: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "Annullér"
 
-#: src/Gui/ComposeWidget.cpp:195
+#: src/Gui/ComposeWidget.cpp:196
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Send"
@@ -1064,7 +1064,7 @@ msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Send"
 
-#: src/Gui/ComposeWidget.cpp:234
+#: src/Gui/ComposeWidget.cpp:235
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "New Thread"
@@ -1072,7 +1072,7 @@ msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr "Ny tråd"
 
-#: src/Gui/ComposeWidget.cpp:237
+#: src/Gui/ComposeWidget.cpp:238
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1086,7 +1086,7 @@ msgstr ""
 "Denne mail vil blive sendt som et selvstændigt brev.<hr/>Skift for at bevare "
 "svarhierarkiet."
 
-#: src/Gui/ComposeWidget.cpp:238
+#: src/Gui/ComposeWidget.cpp:239
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Threaded"
@@ -1094,7 +1094,7 @@ msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Trådet"
 
-#: src/Gui/ComposeWidget.cpp:358
+#: src/Gui/ComposeWidget.cpp:359
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Error"
@@ -1102,7 +1102,7 @@ msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Fejl"
 
-#: src/Gui/ComposeWidget.cpp:358
+#: src/Gui/ComposeWidget.cpp:359
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Please set appropriate settings for outgoing messages."
@@ -1110,7 +1110,7 @@ msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr "Angiv passende indstillinger for udgående breve."
 
-#: src/Gui/ComposeWidget.cpp:511
+#: src/Gui/ComposeWidget.cpp:512
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1124,7 +1124,7 @@ msgstr ""
 "Det ser ikke ud som om dette er et brev til en postliste. Angiv modtagerne "
 "manuelt."
 
-#: src/Gui/ComposeWidget.cpp:514
+#: src/Gui/ComposeWidget.cpp:515
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1141,7 +1141,7 @@ msgstr ""
 "dette brev med sikkerhed. Du kan bruge funktionen \"Svar til alle\" og "
 "tilpasse adresselisten manuelt."
 
-#: src/Gui/ComposeWidget.cpp:519
+#: src/Gui/ComposeWidget.cpp:520
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot Determine Recipients"
@@ -1149,7 +1149,7 @@ msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Kan ikke bestemme modtagere"
 
-#: src/Gui/ComposeWidget.cpp:566
+#: src/Gui/ComposeWidget.cpp:567
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Sender"
@@ -1157,7 +1157,7 @@ msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Afsender"
 
-#: src/Gui/ComposeWidget.cpp:572
+#: src/Gui/ComposeWidget.cpp:573
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bounce Mail: %1"
@@ -1165,7 +1165,7 @@ msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "Bounce-mail: %1"
 
-#: src/Gui/ComposeWidget.cpp:572
+#: src/Gui/ComposeWidget.cpp:573
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "(no subject)"
@@ -1173,7 +1173,7 @@ msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(intet emne)"
 
-#: src/Gui/ComposeWidget.cpp:584
+#: src/Gui/ComposeWidget.cpp:585
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no subject"
@@ -1181,7 +1181,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "Brevet har ikke noget emne"
 
-#: src/Gui/ComposeWidget.cpp:587
+#: src/Gui/ComposeWidget.cpp:588
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The Message-ID header is missing"
@@ -1189,7 +1189,7 @@ msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "Brev-id'ets hoved mangler"
 
-#: src/Gui/ComposeWidget.cpp:590
+#: src/Gui/ComposeWidget.cpp:591
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no date"
@@ -1197,7 +1197,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "Brevet har ingen dato"
 
-#: src/Gui/ComposeWidget.cpp:593
+#: src/Gui/ComposeWidget.cpp:594
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Nothing in the From field"
@@ -1205,7 +1205,7 @@ msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr "Intet i Fra-feltet"
 
-#: src/Gui/ComposeWidget.cpp:596
+#: src/Gui/ComposeWidget.cpp:597
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "No recipients in the To field"
@@ -1213,7 +1213,7 @@ msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr "Ingen modtagere i Til-feltet"
 
-#: src/Gui/ComposeWidget.cpp:599
+#: src/Gui/ComposeWidget.cpp:600
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1227,7 +1227,7 @@ msgstr ""
 "<b>Brevet ser ud til at være udformet forkert. Vær venligst forsigtig det "
 "afsendes.</b>"
 
-#: src/Gui/ComposeWidget.cpp:688
+#: src/Gui/ComposeWidget.cpp:689
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Authentication Required"
@@ -1235,7 +1235,7 @@ msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Autentificering kræves"
 
-#: src/Gui/ComposeWidget.cpp:689
+#: src/Gui/ComposeWidget.cpp:690
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -1243,7 +1243,7 @@ msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>Angiv SMTP-adgangskode for brugeren <b>%1</b> på <b>%2</b>:</p>"
 
-#: src/Gui/ComposeWidget.cpp:723
+#: src/Gui/ComposeWidget.cpp:724
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save Draft?"
@@ -1251,7 +1251,7 @@ msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Gem kladde?"
 
-#: src/Gui/ComposeWidget.cpp:724
+#: src/Gui/ComposeWidget.cpp:725
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The mail has not been sent.<br>Do you want to save the draft?"
@@ -1259,7 +1259,7 @@ msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "Mailen er ikke blevet sendt.<br>Vil du gemme kladden?"
 
-#: src/Gui/ComposeWidget.cpp:726
+#: src/Gui/ComposeWidget.cpp:727
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1273,13 +1273,13 @@ msgstr ""
 "<br><span style=\"color:red\">Advarsel: Bilag gemmes <b>ikke</b> sammen med "
 "kladden!</span>"
 
-#: src/Gui/ComposeWidget.cpp:737 src/Gui/Window.cpp:1514
+#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1514
 #: src/Gui/Window.cpp:1516
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Kladder"
 
-#: src/Gui/ComposeWidget.cpp:747
+#: src/Gui/ComposeWidget.cpp:748
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save as"
@@ -1287,7 +1287,7 @@ msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Gem som"
 
-#: src/Gui/ComposeWidget.cpp:748
+#: src/Gui/ComposeWidget.cpp:749
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Drafts"
@@ -1295,7 +1295,7 @@ msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Kladder"
 
-#: src/Gui/ComposeWidget.cpp:777
+#: src/Gui/ComposeWidget.cpp:778
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1309,7 +1309,7 @@ msgstr ""
 "Kan ikke fortolke modtagere:\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:781
+#: src/Gui/ComposeWidget.cpp:782
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any recipients"
@@ -1317,7 +1317,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Du har ikke angivet nogen modtager"
 
-#: src/Gui/ComposeWidget.cpp:789
+#: src/Gui/ComposeWidget.cpp:790
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The From: address does not look like a valid one"
@@ -1325,7 +1325,7 @@ msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "Fra-adressen ligner ikke en gyldig adresse"
 
-#: src/Gui/ComposeWidget.cpp:796
+#: src/Gui/ComposeWidget.cpp:797
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any subject. Cannot send such a mail, sorry."
@@ -1333,7 +1333,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr "Du har ikke angivet et emne. Kan ikke sende sådan en e-mail, beklager."
 
-#: src/Gui/ComposeWidget.cpp:828
+#: src/Gui/ComposeWidget.cpp:829
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot prepare this e-mail for sending: some parts are not available"
@@ -1343,7 +1343,7 @@ msgstr ""
 "Kan ikke forberede denne e-mail til afsendelse: nogle dele er ikke "
 "tilgængelige"
 
-#: src/Gui/ComposeWidget.cpp:919 src/Gui/ComposeWidget.cpp:1794
+#: src/Gui/ComposeWidget.cpp:920 src/Gui/ComposeWidget.cpp:1795
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "This mail will be marked as a response<hr/>%1"
@@ -1351,7 +1351,7 @@ msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Denne mail vil blive markeret som et svar<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1097
+#: src/Gui/ComposeWidget.cpp:1098
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -1359,7 +1359,7 @@ msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Til"
 
-#: src/Gui/ComposeWidget.cpp:1098
+#: src/Gui/ComposeWidget.cpp:1099
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -1367,7 +1367,7 @@ msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Cc"
 
-#: src/Gui/ComposeWidget.cpp:1099
+#: src/Gui/ComposeWidget.cpp:1100
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -1375,7 +1375,7 @@ msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Bcc"
 
-#: src/Gui/ComposeWidget.cpp:1101
+#: src/Gui/ComposeWidget.cpp:1102
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-To"
@@ -1383,7 +1383,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Gensendt-til"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1103
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Cc"
@@ -1391,7 +1391,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Gensendt-Cc"
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1104
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Bcc"
@@ -1399,7 +1399,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Gensendt-Bcc"
 
-#: src/Gui/ComposeWidget.cpp:1387
+#: src/Gui/ComposeWidget.cpp:1388
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -1407,7 +1407,7 @@ msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Kunne ikke sende e-mail"
 
-#: src/Gui/ComposeWidget.cpp:1414
+#: src/Gui/ComposeWidget.cpp:1415
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Can't parse \"%1\" as an e-mail address."
@@ -1415,7 +1415,7 @@ msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "Kan ikke fortolke \"%1\" som en e-mailadresse."
 
-#: src/Gui/ComposeWidget.cpp:1613
+#: src/Gui/ComposeWidget.cpp:1614
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Attach File..."
@@ -1423,7 +1423,7 @@ msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Vedlæg fil..."
 
-#: src/Gui/ComposeWidget.cpp:1795
+#: src/Gui/ComposeWidget.cpp:1796
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<br/>"
@@ -1431,7 +1431,7 @@ msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
-#: src/Gui/ComposeWidget.cpp:1838
+#: src/Gui/ComposeWidget.cpp:1839
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1439,7 +1439,7 @@ msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Skriv e-mail"
 
-#: src/Gui/ComposeWidget.cpp:1840
+#: src/Gui/ComposeWidget.cpp:1841
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "%1 - Compose Mail"
@@ -1535,22 +1535,22 @@ msgctxt "EditIdentity|"
 msgid "Signature"
 msgstr "Signatur"
 
-#: src/Gui/EmbeddedWebView.cpp:101
+#: src/Gui/EmbeddedWebView.cpp:100
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Ctrl+C"
 msgstr "Ctrl+C"
 
-#: src/Gui/EmbeddedWebView.cpp:362
+#: src/Gui/EmbeddedWebView.cpp:361
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System colors"
 msgstr "Systemets farver"
 
-#: src/Gui/EmbeddedWebView.cpp:363
+#: src/Gui/EmbeddedWebView.cpp:362
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System theme adjusted for better contrast"
 msgstr "Systemets tema justeret for at opnå bedre kontrast"
 
-#: src/Gui/EmbeddedWebView.cpp:364
+#: src/Gui/EmbeddedWebView.cpp:363
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Black on white, forced"
 msgstr "Sort på hvidt, tvunget"
@@ -3216,52 +3216,52 @@ msgctxt "QObject|"
 msgid "Main Window"
 msgstr "Hovedvindue"
 
-#: src/Gui/SimplePartWidget.cpp:77
+#: src/Gui/SimplePartWidget.cpp:78
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save this message part..."
 msgstr "Gem denne del af brevet..."
 
-#: src/Gui/SimplePartWidget.cpp:81
+#: src/Gui/SimplePartWidget.cpp:82
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save whole message..."
 msgstr "Gem hele brevet..."
 
-#: src/Gui/SimplePartWidget.cpp:85
+#: src/Gui/SimplePartWidget.cpp:86
 msgctxt "Gui::SimplePartWidget|"
 msgid "Search..."
 msgstr "Søg..."
 
-#: src/Gui/SimplePartWidget.cpp:88
+#: src/Gui/SimplePartWidget.cpp:89
 msgctxt "Gui::SimplePartWidget|"
 msgid "Copy e-mail address"
 msgstr "Kopiér e-mailadresse"
 
-#: src/Gui/SimplePartWidget.cpp:129
+#: src/Gui/SimplePartWidget.cpp:130
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save Attachment"
 msgstr "Gem bilag"
 
-#: src/Gui/SimplePartWidget.cpp:206
+#: src/Gui/SimplePartWidget.cpp:207
 msgctxt "Gui::SimplePartWidget|"
 msgid "Color scheme"
 msgstr "Farveskema"
 
-#: src/Gui/SimplePartWidget.cpp:220
+#: src/Gui/SimplePartWidget.cpp:221
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom"
 msgstr "Zoom"
 
-#: src/Gui/SimplePartWidget.cpp:226
+#: src/Gui/SimplePartWidget.cpp:227
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom In"
 msgstr "Zoom ind"
 
-#: src/Gui/SimplePartWidget.cpp:230
+#: src/Gui/SimplePartWidget.cpp:231
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom Out"
 msgstr "Zoom ud"
 
-#: src/Gui/SimplePartWidget.cpp:234
+#: src/Gui/SimplePartWidget.cpp:235
 msgctxt "Gui::SimplePartWidget|"
 msgid "Original Size"
 msgstr "Original størrelse"
@@ -4546,7 +4546,7 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "Forbindelsen afbrydes af ikke angivne årsager"
 
-#: src/Imap/Model/MsgListModel.cpp:283
+#: src/Imap/Model/MsgListModel.cpp:284
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "Subject"
@@ -4554,7 +4554,7 @@ msgctxt "MsgListModel|"
 msgid "Subject"
 msgstr "Emne"
 
-#: src/Imap/Model/MsgListModel.cpp:285
+#: src/Imap/Model/MsgListModel.cpp:286
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "From"
@@ -4562,7 +4562,7 @@ msgctxt "MsgListModel|"
 msgid "From"
 msgstr "Fra"
 
-#: src/Imap/Model/MsgListModel.cpp:287
+#: src/Imap/Model/MsgListModel.cpp:288
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -4570,7 +4570,7 @@ msgctxt "MsgListModel|"
 msgid "To"
 msgstr "Til"
 
-#: src/Imap/Model/MsgListModel.cpp:289
+#: src/Imap/Model/MsgListModel.cpp:290
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -4578,7 +4578,7 @@ msgctxt "MsgListModel|"
 msgid "Cc"
 msgstr "Cc"
 
-#: src/Imap/Model/MsgListModel.cpp:291
+#: src/Imap/Model/MsgListModel.cpp:292
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -4586,7 +4586,7 @@ msgctxt "MsgListModel|"
 msgid "Bcc"
 msgstr "Bcc"
 
-#: src/Imap/Model/MsgListModel.cpp:293
+#: src/Imap/Model/MsgListModel.cpp:294
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MsgListModel|"
 #| msgid "Date"
@@ -4594,7 +4594,7 @@ msgctxt "MsgListModel|"
 msgid "Date"
 msgstr "Dato"
 
-#: src/Imap/Model/MsgListModel.cpp:295
+#: src/Imap/Model/MsgListModel.cpp:296
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MsgListModel|"
 #| msgid "Received"
@@ -4602,7 +4602,7 @@ msgctxt "MsgListModel|"
 msgid "Received"
 msgstr "Modtaget"
 
-#: src/Imap/Model/MsgListModel.cpp:297
+#: src/Imap/Model/MsgListModel.cpp:298
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MsgListModel|"
 #| msgid "Size"
@@ -5737,7 +5737,7 @@ msgctxt "BE::Contacts|"
 msgid "BE::Contacts"
 msgstr "BE::Kontakter"
 
-#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:400
+#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:404
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
 msgid "Addressbook in ~/.abook/"
 msgstr "Adressebog i ~/.abook/"

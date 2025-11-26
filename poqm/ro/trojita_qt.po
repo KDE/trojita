@@ -888,7 +888,7 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:126
+#: src/Gui/ComposeWidget.cpp:127
 #, fuzzy
 #| msgctxt "Gui::MailBoxTreeView|"
 #| msgid "Cancel"
@@ -896,7 +896,7 @@ msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Renunță"
 
-#: src/Gui/ComposeWidget.cpp:126
+#: src/Gui/ComposeWidget.cpp:127
 #, fuzzy
 #| msgctxt "Gui::MailBoxTreeView|"
 #| msgid "Cancel"
@@ -904,7 +904,7 @@ msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "Renunță"
 
-#: src/Gui/ComposeWidget.cpp:195
+#: src/Gui/ComposeWidget.cpp:196
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Send"
@@ -912,24 +912,24 @@ msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Trimite"
 
-#: src/Gui/ComposeWidget.cpp:234
+#: src/Gui/ComposeWidget.cpp:235
 msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:237
+#: src/Gui/ComposeWidget.cpp:238
 msgctxt "ComposeWidget|"
 msgid ""
 "This mail will be sent as a standalone message.<hr/>Change to preserve the "
 "reply hierarchy."
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:238
+#: src/Gui/ComposeWidget.cpp:239
 msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:358
+#: src/Gui/ComposeWidget.cpp:359
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Error"
@@ -937,19 +937,19 @@ msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Eroare"
 
-#: src/Gui/ComposeWidget.cpp:358
+#: src/Gui/ComposeWidget.cpp:359
 msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:511
+#: src/Gui/ComposeWidget.cpp:512
 msgctxt "ComposeWidget|"
 msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
 "the recipients manually."
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:514
+#: src/Gui/ComposeWidget.cpp:515
 msgctxt "ComposeWidget|"
 msgid ""
 "Trojitá was unable to safely determine the real e-mail address of the author "
@@ -957,7 +957,7 @@ msgid ""
 "the list of addresses manually."
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:519
+#: src/Gui/ComposeWidget.cpp:520
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot parse recipients"
@@ -965,7 +965,7 @@ msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Nu se pot parcurge destinatarii"
 
-#: src/Gui/ComposeWidget.cpp:566
+#: src/Gui/ComposeWidget.cpp:567
 #, fuzzy
 #| msgctxt "Gui::MessageListWidget|"
 #| msgid "Senders"
@@ -973,13 +973,13 @@ msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Expeditori"
 
-#: src/Gui/ComposeWidget.cpp:572
+#: src/Gui/ComposeWidget.cpp:573
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:572
+#: src/Gui/ComposeWidget.cpp:573
 #, fuzzy
 #| msgctxt "Gui::MessageListWidget|"
 #| msgid "About subject"
@@ -987,7 +987,7 @@ msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "Despre subiect"
 
-#: src/Gui/ComposeWidget.cpp:584
+#: src/Gui/ComposeWidget.cpp:585
 #, fuzzy
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -995,12 +995,12 @@ msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "Mesaj"
 
-#: src/Gui/ComposeWidget.cpp:587
+#: src/Gui/ComposeWidget.cpp:588
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:590
+#: src/Gui/ComposeWidget.cpp:591
 #, fuzzy
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -1008,35 +1008,35 @@ msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "Mesaj"
 
-#: src/Gui/ComposeWidget.cpp:593
+#: src/Gui/ComposeWidget.cpp:594
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:596
+#: src/Gui/ComposeWidget.cpp:597
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:599
+#: src/Gui/ComposeWidget.cpp:600
 msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
 "</b>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:688
+#: src/Gui/ComposeWidget.cpp:689
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:689
+#: src/Gui/ComposeWidget.cpp:690
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:723
+#: src/Gui/ComposeWidget.cpp:724
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Save Message"
@@ -1044,25 +1044,25 @@ msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Salvează mesajul"
 
-#: src/Gui/ComposeWidget.cpp:724
+#: src/Gui/ComposeWidget.cpp:725
 msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:726
+#: src/Gui/ComposeWidget.cpp:727
 msgctxt "ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
 "the draft!</span>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:737 src/Gui/Window.cpp:1514
+#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1514
 #: src/Gui/Window.cpp:1516
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:747
+#: src/Gui/ComposeWidget.cpp:748
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Save Message"
@@ -1070,12 +1070,12 @@ msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Salvează mesajul"
 
-#: src/Gui/ComposeWidget.cpp:748
+#: src/Gui/ComposeWidget.cpp:749
 msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:777
+#: src/Gui/ComposeWidget.cpp:778
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot parse recipients"
@@ -1085,7 +1085,7 @@ msgid ""
 "%1"
 msgstr "Nu se pot parcurge destinatarii"
 
-#: src/Gui/ComposeWidget.cpp:781
+#: src/Gui/ComposeWidget.cpp:782
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any recipients"
@@ -1093,7 +1093,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Nu ați introdus niciun destinatar"
 
-#: src/Gui/ComposeWidget.cpp:789
+#: src/Gui/ComposeWidget.cpp:790
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The From: address does not look like a valid one"
@@ -1101,23 +1101,23 @@ msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "Adresa „De la:” nu pare să fie validă"
 
-#: src/Gui/ComposeWidget.cpp:796
+#: src/Gui/ComposeWidget.cpp:797
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:828
+#: src/Gui/ComposeWidget.cpp:829
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:919 src/Gui/ComposeWidget.cpp:1794
+#: src/Gui/ComposeWidget.cpp:920 src/Gui/ComposeWidget.cpp:1795
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1097
+#: src/Gui/ComposeWidget.cpp:1098
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -1125,7 +1125,7 @@ msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Către"
 
-#: src/Gui/ComposeWidget.cpp:1098
+#: src/Gui/ComposeWidget.cpp:1099
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -1133,7 +1133,7 @@ msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Copie"
 
-#: src/Gui/ComposeWidget.cpp:1099
+#: src/Gui/ComposeWidget.cpp:1100
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -1141,22 +1141,22 @@ msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Copie oarbă"
 
-#: src/Gui/ComposeWidget.cpp:1101
+#: src/Gui/ComposeWidget.cpp:1102
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1103
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1104
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1387
+#: src/Gui/ComposeWidget.cpp:1388
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -1164,13 +1164,13 @@ msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Expedierea poștei a eșuat"
 
-#: src/Gui/ComposeWidget.cpp:1414
+#: src/Gui/ComposeWidget.cpp:1415
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1613
+#: src/Gui/ComposeWidget.cpp:1614
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Attach File..."
@@ -1178,12 +1178,12 @@ msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Atașează fișier..."
 
-#: src/Gui/ComposeWidget.cpp:1795
+#: src/Gui/ComposeWidget.cpp:1796
 msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1838
+#: src/Gui/ComposeWidget.cpp:1839
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1191,7 +1191,7 @@ msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Compune o scrisoare"
 
-#: src/Gui/ComposeWidget.cpp:1840
+#: src/Gui/ComposeWidget.cpp:1841
 #, fuzzy, qt-format
 #| msgctxt "ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1294,22 +1294,22 @@ msgctxt "EditIdentity|"
 msgid "Signature"
 msgstr "Semnătură"
 
-#: src/Gui/EmbeddedWebView.cpp:101
+#: src/Gui/EmbeddedWebView.cpp:100
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Ctrl+C"
 msgstr "Ctrl+C"
 
-#: src/Gui/EmbeddedWebView.cpp:362
+#: src/Gui/EmbeddedWebView.cpp:361
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System colors"
 msgstr ""
 
-#: src/Gui/EmbeddedWebView.cpp:363
+#: src/Gui/EmbeddedWebView.cpp:362
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System theme adjusted for better contrast"
 msgstr ""
 
-#: src/Gui/EmbeddedWebView.cpp:364
+#: src/Gui/EmbeddedWebView.cpp:363
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Black on white, forced"
 msgstr ""
@@ -2922,7 +2922,7 @@ msgctxt "QObject|"
 msgid "Main Window"
 msgstr ""
 
-#: src/Gui/SimplePartWidget.cpp:77
+#: src/Gui/SimplePartWidget.cpp:78
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Saving message..."
@@ -2930,7 +2930,7 @@ msgctxt "Gui::SimplePartWidget|"
 msgid "Save this message part..."
 msgstr "Se salvează mesajul..."
 
-#: src/Gui/SimplePartWidget.cpp:81
+#: src/Gui/SimplePartWidget.cpp:82
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Save Message..."
@@ -2938,7 +2938,7 @@ msgctxt "Gui::SimplePartWidget|"
 msgid "Save whole message..."
 msgstr "Salvează mesajul..."
 
-#: src/Gui/SimplePartWidget.cpp:85
+#: src/Gui/SimplePartWidget.cpp:86
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "Attach..."
@@ -2946,37 +2946,37 @@ msgctxt "Gui::SimplePartWidget|"
 msgid "Search..."
 msgstr "Atașează..."
 
-#: src/Gui/SimplePartWidget.cpp:88
+#: src/Gui/SimplePartWidget.cpp:89
 msgctxt "Gui::SimplePartWidget|"
 msgid "Copy e-mail address"
 msgstr ""
 
-#: src/Gui/SimplePartWidget.cpp:129
+#: src/Gui/SimplePartWidget.cpp:130
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save Attachment"
 msgstr ""
 
-#: src/Gui/SimplePartWidget.cpp:206
+#: src/Gui/SimplePartWidget.cpp:207
 msgctxt "Gui::SimplePartWidget|"
 msgid "Color scheme"
 msgstr ""
 
-#: src/Gui/SimplePartWidget.cpp:220
+#: src/Gui/SimplePartWidget.cpp:221
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom"
 msgstr ""
 
-#: src/Gui/SimplePartWidget.cpp:226
+#: src/Gui/SimplePartWidget.cpp:227
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom In"
 msgstr ""
 
-#: src/Gui/SimplePartWidget.cpp:230
+#: src/Gui/SimplePartWidget.cpp:231
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom Out"
 msgstr ""
 
-#: src/Gui/SimplePartWidget.cpp:234
+#: src/Gui/SimplePartWidget.cpp:235
 msgctxt "Gui::SimplePartWidget|"
 msgid "Original Size"
 msgstr ""
@@ -4401,7 +4401,7 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr ""
 
-#: src/Imap/Model/MsgListModel.cpp:283
+#: src/Imap/Model/MsgListModel.cpp:284
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "Subject"
@@ -4409,7 +4409,7 @@ msgctxt "MsgListModel|"
 msgid "Subject"
 msgstr "Subiect"
 
-#: src/Imap/Model/MsgListModel.cpp:285
+#: src/Imap/Model/MsgListModel.cpp:286
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "From"
@@ -4417,7 +4417,7 @@ msgctxt "MsgListModel|"
 msgid "From"
 msgstr "De la"
 
-#: src/Imap/Model/MsgListModel.cpp:287
+#: src/Imap/Model/MsgListModel.cpp:288
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -4425,7 +4425,7 @@ msgctxt "MsgListModel|"
 msgid "To"
 msgstr "Către"
 
-#: src/Imap/Model/MsgListModel.cpp:289
+#: src/Imap/Model/MsgListModel.cpp:290
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -4433,7 +4433,7 @@ msgctxt "MsgListModel|"
 msgid "Cc"
 msgstr "Copie"
 
-#: src/Imap/Model/MsgListModel.cpp:291
+#: src/Imap/Model/MsgListModel.cpp:292
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -4441,7 +4441,7 @@ msgctxt "MsgListModel|"
 msgid "Bcc"
 msgstr "Copie oarbă"
 
-#: src/Imap/Model/MsgListModel.cpp:293
+#: src/Imap/Model/MsgListModel.cpp:294
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MsgListModel|"
 #| msgid "Date"
@@ -4449,7 +4449,7 @@ msgctxt "MsgListModel|"
 msgid "Date"
 msgstr "Dată"
 
-#: src/Imap/Model/MsgListModel.cpp:295
+#: src/Imap/Model/MsgListModel.cpp:296
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MsgListModel|"
 #| msgid "Received"
@@ -4457,7 +4457,7 @@ msgctxt "MsgListModel|"
 msgid "Received"
 msgstr "Primit"
 
-#: src/Imap/Model/MsgListModel.cpp:297
+#: src/Imap/Model/MsgListModel.cpp:298
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MsgListModel|"
 #| msgid "Size"
@@ -5629,7 +5629,7 @@ msgctxt "BE::Contacts|"
 msgid "BE::Contacts"
 msgstr ""
 
-#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:400
+#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:404
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
 msgid "Addressbook in ~/.abook/"
 msgstr ""

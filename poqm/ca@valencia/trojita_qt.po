@@ -1,4 +1,4 @@
-# Translation of trojita_common.po to Catalan (Valencian)
+# Translation of trojita_qt.po to Catalan (Valencian)
 # Copyright (C) 2014-2025 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2025-09-16 12:21+0200\n"
+"PO-Revision-Date: 2025-11-25 10:12+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -533,7 +533,7 @@ msgstr "No es pot verificar la signatura"
 #, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Failed to initialize GpgME (%1)"
-msgstr "No s'ha pogut restablir el GpgME (%1)"
+msgstr "Ha fallat mentre es restablix GpgME (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:642
 msgctxt "GpgMeSigned|"
@@ -584,7 +584,7 @@ msgstr "No s'ha pogut desencriptar"
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Failed to initialize GpgME (%1)"
-msgstr "No s'ha pogut restablir el GpgME (%1)"
+msgstr "Ha fallat mentre es restablix GpgME (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:787 src/Cryptography/GpgMe++.cpp:923
 msgctxt "GpgMeEncrypted|"
@@ -762,27 +762,27 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr "Apega com a text citat"
 
-#: src/Gui/ComposeWidget.cpp:126
+#: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Cancel·la…"
 
-#: src/Gui/ComposeWidget.cpp:126
+#: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: src/Gui/ComposeWidget.cpp:195
+#: src/Gui/ComposeWidget.cpp:196
 msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Envia"
 
-#: src/Gui/ComposeWidget.cpp:234
+#: src/Gui/ComposeWidget.cpp:235
 msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr "Conversa nova"
 
-#: src/Gui/ComposeWidget.cpp:237
+#: src/Gui/ComposeWidget.cpp:238
 msgctxt "ComposeWidget|"
 msgid ""
 "This mail will be sent as a standalone message.<hr/>Change to preserve the "
@@ -791,22 +791,22 @@ msgstr ""
 "Este correu s'enviarà com un missatge independent.<hr/>Canvia per a "
 "mantindre la jerarquia de les respostes."
 
-#: src/Gui/ComposeWidget.cpp:238
+#: src/Gui/ComposeWidget.cpp:239
 msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Amb conversa"
 
-#: src/Gui/ComposeWidget.cpp:358
+#: src/Gui/ComposeWidget.cpp:359
 msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "S'ha produït un error"
 
-#: src/Gui/ComposeWidget.cpp:358
+#: src/Gui/ComposeWidget.cpp:359
 msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr "Establiu la configuració apropiada per als missatges ixents."
 
-#: src/Gui/ComposeWidget.cpp:511
+#: src/Gui/ComposeWidget.cpp:512
 msgctxt "ComposeWidget|"
 msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
@@ -815,7 +815,7 @@ msgstr ""
 "No pareix un missatge per a la llista de correu. Empleneu els destinataris "
 "manualment."
 
-#: src/Gui/ComposeWidget.cpp:514
+#: src/Gui/ComposeWidget.cpp:515
 msgctxt "ComposeWidget|"
 msgid ""
 "Trojitá was unable to safely determine the real e-mail address of the author "
@@ -826,53 +826,53 @@ msgstr ""
 "real de l'autor del missatge. Possiblement voldreu utilitzar l'opció «Respon "
 "a tots», i retallar la llista d'adreces manualment."
 
-#: src/Gui/ComposeWidget.cpp:519
+#: src/Gui/ComposeWidget.cpp:520
 msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "No s'han pogut determinar els destinataris"
 
-#: src/Gui/ComposeWidget.cpp:566
+#: src/Gui/ComposeWidget.cpp:567
 msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Remitent"
 
-#: src/Gui/ComposeWidget.cpp:572
+#: src/Gui/ComposeWidget.cpp:573
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "Correu reenviat: %1"
 
-#: src/Gui/ComposeWidget.cpp:572
+#: src/Gui/ComposeWidget.cpp:573
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(sense assumpte)"
 
-#: src/Gui/ComposeWidget.cpp:584
+#: src/Gui/ComposeWidget.cpp:585
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "El missatge no té cap assumpte"
 
-#: src/Gui/ComposeWidget.cpp:587
+#: src/Gui/ComposeWidget.cpp:588
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "Falta la capçalera Message-ID"
 
-#: src/Gui/ComposeWidget.cpp:590
+#: src/Gui/ComposeWidget.cpp:591
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "El missatge no té cap data"
 
-#: src/Gui/ComposeWidget.cpp:593
+#: src/Gui/ComposeWidget.cpp:594
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr "No hi ha res en el camp De"
 
-#: src/Gui/ComposeWidget.cpp:596
+#: src/Gui/ComposeWidget.cpp:597
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr "No hi ha destinataris en el camp A"
 
-#: src/Gui/ComposeWidget.cpp:599
+#: src/Gui/ComposeWidget.cpp:600
 msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
@@ -881,29 +881,29 @@ msgstr ""
 "<b>Este missatge pareix que té un format incorrecte, aneu amb compte abans "
 "d'enviar-lo.</b>"
 
-#: src/Gui/ComposeWidget.cpp:688
+#: src/Gui/ComposeWidget.cpp:689
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Es requerix autenticació"
 
-#: src/Gui/ComposeWidget.cpp:689
+#: src/Gui/ComposeWidget.cpp:690
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 "<p>Proporcioneu la contrasenya SMTP per a l'usuari <b>%1</b> a <b>%2</b>:</p>"
 
-#: src/Gui/ComposeWidget.cpp:723
+#: src/Gui/ComposeWidget.cpp:724
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Voleu guardar com a esborrany?"
 
-#: src/Gui/ComposeWidget.cpp:724
+#: src/Gui/ComposeWidget.cpp:725
 msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "El correu no s'ha enviat.<br>Voleu guardar l'esborrany?"
 
-#: src/Gui/ComposeWidget.cpp:726
+#: src/Gui/ComposeWidget.cpp:727
 msgctxt "ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
@@ -912,23 +912,23 @@ msgstr ""
 "<br><span style=\"color:red\">Avís: Els adjunts <b>no</b> es guardaran amb "
 "l'esborrany!</span>"
 
-#: src/Gui/ComposeWidget.cpp:737 src/Gui/Window.cpp:1514
+#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1514
 #: src/Gui/Window.cpp:1516
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Esborranys"
 
-#: src/Gui/ComposeWidget.cpp:747
+#: src/Gui/ComposeWidget.cpp:748
 msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Anomena i guarda"
 
-#: src/Gui/ComposeWidget.cpp:748
+#: src/Gui/ComposeWidget.cpp:749
 msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Esborranys"
 
-#: src/Gui/ComposeWidget.cpp:777
+#: src/Gui/ComposeWidget.cpp:778
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid ""
@@ -938,93 +938,93 @@ msgstr ""
 "No s'han pogut processar els destinataris:\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:781
+#: src/Gui/ComposeWidget.cpp:782
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "No heu introduït cap destinatari"
 
-#: src/Gui/ComposeWidget.cpp:789
+#: src/Gui/ComposeWidget.cpp:790
 msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "L'adreça De: no es veu com a vàlida"
 
-#: src/Gui/ComposeWidget.cpp:796
+#: src/Gui/ComposeWidget.cpp:797
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
 "No heu introduït cap assumpte. No es pot enviar un correu d'este tipus, em "
 "sap greu."
 
-#: src/Gui/ComposeWidget.cpp:828
+#: src/Gui/ComposeWidget.cpp:829
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
 "No s'ha pogut preparar este correu electrònic per a l'enviament: algunes "
 "parts encara no estan disponibles"
 
-#: src/Gui/ComposeWidget.cpp:919 src/Gui/ComposeWidget.cpp:1794
+#: src/Gui/ComposeWidget.cpp:920 src/Gui/ComposeWidget.cpp:1795
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Este correu es marcarà com una resposta<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1097
+#: src/Gui/ComposeWidget.cpp:1098
 msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "A"
 
-#: src/Gui/ComposeWidget.cpp:1098
+#: src/Gui/ComposeWidget.cpp:1099
 msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "CC"
 
-#: src/Gui/ComposeWidget.cpp:1099
+#: src/Gui/ComposeWidget.cpp:1100
 msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "BCC"
 
-#: src/Gui/ComposeWidget.cpp:1101
+#: src/Gui/ComposeWidget.cpp:1102
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Reenviat a"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1103
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Reenviat CC"
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1104
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Reenviat BCC"
 
-#: src/Gui/ComposeWidget.cpp:1387
+#: src/Gui/ComposeWidget.cpp:1388
 msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "No s'ha pogut enviar el correu"
 
-#: src/Gui/ComposeWidget.cpp:1414
+#: src/Gui/ComposeWidget.cpp:1415
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "No s'ha pogut analitzar «%1» com una adreça de correu electrònic."
 
-#: src/Gui/ComposeWidget.cpp:1613
+#: src/Gui/ComposeWidget.cpp:1614
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Adjunta un fitxer…"
 
-#: src/Gui/ComposeWidget.cpp:1795
+#: src/Gui/ComposeWidget.cpp:1796
 msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
-#: src/Gui/ComposeWidget.cpp:1838
+#: src/Gui/ComposeWidget.cpp:1839
 msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Editor de correu"
 
-#: src/Gui/ComposeWidget.cpp:1840
+#: src/Gui/ComposeWidget.cpp:1841
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
@@ -1118,22 +1118,22 @@ msgctxt "EditIdentity|"
 msgid "Signature"
 msgstr "Signatura"
 
-#: src/Gui/EmbeddedWebView.cpp:101
+#: src/Gui/EmbeddedWebView.cpp:100
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Ctrl+C"
 msgstr "Ctrl+C"
 
-#: src/Gui/EmbeddedWebView.cpp:362
+#: src/Gui/EmbeddedWebView.cpp:361
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System colors"
 msgstr "Colors del sistema"
 
-#: src/Gui/EmbeddedWebView.cpp:363
+#: src/Gui/EmbeddedWebView.cpp:362
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System theme adjusted for better contrast"
 msgstr "El tema del sistema ajustat per a un millor contrast"
 
-#: src/Gui/EmbeddedWebView.cpp:364
+#: src/Gui/EmbeddedWebView.cpp:363
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Black on white, forced"
 msgstr "Negre sobre blanc, forçat"
@@ -1279,7 +1279,7 @@ msgstr "Mou ací\t«Majús»"
 #: src/Gui/MailBoxTreeView.cpp:144
 msgctxt "MailBoxTreeView|"
 msgid "Copy here\tCtrl"
-msgstr "Copia ací\tCtrl"
+msgstr "Copia ací\t«Ctrl»"
 
 #: src/Gui/MailBoxTreeView.cpp:145
 msgctxt "MailBoxTreeView|"
@@ -2670,6 +2670,7 @@ msgstr ""
 "Trieu una acció i premeu una combinació de tecles per a canviar la seua "
 "drecera:"
 
+# skip-rule: kct-tab
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:27
 msgctxt "ShortcutConfigWidget|"
 msgid ""
@@ -2748,52 +2749,52 @@ msgctxt "QObject|"
 msgid "Main Window"
 msgstr "Finestra principal"
 
-#: src/Gui/SimplePartWidget.cpp:77
+#: src/Gui/SimplePartWidget.cpp:78
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save this message part..."
 msgstr "Guarda esta part del missatge…"
 
-#: src/Gui/SimplePartWidget.cpp:81
+#: src/Gui/SimplePartWidget.cpp:82
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save whole message..."
 msgstr "Guarda tot el missatge…"
 
-#: src/Gui/SimplePartWidget.cpp:85
+#: src/Gui/SimplePartWidget.cpp:86
 msgctxt "Gui::SimplePartWidget|"
 msgid "Search..."
 msgstr "Busca…"
 
-#: src/Gui/SimplePartWidget.cpp:88
+#: src/Gui/SimplePartWidget.cpp:89
 msgctxt "Gui::SimplePartWidget|"
 msgid "Copy e-mail address"
 msgstr "Copia l'adreça de correu"
 
-#: src/Gui/SimplePartWidget.cpp:129
+#: src/Gui/SimplePartWidget.cpp:130
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save Attachment"
 msgstr "Guarda l'adjunt"
 
-#: src/Gui/SimplePartWidget.cpp:206
+#: src/Gui/SimplePartWidget.cpp:207
 msgctxt "Gui::SimplePartWidget|"
 msgid "Color scheme"
 msgstr "Esquema de color"
 
-#: src/Gui/SimplePartWidget.cpp:220
+#: src/Gui/SimplePartWidget.cpp:221
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom"
 msgstr "Zoom"
 
-#: src/Gui/SimplePartWidget.cpp:226
+#: src/Gui/SimplePartWidget.cpp:227
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom In"
 msgstr "Amplia"
 
-#: src/Gui/SimplePartWidget.cpp:230
+#: src/Gui/SimplePartWidget.cpp:231
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom Out"
 msgstr "Reduïx"
 
-#: src/Gui/SimplePartWidget.cpp:234
+#: src/Gui/SimplePartWidget.cpp:235
 msgctxt "Gui::SimplePartWidget|"
 msgid "Original Size"
 msgstr "Mida original"
@@ -2861,9 +2862,9 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
-"Un connector ha fallat en carregar-se, per tant, podrien faltar diverses "
-"funcionalitats. Potser voldreu actualitzar el sistema o informar de l'error "
-"al distribuïdor.\n"
+"Un connector ha fallat mentre es carregava, per tant, podrien faltar "
+"diverses funcionalitats. Potser voldreu actualitzar el sistema o informar de "
+"l'error al distribuïdor.\n"
 "\n"
 "%1"
 
@@ -3955,14 +3956,15 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to create directory %1"
-msgstr "No s'ha pogut crear el directori %1"
+msgstr "Ha fallat mentre es creava el directori %1"
 
 #: src/Imap/Model/ImapAccess.cpp:326
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to set safe permissions on cache directory %1"
 msgstr ""
-"No s'han pogut establir els permisos de seguretat sobre el directori cau %1"
+"Ha fallat mentre s'establien els permisos de seguretat sobre el directori "
+"cau %1"
 
 #: src/Imap/Model/MailboxTree.cpp:1244
 msgctxt "Imap::Mailbox::Model|"
@@ -4054,42 +4056,42 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "La connexió s'està matant per un motiu no especificat"
 
-#: src/Imap/Model/MsgListModel.cpp:283
+#: src/Imap/Model/MsgListModel.cpp:284
 msgctxt "MsgListModel|"
 msgid "Subject"
 msgstr "Assumpte"
 
-#: src/Imap/Model/MsgListModel.cpp:285
+#: src/Imap/Model/MsgListModel.cpp:286
 msgctxt "MsgListModel|"
 msgid "From"
 msgstr "De"
 
-#: src/Imap/Model/MsgListModel.cpp:287
+#: src/Imap/Model/MsgListModel.cpp:288
 msgctxt "MsgListModel|"
 msgid "To"
 msgstr "A"
 
-#: src/Imap/Model/MsgListModel.cpp:289
+#: src/Imap/Model/MsgListModel.cpp:290
 msgctxt "MsgListModel|"
 msgid "Cc"
 msgstr "CC"
 
-#: src/Imap/Model/MsgListModel.cpp:291
+#: src/Imap/Model/MsgListModel.cpp:292
 msgctxt "MsgListModel|"
 msgid "Bcc"
 msgstr "BCC"
 
-#: src/Imap/Model/MsgListModel.cpp:293
+#: src/Imap/Model/MsgListModel.cpp:294
 msgctxt "MsgListModel|"
 msgid "Date"
 msgstr "Data"
 
-#: src/Imap/Model/MsgListModel.cpp:295
+#: src/Imap/Model/MsgListModel.cpp:296
 msgctxt "MsgListModel|"
 msgid "Received"
 msgstr "Rebut"
 
-#: src/Imap/Model/MsgListModel.cpp:297
+#: src/Imap/Model/MsgListModel.cpp:298
 msgctxt "MsgListModel|"
 msgid "Size"
 msgstr "Mida"
@@ -4603,7 +4605,7 @@ msgstr ""
 #: src/Imap/Network/MsgPartNetworkReply.cpp:87
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Error downloading data"
-msgstr "S'ha produït un error en baixar dades"
+msgstr "S'ha produït un error mentre es baixaven les dades"
 
 #: src/Imap/Tasks/AppendTask.cpp:97
 msgctxt "Imap::Mailbox::AppendTask|"
@@ -5243,7 +5245,7 @@ msgctxt "BE::Contacts|"
 msgid "BE::Contacts"
 msgstr "BE::Contactes"
 
-#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:400
+#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:404
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
 msgid "Addressbook in ~/.abook/"
 msgstr "Llibreta d'adreces a ~/.abook/"
@@ -5791,7 +5793,7 @@ msgstr "El connector de contrasenya no està disponible."
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password reading failed: %1"
-msgstr "No s'ha pogut llegir la contrasenya: %1"
+msgstr "Ha fallat mentre es llegia la contrasenya: %1"
 
 #: src/UiUtils/PasswordWatcher.cpp:149
 #, qt-format

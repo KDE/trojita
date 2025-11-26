@@ -1054,17 +1054,17 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr "Επικόλληση ως κείμενο σε παράθεση"
 
-#: src/Gui/ComposeWidget.cpp:126
+#: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Ακύρωση..."
 
-#: src/Gui/ComposeWidget.cpp:126
+#: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "Ακύρωση"
 
-#: src/Gui/ComposeWidget.cpp:195
+#: src/Gui/ComposeWidget.cpp:196
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Send"
@@ -1072,7 +1072,7 @@ msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Αποστολή"
 
-#: src/Gui/ComposeWidget.cpp:234
+#: src/Gui/ComposeWidget.cpp:235
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "New Thread"
@@ -1080,7 +1080,7 @@ msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr "Νέο νήμα"
 
-#: src/Gui/ComposeWidget.cpp:237
+#: src/Gui/ComposeWidget.cpp:238
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1094,7 +1094,7 @@ msgstr ""
 "Η αλληλογραφία θα αποσταλεί ως αυτόνομο μήνυμα.<hr/>Θα πρέπει να το αλλάξετε "
 "για να διατηρηθεί η ιεραρχία απαντήσεων."
 
-#: src/Gui/ComposeWidget.cpp:238
+#: src/Gui/ComposeWidget.cpp:239
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Threaded"
@@ -1102,7 +1102,7 @@ msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Με νήματα"
 
-#: src/Gui/ComposeWidget.cpp:358
+#: src/Gui/ComposeWidget.cpp:359
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Error"
@@ -1110,7 +1110,7 @@ msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Σφάλμα"
 
-#: src/Gui/ComposeWidget.cpp:358
+#: src/Gui/ComposeWidget.cpp:359
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Please set appropriate settings for outgoing messages."
@@ -1119,7 +1119,7 @@ msgid "Please set appropriate settings for outgoing messages."
 msgstr ""
 "Παρακαλώ διαμορφώστε καταλλήλως τις ρυθμίσεις της εξερχόμενης αλληλογραφίας."
 
-#: src/Gui/ComposeWidget.cpp:511
+#: src/Gui/ComposeWidget.cpp:512
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1133,7 +1133,7 @@ msgstr ""
 "Το συγκεκριμένο δεν φαίνεται να αποτελεί μήνυμα προς τη λίστα ηλ. "
 "αλληλογραφίας. Παρακαλώ καταχωρήστε τους παραλήπτες χειροκίνητα."
 
-#: src/Gui/ComposeWidget.cpp:514
+#: src/Gui/ComposeWidget.cpp:515
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1151,7 +1151,7 @@ msgstr ""
 "χρησιμοποιήστε τη λειτουργία \"Απάντηση σε όλους\" και να περικόψετε τη "
 "λίστα των διευθύνσεων χειροκίνητα."
 
-#: src/Gui/ComposeWidget.cpp:519
+#: src/Gui/ComposeWidget.cpp:520
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot Determine Recipients"
@@ -1159,7 +1159,7 @@ msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Αδυναμία προσδιορισμού των παραληπτών"
 
-#: src/Gui/ComposeWidget.cpp:566
+#: src/Gui/ComposeWidget.cpp:567
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Sender"
@@ -1167,7 +1167,7 @@ msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Αποστολέας"
 
-#: src/Gui/ComposeWidget.cpp:572
+#: src/Gui/ComposeWidget.cpp:573
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resend Mail: %1"
@@ -1175,7 +1175,7 @@ msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "Επανάληψη αποστολής αλληλογραφίας: %1"
 
-#: src/Gui/ComposeWidget.cpp:572
+#: src/Gui/ComposeWidget.cpp:573
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "(no subject)"
@@ -1183,7 +1183,7 @@ msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(Κανένα θέμα)"
 
-#: src/Gui/ComposeWidget.cpp:584
+#: src/Gui/ComposeWidget.cpp:585
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no subject"
@@ -1191,7 +1191,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "To μήνυμα δεν έχει θέμα"
 
-#: src/Gui/ComposeWidget.cpp:587
+#: src/Gui/ComposeWidget.cpp:588
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The Message-ID header is missing"
@@ -1199,7 +1199,7 @@ msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "Το αναγνωριστικό μηνύματος λείπει"
 
-#: src/Gui/ComposeWidget.cpp:590
+#: src/Gui/ComposeWidget.cpp:591
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no date"
@@ -1207,7 +1207,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "To μήνυμα δεν έχει ημερομηνία"
 
-#: src/Gui/ComposeWidget.cpp:593
+#: src/Gui/ComposeWidget.cpp:594
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Nothing in the From field"
@@ -1215,7 +1215,7 @@ msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr "Τίποτα στο πεδίο Από (αποστολέα)"
 
-#: src/Gui/ComposeWidget.cpp:596
+#: src/Gui/ComposeWidget.cpp:597
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "No recipients in the To field"
@@ -1223,7 +1223,7 @@ msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr "ΔΕν υπάρχουν παραλήπτες στο πεδίο Προς"
 
-#: src/Gui/ComposeWidget.cpp:599
+#: src/Gui/ComposeWidget.cpp:600
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1236,7 +1236,7 @@ msgid ""
 msgstr ""
 "<b>Αυτό το μήνυμα φαίνεται κακοδιατυπωμένο, ελέγξτε το πριν το στείλετε.</b>"
 
-#: src/Gui/ComposeWidget.cpp:688
+#: src/Gui/ComposeWidget.cpp:689
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Authentication Required"
@@ -1244,7 +1244,7 @@ msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Απαιτείται ταυτοποίηση"
 
-#: src/Gui/ComposeWidget.cpp:689
+#: src/Gui/ComposeWidget.cpp:690
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -1254,7 +1254,7 @@ msgstr ""
 "<p>Καταχωρήστε παρακαλώ τον κωδικό πρόσβασης SMTP για τον χρήστη <b>%1</b> "
 "στο <b>%2</b>:</p>"
 
-#: src/Gui/ComposeWidget.cpp:723
+#: src/Gui/ComposeWidget.cpp:724
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save Draft?"
@@ -1262,7 +1262,7 @@ msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Αποθήκευση ως Προσχέδιο;"
 
-#: src/Gui/ComposeWidget.cpp:724
+#: src/Gui/ComposeWidget.cpp:725
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The mail has not been sent.<br>Do you want to save the draft?"
@@ -1272,7 +1272,7 @@ msgstr ""
 "Η αλληλογραφία δεν έχει αποσταλεί.<br>Επιθυμείτε την αποθήκευση του "
 "προσχεδίου;"
 
-#: src/Gui/ComposeWidget.cpp:726
+#: src/Gui/ComposeWidget.cpp:727
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1286,13 +1286,13 @@ msgstr ""
 "<br><span style=\"color:red\">Προειδοποίηση: Τα συνημμένα <b>δεν</b> "
 "αποθηκεύονται με το προσχέδιο!</span>"
 
-#: src/Gui/ComposeWidget.cpp:737 src/Gui/Window.cpp:1514
+#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1514
 #: src/Gui/Window.cpp:1516
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Προσχέδια"
 
-#: src/Gui/ComposeWidget.cpp:747
+#: src/Gui/ComposeWidget.cpp:748
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save as"
@@ -1300,7 +1300,7 @@ msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Αποθήκευση ως"
 
-#: src/Gui/ComposeWidget.cpp:748
+#: src/Gui/ComposeWidget.cpp:749
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Drafts"
@@ -1308,7 +1308,7 @@ msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Προσχέδια"
 
-#: src/Gui/ComposeWidget.cpp:777
+#: src/Gui/ComposeWidget.cpp:778
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1322,7 +1322,7 @@ msgstr ""
 "Αδυναμία συντακτικής ανάλυσης παραληπτών:\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:781
+#: src/Gui/ComposeWidget.cpp:782
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any recipients"
@@ -1330,7 +1330,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Δεν έχετε καταχωρήσει κανέναν παραλήπτη"
 
-#: src/Gui/ComposeWidget.cpp:789
+#: src/Gui/ComposeWidget.cpp:790
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The From: address does not look like a valid one"
@@ -1338,7 +1338,7 @@ msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "Η διεύθυνση Από: δε φαίνεται να είναι έγκυρη"
 
-#: src/Gui/ComposeWidget.cpp:796
+#: src/Gui/ComposeWidget.cpp:797
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any subject. Cannot send such a mail, sorry."
@@ -1348,7 +1348,7 @@ msgstr ""
 "Δεν έχετε καταχωρήσει κάποιο Θέμα. Λυπάμαι, η αποστολή ενός τέτοιου "
 "μηνύματος είναι αδύνατη."
 
-#: src/Gui/ComposeWidget.cpp:828
+#: src/Gui/ComposeWidget.cpp:829
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot prepare this e-mail for sending: some parts are not available"
@@ -1358,7 +1358,7 @@ msgstr ""
 "Αδυναμία προετοιμασίας αυτού του μηνύματος για αποστολή: ορισμένα τμήματα "
 "δεν είναι διαθέσιμα"
 
-#: src/Gui/ComposeWidget.cpp:919 src/Gui/ComposeWidget.cpp:1794
+#: src/Gui/ComposeWidget.cpp:920 src/Gui/ComposeWidget.cpp:1795
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "This mail will be marked as a response<hr/>%1"
@@ -1366,7 +1366,7 @@ msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Αυτό το μήνυμα θα σημειωθεί ως μια απάντηση<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1097
+#: src/Gui/ComposeWidget.cpp:1098
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -1374,7 +1374,7 @@ msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Προς"
 
-#: src/Gui/ComposeWidget.cpp:1098
+#: src/Gui/ComposeWidget.cpp:1099
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -1382,7 +1382,7 @@ msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Κοιν."
 
-#: src/Gui/ComposeWidget.cpp:1099
+#: src/Gui/ComposeWidget.cpp:1100
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -1390,7 +1390,7 @@ msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Κρυφ.Κοιν"
 
-#: src/Gui/ComposeWidget.cpp:1101
+#: src/Gui/ComposeWidget.cpp:1102
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-To"
@@ -1398,7 +1398,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Επανεστάλη-προς"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1103
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Cc"
@@ -1406,7 +1406,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Επανεστάλη-κοιν"
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1104
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Bcc"
@@ -1414,7 +1414,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Επανεστάλη-κρυφ.κοιν"
 
-#: src/Gui/ComposeWidget.cpp:1387
+#: src/Gui/ComposeWidget.cpp:1388
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -1422,7 +1422,7 @@ msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Αποτυχία αποστολής αλληλογραφίας"
 
-#: src/Gui/ComposeWidget.cpp:1414
+#: src/Gui/ComposeWidget.cpp:1415
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Can't parse \"%1\" as an e-mail address."
@@ -1432,7 +1432,7 @@ msgstr ""
 "Αδυναμία συντακτικής ανάλυσης του \"%1\" ως διεύθυνση ηλεκτρονικής "
 "αλληλογραφίας."
 
-#: src/Gui/ComposeWidget.cpp:1613
+#: src/Gui/ComposeWidget.cpp:1614
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Attach File..."
@@ -1440,7 +1440,7 @@ msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Επισύναψη αρχείου..."
 
-#: src/Gui/ComposeWidget.cpp:1795
+#: src/Gui/ComposeWidget.cpp:1796
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<br/>"
@@ -1448,7 +1448,7 @@ msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
-#: src/Gui/ComposeWidget.cpp:1838
+#: src/Gui/ComposeWidget.cpp:1839
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1456,7 +1456,7 @@ msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Σύνταξη αλληλογραφίας"
 
-#: src/Gui/ComposeWidget.cpp:1840
+#: src/Gui/ComposeWidget.cpp:1841
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "%1 - Compose Mail"
@@ -1552,22 +1552,22 @@ msgctxt "EditIdentity|"
 msgid "Signature"
 msgstr "Υπογραφή"
 
-#: src/Gui/EmbeddedWebView.cpp:101
+#: src/Gui/EmbeddedWebView.cpp:100
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Ctrl+C"
 msgstr "Ctrl+C"
 
-#: src/Gui/EmbeddedWebView.cpp:362
+#: src/Gui/EmbeddedWebView.cpp:361
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System colors"
 msgstr "Χρώματα συστήματος"
 
-#: src/Gui/EmbeddedWebView.cpp:363
+#: src/Gui/EmbeddedWebView.cpp:362
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System theme adjusted for better contrast"
 msgstr "Το θέμα του συστήματος προσαρμόστηκε για καλύτερη αντίθεση"
 
-#: src/Gui/EmbeddedWebView.cpp:364
+#: src/Gui/EmbeddedWebView.cpp:363
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Black on white, forced"
 msgstr "Μαύρο σε λευκό, εξαναγκασμένο"
@@ -3248,52 +3248,52 @@ msgctxt "QObject|"
 msgid "Main Window"
 msgstr "Κύριο παράθυρο"
 
-#: src/Gui/SimplePartWidget.cpp:77
+#: src/Gui/SimplePartWidget.cpp:78
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save this message part..."
 msgstr "Αποθήκευση αυτού του τμήματος του μηνύματος..."
 
-#: src/Gui/SimplePartWidget.cpp:81
+#: src/Gui/SimplePartWidget.cpp:82
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save whole message..."
 msgstr "Αποθήκευση ολόκληρου του μηνύματος..."
 
-#: src/Gui/SimplePartWidget.cpp:85
+#: src/Gui/SimplePartWidget.cpp:86
 msgctxt "Gui::SimplePartWidget|"
 msgid "Search..."
 msgstr "Αναζήτηση..."
 
-#: src/Gui/SimplePartWidget.cpp:88
+#: src/Gui/SimplePartWidget.cpp:89
 msgctxt "Gui::SimplePartWidget|"
 msgid "Copy e-mail address"
 msgstr "Αντιγραφή διεύθυνσης ηλεκτρονικής αλληλογραφίας"
 
-#: src/Gui/SimplePartWidget.cpp:129
+#: src/Gui/SimplePartWidget.cpp:130
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save Attachment"
 msgstr "Αποθήκευση συνημμένου"
 
-#: src/Gui/SimplePartWidget.cpp:206
+#: src/Gui/SimplePartWidget.cpp:207
 msgctxt "Gui::SimplePartWidget|"
 msgid "Color scheme"
 msgstr "Χρωματικός συνδυασμός"
 
-#: src/Gui/SimplePartWidget.cpp:220
+#: src/Gui/SimplePartWidget.cpp:221
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom"
 msgstr "Εστίαση"
 
-#: src/Gui/SimplePartWidget.cpp:226
+#: src/Gui/SimplePartWidget.cpp:227
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom In"
 msgstr "Μεγέθυνση"
 
-#: src/Gui/SimplePartWidget.cpp:230
+#: src/Gui/SimplePartWidget.cpp:231
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom Out"
 msgstr "Σμίκρυνση"
 
-#: src/Gui/SimplePartWidget.cpp:234
+#: src/Gui/SimplePartWidget.cpp:235
 msgctxt "Gui::SimplePartWidget|"
 msgid "Original Size"
 msgstr "Αρχικό μέγεθος"
@@ -4559,7 +4559,7 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "Η σύνδεση διακόπηκε για ακαθόριστη αιτία"
 
-#: src/Imap/Model/MsgListModel.cpp:283
+#: src/Imap/Model/MsgListModel.cpp:284
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "Subject"
@@ -4567,7 +4567,7 @@ msgctxt "MsgListModel|"
 msgid "Subject"
 msgstr "Θέμα"
 
-#: src/Imap/Model/MsgListModel.cpp:285
+#: src/Imap/Model/MsgListModel.cpp:286
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "From"
@@ -4575,7 +4575,7 @@ msgctxt "MsgListModel|"
 msgid "From"
 msgstr "Από"
 
-#: src/Imap/Model/MsgListModel.cpp:287
+#: src/Imap/Model/MsgListModel.cpp:288
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -4583,7 +4583,7 @@ msgctxt "MsgListModel|"
 msgid "To"
 msgstr "Προς"
 
-#: src/Imap/Model/MsgListModel.cpp:289
+#: src/Imap/Model/MsgListModel.cpp:290
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -4591,7 +4591,7 @@ msgctxt "MsgListModel|"
 msgid "Cc"
 msgstr "Κοιν."
 
-#: src/Imap/Model/MsgListModel.cpp:291
+#: src/Imap/Model/MsgListModel.cpp:292
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -4599,7 +4599,7 @@ msgctxt "MsgListModel|"
 msgid "Bcc"
 msgstr "Κρυφ.Κοιν"
 
-#: src/Imap/Model/MsgListModel.cpp:293
+#: src/Imap/Model/MsgListModel.cpp:294
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MsgListModel|"
 #| msgid "Date"
@@ -4607,7 +4607,7 @@ msgctxt "MsgListModel|"
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: src/Imap/Model/MsgListModel.cpp:295
+#: src/Imap/Model/MsgListModel.cpp:296
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MsgListModel|"
 #| msgid "Received"
@@ -4615,7 +4615,7 @@ msgctxt "MsgListModel|"
 msgid "Received"
 msgstr "Παραλήφθηκε"
 
-#: src/Imap/Model/MsgListModel.cpp:297
+#: src/Imap/Model/MsgListModel.cpp:298
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MsgListModel|"
 #| msgid "Size"
@@ -5792,7 +5792,7 @@ msgctxt "BE::Contacts|"
 msgid "BE::Contacts"
 msgstr "BE::Επαφές"
 
-#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:400
+#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:404
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
 msgid "Addressbook in ~/.abook/"
 msgstr "Βιβλίο διευθύνσεων στο ~/.abook/"
