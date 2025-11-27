@@ -12,8 +12,8 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf5-trunk/messages/trojita/trojita_common.pot\n"
-"X-Crowdin-File-ID: 6033\n"
+"X-Crowdin-File: /kf5-trunk/messages/trojita/trojita_qt.pot\n"
+"X-Crowdin-File-ID: 59746\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
