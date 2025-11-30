@@ -5362,15 +5362,18 @@ msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
 msgid "Trojitá's settings"
 msgstr "Trojitán asetukset"
 
-#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:127
+#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:133
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
 msgid "Secure storage via QtKeychain"
 msgstr "Salattu tallennustila QtKeyChainin kautta"
 
-#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
+#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
+#, fuzzy
+#| msgctxt "SslSheet|"
+#| msgid "Connect"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-msgid "Sonnet (KF5)"
-msgstr "Sonnet (KF5)"
+msgid "Sonnet"
+msgstr "Yhdistä"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
@@ -5730,6 +5733,10 @@ msgstr "Tallennetaan liitännäisen %1 salasana…"
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "Ei voi tallentaa salasanaa liitännäisellä %1"
+
+#~ msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
+#~ msgid "Sonnet (KF5)"
+#~ msgstr "Sonnet (KF5)"
 
 #~ msgctxt "Cryptography::GpgMeEncrypted|"
 #~ msgid "Failed to initialize GpgME (%1)"
@@ -6197,10 +6204,6 @@ msgstr "Ei voi tallentaa salasanaa liitännäisellä %1"
 #~ msgctxt "PasswordInputSheet|"
 #~ msgid "Password"
 #~ msgstr "Salasana"
-
-#~ msgctxt "SslSheet|"
-#~ msgid "Connect"
-#~ msgstr "Yhdistä"
 
 #~ msgctxt "SslSheet|"
 #~ msgid "Reject"

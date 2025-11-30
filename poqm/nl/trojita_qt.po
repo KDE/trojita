@@ -5407,15 +5407,18 @@ msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
 msgid "Trojitá's settings"
 msgstr "Instellingen van Trojitá"
 
-#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:127
+#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:133
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
 msgid "Secure storage via QtKeychain"
 msgstr "Beveiligde opslag via QtKeychain"
 
-#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
+#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
+#, fuzzy
+#| msgctxt "SslSheet|"
+#| msgid "Connect"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-msgid "Sonnet (KF5)"
-msgstr "Sonnet (KF5)"
+msgid "Sonnet"
+msgstr "Verbinden"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
@@ -5779,6 +5782,10 @@ msgstr "Bezig wachtwoord uit plug-in %1 op te slaan..."
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "Kan wachtwoord niet opslaan via plug-in %1"
+
+#~ msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
+#~ msgid "Sonnet (KF5)"
+#~ msgstr "Sonnet (KF5)"
 
 #~ msgctxt "Cryptography::GpgMeEncrypted|"
 #~ msgid "Failed to initialize GpgME (%1)"
@@ -6242,10 +6249,6 @@ msgstr "Kan wachtwoord niet opslaan via plug-in %1"
 #~ msgctxt "PasswordInputSheet|"
 #~ msgid "Password"
 #~ msgstr "Wachtwoord"
-
-#~ msgctxt "SslSheet|"
-#~ msgid "Connect"
-#~ msgstr "Verbinden"
 
 #~ msgctxt "SslSheet|"
 #~ msgid "Reject"

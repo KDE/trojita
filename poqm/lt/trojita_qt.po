@@ -5113,14 +5113,14 @@ msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
 msgid "Trojitá's settings"
 msgstr ""
 
-#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:127
+#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:133
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
 msgid "Secure storage via QtKeychain"
 msgstr ""
 
-#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
+#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-msgid "Sonnet (KF5)"
+msgid "Sonnet"
 msgstr ""
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449

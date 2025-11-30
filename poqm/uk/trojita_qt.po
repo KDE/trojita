@@ -5454,14 +5454,17 @@ msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
 msgid "Trojitá's settings"
 msgstr "Параметри Trojitá"
 
-#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:127
+#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:133
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
 msgid "Secure storage via QtKeychain"
 msgstr "Безпечне збереження за допомогою QtKeychain"
 
-#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
+#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
+#, fuzzy
+#| msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
+#| msgid "Sonnet (KF5)"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-msgid "Sonnet (KF5)"
+msgid "Sonnet"
 msgstr "Sonnet (KF5)"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449

@@ -6090,15 +6090,18 @@ msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
 msgid "Trojitá's settings"
 msgstr "Nastavenia Trojitá"
 
-#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:127
+#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:133
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
 msgid "Secure storage via QtKeychain"
 msgstr "Bezpečné úložisko cez QtKeychain"
 
-#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
+#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
+#, fuzzy
+#| msgctxt "SslSheet|"
+#| msgid "Connect"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-msgid "Sonnet (KF5)"
-msgstr ""
+msgid "Sonnet"
+msgstr "Pripojiť"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
@@ -7034,10 +7037,6 @@ msgstr "Nie je možné uložiť heslo cez zásuvný modul %1"
 #~ msgctxt "PasswordInputSheet|"
 #~ msgid "Password"
 #~ msgstr "Heslo"
-
-#~ msgctxt "SslSheet|"
-#~ msgid "Connect"
-#~ msgstr "Pripojiť"
 
 #~ msgctxt "SslSheet|"
 #~ msgid "Reject"
