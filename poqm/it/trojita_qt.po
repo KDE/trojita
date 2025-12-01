@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita_common\n"
-"PO-Revision-Date: 2025-09-18 11:35+0200\n"
+"PO-Revision-Date: 2025-11-30 17:31+0100\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.08.3\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
@@ -5419,12 +5419,9 @@ msgid "Secure storage via QtKeychain"
 msgstr "Memorizzazione sicura tramite QtKeychain"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
-#, fuzzy
-#| msgctxt "SslSheet|"
-#| msgid "Connect"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr "Connetti"
+msgstr "Sonnet"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"

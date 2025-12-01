@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: trojita_common\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-28 02:35+0200\n"
-"PO-Revision-Date: 2025-09-16 08:40+0300\n"
+"PO-Revision-Date: 2025-11-30 21:04+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -5460,12 +5460,9 @@ msgid "Secure storage via QtKeychain"
 msgstr "Безпечне збереження за допомогою QtKeychain"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
-#, fuzzy
-#| msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-#| msgid "Sonnet (KF5)"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr "Sonnet (KF5)"
+msgstr "Sonnet"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2025-11-25 10:12+0100\n"
+"PO-Revision-Date: 2025-11-30 10:38+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -5438,12 +5438,9 @@ msgid "Secure storage via QtKeychain"
 msgstr "Emmagatzematge segur a través de «QtKeychain»"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
-#, fuzzy
-#| msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-#| msgid "Sonnet (KF5)"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr "Sonnet (KF5)"
+msgstr "Sonnet"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"

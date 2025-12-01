@@ -1,4 +1,4 @@
-# Spanish translations for trojita_common.po package.
+# Spanish translations for trojita_qt.po package.
 # Copyright (C) 2012-2025 This file is copyright:
 # This file is distributed under the same license as the trojita package.
 #
@@ -7,9 +7,9 @@
 # SPDX-FileCopyrightText: 2015, 2016 Sergio Ahumada <sahumada@texla.cl>
 msgid ""
 msgstr ""
-"Project-Id-Version: trojita_common\n"
+"Project-Id-Version: trojita_qt\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2025-09-16 14:25+0200\n"
+"PO-Revision-Date: 2025-11-30 11:32+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -5443,12 +5443,9 @@ msgid "Secure storage via QtKeychain"
 msgstr "Almacenamiento seguro usando QtKeychain"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
-#, fuzzy
-#| msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-#| msgid "Sonnet (KF5)"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr "Sonnet (KF5)"
+msgstr "Sonnet"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
