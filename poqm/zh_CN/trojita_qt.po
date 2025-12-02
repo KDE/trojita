@@ -5089,12 +5089,9 @@ msgid "Secure storage via QtKeychain"
 msgstr ""
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
-#, fuzzy
-#| msgctxt "Streams::SslTlsSocket|"
-#| msgid "Connected"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr "已连接"
+msgstr ""
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"

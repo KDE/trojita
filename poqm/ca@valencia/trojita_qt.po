@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2025-11-25 10:12+0100\n"
+"PO-Revision-Date: 2025-11-30 10:38+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -156,7 +156,7 @@ msgstr "El missatge s'ha enviat"
 #: src/Composer/Submission.cpp:150
 msgctxt "Submission|"
 msgid "Sending failed"
-msgstr "No s'ha pogut enviar"
+msgstr "Ha fallat mentre s'enviava"
 
 #: src/Composer/Submission.cpp:180
 msgctxt "Submission|"
@@ -250,8 +250,8 @@ msgstr "S'ha produït un error intern"
 msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
 msgstr ""
-"S'ha produït un error en verificar la signatura: no es pot recuperar la clau "
-"%1: %2"
+"S'ha produït un error mentre es verificava la signatura: no es pot recuperar "
+"la clau %1: %2"
 
 #: src/Cryptography/GpgMe++.cpp:376
 msgctxt "GpgMePart|"
@@ -505,7 +505,8 @@ msgstr "%1 (autosignat)"
 msgctxt "GpgMePart|"
 msgid "Error when retrieving key for the trust chain: %1"
 msgstr ""
-"S'ha produït un error en recuperar la clau de la cadena de confiança: %1"
+"S'ha produït un error mentre es recuperava la clau de la cadena de "
+"confiança: %1"
 
 #: src/Cryptography/GpgMe++.cpp:554
 #, qt-format
@@ -533,7 +534,7 @@ msgstr "No es pot verificar la signatura"
 #, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Failed to initialize GpgME (%1)"
-msgstr "Ha fallat mentre es restablix GpgME (%1)"
+msgstr "Ha fallat mentre es restablia GpgME (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:642
 msgctxt "GpgMeSigned|"
@@ -584,7 +585,7 @@ msgstr "No s'ha pogut desencriptar"
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Failed to initialize GpgME (%1)"
-msgstr "Ha fallat mentre es restablix GpgME (%1)"
+msgstr "Ha fallat mentre es restablia GpgME (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:787 src/Cryptography/GpgMe++.cpp:923
 msgctxt "GpgMeEncrypted|"
@@ -1001,7 +1002,7 @@ msgstr "Reenviat BCC"
 #: src/Gui/ComposeWidget.cpp:1388
 msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
-msgstr "No s'ha pogut enviar el correu"
+msgstr "Ha fallat mentre s'enviava el correu"
 
 #: src/Gui/ComposeWidget.cpp:1415
 #, qt-format
@@ -2178,10 +2179,10 @@ msgid ""
 "still be able to find out that you are using (some version of) Trojitá.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>Quan es marca esta opció, s'inclourà informació de la "
-"versió de Trojitá i la plataforma subjacent, incloent-hi la versió de les Qt "
-"i detalls del sistema operatiu. Considereu deixar seleccionada esta opció, "
-"per tal que els desenvolupadors puguen solucionar els problemes dels "
+"<html><head/><body><p>Quan se seleccione esta opció s'inclourà informació de "
+"la versió de Trojitá i la plataforma subjacent, incloent-hi la versió de les "
+"Qt i detalls del sistema operatiu. Considereu deixar seleccionada esta "
+"opció, per tal que els desenvolupadors puguen solucionar els problemes dels "
 "informes d'error quan alguna cosa va malament.</p><p>Les dades es comuniquen "
 "mitjançant l'ordre <code>ID</code> d'IMAP i a través de la capçalera "
 "<code>User-Agent</code> en els correus d'eixida, entre altres coses.</"
@@ -3500,7 +3501,7 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
-msgstr "No s'ha pogut recuperar la contrasenya de l'emmagatzematge: %1"
+msgstr "Ha fallat mentre es recuperava la contrasenya de l'emmagatzematge: %1"
 
 #: src/Gui/Window.cpp:1461
 msgctxt "Gui::MainWindow|"
@@ -3522,7 +3523,7 @@ msgstr "Edita l'esborrany"
 #: src/Gui/Window.cpp:1637
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
-msgstr "No s'ha pogut arxivar"
+msgstr "Ha fallat mentre s'arxivava"
 
 #: src/Gui/Window.cpp:1687
 #, qt-format
@@ -4173,7 +4174,7 @@ msgstr "No s'ha pogut obrir la base de dades"
 #: src/Imap/Model/SQLCache.cpp:148
 msgctxt "QObject|"
 msgid "Failed to verify version"
-msgstr "No s'ha pogut verificar la versió"
+msgstr "Ha fallat mentre es verificava la versió"
 
 #: src/Imap/Model/SQLCache.cpp:154
 msgctxt "QObject|"
@@ -4183,7 +4184,8 @@ msgstr "No s'ha pogut determinar la informació sobre la versió"
 #: src/Imap/Model/SQLCache.cpp:163
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
-msgstr "No s'ha pogut actualitzar el cau de l'esquema de la BD des de v1 a v2"
+msgstr ""
+"Ha fallat mentre s'actualitzava el cau de l'esquema de la BD des de v1 a v2"
 
 #: src/Imap/Model/SQLCache.cpp:172
 msgctxt "QObject|"
@@ -4194,7 +4196,8 @@ msgstr "No s'ha pogut traure l'antiga taula «mailbox_sync_state»"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v2/v3 to v4"
 msgstr ""
-"No s'ha pogut actualitzar el cau de l'esquema de la BD des de v2/v3 a v4"
+"Ha fallat mentre s'actualitzava el cau de l'esquema de la BD des de v2/v3 a "
+"v4"
 
 #: src/Imap/Model/SQLCache.cpp:191
 msgctxt "QObject|"
@@ -4205,7 +4208,8 @@ msgstr "No s'ha pogut traure l'antiga taula «msg_metadata»"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
 msgstr ""
-"No s'ha pogut actualitzar el cau de l'esquema de la BD des de v4/v5/v6 a v7"
+"Ha fallat mentre s'actualitzava el cau de l'esquema de la BD des de v4/v5/v6 "
+"a v7"
 
 #: src/Imap/Model/SQLCache.cpp:203
 msgctxt "QObject|"
@@ -4215,7 +4219,7 @@ msgstr "Versió desconeguda de la memòria cau de l'Sqlite"
 #: src/Imap/Model/SQLCache.cpp:224
 msgctxt "QObject|"
 msgid "Failed to prepare table structures"
-msgstr "No s'ha pogut preparar les estructures de la taula"
+msgstr "Ha fallat mentre es preparaven les estructures de la taula"
 
 #: src/Imap/Model/SQLCache.cpp:228
 msgctxt "QObject|"
@@ -4245,132 +4249,132 @@ msgstr "No s'ha pogut crear la taula «parts»"
 #: src/Imap/Model/SQLCache.cpp:282
 msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxes"
-msgstr "No s'ha pogut preparar «queryChildMailboxes»"
+msgstr "Ha fallat mentre es preparava «queryChildMailboxes»"
 
 #: src/Imap/Model/SQLCache.cpp:288
 msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxesFresh"
-msgstr "No s'ha pogut preparar «queryChildMailboxesFresh»"
+msgstr "Ha fallat mentre es preparava «queryChildMailboxesFresh»"
 
 #: src/Imap/Model/SQLCache.cpp:294
 msgctxt "QObject|"
 msgid "Failed to prepare queryRemoveChildMailboxes"
-msgstr "No s'ha pogut preparar «queryRemoveChildMailboxes»"
+msgstr "Ha fallat mentre es preparava «queryRemoveChildMailboxes»"
 
 #: src/Imap/Model/SQLCache.cpp:300
 msgctxt "QObject|"
 msgid "Failed to prepare querySetChildMailboxes"
-msgstr "No s'ha pogut preparar «querySetChildMailboxes»"
+msgstr "Ha fallat mentre es preparava «querySetChildMailboxes»"
 
 #: src/Imap/Model/SQLCache.cpp:306
 msgctxt "QObject|"
 msgid "Failed to prepare queryMailboxSyncState"
-msgstr "No s'ha pogut preparar «queryMailboxSyncState»"
+msgstr "Ha fallat mentre es preparava «queryMailboxSyncState»"
 
 #: src/Imap/Model/SQLCache.cpp:314
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMailboxSyncState"
-msgstr "No s'ha pogut preparar «querySetMailboxSyncState»"
+msgstr "Ha fallat mentre es preparava «querySetMailboxSyncState»"
 
 #: src/Imap/Model/SQLCache.cpp:320
 msgctxt "QObject|"
 msgid "Failed to prepare queryUidMapping"
-msgstr "No s'ha pogut preparar «queryUidMapping»"
+msgstr "Ha fallat mentre es preparava «queryUidMapping»"
 
 #: src/Imap/Model/SQLCache.cpp:326
 msgctxt "QObject|"
 msgid "Failed to prepare querySetUidMapping"
-msgstr "No s'ha pogut preparar «querySetUidMapping»"
+msgstr "Ha fallat mentre es preparava «querySetUidMapping»"
 
 #: src/Imap/Model/SQLCache.cpp:332
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearUidMapping"
-msgstr "No s'ha pogut preparar «queryClearUidMapping»"
+msgstr "Ha fallat mentre es preparava «queryClearUidMapping»"
 
 #: src/Imap/Model/SQLCache.cpp:338
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageMetadata"
-msgstr "No s'ha pogut preparar «queryMessageMetadata»"
+msgstr "Ha fallat mentre es preparava «queryMessageMetadata»"
 
 #: src/Imap/Model/SQLCache.cpp:344
 msgctxt "QObject|"
 msgid "Failed to prepare queryAccssMessageMetadata"
-msgstr "No s'ha pogut preparar «queryAccssMessageMetadata»"
+msgstr "Ha fallat mentre es preparava «queryAccssMessageMetadata»"
 
 #: src/Imap/Model/SQLCache.cpp:350
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageMetadata"
-msgstr "No s'ha pogut preparar «querySetMessageMetadata»"
+msgstr "Ha fallat mentre es preparava «querySetMessageMetadata»"
 
 #: src/Imap/Model/SQLCache.cpp:356
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageFlags"
-msgstr "No s'ha pogut preparar «queryMessageFlags»"
+msgstr "Ha fallat mentre es preparava «queryMessageFlags»"
 
 #: src/Imap/Model/SQLCache.cpp:362
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageFlags"
-msgstr "No s'ha pogut preparar «querySetMessageFlags»"
+msgstr "Ha fallat mentre es preparava «querySetMessageFlags»"
 
 #: src/Imap/Model/SQLCache.cpp:368
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages1"
-msgstr "No s'ha pogut preparar «queryClearAllMessages1»"
+msgstr "Ha fallat mentre es preparava «queryClearAllMessages1»"
 
 #: src/Imap/Model/SQLCache.cpp:374
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages2"
-msgstr "No s'ha pogut preparar «queryClearAllMessages2»"
+msgstr "Ha fallat mentre es preparava «queryClearAllMessages2»"
 
 #: src/Imap/Model/SQLCache.cpp:380
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages3"
-msgstr "No s'ha pogut preparar «queryClearAllMessages3»"
+msgstr "Ha fallat mentre es preparava «queryClearAllMessages3»"
 
 #: src/Imap/Model/SQLCache.cpp:386
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages4"
-msgstr "No s'ha pogut preparar «queryClearAllMessages4»"
+msgstr "Ha fallat mentre es preparava «queryClearAllMessages4»"
 
 #: src/Imap/Model/SQLCache.cpp:392
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage1"
-msgstr "No s'ha pogut preparar «queryClearMessage1»"
+msgstr "Ha fallat mentre es preparava «queryClearMessage1»"
 
 #: src/Imap/Model/SQLCache.cpp:398
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage2"
-msgstr "No s'ha pogut preparar «queryClearMessage2»"
+msgstr "Ha fallat mentre es preparava «queryClearMessage2»"
 
 #: src/Imap/Model/SQLCache.cpp:404
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage3"
-msgstr "No s'ha pogut preparar «queryClearMessage3»"
+msgstr "Ha fallat mentre es preparava «queryClearMessage3»"
 
 #: src/Imap/Model/SQLCache.cpp:410
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessagePart"
-msgstr "No s'ha pogut preparar «queryMessagePart»"
+msgstr "Ha fallat mentre es preparava «queryMessagePart»"
 
 #: src/Imap/Model/SQLCache.cpp:416
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessagePart"
-msgstr "No s'ha pogut preparar «querySetMessagePart»"
+msgstr "Ha fallat mentre es preparava «querySetMessagePart»"
 
 #: src/Imap/Model/SQLCache.cpp:422
 msgctxt "QObject|"
 msgid "Failed to prepare queryForgetMessagePart"
-msgstr "No s'ha pogut preparar «queryForgetMessagePart»"
+msgstr "Ha fallat mentre es preparava «queryForgetMessagePart»"
 
 #: src/Imap/Model/SQLCache.cpp:428
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageThreading"
-msgstr "No s'ha pogut preparar «queryMessageThreading»"
+msgstr "Ha fallat mentre es preparava «queryMessageThreading»"
 
 #: src/Imap/Model/SQLCache.cpp:434
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageThreading"
-msgstr "No s'ha pogut preparar «querySetMessageThreading»"
+msgstr "Ha fallat mentre es preparava «querySetMessageThreading»"
 
 #: src/Imap/Model/SQLCache.cpp:465
 msgctxt "QObject|"
@@ -5113,7 +5117,7 @@ msgstr "S'ha demanat matar"
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:101
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
 msgid "Failed to update Mailbox FLAGS"
-msgstr "No s'han pogut actualitzar les «FLAGS» de la bústia"
+msgstr "Ha fallat mentre s'actualitzaven les «FLAGS» de la bústia"
 
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:110
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
@@ -5130,7 +5134,7 @@ msgstr ""
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:138
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
 msgid "Failed to update FLAGS"
-msgstr "No s'han pogut actualitzar les «FLAGS»"
+msgstr "Ha fallat mentre s'actualitzaven les «FLAGS»"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:148
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
@@ -5444,12 +5448,9 @@ msgid "Secure storage via QtKeychain"
 msgstr "Emmagatzematge segur a través de «QtKeychain»"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
-#, fuzzy
-#| msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-#| msgid "Sonnet (KF5)"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr "Sonnet (KF5)"
+msgstr "Sonnet"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
@@ -5802,7 +5803,7 @@ msgstr "Ha fallat mentre es llegia la contrasenya: %1"
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password writing failed: %1"
-msgstr "No s'ha pogut escriure la contrasenya: %1"
+msgstr "Ha fallat mentre s'escrivia la contrasenya: %1"
 
 #: src/UiUtils/PasswordWatcher.cpp:168
 #, qt-format
