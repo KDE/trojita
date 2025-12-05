@@ -839,13 +839,6 @@ void MainWindow::createWidgets()
 #else
    m_messageWidget = new QLabel(QStringLiteral("Message Widget placeholder"));
 #endif
-    // Do not try to get onto the homepage when we are on EXPENSIVE connection
-    if (m_settings->value(Common::SettingsNames::appLoadHomepage, QVariant(true)).toBool() &&
-        m_imapAccess->preferredNetworkPolicy() == Imap::Mailbox::NETWORK_ONLINE) {
-    #ifdef TROJITA_HAVE_WEBKIT
-        m_messageWidget->messageView->setHomepageUrl(QUrl(QStringLiteral("http://welcome.trojita.flaska.net/%1").arg(Common::Application::version)));
-    #endif
-    }
 
     allDock = new QDockWidget(tr("Everything"), this);
     allDock->setObjectName(QStringLiteral("allDock"));

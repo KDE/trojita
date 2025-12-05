@@ -93,7 +93,6 @@ public:
 public slots:
     void setMessage(const QModelIndex &index);
     void setEmpty();
-    void setHomepageUrl(const QUrl &homepage);
     void stopAutoMarkAsRead();
     void zoomIn();
     void zoomOut();
@@ -129,7 +128,7 @@ private:
     void clearWaitingConns();
 
     QStackedLayout *m_stack;
-    QWebView *m_homePage;
+    QWidget *m_homePage;
 
     QWidget *m_messageWidget;
     QBoxLayout *m_msgLayout;

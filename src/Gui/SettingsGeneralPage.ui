@@ -14,7 +14,7 @@
    <string>ScrollArea</string>
   </property>
   <property name="frameShadow">
-   <enum>QFrame::Plain</enum>
+   <enum>QFrame::Shadow::Plain</enum>
   </property>
   <property name="widgetResizable">
    <bool>true</bool>
@@ -23,55 +23,27 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>0</y>
-     <width>415</width>
+     <y>-120</y>
+     <width>419</width>
      <height>536</height>
     </rect>
    </property>
    <property name="layoutDirection">
-    <enum>Qt::LeftToRight</enum>
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
    </property>
    <layout class="QGridLayout" name="gridLayout">
-    <item row="8" column="0" colspan="2">
-     <widget class="QCheckBox" name="showHomepageCheckbox">
-      <property name="toolTip">
-       <string/>
+    <item row="1" column="1" rowspan="2">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Orientation::Vertical</enum>
       </property>
-      <property name="text">
-       <string>Show Trojitá's homepage on startup</string>
-      </property>
-     </widget>
-    </item>
-    <item row="9" column="0" colspan="2">
-     <widget class="QCheckBox" name="preferPlaintextCheckbox">
-      <property name="text">
-       <string>Show plaintext e-mails instead of the HTML version</string>
-      </property>
-     </widget>
-    </item>
-    <item row="10" column="0" colspan="2">
-     <widget class="QCheckBox" name="guiSystrayCheckbox">
-      <property name="text">
-       <string>Show system tray icon</string>
-      </property>
-     </widget>
-    </item>
-    <item row="11" column="0">
-     <widget class="QCheckBox" name="guiStartMinimizedCheckbox">
-      <property name="text">
-       <string>Start minimized</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0" rowspan="2">
-     <widget class="QTableView" name="identityTabelView">
-      <property name="minimumSize">
+      <property name="sizeHint" stdset="0">
        <size>
-        <width>241</width>
-        <height>192</height>
+        <width>20</width>
+        <height>125</height>
        </size>
       </property>
-     </widget>
+     </spacer>
     </item>
     <item row="0" column="1">
      <layout class="QVBoxLayout" name="verticalLayout">
@@ -115,23 +87,111 @@
       </item>
      </layout>
     </item>
-    <item row="1" column="1" rowspan="2">
-     <spacer name="verticalSpacer">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
+    <item row="10" column="0">
+     <widget class="QCheckBox" name="guiStartMinimizedCheckbox">
+      <property name="text">
+       <string>Start minimized</string>
       </property>
-      <property name="sizeHint" stdset="0">
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <widget class="QCheckBox" name="preferPlaintextCheckbox">
+      <property name="text">
+       <string>Show plaintext e-mails instead of the HTML version</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>4</number>
+      </property>
+      <item>
+       <widget class="QCheckBox" name="markReadCheckbox">
+        <property name="text">
+         <string>Automatically mark messages as read</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="markReadSeconds">
+        <property name="specialValueText">
+         <string extracomment="To indicate that there's no delay">immediately</string>
+        </property>
+        <property name="suffix">
+         <string extracomment="A suffix &quot;seconds&quot; inside a QDoubleSpinBox for configuring a time delay. Please keep this short so that the window is reasonably narrow."> s</string>
+        </property>
+        <property name="prefix">
+         <string extracomment="The action will happen *after* user-provided timeout in seconds">after </string>
+        </property>
+        <property name="minimum">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <number>60</number>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="9" column="0" colspan="2">
+     <widget class="QCheckBox" name="guiSystrayCheckbox">
+      <property name="text">
+       <string>Show system tray icon</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QCheckBox" name="revealTrojitaVersions">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selecting this option will include version information about Trojitá and the underlying platform, including the Qt version and operating system details. Please consider leaving this option enabled so that developers are able to troubleshoot bugreports when something goes wrong.&lt;/p&gt;&lt;p&gt;The data are communicated via the IMAP's &lt;code&gt;ID&lt;/code&gt; command and through the &lt;code&gt;User-Agent&lt;/code&gt; header in outgoing e-mails, among other things.&lt;/p&gt;&lt;p&gt;Please note that even if you disable this option, the servers which Trojitá talks to and the people who read your e-mails will still be able to find out that you are using (some version of) Trojitá.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>Reveal Trojitá's version and platform information</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QCheckBox" name="mboxDropActionCheckbox">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="toolTip">
+         <string>&lt;p&gt;If enabled, you can set the default drag and drop action for the mailbox tree.&lt;/p&gt;&lt;p&gt;If disabled, Trojitá will ask you every time. You can always override the action using modifier keys when dropping (control: copy, shift: move).&lt;/p&gt;</string>
+        </property>
+        <property name="text">
+         <string>Default drop action for the mbox tree</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="mboxDropActionBox">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0" rowspan="2">
+     <widget class="QTableView" name="identityTabelView">
+      <property name="minimumSize">
        <size>
-        <width>20</width>
-        <height>125</height>
+        <width>241</width>
+        <height>192</height>
        </size>
       </property>
-     </spacer>
+     </widget>
     </item>
     <item row="2" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout">
       <property name="sizeConstraint">
-       <enum>QLayout::SetMinimumSize</enum>
+       <enum>QLayout::SizeConstraint::SetMinimumSize</enum>
       </property>
       <item>
        <widget class="QPushButton" name="addButton">
@@ -159,7 +219,7 @@
     <item row="3" column="0" colspan="2">
      <layout class="QFormLayout" name="formLayout">
       <property name="fieldGrowthPolicy">
-       <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+       <enum>QFormLayout::FieldGrowthPolicy::AllNonFixedFieldsGrow</enum>
       </property>
       <item row="0" column="0">
        <widget class="QLabel" name="addressbookLabel">
@@ -210,79 +270,9 @@
     <item row="4" column="0" colspan="2">
      <widget class="Line" name="line">
       <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+       <enum>Qt::Orientation::Horizontal</enum>
       </property>
      </widget>
-    </item>
-    <item row="5" column="0">
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
-      <property name="spacing">
-       <number>4</number>
-      </property>
-      <item>
-       <widget class="QCheckBox" name="markReadCheckbox">
-        <property name="text">
-         <string>Automatically mark messages as read</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QSpinBox" name="markReadSeconds">
-        <property name="specialValueText">
-         <string extracomment="To indicate that there's no delay">immediately</string>
-        </property>
-        <property name="suffix">
-         <string extracomment="A suffix &quot;seconds&quot; inside a QDoubleSpinBox for configuring a time delay. Please keep this short so that the window is reasonably narrow."> s</string>
-        </property>
-        <property name="prefix">
-         <string extracomment="The action will happen *after* user-provided timeout in seconds">after </string>
-        </property>
-        <property name="minimum">
-         <number>0</number>
-        </property>
-        <property name="maximum">
-         <number>60</number>
-        </property>
-        <property name="value">
-         <number>0</number>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item row="7" column="0">
-     <widget class="QCheckBox" name="revealTrojitaVersions">
-      <property name="toolTip">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selecting this option will include version information about Trojitá and the underlying platform, including the Qt version and operating system details. Please consider leaving this option enabled so that developers are able to troubleshoot bugreports when something goes wrong.&lt;/p&gt;&lt;p&gt;The data are communicated via the IMAP's &lt;code&gt;ID&lt;/code&gt; command and through the &lt;code&gt;User-Agent&lt;/code&gt; header in outgoing e-mails, among other things.&lt;/p&gt;&lt;p&gt;Please note that even if you disable this option, the servers which Trojitá talks to and the people who read your e-mails will still be able to find out that you are using (some version of) Trojitá.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-      <property name="text">
-       <string>Reveal Trojitá's version and platform information</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="0">
-     <layout class="QHBoxLayout" name="horizontalLayout_3">
-      <item>
-       <widget class="QCheckBox" name="mboxDropActionCheckbox">
-        <property name="enabled">
-         <bool>true</bool>
-        </property>
-        <property name="toolTip">
-         <string>&lt;p&gt;If enabled, you can set the default drag and drop action for the mailbox tree.&lt;/p&gt;&lt;p&gt;If disabled, Trojitá will ask you every time. You can always override the action using modifier keys when dropping (control: copy, shift: move).&lt;/p&gt;</string>
-        </property>
-        <property name="text">
-         <string>Default drop action for the mbox tree</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QComboBox" name="mboxDropActionBox">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-     </layout>
     </item>
    </layout>
   </widget>

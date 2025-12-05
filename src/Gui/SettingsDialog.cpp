@@ -423,12 +423,6 @@ GeneralPage::GeneralPage(SettingsDialog *parent, QSettings &s, Composer::SenderI
     if (mboxDropAction == QStringLiteral("copy"))
         mboxDropActionBox->setCurrentIndex(mboxDropActionBox->count() - 1);
 
-    showHomepageCheckbox->setChecked(s.value(Common::SettingsNames::appLoadHomepage, QVariant(true)).toBool());
-    showHomepageCheckbox->setToolTip(tr("<p>If enabled, Trojitá will show its homepage upon startup.</p>"
-                                        "<p>The remote server will receive the user's IP address and versions of Trojitá, the Qt library, "
-                                        "and the underlying operating system. No private information, like account settings "
-                                        "or IMAP server details, are collected.</p>"));
-
     guiSystrayCheckbox->setChecked(s.value(Common::SettingsNames::guiShowSystray, QVariant(true)).toBool());
     guiStartMinimizedCheckbox->setChecked(s.value(Common::SettingsNames::guiStartMinimized, QVariant(false)).toBool());
 
@@ -540,7 +534,6 @@ void GeneralPage::save(QSettings &s)
     s.setValue(Common::SettingsNames::autoMarkReadSeconds, markReadSeconds->value());
     s.setValue(Common::SettingsNames::mboxDropAction,
             mboxDropActionCheckbox->isChecked() ? mboxDropActionBox->currentData() : QStringLiteral("ask"));
-    s.setValue(Common::SettingsNames::appLoadHomepage, showHomepageCheckbox->isChecked());
     s.setValue(Common::SettingsNames::guiPreferPlaintextRendering, preferPlaintextCheckbox->isChecked());
     s.setValue(Common::SettingsNames::guiShowSystray, guiSystrayCheckbox->isChecked());
     s.setValue(Common::SettingsNames::guiStartMinimized, guiStartMinimizedCheckbox->isChecked());

@@ -59,6 +59,7 @@ MessageView::MessageView(QWidget *parent, QSettings *settings, Plugins::PluginMa
         Imap::Mailbox::FavoriteTagsModel *m_favoriteTags)
     : QWidget(parent)
     , m_stack(new QStackedLayout(this))
+    , m_homePage(new QWidget(this))
     , messageModel(0)
     , netAccess(new Imap::Network::MsgPartNetAccessManager(this))
     , factory(new PartWidgetFactory(netAccess, this,
@@ -96,15 +97,7 @@ MessageView::MessageView(QWidget *parent, QSettings *settings, Plugins::PluginMa
     connect(m_findAction, &QAction::triggered, this, &MessageView::searchDialogRequested);
     addAction(m_findAction);
 
-    // The homepage widget -- our poor man's splashscreen
-    m_homePage = new EmbeddedWebView(this, new QNetworkAccessManager(this), settings);
-    m_homePage->setFixedSize(450,300);
-    CALL_LATER_NOARG(m_homePage, handlePageLoadFinished);
-    m_homePage->setPage(new UserAgentWebPage(m_homePage));
-    m_homePage->installEventFilter(this);
-    m_homePage->setAutoFillBackground(false);
     m_stack->addWidget(m_homePage);
-
 
     // The actual widget for the actual message
     m_messageWidget = new QWidget(this);
@@ -466,11 +459,6 @@ void MessageView::deleteLabelAction(const QString &tag)
 
     Imap::Mailbox::Model *model = dynamic_cast<Imap::Mailbox::Model *>(const_cast<QAbstractItemModel *>(message.model()));
     model->setMessageFlags(QModelIndexList() << message, tag, Imap::Mailbox::FLAG_REMOVE);
-}
-
-void MessageView::setHomepageUrl(const QUrl &homepage)
-{
-    m_homePage->load(homepage);
 }
 
 void MessageView::showEvent(QShowEvent *se)
