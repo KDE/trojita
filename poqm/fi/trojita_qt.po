@@ -833,32 +833,32 @@ msgid "(no subject)"
 msgstr "(ei aihetta)"
 
 # Tässä on todennäköisesti kyse viestin katoamisesta eikä lähtemisestä.
-#: src/Gui/ComposeWidget.cpp:585
+#: src/Gui/ComposeWidget.cpp:587
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "Viestiltä puuttuu otsikko"
 
-#: src/Gui/ComposeWidget.cpp:588
+#: src/Gui/ComposeWidget.cpp:590
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "Message-ID-otsake puuttuu"
 
-#: src/Gui/ComposeWidget.cpp:591
+#: src/Gui/ComposeWidget.cpp:593
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "Viestiltä puuttuu päiväys"
 
-#: src/Gui/ComposeWidget.cpp:594
+#: src/Gui/ComposeWidget.cpp:596
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr "Lähettäjä-kentässä ei ole ketään"
 
-#: src/Gui/ComposeWidget.cpp:597
+#: src/Gui/ComposeWidget.cpp:599
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr "Vastaanottaja-kentässä ei ole ketään"
 
-#: src/Gui/ComposeWidget.cpp:600
+#: src/Gui/ComposeWidget.cpp:602
 msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
@@ -867,28 +867,28 @@ msgstr ""
 "<b>Viesti vaikuttaa virheelliseltä, joten ole tarkkana, ennen kuin lähetät "
 "sen.</b>"
 
-#: src/Gui/ComposeWidget.cpp:689
+#: src/Gui/ComposeWidget.cpp:691
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Tunnistautumista vaaditaan"
 
-#: src/Gui/ComposeWidget.cpp:690
+#: src/Gui/ComposeWidget.cpp:692
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>Anna käyttäjän <b>%1</b> SMTP-salasana palvelimeen <b>%2</b>:</p>"
 
-#: src/Gui/ComposeWidget.cpp:724
+#: src/Gui/ComposeWidget.cpp:726
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Tallennetaanko luonnokseksi?"
 
-#: src/Gui/ComposeWidget.cpp:725
+#: src/Gui/ComposeWidget.cpp:727
 msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "Viestiä ei ole lähetetty.<br>Haluatko tallentaa sen luonnokseksi?"
 
-#: src/Gui/ComposeWidget.cpp:727
+#: src/Gui/ComposeWidget.cpp:729
 msgctxt "ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
@@ -897,23 +897,23 @@ msgstr ""
 "<br><span style=\"color:red\">Varoitus: luonnokseen <b>ei</b> tallenneta "
 "liitteitä!</span>"
 
-#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1514
-#: src/Gui/Window.cpp:1516
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1537
+#: src/Gui/Window.cpp:1539
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Luonnokset"
 
-#: src/Gui/ComposeWidget.cpp:748
+#: src/Gui/ComposeWidget.cpp:750
 msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Tallenna nimellä"
 
-#: src/Gui/ComposeWidget.cpp:749
+#: src/Gui/ComposeWidget.cpp:751
 msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Luonnokset"
 
-#: src/Gui/ComposeWidget.cpp:778
+#: src/Gui/ComposeWidget.cpp:780
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid ""
@@ -923,90 +923,90 @@ msgstr ""
 "Vastaanottajia ei voi jäsentää:\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:782
+#: src/Gui/ComposeWidget.cpp:784
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Vastaanottajia ei ole annettu"
 
-#: src/Gui/ComposeWidget.cpp:790
+#: src/Gui/ComposeWidget.cpp:792
 msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "Vastaanottajan osoite ei vaikuta kelvolliselta"
 
-#: src/Gui/ComposeWidget.cpp:797
+#: src/Gui/ComposeWidget.cpp:799
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr "Aihetta ei ole annettu. Viestiä ei voi lähettää."
 
-#: src/Gui/ComposeWidget.cpp:829
+#: src/Gui/ComposeWidget.cpp:831
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
 "Viestiä ei voi valmistella lähetettäväksi: jotkin osat eivät ole saatavilla"
 
-#: src/Gui/ComposeWidget.cpp:920 src/Gui/ComposeWidget.cpp:1795
+#: src/Gui/ComposeWidget.cpp:922 src/Gui/ComposeWidget.cpp:1809
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Viesti merkitään vastaukseksi<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1098
+#: src/Gui/ComposeWidget.cpp:1100
 msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Vastaanottaja"
 
-#: src/Gui/ComposeWidget.cpp:1099
+#: src/Gui/ComposeWidget.cpp:1101
 msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "CC"
 
-#: src/Gui/ComposeWidget.cpp:1100
+#: src/Gui/ComposeWidget.cpp:1102
 msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "BCC"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1104
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Uudelleenlähetetty osoitteeseen"
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1105
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Uudelleenlähetetty kopiona"
 
-#: src/Gui/ComposeWidget.cpp:1104
+#: src/Gui/ComposeWidget.cpp:1106
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Uudelleenlähetetty piilokopiona"
 
-#: src/Gui/ComposeWidget.cpp:1388
+#: src/Gui/ComposeWidget.cpp:1390
 msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Postin lähetys epäonnistui"
 
-#: src/Gui/ComposeWidget.cpp:1415
+#: src/Gui/ComposeWidget.cpp:1417
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "”%1” ei jäsenny sähköpostiosoitteeksi."
 
-#: src/Gui/ComposeWidget.cpp:1614
+#: src/Gui/ComposeWidget.cpp:1616
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Liitä tiedosto…"
 
-#: src/Gui/ComposeWidget.cpp:1796
+#: src/Gui/ComposeWidget.cpp:1810
 msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
-#: src/Gui/ComposeWidget.cpp:1839
+#: src/Gui/ComposeWidget.cpp:1853
 msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Kirjoita viesti"
 
-#: src/Gui/ComposeWidget.cpp:1841
+#: src/Gui/ComposeWidget.cpp:1855
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
@@ -1347,12 +1347,12 @@ msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageListWidget.cpp:50
+#: src/Gui/MessageListWidget.cpp:51
 msgctxt "Gui::MessageListWidget|"
 msgid "Quick Search"
 msgstr "Pikahaku"
 
-#: src/Gui/MessageListWidget.cpp:51
+#: src/Gui/MessageListWidget.cpp:52
 msgctxt "Gui::MessageListWidget|"
 msgid ""
 "Type in a text to search for within this mailbox. The icon on the left can "
@@ -1365,92 +1365,92 @@ msgstr ""
 "viestirungoista).<br/><hr/>RFC3501:n lukeneet asiantuntijat voivat käyttää "
 "<code>:=</code>-etuliitettä ja vaihtaa raakaan IMAP-tilaan."
 
-#: src/Gui/MessageListWidget.cpp:56
+#: src/Gui/MessageListWidget.cpp:57
 msgctxt "Gui::MessageListWidget|"
 msgid "<query>"
 msgstr "<kysely>"
 
-#: src/Gui/MessageListWidget.cpp:64
+#: src/Gui/MessageListWidget.cpp:65
 msgctxt "Gui::MessageListWidget|"
 msgid "Options for the IMAP search..."
 msgstr "IMAP-haun valinnat…"
 
-#: src/Gui/MessageListWidget.cpp:67
+#: src/Gui/MessageListWidget.cpp:68
 msgctxt "Gui::MessageListWidget|"
 msgid "Fuzzy Search"
 msgstr "Sumea haku"
 
-#: src/Gui/MessageListWidget.cpp:70
+#: src/Gui/MessageListWidget.cpp:71
 msgctxt "Gui::MessageListWidget|"
 msgid "Subject"
 msgstr "Aihe"
 
-#: src/Gui/MessageListWidget.cpp:73
+#: src/Gui/MessageListWidget.cpp:74
 msgctxt "Gui::MessageListWidget|"
 msgid "Body"
 msgstr "Runko"
 
-#: src/Gui/MessageListWidget.cpp:75
+#: src/Gui/MessageListWidget.cpp:76
 msgctxt "Gui::MessageListWidget|"
 msgid "Senders"
 msgstr "Lähettäjät"
 
-#: src/Gui/MessageListWidget.cpp:78
+#: src/Gui/MessageListWidget.cpp:79
 msgctxt "Gui::MessageListWidget|"
 msgid "Recipients"
 msgstr "Vastaanottajat"
 
-#: src/Gui/MessageListWidget.cpp:83
+#: src/Gui/MessageListWidget.cpp:84
 msgctxt "Gui::MessageListWidget|"
 msgid "Complex IMAP query"
 msgstr "Kompleksinen IMAP-kysely"
 
-#: src/Gui/MessageListWidget.cpp:85
+#: src/Gui/MessageListWidget.cpp:86
 msgctxt "Gui::MessageListWidget|"
 msgid "Not ..."
 msgstr "Ei…"
 
-#: src/Gui/MessageListWidget.cpp:86
+#: src/Gui/MessageListWidget.cpp:87
 msgctxt "Gui::MessageListWidget|"
 msgid "Either... or..."
 msgstr "Joko… tai…"
 
-#: src/Gui/MessageListWidget.cpp:88
+#: src/Gui/MessageListWidget.cpp:89
 msgctxt "Gui::MessageListWidget|"
 msgid "From sender"
 msgstr "Lähettäjältä"
 
-#: src/Gui/MessageListWidget.cpp:89
+#: src/Gui/MessageListWidget.cpp:90
 msgctxt "Gui::MessageListWidget|"
 msgid "To receiver"
 msgstr "Vastaanottajalle"
 
-#: src/Gui/MessageListWidget.cpp:91
+#: src/Gui/MessageListWidget.cpp:92
 msgctxt "Gui::MessageListWidget|"
 msgid "About subject"
 msgstr "Aiheesta"
 
-#: src/Gui/MessageListWidget.cpp:92
+#: src/Gui/MessageListWidget.cpp:93
 msgctxt "Gui::MessageListWidget|"
 msgid "Message contains ..."
 msgstr "Viesti sisältää…"
 
-#: src/Gui/MessageListWidget.cpp:94
+#: src/Gui/MessageListWidget.cpp:95
 msgctxt "Gui::MessageListWidget|"
 msgid "Before date"
 msgstr "Ennen…"
 
-#: src/Gui/MessageListWidget.cpp:95
+#: src/Gui/MessageListWidget.cpp:96
 msgctxt "Gui::MessageListWidget|"
 msgid "Since date"
 msgstr "Jälkeen…"
 
-#: src/Gui/MessageListWidget.cpp:97
+#: src/Gui/MessageListWidget.cpp:98
 msgctxt "Gui::MessageListWidget|"
 msgid "Has been seen"
 msgstr "On nähty"
 
-#: src/Gui/MessageListWidget.cpp:99
+#: src/Gui/MessageListWidget.cpp:100
 msgctxt "Gui::MessageListWidget|"
 msgid "Allow raw IMAP search"
 msgstr "Salli raaka IMAP-haku"
@@ -2800,13 +2800,13 @@ msgctxt "Gui::MainWindow|"
 msgid "Don't ask again"
 msgstr "Älä kysy uudelleen"
 
-#: src/Gui/Window.cpp:130
+#: src/Gui/Window.cpp:133
 msgctxt "Gui::MainWindow|"
 msgid "Plugin Error"
 msgstr "Liitännäisen virhe"
 
 #. The %1 placeholder is a full error message as provided by Qt, ready for human consumption.
-#: src/Gui/Window.cpp:132
+#: src/Gui/Window.cpp:135
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2821,541 +2821,541 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:234
+#: src/Gui/Window.cpp:237
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
 msgstr "&Lopeta"
 
-#: src/Gui/Window.cpp:235
+#: src/Gui/Window.cpp:238
 msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
 msgstr "&Uusi viesti…"
 
-#: src/Gui/Window.cpp:236
+#: src/Gui/Window.cpp:239
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
 msgstr "Muokkaa &luonnosta…"
 
-#: src/Gui/Window.cpp:237
+#: src/Gui/Window.cpp:240
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
 msgstr "Näytä pää&valikkorivi"
 
-#: src/Gui/Window.cpp:237
+#: src/Gui/Window.cpp:240
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+M"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Exp&unge"
 msgstr "Tu&hoa"
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
 msgstr "Ctrl+E"
 
-#: src/Gui/Window.cpp:239
+#: src/Gui/Window.cpp:242
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
 msgstr "M&erkitse luetuksi"
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:243
 msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
 msgstr "&Seuraava lukematon viesti"
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:244
 msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
 msgstr "&Edellinen lukematon viesti"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:245
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
 msgstr "Merkitse p&oistetuksi"
 
-#: src/Gui/Window.cpp:243
+#: src/Gui/Window.cpp:246
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Flagged"
 msgstr "Merkitse &tärkeäksi"
 
-#: src/Gui/Window.cpp:244
+#: src/Gui/Window.cpp:247
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Junk"
 msgstr "Merkitse &roskapostiksi"
 
-#: src/Gui/Window.cpp:245
+#: src/Gui/Window.cpp:248
 msgctxt "Gui::MainWindow|"
 msgid "Mark as Not &junk"
 msgstr "Merkitse ei-&roskapostiksi"
 
-#: src/Gui/Window.cpp:246
+#: src/Gui/Window.cpp:249
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
 msgstr "&Tallenna viesti…"
 
-#: src/Gui/Window.cpp:247
+#: src/Gui/Window.cpp:250
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
 msgstr "Näytä viestin lähde&koodi…"
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
 msgstr "Näytä viestin &otsakkeet…"
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
 msgstr "Ctrl+U"
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
 msgstr "&Yksityisvastaus"
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
 msgstr "Ctrl+Shift+A"
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "Reply to All &but Me"
 msgstr "Vastaa kaikille paitsi &minulle"
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
 msgstr "Ctrl+Shift+R"
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
 msgstr "Vastaa &kaikille"
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
 msgstr "Ctrl+Alt+Shift+R"
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &Mailing List"
 msgstr "Vastaa &postituslistalle"
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
 msgstr "Vastaa &arvaten"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
 msgstr "Ctrl+R"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
 msgstr "&Eteenpäin"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
 msgstr "Ctrl+Shift+F"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
 msgstr "Lähetä uudelleen…"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
 msgstr "&Arkisto"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
 msgstr "Osoitekirja…"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
 msgid "&Offline"
 msgstr "&Ei verkossa"
 
-#: src/Gui/Window.cpp:259
+#: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
 msgstr "&Kallis yhteys"
 
-#: src/Gui/Window.cpp:260
+#: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
 msgstr "&Ilmainen yhteys"
 
-#: src/Gui/Window.cpp:261
+#: src/Gui/Window.cpp:264
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
 msgstr "Sulje erillinen viesti-ikkuna"
 
-#: src/Gui/Window.cpp:262
+#: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
 msgstr "Avaa viesti uuteen ikkunaan…"
 
-#: src/Gui/Window.cpp:263
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
 msgstr "Palaa taaksepäin"
 
-#: src/Gui/Window.cpp:264
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
 msgstr "Lähennä"
 
-#: src/Gui/Window.cpp:265
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
 msgstr "Loitonna"
 
-#: src/Gui/Window.cpp:266
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
 msgstr "Alkuperäinen koko"
 
-#: src/Gui/Window.cpp:267
+#: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
 msgstr "Siirrä kohdistus postilaatikkoluetteloon"
 
-#: src/Gui/Window.cpp:268
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
 msgstr "Siirrä kohdistus viestiluetteloon"
 
-#: src/Gui/Window.cpp:269
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
 msgstr "Siirrä kohdistus pikahakuun"
 
-#: src/Gui/Window.cpp:270
+#: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
 msgstr "Luokittele 1. luokituksella"
 
-#: src/Gui/Window.cpp:271
+#: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
 msgstr "Luokittele 2. luokituksella"
 
-#: src/Gui/Window.cpp:272
+#: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
 msgstr "Luokittele 3. luokituksella"
 
-#: src/Gui/Window.cpp:273
+#: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
 msgstr "Luokittele 4. luokituksella"
 
-#: src/Gui/Window.cpp:274
+#: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
 msgstr "Luokittele 5. luokituksella"
 
-#: src/Gui/Window.cpp:275
+#: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
 msgstr "Luokittele 6. luokituksella"
 
-#: src/Gui/Window.cpp:276
+#: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
 msgstr "Luokittele 7. luokituksella"
 
-#: src/Gui/Window.cpp:277
+#: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
 msgstr "Luokittele 8. luokituksella"
 
-#: src/Gui/Window.cpp:278
+#: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
 msgstr "Luokittele 9. luokituksella"
 
-#: src/Gui/Window.cpp:306
+#: src/Gui/Window.cpp:309
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
 msgstr "Liikkuminen"
 
-#: src/Gui/Window.cpp:309
+#: src/Gui/Window.cpp:312
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
 msgstr "Päivitä &alempien viestikansioiden luettelo"
 
-#: src/Gui/Window.cpp:312
+#: src/Gui/Window.cpp:315
 msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
 msgstr "&Etsi uutta postia"
 
-#: src/Gui/Window.cpp:315
+#: src/Gui/Window.cpp:318
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
 msgstr "Lataa kaikki &uudelleen"
 
-#: src/Gui/Window.cpp:319
+#: src/Gui/Window.cpp:322
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
 msgstr "Lopeta sovellus"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
-#: src/Gui/Window.cpp:338
+#: src/Gui/Window.cpp:341
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
 msgstr "Näytä koko &puuikkuna"
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
-#: src/Gui/Window.cpp:344
+#: src/Gui/Window.cpp:347
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
 msgstr "Näytä &IMAP-tehtäväpuu"
 
 #. a debugging tool showing the mime tree of the current message
-#: src/Gui/Window.cpp:350
+#: src/Gui/Window.cpp:353
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
 msgstr "Näytä MIME-&puu"
 
-#: src/Gui/Window.cpp:355
+#: src/Gui/Window.cpp:358
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
 msgstr "Näytä &yhteyskäytäntöloki"
 
 #. file to save the debug log into
-#: src/Gui/Window.cpp:361
+#: src/Gui/Window.cpp:364
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
 msgstr "&Merkitse lokiin %1"
 
-#: src/Gui/Window.cpp:366
+#: src/Gui/Window.cpp:369
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
 msgstr "&Tietoa IMAP-palvelimesta…"
 
-#: src/Gui/Window.cpp:375
+#: src/Gui/Window.cpp:378
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
 msgstr "Näytä &työkalurivi"
 
-#: src/Gui/Window.cpp:381
+#: src/Gui/Window.cpp:384
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
 msgstr "&Asetukset…"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:476
+#: src/Gui/Window.cpp:481
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
 msgstr "Luo &alikansio…"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:480
+#: src/Gui/Window.cpp:485
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
 msgstr "Luo &uusi postikansio…"
 
-#: src/Gui/Window.cpp:483
+#: src/Gui/Window.cpp:488
 msgctxt "Gui::MainWindow|"
 msgid "&Mark Mailbox as Read"
 msgstr "Merkitse kansio &luetuksi"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:487
+#: src/Gui/Window.cpp:492
 msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
 msgstr "&Poista postikansio"
 
-#: src/Gui/Window.cpp:505
+#: src/Gui/Window.cpp:510
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
 msgstr "Näytä viestit &säikeinä"
 
-#: src/Gui/Window.cpp:516
+#: src/Gui/Window.cpp:521
 msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
 msgstr "&Nouseva"
 
-#: src/Gui/Window.cpp:519
+#: src/Gui/Window.cpp:524
 msgctxt "Gui::MainWindow|"
 msgid "&Descending"
 msgstr "&Laskeva"
 
-#: src/Gui/Window.cpp:527
+#: src/Gui/Window.cpp:532
 msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
 msgstr "&Ei lajittelua"
 
-#: src/Gui/Window.cpp:529
+#: src/Gui/Window.cpp:534
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
 msgstr "Lajittele &säikeittäin"
 
-#: src/Gui/Window.cpp:531
+#: src/Gui/Window.cpp:536
 msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
 msgstr "&Saapumisaika"
 
-#: src/Gui/Window.cpp:533
+#: src/Gui/Window.cpp:538
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
 msgstr "&Kopio (CC)"
 
-#: src/Gui/Window.cpp:535
+#: src/Gui/Window.cpp:540
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
 msgstr "Päiväys viestin &otsakkeista"
 
-#: src/Gui/Window.cpp:537
+#: src/Gui/Window.cpp:542
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
 msgstr "&Lähettäjän osoite"
 
-#: src/Gui/Window.cpp:539
+#: src/Gui/Window.cpp:544
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
 msgstr "&Koko"
 
-#: src/Gui/Window.cpp:541
+#: src/Gui/Window.cpp:546
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
 msgstr "&Aihe"
 
-#: src/Gui/Window.cpp:543
+#: src/Gui/Window.cpp:548
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
 msgstr "&Vastaanottajan osoite"
 
-#: src/Gui/Window.cpp:548
+#: src/Gui/Window.cpp:553
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
 msgstr "P&iilota luetut viestit"
 
-#: src/Gui/Window.cpp:557
+#: src/Gui/Window.cpp:562
 msgctxt "Gui::MainWindow|"
 msgid "&Compact"
 msgstr "&Tiivis"
 
-#: src/Gui/Window.cpp:561
+#: src/Gui/Window.cpp:566
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
 msgstr "Le&veä"
 
-#: src/Gui/Window.cpp:564
+#: src/Gui/Window.cpp:569
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
 msgstr "&Yksi kerrallaan"
 
-#: src/Gui/Window.cpp:569
+#: src/Gui/Window.cpp:574
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
 msgstr "Näytä vain &tilatut kansiot"
 
-#: src/Gui/Window.cpp:573
+#: src/Gui/Window.cpp:578
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
 msgstr "T&ilatut"
 
-#: src/Gui/Window.cpp:578
+#: src/Gui/Window.cpp:583
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "&Tietoa Trojitásta…"
 
-#: src/Gui/Window.cpp:581
+#: src/Gui/Window.cpp:586
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
 msgstr "Tee &lahjoitus projektille…"
 
-#: src/Gui/Window.cpp:586
+#: src/Gui/Window.cpp:591
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "Kirjoita viesti"
 
-#: src/Gui/Window.cpp:686
+#: src/Gui/Window.cpp:691
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr "&Sovellus"
 
-#: src/Gui/Window.cpp:688
+#: src/Gui/Window.cpp:693
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr "&Verkkoyhteys"
 
-#: src/Gui/Window.cpp:692
+#: src/Gui/Window.cpp:697
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "&Virheenpaikannus"
 
-#: src/Gui/Window.cpp:712
+#: src/Gui/Window.cpp:717
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "&Näkymä"
 
-#: src/Gui/Window.cpp:715
+#: src/Gui/Window.cpp:720
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "&Asettelu"
 
-#: src/Gui/Window.cpp:722
+#: src/Gui/Window.cpp:727
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "&Postikansio"
 
-#: src/Gui/Window.cpp:723
+#: src/Gui/Window.cpp:728
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "&Lajittelu"
 
-#: src/Gui/Window.cpp:745
+#: src/Gui/Window.cpp:752
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "&Viesti"
 
-#: src/Gui/Window.cpp:824
+#: src/Gui/Window.cpp:832
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "Linkin kohde: %1"
 
-#: src/Gui/Window.cpp:836
+#: src/Gui/Window.cpp:849
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "Kaikki"
 
-#: src/Gui/Window.cpp:844
+#: src/Gui/Window.cpp:857
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "IMAP-tehtävät"
 
-#: src/Gui/Window.cpp:851
+#: src/Gui/Window.cpp:864
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr "MIME-puu"
 
-#: src/Gui/Window.cpp:861
+#: src/Gui/Window.cpp:875
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "Yhteyskäytäntöloki"
 
-#: src/Gui/Window.cpp:938
+#: src/Gui/Window.cpp:954
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n seconds.."
@@ -3363,13 +3363,13 @@ msgid_plural "Attempting to reconnect in %n seconds.."
 msgstr[0] "Yritetään yhdistää uudelleen %n sekunnin kuluttua…"
 msgstr[1] "Yritetään yhdistää uudelleen %n sekunnin kuluttua…"
 
-#: src/Gui/Window.cpp:991
+#: src/Gui/Window.cpp:1007
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "&Lopeta"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1106
+#: src/Gui/Window.cpp:1122
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3378,17 +3378,17 @@ msgstr[0] " – %n lukematon viesti"
 msgstr[1] " – %n lukematonta viestiä"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1109
+#: src/Gui/Window.cpp:1125
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - ei verkossa"
 
-#: src/Gui/Window.cpp:1118 src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:1134 src/Gui/Window.cpp:2581
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1119
+#: src/Gui/Window.cpp:1135
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3398,27 +3398,27 @@ msgstr ""
 "asetuksista."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1325
+#: src/Gui/Window.cpp:1346
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "IMAP-hälytys"
 
-#: src/Gui/Window.cpp:1330
+#: src/Gui/Window.cpp:1351
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "IMAP-yhteyskäytäntövirhe"
 
-#: src/Gui/Window.cpp:1338
+#: src/Gui/Window.cpp:1359
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Verkkovirhe"
 
-#: src/Gui/Window.cpp:1359
+#: src/Gui/Window.cpp:1380
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "IMAP-välimuistivirhe"
 
-#: src/Gui/Window.cpp:1360
+#: src/Gui/Window.cpp:1381
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3432,77 +3432,77 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:1371
+#: src/Gui/Window.cpp:1392
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "Ei verkossa"
 
-#: src/Gui/Window.cpp:1417
+#: src/Gui/Window.cpp:1438
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "Ei asetettu"
 
-#: src/Gui/Window.cpp:1418
+#: src/Gui/Window.cpp:1439
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr "IMAP-tiliä ei ole asetettu. Trojitá ei tee paljonkaan ilman sellaista."
 
 # *** TARKISTA: Onko %1 ”varaston” nimi (jolloin sanajärjestystä pitäisi muuttaa) vai virheilmoitus?
-#: src/Gui/Window.cpp:1443
+#: src/Gui/Window.cpp:1464
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "Salasanan nouto varastosta epäonnistui: %1"
 
-#: src/Gui/Window.cpp:1461
+#: src/Gui/Window.cpp:1482
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "Tunnistautumista vaaditaan"
 
-#: src/Gui/Window.cpp:1462
+#: src/Gui/Window.cpp:1483
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>Anna käyttäjän <b>%1</b> IMAP-salasana palvelimeen <b>%2</b>:</p>"
 
-#: src/Gui/Window.cpp:1516
+#: src/Gui/Window.cpp:1539
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Muokkaa luonnosta"
 
-#: src/Gui/Window.cpp:1637
+#: src/Gui/Window.cpp:1666
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "Arkistointi epäonnistui"
 
-#: src/Gui/Window.cpp:1687
+#: src/Gui/Window.cpp:1716
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "Luo alikansio kansioon %1"
 
-#: src/Gui/Window.cpp:1688
+#: src/Gui/Window.cpp:1717
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "Luo ylimmän tason postikansio"
 
-#: src/Gui/Window.cpp:1715
+#: src/Gui/Window.cpp:1744
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Poista postikansio"
 
-#: src/Gui/Window.cpp:1716
+#: src/Gui/Window.cpp:1745
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "Haluatko varmasti poistaa postikansion %1?"
 
-#: src/Gui/Window.cpp:2015
+#: src/Gui/Window.cpp:2058
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Postikansiota ei voi poistaa"
 
-#: src/Gui/Window.cpp:2016
+#: src/Gui/Window.cpp:2059
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3512,12 +3512,12 @@ msgstr ""
 "Postikansion ”%1” poisto epäonnistui seuraavan virheen takia:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2021
+#: src/Gui/Window.cpp:2064
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Ei voida luoda postikansiota"
 
-#: src/Gui/Window.cpp:2022
+#: src/Gui/Window.cpp:2065
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3527,12 +3527,12 @@ msgstr ""
 "Postikansion ”%1” luominen epäonnistui seuraavan virheen takia:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2027
+#: src/Gui/Window.cpp:2070
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Postikansiota ei voi avata"
 
-#: src/Gui/Window.cpp:2028
+#: src/Gui/Window.cpp:2071
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3542,45 +3542,45 @@ msgstr ""
 "Postikansion ”%1” avaus epäonnistui seuraavan virheen takia:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2077
+#: src/Gui/Window.cpp:2120
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Linkin kohde: %1"
 
-#: src/Gui/Window.cpp:2092
+#: src/Gui/Window.cpp:2135
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "Liitännäiset"
 
-#: src/Gui/Window.cpp:2099
+#: src/Gui/Window.cpp:2142
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Salatut ja allekirjoitetut viestit"
 
-#: src/Gui/Window.cpp:2106
+#: src/Gui/Window.cpp:2149
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "IMAP-pakkaus"
 
-#: src/Gui/Window.cpp:2117
+#: src/Gui/Window.cpp:2160
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: ei tuettu</li>"
 
-#: src/Gui/Window.cpp:2118
+#: src/Gui/Window.cpp:2161
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>ei käytössä</strong></li>"
 
-#: src/Gui/Window.cpp:2176
+#: src/Gui/Window.cpp:2219
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Tiedostoon ei voi tallentaa"
 
-#: src/Gui/Window.cpp:2177
+#: src/Gui/Window.cpp:2220
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3590,63 +3590,63 @@ msgstr ""
 "Tiedostoon ei voi tallentaa. Virhe:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2182
+#: src/Gui/Window.cpp:2225
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Tallenna viesti"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2196
+#: src/Gui/Window.cpp:2241
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "Viestin lähdekoodi – UID %1 kansiossa %2"
 
-#: src/Gui/Window.cpp:2209 src/Gui/Window.cpp:2228
+#: src/Gui/Window.cpp:2256 src/Gui/Window.cpp:2278
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Sulje"
 
-#: src/Gui/Window.cpp:2211 src/Gui/Window.cpp:2230
+#: src/Gui/Window.cpp:2258 src/Gui/Window.cpp:2280
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2450
+#: src/Gui/Window.cpp:2501
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2458
+#: src/Gui/Window.cpp:2509
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Tuntematon"
 
-#: src/Gui/Window.cpp:2472
+#: src/Gui/Window.cpp:2523
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2474
+#: src/Gui/Window.cpp:2525
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Palvelin: %1 %2"
 
-#: src/Gui/Window.cpp:2476
+#: src/Gui/Window.cpp:2527
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Palvelin: %1"
 
-#: src/Gui/Window.cpp:2479
+#: src/Gui/Window.cpp:2530
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2483
+#: src/Gui/Window.cpp:2534
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -3654,41 +3654,41 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " käyttöjärjestelmässä %1 %2"
 
-#: src/Gui/Window.cpp:2485
+#: src/Gui/Window.cpp:2536
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " käyttöjärjestelmässä %1"
 
-#: src/Gui/Window.cpp:2487
+#: src/Gui/Window.cpp:2538
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2489
+#: src/Gui/Window.cpp:2540
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>IMAP-palvelin ei palauttanut käyttökelpoista tietoa itsestään.</p>"
 
-#: src/Gui/Window.cpp:2493
+#: src/Gui/Window.cpp:2544
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2495
+#: src/Gui/Window.cpp:2546
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2497
+#: src/Gui/Window.cpp:2548
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr "<p>Palvelin ei tarjonnut tietoja ohjelmaversiostaan.</p>"
 
-#: src/Gui/Window.cpp:2504
+#: src/Gui/Window.cpp:2555
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3698,7 +3698,7 @@ msgstr ""
 "%1\n"
 "<p>Seuraavat ominaisuudet on ilmoitettu:</p>"
 
-#: src/Gui/Window.cpp:2506
+#: src/Gui/Window.cpp:2557
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3708,7 +3708,7 @@ msgstr ""
 "<ul>\n"
 "%1</ul>"
 
-#: src/Gui/Window.cpp:2524
+#: src/Gui/Window.cpp:2575
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -3716,13 +3716,13 @@ msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] "%1 – %n lukematta – Trojitá"
 msgstr[1] "%1 – %n lukematta – Trojitá"
 
-#: src/Gui/Window.cpp:2527
+#: src/Gui/Window.cpp:2578
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 – Trojitá"
 
-#: src/Gui/Window.cpp:2864
+#: src/Gui/Window.cpp:2917
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
@@ -3937,12 +3937,12 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
 msgstr "[ladataan %1: %2…]"
 
-#: src/Imap/Model/Model.cpp:1069
+#: src/Imap/Model/Model.cpp:1070
 msgctxt "Imap::Mailbox::Model|"
 msgid "Going offline"
 msgstr "Poistutaan verkosta"
 
-#: src/Imap/Model/Model.cpp:1143
+#: src/Imap/Model/Model.cpp:1144
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
@@ -3950,7 +3950,7 @@ msgid ""
 msgstr ""
 "<p>Vaikuttaa siltä, että yhdistät POP3-palvelimeen. Se ei toimi tässä.</p>"
 
-#: src/Imap/Model/Model.cpp:1145
+#: src/Imap/Model/Model.cpp:1146
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
@@ -3958,7 +3958,7 @@ msgid ""
 msgstr ""
 "<p>Vaikuttaa siltä, että yhdistät SMTP-palvelimeen. Se ei toimi tässä.</p>"
 
-#: src/Imap/Model/Model.cpp:1147
+#: src/Imap/Model/Model.cpp:1148
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -3970,7 +3970,7 @@ msgstr ""
 "että yhdistät IMAP-palveluun. Tyypillinen IMAP-portin numero on 143 tai 993."
 "</p><p>Palvelin vastasi:</p><pre>%2</pre>"
 
-#: src/Imap/Model/Model.cpp:1154
+#: src/Imap/Model/Model.cpp:1155
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -3986,12 +3986,12 @@ msgstr ""
 "Tässä ovat tarkat tiedot:</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 
-#: src/Imap/Model/Model.cpp:1212
+#: src/Imap/Model/Model.cpp:1213
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
 msgstr "Ei olla yhteydessä IMAP4-palvelimeen"
 
-#: src/Imap/Model/Model.cpp:1467
+#: src/Imap/Model/Model.cpp:1468
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "Yhteys on katkeamassa määrittämättömästä syystä"
@@ -4451,7 +4451,7 @@ msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
 msgstr "querySetMessageThreading-kysely epäonnistui"
 
-#: src/Imap/Model/SystemNetworkWatcher.cpp:86
+#: src/Imap/Model/SystemNetworkWatcher.cpp:90
 msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
 msgid ""
 "Qt does not recognize any network session. Please be sure that qtbearer "

@@ -1173,7 +1173,7 @@ msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(mövzu yoxdur)"
 
-#: src/Gui/ComposeWidget.cpp:585
+#: src/Gui/ComposeWidget.cpp:587
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no subject"
@@ -1181,7 +1181,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "Məktubda mövzu yoxdur"
 
-#: src/Gui/ComposeWidget.cpp:588
+#: src/Gui/ComposeWidget.cpp:590
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The Message-ID header is missing"
@@ -1189,7 +1189,7 @@ msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "Məktubun İD başlığı çatışmır"
 
-#: src/Gui/ComposeWidget.cpp:591
+#: src/Gui/ComposeWidget.cpp:593
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no date"
@@ -1197,7 +1197,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "Məktubun tarixi yoxdur"
 
-#: src/Gui/ComposeWidget.cpp:594
+#: src/Gui/ComposeWidget.cpp:596
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Nothing in the From field"
@@ -1205,7 +1205,7 @@ msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr "\"Kimdən\" sahəsi boşdur"
 
-#: src/Gui/ComposeWidget.cpp:597
+#: src/Gui/ComposeWidget.cpp:599
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "No recipients in the To field"
@@ -1213,7 +1213,7 @@ msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr "\"Kimə\" sahəsində alıcı yoxdur"
 
-#: src/Gui/ComposeWidget.cpp:600
+#: src/Gui/ComposeWidget.cpp:602
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1227,7 +1227,7 @@ msgstr ""
 "<b>Məktub səhv tərtib olunmuş kimi görünür, göndərməzdən əvvəl onu bir daha "
 "gözdən keçirin.</b>"
 
-#: src/Gui/ComposeWidget.cpp:689
+#: src/Gui/ComposeWidget.cpp:691
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Authentication Required"
@@ -1235,7 +1235,7 @@ msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Kimlik doğrulaması tələb olunur"
 
-#: src/Gui/ComposeWidget.cpp:690
+#: src/Gui/ComposeWidget.cpp:692
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -1245,7 +1245,7 @@ msgstr ""
 "<p>Lütfən, <b>%2</b> üzərindəki <b>%1</b> istifadəçisi üçün SMTP şifrəsini "
 "yazın:</p>"
 
-#: src/Gui/ComposeWidget.cpp:724
+#: src/Gui/ComposeWidget.cpp:726
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save Draft?"
@@ -1253,7 +1253,7 @@ msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Qaralama saxlanılsın?"
 
-#: src/Gui/ComposeWidget.cpp:725
+#: src/Gui/ComposeWidget.cpp:727
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The mail has not been sent.<br>Do you want to save the draft?"
@@ -1261,7 +1261,7 @@ msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "Poçt göndərilmədi. <br>Onu qaralamada saxlamaq istəyirsiniz?"
 
-#: src/Gui/ComposeWidget.cpp:727
+#: src/Gui/ComposeWidget.cpp:729
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1275,13 +1275,13 @@ msgstr ""
 "<br><span style=\"color:red\">Xəbərdarlıq: Qoşma qaralama ilə "
 "<b>saxlanılmadı</b>"
 
-#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1514
-#: src/Gui/Window.cpp:1516
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1537
+#: src/Gui/Window.cpp:1539
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Qaralamalar"
 
-#: src/Gui/ComposeWidget.cpp:748
+#: src/Gui/ComposeWidget.cpp:750
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save as"
@@ -1289,7 +1289,7 @@ msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Belə saxlayın"
 
-#: src/Gui/ComposeWidget.cpp:749
+#: src/Gui/ComposeWidget.cpp:751
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Drafts"
@@ -1297,7 +1297,7 @@ msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Qaralamalar"
 
-#: src/Gui/ComposeWidget.cpp:778
+#: src/Gui/ComposeWidget.cpp:780
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1311,7 +1311,7 @@ msgstr ""
 "Alıcıları təhlil etmək olmur:\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:782
+#: src/Gui/ComposeWidget.cpp:784
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any recipients"
@@ -1319,7 +1319,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Siz heç bir alıcı daxil etmədiniz"
 
-#: src/Gui/ComposeWidget.cpp:790
+#: src/Gui/ComposeWidget.cpp:792
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The From: address does not look like a valid one"
@@ -1327,7 +1327,7 @@ msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "Kimdən: ünvan, düzgün ünvan kimi görünmür"
 
-#: src/Gui/ComposeWidget.cpp:797
+#: src/Gui/ComposeWidget.cpp:799
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any subject. Cannot send such a mail, sorry."
@@ -1337,7 +1337,7 @@ msgstr ""
 "Siz heç bir mövzu əlavə etmədiniz. Təəssüf ki, belə bir məktub göndərilə "
 "bilməz."
 
-#: src/Gui/ComposeWidget.cpp:829
+#: src/Gui/ComposeWidget.cpp:831
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot prepare this e-mail for sending: some parts are not available"
@@ -1345,7 +1345,7 @@ msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr "Bu e-poçt göndərilməyə hazırlana bilmir: bəzi hissələr mövcud deyil"
 
-#: src/Gui/ComposeWidget.cpp:920 src/Gui/ComposeWidget.cpp:1795
+#: src/Gui/ComposeWidget.cpp:922 src/Gui/ComposeWidget.cpp:1809
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "This mail will be marked as a response<hr/>%1"
@@ -1353,7 +1353,7 @@ msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Bu poçt cavab kimi işarələnəcək<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1098
+#: src/Gui/ComposeWidget.cpp:1100
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -1361,7 +1361,7 @@ msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Kimə"
 
-#: src/Gui/ComposeWidget.cpp:1099
+#: src/Gui/ComposeWidget.cpp:1101
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -1369,7 +1369,7 @@ msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Surəti (CC)"
 
-#: src/Gui/ComposeWidget.cpp:1100
+#: src/Gui/ComposeWidget.cpp:1102
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -1377,7 +1377,7 @@ msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Gizli Surəti (Bcc)"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1104
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-To"
@@ -1385,7 +1385,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Təkrar göndərildi"
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1105
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Cc"
@@ -1393,7 +1393,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Kopyası təkrar göndərildi-Cc"
 
-#: src/Gui/ComposeWidget.cpp:1104
+#: src/Gui/ComposeWidget.cpp:1106
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Bcc"
@@ -1401,7 +1401,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Gizli kopyası təkrar göndərildi-Bcc"
 
-#: src/Gui/ComposeWidget.cpp:1388
+#: src/Gui/ComposeWidget.cpp:1390
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -1409,7 +1409,7 @@ msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Məktub göndərilə bilmədi"
 
-#: src/Gui/ComposeWidget.cpp:1415
+#: src/Gui/ComposeWidget.cpp:1417
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Can't parse \"%1\" as an e-mail address."
@@ -1417,7 +1417,7 @@ msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "\"%1\", e-poçt kimi təhlil edilə bilmədi."
 
-#: src/Gui/ComposeWidget.cpp:1614
+#: src/Gui/ComposeWidget.cpp:1616
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Attach File..."
@@ -1425,7 +1425,7 @@ msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Fayl əlavə edin..."
 
-#: src/Gui/ComposeWidget.cpp:1796
+#: src/Gui/ComposeWidget.cpp:1810
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<br/>"
@@ -1433,7 +1433,7 @@ msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
-#: src/Gui/ComposeWidget.cpp:1839
+#: src/Gui/ComposeWidget.cpp:1853
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1441,7 +1441,7 @@ msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Məktub yazın"
 
-#: src/Gui/ComposeWidget.cpp:1841
+#: src/Gui/ComposeWidget.cpp:1855
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "%1 - Compose Mail"
@@ -1804,12 +1804,12 @@ msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageListWidget.cpp:50
+#: src/Gui/MessageListWidget.cpp:51
 msgctxt "Gui::MessageListWidget|"
 msgid "Quick Search"
 msgstr "Cəld axtarış"
 
-#: src/Gui/MessageListWidget.cpp:51
+#: src/Gui/MessageListWidget.cpp:52
 msgctxt "Gui::MessageListWidget|"
 msgid ""
 "Type in a text to search for within this mailbox. The icon on the left can "
@@ -1823,92 +1823,92 @@ msgstr ""
 "mütəxəssislər, <code>:=</code> prefiksindən istifadə edə və işlənməmiş İMAP "
 "rejiminə keçə bilərlər."
 
-#: src/Gui/MessageListWidget.cpp:56
+#: src/Gui/MessageListWidget.cpp:57
 msgctxt "Gui::MessageListWidget|"
 msgid "<query>"
 msgstr "<query>"
 
-#: src/Gui/MessageListWidget.cpp:64
+#: src/Gui/MessageListWidget.cpp:65
 msgctxt "Gui::MessageListWidget|"
 msgid "Options for the IMAP search..."
 msgstr "İMAP axtarışı üçün seçimlər..."
 
-#: src/Gui/MessageListWidget.cpp:67
+#: src/Gui/MessageListWidget.cpp:68
 msgctxt "Gui::MessageListWidget|"
 msgid "Fuzzy Search"
 msgstr "Dəqiq olmayan axtarış"
 
-#: src/Gui/MessageListWidget.cpp:70
+#: src/Gui/MessageListWidget.cpp:71
 msgctxt "Gui::MessageListWidget|"
 msgid "Subject"
 msgstr "Mövzu"
 
-#: src/Gui/MessageListWidget.cpp:73
+#: src/Gui/MessageListWidget.cpp:74
 msgctxt "Gui::MessageListWidget|"
 msgid "Body"
 msgstr "Məzmun"
 
-#: src/Gui/MessageListWidget.cpp:75
+#: src/Gui/MessageListWidget.cpp:76
 msgctxt "Gui::MessageListWidget|"
 msgid "Senders"
 msgstr "Göndərənlər"
 
-#: src/Gui/MessageListWidget.cpp:78
+#: src/Gui/MessageListWidget.cpp:79
 msgctxt "Gui::MessageListWidget|"
 msgid "Recipients"
 msgstr "Alıcılar"
 
-#: src/Gui/MessageListWidget.cpp:83
+#: src/Gui/MessageListWidget.cpp:84
 msgctxt "Gui::MessageListWidget|"
 msgid "Complex IMAP query"
 msgstr "Mürəkkəb İMAP sorğusu"
 
-#: src/Gui/MessageListWidget.cpp:85
+#: src/Gui/MessageListWidget.cpp:86
 msgctxt "Gui::MessageListWidget|"
 msgid "Not ..."
 msgstr "Bu deyil: "
 
-#: src/Gui/MessageListWidget.cpp:86
+#: src/Gui/MessageListWidget.cpp:87
 msgctxt "Gui::MessageListWidget|"
 msgid "Either... or..."
 msgstr "Ya... və ya..."
 
-#: src/Gui/MessageListWidget.cpp:88
+#: src/Gui/MessageListWidget.cpp:89
 msgctxt "Gui::MessageListWidget|"
 msgid "From sender"
 msgstr "Göndərəndən"
 
-#: src/Gui/MessageListWidget.cpp:89
+#: src/Gui/MessageListWidget.cpp:90
 msgctxt "Gui::MessageListWidget|"
 msgid "To receiver"
 msgstr "Alıcıya"
 
-#: src/Gui/MessageListWidget.cpp:91
+#: src/Gui/MessageListWidget.cpp:92
 msgctxt "Gui::MessageListWidget|"
 msgid "About subject"
 msgstr "Mövzu haqqında"
 
-#: src/Gui/MessageListWidget.cpp:92
+#: src/Gui/MessageListWidget.cpp:93
 msgctxt "Gui::MessageListWidget|"
 msgid "Message contains ..."
 msgstr "Məktub tərkibləri ..."
 
-#: src/Gui/MessageListWidget.cpp:94
+#: src/Gui/MessageListWidget.cpp:95
 msgctxt "Gui::MessageListWidget|"
 msgid "Before date"
 msgstr "Bu tarixdən əvvəl:"
 
-#: src/Gui/MessageListWidget.cpp:95
+#: src/Gui/MessageListWidget.cpp:96
 msgctxt "Gui::MessageListWidget|"
 msgid "Since date"
 msgstr "Bu tarixdən:"
 
-#: src/Gui/MessageListWidget.cpp:97
+#: src/Gui/MessageListWidget.cpp:98
 msgctxt "Gui::MessageListWidget|"
 msgid "Has been seen"
 msgstr "Burada görünən:"
 
-#: src/Gui/MessageListWidget.cpp:99
+#: src/Gui/MessageListWidget.cpp:100
 msgctxt "Gui::MessageListWidget|"
 msgid "Allow raw IMAP search"
 msgstr "İşlənməmiş İMAP axtarışına icazə verin"
@@ -3314,13 +3314,13 @@ msgctxt "Gui::MainWindow|"
 msgid "Don't ask again"
 msgstr "Yenidən soruşulmasın"
 
-#: src/Gui/Window.cpp:130
+#: src/Gui/Window.cpp:133
 msgctxt "Gui::MainWindow|"
 msgid "Plugin Error"
 msgstr "Qoşma xətası"
 
 #. The %1 placeholder is a full error message as provided by Qt, ready for human consumption.
-#: src/Gui/Window.cpp:132
+#: src/Gui/Window.cpp:135
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3335,541 +3335,541 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:234
+#: src/Gui/Window.cpp:237
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
 msgstr "Çı&xış"
 
-#: src/Gui/Window.cpp:235
+#: src/Gui/Window.cpp:238
 msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
 msgstr "Ye&ni ismarıc..."
 
-#: src/Gui/Window.cpp:236
+#: src/Gui/Window.cpp:239
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
 msgstr "Qaralamaya düzəliş &edin..."
 
-#: src/Gui/Window.cpp:237
+#: src/Gui/Window.cpp:240
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
 msgstr "Əsas menyu &paneli görünsün"
 
-#: src/Gui/Window.cpp:237
+#: src/Gui/Window.cpp:240
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+M"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Exp&unge"
 msgstr "&Təmizləyin"
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
 msgstr "Ctrl+E"
 
-#: src/Gui/Window.cpp:239
+#: src/Gui/Window.cpp:242
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
 msgstr "Oxun&muş kimi işarələyin"
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:243
 msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
 msgstr "&Növbəti oxunmamış məktub"
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:244
 msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
 msgstr "Əvvəl&ki oxunmamış məktub"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:245
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
 msgstr "Si&lmək üçün işarələyin"
 
-#: src/Gui/Window.cpp:243
+#: src/Gui/Window.cpp:246
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Flagged"
 msgstr "&Bayraqla işarələyin"
 
-#: src/Gui/Window.cpp:244
+#: src/Gui/Window.cpp:247
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Junk"
 msgstr "&Yararsız kimi işarələyin"
 
-#: src/Gui/Window.cpp:245
+#: src/Gui/Window.cpp:248
 msgctxt "Gui::MainWindow|"
 msgid "Mark as Not &junk"
 msgstr "Yara&rlı kimi işarələyin"
 
-#: src/Gui/Window.cpp:246
+#: src/Gui/Window.cpp:249
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
 msgstr "Məktubu &saxlayın..."
 
-#: src/Gui/Window.cpp:247
+#: src/Gui/Window.cpp:250
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
 msgstr "Məktub &mənbəyinə baxış..."
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
 msgstr "Məktub &başlığına baxış..."
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
 msgstr "Ctrl+U"
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
 msgstr "&Gizli cavablayın"
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
 msgstr "Ctrl+Shift+A"
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "Reply to All &but Me"
 msgstr "Məndən &başqalarını cavablayın"
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
 msgstr "Ctrl+Shift+R"
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
 msgstr "H&amsını cavablayın"
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
 msgstr "Ctrl+Alt+Shift+R"
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &Mailing List"
 msgstr "Siyahıdakıları &cavablayın"
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
 msgstr "Rast&gələ cavablayın"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
 msgstr "Ctrl+R"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
 msgstr "&İrəli"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
 msgstr "Ctrl+Shift+F"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
 msgstr "Yenidən göndərin..."
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
 msgstr "&Arxiv"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
 msgstr "Ünvan kitabçası..."
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
 msgid "&Offline"
 msgstr "&Oflayn"
 
-#: src/Gui/Window.cpp:259
+#: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
 msgstr "&Bahalı bağlantı"
 
-#: src/Gui/Window.cpp:260
+#: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
 msgstr "A&zad giriş"
 
-#: src/Gui/Window.cpp:261
+#: src/Gui/Window.cpp:264
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
 msgstr "Sərbəst məktub pəncərəsini bağlayın"
 
-#: src/Gui/Window.cpp:262
+#: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
 msgstr "Məktubu yeni pəncərədə açın..."
 
-#: src/Gui/Window.cpp:263
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
 msgstr "Geriyə hərəkət"
 
-#: src/Gui/Window.cpp:264
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
 msgstr "Miqyası böyüdün"
 
-#: src/Gui/Window.cpp:265
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
 msgstr "Miqyası kiçildin"
 
-#: src/Gui/Window.cpp:266
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
 msgstr "Orijinal ölçüsü"
 
-#: src/Gui/Window.cpp:267
+#: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
 msgstr "Diqqəti poçt qutusu siyahısına yönəldin"
 
-#: src/Gui/Window.cpp:268
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
 msgstr "Diqqəti məktub siyahısına yönəldin"
 
-#: src/Gui/Window.cpp:269
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
 msgstr "Diqqəti sürətli axtarışa yönəldin"
 
-#: src/Gui/Window.cpp:270
+#: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
 msgstr "&1-ci yarlıqla etiketləyin"
 
-#: src/Gui/Window.cpp:271
+#: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
 msgstr "&2-ci yarlıqla etiketləyin"
 
-#: src/Gui/Window.cpp:272
+#: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
 msgstr "&3-cü yarlıqla etiketləyin"
 
-#: src/Gui/Window.cpp:273
+#: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
 msgstr "&4-ci yarlıqla etiketləyin"
 
-#: src/Gui/Window.cpp:274
+#: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
 msgstr "&5-ci yarlıqla etiketləyin"
 
-#: src/Gui/Window.cpp:275
+#: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
 msgstr "&6-ci yarlıqla etiketləyin"
 
-#: src/Gui/Window.cpp:276
+#: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
 msgstr "&7-ci yarlıqla etiketləyin"
 
-#: src/Gui/Window.cpp:277
+#: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
 msgstr "&8-ci yarlıqla etiketləyin"
 
-#: src/Gui/Window.cpp:278
+#: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
 msgstr "&9-ci yarlıqla etiketləyin"
 
-#: src/Gui/Window.cpp:306
+#: src/Gui/Window.cpp:309
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
 msgstr "Naviqasiya"
 
-#: src/Gui/Window.cpp:309
+#: src/Gui/Window.cpp:312
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
 msgstr "Uşaq poçt siyahıları siyahısını &yeniləyin"
 
-#: src/Gui/Window.cpp:312
+#: src/Gui/Window.cpp:315
 msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
 msgstr "Ye&ni məktubları yoxlayın"
 
-#: src/Gui/Window.cpp:315
+#: src/Gui/Window.cpp:318
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
 msgstr "Hə&r şeyi yenidən yükləyin"
 
-#: src/Gui/Window.cpp:319
+#: src/Gui/Window.cpp:322
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
 msgstr "Tətbiqdən çıxın"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
-#: src/Gui/Window.cpp:338
+#: src/Gui/Window.cpp:341
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
 msgstr "&Tam pəncərə ağacı göstərilsin"
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
-#: src/Gui/Window.cpp:344
+#: src/Gui/Window.cpp:347
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
 msgstr "ImapTask ağacı gö&rünsün"
 
 #. a debugging tool showing the mime tree of the current message
-#: src/Gui/Window.cpp:350
+#: src/Gui/Window.cpp:353
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
 msgstr "&MİME ağacı görünsün"
 
-#: src/Gui/Window.cpp:355
+#: src/Gui/Window.cpp:358
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
 msgstr "Protokol jurna&lı görünsün"
 
 #. file to save the debug log into
-#: src/Gui/Window.cpp:361
+#: src/Gui/Window.cpp:364
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
 msgstr "Jurnalı %1 daxilinə yazın"
 
-#: src/Gui/Window.cpp:366
+#: src/Gui/Window.cpp:369
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
 msgstr "İMAP serveri məlumatları"
 
-#: src/Gui/Window.cpp:375
+#: src/Gui/Window.cpp:378
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
 msgstr "Alə&tlər paneli göstərilsin"
 
-#: src/Gui/Window.cpp:381
+#: src/Gui/Window.cpp:384
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
 msgstr "&Ayarlar..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:476
+#: src/Gui/Window.cpp:481
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
 msgstr "&Uşaq poçt qutusu yaradın..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:480
+#: src/Gui/Window.cpp:485
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
 msgstr "Ye&ni poçt qutusu yaradın..."
 
-#: src/Gui/Window.cpp:483
+#: src/Gui/Window.cpp:488
 msgctxt "Gui::MainWindow|"
 msgid "&Mark Mailbox as Read"
 msgstr "Poçt qutusunu oxunmuş kimi işa&rələyin"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:487
+#: src/Gui/Window.cpp:492
 msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
 msgstr "Poçt qutusunu &silin"
 
-#: src/Gui/Window.cpp:505
+#: src/Gui/Window.cpp:510
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
 msgstr "Məktubu söhbəvtlərdə göstərin"
 
-#: src/Gui/Window.cpp:516
+#: src/Gui/Window.cpp:521
 msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
 msgstr "&Artan"
 
-#: src/Gui/Window.cpp:519
+#: src/Gui/Window.cpp:524
 msgctxt "Gui::MainWindow|"
 msgid "&Descending"
 msgstr "A&zalan"
 
-#: src/Gui/Window.cpp:527
+#: src/Gui/Window.cpp:532
 msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
 msgstr "Çeşidlə&nməsin"
 
-#: src/Gui/Window.cpp:529
+#: src/Gui/Window.cpp:534
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
 msgstr "Söhbə&tlərə görə çeşidlənsin"
 
-#: src/Gui/Window.cpp:531
+#: src/Gui/Window.cpp:536
 msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
 msgstr "Alınmasına gö&rə"
 
-#: src/Gui/Window.cpp:533
+#: src/Gui/Window.cpp:538
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
 msgstr "&Cc (Kopyası)"
 
-#: src/Gui/Window.cpp:535
+#: src/Gui/Window.cpp:540
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
 msgstr "&Məktub başlığındakı verilənlər görə"
 
-#: src/Gui/Window.cpp:537
+#: src/Gui/Window.cpp:542
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
 msgstr "Ün&vandan"
 
-#: src/Gui/Window.cpp:539
+#: src/Gui/Window.cpp:544
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
 msgstr "1&Ölçü"
 
-#: src/Gui/Window.cpp:541
+#: src/Gui/Window.cpp:546
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
 msgstr "Mövz&u"
 
-#: src/Gui/Window.cpp:543
+#: src/Gui/Window.cpp:548
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
 msgstr "Ü&nvana"
 
-#: src/Gui/Window.cpp:548
+#: src/Gui/Window.cpp:553
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
 msgstr "Oxunmuş məktublar &görünməsin"
 
-#: src/Gui/Window.cpp:557
+#: src/Gui/Window.cpp:562
 msgctxt "Gui::MainWindow|"
 msgid "&Compact"
 msgstr "Yığ&cam"
 
-#: src/Gui/Window.cpp:561
+#: src/Gui/Window.cpp:566
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
 msgstr "&Geniş"
 
-#: src/Gui/Window.cpp:564
+#: src/Gui/Window.cpp:569
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
 msgstr "Bir d&əfəyə"
 
-#: src/Gui/Window.cpp:569
+#: src/Gui/Window.cpp:574
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
 msgstr "Yalnız ab&unəlik olan qovluqlar göstərilsin"
 
-#: src/Gui/Window.cpp:573
+#: src/Gui/Window.cpp:578
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
 msgstr "A&bunə olunmuş"
 
-#: src/Gui/Window.cpp:578
+#: src/Gui/Window.cpp:583
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "Trojitá h&aqqında..."
 
-#: src/Gui/Window.cpp:581
+#: src/Gui/Window.cpp:586
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
 msgstr "Layihəyə ma&ddi dətək verin"
 
-#: src/Gui/Window.cpp:586
+#: src/Gui/Window.cpp:591
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "Məktub yazın"
 
-#: src/Gui/Window.cpp:686
+#: src/Gui/Window.cpp:691
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr "&Tətbiq"
 
-#: src/Gui/Window.cpp:688
+#: src/Gui/Window.cpp:693
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr "Şəbə&kəyə giriş"
 
-#: src/Gui/Window.cpp:692
+#: src/Gui/Window.cpp:697
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "&Sazlama"
 
-#: src/Gui/Window.cpp:712
+#: src/Gui/Window.cpp:717
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "&Baxış"
 
-#: src/Gui/Window.cpp:715
+#: src/Gui/Window.cpp:720
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "Xar&ici görünüş"
 
-#: src/Gui/Window.cpp:722
+#: src/Gui/Window.cpp:727
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "&Poçt qutusu"
 
-#: src/Gui/Window.cpp:723
+#: src/Gui/Window.cpp:728
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "Çeşi&dləmə"
 
-#: src/Gui/Window.cpp:745
+#: src/Gui/Window.cpp:752
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "&Məktub"
 
-#: src/Gui/Window.cpp:824
+#: src/Gui/Window.cpp:832
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "Keçid hədəfi: %1"
 
-#: src/Gui/Window.cpp:836
+#: src/Gui/Window.cpp:849
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "Hər biri"
 
-#: src/Gui/Window.cpp:844
+#: src/Gui/Window.cpp:857
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "İMAP tapşırıqları"
 
-#: src/Gui/Window.cpp:851
+#: src/Gui/Window.cpp:864
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr "MİME ağacı"
 
-#: src/Gui/Window.cpp:861
+#: src/Gui/Window.cpp:875
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "Protokol jurnalı"
 
-#: src/Gui/Window.cpp:938
+#: src/Gui/Window.cpp:954
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n seconds.."
@@ -3877,13 +3877,13 @@ msgid_plural "Attempting to reconnect in %n seconds.."
 msgstr[0] "%n saniyə ərzində qoşulmağa cəhd edilir..."
 msgstr[1] "%n saniyə ərzində qoşulmağa cəhd edilir..."
 
-#: src/Gui/Window.cpp:991
+#: src/Gui/Window.cpp:1007
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "&Çıxış"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1106
+#: src/Gui/Window.cpp:1122
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3892,17 +3892,17 @@ msgstr[0] " - %n oxunmamış məktub(lar)"
 msgstr[1] " - %n oxunmamış məktub(lar)"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1109
+#: src/Gui/Window.cpp:1125
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - oflayn"
 
-#: src/Gui/Window.cpp:1118 src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:1134 src/Gui/Window.cpp:2581
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1119
+#: src/Gui/Window.cpp:1135
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3910,27 +3910,27 @@ msgid ""
 msgstr "Tətbiq, sistem treyində aktiv qalacaq. Bu, ayarlarda söndürülə bilər."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1325
+#: src/Gui/Window.cpp:1346
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "İMAP siqnalı"
 
-#: src/Gui/Window.cpp:1330
+#: src/Gui/Window.cpp:1351
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "İMAP protokol xətası"
 
-#: src/Gui/Window.cpp:1338
+#: src/Gui/Window.cpp:1359
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Şəbəkə xətası"
 
-#: src/Gui/Window.cpp:1359
+#: src/Gui/Window.cpp:1380
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "İMAP keş xətası"
 
-#: src/Gui/Window.cpp:1360
+#: src/Gui/Window.cpp:1381
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3944,79 +3944,79 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:1371
+#: src/Gui/Window.cpp:1392
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "Şəbəkədən kənar"
 
-#: src/Gui/Window.cpp:1417
+#: src/Gui/Window.cpp:1438
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "Tənzimləmə yoxdur"
 
-#: src/Gui/Window.cpp:1418
+#: src/Gui/Window.cpp:1439
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 "Heç bir İMAP hesabı ayarlanmayıb. Heç bir hesab olmadan Trojitá i şləyə "
 "bilməz."
 
-#: src/Gui/Window.cpp:1443
+#: src/Gui/Window.cpp:1464
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "Yaddaşdan şifrə alına bilmədi: %1"
 
-#: src/Gui/Window.cpp:1461
+#: src/Gui/Window.cpp:1482
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "Kimlik doğrulaması tələb olunur"
 
-#: src/Gui/Window.cpp:1462
+#: src/Gui/Window.cpp:1483
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 "<p><b>%2</b>-də/da <b>%1</b> istifadəçisi üçün İMAP şifrəsini daxil edin:</p>"
 
-#: src/Gui/Window.cpp:1516
+#: src/Gui/Window.cpp:1539
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Qaralamaya düzəliş edin"
 
-#: src/Gui/Window.cpp:1637
+#: src/Gui/Window.cpp:1666
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "Arxivə köçürülə bilmədi"
 
-#: src/Gui/Window.cpp:1687
+#: src/Gui/Window.cpp:1716
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "%1 alt qovluğu yaradın"
 
-#: src/Gui/Window.cpp:1688
+#: src/Gui/Window.cpp:1717
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "Üst səviyyəli Poçt qutusu yaradın"
 
-#: src/Gui/Window.cpp:1715
+#: src/Gui/Window.cpp:1744
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Poçt qutusunu silin"
 
-#: src/Gui/Window.cpp:1716
+#: src/Gui/Window.cpp:1745
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "%1 poçt qutusunu silmək istədiyinizə əminsiniz?"
 
-#: src/Gui/Window.cpp:2015
+#: src/Gui/Window.cpp:2058
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Poçt qutusu silinə bilmir"
 
-#: src/Gui/Window.cpp:2016
+#: src/Gui/Window.cpp:2059
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4026,12 +4026,12 @@ msgstr ""
 "\"%1\" poçt qutusunun aşağıdakı məktublarla silinməsi alınmadı:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2021
+#: src/Gui/Window.cpp:2064
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Poçt qutusu yaradıla bilmir"
 
-#: src/Gui/Window.cpp:2022
+#: src/Gui/Window.cpp:2065
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4041,12 +4041,12 @@ msgstr ""
 "Aşağıdakı məktublarla \"%1\" poçt qutusu yaradılması alınmadı:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2027
+#: src/Gui/Window.cpp:2070
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Poçt qutusu açıla bilmir"
 
-#: src/Gui/Window.cpp:2028
+#: src/Gui/Window.cpp:2071
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4056,45 +4056,45 @@ msgstr ""
 "Aşağıdakı məktublarla \"%1\" poçt qutusu açılması mümkün olmadı:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2077
+#: src/Gui/Window.cpp:2120
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Keçid hədəfi: %1"
 
-#: src/Gui/Window.cpp:2092
+#: src/Gui/Window.cpp:2135
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "Qoşmalar"
 
-#: src/Gui/Window.cpp:2099
+#: src/Gui/Window.cpp:2142
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Şifrələnmiş və imzalanmış məktublar"
 
-#: src/Gui/Window.cpp:2106
+#: src/Gui/Window.cpp:2149
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "İMAP sıxılması"
 
-#: src/Gui/Window.cpp:2117
+#: src/Gui/Window.cpp:2160
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1:dəstəklənən</li>"
 
-#: src/Gui/Window.cpp:2118
+#: src/Gui/Window.cpp:2161
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>söndürülüb</strong></li>"
 
-#: src/Gui/Window.cpp:2176
+#: src/Gui/Window.cpp:2219
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Faylda saxlanıla bilmir"
 
-#: src/Gui/Window.cpp:2177
+#: src/Gui/Window.cpp:2220
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4104,63 +4104,63 @@ msgstr ""
 "Faylda saxlamaq mümkün deyil. Xəta:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2182
+#: src/Gui/Window.cpp:2225
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Məktubu saxlayın"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2196
+#: src/Gui/Window.cpp:2241
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "%2 daxilindəki UİD %1 aid məktub mənbəsi"
 
-#: src/Gui/Window.cpp:2209 src/Gui/Window.cpp:2228
+#: src/Gui/Window.cpp:2256 src/Gui/Window.cpp:2278
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Bağlayın"
 
-#: src/Gui/Window.cpp:2211 src/Gui/Window.cpp:2230
+#: src/Gui/Window.cpp:2258 src/Gui/Window.cpp:2280
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2450
+#: src/Gui/Window.cpp:2501
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2458
+#: src/Gui/Window.cpp:2509
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Naməlum"
 
-#: src/Gui/Window.cpp:2472
+#: src/Gui/Window.cpp:2523
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2474
+#: src/Gui/Window.cpp:2525
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Server: %1 %2"
 
-#: src/Gui/Window.cpp:2476
+#: src/Gui/Window.cpp:2527
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Server: %1"
 
-#: src/Gui/Window.cpp:2479
+#: src/Gui/Window.cpp:2530
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2483
+#: src/Gui/Window.cpp:2534
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -4168,35 +4168,35 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " %1 %2 üzərində"
 
-#: src/Gui/Window.cpp:2485
+#: src/Gui/Window.cpp:2536
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " %1 üzərində"
 
-#: src/Gui/Window.cpp:2487
+#: src/Gui/Window.cpp:2538
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2489
+#: src/Gui/Window.cpp:2540
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>İMAP serveri özü haqqında faydalı məlumatları qaytarmadı.</p>"
 
-#: src/Gui/Window.cpp:2493
+#: src/Gui/Window.cpp:2544
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2495
+#: src/Gui/Window.cpp:2546
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2497
+#: src/Gui/Window.cpp:2548
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
@@ -4204,7 +4204,7 @@ msgstr ""
 "<p>Server özünün proqram təminatı versiyası haqqında informasiyanı təqdim "
 "etmədi.</p>"
 
-#: src/Gui/Window.cpp:2504
+#: src/Gui/Window.cpp:2555
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4214,7 +4214,7 @@ msgstr ""
 "%1\n"
 "<p>Hal-hazırda aşağıdakı imkanlar təklif olunur:</p>"
 
-#: src/Gui/Window.cpp:2506
+#: src/Gui/Window.cpp:2557
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4224,7 +4224,7 @@ msgstr ""
 "<ul>\n"
 "%1</ul>"
 
-#: src/Gui/Window.cpp:2524
+#: src/Gui/Window.cpp:2575
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -4232,13 +4232,13 @@ msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] "%1 - %n oxunmadı - Trojitá"
 msgstr[1] "%1 - %n oxunmadı - Trojitá"
 
-#: src/Gui/Window.cpp:2527
+#: src/Gui/Window.cpp:2578
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - Trojitá"
 
-#: src/Gui/Window.cpp:2864
+#: src/Gui/Window.cpp:2917
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
@@ -4452,12 +4452,12 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
 msgstr "[%1 yüklənir: %2...]"
 
-#: src/Imap/Model/Model.cpp:1069
+#: src/Imap/Model/Model.cpp:1070
 msgctxt "Imap::Mailbox::Model|"
 msgid "Going offline"
 msgstr "Oflayn rejimə keçilir"
 
-#: src/Imap/Model/Model.cpp:1143
+#: src/Imap/Model/Model.cpp:1144
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
@@ -4466,7 +4466,7 @@ msgstr ""
 "<p>Bu göstəriri ki, siz POP3 serverinə qoşulursunuz. Bu, burada "
 "işləməyəcəkdir.</p>"
 
-#: src/Imap/Model/Model.cpp:1145
+#: src/Imap/Model/Model.cpp:1146
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
@@ -4475,7 +4475,7 @@ msgstr ""
 "<p>Bu göztəriri ki, siz SMTP serverinə qoşulursunuz. Bu, burada "
 "işləməyəcəkdir</p>"
 
-#: src/Imap/Model/Model.cpp:1147
+#: src/Imap/Model/Model.cpp:1148
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -4487,7 +4487,7 @@ msgstr ""
 "üçün ayarları yoxlayın. Ənənəvi İMAP portu 143 və ya 993-dür.</p><p>Serverin "
 "cavabı:</p><pre>%2</pre>"
 
-#: src/Imap/Model/Model.cpp:1154
+#: src/Imap/Model/Model.cpp:1155
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -4503,12 +4503,12 @@ msgstr ""
 "Ətraflı burada:</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 
-#: src/Imap/Model/Model.cpp:1212
+#: src/Imap/Model/Model.cpp:1213
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
 msgstr "İMAP4 serveri ilə əlaqə yoxdur"
 
-#: src/Imap/Model/Model.cpp:1467
+#: src/Imap/Model/Model.cpp:1468
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "Bağlantı, bilinməyən bir səsbəbdən sona çatdı"
@@ -4991,7 +4991,7 @@ msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
 msgstr "querySetMessageThreading sorğusu alınmadı"
 
-#: src/Imap/Model/SystemNetworkWatcher.cpp:86
+#: src/Imap/Model/SystemNetworkWatcher.cpp:90
 msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
 msgid ""
 "Qt does not recognize any network session. Please be sure that qtbearer "
