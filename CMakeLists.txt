@@ -69,10 +69,10 @@ find_package(Qt5Svg REQUIRED)
 trojita_find_package(Qt5DBus "" "http://qt-project.org" "Qt5 D-Bus support" "Needed for IPC and for some plugins" WITH_DBUS)
 trojita_find_package(Qt5Test "" "http://qt-project.org" "Qt5 QTest library" "Needed for automated tests" BUILD_TESTING)
 
-trojita_find_package(KF5AkonadiContact "" "" "" "Required for building Akonadi address book plugin")
+trojita_find_package(KPim5AkonadiContact "" "" "" "Required for building Akonadi address book plugin")
 
 trojita_plugin_option(WITH_ABOOKADDRESSBOOK_PLUGIN "Build AbookAddressbook plugin" STATIC)
-trojita_plugin_option(WITH_AKONADIADDRESSBOOK_PLUGIN "Build AkonadiAddressbook plugin" KF5AkonadiContact_FOUND)
+trojita_plugin_option(WITH_AKONADIADDRESSBOOK_PLUGIN "Build AkonadiAddressbook plugin" KPim5AkonadiContact_FOUND)
 trojita_plugin_option(WITH_CLEARTEXT_PLUGIN "Build Cleartext password plugin" STATIC)
 trojita_plugin_option(WITH_QTKEYCHAIN_PLUGIN "Build Qtkeychain password plugin" "${QTKEYCHAIN_DEPENDS}")
 trojita_plugin_option(WITH_SONNET_PLUGIN "Build a plugin for spellchecking via KDE's Sonnet" "WITH_DESKTOP")
@@ -672,7 +672,7 @@ if(WITH_AKONADIADDRESSBOOK_PLUGIN)
     )
 
     trojita_add_plugin(trojita_plugin_AkonadiAddressbookPlugin WITH_AKONADIADDRESSBOOK_PLUGIN ${libAkonadiAddressbook_SOURCES})
-    target_link_libraries(trojita_plugin_AkonadiAddressbookPlugin KF5::AkonadiContact)
+    target_link_libraries(trojita_plugin_AkonadiAddressbookPlugin KPim5::AkonadiContact)
     set_property(TARGET trojita_plugin_AkonadiAddressbookPlugin APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
 endif()
 
