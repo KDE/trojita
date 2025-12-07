@@ -550,13 +550,13 @@ set_source_files_properties(${version_files}
 add_library(Common STATIC ${libCommon_SOURCES})
 set_property(TARGET Common APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
 add_dependencies(Common version)
-target_link_libraries(Common Qt5::Network)
+target_link_libraries(Common Qt::Network)
 
 add_library(AppVersion STATIC ${libAppVersion_SOURCES})
 set_property(TARGET AppVersion APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
 add_dependencies(AppVersion version)
 target_link_libraries(AppVersion Common)
-target_link_libraries(AppVersion Qt5::Core)
+target_link_libraries(AppVersion Qt::Core)
 
 if(WITH_SHARED_PLUGINS)
     add_library(Plugins SHARED ${libPlugins_SOURCES})
@@ -567,29 +567,29 @@ else()
 endif()
 set_target_properties(Plugins PROPERTIES OUTPUT_NAME trojita_plugins)
 set_property(TARGET Plugins APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
-target_link_libraries(Plugins Qt5::Core)
+target_link_libraries(Plugins Qt::Core)
 
 add_library(UiUtils STATIC ${libUiUtils_SOURCES})
 set_property(TARGET UiUtils APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
-target_link_libraries(UiUtils Plugins Common Qt5::Gui)
+target_link_libraries(UiUtils Plugins Common Qt::Gui)
 
 add_library(Streams STATIC ${libStreams_SOURCES})
 set_property(TARGET Streams APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
 if(WITH_ZLIB)
     target_link_libraries(Streams ZLIB::ZLIB)
 endif()
-target_link_libraries(Streams Qt5::Network)
+target_link_libraries(Streams Qt::Network)
 
 add_library(IPC STATIC ${libIPC_SOURCES})
 set_property(TARGET IPC APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
 if(WITH_DBUS)
-    target_link_libraries(IPC Qt5::DBus Qt5::Widgets)
+    target_link_libraries(IPC Qt::DBus Qt::Widgets)
 else()
-    target_link_libraries(IPC Qt5::Core)
+    target_link_libraries(IPC Qt::Core)
 endif()
 
 add_library(qwwsmtpclient STATIC ${libqwwsmtpclient_SOURCES})
-target_link_libraries(qwwsmtpclient Qt5::Network)
+target_link_libraries(qwwsmtpclient Qt::Network)
 
 add_library(MSA STATIC ${libMSA_SOURCES})
 set_property(TARGET MSA APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
@@ -601,7 +601,7 @@ target_link_libraries(Composer Common MSA Streams UiUtils qwwsmtpclient)
 
 add_library(Imap STATIC ${libImap_SOURCES})
 set_property(TARGET Imap APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
-target_link_libraries(Imap Common Streams UiUtils Qt5::Sql)
+target_link_libraries(Imap Common Streams UiUtils Qt::Sql)
 
 add_library(Cryptography STATIC ${libCryptography_SOURCES})
 set_property(TARGET Cryptography APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
@@ -623,7 +623,7 @@ endif()
 ## QtKeyChain plugin
 if(WITH_QTKEYCHAIN_PLUGIN)
     trojita_add_plugin(trojita_plugin_QtKeychainPasswordPlugin WITH_QTKEYCHAIN_PLUGIN src/Plugins/QtKeyChain/QtKeyChainPassword.cpp)
-    target_link_libraries(trojita_plugin_QtKeychainPasswordPlugin qt5keychain Qt5::DBus)
+    target_link_libraries(trojita_plugin_QtKeychainPasswordPlugin qt5keychain Qt::DBus)
 endif()
 
 ## AbookAddressbook plugin
@@ -641,7 +641,7 @@ if(WITH_ABOOKADDRESSBOOK_PLUGIN)
     trojita_add_plugin(trojita_plugin_AbookAddressbookPlugin WITH_ABOOKADDRESSBOOK_PLUGIN ${libAbookAddressbook_SOURCES})
     set_property(TARGET trojita_plugin_AbookAddressbookPlugin APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
 
-    target_link_libraries(trojita_plugin_AbookAddressbookPlugin Qt5::Widgets)
+    target_link_libraries(trojita_plugin_AbookAddressbookPlugin Qt::Widgets)
 
     set(be_contacts_SOURCES
         ${path_AbookAddressbook}/main.cpp
@@ -654,7 +654,7 @@ if(WITH_ABOOKADDRESSBOOK_PLUGIN)
         set_property(TARGET be.contacts APPEND PROPERTY COMPILE_DEFINITIONS QT_STATICPLUGIN)
         target_link_libraries(be.contacts trojita_plugin_AbookAddressbookPlugin)
     endif()
-    target_link_libraries(be.contacts Qt5::Widgets)
+    target_link_libraries(be.contacts Qt::Widgets)
 endif()
 
 ## AkonadiAddressbook plugin
@@ -747,7 +747,7 @@ if(BUILD_TESTING)
     set_property(TARGET test_LibMailboxSync APPEND PROPERTY INCLUDE_DIRECTORIES
         ${CMAKE_CURRENT_SOURCE_DIR}/tests
         ${CMAKE_CURRENT_SOURCE_DIR}/tests/Utils)
-    target_link_libraries(test_LibMailboxSync Imap MSA Streams Common Composer Qt5::Test)
+    target_link_libraries(test_LibMailboxSync Imap MSA Streams Common Composer Qt::Test)
 
     macro(trojita_test dir fname)
         set(test_${fname}_SOURCES tests/${dir}/test_${fname}.cpp)
@@ -767,7 +767,7 @@ if(BUILD_TESTING)
     trojita_test(Composer Composer_responses)
     target_link_libraries(test_Composer_responses)
     trojita_test(Composer Html_formatting)
-    target_link_libraries(test_Html_formatting Qt5::Widgets)
+    target_link_libraries(test_Html_formatting Qt::Widgets)
     if(WITH_WEBKIT)
         target_link_libraries(test_Html_formatting Qt5::WebKitWidgets)
     endif()
