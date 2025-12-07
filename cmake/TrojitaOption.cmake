@@ -98,11 +98,17 @@ macro(trojita_add_plugin target type)
     endif()
     set_target_properties(${target} PROPERTIES PREFIX "")
     set_property(TARGET ${target} APPEND PROPERTY COMPILE_DEFINITIONS BUILD_PLUGIN)
-    target_link_libraries(${target} Plugins)
+    target_link_libraries(${target}
+                            PUBLIC
+                                Plugins
+    )
     if (WITH_QT5)
         qt5_use_modules(${target} Core)
     else()
-        target_link_libraries(${target} ${QT_QTCORE_LIBRARY})
+        target_link_libraries(${target}
+            PUBLIC
+            ${QT_QTCORE_LIBRARY}
+        )
     endif()
 endmacro()
 
