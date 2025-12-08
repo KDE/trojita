@@ -889,8 +889,8 @@ msgstr ""
 "<br><span style=\"color:red\">تحذير: <b>لن</b> تُحفَظ المرفقات مع المسودّة!</"
 "span>"
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1537
-#: src/Gui/Window.cpp:1539
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1531
+#: src/Gui/Window.cpp:1533
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "المسودّات"
@@ -1466,17 +1466,17 @@ msgctxt "Gui::MessageSourceWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:90
+#: src/Gui/MessageView.cpp:91
 msgctxt "MessageView|"
 msgid "Search..."
 msgstr "ابحث..."
 
-#: src/Gui/MessageView.cpp:91
+#: src/Gui/MessageView.cpp:92
 msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:142
+#: src/Gui/MessageView.cpp:135
 msgctxt "MessageView|"
 msgid ""
 "Fetching\n"
@@ -1485,7 +1485,7 @@ msgstr ""
 "يجلب\n"
 "الرّسالة"
 
-#: src/Gui/MessageView.cpp:227
+#: src/Gui/MessageView.cpp:220
 msgctxt "MessageView|"
 msgid ""
 "Waiting\n"
@@ -1495,12 +1495,12 @@ msgstr ""
 "ينتظر\n"
 "الرّسالة..."
 
-#: src/Gui/MessageView.cpp:362
+#: src/Gui/MessageView.cpp:355
 msgctxt "MessageView|"
 msgid "you"
 msgstr "أنت"
 
-#: src/Gui/MessageView.cpp:369
+#: src/Gui/MessageView.cpp:362
 #, qt-format
 msgctxt "MessageView|"
 msgid ""
@@ -1512,7 +1512,7 @@ msgstr ""
 "> ...\n"
 "\n"
 
-#: src/Gui/MessageView.cpp:377
+#: src/Gui/MessageView.cpp:370
 #, qt-format
 msgctxt "MessageView|"
 msgid "On %1, %2 wrote:\n"
@@ -1861,75 +1861,63 @@ msgctxt "Gui::GeneralPage|"
 msgid "Copy"
 msgstr "انسخ"
 
-#: src/Gui/SettingsDialog.cpp:427
-msgctxt "Gui::GeneralPage|"
-msgid ""
-"<p>If enabled, Trojitá will show its homepage upon startup.</p><p>The remote "
-"server will receive the user's IP address and versions of Trojitá, the Qt "
-"library, and the underlying operating system. No private information, like "
-"account settings or IMAP server details, are collected.</p>"
-msgstr ""
-"<p>إن مُكِّن، سيُظهر تروجيتا رئيسيّته عند البدء.</p><p>الخادم البعيد سيستقبل "
-"عنوان م​إ وإصدارات تروجيتا، ومكتبة كيوت ونظام التّشغيل. لن تُجمَع أيّة معلومات "
-"شخصيّة كإعدادات الحسابات أو تفاصيل خادم IMAP.</p>"
-
-#: src/Gui/SettingsDialog.cpp:507
+#: src/Gui/SettingsDialog.cpp:501
 msgctxt "Gui::GeneralPage|"
 msgid "Add New Identity"
 msgstr "أضف هويّة جديدة"
 
-#: src/Gui/SettingsDialog.cpp:515
+#: src/Gui/SettingsDialog.cpp:509
 msgctxt "Gui::GeneralPage|"
 msgid "Edit Identity"
 msgstr "حرّر الهويّة"
 
-#: src/Gui/SettingsDialog.cpp:523
+#: src/Gui/SettingsDialog.cpp:517
 msgctxt "Gui::GeneralPage|"
 msgid "Delete Identity?"
 msgstr "أأحذف الهويّة؟"
 
-#: src/Gui/SettingsDialog.cpp:524
+#: src/Gui/SettingsDialog.cpp:518
 #, qt-format
 msgctxt "Gui::GeneralPage|"
 msgid "Are you sure you want to delete identity %1 <%2>?"
 msgstr "أمتأكّد من حذف الهويّة %1 <%2>؟"
 
-#: src/Gui/SettingsDialog.cpp:573
+#: src/Gui/SettingsDialog.cpp:566
 msgctxt "Gui::GeneralPage|"
 msgid "Please define some identities here"
 msgstr "رجاء عرّف بعض الهويّات هنا"
 
-#: src/Gui/SettingsDialog.cpp:670
+#: src/Gui/SettingsDialog.cpp:663
 msgctxt "Gui::EditFavoriteTag|"
 msgid "Select tag color"
 msgstr "اختر لون الوسم"
 
-#: src/Gui/SettingsDialog.cpp:707
+#: src/Gui/SettingsDialog.cpp:700
 msgctxt "Gui::ImapPage|"
 msgid "Network Connection"
 msgstr "اتّصال شبكيّ"
 
-#: src/Gui/SettingsDialog.cpp:708
+#: src/Gui/SettingsDialog.cpp:701
 msgctxt "Gui::ImapPage|"
 msgid "Local Process"
 msgstr "عمليّة محليّة"
 
-#: src/Gui/SettingsDialog.cpp:710
+#: src/Gui/SettingsDialog.cpp:703
 msgctxt "Gui::ImapPage|"
 msgid "No encryption"
 msgstr "لا تعمية"
 
-#: src/Gui/SettingsDialog.cpp:711
+#: src/Gui/SettingsDialog.cpp:704
 msgctxt "Gui::ImapPage|"
 msgid "Use encryption (STARTTLS)"
 msgstr "استخدم التّعمية (STARTTLS)"
 
-#: src/Gui/SettingsDialog.cpp:712
+#: src/Gui/SettingsDialog.cpp:705
 msgctxt "Gui::ImapPage|"
 msgid "Force encryption (TLS)"
 msgstr "أجبِر التّعمية (TLS)"
 
-#: src/Gui/SettingsDialog.cpp:834
+#: src/Gui/SettingsDialog.cpp:827
 msgctxt "Gui::ImapPage|"
 msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
@@ -1938,7 +1926,7 @@ msgstr ""
 "ستُحفظ كلمة السر في تخزين معمّى. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
 "الحاجة."
 
-#: src/Gui/SettingsDialog.cpp:838
+#: src/Gui/SettingsDialog.cpp:831
 msgctxt "Gui::ImapPage|"
 msgid ""
 "This password will be saved in clear text. If you do not enter password "
@@ -1947,19 +1935,19 @@ msgstr ""
 "ستُحفظ كلمة السر في نصّ صِرف. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
 "الحاجة."
 
-#: src/Gui/SettingsDialog.cpp:909
+#: src/Gui/SettingsDialog.cpp:902
 msgctxt "Gui::ImapPage|"
 msgid "The IMAP server hostname is missing here"
 msgstr "اسم مضيف خادم IMAP ناقص هنا"
 
-#: src/Gui/SettingsDialog.cpp:915
+#: src/Gui/SettingsDialog.cpp:908
 msgctxt "Gui::ImapPage|"
 msgid ""
 "The command line to the IMAP server is missing here. Perhaps you need to use "
 "SSL or TCP?"
 msgstr "سطر الأوامر إلى خادم IMAP ناقص هنا. لربّما تحتاج استخدام SSL أو TCP؟"
 
-#: src/Gui/SettingsDialog.cpp:932
+#: src/Gui/SettingsDialog.cpp:925
 #, qt-format
 msgctxt "Gui::ImapPage|"
 msgid ""
@@ -1967,7 +1955,7 @@ msgid ""
 "%1."
 msgstr "هذا المنفذ غير قياسي. المنفذ المبدئي لـ IMAP المؤمّن عبر SSL/TLS هو %1."
 
-#: src/Gui/SettingsDialog.cpp:936
+#: src/Gui/SettingsDialog.cpp:929
 #, qt-format
 msgctxt "Gui::ImapPage|"
 msgid ""
@@ -1976,44 +1964,44 @@ msgid ""
 msgstr ""
 "هذا المنفذ غير قياسي. المنفذ المبدئي لـ IMAP المؤمّن عبر STARTTLS هو %1."
 
-#: src/Gui/SettingsDialog.cpp:938
+#: src/Gui/SettingsDialog.cpp:931
 #, qt-format
 msgctxt "Gui::ImapPage|"
 msgid ""
 "This port is nonstandard. The default port for IMAP over cleartext is %1."
 msgstr "هذا المنفذ غير قياسي. المنفذ المبدئي لـ IMAP عبر النص الواضح هو %1."
 
-#: src/Gui/SettingsDialog.cpp:1046
+#: src/Gui/SettingsDialog.cpp:1039
 msgctxt "Gui::OutgoingPage|"
 msgid "Network"
 msgstr "الشّبكة"
 
-#: src/Gui/SettingsDialog.cpp:1047
+#: src/Gui/SettingsDialog.cpp:1040
 msgctxt "Gui::OutgoingPage|"
 msgid "Local sendmail-compatible"
 msgstr "محلي متوافق مع sendmail"
 
-#: src/Gui/SettingsDialog.cpp:1048
+#: src/Gui/SettingsDialog.cpp:1041
 msgctxt "Gui::OutgoingPage|"
 msgid "IMAP SENDMAIL Extension"
 msgstr "ملحق IMAP SENDMAIL"
 
-#: src/Gui/SettingsDialog.cpp:1050
+#: src/Gui/SettingsDialog.cpp:1043
 msgctxt "Gui::OutgoingPage|"
 msgid "No encryption"
 msgstr "لا تعمية"
 
-#: src/Gui/SettingsDialog.cpp:1051
+#: src/Gui/SettingsDialog.cpp:1044
 msgctxt "Gui::OutgoingPage|"
 msgid "Use encryption (STARTTLS)"
 msgstr "استخدم التّعمية (STARTTLS)"
 
-#: src/Gui/SettingsDialog.cpp:1052
+#: src/Gui/SettingsDialog.cpp:1045
 msgctxt "Gui::OutgoingPage|"
 msgid "Force encryption (TLS)"
 msgstr "أجبِر التّعمية (TLS)"
 
-#: src/Gui/SettingsDialog.cpp:1196
+#: src/Gui/SettingsDialog.cpp:1189
 msgctxt "Gui::OutgoingPage|"
 msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
@@ -2022,7 +2010,7 @@ msgstr ""
 "ستُحفظ كلمة السر في تخزين معمّى. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
 "الحاجة."
 
-#: src/Gui/SettingsDialog.cpp:1200
+#: src/Gui/SettingsDialog.cpp:1193
 msgctxt "Gui::OutgoingPage|"
 msgid ""
 "This password will be saved in clear text. If you do not enter password "
@@ -2031,17 +2019,17 @@ msgstr ""
 "ستُحفظ كلمة السر في نصّ صِرف. إن لم تدخل كلمة سرّ هنا، سيطلبها «تروجيتا» عند "
 "الحاجة."
 
-#: src/Gui/SettingsDialog.cpp:1294 src/Gui/SettingsDialog.cpp:1300
+#: src/Gui/SettingsDialog.cpp:1287 src/Gui/SettingsDialog.cpp:1293
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP server hostname is missing here"
 msgstr "اسم مضيف خادم SMTP ناقص هنا"
 
-#: src/Gui/SettingsDialog.cpp:1296
+#: src/Gui/SettingsDialog.cpp:1289
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP username is missing here"
 msgstr "اسم مستخدم SMTP ناقص هنا"
 
-#: src/Gui/SettingsDialog.cpp:1307
+#: src/Gui/SettingsDialog.cpp:1300
 msgctxt "Gui::OutgoingPage|"
 msgid "Please specify the folder name here"
 msgstr "رجاء حدّد اسم مجلّد هنا"
@@ -2071,80 +2059,45 @@ msgctxt "GeneralPage|"
 msgid "ScrollArea"
 msgstr "منطقة التّمرير"
 
-#: src/Gui/SettingsGeneralPage.ui:41
-msgctxt "GeneralPage|"
-msgid "Show Trojitá's homepage on startup"
-msgstr "أظهر رئيسيّة «تروجيتا» عند البدء"
-
-#: src/Gui/SettingsGeneralPage.ui:48
-msgctxt "GeneralPage|"
-msgid "Show plaintext e-mails instead of the HTML version"
-msgstr "أظهر البُرُد الإلكترونيّة كنصّ صِرف بدلًا من إصدار HTML"
-
-#: src/Gui/SettingsGeneralPage.ui:55
-msgctxt "GeneralPage|"
-msgid "Show system tray icon"
-msgstr "أظهر أيقونة صينيّة النّظام"
-
-#: src/Gui/SettingsGeneralPage.ui:62
+#: src/Gui/SettingsGeneralPage.ui:93
 msgctxt "GeneralPage|"
 msgid "Start minimized"
 msgstr "ابدأ مصغّرًا"
 
-#: src/Gui/SettingsGeneralPage.ui:139
+#: src/Gui/SettingsGeneralPage.ui:100
 msgctxt "GeneralPage|"
-msgid "Add"
-msgstr "أضف"
+msgid "Show plaintext e-mails instead of the HTML version"
+msgstr "أظهر البُرُد الإلكترونيّة كنصّ صِرف بدلًا من إصدار HTML"
 
-#: src/Gui/SettingsGeneralPage.ui:146
-msgctxt "GeneralPage|"
-msgid "Edit"
-msgstr "حرّر"
-
-#: src/Gui/SettingsGeneralPage.ui:153
-msgctxt "GeneralPage|"
-msgid "Delete"
-msgstr "احذف"
-
-#: src/Gui/SettingsGeneralPage.ui:167
-msgctxt "GeneralPage|"
-msgid "Addressbook"
-msgstr "دفتر العناوين"
-
-#: src/Gui/SettingsGeneralPage.ui:184
-msgctxt "GeneralPage|"
-msgid "Passwords"
-msgstr "كلمات السر"
-
-#: src/Gui/SettingsGeneralPage.ui:201
-msgctxt "GeneralPage|"
-msgid "Spell checker"
-msgstr "المدقق الإملائي"
-
-#: src/Gui/SettingsGeneralPage.ui:225
+#: src/Gui/SettingsGeneralPage.ui:112
 msgctxt "GeneralPage|"
 msgid "Automatically mark messages as read"
 msgstr "علّم الرّسائل آليًّا كمقروءة"
 
 #. To indicate that there's no delay
-#: src/Gui/SettingsGeneralPage.ui:232
+#: src/Gui/SettingsGeneralPage.ui:119
 msgctxt "GeneralPage|"
 msgid "immediately"
 msgstr "مباشرةً"
 
 #. A suffix "seconds" inside a QDoubleSpinBox for configuring a time delay. Please keep this short so that the window is reasonably narrow.
-#: src/Gui/SettingsGeneralPage.ui:235
+#: src/Gui/SettingsGeneralPage.ui:122
 msgctxt "GeneralPage|"
 msgid " s"
 msgstr " ث"
 
 #. The action will happen *after* user-provided timeout in seconds
-#: src/Gui/SettingsGeneralPage.ui:238
+#: src/Gui/SettingsGeneralPage.ui:125
 msgctxt "GeneralPage|"
 msgid "after "
 msgstr "بعد "
 
-#: src/Gui/SettingsGeneralPage.ui:256
+#: src/Gui/SettingsGeneralPage.ui:143
+msgctxt "GeneralPage|"
+msgid "Show system tray icon"
+msgstr "أظهر أيقونة صينيّة النّظام"
+
+#: src/Gui/SettingsGeneralPage.ui:150
 msgctxt "GeneralPage|"
 msgid ""
 "<html><head/><body><p>Selecting this option will include version information "
@@ -2167,12 +2120,12 @@ msgstr ""
 "والأشخاص الذين يقرؤون رسائل بريدك الإلكتروني سيظل باستطاعتهم اكتشاف أنك "
 "تستخدم (إصدارًا ما من) تروجيتا.</p></body></html>"
 
-#: src/Gui/SettingsGeneralPage.ui:259
+#: src/Gui/SettingsGeneralPage.ui:153
 msgctxt "GeneralPage|"
 msgid "Reveal Trojitá's version and platform information"
 msgstr "اكشف إصدارة «تروجيتا» ومعلومات المنصّة"
 
-#: src/Gui/SettingsGeneralPage.ui:271
+#: src/Gui/SettingsGeneralPage.ui:165
 msgctxt "GeneralPage|"
 msgid ""
 "<p>If enabled, you can set the default drag and drop action for the mailbox "
@@ -2184,10 +2137,40 @@ msgstr ""
 "</p><p>إذا عُطِّل، سيطلب تروجيتا منك كل مرة. أستطيع دائمًا تجاوز الإجراء "
 "باستخدام مفاتيح التعديل عند الإفلات (تحكم: نسخ، إزاحة: نقل).</p>"
 
-#: src/Gui/SettingsGeneralPage.ui:274
+#: src/Gui/SettingsGeneralPage.ui:168
 msgctxt "GeneralPage|"
 msgid "Default drop action for the mbox tree"
 msgstr "إجراء الإفلات المبدئي لشجرة الصناديق البريدية"
+
+#: src/Gui/SettingsGeneralPage.ui:199
+msgctxt "GeneralPage|"
+msgid "Add"
+msgstr "أضف"
+
+#: src/Gui/SettingsGeneralPage.ui:206
+msgctxt "GeneralPage|"
+msgid "Edit"
+msgstr "حرّر"
+
+#: src/Gui/SettingsGeneralPage.ui:213
+msgctxt "GeneralPage|"
+msgid "Delete"
+msgstr "احذف"
+
+#: src/Gui/SettingsGeneralPage.ui:227
+msgctxt "GeneralPage|"
+msgid "Addressbook"
+msgstr "دفتر العناوين"
+
+#: src/Gui/SettingsGeneralPage.ui:244
+msgctxt "GeneralPage|"
+msgid "Passwords"
+msgstr "كلمات السر"
+
+#: src/Gui/SettingsGeneralPage.ui:261
+msgctxt "GeneralPage|"
+msgid "Spell checker"
+msgstr "المدقق الإملائي"
 
 #: src/Gui/SettingsImapPage.ui:27
 msgctxt "ImapPage|"
@@ -2810,13 +2793,13 @@ msgctxt "Gui::MainWindow|"
 msgid "Don't ask again"
 msgstr "لا تسأل ثانيةً"
 
-#: src/Gui/Window.cpp:133
+#: src/Gui/Window.cpp:134
 msgctxt "Gui::MainWindow|"
 msgid "Plugin Error"
 msgstr "خطأ في الملحقة"
 
 #. The %1 placeholder is a full error message as provided by Qt, ready for human consumption.
-#: src/Gui/Window.cpp:135
+#: src/Gui/Window.cpp:136
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2830,541 +2813,541 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:237
+#: src/Gui/Window.cpp:238
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
 msgstr "ا&خرج"
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:239
 msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
 msgstr "رسالة &جديدة..."
 
-#: src/Gui/Window.cpp:239
+#: src/Gui/Window.cpp:240
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
 msgstr "&حرّر المسودّة..."
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
 msgstr "أظهر &شريط القوائم الرّئيسيّة"
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+M"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:242
 msgctxt "Gui::MainWindow|"
 msgid "Exp&unge"
 msgstr "ا&شَطَب"
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:242
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
 msgstr "Ctrl+E"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:243
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
 msgstr "علّم كم&قروءة"
 
-#: src/Gui/Window.cpp:243
+#: src/Gui/Window.cpp:244
 msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
 msgstr "الرّسالة غير المقروءة التّ&الية"
 
-#: src/Gui/Window.cpp:244
+#: src/Gui/Window.cpp:245
 msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
 msgstr "الرّسالة غير المقروءة السّ&بقة"
 
-#: src/Gui/Window.cpp:245
+#: src/Gui/Window.cpp:246
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
 msgstr "علّم كم&حذوفة"
 
-#: src/Gui/Window.cpp:246
+#: src/Gui/Window.cpp:247
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Flagged"
 msgstr "علِّم كـ مُعَلَّم (&F)"
 
-#: src/Gui/Window.cpp:247
+#: src/Gui/Window.cpp:248
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Junk"
 msgstr "علِّم كـ &مهمل"
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:249
 msgctxt "Gui::MainWindow|"
 msgid "Mark as Not &junk"
 msgstr "علِّم كـ ليس &مهمل"
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:250
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
 msgstr "ا&حفظ الرّسالة..."
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
 msgstr "اعرض م&صدر الرّسالة..."
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
 msgstr "اعرض &ترويسات الرّسالة..."
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
 msgstr "Ctrl+U"
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
 msgstr "ردّ &خاصّ"
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
 msgstr "Ctrl+Shift+A"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Reply to All &but Me"
 msgstr "ردّ على الكلّ ما &عداي"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
 msgstr "Ctrl+Shift+R"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
 msgstr "ردّ على ال&كلّ"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
 msgstr "Ctrl+Alt+Shift+R"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &Mailing List"
 msgstr "ردّ على القائمة ال&بريديّة"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
 msgstr "رد عن طريق &التخمين"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
 msgstr "Ctrl+R"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
 msgstr "م&رّر"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
 msgstr "Ctrl+Shift+F"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
 msgstr "أعد الإرسال..."
 
-#: src/Gui/Window.cpp:259
+#: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
 msgstr "أر&شف"
 
-#: src/Gui/Window.cpp:260
+#: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
 msgstr "كتاب العنواوين..."
 
-#: src/Gui/Window.cpp:261
+#: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "&Offline"
 msgstr "&غير متّصل"
 
-#: src/Gui/Window.cpp:262
+#: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
 msgstr "اتّصال &غالٍ"
 
-#: src/Gui/Window.cpp:263
+#: src/Gui/Window.cpp:264
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
 msgstr "نفاذ &حرّ"
 
-#: src/Gui/Window.cpp:264
+#: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
 msgstr "أغلق نافذة الرّسالة"
 
-#: src/Gui/Window.cpp:265
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
 msgstr "افتح الرسالة في نافذة جديدة..."
 
-#: src/Gui/Window.cpp:266
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
 msgstr "تنقّل للخلف"
 
-#: src/Gui/Window.cpp:267
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
 msgstr "قرّب"
 
-#: src/Gui/Window.cpp:268
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
 msgstr "بعّد"
 
-#: src/Gui/Window.cpp:269
+#: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
 msgstr "الحجم الأصليّ"
 
-#: src/Gui/Window.cpp:270
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
 msgstr "انقل التركيز إلى قائمة الصناديق البريدية"
 
-#: src/Gui/Window.cpp:271
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
 msgstr "انقل التركيز إلى قائمة الرسائل"
 
-#: src/Gui/Window.cpp:272
+#: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
 msgstr "انقل التركيز إلى البحث السريع"
 
-#: src/Gui/Window.cpp:273
+#: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
 msgstr "علِّم بـ العلامة &الأولى"
 
-#: src/Gui/Window.cpp:274
+#: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
 msgstr "علِّم بـ العلامة &الثانية"
 
-#: src/Gui/Window.cpp:275
+#: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
 msgstr "علِّم بـ العلامة &الثالثة"
 
-#: src/Gui/Window.cpp:276
+#: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
 msgstr "علِّم بـ العلامة &الرابعة"
 
-#: src/Gui/Window.cpp:277
+#: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
 msgstr "علِّم بـ العلامة &الخامسة"
 
-#: src/Gui/Window.cpp:278
+#: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
 msgstr "علِّم بـ العلامة &السادسة"
 
-#: src/Gui/Window.cpp:279
+#: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
 msgstr "علِّم بـ العلامة &السابعة"
 
-#: src/Gui/Window.cpp:280
+#: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
 msgstr "علِّم بـ العلامة &الثامنة"
 
-#: src/Gui/Window.cpp:281
+#: src/Gui/Window.cpp:282
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
 msgstr "علِّم بـ العلامة &التاسعة"
 
-#: src/Gui/Window.cpp:309
+#: src/Gui/Window.cpp:310
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
 msgstr "التّنقّل"
 
-#: src/Gui/Window.cpp:312
+#: src/Gui/Window.cpp:313
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
 msgstr "&حدّث قائمة صناديق البريد الابنة"
 
-#: src/Gui/Window.cpp:315
+#: src/Gui/Window.cpp:316
 msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
 msgstr "التمس الرّسائل ال&جديدة"
 
-#: src/Gui/Window.cpp:318
+#: src/Gui/Window.cpp:319
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
 msgstr "أ&عد تحميل كلّ شيء"
 
-#: src/Gui/Window.cpp:322
+#: src/Gui/Window.cpp:323
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
 msgstr "اخرج من التّطبيق"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
-#: src/Gui/Window.cpp:341
+#: src/Gui/Window.cpp:342
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
 msgstr "أظهر نافذة ال&شّجرة الكاملة"
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
-#: src/Gui/Window.cpp:347
+#: src/Gui/Window.cpp:348
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
 msgstr "اعرض شجرة مهام &ImapTask"
 
 #. a debugging tool showing the mime tree of the current message
-#: src/Gui/Window.cpp:353
+#: src/Gui/Window.cpp:354
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
 msgstr "اعرض شجرة &MIME"
 
-#: src/Gui/Window.cpp:358
+#: src/Gui/Window.cpp:359
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
 msgstr "اعرض س&جل البروتوكول"
 
 #. file to save the debug log into
-#: src/Gui/Window.cpp:364
+#: src/Gui/Window.cpp:365
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
 msgstr "&لِج إلى %1"
 
-#: src/Gui/Window.cpp:369
+#: src/Gui/Window.cpp:370
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
 msgstr "م&علومات خادم IMAP..."
 
-#: src/Gui/Window.cpp:378
+#: src/Gui/Window.cpp:379
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
 msgstr "أظهر &شريط الأدوات"
 
-#: src/Gui/Window.cpp:384
+#: src/Gui/Window.cpp:385
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
 msgstr "إ&عدادات..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:481
+#: src/Gui/Window.cpp:482
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
 msgstr "أنشئ صندوق بريد اب&ن..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:485
+#: src/Gui/Window.cpp:486
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
 msgstr "أنشئ صندوق بريد &جديد..."
 
-#: src/Gui/Window.cpp:488
+#: src/Gui/Window.cpp:489
 msgctxt "Gui::MainWindow|"
 msgid "&Mark Mailbox as Read"
 msgstr "&علّم صندوق البريد كمقروء"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:492
+#: src/Gui/Window.cpp:493
 msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
 msgstr "أ&زل صندوق البريد"
 
-#: src/Gui/Window.cpp:510
+#: src/Gui/Window.cpp:511
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
 msgstr "أظهر الرّسائل في &مواضيع"
 
-#: src/Gui/Window.cpp:521
+#: src/Gui/Window.cpp:522
 msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
 msgstr "ت&نازليًّا"
 
-#: src/Gui/Window.cpp:524
+#: src/Gui/Window.cpp:525
 msgctxt "Gui::MainWindow|"
 msgid "&Descending"
 msgstr "ت&صاعديًّا"
 
-#: src/Gui/Window.cpp:532
+#: src/Gui/Window.cpp:533
 msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
 msgstr "&بلا فرز"
 
-#: src/Gui/Window.cpp:534
+#: src/Gui/Window.cpp:535
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
 msgstr "مفروزة حسب الموا&ضيع"
 
-#: src/Gui/Window.cpp:536
+#: src/Gui/Window.cpp:537
 msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
 msgstr "ال&وصول"
 
-#: src/Gui/Window.cpp:538
+#: src/Gui/Window.cpp:539
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
 msgstr "&ن‌ك (نسخة كربونيّة)"
 
-#: src/Gui/Window.cpp:540
+#: src/Gui/Window.cpp:541
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
 msgstr "التّاريخ من ترويسات ال&رّسالة"
 
-#: src/Gui/Window.cpp:542
+#: src/Gui/Window.cpp:543
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
 msgstr "&من العنوان"
 
-#: src/Gui/Window.cpp:544
+#: src/Gui/Window.cpp:545
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
 msgstr "الح&جم"
 
-#: src/Gui/Window.cpp:546
+#: src/Gui/Window.cpp:547
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
 msgstr "ال&موضوع"
 
-#: src/Gui/Window.cpp:548
+#: src/Gui/Window.cpp:549
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
 msgstr "إ&لى العنوان"
 
-#: src/Gui/Window.cpp:553
+#: src/Gui/Window.cpp:554
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
 msgstr "أ&خفِ الرّسائل المقروءة"
 
-#: src/Gui/Window.cpp:562
+#: src/Gui/Window.cpp:563
 msgctxt "Gui::MainWindow|"
 msgid "&Compact"
 msgstr "مت&ضامّ"
 
-#: src/Gui/Window.cpp:566
+#: src/Gui/Window.cpp:567
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
 msgstr "&عريض"
 
-#: src/Gui/Window.cpp:569
+#: src/Gui/Window.cpp:570
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
 msgstr "&واحدة في كل مرة"
 
-#: src/Gui/Window.cpp:574
+#: src/Gui/Window.cpp:575
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
 msgstr "اعرض المجلدات الم&شترَك بها فقط"
 
-#: src/Gui/Window.cpp:578
+#: src/Gui/Window.cpp:579
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
 msgstr "&مشترك"
 
-#: src/Gui/Window.cpp:583
+#: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "&حول تروجيتا"
 
-#: src/Gui/Window.cpp:586
+#: src/Gui/Window.cpp:587
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
 msgstr "تبرّ&ع إلى المشروع"
 
-#: src/Gui/Window.cpp:591
+#: src/Gui/Window.cpp:592
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "ألّف بريدًا"
 
-#: src/Gui/Window.cpp:691
+#: src/Gui/Window.cpp:692
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr "التّ&طبيق"
 
-#: src/Gui/Window.cpp:693
+#: src/Gui/Window.cpp:694
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr "نفاذ ال&شّبكة"
 
-#: src/Gui/Window.cpp:697
+#: src/Gui/Window.cpp:698
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "ال&تّنقيح"
 
-#: src/Gui/Window.cpp:717
+#: src/Gui/Window.cpp:718
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "من&ظور"
 
-#: src/Gui/Window.cpp:720
+#: src/Gui/Window.cpp:721
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "الت&خطيط"
 
-#: src/Gui/Window.cpp:727
+#: src/Gui/Window.cpp:728
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "&صندوق البريد"
 
-#: src/Gui/Window.cpp:728
+#: src/Gui/Window.cpp:729
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "ال&فرز"
 
-#: src/Gui/Window.cpp:752
+#: src/Gui/Window.cpp:753
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "ر&سالة"
 
-#: src/Gui/Window.cpp:832
+#: src/Gui/Window.cpp:833
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "هدف الارتباط: %1"
 
-#: src/Gui/Window.cpp:849
+#: src/Gui/Window.cpp:843
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "كلّ شيء"
 
-#: src/Gui/Window.cpp:857
+#: src/Gui/Window.cpp:851
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "مهام IMAP"
 
-#: src/Gui/Window.cpp:864
+#: src/Gui/Window.cpp:858
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr "شجرة MIME"
 
-#: src/Gui/Window.cpp:875
+#: src/Gui/Window.cpp:869
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "سجل البروتوكول"
 
-#: src/Gui/Window.cpp:954
+#: src/Gui/Window.cpp:948
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n seconds.."
@@ -3376,13 +3359,13 @@ msgstr[3] "يحاول إعادة الاتّصال خلال %n ثوان.."
 msgstr[4] "يحاول إعادة الاتّصال خلال %n ثانية.."
 msgstr[5] "يحاول إعادة الاتّصال خلال %n ثانية.."
 
-#: src/Gui/Window.cpp:1007
+#: src/Gui/Window.cpp:1001
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "أ&نهِ"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1122
+#: src/Gui/Window.cpp:1116
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3395,17 +3378,17 @@ msgstr[4] " - %n رسالةً غير مقروءة"
 msgstr[5] " - %n رسالة غير مقروءة"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1125
+#: src/Gui/Window.cpp:1119
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - غير متّصل"
 
-#: src/Gui/Window.cpp:1134 src/Gui/Window.cpp:2581
+#: src/Gui/Window.cpp:1128 src/Gui/Window.cpp:2575
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "تروجيتا"
 
-#: src/Gui/Window.cpp:1135
+#: src/Gui/Window.cpp:1129
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3413,27 +3396,27 @@ msgid ""
 msgstr "سيتابع التّطبيق عمله في صينيّة النّظام. يمكن تعطيل هذا من الإعدادات."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1346
+#: src/Gui/Window.cpp:1340
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "تنبيه IMAP"
 
-#: src/Gui/Window.cpp:1351
+#: src/Gui/Window.cpp:1345
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "خطأ ميفاق IMAP"
 
-#: src/Gui/Window.cpp:1359
+#: src/Gui/Window.cpp:1353
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "خطأ شبكيّ"
 
-#: src/Gui/Window.cpp:1380
+#: src/Gui/Window.cpp:1374
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "خطأ خبيئة IMAP"
 
-#: src/Gui/Window.cpp:1381
+#: src/Gui/Window.cpp:1375
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3447,76 +3430,76 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:1392
+#: src/Gui/Window.cpp:1386
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "غير متّصل"
 
-#: src/Gui/Window.cpp:1438
+#: src/Gui/Window.cpp:1432
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "لا ضبط"
 
-#: src/Gui/Window.cpp:1439
+#: src/Gui/Window.cpp:1433
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr "لا حساب IMAP مضبوط. لن يفعل تروجيتا الكثير حيال هذا."
 
-#: src/Gui/Window.cpp:1464
+#: src/Gui/Window.cpp:1458
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "فشل استرداد كلمة السر من المتجر: %1"
 
-#: src/Gui/Window.cpp:1482
+#: src/Gui/Window.cpp:1476
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "الاستيثاق مطلوب"
 
-#: src/Gui/Window.cpp:1483
+#: src/Gui/Window.cpp:1477
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>رجاء وفّر كلمة سر IMAP للمستخدم <b>%1</b> على <b>%2</b>:</p>"
 
-#: src/Gui/Window.cpp:1539
+#: src/Gui/Window.cpp:1533
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "حرّر المسودّة"
 
-#: src/Gui/Window.cpp:1666
+#: src/Gui/Window.cpp:1660
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "فشل الأرشفة"
 
-#: src/Gui/Window.cpp:1716
+#: src/Gui/Window.cpp:1710
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "أنشئ مجلّدًا فرعيًّا من %1"
 
-#: src/Gui/Window.cpp:1717
+#: src/Gui/Window.cpp:1711
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "أنشئ صندوق بريد بمستوى أعلى"
 
-#: src/Gui/Window.cpp:1744
+#: src/Gui/Window.cpp:1738
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "احذف صندوق البريد"
 
-#: src/Gui/Window.cpp:1745
+#: src/Gui/Window.cpp:1739
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "أمتأكّد من حذف صندوق البريد %1؟"
 
-#: src/Gui/Window.cpp:2058
+#: src/Gui/Window.cpp:2052
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "تعذّر حذف صندوق البريد"
 
-#: src/Gui/Window.cpp:2059
+#: src/Gui/Window.cpp:2053
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3526,12 +3509,12 @@ msgstr ""
 "فشل حذف صندوق البريد \"%1\" بالرّسالة الآتية:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2064
+#: src/Gui/Window.cpp:2058
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "تعذّر إنشاء صندوق البريد"
 
-#: src/Gui/Window.cpp:2065
+#: src/Gui/Window.cpp:2059
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3541,12 +3524,12 @@ msgstr ""
 "فشل إنشاء صندوق البريد \"%1\" بالرّسالة الآتية:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2070
+#: src/Gui/Window.cpp:2064
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "تعذّر فتح صندوق البريد"
 
-#: src/Gui/Window.cpp:2071
+#: src/Gui/Window.cpp:2065
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3556,45 +3539,45 @@ msgstr ""
 "فشل فتح صندوق البريد \"%1\" بالرّسالة الآتية:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2120
+#: src/Gui/Window.cpp:2114
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "هدف الارتباط: %1"
 
-#: src/Gui/Window.cpp:2135
+#: src/Gui/Window.cpp:2129
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "الملحقات"
 
-#: src/Gui/Window.cpp:2142
+#: src/Gui/Window.cpp:2136
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "رسائل معمّاة وموَقَّعة"
 
-#: src/Gui/Window.cpp:2149
+#: src/Gui/Window.cpp:2143
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "ضغط IMAP"
 
-#: src/Gui/Window.cpp:2160
+#: src/Gui/Window.cpp:2154
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: مدعوم</li>"
 
-#: src/Gui/Window.cpp:2161
+#: src/Gui/Window.cpp:2155
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>معطّل</strong></li>"
 
-#: src/Gui/Window.cpp:2219
+#: src/Gui/Window.cpp:2213
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "تعذّر الحفظ إلى الملفّ"
 
-#: src/Gui/Window.cpp:2220
+#: src/Gui/Window.cpp:2214
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3604,63 +3587,63 @@ msgstr ""
 "تعذّر الحفظ إلى الملفّ. خطأ:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2225
+#: src/Gui/Window.cpp:2219
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "احفظ الرّسالة"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2241
+#: src/Gui/Window.cpp:2235
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "مصدر رسالة UID %1 في %2"
 
-#: src/Gui/Window.cpp:2256 src/Gui/Window.cpp:2278
+#: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "أغلق"
 
-#: src/Gui/Window.cpp:2258 src/Gui/Window.cpp:2280
+#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2501
+#: src/Gui/Window.cpp:2495
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2509
+#: src/Gui/Window.cpp:2503
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "مجهول"
 
-#: src/Gui/Window.cpp:2523
+#: src/Gui/Window.cpp:2517
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2525
+#: src/Gui/Window.cpp:2519
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "الخادم: %1 %2"
 
-#: src/Gui/Window.cpp:2527
+#: src/Gui/Window.cpp:2521
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "الخادم: %1"
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2524
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2534
+#: src/Gui/Window.cpp:2528
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -3668,41 +3651,41 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " على %1 %2"
 
-#: src/Gui/Window.cpp:2536
+#: src/Gui/Window.cpp:2530
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr "على %1"
 
-#: src/Gui/Window.cpp:2538
+#: src/Gui/Window.cpp:2532
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2540
+#: src/Gui/Window.cpp:2534
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>لم يرجع خادم IMAP معلومات عنه.</p>"
 
-#: src/Gui/Window.cpp:2544
+#: src/Gui/Window.cpp:2538
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2546
+#: src/Gui/Window.cpp:2540
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2548
+#: src/Gui/Window.cpp:2542
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr "<p>لم يوفّر الخادم معلومات عن إصدار برمجيّته.</p>"
 
-#: src/Gui/Window.cpp:2555
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3712,7 +3695,7 @@ msgstr ""
 "%1\n"
 "<p>الإمكانيات التالية مُعلَن عنها حاليًا:</p>"
 
-#: src/Gui/Window.cpp:2557
+#: src/Gui/Window.cpp:2551
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3722,7 +3705,7 @@ msgstr ""
 "<ul>\n"
 "%1</ul>"
 
-#: src/Gui/Window.cpp:2575
+#: src/Gui/Window.cpp:2569
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -3734,13 +3717,13 @@ msgstr[3] "%1 - %n غير مقروءة - تروجيتا"
 msgstr[4] "%1 - %n غير مقروءة - تروجيتا"
 msgstr[5] "%1 - %n غير مقروءة - تروجيتا"
 
-#: src/Gui/Window.cpp:2578
+#: src/Gui/Window.cpp:2572
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - تروجيتا"
 
-#: src/Gui/Window.cpp:2917
+#: src/Gui/Window.cpp:2997
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
@@ -5746,6 +5729,22 @@ msgstr "يحفظ كلمة السر من الملحقة %1..."
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "تعذّر حفظ كلمة السر عبر الملحقة %1"
+
+#~ msgctxt "Gui::GeneralPage|"
+#~ msgid ""
+#~ "<p>If enabled, Trojitá will show its homepage upon startup.</p><p>The "
+#~ "remote server will receive the user's IP address and versions of Trojitá, "
+#~ "the Qt library, and the underlying operating system. No private "
+#~ "information, like account settings or IMAP server details, are collected."
+#~ "</p>"
+#~ msgstr ""
+#~ "<p>إن مُكِّن، سيُظهر تروجيتا رئيسيّته عند البدء.</p><p>الخادم البعيد سيستقبل "
+#~ "عنوان م​إ وإصدارات تروجيتا، ومكتبة كيوت ونظام التّشغيل. لن تُجمَع أيّة معلومات "
+#~ "شخصيّة كإعدادات الحسابات أو تفاصيل خادم IMAP.</p>"
+
+#~ msgctxt "GeneralPage|"
+#~ msgid "Show Trojitá's homepage on startup"
+#~ msgstr "أظهر رئيسيّة «تروجيتا» عند البدء"
 
 #~ msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 #~ msgid "Sonnet (KF5)"

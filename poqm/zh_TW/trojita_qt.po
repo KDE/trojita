@@ -1117,8 +1117,8 @@ msgid ""
 msgstr ""
 "<br/><span style=\"color:red\">警告：附件並<b>不會</b>儲存在草稿中。</span>"
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1537
-#: src/Gui/Window.cpp:1539
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1531
+#: src/Gui/Window.cpp:1533
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "草稿資料夾"
@@ -1771,7 +1771,7 @@ msgctxt "Gui::MessageSourceWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:90
+#: src/Gui/MessageView.cpp:91
 #, fuzzy
 #| msgctxt "Gui::MessageHeadersWidget|"
 #| msgid "Search..."
@@ -1779,7 +1779,7 @@ msgctxt "MessageView|"
 msgid "Search..."
 msgstr "搜尋..."
 
-#: src/Gui/MessageView.cpp:91
+#: src/Gui/MessageView.cpp:92
 #, fuzzy
 #| msgctxt "Gui::MessageHeadersWidget|"
 #| msgid "Ctrl+F"
@@ -1787,7 +1787,7 @@ msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:142
+#: src/Gui/MessageView.cpp:135
 #, fuzzy
 #| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 #| msgid "Copying messages"
@@ -1797,7 +1797,7 @@ msgid ""
 "Message"
 msgstr "複製信件中"
 
-#: src/Gui/MessageView.cpp:227
+#: src/Gui/MessageView.cpp:220
 #, fuzzy
 #| msgctxt "QObject|"
 #| msgid "Waiting for encryption..."
@@ -1808,7 +1808,7 @@ msgid ""
 "Message..."
 msgstr "等待加密中..."
 
-#: src/Gui/MessageView.cpp:362
+#: src/Gui/MessageView.cpp:355
 #, fuzzy
 #| msgctxt "Gui::MessageView|"
 #| msgid "you"
@@ -1816,7 +1816,7 @@ msgctxt "MessageView|"
 msgid "you"
 msgstr "您"
 
-#: src/Gui/MessageView.cpp:369
+#: src/Gui/MessageView.cpp:362
 #, qt-format
 msgctxt "MessageView|"
 msgid ""
@@ -1825,7 +1825,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/Gui/MessageView.cpp:377
+#: src/Gui/MessageView.cpp:370
 #, fuzzy, qt-format
 #| msgctxt "Gui::MessageView|"
 #| msgid "On %1, %2 wrote:\n"
@@ -2189,50 +2189,38 @@ msgctxt "Gui::GeneralPage|"
 msgid "Copy"
 msgstr "複製到這裡"
 
-#: src/Gui/SettingsDialog.cpp:427
-msgctxt "Gui::GeneralPage|"
-msgid ""
-"<p>If enabled, Trojitá will show its homepage upon startup.</p><p>The remote "
-"server will receive the user's IP address and versions of Trojitá, the Qt "
-"library, and the underlying operating system. No private information, like "
-"account settings or IMAP server details, are collected.</p>"
-msgstr ""
-"<p>若開啟此選項，Trojitá 會在啟動時顯示首頁。</p><p>遠端伺服器會接收使用者的 "
-"IP 位址與 Trojitá、Qt 函式庫與作業系統的版本。私密的資訊，如帳號設定或 IMAP "
-"伺服器的詳情，都不會被收集與傳送出去。</p>"
-
-#: src/Gui/SettingsDialog.cpp:507
+#: src/Gui/SettingsDialog.cpp:501
 msgctxt "Gui::GeneralPage|"
 msgid "Add New Identity"
 msgstr "新增身份"
 
-#: src/Gui/SettingsDialog.cpp:515
+#: src/Gui/SettingsDialog.cpp:509
 msgctxt "Gui::GeneralPage|"
 msgid "Edit Identity"
 msgstr "編輯身份"
 
-#: src/Gui/SettingsDialog.cpp:523
+#: src/Gui/SettingsDialog.cpp:517
 msgctxt "Gui::GeneralPage|"
 msgid "Delete Identity?"
 msgstr "要刪除身分嗎？"
 
-#: src/Gui/SettingsDialog.cpp:524
+#: src/Gui/SettingsDialog.cpp:518
 #, qt-format
 msgctxt "Gui::GeneralPage|"
 msgid "Are you sure you want to delete identity %1 <%2>?"
 msgstr "您確定要刪除身份 %1 <%2> 嗎？"
 
-#: src/Gui/SettingsDialog.cpp:573
+#: src/Gui/SettingsDialog.cpp:566
 msgctxt "Gui::GeneralPage|"
 msgid "Please define some identities here"
 msgstr ""
 
-#: src/Gui/SettingsDialog.cpp:670
+#: src/Gui/SettingsDialog.cpp:663
 msgctxt "Gui::EditFavoriteTag|"
 msgid "Select tag color"
 msgstr ""
 
-#: src/Gui/SettingsDialog.cpp:707
+#: src/Gui/SettingsDialog.cpp:700
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Network Access"
@@ -2240,12 +2228,12 @@ msgctxt "Gui::ImapPage|"
 msgid "Network Connection"
 msgstr "網路存取"
 
-#: src/Gui/SettingsDialog.cpp:708
+#: src/Gui/SettingsDialog.cpp:701
 msgctxt "Gui::ImapPage|"
 msgid "Local Process"
 msgstr "本地行程"
 
-#: src/Gui/SettingsDialog.cpp:710
+#: src/Gui/SettingsDialog.cpp:703
 #, fuzzy
 #| msgctxt "Imap::SslTlsSocket|"
 #| msgid "Negotiating encryption..."
@@ -2253,7 +2241,7 @@ msgctxt "Gui::ImapPage|"
 msgid "No encryption"
 msgstr "協調加密中..."
 
-#: src/Gui/SettingsDialog.cpp:711
+#: src/Gui/SettingsDialog.cpp:704
 #, fuzzy
 #| msgctxt "QObject|"
 #| msgid "Starting encryption (STARTTLS)..."
@@ -2261,7 +2249,7 @@ msgctxt "Gui::ImapPage|"
 msgid "Use encryption (STARTTLS)"
 msgstr "啟動加密中 (STARTTLS) ..."
 
-#: src/Gui/SettingsDialog.cpp:712
+#: src/Gui/SettingsDialog.cpp:705
 #, fuzzy
 #| msgctxt "QObject|"
 #| msgid "Starting encryption (STARTTLS)..."
@@ -2269,7 +2257,7 @@ msgctxt "Gui::ImapPage|"
 msgid "Force encryption (TLS)"
 msgstr "啟動加密中 (STARTTLS) ..."
 
-#: src/Gui/SettingsDialog.cpp:834
+#: src/Gui/SettingsDialog.cpp:827
 #, fuzzy
 #| msgctxt "ImapPage|"
 #| msgid ""
@@ -2282,7 +2270,7 @@ msgid ""
 msgstr ""
 "密碼會以明碼形式存在磁碟上。如果您不輸入密碼，則 Trojitá 會在必要時提示詢問。"
 
-#: src/Gui/SettingsDialog.cpp:838
+#: src/Gui/SettingsDialog.cpp:831
 #, fuzzy
 #| msgctxt "ImapPage|"
 #| msgid ""
@@ -2295,19 +2283,19 @@ msgid ""
 msgstr ""
 "密碼會以明碼形式存在磁碟上。如果您不輸入密碼，則 Trojitá 會在必要時提示詢問。"
 
-#: src/Gui/SettingsDialog.cpp:909
+#: src/Gui/SettingsDialog.cpp:902
 msgctxt "Gui::ImapPage|"
 msgid "The IMAP server hostname is missing here"
 msgstr ""
 
-#: src/Gui/SettingsDialog.cpp:915
+#: src/Gui/SettingsDialog.cpp:908
 msgctxt "Gui::ImapPage|"
 msgid ""
 "The command line to the IMAP server is missing here. Perhaps you need to use "
 "SSL or TCP?"
 msgstr ""
 
-#: src/Gui/SettingsDialog.cpp:932
+#: src/Gui/SettingsDialog.cpp:925
 #, qt-format
 msgctxt "Gui::ImapPage|"
 msgid ""
@@ -2315,7 +2303,7 @@ msgid ""
 "%1."
 msgstr ""
 
-#: src/Gui/SettingsDialog.cpp:936
+#: src/Gui/SettingsDialog.cpp:929
 #, qt-format
 msgctxt "Gui::ImapPage|"
 msgid ""
@@ -2323,14 +2311,14 @@ msgid ""
 "%1."
 msgstr ""
 
-#: src/Gui/SettingsDialog.cpp:938
+#: src/Gui/SettingsDialog.cpp:931
 #, qt-format
 msgctxt "Gui::ImapPage|"
 msgid ""
 "This port is nonstandard. The default port for IMAP over cleartext is %1."
 msgstr ""
 
-#: src/Gui/SettingsDialog.cpp:1046
+#: src/Gui/SettingsDialog.cpp:1039
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Connection Error"
@@ -2338,17 +2326,17 @@ msgctxt "Gui::OutgoingPage|"
 msgid "Network"
 msgstr "連線錯誤"
 
-#: src/Gui/SettingsDialog.cpp:1047
+#: src/Gui/SettingsDialog.cpp:1040
 msgctxt "Gui::OutgoingPage|"
 msgid "Local sendmail-compatible"
 msgstr "本地端 sendmail 相容程式"
 
-#: src/Gui/SettingsDialog.cpp:1048
+#: src/Gui/SettingsDialog.cpp:1041
 msgctxt "Gui::OutgoingPage|"
 msgid "IMAP SENDMAIL Extension"
 msgstr "IMAP SENDMAIL 延伸"
 
-#: src/Gui/SettingsDialog.cpp:1050
+#: src/Gui/SettingsDialog.cpp:1043
 #, fuzzy
 #| msgctxt "Imap::SslTlsSocket|"
 #| msgid "Negotiating encryption..."
@@ -2356,7 +2344,7 @@ msgctxt "Gui::OutgoingPage|"
 msgid "No encryption"
 msgstr "協調加密中..."
 
-#: src/Gui/SettingsDialog.cpp:1051
+#: src/Gui/SettingsDialog.cpp:1044
 #, fuzzy
 #| msgctxt "QObject|"
 #| msgid "Starting encryption (STARTTLS)..."
@@ -2364,7 +2352,7 @@ msgctxt "Gui::OutgoingPage|"
 msgid "Use encryption (STARTTLS)"
 msgstr "啟動加密中 (STARTTLS) ..."
 
-#: src/Gui/SettingsDialog.cpp:1052
+#: src/Gui/SettingsDialog.cpp:1045
 #, fuzzy
 #| msgctxt "QObject|"
 #| msgid "Starting encryption (STARTTLS)..."
@@ -2372,7 +2360,7 @@ msgctxt "Gui::OutgoingPage|"
 msgid "Force encryption (TLS)"
 msgstr "啟動加密中 (STARTTLS) ..."
 
-#: src/Gui/SettingsDialog.cpp:1196
+#: src/Gui/SettingsDialog.cpp:1189
 #, fuzzy
 #| msgctxt "ImapPage|"
 #| msgid ""
@@ -2385,7 +2373,7 @@ msgid ""
 msgstr ""
 "密碼會以明碼形式存在磁碟上。如果您不輸入密碼，則 Trojitá 會在必要時提示詢問。"
 
-#: src/Gui/SettingsDialog.cpp:1200
+#: src/Gui/SettingsDialog.cpp:1193
 #, fuzzy
 #| msgctxt "ImapPage|"
 #| msgid ""
@@ -2398,17 +2386,17 @@ msgid ""
 msgstr ""
 "密碼會以明碼形式存在磁碟上。如果您不輸入密碼，則 Trojitá 會在必要時提示詢問。"
 
-#: src/Gui/SettingsDialog.cpp:1294 src/Gui/SettingsDialog.cpp:1300
+#: src/Gui/SettingsDialog.cpp:1287 src/Gui/SettingsDialog.cpp:1293
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP server hostname is missing here"
 msgstr ""
 
-#: src/Gui/SettingsDialog.cpp:1296
+#: src/Gui/SettingsDialog.cpp:1289
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP username is missing here"
 msgstr ""
 
-#: src/Gui/SettingsDialog.cpp:1307
+#: src/Gui/SettingsDialog.cpp:1300
 msgctxt "Gui::OutgoingPage|"
 msgid "Please specify the folder name here"
 msgstr ""
@@ -2438,86 +2426,45 @@ msgctxt "GeneralPage|"
 msgid "ScrollArea"
 msgstr "捲軸區域"
 
-#: src/Gui/SettingsGeneralPage.ui:41
-msgctxt "GeneralPage|"
-msgid "Show Trojitá's homepage on startup"
-msgstr "啟動時顯示 Trojitá 的首頁"
-
-#: src/Gui/SettingsGeneralPage.ui:48
-msgctxt "GeneralPage|"
-msgid "Show plaintext e-mails instead of the HTML version"
-msgstr "用純文字而非 HTML 顯示電子郵件"
-
-#: src/Gui/SettingsGeneralPage.ui:55
-msgctxt "GeneralPage|"
-msgid "Show system tray icon"
-msgstr ""
-
-#: src/Gui/SettingsGeneralPage.ui:62
+#: src/Gui/SettingsGeneralPage.ui:93
 msgctxt "GeneralPage|"
 msgid "Start minimized"
 msgstr ""
 
-#: src/Gui/SettingsGeneralPage.ui:139
+#: src/Gui/SettingsGeneralPage.ui:100
 msgctxt "GeneralPage|"
-msgid "Add"
-msgstr "新增"
+msgid "Show plaintext e-mails instead of the HTML version"
+msgstr "用純文字而非 HTML 顯示電子郵件"
 
-#: src/Gui/SettingsGeneralPage.ui:146
-msgctxt "GeneralPage|"
-msgid "Edit"
-msgstr "編輯"
-
-#: src/Gui/SettingsGeneralPage.ui:153
-msgctxt "GeneralPage|"
-msgid "Delete"
-msgstr "刪除"
-
-#: src/Gui/SettingsGeneralPage.ui:167
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "T&o Address"
-msgctxt "GeneralPage|"
-msgid "Addressbook"
-msgstr "收件者地址(&O)"
-
-#: src/Gui/SettingsGeneralPage.ui:184
-#, fuzzy
-#| msgctxt "Gui::XtConnectPage|"
-#| msgid "Password"
-msgctxt "GeneralPage|"
-msgid "Passwords"
-msgstr "密碼"
-
-#: src/Gui/SettingsGeneralPage.ui:201
-msgctxt "GeneralPage|"
-msgid "Spell checker"
-msgstr ""
-
-#: src/Gui/SettingsGeneralPage.ui:225
+#: src/Gui/SettingsGeneralPage.ui:112
 msgctxt "GeneralPage|"
 msgid "Automatically mark messages as read"
 msgstr ""
 
 #. To indicate that there's no delay
-#: src/Gui/SettingsGeneralPage.ui:232
+#: src/Gui/SettingsGeneralPage.ui:119
 msgctxt "GeneralPage|"
 msgid "immediately"
 msgstr ""
 
 #. A suffix "seconds" inside a QDoubleSpinBox for configuring a time delay. Please keep this short so that the window is reasonably narrow.
-#: src/Gui/SettingsGeneralPage.ui:235
+#: src/Gui/SettingsGeneralPage.ui:122
 msgctxt "GeneralPage|"
 msgid " s"
 msgstr ""
 
 #. The action will happen *after* user-provided timeout in seconds
-#: src/Gui/SettingsGeneralPage.ui:238
+#: src/Gui/SettingsGeneralPage.ui:125
 msgctxt "GeneralPage|"
 msgid "after "
 msgstr ""
 
-#: src/Gui/SettingsGeneralPage.ui:256
+#: src/Gui/SettingsGeneralPage.ui:143
+msgctxt "GeneralPage|"
+msgid "Show system tray icon"
+msgstr ""
+
+#: src/Gui/SettingsGeneralPage.ui:150
 msgctxt "GeneralPage|"
 msgid ""
 "<html><head/><body><p>Selecting this option will include version information "
@@ -2532,12 +2479,12 @@ msgid ""
 "body></html>"
 msgstr ""
 
-#: src/Gui/SettingsGeneralPage.ui:259
+#: src/Gui/SettingsGeneralPage.ui:153
 msgctxt "GeneralPage|"
 msgid "Reveal Trojitá's version and platform information"
 msgstr ""
 
-#: src/Gui/SettingsGeneralPage.ui:271
+#: src/Gui/SettingsGeneralPage.ui:165
 msgctxt "GeneralPage|"
 msgid ""
 "<p>If enabled, you can set the default drag and drop action for the mailbox "
@@ -2546,9 +2493,45 @@ msgid ""
 "move).</p>"
 msgstr ""
 
-#: src/Gui/SettingsGeneralPage.ui:274
+#: src/Gui/SettingsGeneralPage.ui:168
 msgctxt "GeneralPage|"
 msgid "Default drop action for the mbox tree"
+msgstr ""
+
+#: src/Gui/SettingsGeneralPage.ui:199
+msgctxt "GeneralPage|"
+msgid "Add"
+msgstr "新增"
+
+#: src/Gui/SettingsGeneralPage.ui:206
+msgctxt "GeneralPage|"
+msgid "Edit"
+msgstr "編輯"
+
+#: src/Gui/SettingsGeneralPage.ui:213
+msgctxt "GeneralPage|"
+msgid "Delete"
+msgstr "刪除"
+
+#: src/Gui/SettingsGeneralPage.ui:227
+#, fuzzy
+#| msgctxt "Gui::MainWindow|"
+#| msgid "T&o Address"
+msgctxt "GeneralPage|"
+msgid "Addressbook"
+msgstr "收件者地址(&O)"
+
+#: src/Gui/SettingsGeneralPage.ui:244
+#, fuzzy
+#| msgctxt "Gui::XtConnectPage|"
+#| msgid "Password"
+msgctxt "GeneralPage|"
+msgid "Passwords"
+msgstr "密碼"
+
+#: src/Gui/SettingsGeneralPage.ui:261
+msgctxt "GeneralPage|"
+msgid "Spell checker"
 msgstr ""
 
 #: src/Gui/SettingsImapPage.ui:27
@@ -3205,13 +3188,13 @@ msgctxt "Gui::MainWindow|"
 msgid "Don't ask again"
 msgstr "不要再詢問"
 
-#: src/Gui/Window.cpp:133
+#: src/Gui/Window.cpp:134
 msgctxt "Gui::MainWindow|"
 msgid "Plugin Error"
 msgstr "外掛程式錯誤"
 
 #. The %1 placeholder is a full error message as provided by Qt, ready for human consumption.
-#: src/Gui/Window.cpp:135
+#: src/Gui/Window.cpp:136
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3221,12 +3204,12 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Gui/Window.cpp:237
+#: src/Gui/Window.cpp:238
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
 msgstr "離開(&X)"
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:239
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "&Save Message..."
@@ -3234,7 +3217,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
 msgstr "儲存信件(&S)..."
 
-#: src/Gui/Window.cpp:239
+#: src/Gui/Window.cpp:240
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "&Edit draft..."
@@ -3242,17 +3225,17 @@ msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
 msgstr "編輯草稿(&E)..."
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
 msgstr "顯示主選單列(&B)"
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+M"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:242
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Exp&unge Mailbox"
@@ -3260,32 +3243,32 @@ msgctxt "Gui::MainWindow|"
 msgid "Exp&unge"
 msgstr "刪去信箱檔(&U)"
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:242
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
 msgstr "Ctrl+E"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:243
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
 msgstr "標記為已讀(&R)"
 
-#: src/Gui/Window.cpp:243
+#: src/Gui/Window.cpp:244
 msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
 msgstr "下一封未讀信件(&N)"
 
-#: src/Gui/Window.cpp:244
+#: src/Gui/Window.cpp:245
 msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
 msgstr "上一封未讀信件(&P)"
 
-#: src/Gui/Window.cpp:245
+#: src/Gui/Window.cpp:246
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
 msgstr "標記為刪除(&D)"
 
-#: src/Gui/Window.cpp:246
+#: src/Gui/Window.cpp:247
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as &Read"
@@ -3293,7 +3276,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Mark as &Flagged"
 msgstr "標記為已讀(&R)"
 
-#: src/Gui/Window.cpp:247
+#: src/Gui/Window.cpp:248
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as &Read"
@@ -3301,7 +3284,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Mark as &Junk"
 msgstr "標記為已讀(&R)"
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:249
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as &Read"
@@ -3309,82 +3292,82 @@ msgctxt "Gui::MainWindow|"
 msgid "Mark as Not &junk"
 msgstr "標記為已讀(&R)"
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:250
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
 msgstr "儲存信件(&S)..."
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
 msgstr "檢視信件源碼(&S)..."
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
 msgstr "檢視信件標頭(&H)..."
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
 msgstr "Ctrl+U"
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
 msgstr "私密回覆(&P)"
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
 msgstr "Ctrl+Shift+A"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Reply to All &but Me"
 msgstr "全部回覆，除了自己以外(&B)"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
 msgstr "Ctrl+Shift+R"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
 msgstr "全部回覆(&A)"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
 msgstr "Ctrl+Alt+Shift+R"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &Mailing List"
 msgstr "回信到信件論壇 (&M)"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
 msgstr "猜測回覆對象(&G)"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
 msgstr "Ctrl+R"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
 msgstr "傳寄(&F)"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:258
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Ctrl+Shift+A"
@@ -3392,47 +3375,47 @@ msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
 msgstr "Ctrl+Shift+A"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
 msgstr "重新傳送..."
 
-#: src/Gui/Window.cpp:259
+#: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
 msgstr "封存(&A)"
 
-#: src/Gui/Window.cpp:260
+#: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
 msgstr "通訊錄..."
 
-#: src/Gui/Window.cpp:261
+#: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "&Offline"
 msgstr "離線(&O)"
 
-#: src/Gui/Window.cpp:262
+#: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
 msgstr "昂貴連線(&E)"
 
-#: src/Gui/Window.cpp:263
+#: src/Gui/Window.cpp:264
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
 msgstr "免費存取(&F)"
 
-#: src/Gui/Window.cpp:264
+#: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
 msgstr ""
 
-#: src/Gui/Window.cpp:265
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
 msgstr ""
 
-#: src/Gui/Window.cpp:266
+#: src/Gui/Window.cpp:267
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Navigation"
@@ -3440,17 +3423,17 @@ msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
 msgstr "導覽"
 
-#: src/Gui/Window.cpp:267
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
 msgstr "放大"
 
-#: src/Gui/Window.cpp:268
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
 msgstr "縮小"
 
-#: src/Gui/Window.cpp:269
+#: src/Gui/Window.cpp:270
 #, fuzzy
 #| msgctxt "Imap::Mailbox::OpenConnectionTask|"
 #| msgid "Login failed: %1"
@@ -3458,17 +3441,17 @@ msgctxt "Gui::MainWindow|"
 msgid "Original Size"
 msgstr "登入失敗：%1"
 
-#: src/Gui/Window.cpp:270
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
 msgstr ""
 
-#: src/Gui/Window.cpp:271
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
 msgstr ""
 
-#: src/Gui/Window.cpp:272
+#: src/Gui/Window.cpp:273
 #, fuzzy
 #| msgctxt "Gui::MessageListWidget|"
 #| msgid "Fuzzy Search"
@@ -3476,90 +3459,90 @@ msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
 msgstr "模糊搜尋"
 
-#: src/Gui/Window.cpp:273
+#: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:274
+#: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:275
+#: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:276
+#: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:277
+#: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:278
+#: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:279
+#: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:280
+#: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:281
+#: src/Gui/Window.cpp:282
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:309
+#: src/Gui/Window.cpp:310
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
 msgstr "導覽"
 
-#: src/Gui/Window.cpp:312
+#: src/Gui/Window.cpp:313
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
 msgstr "更新子信箱清單(&U)"
 
-#: src/Gui/Window.cpp:315
+#: src/Gui/Window.cpp:316
 msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
 msgstr "檢查新信件(&N)"
 
-#: src/Gui/Window.cpp:318
+#: src/Gui/Window.cpp:319
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
 msgstr "重新載入所有東西(&R)"
 
-#: src/Gui/Window.cpp:322
+#: src/Gui/Window.cpp:323
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
 msgstr "離開應用程式"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
-#: src/Gui/Window.cpp:341
+#: src/Gui/Window.cpp:342
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
 msgstr "顯示完整樹狀視窗(&T)"
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
-#: src/Gui/Window.cpp:347
+#: src/Gui/Window.cpp:348
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
 msgstr "顯示 ImapTask 樹狀圖(&R)"
 
 #. a debugging tool showing the mime tree of the current message
-#: src/Gui/Window.cpp:353
+#: src/Gui/Window.cpp:354
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Show ImapTask t&ree"
@@ -3567,7 +3550,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
 msgstr "顯示 ImapTask 樹狀圖(&R)"
 
-#: src/Gui/Window.cpp:358
+#: src/Gui/Window.cpp:359
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Show IMAP protocol &log"
@@ -3576,40 +3559,40 @@ msgid "Show protocol &log"
 msgstr "顯示 IMAP 協定紀錄(&L)"
 
 #. file to save the debug log into
-#: src/Gui/Window.cpp:364
+#: src/Gui/Window.cpp:365
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
 msgstr "登入 %1(&I)"
 
-#: src/Gui/Window.cpp:369
+#: src/Gui/Window.cpp:370
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
 msgstr "IMAP 伺服器資訊(&F)..."
 
-#: src/Gui/Window.cpp:378
+#: src/Gui/Window.cpp:379
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
 msgstr "顯示工具列(&T)"
 
-#: src/Gui/Window.cpp:384
+#: src/Gui/Window.cpp:385
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
 msgstr "設定(&S)..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:481
+#: src/Gui/Window.cpp:482
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
 msgstr "建立子信箱檔(&C)..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:485
+#: src/Gui/Window.cpp:486
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
 msgstr "建立新信箱檔(&N)..."
 
-#: src/Gui/Window.cpp:488
+#: src/Gui/Window.cpp:489
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as &Read"
@@ -3618,7 +3601,7 @@ msgid "&Mark Mailbox as Read"
 msgstr "標記為已讀(&R)"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:492
+#: src/Gui/Window.cpp:493
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "&Delete Mailbox"
@@ -3626,112 +3609,112 @@ msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
 msgstr "刪除信箱檔(&D)"
 
-#: src/Gui/Window.cpp:510
+#: src/Gui/Window.cpp:511
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
 msgstr "在串列中顯示信件(&T)"
 
-#: src/Gui/Window.cpp:521
+#: src/Gui/Window.cpp:522
 msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
 msgstr "遞增(&A)"
 
-#: src/Gui/Window.cpp:524
+#: src/Gui/Window.cpp:525
 msgctxt "Gui::MainWindow|"
 msgid "&Descending"
 msgstr "遞減(&D)"
 
-#: src/Gui/Window.cpp:532
+#: src/Gui/Window.cpp:533
 msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
 msgstr "不排序(&N)"
 
-#: src/Gui/Window.cpp:534
+#: src/Gui/Window.cpp:535
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
 msgstr "依串列排序(&T)"
 
-#: src/Gui/Window.cpp:536
+#: src/Gui/Window.cpp:537
 msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
 msgstr "抵達時間(&R)"
 
-#: src/Gui/Window.cpp:538
+#: src/Gui/Window.cpp:539
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
 msgstr "複本(&C)"
 
-#: src/Gui/Window.cpp:540
+#: src/Gui/Window.cpp:541
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
 msgstr "信件標頭的日期(&M)"
 
-#: src/Gui/Window.cpp:542
+#: src/Gui/Window.cpp:543
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
 msgstr "寄件者地址(&F)"
 
-#: src/Gui/Window.cpp:544
+#: src/Gui/Window.cpp:545
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
 msgstr "大小(&S)"
 
-#: src/Gui/Window.cpp:546
+#: src/Gui/Window.cpp:547
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
 msgstr "主旨(&U)"
 
-#: src/Gui/Window.cpp:548
+#: src/Gui/Window.cpp:549
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
 msgstr "收件者地址(&O)"
 
-#: src/Gui/Window.cpp:553
+#: src/Gui/Window.cpp:554
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
 msgstr "隱藏已讀信件(&H)"
 
-#: src/Gui/Window.cpp:562
+#: src/Gui/Window.cpp:563
 msgctxt "Gui::MainWindow|"
 msgid "&Compact"
 msgstr "簡潔模式(&C)"
 
-#: src/Gui/Window.cpp:566
+#: src/Gui/Window.cpp:567
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
 msgstr "寬廣模式(&W)"
 
-#: src/Gui/Window.cpp:569
+#: src/Gui/Window.cpp:570
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
 msgstr ""
 
-#: src/Gui/Window.cpp:574
+#: src/Gui/Window.cpp:575
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
 msgstr "只顯示已訂閱的資料夾(&U)"
 
-#: src/Gui/Window.cpp:578
+#: src/Gui/Window.cpp:579
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
 msgstr "已訂閱(&B)"
 
-#: src/Gui/Window.cpp:583
+#: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "關於 Trojitá(&A)..."
 
-#: src/Gui/Window.cpp:586
+#: src/Gui/Window.cpp:587
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
 msgstr "捐款給此專案(&D)"
 
-#: src/Gui/Window.cpp:591
+#: src/Gui/Window.cpp:592
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "撰寫郵件"
 
-#: src/Gui/Window.cpp:691
+#: src/Gui/Window.cpp:692
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Exit the application"
@@ -3739,27 +3722,27 @@ msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr "離開應用程式"
 
-#: src/Gui/Window.cpp:693
+#: src/Gui/Window.cpp:694
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr "網路存取(&N)"
 
-#: src/Gui/Window.cpp:697
+#: src/Gui/Window.cpp:698
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "除錯(&D)"
 
-#: src/Gui/Window.cpp:717
+#: src/Gui/Window.cpp:718
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "檢視(&V)"
 
-#: src/Gui/Window.cpp:720
+#: src/Gui/Window.cpp:721
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "佈局(&L)"
 
-#: src/Gui/Window.cpp:727
+#: src/Gui/Window.cpp:728
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "&Mailbox"
@@ -3767,12 +3750,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "信箱(&M)"
 
-#: src/Gui/Window.cpp:728
+#: src/Gui/Window.cpp:729
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "排序(&O)"
 
-#: src/Gui/Window.cpp:752
+#: src/Gui/Window.cpp:753
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Save Message"
@@ -3780,13 +3763,13 @@ msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "儲存信件"
 
-#: src/Gui/Window.cpp:832
+#: src/Gui/Window.cpp:833
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "連結目標：%1"
 
-#: src/Gui/Window.cpp:849
+#: src/Gui/Window.cpp:843
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "&Reload Everything"
@@ -3794,7 +3777,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "重新載入所有東西(&R)"
 
-#: src/Gui/Window.cpp:857
+#: src/Gui/Window.cpp:851
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "IMAP Password"
@@ -3802,12 +3785,12 @@ msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "IMAP 密碼"
 
-#: src/Gui/Window.cpp:864
+#: src/Gui/Window.cpp:858
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr ""
 
-#: src/Gui/Window.cpp:875
+#: src/Gui/Window.cpp:869
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Show IMAP protocol &log"
@@ -3815,20 +3798,20 @@ msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "顯示 IMAP 協定紀錄(&L)"
 
-#: src/Gui/Window.cpp:954
+#: src/Gui/Window.cpp:948
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n seconds.."
 msgid_plural "Attempting to reconnect in %n seconds.."
 msgstr[0] ""
 
-#: src/Gui/Window.cpp:1007
+#: src/Gui/Window.cpp:1001
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr ""
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1122
+#: src/Gui/Window.cpp:1116
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 #| msgid "Copying messages"
@@ -3838,7 +3821,7 @@ msgid_plural " - %n unread message(s)"
 msgstr[0] "複製信件中"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1125
+#: src/Gui/Window.cpp:1119
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Offline"
@@ -3846,12 +3829,12 @@ msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr "離線"
 
-#: src/Gui/Window.cpp:1134 src/Gui/Window.cpp:2581
+#: src/Gui/Window.cpp:1128 src/Gui/Window.cpp:2575
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1135
+#: src/Gui/Window.cpp:1129
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3859,12 +3842,12 @@ msgid ""
 msgstr ""
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1346
+#: src/Gui/Window.cpp:1340
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "IMAP 警告"
 
-#: src/Gui/Window.cpp:1351
+#: src/Gui/Window.cpp:1345
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "IMAP Protocol"
@@ -3872,7 +3855,7 @@ msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "IMAP 協定"
 
-#: src/Gui/Window.cpp:1359
+#: src/Gui/Window.cpp:1353
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Connection Error"
@@ -3880,12 +3863,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "連線錯誤"
 
-#: src/Gui/Window.cpp:1380
+#: src/Gui/Window.cpp:1374
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "IMAP 快取錯誤"
 
-#: src/Gui/Window.cpp:1381
+#: src/Gui/Window.cpp:1375
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3898,12 +3881,12 @@ msgstr ""
 "所有的快取功能都將被關閉。\n"
 "%1"
 
-#: src/Gui/Window.cpp:1392
+#: src/Gui/Window.cpp:1386
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "離線"
 
-#: src/Gui/Window.cpp:1438
+#: src/Gui/Window.cpp:1432
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Navigation"
@@ -3911,12 +3894,12 @@ msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "導覽"
 
-#: src/Gui/Window.cpp:1439
+#: src/Gui/Window.cpp:1433
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 
-#: src/Gui/Window.cpp:1464
+#: src/Gui/Window.cpp:1458
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Failed to create directory %1"
@@ -3924,12 +3907,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "建立目錄 %1 失敗"
 
-#: src/Gui/Window.cpp:1482
+#: src/Gui/Window.cpp:1476
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr ""
 
-#: src/Gui/Window.cpp:1483
+#: src/Gui/Window.cpp:1477
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Please provide password for %1 on %2:"
@@ -3937,12 +3920,12 @@ msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "請提供 %1 於 %2 上的密碼："
 
-#: src/Gui/Window.cpp:1539
+#: src/Gui/Window.cpp:1533
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "編輯草稿"
 
-#: src/Gui/Window.cpp:1666
+#: src/Gui/Window.cpp:1660
 #, fuzzy
 #| msgctxt "Imap::Mailbox::SQLCache|"
 #| msgid "Failed to verify version"
@@ -3950,34 +3933,34 @@ msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "檢查版本失敗"
 
-#: src/Gui/Window.cpp:1716
+#: src/Gui/Window.cpp:1710
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "建立 %1 的子資料夾"
 
-#: src/Gui/Window.cpp:1717
+#: src/Gui/Window.cpp:1711
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "建立頂層信箱檔"
 
-#: src/Gui/Window.cpp:1744
+#: src/Gui/Window.cpp:1738
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "刪除信箱檔"
 
-#: src/Gui/Window.cpp:1745
+#: src/Gui/Window.cpp:1739
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "您確定要刪除信箱 %1 嗎？"
 
-#: src/Gui/Window.cpp:2058
+#: src/Gui/Window.cpp:2052
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "無法刪除信箱檔"
 
-#: src/Gui/Window.cpp:2059
+#: src/Gui/Window.cpp:2053
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3987,12 +3970,12 @@ msgstr ""
 "刪除信箱檔 \"%1\" 失敗，錯誤訊息：\n"
 "%2"
 
-#: src/Gui/Window.cpp:2064
+#: src/Gui/Window.cpp:2058
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "無法建立信箱檔"
 
-#: src/Gui/Window.cpp:2065
+#: src/Gui/Window.cpp:2059
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4002,7 +3985,7 @@ msgstr ""
 "建立信箱檔 \"%1\" 失敗，錯誤訊息：\n"
 "%2"
 
-#: src/Gui/Window.cpp:2070
+#: src/Gui/Window.cpp:2064
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Can't delete mailbox"
@@ -4010,7 +3993,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "無法刪除信箱檔"
 
-#: src/Gui/Window.cpp:2071
+#: src/Gui/Window.cpp:2065
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid ""
@@ -4024,18 +4007,18 @@ msgstr ""
 "刪除信箱檔 \"%1\" 失敗，錯誤訊息：\n"
 "%2"
 
-#: src/Gui/Window.cpp:2120
+#: src/Gui/Window.cpp:2114
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "連結目標：%1"
 
-#: src/Gui/Window.cpp:2135
+#: src/Gui/Window.cpp:2129
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr ""
 
-#: src/Gui/Window.cpp:2142
+#: src/Gui/Window.cpp:2136
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -4043,7 +4026,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "已簽署信件"
 
-#: src/Gui/Window.cpp:2149
+#: src/Gui/Window.cpp:2143
 #, fuzzy
 #| msgctxt "QObject|"
 #| msgid "Activating compression..."
@@ -4051,7 +4034,7 @@ msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "啟動加密中..."
 
-#: src/Gui/Window.cpp:2160
+#: src/Gui/Window.cpp:2154
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "<li>%1: %2</li>"
@@ -4059,13 +4042,13 @@ msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2161
+#: src/Gui/Window.cpp:2155
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2219
+#: src/Gui/Window.cpp:2213
 #, fuzzy
 #| msgctxt "Gui::AttachmentView|"
 #| msgid "Can't save attachment"
@@ -4073,7 +4056,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "無法儲存附件"
 
-#: src/Gui/Window.cpp:2220
+#: src/Gui/Window.cpp:2214
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid ""
@@ -4087,63 +4070,63 @@ msgstr ""
 "無法儲存附件。錯誤：\n"
 "%1"
 
-#: src/Gui/Window.cpp:2225
+#: src/Gui/Window.cpp:2219
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "儲存信件"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2241
+#: src/Gui/Window.cpp:2235
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "%2 裡 UID 為 %1 的信件源碼"
 
-#: src/Gui/Window.cpp:2256 src/Gui/Window.cpp:2278
+#: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "關閉"
 
-#: src/Gui/Window.cpp:2258 src/Gui/Window.cpp:2280
+#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2501
+#: src/Gui/Window.cpp:2495
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2509
+#: src/Gui/Window.cpp:2503
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "未知"
 
-#: src/Gui/Window.cpp:2523
+#: src/Gui/Window.cpp:2517
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2525
+#: src/Gui/Window.cpp:2519
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "伺服器：%1 %2"
 
-#: src/Gui/Window.cpp:2527
+#: src/Gui/Window.cpp:2521
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "伺服器：%1"
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2524
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2534
+#: src/Gui/Window.cpp:2528
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -4151,41 +4134,41 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " 於 %1 %2"
 
-#: src/Gui/Window.cpp:2536
+#: src/Gui/Window.cpp:2530
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " 於 %1"
 
-#: src/Gui/Window.cpp:2538
+#: src/Gui/Window.cpp:2532
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2540
+#: src/Gui/Window.cpp:2534
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p> IMAP 伺服器並未傳回關於它自己的資訊。</p>"
 
-#: src/Gui/Window.cpp:2544
+#: src/Gui/Window.cpp:2538
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2546
+#: src/Gui/Window.cpp:2540
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2548
+#: src/Gui/Window.cpp:2542
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr "<p>伺服器未提供關於它自己軟體版本的資訊。</p>"
 
-#: src/Gui/Window.cpp:2555
+#: src/Gui/Window.cpp:2549
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid ""
@@ -4201,7 +4184,7 @@ msgstr ""
 "<ul>\n"
 "%2</ul>"
 
-#: src/Gui/Window.cpp:2557
+#: src/Gui/Window.cpp:2551
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "<ul>%1</ul>"
@@ -4211,7 +4194,7 @@ msgid ""
 "%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2575
+#: src/Gui/Window.cpp:2569
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "%1 - %2 unread - Trojitá"
@@ -4220,13 +4203,13 @@ msgid "%1 - %n unread - Trojitá"
 msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] "%1 - %2 未讀 -  Trojitá"
 
-#: src/Gui/Window.cpp:2578
+#: src/Gui/Window.cpp:2572
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - Trojitá"
 
-#: src/Gui/Window.cpp:2917
+#: src/Gui/Window.cpp:2997
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
@@ -6470,6 +6453,22 @@ msgstr ""
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr ""
+
+#~ msgctxt "Gui::GeneralPage|"
+#~ msgid ""
+#~ "<p>If enabled, Trojitá will show its homepage upon startup.</p><p>The "
+#~ "remote server will receive the user's IP address and versions of Trojitá, "
+#~ "the Qt library, and the underlying operating system. No private "
+#~ "information, like account settings or IMAP server details, are collected."
+#~ "</p>"
+#~ msgstr ""
+#~ "<p>若開啟此選項，Trojitá 會在啟動時顯示首頁。</p><p>遠端伺服器會接收使用者"
+#~ "的 IP 位址與 Trojitá、Qt 函式庫與作業系統的版本。私密的資訊，如帳號設定或 "
+#~ "IMAP 伺服器的詳情，都不會被收集與傳送出去。</p>"
+
+#~ msgctxt "GeneralPage|"
+#~ msgid "Show Trojitá's homepage on startup"
+#~ msgstr "啟動時顯示 Trojitá 的首頁"
 
 #, fuzzy
 #~| msgctxt "Imap::Mailbox::MessageComposer|"
