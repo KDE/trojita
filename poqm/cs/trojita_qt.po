@@ -5141,11 +5141,11 @@ msgstr ""
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
 #, fuzzy
-#| msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
-#| msgid "Sonnet (KF5)"
+#| msgctxt "Streams::SslTlsSocket|"
+#| msgid "Connected"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr "Sonnet (KF5)"
+msgstr "Připojen"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
@@ -5470,7 +5470,3 @@ msgstr "Ukládání hesel z modulu %1..."
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "Heslo nelze uložit pomocí modulu %1"
-
-#~ msgctxt "GeneralPage|"
-#~ msgid "Show Trojitá's homepage on startup"
-#~ msgstr "Zobrazit domovskou stránku aplikace Trojitá při spuštění"
