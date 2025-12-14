@@ -114,19 +114,24 @@ endmacro()
 
 # trojita_find_package(package version url description purpose [options...])
 macro(trojita_find_package package version url description purpose)
-    set(type OPTIONAL)
+    set(trojita_package_type OPTIONAL)
     foreach(arg ${ARGN})
         if("${${arg}}" STREQUAL "ON" OR "${arg}" STREQUAL REQUIRED)
             message(STATUS "Package ${package} is required because of ${arg}")
-            set(type REQUIRED)
+            set(trojita_package_type REQUIRED)
         endif()
     endforeach()
-    if ("${type}" STREQUAL REQUIRED)
+    if ("${trojita_package_type}" STREQUAL REQUIRED)
         find_package(${package} ${version} REQUIRED)
     else()
         find_package(${package} ${version})
     endif()
-    set_package_properties(${package} PROPERTIES URL "${url}" DESCRIPTION "${description}" TYPE ${type} PURPOSE "${purpose}")
+    set_package_properties(${package} PROPERTIES
+        URL "${url}"
+        DESCRIPTION "${description}"
+        TYPE ${trojita_package_type}
+        PURPOSE "${purpose}"
+    )
     if(NOT ${package}_FOUND)
         foreach(arg ${ARGN})
             if("${${arg}}" STREQUAL "AUTO")
