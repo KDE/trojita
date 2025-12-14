@@ -2704,7 +2704,7 @@ void MainWindow::saveSizesAndState()
     if (key.isEmpty())
         return;
 
-    m_settings->setValue(Common::SettingsNames::settingsVersion, 1);
+    m_settings->setValue(Common::SettingsNames::settingsVersion, 2);
 
     m_settings->beginGroup(key.arg(QString::number(geometry.width())));
 
