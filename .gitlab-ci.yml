@@ -3,6 +3,7 @@ include:
     file:
       # Re-enable when ported to QtWebEngine
       #- /gitlab-templates/linux.yml
+      - /gitlab-templates/linux-qt6-next.yml
       - /gitlab-templates/xml-lint.yml
 
 # This should go again, if we got rid of QtWebkit
@@ -17,7 +18,7 @@ build_fedora:
   script:
     - mkdir -p build && cd build
     # Avoid the akonadi addressbook plugin to not make things bigger for now
-    - cmake -GNinja -DWITH_AKONADIADDRESSBOOK_PLUGIN=FALSE -DWITH_QTKEYCHAIN_PLUGIN=TRUE -DWITH_RAGEL=TRUE -DWITH_SONNET_PLUGIN=TRUE ..
+    - cmake -GNinja -DWITH_AKONADIADDRESSBOOK_PLUGIN=FALSE -DBUILD_WITH_QT6=FALSE -DWITH_QTKEYCHAIN_PLUGIN=TRUE -DWITH_RAGEL=TRUE -DWITH_SONNET_PLUGIN=TRUE ..
     - ninja
     # Can't load the xcb platform plugin in the container, guess it would need
     # a xserver, so just use the vnc one.

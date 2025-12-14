@@ -34,7 +34,6 @@ include(TrojitaOption)
 # ECMPoQMTools includes QtVersionOption which creates an option to build against either
 # Qt 5 og Qt 6 if QT_MAJOR_VERSION is not set. This should be removed once Trojitá is
 # ready to build against Qt 6.
-set(QT_MAJOR_VERSION 5)
 include(ECMPoQmTools)
 
 trojita_option(WITH_DESKTOP "Build desktop version" ON)
@@ -57,22 +56,36 @@ else()
     set(QTKEYCHAIN_DEPENDS "")
 endif()
 
-find_package(Qt5Core 5.15 REQUIRED)
-find_package(Qt5Gui REQUIRED)
-find_package(Qt5Network REQUIRED)
-find_package(Qt5Sql REQUIRED)
-
-trojita_find_package(Qt5WebKitWidgets "" "" "Qt5 Webkit" "Required for displaying mail contents" WITH_WEBKIT)
-
-find_package(Qt5Widgets REQUIRED)
-find_package(Qt5Svg REQUIRED)
-trojita_find_package(Qt5DBus "" "http://qt-project.org" "Qt5 D-Bus support" "Needed for IPC and for some plugins" WITH_DBUS)
-trojita_find_package(Qt5Test "" "http://qt-project.org" "Qt5 QTest library" "Needed for automated tests" BUILD_TESTING)
-
-trojita_find_package(KPim5AkonadiContact "" "" "" "Required for building Akonadi address book plugin")
+if(BUILD_WITH_QT6)
+    find_package(Qt6 6.7 REQUIRED
+        COMPONENTS
+            Core
+            Core5Compat
+            DBus
+            Network
+            Sql
+            Svg
+            Test
+            Widgets
+    )
+    trojita_find_package(Qt6WebKitWidgets "" "" "Qt6 Webkit" "Required for displaying mail contents" WITH_WEBKIT)
+    trojita_find_package(KPim6AkonadiContactCore "" "" "" "Required for building Akonadi address book plugin")
+    trojita_plugin_option(WITH_AKONADIADDRESSBOOK_PLUGIN "Build AkonadiAddressbook plugin" KPim6AkonadiContactCore_FOUND)
+else()
+    find_package(Qt5Core 5.15 REQUIRED)
+    find_package(Qt5Gui REQUIRED)
+    find_package(Qt5Network REQUIRED)
+    find_package(Qt5Sql REQUIRED)
+    find_package(Qt5Widgets REQUIRED)
+    find_package(Qt5Svg REQUIRED)
+    trojita_find_package(Qt5DBus "" "http://qt-project.org" "Qt5 D-Bus support" "Needed for IPC and for some plugins" WITH_DBUS)
+    trojita_find_package(Qt5Test "" "http://qt-project.org" "Qt5 QTest library" "Needed for automated tests" BUILD_TESTING)
+    trojita_find_package(Qt5WebKitWidgets "" "" "Qt5 Webkit" "Required for displaying mail contents" WITH_WEBKIT)
+    trojita_find_package(KPim5AkonadiContact "" "" "" "Required for building Akonadi address book plugin")
+    trojita_plugin_option(WITH_AKONADIADDRESSBOOK_PLUGIN "Build AkonadiAddressbook plugin" KPim5AkonadiContact_FOUND)
+endif()
 
 trojita_plugin_option(WITH_ABOOKADDRESSBOOK_PLUGIN "Build AbookAddressbook plugin" STATIC)
-trojita_plugin_option(WITH_AKONADIADDRESSBOOK_PLUGIN "Build AkonadiAddressbook plugin" KPim5AkonadiContact_FOUND)
 trojita_plugin_option(WITH_CLEARTEXT_PLUGIN "Build Cleartext password plugin" STATIC)
 trojita_plugin_option(WITH_QTKEYCHAIN_PLUGIN "Build Qtkeychain password plugin" "${QTKEYCHAIN_DEPENDS}")
 trojita_plugin_option(WITH_SONNET_PLUGIN "Build a plugin for spellchecking via KDE's Sonnet" "WITH_DESKTOP")
@@ -81,7 +94,11 @@ trojita_find_package(Git "" "" "" "")
 
 trojita_find_package(Mimetic "" "http://www.codesink.org/mimetic_mime_library.html" "C++ MIME Library" "Required for client-side MIME parsing" WITH_MIMETIC)
 trojita_find_package(Gpgmepp "1.8.0" "https://gnupg.org/related_software/gpgme/index.html" "C++ bindings for gpgme" "Needed for encrypted/signed e-mails" WITH_GPGMEPP)
-trojita_find_package(QGpgme "1.8.0" "https://gnupg.org/related_software/gpgme/index.html" "Qt bindings for gpgme" "Needed for encrypted/signed e-mails" WITH_GPGMEPP)
+if(Qt6_FOUND)
+    trojita_find_package(QGpgmeQt6 "1.24.0" "https://gnupg.org/related_software/gpgme/index.html" "Qt 6 bindings for gpgme" "Needed for encrypted/signed e-mails" WITH_GPGMEPP)
+else()
+    trojita_find_package(QGpgme "1.8.0" "https://gnupg.org/related_software/gpgme/index.html" "Qt bindings for gpgme" "Needed for encrypted/signed e-mails" WITH_GPGMEPP)
+endif()
 trojita_option(WITH_CRYPTO_MESSAGES "Enable support for encrypted messages" AUTO "WITH_MIMETIC;WITH_GPGMEPP")
 
 if(WIN32)
@@ -99,14 +116,23 @@ if(WIN32)
     endif()
 endif()
 
-trojita_find_package(Qt5Keychain QUIET "https://github.com/frankosterfeld/qtkeychain" "QtKeychain library (Qt5 version)" "Needed for QtKeychain password plugin" WITH_QTKEYCHAIN_PLUGIN)
-if(Qt5Keychain_FOUND OR QtKeychain_FOUND)
-    message(STATUS "Found QtKeychain library (includes at ${QTKEYCHAIN_INCLUDE_DIRS}, lib at ${QTKEYCHAIN_LIBRARIES})")
+if(Qt6_FOUND)
+    trojita_find_package(Qt6Keychain QUIET "https://github.com/frankosterfeld/qtkeychain" "QtKeychain library (Qt6 version)" "Needed for QtKeychain password plugin" WITH_QTKEYCHAIN_PLUGIN)
+    trojita_find_package(KF6Sonnet "" "https://projects.kde.org/projects/frameworks/sonnet" "Qt5 Spell Checking Library from KDE" "Spell checking support" WITH_SONNET_PLUGIN)
+    if(Qt6Keychain_FOUND OR QtKeychain_FOUND)
+        message(STATUS "Found QtKeychain library (includes at ${QTKEYCHAIN_INCLUDE_DIRS}, lib at ${QTKEYCHAIN_LIBRARIES})")
+    else()
+        message(STATUS "Could not find QtKeychain library")
+    endif()
 else()
-    message(STATUS "Could not find QtKeychain library")
+    trojita_find_package(Qt5Keychain QUIET "https://github.com/frankosterfeld/qtkeychain" "QtKeychain library (Qt5 version)" "Needed for QtKeychain password plugin" WITH_QTKEYCHAIN_PLUGIN)
+    trojita_find_package(KF5Sonnet "" "https://projects.kde.org/projects/frameworks/sonnet" "Qt5 Spell Checking Library from KDE" "Spell checking support" WITH_SONNET_PLUGIN)
+    if(Qt5Keychain_FOUND OR QtKeychain_FOUND)
+        message(STATUS "Found QtKeychain library (includes at ${QTKEYCHAIN_INCLUDE_DIRS}, lib at ${QTKEYCHAIN_LIBRARIES})")
+    else()
+        message(STATUS "Could not find QtKeychain library")
+    endif()
 endif()
-
-trojita_find_package(KF5Sonnet "" "https://projects.kde.org/projects/frameworks/sonnet" "Qt5 Spell Checking Library from KDE" "Spell checking support" WITH_SONNET_PLUGIN)
 
 if(NOT DEFINED CMAKE_INSTALL_LIBDIR)
     set(CMAKE_INSTALL_LIBDIR "lib${LIB_SUFFIX}")
@@ -667,6 +693,13 @@ target_link_libraries(Imap
         Streams
 )
 
+if(Qt6_FOUND)
+    target_link_libraries(Imap
+        PUBLIC
+            Qt::Core5Compat
+    )
+endif()
+
 add_library(Cryptography STATIC ${libCryptography_SOURCES})
 set_property(TARGET Cryptography APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
 target_link_libraries(Cryptography
@@ -686,11 +719,19 @@ if(WITH_MIMETIC)
 endif()
 if(WITH_CRYPTO_MESSAGES)
     if(WITH_GPGMEPP)
-        target_link_libraries(Cryptography
-            PRIVATE
-                Gpgmepp
-                QGpgme
-        )
+        if(Qt6_FOUND)
+            target_link_libraries(Cryptography
+                PRIVATE
+                    Gpgmepp
+                    QGpgmeQt6
+            )
+        else()
+            target_link_libraries(Cryptography
+                PRIVATE
+                    Gpgmepp
+                    QGpgme
+            )
+        endif()
     endif()
 endif()
 
@@ -702,10 +743,17 @@ endif()
 ## QtKeyChain plugin
 if(WITH_QTKEYCHAIN_PLUGIN)
     trojita_add_plugin(trojita_plugin_QtKeychainPasswordPlugin WITH_QTKEYCHAIN_PLUGIN src/Plugins/QtKeyChain/QtKeyChainPassword.cpp)
-    target_link_libraries(trojita_plugin_QtKeychainPasswordPlugin
-        PRIVATE
-            qt5keychain
-    )
+    if(Qt6_FOUND)
+        target_link_libraries(trojita_plugin_QtKeychainPasswordPlugin
+            PRIVATE
+                qt6keychain
+        )
+    else()
+        target_link_libraries(trojita_plugin_QtKeychainPasswordPlugin
+            PRIVATE
+                qt5keychain
+        )
+    endif()
 endif()
 
 ## AbookAddressbook plugin
@@ -766,20 +814,33 @@ if(WITH_AKONADIADDRESSBOOK_PLUGIN)
     )
 
     trojita_add_plugin(trojita_plugin_AkonadiAddressbookPlugin WITH_AKONADIADDRESSBOOK_PLUGIN ${libAkonadiAddressbook_SOURCES})
-    target_link_libraries(trojita_plugin_AkonadiAddressbookPlugin
-        PUBLIC
-            KPim5::AkonadiContact
-    )
+    if(Qt6_FOUND)
+        target_link_libraries(trojita_plugin_AkonadiAddressbookPlugin
+            PUBLIC
+                KPim6::AkonadiContactCore)
+    else()
+        target_link_libraries(trojita_plugin_AkonadiAddressbookPlugin
+            PUBLIC
+                KPim5::AkonadiContact)
+    endif()
     set_property(TARGET trojita_plugin_AkonadiAddressbookPlugin APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
 endif()
 
 if(WITH_SONNET_PLUGIN)
     trojita_add_plugin(trojita_plugin_Sonnet WITH_SONNET_PLUGIN src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp)
     set_property(TARGET trojita_plugin_Sonnet APPEND PROPERTY COMPILE_DEFINITIONS QT_NO_CAST_FROM_ASCII QT_NO_CAST_TO_ASCII)
-    target_link_libraries(trojita_plugin_Sonnet
-        PRIVATE
+    if(Qt6_FOUND)
+        target_link_libraries(trojita_plugin_Sonnet
+            PRIVATE
+                KF6::SonnetCore
+                KF6::SonnetUi
+        )
+    else()
+        target_link_libraries(trojita_plugin_Sonnet
+            PRIVATE
             KF5::SonnetUi
-    )
+        )
+    endif()
 endif()
 
 # Generate file static_plugins.h.in
@@ -812,11 +873,16 @@ if(WITH_DESKTOP)
             UiUtils
     )
 
-    if(WITH_WEBKIT)
+    if(WITH_WEBKIT AND Qt5WebKitWidgets_FOUND)
         target_link_libraries(DesktopGui
             PUBLIC
                 Qt5::WebKitWidgets
         )
+    elseif(WITH_WEBKIT AND Qt6WebKitWidgets_FOUND)
+        target_link_libraries(DesktopGui
+            PUBLIC
+                Qt6::WebKitWidgets
+    )
     endif()
 
     ecm_create_qm_loader(trojita_desktop_SOURCES trojita_qt)
@@ -914,10 +980,15 @@ if(BUILD_TESTING)
         PRIVATE
             Qt::Widgets
     )
-    if(WITH_WEBKIT)
+    if(WITH_WEBKIT AND Qt5WebKitWidgets_FOUND)
         target_link_libraries(test_Html_formatting
             PRIVATE
                 Qt5::WebKitWidgets
+        )
+    elseif(WITH_WEBKIT AND Qt6WebKitWidgets_FOUND)
+        target_link_libraries(test_Html_formatting
+            PRIVATE
+                Qt6::WebKitWidgets
         )
     endif()
     trojita_test(Imap Imap_DisappearingMailboxes)
