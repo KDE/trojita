@@ -1284,69 +1284,69 @@ msgctxt "MailBoxTreeView|"
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: src/Gui/main.cpp:62
+#: src/Gui/main.cpp:88
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
 msgstr ""
 "Trojitá %1: un client ràpid de correu electrònic IMAP que fa ús de les Qt"
 
-#: src/Gui/main.cpp:67
+#: src/Gui/main.cpp:93
 msgctxt "QObject|"
 msgid "Show addressbook window."
 msgstr "Mostra la finestra de la llibreta d'adreces."
 
-#: src/Gui/main.cpp:71
+#: src/Gui/main.cpp:97
 msgctxt "QObject|"
 msgid "Compose new e-mail (default when url is provided)."
 msgstr ""
 "Edita un correu electrònic nou (de manera predeterminada quan es proporciona "
 "l'URL)."
 
-#: src/Gui/main.cpp:75
+#: src/Gui/main.cpp:101
 msgctxt "QObject|"
 msgid "Activate debug traffic logging to disk by default."
 msgstr "Activa el registre de depuració del trànsit en el disc predeterminat."
 
-#: src/Gui/main.cpp:79
+#: src/Gui/main.cpp:105
 msgctxt "QObject|"
 msgid "Show main window (default when no option is provided)."
 msgstr ""
 "Mostra la finestra principal (de manera predeterminada quan no es "
 "proporciona cap opció)."
 
-#: src/Gui/main.cpp:83
+#: src/Gui/main.cpp:109
 msgctxt "QObject|"
 msgid "Set profile."
 msgstr "Estableix el perfil."
 
-#: src/Gui/main.cpp:83
+#: src/Gui/main.cpp:109
 msgctxt "QObject|"
 msgid "profile"
 msgstr "perfil"
 
-#: src/Gui/main.cpp:86
+#: src/Gui/main.cpp:112
 msgctxt "QObject|"
 msgid "Mailto: URL address for composing new e-mail."
 msgstr "Correu a: l'adreça URL per a editar un correu electrònic nou."
 
-#: src/Gui/main.cpp:87
+#: src/Gui/main.cpp:113
 msgctxt "QObject|"
 msgid "[url]"
 msgstr "[URL]"
 
-#: src/Gui/main.cpp:110
+#: src/Gui/main.cpp:136
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected argument '%1'."
 msgstr "Argument inesperat «%1»."
 
-#: src/Gui/main.cpp:115
+#: src/Gui/main.cpp:141
 msgctxt "QObject|"
 msgid "Unexpected arguments."
 msgstr "No s'esperaven arguments."
 
-#: src/Gui/main.cpp:158
+#: src/Gui/main.cpp:196
 #, qt-format
 msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
