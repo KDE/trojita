@@ -1275,67 +1275,67 @@ msgctxt "MailBoxTreeView|"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: src/Gui/main.cpp:88
+#: src/Gui/main.cpp:89
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
 msgstr "Trojitá %1 - client Qt veloce di posta elettronica IMAP"
 
-#: src/Gui/main.cpp:93
+#: src/Gui/main.cpp:94
 msgctxt "QObject|"
 msgid "Show addressbook window."
 msgstr "Mostra la finestra della rubrica degli indirizzi."
 
-#: src/Gui/main.cpp:97
+#: src/Gui/main.cpp:98
 msgctxt "QObject|"
 msgid "Compose new e-mail (default when url is provided)."
 msgstr "Componi un nuovo messaggio (predefinita quando viene fornito un URL)."
 
-#: src/Gui/main.cpp:101
+#: src/Gui/main.cpp:102
 msgctxt "QObject|"
 msgid "Activate debug traffic logging to disk by default."
 msgstr ""
 "Attiva in modo predefinito la registrazione su disco del debug del traffico."
 
-#: src/Gui/main.cpp:105
+#: src/Gui/main.cpp:106
 msgctxt "QObject|"
 msgid "Show main window (default when no option is provided)."
 msgstr ""
 "Mostra la finestra principale (predefinita quando non viene fornita alcuna "
 "opzione)."
 
-#: src/Gui/main.cpp:109
+#: src/Gui/main.cpp:110
 msgctxt "QObject|"
 msgid "Set profile."
 msgstr "Imposta il profilo."
 
-#: src/Gui/main.cpp:109
+#: src/Gui/main.cpp:110
 msgctxt "QObject|"
 msgid "profile"
 msgstr "profilo"
 
-#: src/Gui/main.cpp:112
+#: src/Gui/main.cpp:113
 msgctxt "QObject|"
 msgid "Mailto: URL address for composing new e-mail."
 msgstr "Mailto: indirizzo URL per comporre un nuovo messaggio."
 
-#: src/Gui/main.cpp:113
+#: src/Gui/main.cpp:114
 msgctxt "QObject|"
 msgid "[url]"
 msgstr "[url]"
 
-#: src/Gui/main.cpp:136
+#: src/Gui/main.cpp:137
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected argument '%1'."
 msgstr "Argomento «%1» inatteso."
 
-#: src/Gui/main.cpp:141
+#: src/Gui/main.cpp:142
 msgctxt "QObject|"
 msgid "Unexpected arguments."
 msgstr "Argomenti inattesi."
 
-#: src/Gui/main.cpp:196
+#: src/Gui/main.cpp:202
 #, qt-format
 msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
@@ -4469,7 +4469,7 @@ msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
 msgstr "Interrogazione querySetMessageThreading non riuscita"
 
-#: src/Imap/Model/SystemNetworkWatcher.cpp:90
+#: src/Imap/Model/SystemNetworkWatcher.cpp:143
 msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
 msgid ""
 "Qt does not recognize any network session. Please be sure that qtbearer "

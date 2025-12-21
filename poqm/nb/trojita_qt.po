@@ -1236,64 +1236,64 @@ msgctxt "MailBoxTreeView|"
 msgid "Cancel"
 msgstr ""
 
-#: src/Gui/main.cpp:88
+#: src/Gui/main.cpp:89
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
 msgstr ""
 
-#: src/Gui/main.cpp:93
+#: src/Gui/main.cpp:94
 msgctxt "QObject|"
 msgid "Show addressbook window."
 msgstr ""
 
-#: src/Gui/main.cpp:97
+#: src/Gui/main.cpp:98
 msgctxt "QObject|"
 msgid "Compose new e-mail (default when url is provided)."
 msgstr ""
 
-#: src/Gui/main.cpp:101
+#: src/Gui/main.cpp:102
 msgctxt "QObject|"
 msgid "Activate debug traffic logging to disk by default."
 msgstr ""
 
-#: src/Gui/main.cpp:105
+#: src/Gui/main.cpp:106
 msgctxt "QObject|"
 msgid "Show main window (default when no option is provided)."
 msgstr ""
 
-#: src/Gui/main.cpp:109
+#: src/Gui/main.cpp:110
 msgctxt "QObject|"
 msgid "Set profile."
 msgstr ""
 
-#: src/Gui/main.cpp:109
+#: src/Gui/main.cpp:110
 msgctxt "QObject|"
 msgid "profile"
 msgstr ""
 
-#: src/Gui/main.cpp:112
+#: src/Gui/main.cpp:113
 msgctxt "QObject|"
 msgid "Mailto: URL address for composing new e-mail."
 msgstr ""
 
-#: src/Gui/main.cpp:113
+#: src/Gui/main.cpp:114
 msgctxt "QObject|"
 msgid "[url]"
 msgstr ""
 
-#: src/Gui/main.cpp:136
+#: src/Gui/main.cpp:137
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected argument '%1'."
 msgstr ""
 
-#: src/Gui/main.cpp:141
+#: src/Gui/main.cpp:142
 msgctxt "QObject|"
 msgid "Unexpected arguments."
 msgstr ""
 
-#: src/Gui/main.cpp:196
+#: src/Gui/main.cpp:202
 #, qt-format
 msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
@@ -2097,8 +2097,8 @@ msgctxt "ImapPage|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-"css\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
 "weight:400; font-style:normal;\">\n"
@@ -2125,8 +2125,8 @@ msgid ""
 msgstr ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-"css\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
 "weight:400; font-style:normal;\">\n"
@@ -2146,11 +2146,11 @@ msgstr ""
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
 "p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Eller, velg en <span "
-"style=\" font-style:italic;\">Lokal prosess</span> hvis du vil kjøre en "
-"lokal prosess som så enten kobler til IMAP-tjeneren eller oppfører seg som "
-"en IMAP-tjener. Dette valget gjør at du kan koble tl IMAP-tjeneren via SSH.</"
-"p></body></html>"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Eller, velg en <span style="
+"\" font-style:italic;\">Lokal prosess</span> hvis du vil kjøre en lokal "
+"prosess som så enten kobler til IMAP-tjeneren eller oppfører seg som en IMAP-"
+"tjener. Dette valget gjør at du kan koble tl IMAP-tjeneren via SSH.</p></"
+"body></html>"
 
 #: src/Gui/SettingsImapPage.ui:55
 msgctxt "ImapPage|"
@@ -2229,8 +2229,8 @@ msgctxt "ImapPage|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-"css\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
 "weight:400; font-style:normal;\">\n"
@@ -2256,8 +2256,8 @@ msgid ""
 msgstr ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-"css\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
 "weight:400; font-style:normal;\">\n"
@@ -2301,8 +2301,8 @@ msgctxt "ImapPage|"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-"css\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
 "weight:400; font-style:normal;\">\n"
@@ -2323,17 +2323,17 @@ msgid ""
 msgstr ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-"css\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Hvis du velger <span "
-"style=\" font-style:italic;\">Lokal prosess</span> til å koble til IMAP-"
-"tjeneren, så viser dette feltet hvilket program som skal startes. For "
-"eksempel kan du bruke det følgende til å koble til en e-posttjener på nettet "
-"og starte en instans av Dovecot der: </p> \n"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Hvis du velger <span style="
+"\" font-style:italic;\">Lokal prosess</span> til å koble til IMAP-tjeneren, "
+"så viser dette feltet hvilket program som skal startes. For eksempel kan du "
+"bruke det følgende til å koble til en e-posttjener på nettet og starte en "
+"instans av Dovecot der: </p> \n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "family:'Courier New,courier';\">ssh mail.example.org dovecot --exec-mail "
@@ -2530,8 +2530,8 @@ msgctxt "ShortcutConfigWidget|"
 msgid ""
 "<p>Select an action (with the mouse or the arrow keys). Its shortcut can "
 "then be changed by simply pressing the new shortcut.</p><p>Note that a few "
-"shortcuts cannot be used: \"Up\", \"Down\", \"Left\", \"Right\", \"Page "
-"Up\", \"Page Down\", \"Tab\", \"Shift+Tab\", \"Enter\" and \"Escape\".</p>"
+"shortcuts cannot be used: \"Up\", \"Down\", \"Left\", \"Right\", \"Page Up"
+"\", \"Page Down\", \"Tab\", \"Shift+Tab\", \"Enter\" and \"Escape\".</p>"
 msgstr ""
 "<p>Velg en handlng (med mus eller piltaster). Snarveien til handlinngen kan "
 "da endres enkelt ved å trykke den nye snarveien.</p> <p>Merk at noen "
@@ -4333,7 +4333,7 @@ msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
 msgstr ""
 
-#: src/Imap/Model/SystemNetworkWatcher.cpp:90
+#: src/Imap/Model/SystemNetworkWatcher.cpp:143
 msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
 msgid ""
 "Qt does not recognize any network session. Please be sure that qtbearer "
@@ -5332,11 +5332,11 @@ msgstr "Sokkelen er frakoblet: %1"
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid ""
-"The underlying socket is having troubles when processing connection to "
-"%1:%2: %3"
+"The underlying socket is having troubles when processing connection to %1:"
+"%2: %3"
 msgstr ""
-"Den underliggende sokkelen har vansker når den behandler forbindelsen til "
-"%1:%2: %3"
+"Den underliggende sokkelen har vansker når den behandler forbindelsen til %1:"
+"%2: %3"
 
 #: src/UiUtils/Formatting.cpp:40
 msgctxt "Formatting|"

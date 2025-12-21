@@ -1259,64 +1259,64 @@ msgctxt "MailBoxTreeView|"
 msgid "Cancel"
 msgstr "ألغِ"
 
-#: src/Gui/main.cpp:88
+#: src/Gui/main.cpp:89
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
 msgstr "تروجيتا %1 - عميل بريد إلكتروني IMAP سريع يعتمد على Qt"
 
-#: src/Gui/main.cpp:93
+#: src/Gui/main.cpp:94
 msgctxt "QObject|"
 msgid "Show addressbook window."
 msgstr "اعرض نافذة دليل العناوين."
 
-#: src/Gui/main.cpp:97
+#: src/Gui/main.cpp:98
 msgctxt "QObject|"
 msgid "Compose new e-mail (default when url is provided)."
 msgstr "ألّف بريدًا جديدًا (مبدئي عند توفير عنوان)."
 
-#: src/Gui/main.cpp:101
+#: src/Gui/main.cpp:102
 msgctxt "QObject|"
 msgid "Activate debug traffic logging to disk by default."
 msgstr "فعّل آليًا تسجيل حركة سر التصحيح على القرص."
 
-#: src/Gui/main.cpp:105
+#: src/Gui/main.cpp:106
 msgctxt "QObject|"
 msgid "Show main window (default when no option is provided)."
 msgstr "اعرض النافذة الرئيسة (مبدئي عند عدم توفير خيار)."
 
-#: src/Gui/main.cpp:109
+#: src/Gui/main.cpp:110
 msgctxt "QObject|"
 msgid "Set profile."
 msgstr "اضبط تشكيلة."
 
-#: src/Gui/main.cpp:109
+#: src/Gui/main.cpp:110
 msgctxt "QObject|"
 msgid "profile"
 msgstr "تشكيلة"
 
-#: src/Gui/main.cpp:112
+#: src/Gui/main.cpp:113
 msgctxt "QObject|"
 msgid "Mailto: URL address for composing new e-mail."
 msgstr "عنوان Mailto: URL لتأليف بريد إلكتروني جديد."
 
-#: src/Gui/main.cpp:113
+#: src/Gui/main.cpp:114
 msgctxt "QObject|"
 msgid "[url]"
 msgstr "[المسار]"
 
-#: src/Gui/main.cpp:136
+#: src/Gui/main.cpp:137
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected argument '%1'."
 msgstr "وسيط غير متوقع '%1'."
 
-#: src/Gui/main.cpp:141
+#: src/Gui/main.cpp:142
 msgctxt "QObject|"
 msgid "Unexpected arguments."
 msgstr "وسائط غير متوقعة."
 
-#: src/Gui/main.cpp:196
+#: src/Gui/main.cpp:202
 #, qt-format
 msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
@@ -4463,7 +4463,7 @@ msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
 msgstr "فشل الاستعلام querySetMessageThreading"
 
-#: src/Imap/Model/SystemNetworkWatcher.cpp:90
+#: src/Imap/Model/SystemNetworkWatcher.cpp:143
 msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
 msgid ""
 "Qt does not recognize any network session. Please be sure that qtbearer "
