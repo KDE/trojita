@@ -80,13 +80,13 @@ msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Cannot obtain IMAP URL for CATENATE"
 msgstr "CATENATE için IMAP URL’si alınamadı"
 
-#: src/Composer/MessageComposer.cpp:599 src/Composer/MessageComposer.cpp:630
+#: src/Composer/MessageComposer.cpp:601 src/Composer/MessageComposer.cpp:632
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 is not available"
 msgstr "%1 Eki ulaşılabilir değil"
 
-#: src/Composer/MessageComposer.cpp:635
+#: src/Composer/MessageComposer.cpp:637
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 disappeared"
@@ -898,8 +898,8 @@ msgstr ""
 "<br><span style=\"color:red\">Uyarı: ekler taslak ile birlikte "
 "<b>kaydedilemedi</b>.</span>"
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1531
-#: src/Gui/Window.cpp:1533
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1529
+#: src/Gui/Window.cpp:1531
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Taslaklar"
@@ -1269,64 +1269,64 @@ msgctxt "MailBoxTreeView|"
 msgid "Cancel"
 msgstr "İptal"
 
-#: src/Gui/main.cpp:89
+#: src/Gui/main.cpp:60
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
 msgstr "Trojitá %1 — hızlı bir Qt IMAP e-posta istemcisi"
 
-#: src/Gui/main.cpp:94
+#: src/Gui/main.cpp:65
 msgctxt "QObject|"
 msgid "Show addressbook window."
 msgstr "Adres defteri penceresini göster."
 
-#: src/Gui/main.cpp:98
+#: src/Gui/main.cpp:69
 msgctxt "QObject|"
 msgid "Compose new e-mail (default when url is provided)."
 msgstr "Yeni e-posta oluştur (URL sağlandığında öntanımlı)."
 
-#: src/Gui/main.cpp:102
+#: src/Gui/main.cpp:73
 msgctxt "QObject|"
 msgid "Activate debug traffic logging to disk by default."
 msgstr "Öntanımlı olarak diske hata ayıklama trafik günlüğünü etkinleştir."
 
-#: src/Gui/main.cpp:106
+#: src/Gui/main.cpp:77
 msgctxt "QObject|"
 msgid "Show main window (default when no option is provided)."
 msgstr "Ana pencereyi göster (başka bir seçenek sağlanmadığında öntanımlı)."
 
-#: src/Gui/main.cpp:110
+#: src/Gui/main.cpp:81
 msgctxt "QObject|"
 msgid "Set profile."
 msgstr "Profil ayarla."
 
-#: src/Gui/main.cpp:110
+#: src/Gui/main.cpp:81
 msgctxt "QObject|"
 msgid "profile"
 msgstr "profil"
 
-#: src/Gui/main.cpp:113
+#: src/Gui/main.cpp:84
 msgctxt "QObject|"
 msgid "Mailto: URL address for composing new e-mail."
 msgstr "Mailto: E-posta oluşturmak için öntanımlı URL adresi."
 
-#: src/Gui/main.cpp:114
+#: src/Gui/main.cpp:85
 msgctxt "QObject|"
 msgid "[url]"
 msgstr "[url]"
 
-#: src/Gui/main.cpp:137
+#: src/Gui/main.cpp:108
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected argument '%1'."
 msgstr "Beklenmedik argüman “%1”."
 
-#: src/Gui/main.cpp:142
+#: src/Gui/main.cpp:113
 msgctxt "QObject|"
 msgid "Unexpected arguments."
 msgstr "Beklenmeyen argümanlar."
 
-#: src/Gui/main.cpp:202
+#: src/Gui/main.cpp:163
 #, qt-format
 msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
@@ -3321,33 +3321,33 @@ msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "İ&leti"
 
-#: src/Gui/Window.cpp:833
+#: src/Gui/Window.cpp:832
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "Hedefi bağla: %1"
 
-#: src/Gui/Window.cpp:843
+#: src/Gui/Window.cpp:841
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "Herşey"
 
-#: src/Gui/Window.cpp:851
+#: src/Gui/Window.cpp:849
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "IMAP Görevleri"
 
-#: src/Gui/Window.cpp:858
+#: src/Gui/Window.cpp:856
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr "MIME Ağacı"
 
-#: src/Gui/Window.cpp:869
+#: src/Gui/Window.cpp:867
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "Protokol günlüğü"
 
-#: src/Gui/Window.cpp:948
+#: src/Gui/Window.cpp:946
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n seconds.."
@@ -3355,13 +3355,13 @@ msgid_plural "Attempting to reconnect in %n seconds.."
 msgstr[0] "%n saniye içinde tekrar bağlanma denenecek.."
 msgstr[1] "%n saniye içinde tekrar bağlanma denenecek.."
 
-#: src/Gui/Window.cpp:1001
+#: src/Gui/Window.cpp:999
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "&Çık"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1116
+#: src/Gui/Window.cpp:1114
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3370,17 +3370,17 @@ msgstr[0] " — %n okunmayan ileti"
 msgstr[1] " — %n okunmayan ileti"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1119
+#: src/Gui/Window.cpp:1117
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " — çevrimdışı"
 
-#: src/Gui/Window.cpp:1128 src/Gui/Window.cpp:2575
+#: src/Gui/Window.cpp:1126 src/Gui/Window.cpp:2573
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1129
+#: src/Gui/Window.cpp:1127
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3389,27 +3389,27 @@ msgstr ""
 "Uygulama sistem tepsisinde sürecek, bu ayarlardan devre dışı bırakılabilir."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1340
+#: src/Gui/Window.cpp:1338
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "IMAP Uyarısı"
 
-#: src/Gui/Window.cpp:1345
+#: src/Gui/Window.cpp:1343
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "IMAP Protokol Hatası"
 
-#: src/Gui/Window.cpp:1353
+#: src/Gui/Window.cpp:1351
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Bağlantı Hatası"
 
-#: src/Gui/Window.cpp:1374
+#: src/Gui/Window.cpp:1372
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "IMAP Önbelleği Hatası"
 
-#: src/Gui/Window.cpp:1375
+#: src/Gui/Window.cpp:1373
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3423,35 +3423,35 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:1386
+#: src/Gui/Window.cpp:1384
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "Çevrimdışı"
 
-#: src/Gui/Window.cpp:1432
+#: src/Gui/Window.cpp:1430
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "Yapılandırma Yok"
 
-#: src/Gui/Window.cpp:1433
+#: src/Gui/Window.cpp:1431
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 "IMAP hesabı yapılandırılmamış. Trojitá hesap yapılandırılmadığında daha "
 "fazla bir şey yapamaz."
 
-#: src/Gui/Window.cpp:1458
+#: src/Gui/Window.cpp:1456
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "Parola depodan alınamadı: %1"
 
-#: src/Gui/Window.cpp:1476
+#: src/Gui/Window.cpp:1474
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "Kimlik Doğrulama Gerekiyor"
 
-#: src/Gui/Window.cpp:1477
+#: src/Gui/Window.cpp:1475
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -3459,44 +3459,44 @@ msgstr ""
 "<p>Lütfen <b>%2</b> üzerindeki <b>%1</b>kullanıcısı için IMAP parolası "
 "belirtin:</p>"
 
-#: src/Gui/Window.cpp:1533
+#: src/Gui/Window.cpp:1531
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Taslağı düzenle"
 
-#: src/Gui/Window.cpp:1660
+#: src/Gui/Window.cpp:1658
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "Arşivleme başarısız"
 
-#: src/Gui/Window.cpp:1710
+#: src/Gui/Window.cpp:1708
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "%1 için Bir Alt Klasör Oluştur"
 
-#: src/Gui/Window.cpp:1711
+#: src/Gui/Window.cpp:1709
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "Üst seviye Posta Kutusu Oluştur"
 
-#: src/Gui/Window.cpp:1738
+#: src/Gui/Window.cpp:1736
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Posta Kutusunu Sil"
 
-#: src/Gui/Window.cpp:1739
+#: src/Gui/Window.cpp:1737
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "%1 posta kutusunu silmek istediğinizden emin misiniz?"
 
-#: src/Gui/Window.cpp:2052
+#: src/Gui/Window.cpp:2050
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Posta kutusu silinemedi"
 
-#: src/Gui/Window.cpp:2053
+#: src/Gui/Window.cpp:2051
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3506,12 +3506,12 @@ msgstr ""
 "%1 posta kutususun silinmesi şu ileti ile başarısız oldu:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2058
+#: src/Gui/Window.cpp:2056
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Posta kutusu yaratılamadı"
 
-#: src/Gui/Window.cpp:2059
+#: src/Gui/Window.cpp:2057
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3521,12 +3521,12 @@ msgstr ""
 "%1 posta kutusunun oluşturulması şu ileti ile başarısız oldu:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2064
+#: src/Gui/Window.cpp:2062
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Posta kutusu açılamıyor"
 
-#: src/Gui/Window.cpp:2065
+#: src/Gui/Window.cpp:2063
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3536,45 +3536,45 @@ msgstr ""
 "Şu ileti ile “%1” posta kutusunun açılması başarısız oldu:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2114
+#: src/Gui/Window.cpp:2112
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Bağlantı hedefi: %1"
 
-#: src/Gui/Window.cpp:2129
+#: src/Gui/Window.cpp:2127
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "Eklentiler"
 
-#: src/Gui/Window.cpp:2136
+#: src/Gui/Window.cpp:2134
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Şifreli ve imzalı iletiler"
 
-#: src/Gui/Window.cpp:2143
+#: src/Gui/Window.cpp:2141
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "IMAP sıkıştırma"
 
-#: src/Gui/Window.cpp:2154
+#: src/Gui/Window.cpp:2152
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: Destekleniyor</li>"
 
-#: src/Gui/Window.cpp:2155
+#: src/Gui/Window.cpp:2153
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>Devre dışı</strong></li>"
 
-#: src/Gui/Window.cpp:2213
+#: src/Gui/Window.cpp:2211
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Dosyaya kaydedilemedi"
 
-#: src/Gui/Window.cpp:2214
+#: src/Gui/Window.cpp:2212
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3584,63 +3584,63 @@ msgstr ""
 "Dosyaya kaydedilemedi. Hata:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2219
+#: src/Gui/Window.cpp:2217
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "İletiyi Kaydet"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2235
+#: src/Gui/Window.cpp:2233
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "%2 içindeki UID %1 ileti kaynağı"
 
-#: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
+#: src/Gui/Window.cpp:2248 src/Gui/Window.cpp:2270
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Kapat"
 
-#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
+#: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Kontrol+W"
 
-#: src/Gui/Window.cpp:2495
+#: src/Gui/Window.cpp:2493
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2503
+#: src/Gui/Window.cpp:2501
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: src/Gui/Window.cpp:2517
+#: src/Gui/Window.cpp:2515
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2517
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Sunucu: %1 %2"
 
-#: src/Gui/Window.cpp:2521
+#: src/Gui/Window.cpp:2519
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Sunucu: %1"
 
-#: src/Gui/Window.cpp:2524
+#: src/Gui/Window.cpp:2522
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2528
+#: src/Gui/Window.cpp:2526
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -3648,41 +3648,41 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " %1 üzerinde %2"
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2528
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " %1 üzerinde"
 
-#: src/Gui/Window.cpp:2532
+#: src/Gui/Window.cpp:2530
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2534
+#: src/Gui/Window.cpp:2532
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>IMAP sunucusu kendisi hakkında kullanışlı bilgiler döndürmedi.</p>"
 
-#: src/Gui/Window.cpp:2538
+#: src/Gui/Window.cpp:2536
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2540
+#: src/Gui/Window.cpp:2538
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2542
+#: src/Gui/Window.cpp:2540
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr "<p>Sunucu yazılım sürümü hakkındaki bilgileri sağlamamış.</p>"
 
-#: src/Gui/Window.cpp:2549
+#: src/Gui/Window.cpp:2547
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3692,7 +3692,7 @@ msgstr ""
 "%1\n"
 "<p>Aşağıdaki yetenekler şu anda duyuruluyor:</p>"
 
-#: src/Gui/Window.cpp:2551
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3702,7 +3702,7 @@ msgstr ""
 "<ul>\n"
 "%1</ul>"
 
-#: src/Gui/Window.cpp:2569
+#: src/Gui/Window.cpp:2567
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -3710,13 +3710,13 @@ msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] "%1 — %n Okunmamış — Trojitá"
 msgstr[1] "%1 - %n Okunmamış — Trojitá"
 
-#: src/Gui/Window.cpp:2572
+#: src/Gui/Window.cpp:2570
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 — Trojitá"
 
-#: src/Gui/Window.cpp:2997
+#: src/Gui/Window.cpp:2995
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
@@ -4442,17 +4442,6 @@ msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
 msgstr "querySetMessageThreading sorgusu başarısız oldu"
 
-#: src/Imap/Model/SystemNetworkWatcher.cpp:143
-msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
-msgid ""
-"Qt does not recognize any network session. Please be sure that qtbearer "
-"package (or similar) is installed. Assuming that network is actually already "
-"available."
-msgstr ""
-"Qt herhangi bir ağ oturumu tanımlayamadı. Lütfen qtbearer paketinin (veya "
-"eşdeğeri) kurulu olduğundan emin olun. Ağın aslında zaten kullanılabilir "
-"olduğu varsayılıyor."
-
 #: src/Imap/Model/TaskPresentationModel.cpp:194
 #, qt-format
 msgctxt "Imap::Mailbox::TaskPresentationModel|"
@@ -5103,13 +5092,13 @@ msgstr ""
 "Bu kapı standart değil. SSL/TLS ile güvenceye alınan SMTP öntanımlı kapısı: "
 "%1."
 
-#: src/MSA/Sendmail.cpp:86
+#: src/MSA/Sendmail.cpp:85
 #, qt-format
 msgctxt "MSA::Sendmail|"
 msgid "The sendmail process has failed: %1"
 msgstr "sendmail süreci başarısız: %1"
 
-#: src/MSA/Sendmail.cpp:108
+#: src/MSA/Sendmail.cpp:107
 #, qt-format
 msgctxt "MSA::Sendmail|"
 msgid ""
@@ -5158,7 +5147,7 @@ msgctxt "BE::Contacts|"
 msgid "BE::Contacts"
 msgstr "BE::Bağlantılar"
 
-#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:404
+#: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:398
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
 msgid "Addressbook in ~/.abook/"
 msgstr "Adres defteri şurada ~/.abook/"
@@ -5350,12 +5339,12 @@ msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
 msgid "Trojitá's settings"
 msgstr "Trojitá ayarları"
 
-#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:133
+#: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:129
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
 msgid "Secure storage via QtKeychain"
 msgstr "QtKeychain ile güvenli depolama"
 
-#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:50
+#: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
 msgstr "Sonnet"
@@ -5718,6 +5707,16 @@ msgstr "Parola %1 eklentisinden kaydediliyor…"
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "%1 eklentisi aracılığıyla parola saklanamıyor"
+
+#~ msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
+#~ msgid ""
+#~ "Qt does not recognize any network session. Please be sure that qtbearer "
+#~ "package (or similar) is installed. Assuming that network is actually "
+#~ "already available."
+#~ msgstr ""
+#~ "Qt herhangi bir ağ oturumu tanımlayamadı. Lütfen qtbearer paketinin (veya "
+#~ "eşdeğeri) kurulu olduğundan emin olun. Ağın aslında zaten kullanılabilir "
+#~ "olduğu varsayılıyor."
 
 #~ msgctxt "Gui::GeneralPage|"
 #~ msgid ""
