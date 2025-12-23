@@ -103,6 +103,7 @@
     <p xml:lang="hu">A Trojitá egy olyan e-mail program („kliens”), amely arra specializálódott, hogy gyors és hatékony hozzáférést biztosítson postafiókokhoz az IMAP protokollon keresztül. Egy IMAP levelezőszerver tárolja az üzeneteket, és lehetővé teszi a kliensek számára, hogy letöltsék az üzeneteket a helyi számítógépre kérés esetén.</p>
     <p xml:lang="id">Trojitá adalah program email ("client") yang khusus memberikan akses cepat dan efisien ke kotak surat melalui protokol IMAP. Server surat IMAP menyimpan pesan dan memungkinkan klien untuk mengambil pesan ke komputer lokal ketika diminta</p>
     <p xml:lang="it">Trojitá è un programma di posta elettronica («client») specializzato nel fornire, tramite protocollo IMAP, un accesso rapido ed efficiente alle caselle di posta. Un server di posta IMAP conserva i messaggi e permette ai client di scaricare, a richiesta, i messaggi nel computer locale.</p>
+    <p xml:lang="ka">Trojitá ელფოსტის პროგრამაა ("კლიენტი"), რომელიც სპეციალიზებულია სწრაფი და ეფექტური წვდომისთვის IMAP პროტოკოლით. IMAP ელფოსტის სერვერი ინახავს შეტყობინებებს და საშუალებას აძლევს კლიენტებს, გამოითხოვონ შეტყობინებები ლოკალური კომპიუტერისთვის, როცა ის მას მოითხოვს.</p>
     <p xml:lang="ko">Trojitá는 IMAP 프로토콜을 사용하여 편지함에 빠르고 효율적으로 접근할 수 있도록 하는 도구입니다. IMAP 메일 서버에는 메시지가 저장되며 필요할 때 클라이언트에서 로컬 컴퓨터로 가져올 수 있습니다.</p>
     <p xml:lang="lv">Trojitá ir e-pasta programma (klients), kas specializējas ātrā un efektīvā darbā ar IMAP protokola pastkastēm. IMAP serveris uzglabā pastu pie sevis un ļauj klientiem saņemt ziņas tad, kad tās paprasa.</p>
     <p xml:lang="nl">Trojitá is een e-mailprogramma ("client") gespecialiseerd in het geven van snelle en efficiënte toegang tot e-mailboxen over het IMAP-protocol. Een IMAP-e-mailserver slaat berichten op en biedt clients de mogelijkheid om berichten naar de lokale computer te halen wanneer dat wordt gevraagd.</p>
@@ -139,6 +140,7 @@
     <p xml:lang="hu">A hatékonyságot, a sebességet és a nyílt szabványokat más célok elé helyezi. A Trojitá célja továbbá, hogy multiplatformos legyen, és mindenhol jól működjön, a nagy asztali számítógépektől a kis mobiltelefonokig. A Trojitá egy önálló program, nem része egy „személyi információkezelő” csomagnak sem.</p>
     <p xml:lang="id">Ini memprioritaskan efisiensi, kecepatan dan standar terbuka di atas tujuan lain. Trojitá juga bertujuan untuk multi-platform, dan berfungsi dengan baik di segala hal mulai dari komputer desktop besar hingga ponsel kecil. Trojitá adalah program yang berdiri sendiri, bukan bagian dari suite "personal information manager".</p>
     <p xml:lang="it">Esso dà priorità, tra le altre cose, all'efficienza, la velocità e gli standard aperti. Trojitá vuole anche essere multi-piattaforma, e funziona bene sia sui grandi computer da tavolo, sia sui cellulari. Trojitá è un programma indipendente, non fa parte di una suite di «gestione personale delle informazioni».</p>
+    <p xml:lang="ka">ის პრიორიტეტს ანიჭებს ეფექტურობას, სიჩქარეებს და ღია სტანდარტებს. Trojitá ასევე მიზნად ისახავს, იყოს მრავალპლატფორმული და იმუშაოს ყველაფერზე დიდი სამუშაო სადგურებიდან დაწყებული პატარა მობილურ ტელეფონებამდე. Trojitá ცალკე პროგრამაა. ის არ წარმოადგენს "პირადი ინფორმაციის მმართველის" პაკეტის ნაწილს.</p>
     <p xml:lang="ko">효율성, 속도, 표준 준수를 목표로 합니다. Trojitá는 데스크톱부터 스마트폰까지 여러 플랫폼에서 작동하는 것을 목표로 합니다. Trojitá는 "개인 정보 관리자" 모음과 개별적으로 작동하는 독립 프로그램입니다.</p>
     <p xml:lang="lv">Trojitá liek uzsvaru uz efektivitāti, ātrumu un atvērtiem standartiem. Trojitá ir dažādu platformu atbalsts un darbojas vienlīdz labi gan uz lieliem darbvirsmas datoriem, gan arī uz mobilajām iekārtām. Trojitá ir atsevišķa programma nevis personīgās informācijas pārvaldnieka risinājums.</p>
     <p xml:lang="nl">De prioriteit ligt op efficiëntie, snelheid en open standaarden boven andere doelen. Trojitá richt zich ook op multi-platform en functies die het goed doen op alles vanaf grote desktopcomputers tot kleine telefoons. Trojitá is een alleenstaand programma, is geen onderdeel van een "persoonlijke informatebeheerder" suite.</p>
@@ -273,6 +275,7 @@
       <li xml:lang="hu">Igény szerinti üzenetlista- és törzsbetöltés („lusta betöltés”)</li>
       <li xml:lang="id">Daftar perpesanan berdasarkan permintaan dan pemuatan bagian utama ("lazy loading")</li>
       <li xml:lang="it">Elenco dei messaggi e caricamento del corpo del messaggio su richiesta («lazy loading»)</li>
+      <li xml:lang="ka">შეტყობინებების სიისა და სხეულის საჭიროებისამებრ ჩატვირთვა ("ზარმაცი ჩატვირთვა")</li>
       <li xml:lang="ko">필요할 때 메시지 목록과 본문 불러오기("늦은 불러오기")</li>
       <li xml:lang="lv">Ziņu saraksts pēc pieprasījuma un ziņu ielāde pa daļām („slinkā“ ielāde)</li>
       <li xml:lang="nl">Laden van berichtlijst en inhoud van berichten op aanvraag ("lui laden")</li>
@@ -339,6 +342,7 @@
       <li xml:lang="hu">Sávszélesség-takarékos üzemmód a drága kapcsolatottal rendelkező mobilfelhasználók számára</li>
       <li xml:lang="id">Dukungan untuk mode hemat bandwidth yang ditujukan untuk pengguna seluler dengan koneksi mahal</li>
       <li xml:lang="it">Supporto della modalità per il risparmio della banda, con lo sguardo rivolto agli utenti mobili con connessioni dispendiose</li>
+      <li xml:lang="ka">ტრაფიკის დაზოგვის რეჟიმის მხარდაჭერა, რომელიც განკუთვნილია მობილურებისთვის, სადაც ინტერნეტი ძვირია</li>
       <li xml:lang="ko">모바일 사용자용 대역폭 절약 모드</li>
       <li xml:lang="lv">Pārraidīto datu apjoma samazināšanas režīms, kas piemērots mobilo iekārtu lietotājiem ar dārgu vai lēnu interneta piekļuvi</li>
       <li xml:lang="nl">Ondersteuning voor bandbreedte besparende modus gericht op mobiele gebruikers met een dure verbinding</li>
@@ -371,6 +375,7 @@
       <li xml:lang="hu">IMAP SSH-n át -- SSL foglalat használata helyett a kiszolgáló SSH-n keresztül is elérhető</li>
       <li xml:lang="id">IMAP melalui SSH -- alih-alih menggunakan soket SSL, server dapat diakses melalui SSH</li>
       <li xml:lang="it">IMAP su SSH -- anziché lavorare su un socket SSL, al server si può accedere tramite SSH</li>
+      <li xml:lang="ka">IMAP SSH-ის ზემოდან -- იმის მაგიერ, რომ გამოიყენოთ SSL სოკეტი, სერვერზე შეგიძლიათ, SSH-ით შეხვიდეთ</li>
       <li xml:lang="ko">IMAP over SSH -- SSL 소켓 대신 SSH를 통하여 서버에 접근할 수 있습니다</li>
       <li xml:lang="lv">IMAP caur SSH — tā vietā, lai izmantotu SSL, serverim var pieslēgties arī caur SSH</li>
       <li xml:lang="nl">IMAP over SSH -- in plaats van over een SSL-socket, de server kan bereikt worden via SSH</li>
@@ -444,6 +449,7 @@
       <caption xml:lang="hu">A túl sokszor idézett szöveg automatikusan összecsukódik</caption>
       <caption xml:lang="id">Teks yang dikutip berlebihan secara otomatis diciutkan</caption>
       <caption xml:lang="it">Il testo eccessivamente citato viene automaticamente compresso</caption>
+      <caption xml:lang="ka">ზედმეტი ციტატების მქონე ტექსტი ავტომატურად აიკეცება</caption>
       <caption xml:lang="ko">과도하게 인용된 텍스트를 자동으로 접기</caption>
       <caption xml:lang="lv">Plaša citētā teksta automātiska sakļaušana</caption>
       <caption xml:lang="nl">Een grote hoeveelheid aangehaalde tekst wordt automatisch ingeklapt</caption>
@@ -478,6 +484,7 @@
       <caption xml:lang="hu">A titkosított és aláírt e-mailek támogatottak, egyszerű angol nyelven megadott állapottal</caption>
       <caption xml:lang="id">Email terenkripsi dan ditandatangani yang didukung, dengan status yang diberikan dalam bahasa Inggris</caption>
       <caption xml:lang="it">È supportata la posta elettronica cifrata e firmata, con lo stato indicato in inglese</caption>
+      <caption xml:lang="ka">დაშიფრული და ხელმოწერილი ელფოსტა მხარდაჭერილია და მისი სტატუსი უბრალო ინგლისურით მოგეწოდებათ</caption>
       <caption xml:lang="ko">암호화 및 전자 서명된 이메일 지원</caption>
       <caption xml:lang="lv">Tiek atbalstīta pasta šifrēšana un parakstīšana ar vienkārši saprotamiem statusa paziņojumiem</caption>
       <caption xml:lang="nl">Versleutelde en ondertekende e-mail wordt ondersteund, met status gegeven in gewoon Engels</caption>
