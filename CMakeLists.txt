@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.16)
 
 project(trojita)
 
+set(QT_REQUIRED_VERSION 6.7.0)
+
 find_package(ECM REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH
@@ -34,6 +36,7 @@ include(TrojitaOption)
 # ECMPoQMTools includes QtVersionOption which creates an option to build against either
 # Qt 5 or Qt 6 if QT_MAJOR_VERSION is not set.
 set(QT_MAJOR_VERSION 6)
+include(ECMDeprecationSettings)
 include(ECMPoQmTools)
 
 trojita_option(WITH_DESKTOP "Build desktop version" ON)
@@ -56,7 +59,7 @@ else()
     set(QTKEYCHAIN_DEPENDS "")
 endif()
 
-find_package(Qt6 6.7 REQUIRED
+find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED
     COMPONENTS
         Core
         Core5Compat
@@ -164,6 +167,7 @@ add_definitions(-DQT_USE_QSTRINGBUILDER)
 add_definitions(-DQT_USE_FAST_OPERATOR_PLUS)
 add_definitions(-DQT_USE_FAST_CONCATENATION)
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f00)
+ecm_set_disabled_deprecation_versions(Qt ${QT_REQUIRED_VERSION})
 
 if(NOT MSVC)
   # We're using C++11's threading features (std::async in particular), and that requires "some threading". With GCC and
