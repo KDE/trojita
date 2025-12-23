@@ -258,7 +258,7 @@ void FavoriteTagsModelTest::testTagNameByIndexLast()
 void FavoriteTagsModelTest::testLoadFromSettingsEmitsModelReset()
 {
     QTemporaryFile tempFile;
-    tempFile.open();
+    QVERIFY(tempFile.open());
     QSignalSpy spyModelReset(model, SIGNAL(modelReset()));
     QSettings s(tempFile.fileName(), QSettings::NativeFormat);
     model->loadFromSettings(s);
@@ -268,7 +268,7 @@ void FavoriteTagsModelTest::testLoadFromSettingsEmitsModelReset()
 void FavoriteTagsModelTest::testLoadFromSettingsClearsModel()
 {
     QTemporaryFile tempFile;
-    tempFile.open();
+    QVERIFY(tempFile.open());
     model->appendTag(favoriteTag1);
     QSettings s(tempFile.fileName(), QSettings::NativeFormat);
     model->loadFromSettings(s);
@@ -282,7 +282,7 @@ void FavoriteTagsModelTest::testSaveLoadSettings()
     model->appendTag(favoriteTag2);
     model->appendTag(favoriteTag3);
 
-    tempFile.open();
+    QVERIFY(tempFile.open());
     QSettings s1(tempFile.fileName(), QSettings::NativeFormat);
     model->saveToSettings(s1);
     delete model;

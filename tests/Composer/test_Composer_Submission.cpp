@@ -342,7 +342,7 @@ void ComposerSubmissionTest::helperMissingAttachment(bool save, bool burl, bool 
     if (attachingFile) {
         // needs a special block for proper RAII-based removal
         QTemporaryFile tempFile;
-        tempFile.open();
+        QVERIFY(tempFile.open());
         tempFile.write("Sample attachment for Trojita's ComposerSubmissionTest\r\n");
         QCOMPARE(m_composer->addFileAttachment(tempFile.fileName()), true);
         // The file gets deleted as soon as we leave this scope
