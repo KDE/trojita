@@ -345,8 +345,7 @@ void CryptographyMessageModelTest::testLocalMimeParsing()
     QCOMPARE(mHeader.data(Imap::Mailbox::RolePartData).toByteArray().right(4), QByteArrayLiteral("\r\n\r\n"));
     QCOMPARE(mText.data(Imap::Mailbox::RolePartData).toByteArray(), myBody);
 
-    // still that new C++11 toy, oh yeah :)
-    using bodyFldParam_t = std::result_of<decltype(&Imap::Mailbox::TreeItemPart::bodyFldParam)(Imap::Mailbox::TreeItemPart)>::type;
+    using bodyFldParam_t = std::invoke_result<decltype(&Imap::Mailbox::TreeItemPart::bodyFldParam), Imap::Mailbox::TreeItemPart>::type;
     bodyFldParam_t expectedBodyFldParam;
     QCOMPARE(msgRoot.data(Imap::Mailbox::RolePartBodyFldParam).value<bodyFldParam_t>(), expectedBodyFldParam);
 

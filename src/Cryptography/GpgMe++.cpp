@@ -105,9 +105,7 @@ GpgMeReplacer::~GpgMeReplacer()
 MessagePart::Ptr GpgMeReplacer::createPart(MessageModel *model, MessagePart *parentPart, MessagePart::Ptr original,
                                              const QModelIndex &sourceItemIndex, const QModelIndex &proxyParentIndex)
 {
-    // Just - say - wow, because this is for sure much easier then typing QMap<QByteArray, QByteArray>, isn't it.
-    // Yep, I just got a new toy.
-    using bodyFldParam_t = std::result_of<decltype(&TreeItemPart::bodyFldParam)(TreeItemPart)>::type;
+    using bodyFldParam_t = std::invoke_result<decltype(&TreeItemPart::bodyFldParam), TreeItemPart>::type;
 
     auto mimeType = sourceItemIndex.data(RolePartMimeType).toByteArray();
     if (mimeType == "multipart/encrypted") {
