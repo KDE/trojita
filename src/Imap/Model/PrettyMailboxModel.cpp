@@ -150,8 +150,14 @@ bool PrettyMailboxModel::hasChildren(const QModelIndex &parent) const
 
 void PrettyMailboxModel::setShowOnlySubscribed(bool filterUnsubscribed)
 {
+#if QT_VERSION >= QT_VERSION_CHECK(6, 10, 0)
+    beginFilterChange();
+    m_showOnlySubscribed = filterUnsubscribed;
+    endFilterChange(QSortFilterProxyModel::Direction::Rows);
+#else
     m_showOnlySubscribed = filterUnsubscribed;
     invalidateFilter();
+#endif
 }
 
 }

@@ -179,8 +179,14 @@ QVariant PrettyMsgListModel::data(const QModelIndex &index, int role) const
 
 void PrettyMsgListModel::setHideRead(bool value)
 {
+#if QT_VERSION >= QT_VERSION_CHECK(6, 10, 0)
+    beginFilterChange();
+    m_hideRead = value;
+    endFilterChange(QSortFilterProxyModel::Direction::Rows);
+#else
     m_hideRead = value;
     invalidateFilter();
+#endif
 }
 
 bool PrettyMsgListModel::filterAcceptsRow(int source_row, const QModelIndex &source_parent) const
