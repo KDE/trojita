@@ -4,15 +4,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-11-30 11:42+0300\n"
-"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
+"PO-Revision-Date: 2025-12-23 11:37+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 25.12.0\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
@@ -4102,7 +4102,7 @@ msgstr "msg_metadata tablosu oluşturulamıyor"
 #: src/Imap/Model/SQLCache.cpp:133
 msgctxt "QObject|"
 msgid "Can't open database"
-msgstr "Veritabanı açılamıyor"
+msgstr "Veri tabanı açılamıyor"
 
 #: src/Imap/Model/SQLCache.cpp:148
 msgctxt "QObject|"
@@ -4117,7 +4117,7 @@ msgstr "Sürüm bilgisi belirlenemiyor"
 #: src/Imap/Model/SQLCache.cpp:163
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
-msgstr "Önbellek veritabanı şemasını v1’den v2’ye güncelleme işlemi başarısız"
+msgstr "Önbellek veri tabanı şemasını v1’den v2’ye güncelleme işlemi başarısız"
 
 #: src/Imap/Model/SQLCache.cpp:172
 msgctxt "QObject|"
@@ -4128,7 +4128,7 @@ msgstr "Eski mailbox_sync_state tablosunu bırakma başarısız"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v2/v3 to v4"
 msgstr ""
-"Önbellek veritabanı şemasını v2/v3’den v4’e güncelleme işlemi başarısız"
+"Önbellek veri tabanı şemasını v2/v3’den v4’e güncelleme işlemi başarısız"
 
 #: src/Imap/Model/SQLCache.cpp:191
 msgctxt "QObject|"
@@ -4139,7 +4139,7 @@ msgstr "msg_metadata eski tablosunu bırakma başarısız"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
 msgstr ""
-"Önbellek veritabanı şemasını v4/v5/v6’dan v7’ye güncelleme işlemi başarısız"
+"Önbellek veri tabanı şemasını v4/v5/v6’dan v7’ye güncelleme işlemi başarısız"
 
 #: src/Imap/Model/SQLCache.cpp:203
 msgctxt "QObject|"
