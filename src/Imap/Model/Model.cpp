@@ -116,7 +116,7 @@ Model::Model(QObject *parent, std::shared_ptr<AbstractCache> cache, SocketFactor
 {
     m_startTls = m_socketFactory->startTlsRequired();
 
-    m_mailboxes = new TreeItemMailbox(0);
+    m_mailboxes = new TreeItemMailbox(nullptr);
 
     onlineMessageFetch << QStringLiteral("ENVELOPE") << QStringLiteral("BODYSTRUCTURE") << QStringLiteral("RFC822.SIZE") <<
                           QStringLiteral("UID") << QStringLiteral("FLAGS");
@@ -752,7 +752,7 @@ bool Model::hasChildren(const QModelIndex &parent) const
 
 void Model::askForChildrenOfMailbox(const QModelIndex &index, const CacheLoadingMode cacheMode)
 {
-    TreeItemMailbox *mailbox = 0;
+    TreeItemMailbox *mailbox = nullptr;
     if (index.isValid()) {
         Q_ASSERT(index.model() == this);
         mailbox = dynamic_cast<TreeItemMailbox *>(static_cast<TreeItem *>(index.internalPointer()));
@@ -1036,7 +1036,7 @@ void Model::askForMsgPart(TreeItemPart *item, bool onlyFromCache)
         TreeItemPart::PartFetchingMode fetchingMode = TreeItemPart::FETCH_PART_IMAP;
         if (!isSpecialRawPart && keepTask->parser && accessParser(keepTask->parser).capabilitiesFresh &&
                 accessParser(keepTask->parser).capabilities.contains(QStringLiteral("BINARY"))) {
-            if (!item->hasChildren(0) && !item->m_binaryCTEFailed) {
+            if (!item->hasChildren(nullptr) && !item->m_binaryCTEFailed) {
                 // The BINARY only actually makes sense on leaf MIME nodes
                 fetchingMode = TreeItemPart::FETCH_PART_BINARY;
             }
@@ -1233,7 +1233,7 @@ void Model::markMailboxAsRead(const QModelIndex &mailbox)
         return;
 
     QModelIndex index;
-    realTreeItem(mailbox, 0, &index);
+    realTreeItem(mailbox, nullptr, &index);
     Q_ASSERT(index.isValid());
     Q_ASSERT(index.model() == this);
     Q_ASSERT(dynamic_cast<TreeItemMailbox*>(static_cast<TreeItem*>(index.internalPointer())));
@@ -1321,7 +1321,7 @@ TreeItemMailbox *Model::findMailboxByName(const QString &name, const TreeItemMai
         else if (name.startsWith(mailbox->mailbox() + mailbox->separator()))
             return findMailboxByName(name, mailbox);
     }
-    return 0;
+    return nullptr;
 }
 
 /** @short Find a parent mailbox for the specified name */
@@ -1455,7 +1455,7 @@ void Model::handleSocketStateChanged(Parser *parser, Imap::ConnectionState state
 void Model::killParser(Parser *parser, ParserKillingMethod method)
 {
     if (method == PARSER_JUST_DELETE_LATER) {
-        Q_ASSERT(accessParser(parser).parser == 0);
+        Q_ASSERT(accessParser(parser).parser == nullptr);
         Q_FOREACH(ImapTask *task, accessParser(parser).activeTasks) {
             task->deleteLater();
         }
@@ -1470,7 +1470,7 @@ void Model::killParser(Parser *parser, ParserKillingMethod method)
 
     parser->disconnect();
     Q_ASSERT(accessParser(parser).parser);
-    accessParser(parser).parser = 0;
+    accessParser(parser).parser = nullptr;
     switch (method) {
     case PARSER_KILL_EXPECTED:
         logTrace(parser->parserId(), Common::LOG_IO_WRITTEN, QString(), QStringLiteral("*** Connection closed."));
@@ -1545,7 +1545,7 @@ KeepMailboxOpenTask *Model::findTaskResponsibleFor(const QModelIndex &mailbox)
 {
     Q_ASSERT(mailbox.isValid());
     QModelIndex translatedIndex;
-    TreeItemMailbox *mailboxPtr = dynamic_cast<TreeItemMailbox *>(realTreeItem(mailbox, 0, &translatedIndex));
+    TreeItemMailbox *mailboxPtr = dynamic_cast<TreeItemMailbox *>(realTreeItem(mailbox, nullptr, &translatedIndex));
     return findTaskResponsibleFor(mailboxPtr);
 }
 
@@ -1558,14 +1558,14 @@ KeepMailboxOpenTask *Model::findTaskResponsibleFor(TreeItemMailbox *mailboxPtr)
         // The requested mailbox already has the maintaining task associated
         if (accessParser(mailboxPtr->maintainingTask->parser).connState == CONN_STATE_LOGOUT) {
             // The connection is currently getting closed, so we have to create another one
-            return m_taskFactory->createKeepMailboxOpenTask(this, mailboxPtr->toIndex(this), 0);
+            return m_taskFactory->createKeepMailboxOpenTask(this, mailboxPtr->toIndex(this), nullptr);
         } else {
             // it's usable as-is
             return mailboxPtr->maintainingTask;
         }
     } else if (canCreateParallelConn) {
         // The mailbox is not being maintained, but we can create a new connection
-        return m_taskFactory->createKeepMailboxOpenTask(this, mailboxPtr->toIndex(this), 0);
+        return m_taskFactory->createKeepMailboxOpenTask(this, mailboxPtr->toIndex(this), nullptr);
     } else {
         // Too bad, we have to re-use an existing parser. That will probably lead to
         // stealing it from some mailbox, but there's no other way.
@@ -1579,7 +1579,7 @@ KeepMailboxOpenTask *Model::findTaskResponsibleFor(TreeItemMailbox *mailboxPtr)
             return m_taskFactory->createKeepMailboxOpenTask(this, mailboxPtr->toIndex(this), it.key());
         }
         // At this point, we have no other choice than to create a new connection
-        return m_taskFactory->createKeepMailboxOpenTask(this, mailboxPtr->toIndex(this), 0);
+        return m_taskFactory->createKeepMailboxOpenTask(this, mailboxPtr->toIndex(this), nullptr);
     }
 }
 
@@ -1587,7 +1587,7 @@ void Model::genericHandleFetch(TreeItemMailbox *mailbox, const Imap::Responses::
 {
     Q_ASSERT(mailbox);
     QList<TreeItemPart *> changedParts;
-    TreeItemMessage *changedMessage = 0;
+    TreeItemMessage *changedMessage = nullptr;
     mailbox->handleFetchResponse(this, *resp, changedParts, changedMessage, false);
     if (! changedParts.isEmpty()) {
         Q_FOREACH(TreeItemPart* part, changedParts) {
@@ -1604,9 +1604,9 @@ void Model::genericHandleFetch(TreeItemMailbox *mailbox, const Imap::Responses::
 
 QModelIndex Model::findMailboxForItems(const QModelIndexList &items)
 {
-    TreeItemMailbox *mailbox = 0;
+    TreeItemMailbox *mailbox = nullptr;
     Q_FOREACH(const QModelIndex& index, items) {
-        TreeItemMailbox *currentMailbox = 0;
+        TreeItemMailbox *currentMailbox = nullptr;
         Q_ASSERT(index.model() == this);
 
         TreeItem *item = static_cast<TreeItem *>(index.internalPointer());
@@ -1676,7 +1676,7 @@ void Model::releaseMessageData(const QModelIndex &message)
     if (! message.isValid())
         return;
 
-    const Model *whichModel = 0;
+    const Model *whichModel = nullptr;
     QModelIndex realMessage;
     realTreeItem(message, &whichModel, &realMessage);
     Q_ASSERT(whichModel == this);
@@ -1696,7 +1696,7 @@ void Model::releaseMessageData(const QModelIndex &message)
         msg->data()->setPartText(nullptr);
     }
     delete msg->m_data;
-    msg->m_data = 0;
+    msg->m_data = nullptr;
     Q_FOREACH(TreeItem *item, msg->m_children) {
         TreeItemPart *part = dynamic_cast<TreeItemPart *>(item);
         Q_ASSERT(part);
@@ -1731,7 +1731,7 @@ void Model::logTrace(const QModelIndex &relevantIndex, const Common::LogKind kin
 {
     Q_ASSERT(relevantIndex.isValid());
     QModelIndex translatedIndex;
-    realTreeItem(relevantIndex, 0, &translatedIndex);
+    realTreeItem(relevantIndex, nullptr, &translatedIndex);
 
     // It appears that it's OK to use 0 here; the attached loggers apparently deal with random parsers appearing just OK
     uint parserId = 0;

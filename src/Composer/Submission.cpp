@@ -85,8 +85,8 @@ Submission::Submission(QObject *parent, std::shared_ptr<Composer::AbstractCompos
     , m_model(model)
     , m_msaFactory(msaFactory)
     , m_accountId(accountId)
-    , m_updateReplyingToMessageFlagsTask(0)
-    , m_updateForwardingMessageFlagsTask(0)
+    , m_updateReplyingToMessageFlagsTask(nullptr)
+    , m_updateForwardingMessageFlagsTask(nullptr)
 {
     m_source->setPreloadEnabled(shouldBuildMessageLocally());
 }
@@ -222,7 +222,7 @@ void Submission::slotMessageDataAvailable()
         m_genUrlAuthReceived = false;
 
         changeConnectionState(STATE_SAVING);
-        QPointer<Imap::Mailbox::AppendTask> appendTask = 0;
+        QPointer<Imap::Mailbox::AppendTask> appendTask = nullptr;
 
         if (m_model->isCatenateSupported()) {
             // FIXME: without UIDPLUS, there isn't much point in $SubmitPending...
@@ -412,14 +412,14 @@ bool Submission::shouldBuildMessageLocally() const
 
 void Submission::onUpdatingFlagsOfReplyingToSucceded()
 {
-    m_updateReplyingToMessageFlagsTask = 0;
+    m_updateReplyingToMessageFlagsTask = nullptr;
     changeConnectionState(STATE_SENT);
     emit succeeded();
 }
 
 void Submission::onUpdatingFlagsOfReplyingToFailed()
 {
-    m_updateReplyingToMessageFlagsTask = 0;
+    m_updateReplyingToMessageFlagsTask = nullptr;
     emit logged(Common::LogKind::LOG_OTHER, QStringLiteral("Submission"),
                 QStringLiteral("Cannot update flags of the message we replied to -- interesting, but we cannot do anything at this point anyway"));
     changeConnectionState(STATE_SENT);
@@ -428,14 +428,14 @@ void Submission::onUpdatingFlagsOfReplyingToFailed()
 
 void Submission::onUpdatingFlagsOfForwardingSucceeded()
 {
-    m_updateForwardingMessageFlagsTask = 0;
+    m_updateForwardingMessageFlagsTask = nullptr;
     changeConnectionState(STATE_SENT);
     emit succeeded();
 }
 
 void Submission::onUpdatingFlagsOfForwardingFailed()
 {
-    m_updateForwardingMessageFlagsTask = 0;
+    m_updateForwardingMessageFlagsTask = nullptr;
     emit logged(Common::LogKind::LOG_OTHER, QStringLiteral("Submission"),
                 QStringLiteral("Cannot update flags of the message we forwarded -- interesting, but we cannot do anything at this point anyway"));
     changeConnectionState(STATE_SENT);

@@ -73,7 +73,7 @@ public:
 
 BE::Contacts::Contacts(AbookAddressbook *abook): m_abook(abook), m_dirty(false)
 {
-    m_currentContact = 0;
+    m_currentContact = nullptr;
     QImage img(QDir::homePath() + QLatin1String("/.abook/incognito.png"));
     if (!img.isNull())
         m_incognitoPic = QPixmap::fromImage(img.scaled(160,160,Qt::KeepAspectRatio,Qt::SmoothTransformation));
@@ -293,7 +293,7 @@ void BE::Contacts::removeCurrentContact()
     if (m_currentContact) {
         QModelIndex idx = m_sortFilterProxy->mapFromSource(m_currentContact->index());
         delete m_currentContact;
-        m_currentContact = 0;
+        m_currentContact = nullptr;
         m_sortFilterProxy->removeRow(idx.row());
     }
 }

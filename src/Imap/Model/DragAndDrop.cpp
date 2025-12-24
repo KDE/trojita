@@ -34,7 +34,7 @@ namespace Mailbox {
 QMimeData *mimeDataForDragAndDrop(const QModelIndex &index)
 {
     if (index.data(RoleMessageUid) == 0) {
-        return 0;
+        return nullptr;
     }
 
     QByteArray buf;

@@ -35,7 +35,7 @@ class FileLogger : public QObject
 {
     Q_OBJECT
 public:
-    explicit FileLogger(QObject *parent = 0);
+    explicit FileLogger(QObject *parent = nullptr);
     ~FileLogger() override;
 
 public slots:

@@ -230,7 +230,7 @@ void FileAttachmentItem::asDroppableMimeData(QDataStream &stream) const
 
 
 ImapMessageAttachmentItem::ImapMessageAttachmentItem(Model *model, const QString &mailbox, const uint uidValidity, const uint uid):
-    fullMessageCombiner(0)
+    fullMessageCombiner(nullptr)
 {
     Q_ASSERT(model);
     TreeItemMailbox *mboxPtr = model->findMailboxByName(mailbox);

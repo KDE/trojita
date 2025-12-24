@@ -30,7 +30,7 @@ namespace Plugins {
 
 QtKeyChainPasswordJob::QtKeyChainPasswordJob(const QString &accountId, const QString &accountType, const QString &password,
     enum Type type, QObject *parent) :
-    PasswordJob(parent), m_accountId(accountId), m_accountType(accountType), m_password(password), m_type(type), m_job(0)
+    PasswordJob(parent), m_accountId(accountId), m_accountType(accountType), m_password(password), m_type(type), m_job(nullptr)
 {
 }
 
@@ -88,7 +88,7 @@ void QtKeyChainPasswordJob::doStop()
     if (m_job) {
         disconnect(m_job, nullptr, this, nullptr);
         m_job->deleteLater();
-        m_job = 0;
+        m_job = nullptr;
     }
     emit error(PasswordJob::Stopped, QString());
 }

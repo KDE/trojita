@@ -37,7 +37,7 @@ class ProgressPopUp : public QFrame
     Q_OBJECT
 
 public:
-    explicit ProgressPopUp(QWidget *parent = 0);
+    explicit ProgressPopUp(QWidget *parent = nullptr);
     ~ProgressPopUp() override;
 
 public slots:

@@ -317,8 +317,8 @@ public:
      * \param parentId the title under which this action is shown in the shortcut configuration widget. In the shortcut configuration widget, the actions are grouped according to parentId.
      */
     void defineAction(const QString &actionName, const QString &iconName, const QString &text, const QKeySequence::StandardKey &key, const QString &parentId = QObject::tr("Main Window"));
-    QAction *createAction(const QString &actionName, QWidget *parent = 0);
-    QAction *createAction(const QString &actionName, QObject *receiver, const char *member, QWidget *parent = 0);
+    QAction *createAction(const QString &actionName, QWidget *parent = nullptr);
+    QAction *createAction(const QString &actionName, QObject *receiver, const char *member, QWidget *parent = nullptr);
     void addExclusivityGroup(const QStringList &group);
     QSettings *settingsObject();
     QAction *action(const QString &actionName);

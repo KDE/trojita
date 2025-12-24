@@ -32,7 +32,7 @@ namespace Mailbox
 {
 
 ImapTask::ImapTask(Model *model) :
-    QObject(model), parser(0), parentTask(0), model(model), _finished(false), _dead(false), _aborted(false)
+    QObject(model), parser(nullptr), parentTask(nullptr), model(model), _finished(false), _dead(false), _aborted(false)
 {
     connect(this, &QObject::destroyed, model, &Model::slotTaskDying);
     CHECK_TASK_TREE;
@@ -89,7 +89,7 @@ void ImapTask::markAsActiveTask(const TaskActivatingPosition place)
         parentTask->dependentTasks.removeAll(this);
     }
     // As we're an active task, we no longer have a parent task
-    parentTask = 0;
+    parentTask = nullptr;
     model->m_taskModel->slotTaskGotReparented(this);
 
     if (model->accessParser(parser).maintainingTask && model->accessParser(parser).maintainingTask != this) {

@@ -33,12 +33,12 @@ namespace Network
 {
 
 FileDownloadManager::FileDownloadManager(QObject *parent, Imap::Network::MsgPartNetAccessManager *manager, const QModelIndex &partIndex):
-    QObject(parent), manager(manager), partIndex(partIndex), reply(0), saved(false)
+    QObject(parent), manager(manager), partIndex(partIndex), reply(nullptr), saved(false)
 {
 }
 
 FileDownloadManager::FileDownloadManager(QObject *parent, Imap::Network::MsgPartNetAccessManager *manager, const QUrl &url, const QModelIndex &relativeRoot):
-    QObject(parent), manager(manager), partIndex(QModelIndex()), reply(0), saved(false)
+    QObject(parent), manager(manager), partIndex(QModelIndex()), reply(nullptr), saved(false)
 {
     if (url.scheme().toLower() == QLatin1String("cid")) {
         if (!relativeRoot.isValid()) {

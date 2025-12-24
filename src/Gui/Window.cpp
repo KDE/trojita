@@ -120,9 +120,9 @@ namespace Gui
 
     static const char * const netErrorUnseen = "net_error_unseen";
 
-MainWindow::MainWindow(QSettings *settings): QMainWindow(), m_imapAccess(0), m_mainHSplitter(0), m_mainVSplitter(0),
-    m_mainStack(0), m_layoutMode(LAYOUT_COMPACT), m_skipSavingOfUI(true), m_delayedStateSaving(0), m_actionSortNone(0),
-    m_ignoreStoredPassword(false), m_settings(settings), m_pluginManager(0), m_networkErrorMessageBox(0), m_trayIcon(0)
+MainWindow::MainWindow(QSettings *settings): QMainWindow(), m_imapAccess(nullptr), m_mainHSplitter(nullptr), m_mainVSplitter(nullptr),
+    m_mainStack(nullptr), m_layoutMode(LAYOUT_COMPACT), m_skipSavingOfUI(true), m_delayedStateSaving(nullptr), m_actionSortNone(nullptr),
+    m_ignoreStoredPassword(false), m_settings(settings), m_pluginManager(nullptr), m_networkErrorMessageBox(nullptr), m_trayIcon(nullptr)
 {
     setAttribute(Qt::WA_AlwaysShowToolTips);
     // m_pluginManager must be created before calling createWidgets
@@ -943,7 +943,7 @@ void MainWindow::setupModels()
     Q_ASSERT(nw);
     connect(nw, &Imap::Mailbox::NetworkWatcher::reconnectAttemptScheduled,
             this, [this](const int timeout) {
-            showStatusMessage(tr("Attempting to reconnect in %n seconds..", 0, timeout/1000));
+            showStatusMessage(tr("Attempting to reconnect in %n seconds..", nullptr, timeout/1000));
             });
     connect(nw, &Imap::Mailbox::NetworkWatcher::resetReconnectState, this, &MainWindow::slotResetReconnectState);
 
@@ -1015,7 +1015,7 @@ void MainWindow::createSysTray()
 void MainWindow::removeSysTray()
 {
     delete m_trayIcon;
-    m_trayIcon = 0;
+    m_trayIcon = nullptr;
 
     qApp->setQuitOnLastWindowClosed(true);
 }
@@ -1111,7 +1111,7 @@ void MainWindow::handleTrayIconChange()
         painter.drawPath(path);
 
         //: This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-        tooltip += tr(" - %n unread message(s)", 0, unreadCount);
+        tooltip += tr(" - %n unread message(s)", nullptr, unreadCount);
     } else if (isOffline) {
         //: A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
         tooltip += tr(" - offline");
@@ -1408,7 +1408,7 @@ void MainWindow::slotResetReconnectState()
 {
     if (m_networkErrorMessageBox) {
         delete m_networkErrorMessageBox;
-        m_networkErrorMessageBox = 0;
+        m_networkErrorMessageBox = nullptr;
     }
 }
 
@@ -1497,14 +1497,14 @@ void MainWindow::nukeModels()
 #ifdef TROJITA_HAVE_WEBKIT
     m_messageWidget->messageView->setEmpty();
 #endif
-    mboxTree->setModel(0);
-    msgListWidget->tree->setModel(0);
-    allTree->setModel(0);
-    taskTree->setModel(0);
+    mboxTree->setModel(nullptr);
+    msgListWidget->tree->setModel(nullptr);
+    allTree->setModel(nullptr);
+    taskTree->setModel(nullptr);
     delete prettyMsgListModel;
-    prettyMsgListModel = 0;
+    prettyMsgListModel = nullptr;
     delete prettyMboxModel;
-    prettyMboxModel = 0;
+    prettyMboxModel = nullptr;
 }
 
 void MainWindow::recoverDrafts()
@@ -1698,7 +1698,7 @@ void MainWindow::createMailboxBelow(const QModelIndex &index)
     Imap::Mailbox::TreeItemMailbox *mboxPtr = index.isValid() ?
             dynamic_cast<Imap::Mailbox::TreeItemMailbox *>(
                 Imap::Mailbox::Model::realTreeItem(index)) :
-            0;
+            nullptr;
 
     Ui::CreateMailboxDialog ui;
     QDialog *dialog = new QDialog(this);
@@ -2016,7 +2016,7 @@ MSA::MSAFactory *MainWindow::msaFactory()
 {
     using namespace Common;
     QString method = m_settings->value(SettingsNames::msaMethodKey).toString();
-    MSA::MSAFactory *msaFactory = 0;
+    MSA::MSAFactory *msaFactory = nullptr;
     if (method == SettingsNames::methodSMTP || method == SettingsNames::methodSSMTP) {
         msaFactory = new MSA::SMTPFactory(m_settings->value(SettingsNames::smtpHostKey).toString(),
                                           m_settings->value(SettingsNames::smtpPortKey).toInt(),
@@ -2030,17 +2030,17 @@ MSA::MSAFactory *MainWindow::msaFactory()
     } else if (method == SettingsNames::methodSENDMAIL) {
         QStringList args = m_settings->value(SettingsNames::sendmailKey, SettingsNames::sendmailDefaultCmd).toString().split(QLatin1Char(' '));
         if (args.isEmpty()) {
-            return 0;
+            return nullptr;
         }
         QString appName = args.takeFirst();
         msaFactory = new MSA::SendmailFactory(appName, args);
     } else if (method == SettingsNames::methodImapSendmail) {
         if (!imapModel()->capabilities().contains(QStringLiteral("X-DRAFT-I01-SENDMAIL"))) {
-            return 0;
+            return nullptr;
         }
         msaFactory = new MSA::ImapSubmitFactory(qobject_cast<Imap::Mailbox::Model*>(imapAccess()->imapModel()));
     } else {
-        return 0;
+        return nullptr;
     }
     return msaFactory;
 }
@@ -2214,7 +2214,7 @@ void MainWindow::slotDownloadTransferError(const QString &errorString)
 
 void MainWindow::slotDownloadMessageFileNameRequested(QString *fileName)
 {
-    *fileName = QFileDialog::getSaveFileName(this, tr("Save Message"), *fileName, QString(), 0,
+    *fileName = QFileDialog::getSaveFileName(this, tr("Save Message"), *fileName, QString(), nullptr,
                                              QFileDialog::HideNameFilterDetails);
 }
 
@@ -2564,7 +2564,7 @@ void MainWindow::slotUpdateWindowTitle()
         profileName = QLatin1String(" [") + profileName + QLatin1Char(']');
     if (mailbox.isValid()) {
         if (mailbox.data(Imap::Mailbox::RoleUnreadMessageCount).toInt()) {
-            setWindowTitle(tr("%1 - %n unread - Trojitá", 0, mailbox.data(Imap::Mailbox::RoleUnreadMessageCount).toInt())
+            setWindowTitle(tr("%1 - %n unread - Trojitá", nullptr, mailbox.data(Imap::Mailbox::RoleUnreadMessageCount).toInt())
                            .arg(mailbox.data(Imap::Mailbox::RoleShortMailboxName).toString()) + profileName);
         } else {
             setWindowTitle(tr("%1 - Trojitá").arg(mailbox.data(Imap::Mailbox::RoleShortMailboxName).toString()) + profileName);

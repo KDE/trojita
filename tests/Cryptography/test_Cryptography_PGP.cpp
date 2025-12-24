@@ -79,7 +79,7 @@ void CryptographyPGPTest::testDecryption()
             + t.last("OK fetched\r\n"));
     cEmpty();
     QVERIFY(model->rowCount(msg) > 0);
-    Cryptography::MessageModel msgModel(0, msg);
+    Cryptography::MessageModel msgModel(nullptr, msg);
 #ifdef TROJITA_HAVE_CRYPTO_MESSAGES
 #  ifdef TROJITA_HAVE_GPGMEPP
     msgModel.registerPartHandler(std::make_shared<Cryptography::GpgMeReplacer>());
@@ -194,7 +194,7 @@ void CryptographyPGPTest::testDecryptWithoutEnvelope()
     QCOMPARE(model->rowCount(msgListB), 1);
     QModelIndex msg = msgListB.model()->index(0, 0, msgListB);
     QVERIFY(msg.isValid());
-    Cryptography::MessageModel msgModel(0, msg);
+    Cryptography::MessageModel msgModel(nullptr, msg);
     msgModel.registerPartHandler(std::make_shared<Cryptography::GpgMeReplacer>());
 
     QCOMPARE(model->rowCount(msg), 0);
@@ -269,7 +269,7 @@ void CryptographyPGPTest::testVerification()
             + t.last("OK fetched\r\n"));
     cEmpty();
     QVERIFY(model->rowCount(msg) > 0);
-    Cryptography::MessageModel msgModel(0, msg);
+    Cryptography::MessageModel msgModel(nullptr, msg);
 #ifdef TROJITA_HAVE_CRYPTO_MESSAGES
 #  ifdef TROJITA_HAVE_GPGMEPP
     msgModel.registerPartHandler(std::make_shared<Cryptography::GpgMeReplacer>());
@@ -423,7 +423,7 @@ void CryptographyPGPTest::testMalformed()
             + t.last("OK fetched\r\n"));
     cEmpty();
     QVERIFY(model->rowCount(msg) > 0);
-    Cryptography::MessageModel msgModel(0, msg);
+    Cryptography::MessageModel msgModel(nullptr, msg);
 #ifdef TROJITA_HAVE_CRYPTO_MESSAGES
 #  ifdef TROJITA_HAVE_GPGMEPP
     msgModel.registerPartHandler(std::make_shared<Cryptography::GpgMeReplacer>());
@@ -498,7 +498,7 @@ void CryptographyPGPTest::testOffline()
             + t.last("OK fetched\r\n"));
     cEmpty();
     QVERIFY(model->rowCount(msg) > 0);
-    Cryptography::MessageModel msgModel(0, msg);
+    Cryptography::MessageModel msgModel(nullptr, msg);
 #ifdef TROJITA_HAVE_CRYPTO_MESSAGES
 #  ifdef TROJITA_HAVE_GPGMEPP
     msgModel.registerPartHandler(std::make_shared<Cryptography::GpgMeReplacer>());

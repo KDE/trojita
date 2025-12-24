@@ -28,7 +28,7 @@ namespace Mailbox
 {
 
 Fake_OpenConnectionTask::Fake_OpenConnectionTask(Imap::Mailbox::Model *model, Imap::Parser *parser_):
-    OpenConnectionTask(model, 0)
+    OpenConnectionTask(model, nullptr)
 {
     // We really want to call the protected constructor, otherwise the OpenConnectionTask
     // would create a socket itself, and we don't want to end up there

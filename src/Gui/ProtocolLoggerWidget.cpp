@@ -34,12 +34,12 @@
 
 namespace Gui {
 
-ConnectionLog::ConnectionLog(): widget(0), buffer(Common::RingBuffer<Common::LogMessage>(900)), closedTime(0)
+ConnectionLog::ConnectionLog(): widget(nullptr), buffer(Common::RingBuffer<Common::LogMessage>(900)), closedTime(0)
 {
 }
 
 ProtocolLoggerWidget::ProtocolLoggerWidget(QWidget *parent) :
-    QWidget(parent), loggingActive(false), m_fileLogger(0)
+    QWidget(parent), loggingActive(false), m_fileLogger(nullptr)
 {
     QVBoxLayout *layout = new QVBoxLayout(this);
     tabs = new QTabWidget(this);
@@ -70,7 +70,7 @@ void ProtocolLoggerWidget::slotSetPersistentLogging(const bool enabled)
         m_fileLogger->setAutoFlush(true);
     } else {
         delete m_fileLogger;
-        m_fileLogger = 0;
+        m_fileLogger = nullptr;
     }
     emit persistentLoggingChanged(!!m_fileLogger);
 }

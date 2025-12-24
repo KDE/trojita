@@ -31,7 +31,7 @@ namespace Common
 {
 
 FileLogger::FileLogger(QObject *parent) :
-    QObject(parent), m_fileLog(0), m_consoleLog(false), m_autoFlush(false)
+    QObject(parent), m_fileLog(nullptr), m_consoleLog(false), m_autoFlush(false)
 {
 }
 
@@ -49,7 +49,7 @@ void FileLogger::setFileLogging(const bool enabled, const QString &fileName)
             QIODevice *dev = m_fileLog->device();
             delete m_fileLog;
             delete dev;
-            m_fileLog = 0;
+            m_fileLog = nullptr;
         }
     }
 }

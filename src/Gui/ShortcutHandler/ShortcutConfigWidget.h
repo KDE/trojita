@@ -47,7 +47,7 @@ class ShortcutConfigWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit ShortcutConfigWidget(QWidget *parent = 0);
+    explicit ShortcutConfigWidget(QWidget *parent = nullptr);
     ~ShortcutConfigWidget() override;
 
     /**

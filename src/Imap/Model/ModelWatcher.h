@@ -36,7 +36,7 @@ class ModelWatcher : public QObject
     Q_OBJECT
     bool m_ignoreData;
 public:
-    ModelWatcher(QObject *parent=0): QObject(parent), m_ignoreData(false) {};
+    ModelWatcher(QObject *parent=nullptr): QObject(parent), m_ignoreData(false) {};
     void setModel(QAbstractItemModel *model);
     void setIgnoreData(const bool ignore) { m_ignoreData = ignore; }
 

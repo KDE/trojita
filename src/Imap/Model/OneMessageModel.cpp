@@ -33,7 +33,7 @@ namespace Imap
 namespace Mailbox
 {
 
-OneMessageModel::OneMessageModel(Model *model): QObject(model), m_subtree(0)
+OneMessageModel::OneMessageModel(Model *model): QObject(model), m_subtree(nullptr)
 {
     m_subtree = new SubtreeModelOfModel(this);
     m_subtree->setSourceModel(model);
@@ -78,7 +78,7 @@ void OneMessageModel::setMessage(const QModelIndex &message)
     // Now try to locate the interesting part of the current message
     QModelIndex idx;
     QString partMessage;
-    FindInterestingPart::MainPartReturnCode res = FindInterestingPart::findMainPartOfMessage(m_message, idx, partMessage, 0);
+    FindInterestingPart::MainPartReturnCode res = FindInterestingPart::findMainPartOfMessage(m_message, idx, partMessage, nullptr);
     switch (res) {
     case Imap::Mailbox::FindInterestingPart::MAINPART_FOUND:
     case Imap::Mailbox::FindInterestingPart::MAINPART_PART_LOADING:

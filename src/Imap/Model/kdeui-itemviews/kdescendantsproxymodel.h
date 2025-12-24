@@ -78,7 +78,7 @@ class KDEUI_EXPORT KDescendantsProxyModel : public QAbstractProxyModel
      *
      * @param parent The parent object.
      */
-    explicit KDescendantsProxyModel( QObject *parent = 0 );
+    explicit KDescendantsProxyModel( QObject *parent = nullptr );
 
     /**
      * Destroys the descendant entities proxy model.

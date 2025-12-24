@@ -50,13 +50,13 @@ ExpectSingleErrorHere::~ExpectSingleErrorHere()
 }
 
 LibMailboxSync::LibMailboxSync()
-    : model(0)
-    , msgListModel(0)
-    , threadingModel(0)
-    , factory(0)
-    , taskFactoryUnsafe(0)
-    , errorSpy(0)
-    , netErrorSpy(0)
+    : model(nullptr)
+    , msgListModel(nullptr)
+    , threadingModel(nullptr)
+    , factory(nullptr)
+    , taskFactoryUnsafe(nullptr)
+    , errorSpy(nullptr)
+    , netErrorSpy(nullptr)
     , m_verbose(false)
     , m_expectsError(false)
     , m_fakeListCommand(true)
@@ -170,22 +170,22 @@ void LibMailboxSync::helperInitialListing()
 void LibMailboxSync::cleanup()
 {
     delete model;
-    model = 0;
+    model = nullptr;
     if (msgListModel) {
         msgListModel->deleteLater();
     }
-    msgListModel = 0;
+    msgListModel = nullptr;
     if (threadingModel) {
         threadingModel->deleteLater();
     }
-    threadingModel = 0;
-    taskFactoryUnsafe = 0;
+    threadingModel = nullptr;
+    taskFactoryUnsafe = nullptr;
     QVERIFY(errorSpy->isEmpty());
     delete errorSpy;
-    errorSpy = 0;
+    errorSpy = nullptr;
     delete netErrorSpy;
-    netErrorSpy = 0;
-    QCoreApplication::sendPostedEvents(0, QEvent::DeferredDelete);
+    netErrorSpy = nullptr;
+    QCoreApplication::sendPostedEvents(nullptr, QEvent::DeferredDelete);
 }
 
 void LibMailboxSync::cleanupTestCase()
@@ -201,11 +201,11 @@ void LibMailboxSync::initTestCase()
     qputenv("QT_EXCLUDE_GENERIC_BEARER", "1");
 
     Common::registerMetaTypes();
-    model = 0;
-    msgListModel = 0;
-    threadingModel = 0;
-    errorSpy = 0;
-    netErrorSpy = 0;
+    model = nullptr;
+    msgListModel = nullptr;
+    threadingModel = nullptr;
+    errorSpy = nullptr;
+    netErrorSpy = nullptr;
 }
 
 /** @short Helper: simulate sync of mailbox A that contains some messages from an empty state */

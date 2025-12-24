@@ -36,7 +36,7 @@ namespace Mailbox
 
 
 DeleteMailboxTask::DeleteMailboxTask(Model *model, const QString &mailbox):
-    ImapTask(model), conn(0), mailbox(mailbox)
+    ImapTask(model), conn(nullptr), mailbox(mailbox)
 {
     // If the mailbox we're about to delete is open, or scheduled to be open, let's make
     // sure that we are going to tell the KeepMailboxOpenTask about us.

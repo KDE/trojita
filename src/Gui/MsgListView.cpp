@@ -201,7 +201,7 @@ void MsgListView::startDrag(Qt::DropActions supportedActions)
             if (i == maxItems) {
                 p.fillRect(opt.rect, palette().color(QPalette::Disabled, QPalette::Highlight));
                 p.setBrush(palette().color(QPalette::Disabled, QPalette::HighlightedText));
-                p.drawText(opt.rect, Qt::AlignRight, tr("+ %n additional item(s)", 0, baseIndexes.size() - maxItems));
+                p.drawText(opt.rect, Qt::AlignRight, tr("+ %n additional item(s)", nullptr, baseIndexes.size() - maxItems));
                 break;
             }
             itemDelegate()->paint(&p, opt, baseIndexes.at(i));
@@ -505,7 +505,7 @@ Imap::Mailbox::PrettyMsgListModel *MsgListView::findPrettyMsgListModel(QAbstract
         else
             model = proxy->sourceModel();
     }
-    return 0;
+    return nullptr;
 }
 
 void MsgListView::setAutoActivateAfterKeyNavigation(bool enabled)

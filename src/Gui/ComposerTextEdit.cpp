@@ -183,12 +183,12 @@ void ComposerTextEdit::contextMenuEvent(QContextMenuEvent *e)
     // The API of QWebView with its standard actions looks like heaven compared to this stuff.
     //
     // This is why we take a look at the action's text and look for a particular string. Yes, it's ugly; patches welcome.
-    QAction *pasteAction = 0;
+    QAction *pasteAction = nullptr;
     QString candidateStringForPaste = QKeySequence(QKeySequence::Paste).toString();
     // Finally, the API for adding functions leaves something to be desired; QMenu::insertAction takes a pointer to the
     // "before" thing which is just... annoying here (even though it makes certain amount of sense with addAction which
     // appends).
-    QAction *followingActionAfterPaste = 0;
+    QAction *followingActionAfterPaste = nullptr;
     QList<QAction*> actions = menu->actions();
     for (QList<QAction*>::const_iterator it = actions.constBegin(); it != actions.constEnd() && !pasteAction; ++it) {
         if (!candidateStringForPaste.isEmpty() && (*it)->text().contains(candidateStringForPaste)) {

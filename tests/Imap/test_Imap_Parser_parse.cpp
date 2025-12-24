@@ -42,8 +42,8 @@ void ImapParserParseTest::initTestCase()
 void ImapParserParseTest::cleanupTestCase()
 {
     delete parser;
-    parser = 0;
-    QCoreApplication::sendPostedEvents(0, QEvent::DeferredDelete);
+    parser = nullptr;
+    QCoreApplication::sendPostedEvents(nullptr, QEvent::DeferredDelete);
 }
 
 /** @short Test tagged response parsing */

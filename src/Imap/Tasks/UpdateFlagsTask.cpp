@@ -34,7 +34,7 @@ namespace Mailbox
 {
 
 UpdateFlagsTask::UpdateFlagsTask(Model *model, const QModelIndexList &messages_, const FlagsOperation flagOperation, const QString &flags):
-    ImapTask(model), copyMove(0), flagOperation(flagOperation), flags(flags)
+    ImapTask(model), copyMove(nullptr), flagOperation(flagOperation), flags(flags)
 {
     if (messages_.isEmpty()) {
         throw CantHappen("UpdateFlagsTask called with empty message set");
@@ -49,7 +49,7 @@ UpdateFlagsTask::UpdateFlagsTask(Model *model, const QModelIndexList &messages_,
 
 UpdateFlagsTask::UpdateFlagsTask(Model *model, CopyMoveMessagesTask *copyTask, const QList<QPersistentModelIndex> &messages,
                                  const FlagsOperation flagOperation, const QString &flags):
-    ImapTask(model), conn(0), copyMove(copyTask), messages(messages), flagOperation(flagOperation), flags(flags)
+    ImapTask(model), conn(nullptr), copyMove(copyTask), messages(messages), flagOperation(flagOperation), flags(flags)
 {
     copyTask->addDependentTask(this);
 }

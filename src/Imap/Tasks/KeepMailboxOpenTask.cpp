@@ -45,8 +45,8 @@ namespace Mailbox
 {
 
 KeepMailboxOpenTask::KeepMailboxOpenTask(Model *model, const QModelIndex &mailboxIndex, Parser *oldParser) :
-    ImapTask(model), mailboxIndex(mailboxIndex), synchronizeConn(0), shouldExit(false), isRunning(Running::NOT_YET),
-    shouldRunNoop(false), shouldRunIdle(false), idleLauncher(0), unSelectTask(0),
+    ImapTask(model), mailboxIndex(mailboxIndex), synchronizeConn(nullptr), shouldExit(false), isRunning(Running::NOT_YET),
+    shouldRunNoop(false), shouldRunIdle(false), idleLauncher(nullptr), unSelectTask(nullptr),
     m_skippedStateSynces(0), m_performedStateSynces(0), m_syncingTimer(nullptr)
 {
     Q_ASSERT(mailboxIndex.isValid());
@@ -84,7 +84,7 @@ KeepMailboxOpenTask::KeepMailboxOpenTask(Model *model, const QModelIndex &mailbo
         } else {
             // The parser is free, or at least there's no KeepMailboxOpenTask associated with it.
             // There's no mailbox besides us in the game, yet, so we can simply schedule us for immediate execution.
-            synchronizeConn = model->m_taskFactory->createObtainSynchronizedMailboxTask(model, mailboxIndex, 0, this);
+            synchronizeConn = model->m_taskFactory->createObtainSynchronizedMailboxTask(model, mailboxIndex, nullptr, this);
             // We'll also register with the model, so that all other KeepMailboxOpenTask which could get constructed in future
             // know about us and don't step on our toes.  This means that further KeepMailboxOpenTask which could possibly want
             // to use this connection will have to go through this task at first.
@@ -97,7 +97,7 @@ KeepMailboxOpenTask::KeepMailboxOpenTask(Model *model, const QModelIndex &mailbo
             connect(task, &QObject::destroyed, this, &KeepMailboxOpenTask::slotTaskDeleted);
         }
     } else {
-        ImapTask *conn = 0;
+        ImapTask *conn = nullptr;
         if (model->networkPolicy() == NETWORK_OFFLINE) {
             // Well, except that we cannot really open a new connection now
             conn = new OfflineConnectionTask(model);
@@ -193,7 +193,7 @@ void KeepMailboxOpenTask::addDependentTask(ImapTask *task)
 
     DeleteMailboxTask *deleteTask = qobject_cast<DeleteMailboxTask*>(task);
     if (!deleteTask || deleteTask->mailbox != mailboxIndex.data(RoleMailboxName).toString()) {
-        deleteTask = 0;
+        deleteTask = nullptr;
     }
 
     if (ObtainSynchronizedMailboxTask *obtainTask = qobject_cast<ObtainSynchronizedMailboxTask *>(task)) {
@@ -363,7 +363,7 @@ void KeepMailboxOpenTask::perform()
     Q_ASSERT(synchronizeConn);
     Q_ASSERT(synchronizeConn->isFinished());
     parser = synchronizeConn->parser;
-    synchronizeConn = 0; // will get deleted by Model
+    synchronizeConn = nullptr; // will get deleted by Model
     markAsActiveTask();
 
     isRunning = Running::RUNNING;
@@ -574,7 +574,7 @@ bool KeepMailboxOpenTask::handleStateHelper(const Imap::Responses::State *const 
             shouldRunIdle = false;
             idleLauncher->idleCommandFailed();
             idleLauncher->deleteLater();
-            idleLauncher = 0;
+            idleLauncher = nullptr;
         }
         tagIdle.clear();
         // IDLE is special because it's not really a native Task. Therefore, we have to duplicate the check for its completion
@@ -599,7 +599,7 @@ bool KeepMailboxOpenTask::handleStateHelper(const Imap::Responses::State *const 
             _failed(QLatin1String("FETCH of new arrivals failed: ") + resp->message);
         }
         // Don't forget to resume IDLE, if desired; that's easiest by simply behaving as if a "task" has just finished
-        slotTaskDeleted(0);
+        slotTaskDeleted(nullptr);
         model->m_taskModel->slotTaskMighHaveChanged(this);
         return true;
     } else if (resp->tag == tagClose) {
@@ -651,10 +651,10 @@ void KeepMailboxOpenTask::detachFromMailbox()
 
         // We're already obsolete -> don't pretend to accept new tasks
         if (mailbox->maintainingTask == this)
-            mailbox->maintainingTask = 0;
+            mailbox->maintainingTask = nullptr;
     }
     if (model->m_parsers.contains(parser) && model->accessParser(parser).maintainingTask == this) {
-        model->accessParser(parser).maintainingTask = 0;
+        model->accessParser(parser).maintainingTask = nullptr;
     }
 }
 

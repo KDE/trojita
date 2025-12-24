@@ -41,8 +41,8 @@ void ImapMsgPartNetAccessManagerTest::init()
     // That's too long for a unit test.
     model->setProperty("trojita-imap-delayed-fetch-part", 0);
 
-    networkPolicy = new Imap::Mailbox::DummyNetworkWatcher(0, model);
-    netAccessManager = new Imap::Network::MsgPartNetAccessManager(0);
+    networkPolicy = new Imap::Mailbox::DummyNetworkWatcher(nullptr, model);
+    netAccessManager = new Imap::Network::MsgPartNetAccessManager(nullptr);
 
     initialMessages(2);
     QModelIndex m1 = msgListA.model()->index(0, 0, msgListA);
@@ -63,9 +63,9 @@ void ImapMsgPartNetAccessManagerTest::init()
 void ImapMsgPartNetAccessManagerTest::cleanup()
 {
     delete netAccessManager;
-    netAccessManager = 0;
+    netAccessManager = nullptr;
     delete networkPolicy;
-    networkPolicy = 0;
+    networkPolicy = nullptr;
     LibMailboxSync::cleanup();
 }
 

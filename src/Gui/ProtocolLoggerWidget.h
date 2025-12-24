@@ -58,7 +58,7 @@ class ProtocolLoggerWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit ProtocolLoggerWidget(QWidget *parent = 0);
+    explicit ProtocolLoggerWidget(QWidget *parent = nullptr);
     ~ProtocolLoggerWidget() override;
 
 public slots:

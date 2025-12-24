@@ -230,7 +230,7 @@ public:
     Upon failure, this function returns 0 and doesn't touch any of @arg whichModel
     and @arg translatedIndex.
     */
-    static TreeItem *realTreeItem(QModelIndex index, const Model **whichModel = 0, QModelIndex *translatedIndex = 0);
+    static TreeItem *realTreeItem(QModelIndex index, const Model **whichModel = nullptr, QModelIndex *translatedIndex = nullptr);
 
     /** @short Inform the model that data for this message won't likely be requested in near future
 

@@ -38,7 +38,7 @@ class MsgPartNetAccessManager : public QNetworkAccessManager
 {
     Q_OBJECT
 public:
-    explicit MsgPartNetAccessManager(QObject *parent=0);
+    explicit MsgPartNetAccessManager(QObject *parent=nullptr);
     void setModelMessage(const QModelIndex &message);
     static QModelIndex pathToPart(const QModelIndex &message, const QByteArray &path);
     static QModelIndex cidToPart(const QModelIndex &rootIndex, const QByteArray &cid);
@@ -46,7 +46,7 @@ public:
     void registerMimeTypeTranslation(const QString &originalMimeType, const QString &translatedMimeType);
     Q_INVOKABLE void wrapQmlWebViewRequest(QObject *request, QObject *reply);
 protected:
-    QNetworkReply *createRequest(Operation op, const QNetworkRequest &req, QIODevice *outgoingData=0) override;
+    QNetworkReply *createRequest(Operation op, const QNetworkRequest &req, QIODevice *outgoingData=nullptr) override;
 signals:
     void requestingExternal(const QUrl &url);
 public slots:

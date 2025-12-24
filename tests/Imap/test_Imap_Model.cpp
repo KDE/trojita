@@ -31,7 +31,7 @@
 void ImapModelTest::initTestCase()
 {
     Common::registerMetaTypes();
-    mboxModel = 0;
+    mboxModel = nullptr;
 }
 
 void ImapModelTest::init()
@@ -74,7 +74,7 @@ void ImapModelTest::testInboxCaseSensitivity()
     QCOMPARE(mboxModel->data(mboxModel->index(0, 0, QModelIndex()), Qt::DisplayRole), QVariant("INBOX"));
     cEmpty();
     mboxModel->deleteLater();
-    mboxModel = 0;
+    mboxModel = nullptr;
 }
 
 void ImapModelTest::testCreationDeletionHandling()

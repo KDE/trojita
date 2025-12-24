@@ -151,7 +151,7 @@ private:
 };
 
 ComposeWidget::ComposeWidget(MainWindow *mainWindow, std::shared_ptr<Composer::AbstractComposer> messageComposer, MSA::MSAFactory *msaFactory)
-    : QWidget(0, Qt::Window)
+    : QWidget(nullptr, Qt::Window)
     , ui(new Ui::ComposeWidget)
     , m_maxVisibleRecipients(MIN_MAX_VISIBLE_RECIPIENTS)
     , m_sentMail(false)
@@ -414,7 +414,7 @@ ComposeWidget *ComposeWidget::createBlank(MainWindow *mainWindow)
 {
     MSA::MSAFactory *msaFactory = mainWindow->msaFactory();
     if (!msaFactory)
-        return 0;
+        return nullptr;
 
     auto composer = std::make_shared<Composer::MessageComposer>(mainWindow->imapModel());
     ComposeWidget *w = new ComposeWidget(mainWindow, composer, msaFactory);
@@ -428,7 +428,7 @@ ComposeWidget *ComposeWidget::createDraft(MainWindow *mainWindow, const QString 
 {
     MSA::MSAFactory *msaFactory = mainWindow->msaFactory();
     if (!msaFactory)
-        return 0;
+        return nullptr;
 
     auto composer = std::make_shared<Composer::MessageComposer>(mainWindow->imapModel());
     ComposeWidget *w = new ComposeWidget(mainWindow, composer, msaFactory);
@@ -443,7 +443,7 @@ ComposeWidget *ComposeWidget::createFromUrl(MainWindow *mainWindow, const QUrl &
 {
     MSA::MSAFactory *msaFactory = mainWindow->msaFactory();
     if (!msaFactory)
-        return 0;
+        return nullptr;
 
     auto composer = std::make_shared<Composer::MessageComposer>(mainWindow->imapModel());
     ComposeWidget *w = new ComposeWidget(mainWindow, composer, msaFactory);
@@ -494,7 +494,7 @@ ComposeWidget *ComposeWidget::createReply(MainWindow *mainWindow, const Composer
 {
     MSA::MSAFactory *msaFactory = mainWindow->msaFactory();
     if (!msaFactory)
-        return 0;
+        return nullptr;
 
     auto composer = std::make_shared<Composer::MessageComposer>(mainWindow->imapModel());
     ComposeWidget *w = new ComposeWidget(mainWindow, composer, msaFactory);
@@ -531,7 +531,7 @@ ComposeWidget *ComposeWidget::createForward(MainWindow *mainWindow, const Compos
 {
     MSA::MSAFactory *msaFactory = mainWindow->msaFactory();
     if (!msaFactory)
-        return 0;
+        return nullptr;
 
     auto composer = std::make_shared<Composer::MessageComposer>(mainWindow->imapModel());
     ComposeWidget *w = new ComposeWidget(mainWindow, composer, msaFactory);
@@ -553,7 +553,7 @@ ComposeWidget *ComposeWidget::createFromReadOnly(MainWindow *mainWindow, const Q
 {
     MSA::MSAFactory *msaFactory = mainWindow->msaFactory();
     if (!msaFactory)
-        return 0;
+        return nullptr;
 
     auto composer = std::make_shared<Composer::ExistingMessageComposer>(messageRoot);
     ComposeWidget *w = new ComposeWidget(mainWindow, composer, msaFactory);
@@ -1019,9 +1019,9 @@ static int actualRow(QFormLayout *form, int row)
 
 static QWidget* formPredecessor(QFormLayout *form, QWidget *w)
 {
-    QWidget *pred = 0;
-    QWidget *runner = 0;
-    QLayoutItem *item = 0;
+    QWidget *pred = nullptr;
+    QWidget *runner = nullptr;
+    QLayoutItem *item = nullptr;
     for (int i = 0; i < form->rowCount(); ++i) {
         if ((item = form->itemAt(i, QFormLayout::LabelRole))) {
             runner = item->widget();
@@ -1177,7 +1177,7 @@ void ComposeWidget::removeRecipient(int pos)
             formerFocus = m_recipients.at(pos + 1).second;
         }
     } else if (m_recipients.at(pos).first == formerFocus || m_recipients.at(pos).second == formerFocus) {
-            formerFocus = 0;
+            formerFocus = nullptr;
     }
 
     ui->envelopeLayout->removeWidget(m_recipients.at(pos).first);
@@ -1295,7 +1295,7 @@ void ComposeWidget::slotFadeFinished()
     Q_ASSERT(sender());
     QWidget *animatedEffectWidget = qobject_cast<QWidget*>(sender()->parent());
     Q_ASSERT(animatedEffectWidget);
-    animatedEffectWidget->setGraphicsEffect(0); // deletes old one
+    animatedEffectWidget->setGraphicsEffect(nullptr); // deletes old one
 }
 
 void ComposeWidget::scrollRecipients(int value)
@@ -1353,7 +1353,7 @@ void ComposeWidget::scrollRecipients(int value)
 
     Q_FOREACH (QWidget *w, visibleWidgets) {
         // was visible, is no longer -> stop animation so it won't conflict later ones
-        w->setGraphicsEffect(0); // deletes old one
+        w->setGraphicsEffect(nullptr); // deletes old one
         if (QPropertyAnimation *pa = w->findChild<QPropertyAnimation*>(trojita_opacityAnimation))
             pa->stop();
     }
@@ -1426,7 +1426,7 @@ void ComposeWidget::completeRecipients(const QString &text)
     if (text.isEmpty()) {
         // if there's a popup close it and set back the receiver
         m_completionPopup->close();
-        m_completionReceiver = 0;
+        m_completionReceiver = nullptr;
         return; // we do not suggest "nothing"
     }
     Q_ASSERT(sender());
@@ -1442,7 +1442,7 @@ void ComposeWidget::completeRecipients(const QString &text)
         disconnect(secondJob, nullptr, this, nullptr);
         secondJob->stop();
         secondJob->deleteLater();
-        secondJob = 0;
+        secondJob = nullptr;
     }
     // now at most one job is running
 
@@ -1526,7 +1526,7 @@ void ComposeWidget::onCompletionAvailable(const Plugins::NameEmailList &completi
     }
 
     if (contacts.isEmpty()) {
-        m_completionReceiver = 0;
+        m_completionReceiver = nullptr;
         m_completionPopup->close();
     } else {
         m_completionReceiver = toEdit;
@@ -1549,7 +1549,7 @@ void ComposeWidget::completeRecipient(QAction *act)
     if (act->data().toString().isEmpty())
         return;
     m_completionReceiver->setText(act->data().toString());
-    m_completionReceiver = 0;
+    m_completionReceiver = nullptr;
     m_completionPopup->close();
 }
 
@@ -1613,7 +1613,7 @@ bool ComposeWidget::eventFilter(QObject *o, QEvent *e)
 void ComposeWidget::slotAskForFileAttachment()
 {
     static QDir directory = QDir::home();
-    QString fileName = QFileDialog::getOpenFileName(this, tr("Attach File..."), directory.absolutePath(), QString(), 0,
+    QString fileName = QFileDialog::getOpenFileName(this, tr("Attach File..."), directory.absolutePath(), QString(), nullptr,
                                                     QFileDialog::DontResolveSymlinks);
     if (!fileName.isEmpty()) {
         directory = QFileInfo(fileName).absoluteDir();

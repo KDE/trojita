@@ -34,7 +34,7 @@
 using namespace Gui;
 
 Spinner::Spinner(QWidget *parent) : QWidget(parent), m_step(0), m_fadeStep(0), m_timer(0),
-                                    m_startTimer(0), m_textCols(0), m_type(Sun),
+                                    m_startTimer(nullptr), m_textCols(0), m_type(Sun),
                                     m_geometryDirty(false), m_context(Overlay)
 {
     updateAncestors();

@@ -36,7 +36,7 @@
 
 namespace Streams {
 
-IODeviceSocket::IODeviceSocket(QIODevice *device): d(device), m_compressor(0), m_decompressor(0)
+IODeviceSocket::IODeviceSocket(QIODevice *device): d(device), m_compressor(nullptr), m_decompressor(nullptr)
 {
     connect(d, &QIODevice::readyRead, this, &IODeviceSocket::handleReadyRead);
     connect(d, &QIODevice::readChannelFinished, this, &IODeviceSocket::handleStateChanged);

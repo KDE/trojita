@@ -66,7 +66,7 @@ TreeItem *TreeItem::child(int offset, Model *const model)
     if (offset >= 0 && offset < m_children.size())
         return m_children[ offset ];
     else
-        return 0;
+        return nullptr;
 }
 
 int TreeItem::row() const
@@ -96,7 +96,7 @@ TreeItem *TreeItem::specialColumnPtr(int row, int column) const
 {
     Q_UNUSED(row);
     Q_UNUSED(column);
-    return 0;
+    return nullptr;
 }
 
 QModelIndex TreeItem::toIndex(Model *const model) const
@@ -109,13 +109,13 @@ QModelIndex TreeItem::toIndex(Model *const model) const
 }
 
 
-TreeItemMailbox::TreeItemMailbox(TreeItem *parent): TreeItem(parent), maintainingTask(0)
+TreeItemMailbox::TreeItemMailbox(TreeItem *parent): TreeItem(parent), maintainingTask(nullptr)
 {
     m_children.prepend(new TreeItemMsgList(this));
 }
 
 TreeItemMailbox::TreeItemMailbox(TreeItem *parent, Responses::List response):
-    TreeItem(parent), m_metadata(response.mailbox, response.separator, QStringList()), maintainingTask(0)
+    TreeItem(parent), m_metadata(response.mailbox, response.separator, QStringList()), maintainingTask(nullptr)
 {
     for (QStringList::const_iterator it = response.flags.constBegin(); it != response.flags.constEnd(); ++it)
         m_metadata.flags.append(it->toUpper());
@@ -1104,7 +1104,7 @@ void MessageDataPayload::setPartText(std::unique_ptr<TreeItemPart> part)
 
 
 TreeItemMessage::TreeItemMessage(TreeItem *parent):
-    TreeItem(parent), m_offset(-1), m_uid(0), m_data(0), m_flagsHandled(false), m_wasUnread(false)
+    TreeItem(parent), m_offset(-1), m_uid(0), m_data(nullptr), m_flagsHandled(false), m_wasUnread(false)
 {
 }
 
@@ -1169,7 +1169,7 @@ TreeItem *TreeItemMessage::specialColumnPtr(int row, int column) const
 
     // No extra columns on other rows
     if (row != 0)
-        return 0;
+        return nullptr;
 
     switch (column) {
     case OFFSET_TEXT:
@@ -1183,7 +1183,7 @@ TreeItem *TreeItemMessage::specialColumnPtr(int row, int column) const
         }
         return data()->partHeader();
     default:
-        return 0;
+        return nullptr;
     }
 }
 
@@ -1602,7 +1602,7 @@ TreeItem *TreeItemPart::child(const int offset, Model *const model)
     if (offset >= 0 && offset < m_children.size())
         return m_children[ offset ];
     else
-        return 0;
+        return nullptr;
 }
 
 TreeItemChildrenList TreeItemPart::setChildren(const TreeItemChildrenList &items)
@@ -1812,7 +1812,7 @@ TreeItemMessage *TreeItemPart::message() const
             return message;
         part = dynamic_cast<TreeItemPart *>(part->parent());
     }
-    return 0;
+    return nullptr;
 }
 
 QByteArray *TreeItemPart::dataPtr()
@@ -1848,7 +1848,7 @@ TreeItem *TreeItemPart::specialColumnPtr(int row, int column) const
             return m_partRaw;
         }
     }
-    return 0;
+    return nullptr;
 }
 
 void TreeItemPart::silentlyReleaseMemoryRecursive()
@@ -1861,12 +1861,12 @@ void TreeItemPart::silentlyReleaseMemoryRecursive()
     if (m_partMime) {
         m_partMime->silentlyReleaseMemoryRecursive();
         delete m_partMime;
-        m_partMime = 0;
+        m_partMime = nullptr;
     }
     if (m_partRaw) {
         m_partRaw->silentlyReleaseMemoryRecursive();
         delete m_partRaw;
-        m_partRaw = 0;
+        m_partRaw = nullptr;
     }
     m_data.clear();
     setFetchStatus(NONE);
@@ -1892,7 +1892,7 @@ TreeItem *TreeItemModifiedPart::specialColumnPtr(int row, int column) const
     Q_UNUSED(row);
     Q_UNUSED(column);
     // no special children below the current special one
-    return 0;
+    return nullptr;
 }
 
 bool TreeItemModifiedPart::isTopLevelMultiPart() const
@@ -2000,7 +2000,7 @@ QVariant TreeItemPartMultipartMessage::data(Model * const model, int role)
 TreeItem *TreeItemPartMultipartMessage::specialColumnPtr(int row, int column) const
 {
     if (row != 0)
-        return 0;
+        return nullptr;
     switch (column) {
     case OFFSET_HEADER:
         if (!m_partHeader) {

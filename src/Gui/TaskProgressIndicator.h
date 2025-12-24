@@ -47,7 +47,7 @@ class TaskProgressIndicator : public Spinner
 {
     Q_OBJECT
 public:
-    explicit TaskProgressIndicator(QWidget *parent = 0);
+    explicit TaskProgressIndicator(QWidget *parent = nullptr);
 
     void setImapModel(Imap::Mailbox::Model *model);
 

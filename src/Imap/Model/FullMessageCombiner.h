@@ -45,7 +45,7 @@ class FullMessageCombiner : public QObject
 {
     Q_OBJECT
 public:
-    explicit FullMessageCombiner(const QModelIndex &m_messageIndex, QObject *parent = 0);
+    explicit FullMessageCombiner(const QModelIndex &m_messageIndex, QObject *parent = nullptr);
     QByteArray data() const;
     bool loaded() const;
     void load();

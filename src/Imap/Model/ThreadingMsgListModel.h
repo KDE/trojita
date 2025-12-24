@@ -59,7 +59,7 @@ struct ThreadNodeInfo {
     TreeItem *ptr;
     /** @short Position among our parent's children */
     int offset;
-    ThreadNodeInfo(): internalId(0), uid(0), parent(0), ptr(0), offset(0) {}
+    ThreadNodeInfo(): internalId(0), uid(0), parent(0), ptr(nullptr), offset(0) {}
 };
 
 QDebug operator<<(QDebug debug, const ThreadNodeInfo &node);
@@ -235,7 +235,7 @@ private:
 
     /** @short Is this someone else's THREAD response? */
     bool shouldIgnoreThisThreadingResponse(const QModelIndex &mailbox, const QByteArray &algorithm,
-                                           const QStringList &searchCriteria, const Model **realModel=0);
+                                           const QStringList &searchCriteria, const Model **realModel=nullptr);
 
     /** @short Return some number from the thread mapping @arg mapping which is either the highest among them, or at least as high as the marker*/
     static uint findHighEnoughNumber(const QVector<Imap::Responses::ThreadingNode> &mapping, uint marker);

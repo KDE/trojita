@@ -70,7 +70,7 @@ template<typename T>
 bool checkProblemWithEmptyTextField(T *field, const QString &message)
 {
     if (field->text().isEmpty()) {
-        QToolTip::showText(field->mapToGlobal(QPoint(10, field->height() / 2)), message, 0);
+        QToolTip::showText(field->mapToGlobal(QPoint(10, field->height() / 2)), message, nullptr);
         return true;
     } else {
         return false;
@@ -563,7 +563,7 @@ bool GeneralPage::checkValidity() const
 {
     if (m_identitiesModel->rowCount() < 1) {
         QToolTip::showText(identityTabelView->mapToGlobal(QPoint(10, identityTabelView->height() / 2)),
-                           tr("Please define some identities here"), 0);
+                           tr("Please define some identities here"), nullptr);
         return false;
     }
     return true;

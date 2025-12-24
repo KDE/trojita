@@ -59,7 +59,7 @@ void CryptographyMessageModelTest::testImapMessageParts()
     QModelIndex msg = msgListB.model()->index(0, 0, msgListB);
     QVERIFY(msg.isValid());
     QCOMPARE(model->rowCount(msg), 0);
-    Cryptography::MessageModel msgModel(0, msg);
+    Cryptography::MessageModel msgModel(nullptr, msg);
     cClient(t.mk("UID FETCH 333 (" FETCH_METADATA_ITEMS ")\r\n"));
     cServer("* 1 FETCH (UID 333 BODYSTRUCTURE (" + bodystructure + "))\r\n" + t.last("OK fetched\r\n"));
     cEmpty();
@@ -140,7 +140,7 @@ void CryptographyMessageModelTest::testCustomMessageParts()
     QVERIFY(index.model()->index(0, 0, index).isValid());
     QCOMPARE(index.model()->index(0, 0, index).data(), root_mime->data(Qt::DisplayRole));
 
-    Cryptography::MessageModel msgModel(0, index);
+    Cryptography::MessageModel msgModel(nullptr, index);
 
     QModelIndex rootPartIndex = msgModel.index(0,0).model()->index(0, 0, msgModel.index(0, 0));
 
@@ -198,7 +198,7 @@ void CryptographyMessageModelTest::testMixedMessageParts()
     cServer("* 1 FETCH (UID 333 BODYSTRUCTURE (" + bsEncrypted + "))\r\n" + t.last("OK fetched\r\n"));
     cEmpty();
     QVERIFY(model->rowCount(msg) > 0);
-    Cryptography::MessageModel msgModel(0, msg);
+    Cryptography::MessageModel msgModel(nullptr, msg);
     QModelIndex mappedMsg = msgModel.index(0,0);
     QVERIFY(mappedMsg.isValid());
     QVERIFY(msgModel.rowCount(mappedMsg) > 0);
@@ -250,7 +250,7 @@ void CryptographyMessageModelTest::testLocalMimeParsing()
     QCOMPARE(model->rowCount(msg), 0);
     cClient(t.mk("UID FETCH 333 (" FETCH_METADATA_ITEMS ")\r\n"));
 
-    Cryptography::MessageModel msgModel(0, msg);
+    Cryptography::MessageModel msgModel(nullptr, msg);
     msgModel.registerPartHandler(std::make_shared<Cryptography::LocalMimeMessageParser>());
 
     const QByteArray bsTopLevelRfc822Message = QByteArrayLiteral(
@@ -405,7 +405,7 @@ void CryptographyMessageModelTest::testDelayedLoading()
     QModelIndex msg = msgListB.model()->index(0, 0, msgListB);
     QVERIFY(msg.isValid());
 
-    Cryptography::MessageModel msgModel(0, msg);
+    Cryptography::MessageModel msgModel(nullptr, msg);
     msgModel.setObjectName("msgModel");
 
     cEmpty();

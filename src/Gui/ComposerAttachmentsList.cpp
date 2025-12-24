@@ -34,7 +34,7 @@
 #include "UiUtils/IconLoader.h"
 
 ComposerAttachmentsList::ComposerAttachmentsList(QWidget *parent):
-    QListView(parent), m_dragging(false), m_dragInside(false), m_composer(0)
+    QListView(parent), m_dragging(false), m_dragInside(false), m_composer(nullptr)
 {
     setMouseTracking( true );
     setAcceptDrops(true);
@@ -174,6 +174,6 @@ void ComposerAttachmentsList::showContextMenu(const QPoint &pos)
 {
     // Sometimes currentChanged() is not enough -- we really want to have these actions to reflect the current selection, if any
     onAttachmentNumberChanged();
-    QMenu::exec(actions(), mapToGlobal(pos), 0, this);
+    QMenu::exec(actions(), mapToGlobal(pos), nullptr, this);
 }
 

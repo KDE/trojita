@@ -305,7 +305,7 @@ QString systemPlatformVersion()
 #endif
         if (platformVersion.isEmpty()) {
             // try to call the lsb_release
-            QProcess *proc = new QProcess(0);
+            QProcess *proc = new QProcess(nullptr);
             proc->start(QStringLiteral("lsb_release"), QStringList() << QStringLiteral("-s") << QStringLiteral("-d"));
             proc->waitForFinished();
             platformVersion = QString::fromLocal8Bit(proc->readAll()).trimmed().replace(QLatin1Char('"'), QString()).replace(QLatin1Char(';'), QLatin1Char(','));

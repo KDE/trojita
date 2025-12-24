@@ -39,7 +39,7 @@ namespace Mailbox
 ObtainSynchronizedMailboxTask::ObtainSynchronizedMailboxTask(Model *model, const QModelIndex &mailboxIndex, ImapTask *parentTask,
         KeepMailboxOpenTask *keepTask):
     ImapTask(model), conn(parentTask), mailboxIndex(mailboxIndex), status(STATE_WAIT_FOR_CONN), uidSyncingMode(UID_SYNC_ALL),
-    firstUnknownUidOffset(0), m_usingQresync(false), unSelectTask(0), keepTaskChild(keepTask)
+    firstUnknownUidOffset(0), m_usingQresync(false), unSelectTask(nullptr), keepTaskChild(keepTask)
 {
     // The Parser* is not provided by our parent task, but instead through the keepTaskChild.  The reason is simple, the parent
     // task might not even exist, but there's always an KeepMailboxOpenTask in the game.
@@ -990,7 +990,7 @@ bool ObtainSynchronizedMailboxTask::handleFetch(const Imap::Responses::Fetch *co
     TreeItemMailbox *mailbox = Model::mailboxForSomeItem(mailboxIndex);
     Q_ASSERT(mailbox);
     QList<TreeItemPart *> changedParts;
-    TreeItemMessage *changedMessage = 0;
+    TreeItemMessage *changedMessage = nullptr;
     mailbox->handleFetchResponse(model, *resp, changedParts, changedMessage, m_usingQresync);
     if (changedMessage) {
         QModelIndex index = changedMessage->toIndex(model);

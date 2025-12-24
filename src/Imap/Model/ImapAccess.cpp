@@ -49,9 +49,9 @@
 namespace Imap {
 
 ImapAccess::ImapAccess(QObject *parent, QSettings *settings, Plugins::PluginManager *pluginManager, const QString &accountName) :
-    QObject(parent), m_settings(settings), m_imapModel(0), m_mailboxModel(0), m_mailboxSubtreeModel(0), m_msgListModel(0),
-    m_threadingMsgListModel(0), m_visibleTasksModel(0), m_oneMessageModel(0), m_netWatcher(0), m_msgQNAM(0),
-    m_pluginManager(pluginManager), m_passwordWatcher(0), m_port(0),
+    QObject(parent), m_settings(settings), m_imapModel(nullptr), m_mailboxModel(nullptr), m_mailboxSubtreeModel(nullptr), m_msgListModel(nullptr),
+    m_threadingMsgListModel(nullptr), m_visibleTasksModel(nullptr), m_oneMessageModel(nullptr), m_netWatcher(nullptr), m_msgQNAM(nullptr),
+    m_pluginManager(pluginManager), m_passwordWatcher(nullptr), m_port(0),
     m_connectionMethod(Common::ConnectionMethod::Invalid),
     m_sslInfoIcon(UiUtils::Formatting::IconType::NoIcon),
     m_accountName(accountName)
@@ -258,23 +258,23 @@ void ImapAccess::doConnect()
         Q_ASSERT(m_netWatcher);
         m_netWatcher->setNetworkOffline();
         delete m_threadingMsgListModel;
-        m_threadingMsgListModel = 0;
+        m_threadingMsgListModel = nullptr;
         delete m_msgQNAM;
-        m_msgQNAM = 0;
+        m_msgQNAM = nullptr;
         delete m_oneMessageModel;
-        m_oneMessageModel = 0;
+        m_oneMessageModel = nullptr;
         delete m_visibleTasksModel;
-        m_visibleTasksModel = 0;
+        m_visibleTasksModel = nullptr;
         delete m_msgListModel;
-        m_msgListModel = 0;
+        m_msgListModel = nullptr;
         delete m_mailboxSubtreeModel;
-        m_mailboxSubtreeModel = 0;
+        m_mailboxSubtreeModel = nullptr;
         delete m_mailboxModel;
-        m_mailboxModel = 0;
+        m_mailboxModel = nullptr;
         delete m_netWatcher;
-        m_netWatcher = 0;
+        m_netWatcher = nullptr;
         delete m_imapModel;
-        m_imapModel = 0;
+        m_imapModel = nullptr;
     }
 
     Q_ASSERT(!m_imapModel);

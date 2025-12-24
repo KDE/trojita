@@ -33,7 +33,7 @@ namespace Mailbox
 {
 
 GetAnyConnectionTask::GetAnyConnectionTask(Model *model) :
-    ImapTask(model), newConn(0)
+    ImapTask(model), newConn(nullptr)
 {
     QMap<Parser *,ParserState>::iterator it = model->m_parsers.begin();
     while (it != model->m_parsers.end()) {

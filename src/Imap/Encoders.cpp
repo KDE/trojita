@@ -96,7 +96,7 @@ namespace {
             return codec;
         }
 
-        return 0;
+        return nullptr;
     }
 
     // ASCII character values used throughout

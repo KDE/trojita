@@ -38,7 +38,7 @@ namespace Imap
 namespace Mailbox
 {
 
-MsgListModel::MsgListModel(QObject *parent, Model *model): QAbstractProxyModel(parent), msgListPtr(0), waitingForMessages(false)
+MsgListModel::MsgListModel(QObject *parent, Model *model): QAbstractProxyModel(parent), msgListPtr(nullptr), waitingForMessages(false)
 {
     setSourceModel(model);
 
@@ -117,7 +117,7 @@ void MsgListModel::checkPersistentIndex() const
         if (msgListPtr) {
             emit const_cast<MsgListModel*>(this)->indexStateChanged();
         }
-        msgListPtr = 0;
+        msgListPtr = nullptr;
     }
 }
 
@@ -333,7 +333,7 @@ QStringList MsgListModel::mimeTypes() const
 QMimeData *MsgListModel::mimeData(const QModelIndexList &indexes) const
 {
     if (indexes.isEmpty())
-        return 0;
+        return nullptr;
 
     QMimeData *res = new QMimeData();
     QByteArray encodedData;
@@ -363,7 +363,7 @@ QMimeData *MsgListModel::mimeData(const QModelIndexList &indexes) const
 void MsgListModel::resetMe()
 {
     beginResetModel();
-    msgListPtr = 0;
+    msgListPtr = nullptr;
     msgList = QModelIndex();
     endResetModel();
 }
@@ -402,7 +402,7 @@ void MsgListModel::handleRowsAboutToBeRemoved(const QModelIndex &parent, int sta
         Q_ASSERT(start > 0);
         // if we're below it, we're gonna die
         for (int i = start; i <= end; ++i) {
-            const Model *model = 0;
+            const Model *model = nullptr;
             QModelIndex translatedParent;
             Model::realTreeItem(parent, &model, &translatedParent);
             // FIXME: this assumes that no rows were removed by the proxy model
@@ -476,7 +476,7 @@ void MsgListModel::setMailbox(const QModelIndex &index)
 
     waitingForMessages = true;
 
-    const Model *model = 0;
+    const Model *model = nullptr;
     TreeItemMailbox *mbox = dynamic_cast<TreeItemMailbox *>(Model::realTreeItem(index, &model));
     Q_ASSERT(mbox);
     TreeItemMsgList *newList = dynamic_cast<TreeItemMsgList *>(

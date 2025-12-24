@@ -31,7 +31,7 @@ class QTimer;
 class ComposerTextEdit : public QTextEdit {
     Q_OBJECT
 public:
-    explicit ComposerTextEdit(QWidget *parent = 0);
+    explicit ComposerTextEdit(QWidget *parent = nullptr);
     /**
      * use the view to display a notification for @p timeout ms
      * using an empty or null string will clear the notification at once

@@ -89,7 +89,7 @@ private:
 
 };
 
-AbookAddressbook::AbookAddressbook(QObject *parent): AddressbookPlugin(parent), m_updateTimer(0)
+AbookAddressbook::AbookAddressbook(QObject *parent): AddressbookPlugin(parent), m_updateTimer(nullptr)
 {
 #define ADD(TYPE, KEY) \
     m_fields << qMakePair(TYPE, QLatin1String(KEY))
@@ -232,7 +232,7 @@ void AbookAddressbook::readAbook(bool update)
     QStringList contacts = abook.childGroups();
     foreach (const QString &contact, contacts) {
         Common::SettingsCategoryGuard guard(&abook, contact);
-        QStandardItem *item = 0;
+        QStandardItem *item = nullptr;
         QStringList mails;
         if (update) {
             QList<QStandardItem*> list = m_contacts->findItems(abook.value(QStringLiteral("name")).toString());

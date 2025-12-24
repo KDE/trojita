@@ -40,16 +40,16 @@ void ImapModelDeleteMailboxTest::init()
 void ImapModelDeleteMailboxTest::cleanup()
 {
     delete deletedSpy;
-    deletedSpy = 0;
+    deletedSpy = nullptr;
     delete failedSpy;
-    failedSpy = 0;
+    failedSpy = nullptr;
     LibMailboxSync::cleanup();
 }
 
 void ImapModelDeleteMailboxTest::initTestCase()
 {
-    deletedSpy = 0;
-    failedSpy = 0;
+    deletedSpy = nullptr;
+    failedSpy = nullptr;
     LibMailboxSync::initTestCase();
 }
 

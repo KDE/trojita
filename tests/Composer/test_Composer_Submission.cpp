@@ -32,8 +32,8 @@
 #include "Streams/FakeSocket.h"
 
 ComposerSubmissionTest::ComposerSubmissionTest():
-    m_submission(0), sendingSpy(0), sentSpy(0), requestedSendingSpy(0), requestedBurlSendingSpy(0),
-    submissionSucceededSpy(0), submissionFailedSpy(0)
+    m_submission(nullptr), sendingSpy(nullptr), sentSpy(nullptr), requestedSendingSpy(nullptr), requestedBurlSendingSpy(nullptr),
+    submissionSucceededSpy(nullptr), submissionFailedSpy(nullptr)
 {
 }
 
@@ -77,22 +77,22 @@ void ComposerSubmissionTest::cleanup()
     LibMailboxSync::cleanup();
 
     delete m_submission;
-    m_submission = 0;
+    m_submission = nullptr;
     m_composer.reset();
     delete m_msaFactory;
-    m_msaFactory = 0;
+    m_msaFactory = nullptr;
     delete sendingSpy;
-    sendingSpy = 0;
+    sendingSpy = nullptr;
     delete sentSpy;
-    sentSpy = 0;
+    sentSpy = nullptr;
     delete requestedSendingSpy;
-    requestedSendingSpy = 0;
+    requestedSendingSpy = nullptr;
     delete requestedBurlSendingSpy;
-    requestedBurlSendingSpy = 0;
+    requestedBurlSendingSpy = nullptr;
     delete submissionSucceededSpy;
-    submissionSucceededSpy = 0;
+    submissionSucceededSpy = nullptr;
     delete submissionFailedSpy;
-    submissionFailedSpy = 0;
+    submissionFailedSpy = nullptr;
 }
 
 /** @short Test that we can send a very simple mail */

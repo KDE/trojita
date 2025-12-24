@@ -27,12 +27,12 @@ namespace Imap {
 namespace Mailbox {
 
 ParserState::ParserState(Parser *_parser):
-    parser(_parser), connState(CONN_STATE_NONE), maintainingTask(0), capabilitiesFresh(false), processingDepth(false)
+    parser(_parser), connState(CONN_STATE_NONE), maintainingTask(nullptr), capabilitiesFresh(false), processingDepth(false)
 {
 }
 
 ParserState::ParserState():
-    connState(CONN_STATE_NONE), maintainingTask(0), capabilitiesFresh(false), processingDepth(false)
+    connState(CONN_STATE_NONE), maintainingTask(nullptr), capabilitiesFresh(false), processingDepth(false)
 {
 }
 

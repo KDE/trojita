@@ -123,7 +123,7 @@ QMimeData *MessageComposer::mimeData(const QModelIndexList &indexes) const
     }
 
     if (items.isEmpty())
-        return 0;
+        return nullptr;
 
     stream << (qint32)items.size();
     Q_FOREACH(const AttachmentItem *attachment, items) {

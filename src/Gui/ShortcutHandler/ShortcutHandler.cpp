@@ -33,14 +33,14 @@
 namespace Gui
 {
 
-ShortcutHandler *ShortcutHandler::self = 0;
+ShortcutHandler *ShortcutHandler::self = nullptr;
 
 ShortcutHandler::ShortcutHandler(QWidget *parent)
     : QObject(parent)
-    , m_settings(0)
-    , m_shortcutConfigAction(0)
-    , m_shortcutConfigDialog(0)
-    , m_shortcutConfigWidget(0)
+    , m_settings(nullptr)
+    , m_shortcutConfigAction(nullptr)
+    , m_shortcutConfigDialog(nullptr)
+    , m_shortcutConfigWidget(nullptr)
 {
     Q_ASSERT_X(!self, "ShortcutHandler", "there should be only one shortcut handler object");
     ShortcutHandler::self = this;
@@ -76,13 +76,13 @@ void ShortcutHandler::defineAction(const QString &actionName, const QString &ico
 
 QAction *ShortcutHandler::createAction(const QString &actionName, QWidget *parent)
 {
-    return createAction(actionName, 0, "", parent);
+    return createAction(actionName, nullptr, "", parent);
 }
 
 QAction *ShortcutHandler::createAction(const QString &actionName, QObject *receiver, const char *member, QWidget *parent)
 {
     if (!m_actionDescriptions.contains(actionName))
-        return 0;
+        return nullptr;
 
     ActionDescription actionDescription = m_actionDescriptions[actionName];
     QAction *action = new QAction(parent);
@@ -121,7 +121,7 @@ QSettings *ShortcutHandler::settingsObject()
 QAction *ShortcutHandler::action(const QString &actionName)
 {
     if (!m_actionDescriptions.contains(actionName))
-        return 0;
+        return nullptr;
     return m_actionDescriptions[actionName].action;
 }
 

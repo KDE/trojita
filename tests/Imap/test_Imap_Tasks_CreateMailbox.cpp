@@ -46,24 +46,24 @@ void ImapModelCreateMailboxTest::init()
 void ImapModelCreateMailboxTest::cleanup()
 {
     delete model;
-    model = 0;
-    taskFactoryUnsafe = 0;
+    model = nullptr;
+    taskFactoryUnsafe = nullptr;
     delete createdSpy;
-    createdSpy = 0;
+    createdSpy = nullptr;
     delete failedSpy;
-    failedSpy = 0;
+    failedSpy = nullptr;
     delete errorSpy;
-    errorSpy = 0;
-    QCoreApplication::sendPostedEvents(0, QEvent::DeferredDelete);
+    errorSpy = nullptr;
+    QCoreApplication::sendPostedEvents(nullptr, QEvent::DeferredDelete);
 }
 
 void ImapModelCreateMailboxTest::initTestCase()
 {
     Common::registerMetaTypes();
-    model = 0;
-    createdSpy = 0;
-    failedSpy = 0;
-    errorSpy = 0;
+    model = nullptr;
+    createdSpy = nullptr;
+    failedSpy = nullptr;
+    errorSpy = nullptr;
 }
 
 #define SOCK static_cast<Streams::FakeSocket*>( factory->lastSocket() )

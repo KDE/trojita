@@ -45,7 +45,7 @@ signals:
     void gotPassword(const QString &password);
 
 protected:
-    explicit PasswordDialog(QWidget *parent = 0);
+    explicit PasswordDialog(QWidget *parent = nullptr);
     void showEvent(QShowEvent *event) override;
 
     Ui::PasswordDialog ui;

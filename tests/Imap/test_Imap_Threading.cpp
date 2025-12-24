@@ -1243,7 +1243,7 @@ QByteArray ImapModelThreadingTest::prepareHugeUntaggedThread(const uint num)
     Q_ASSERT(num % 10 == 0);
     QString response = QStringLiteral("* THREAD ");
     for (uint i = 1; i < num; i += 10) {
-        QString *format = 0;
+        QString *format = nullptr;
         switch (i % 100) {
         case 1:
         case 11:

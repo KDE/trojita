@@ -55,7 +55,7 @@ MessagePart::Ptr LocalMimeMessageParser::createPart(MessageModel *model, Message
 
 LocallyParsedMimePart::LocallyParsedMimePart(MessageModel *model, MessagePart *parentPart, Ptr originalPart,
                                              const QModelIndex &sourceItemIndex, const QModelIndex &proxyParentIndex)
-    : QObject(0)
+    : QObject(nullptr)
     , LocalMessagePart(parentPart, originalPart->row(), sourceItemIndex.data(Imap::Mailbox::RolePartMimeType).toByteArray())
     , m_model(model)
     , m_sourceHeaderIndex(sourceItemIndex.model()->index(0, Imap::Mailbox::TreeItem::OFFSET_HEADER, sourceItemIndex))

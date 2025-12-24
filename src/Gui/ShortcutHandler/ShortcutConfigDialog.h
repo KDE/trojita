@@ -44,7 +44,7 @@ class ShortcutConfigDialog : public QDialog
     Q_OBJECT
 
 public:
-    explicit ShortcutConfigDialog(QWidget *parent = 0);
+    explicit ShortcutConfigDialog(QWidget *parent = nullptr);
     ~ShortcutConfigDialog() override;
 
     void setExclusivityGroups(const QList<QStringList> &groups);

@@ -145,7 +145,7 @@ void MsgPartNetworkReply::disconnectBufferIfVanished() const
 {
     if (!part.isValid()) {
         buffer.close();
-        buffer.setBuffer(0);
+        buffer.setBuffer(nullptr);
     }
 }
 

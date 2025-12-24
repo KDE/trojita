@@ -20,8 +20,8 @@ class LineEdit : public QLineEdit
     Q_OBJECT
 
 public:
-    explicit LineEdit(const QString &text, QWidget *parent = 0);
-    explicit LineEdit(QWidget *parent = 0);
+    explicit LineEdit(const QString &text, QWidget *parent = nullptr);
+    explicit LineEdit(QWidget *parent = nullptr);
     bool isHistoryEnabled();
     void setHistoryEnabled(bool enabled = true);
 

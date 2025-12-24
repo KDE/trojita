@@ -75,7 +75,7 @@ namespace Mailbox
 
 ThreadingMsgListModel::ThreadingMsgListModel(QObject *parent):
     QAbstractProxyModel(parent), threadingHelperLastId(0), modelResetInProgress(false), threadingInFlight(false),
-    m_shallBeThreading(false), m_filteredBySearch(false), m_sortTask(0), m_sortReverse(false), m_currentSortingCriteria(SORT_NONE),
+    m_shallBeThreading(false), m_filteredBySearch(false), m_sortTask(nullptr), m_sortReverse(false), m_currentSortingCriteria(SORT_NONE),
     m_searchValidity(RESULT_INVALIDATED)
 {
     m_delayedPrune = new QTimer(this);
@@ -368,7 +368,7 @@ void ThreadingMsgListModel::handleRowsAboutToBeRemoved(const QModelIndex &parent
         QHash<uint,ThreadNodeInfo>::iterator it = threading.find(translated.internalId());
         Q_ASSERT(it != threading.end());
         it->uid = 0;
-        it->ptr = 0;
+        it->ptr = nullptr;
     }
 }
 
@@ -487,7 +487,7 @@ void ThreadingMsgListModel::updateNoThreading()
         // This improves the speed of the testSortingPerformance benchmark by 18%.
         QModelIndex firstMessageIndex = sourceModel()->index(0, 0);
         Q_ASSERT(firstMessageIndex.isValid());
-        const Model *realModel = 0;
+        const Model *realModel = nullptr;
         TreeItem *firstMessagePtr = Model::realTreeItem(firstMessageIndex, &realModel);
         Q_ASSERT(firstMessagePtr);
         // If the next asserts fails, it means that the implementation of MsgListModel has changed and uses its own pointers
@@ -519,7 +519,7 @@ void ThreadingMsgListModel::updateNoThreading()
         threading = newThreading;
         ptrToInternal = newPtrToInternal;
         threading[ 0 ].children = allIds;
-        threading[ 0 ].ptr = 0;
+        threading[ 0 ].ptr = nullptr;
         threadingHelperLastId = newThreading.size();
         threadedRootIds = threading[0].children;
     }
@@ -732,7 +732,7 @@ void ThreadingMsgListModel::slotIncrementalThreadingAvailable(const Responses::E
         QHash<uint,ThreadNodeInfo>::iterator threadIt = threading.find(*ptrMappingIt);
         Q_ASSERT(threadIt != threading.end());
         uidToPtrCache[(*it)->uid()] = threadIt->ptr;
-        threadIt->ptr = 0;
+        threadIt->ptr = nullptr;
     }
     pruneTree();
     updatePersistentIndexesPhase2();
@@ -814,7 +814,7 @@ void ThreadingMsgListModel::slotThreadingAvailable(const QModelIndex &mailbox, c
     // Better safe than sorry -- prevent infinite waiting to the maximal possible extent
     threadingInFlight = false;
 
-    const Model *model = 0;
+    const Model *model = nullptr;
     if (shouldIgnoreThisThreadingResponse(mailbox, algorithm, searchCriteria, &model))
         return;
 
@@ -837,7 +837,7 @@ void ThreadingMsgListModel::slotSortingAvailable(const Imap::Uids &uids)
         disconnect(m_sortTask.data(), &SortTask::sortingFailed, this, &ThreadingMsgListModel::slotSortingFailed);
         disconnect(m_sortTask.data(), &SortTask::incrementalSortUpdate, this, &ThreadingMsgListModel::slotSortingIncrementalUpdate);
 
-        m_sortTask = 0;
+        m_sortTask = nullptr;
     }
 
     m_currentSortResult = uids;
@@ -852,7 +852,7 @@ void ThreadingMsgListModel::slotSortingFailed()
     disconnect(m_sortTask.data(), &SortTask::sortingFailed, this, &ThreadingMsgListModel::slotSortingFailed);
     disconnect(m_sortTask.data(), &SortTask::incrementalSortUpdate, this, &ThreadingMsgListModel::slotSortingIncrementalUpdate);
 
-    m_sortTask = 0;
+    m_sortTask = nullptr;
     m_sortReverse = false;
     calculateNullSort();
     applySort();
@@ -938,7 +938,7 @@ void ThreadingMsgListModel::applyThreading(const QVector<Imap::Responses::Thread
     threading.clear();
     ptrToInternal.clear();
     // Default-construct the root node
-    threading[ 0 ].ptr = 0;
+    threading[ 0 ].ptr = nullptr;
 
     // At first, initialize threading nodes for all messages which are right now available in the mailbox.
     // We risk that we will have to delete some of them later on, but this is likely better than doing a lookup
@@ -955,7 +955,7 @@ void ThreadingMsgListModel::applyThreading(const QVector<Imap::Responses::Thread
         // This matters (at least that's what by benchmarks said).
         QModelIndex firstMessageIndex = sourceModel()->index(0, 0);
         Q_ASSERT(firstMessageIndex.isValid());
-        const Model *realModel = 0;
+        const Model *realModel = nullptr;
         TreeItem *firstMessagePtr = Model::realTreeItem(firstMessageIndex, &realModel);
         Q_ASSERT(firstMessagePtr);
         // If the next asserts fails, it means that the implementation of MsgListModel has changed and uses its own pointers
@@ -1054,13 +1054,13 @@ void ThreadingMsgListModel::updatePersistentIndexesPhase1()
         // the index could get invalidated by the pruneTree() or something else manipulating our threading
         bool isOk = idx.isValid() && threading.contains(idx.internalId());
         if (!isOk) {
-            oldPtrs << 0;
+            oldPtrs << nullptr;
             continue;
         }
         QModelIndex translated = mapToSource(idx);
         if (!translated.isValid()) {
             // another stale item
-            oldPtrs << 0;
+            oldPtrs << nullptr;
             continue;
         }
         oldPtrs << translated.internalPointer();
@@ -1219,7 +1219,7 @@ QStringList ThreadingMsgListModel::mimeTypes() const
 QMimeData *ThreadingMsgListModel::mimeData(const QModelIndexList &indexes) const
 {
     if (! sourceModel())
-        return 0;
+        return nullptr;
 
     QModelIndexList translated;
     Q_FOREACH(const QModelIndex &idx, indexes) {
