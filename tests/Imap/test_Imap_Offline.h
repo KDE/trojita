@@ -32,7 +32,7 @@ class OfflineTest : public LibMailboxSync
     Q_OBJECT
 
 private slots:
-    void init();
+    void init() override;
     void testStatusVsExistsCached();
 };
 

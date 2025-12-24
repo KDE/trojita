@@ -45,13 +45,13 @@ signals:
     void urlsAdded(QList<QUrl> urls);
 protected:
     /** DND reimplementation **/
-    bool canInsertFromMimeData( const QMimeData * source ) const;
-    void insertFromMimeData(const QMimeData *source);
-    void keyPressEvent(QKeyEvent *event);
-    void keyReleaseEvent(QKeyEvent *event);
+    bool canInsertFromMimeData( const QMimeData * source ) const override;
+    void insertFromMimeData(const QMimeData *source) override;
+    void keyPressEvent(QKeyEvent *event) override;
+    void keyReleaseEvent(QKeyEvent *event) override;
     /** painter reimplementation for notification **/
-    void paintEvent(QPaintEvent *pe);
-    virtual void contextMenuEvent(QContextMenuEvent *e);
+    void paintEvent(QPaintEvent *pe) override;
+    void contextMenuEvent(QContextMenuEvent *e) override;
 private slots:
     void resetNotification();
     void slotPasteAsQuotation();

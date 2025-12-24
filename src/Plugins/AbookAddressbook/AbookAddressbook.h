@@ -43,9 +43,9 @@ class AbookAddressbook : public AddressbookPlugin {
     Q_OBJECT
 public:
     AbookAddressbook(QObject *parent);
-    virtual ~AbookAddressbook();
+    ~AbookAddressbook() override;
 
-    virtual AddressbookPlugin::Features features() const;
+    AddressbookPlugin::Features features() const override;
 
     enum Type { Name = Qt::DisplayRole, Mail = Qt::UserRole + 1,
                 Address, Address2, City, State, ZIP, Country,
@@ -59,10 +59,10 @@ public:
     QStandardItemModel *model() const;
 
 public slots:
-    virtual AddressbookCompletionJob *requestCompletion(const QString &input, const QStringList &ignores = QStringList(), int max = -1);
-    virtual AddressbookNamesJob *requestPrettyNamesForAddress(const QString &email);
-    virtual void openAddressbookWindow();
-    virtual void openContactWindow(const QString &email, const QString &displayName);
+    AddressbookCompletionJob *requestCompletion(const QString &input, const QStringList &ignores = QStringList(), int max = -1) override;
+    AddressbookNamesJob *requestPrettyNamesForAddress(const QString &email) override;
+    void openAddressbookWindow() override;
+    void openContactWindow(const QString &email, const QString &displayName) override;
 
     void saveContacts();
     void readAbook(bool update = false);

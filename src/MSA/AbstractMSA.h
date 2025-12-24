@@ -35,7 +35,7 @@ class AbstractMSA : public QObject
     Q_OBJECT
 public:
     explicit AbstractMSA(QObject *parent);
-    virtual ~AbstractMSA();
+    ~AbstractMSA() override;
     virtual bool supportsBurl() const;
     virtual bool supportsImapSending() const;
     virtual void sendMail(const QByteArray &from, const QList<QByteArray> &to, const QByteArray &data);

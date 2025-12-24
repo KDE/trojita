@@ -42,7 +42,7 @@ class IODeviceSocket: public Socket
     Q_DISABLE_COPY(IODeviceSocket)
 public:
     explicit IODeviceSocket(QIODevice *device);
-    ~IODeviceSocket();
+    ~IODeviceSocket() override;
     bool canReadLine() override;
     QByteArray read(qint64 maxSize) override;
     QByteArray readLine(qint64 maxSize = 0) override;
@@ -70,7 +70,7 @@ class ProcessSocket: public IODeviceSocket
     Q_DISABLE_COPY(ProcessSocket)
 public:
     ProcessSocket(QProcess *proc, const QString &executable, const QStringList &args);
-    ~ProcessSocket();
+    ~ProcessSocket() override;
     bool isDead() override;
     void close() override;
 private slots:

@@ -102,7 +102,7 @@ public:
     QByteArray bodyFldLoc;
     QVariant bodyExtension;
 
-    virtual ~AbstractMessage() {}
+    ~AbstractMessage() override {}
     static QSharedPointer<AbstractMessage> fromList(const QVariantList &items, const QByteArray &line, const int start);
 
     static bodyFldParam_t makeBodyFldParam(const QVariant &list, const QByteArray &line, const int start);

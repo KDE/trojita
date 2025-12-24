@@ -38,7 +38,7 @@ class Socket: public QObject
 {
     Q_OBJECT
 public:
-    virtual ~Socket();
+    ~Socket() override;
 
     /** @short Returns true if there's enough data to read, including the CR-LF pair */
     virtual bool canReadLine() = 0;

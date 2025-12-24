@@ -39,7 +39,7 @@ class ImapSubmit : public AbstractMSA
 public:
     ImapSubmit(QObject *parent, Imap::Mailbox::Model *model);
     bool supportsImapSending() const override;
-    virtual void sendImap(const QString &mailbox, const uint uidValidity, const uint uid,
+    void sendImap(const QString &mailbox, const uint uidValidity, const uint uid,
                           const Imap::Mailbox::UidSubmitOptionsList options) override;
 
 public slots:
@@ -56,7 +56,7 @@ class ImapSubmitFactory: public MSAFactory
 {
 public:
     explicit ImapSubmitFactory(Imap::Mailbox::Model *model);
-    virtual ~ImapSubmitFactory();
+    ~ImapSubmitFactory() override;
     AbstractMSA *create(QObject *parent) const override;
 private:
     Imap::Mailbox::Model *m_model;

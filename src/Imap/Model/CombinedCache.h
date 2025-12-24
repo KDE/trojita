@@ -58,7 +58,7 @@ public:
     */
     CombinedCache(const QString &name, const QString &cacheDir);
 
-    virtual ~CombinedCache();
+    ~CombinedCache() override;
 
     QList<MailboxMetadata> childMailboxes(const QString &mailbox) const override;
     bool childMailboxesFresh(const QString &mailbox) const override;

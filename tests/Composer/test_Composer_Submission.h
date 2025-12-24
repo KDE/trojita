@@ -63,8 +63,8 @@ private slots:
     void testForwardingNormal();
     void testReplyingToRemoved();
     void testForwardingDeletedWhileFetching();
-    void init();
-    void cleanup();
+    void init() override;
+    void cleanup() override;
 
 private:
     void helperTestSimpleAppend(bool appendOk, bool appendUid, bool shallUpdateReplyingTo, bool replyingToUpdateOk);

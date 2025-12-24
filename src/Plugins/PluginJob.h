@@ -45,7 +45,7 @@ class PLUGINMANAGER_EXPORT PluginJob : public QObject
     Q_OBJECT
 
 public:
-    ~PluginJob();
+    ~PluginJob() override;
 
     /** @short Return true if auto delete is set */
     bool autoDelete();

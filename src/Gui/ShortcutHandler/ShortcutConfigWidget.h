@@ -48,7 +48,7 @@ class ShortcutConfigWidget : public QWidget
 
 public:
     explicit ShortcutConfigWidget(QWidget *parent = 0);
-    ~ShortcutConfigWidget();
+    ~ShortcutConfigWidget() override;
 
     /**
      * This function should be called each time the configuration dialog
@@ -74,8 +74,8 @@ Q_SIGNALS:
     void shortcutsChanged(const QHash<QString, ActionDescription> &actionDescriptions);
 
 protected:
-    bool eventFilter(QObject *obj, QEvent *event);
-    void showEvent(QShowEvent *event);
+    bool eventFilter(QObject *obj, QEvent *event) override;
+    void showEvent(QShowEvent *event) override;
 
     Ui::ShortcutConfigWidget ui;
 

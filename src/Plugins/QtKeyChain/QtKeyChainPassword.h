@@ -50,8 +50,8 @@ public:
     QtKeyChainPasswordJob(const QString &accountId, const QString &accountType, const QString &password, enum Type type, QObject *parent);
 
 public slots:
-    virtual void doStart();
-    virtual void doStop();
+    void doStart() override;
+    void doStop() override;
 
 private slots:
     void result();
@@ -68,12 +68,12 @@ class QtKeyChainPassword : public PasswordPlugin
 
 public:
     QtKeyChainPassword(QObject *parent);
-    virtual Features features() const;
+    Features features() const override;
 
 public slots:
-    virtual PasswordJob *requestPassword(const QString &accountId, const QString &accountType);
-    virtual PasswordJob *storePassword(const QString &accountId, const QString &accountType, const QString &password);
-    virtual PasswordJob *deletePassword(const QString &accountId, const QString &accountType);
+    PasswordJob *requestPassword(const QString &accountId, const QString &accountType) override;
+    PasswordJob *storePassword(const QString &accountId, const QString &accountType, const QString &password) override;
+    PasswordJob *deletePassword(const QString &accountId, const QString &accountType) override;
 };
 
 }

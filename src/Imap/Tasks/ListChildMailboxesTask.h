@@ -37,7 +37,7 @@ class ListChildMailboxesTask : public ImapTask
     Q_OBJECT
 public:
     ListChildMailboxesTask(Model *_model, const QModelIndex &mailbox);
-    ~ListChildMailboxesTask();
+    ~ListChildMailboxesTask() override;
     void perform() override;
 
     bool handleStateHelper(const Imap::Responses::State *const resp) override;

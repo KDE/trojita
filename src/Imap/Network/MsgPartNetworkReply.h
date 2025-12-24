@@ -39,14 +39,14 @@ class MsgPartNetworkReply : public QNetworkReply
     Q_OBJECT
 public:
     MsgPartNetworkReply(MsgPartNetAccessManager *parent, const QPersistentModelIndex &part);
-    virtual void abort();
-    virtual void close();
-    virtual qint64 bytesAvailable() const;
+    void abort() override;
+    void close() override;
+    qint64 bytesAvailable() const override;
 public slots:
     void slotModelDataChanged(const QModelIndex &topLeft, const QModelIndex &bottomRight);
     void slotMyDataChanged();
 protected:
-    virtual qint64 readData(char *data, qint64 maxSize);
+    qint64 readData(char *data, qint64 maxSize) override;
 private:
     void disconnectBufferIfVanished() const;
 

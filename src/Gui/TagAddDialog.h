@@ -41,7 +41,7 @@ class TagAddDialog : public QDialog
 
 public:
     explicit TagAddDialog(QWidget *parent, Imap::Mailbox::FavoriteTagsModel *m_favoriteTags);
-    ~TagAddDialog();
+    ~TagAddDialog() override;
     static QStringList getTags(QWidget *parent, Imap::Mailbox::FavoriteTagsModel *m_favoriteTags);
     QStringList getTags();
 

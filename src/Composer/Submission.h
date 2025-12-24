@@ -54,7 +54,7 @@ class Submission : public QObject
     Q_OBJECT
 public:
     explicit Submission(QObject *parent, std::shared_ptr<AbstractComposer> composer, Imap::Mailbox::Model *model, MSA::MSAFactory *msaFactory, const QString &accountId);
-    virtual ~Submission();
+    ~Submission() override;
 
     QString accountId() const;
 

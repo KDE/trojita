@@ -36,11 +36,11 @@ class ForbiddenReply : public QNetworkReply
 public:
     explicit ForbiddenReply(QObject *parent);
 protected:
-    virtual qint64 readData(char *data, qint64 maxSize) {
+    qint64 readData(char *data, qint64 maxSize) override {
         Q_UNUSED(data); Q_UNUSED(maxSize);
         return -1;
     }
-    virtual void abort() {}
+    void abort() override {}
 private slots:
     void slotFinish();
 };

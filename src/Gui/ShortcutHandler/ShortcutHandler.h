@@ -293,7 +293,7 @@ class ShortcutHandler : public QObject
 
 public:
     explicit ShortcutHandler(QWidget *parent);
-    ~ShortcutHandler();
+    ~ShortcutHandler() override;
     static ShortcutHandler *instance() { return self; }
 
     void setSettingsObject(QSettings *settings);

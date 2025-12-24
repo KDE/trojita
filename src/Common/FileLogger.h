@@ -36,7 +36,7 @@ class FileLogger : public QObject
     Q_OBJECT
 public:
     explicit FileLogger(QObject *parent = 0);
-    virtual ~FileLogger();
+    ~FileLogger() override;
 
 public slots:
     /** @short A connection handler wants to log something */

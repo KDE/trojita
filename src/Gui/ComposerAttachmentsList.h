@@ -47,10 +47,10 @@ public:
 signals:
     void itemDroppedOut();
 protected:
-    void startDrag(Qt::DropActions da);
-    void dragEnterEvent(QDragEnterEvent *de);
-    void dragLeaveEvent(QDragLeaveEvent *de);
-    void dropEvent(QDropEvent* de);
+    void startDrag(Qt::DropActions da) override;
+    void dragEnterEvent(QDragEnterEvent *de) override;
+    void dragLeaveEvent(QDragLeaveEvent *de) override;
+    void dropEvent(QDropEvent* de) override;
 public slots:
     void slotRemoveAttachment();
     void slotToggledContentDispositionInline(bool checked);

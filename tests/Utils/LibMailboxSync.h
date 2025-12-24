@@ -58,7 +58,7 @@ class LibMailboxSync : public QObject
     Q_OBJECT
 public:
     LibMailboxSync();
-    virtual ~LibMailboxSync();
+    ~LibMailboxSync() override;
 
     static QModelIndex findIndexByPosition(const QAbstractItemModel *model, const QString &where);
 

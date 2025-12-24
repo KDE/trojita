@@ -49,13 +49,13 @@ namespace BE {
         Q_OBJECT
     public:
         explicit Contacts(AbookAddressbook *abook);
-        virtual ~Contacts();
+        ~Contacts() override;
 
         void manageContact(const QString &mail, const QString &prettyName);
 
     protected:
-        bool eventFilter(QObject *o, QEvent *e);
-        virtual void closeEvent(QCloseEvent *);
+        bool eventFilter(QObject *o, QEvent *e) override;
+        void closeEvent(QCloseEvent *) override;
     private slots:
         void addContact();
         void updateLabel();

@@ -32,7 +32,7 @@ class CryptographyPGPTest : public LibMailboxSync
 public:
     typedef QList<QPair<int,int> > pathList;
 private Q_SLOTS:
-    void initTestCase();
+    void initTestCase() override;
     void testDecryption();
     void testDecryption_data();
     void testDecryptWithoutEnvelope();

@@ -82,7 +82,7 @@ class MessageView : public QWidget
 public:
     MessageView(QWidget *parent, QSettings *settings, Plugins::PluginManager *pluginManager,
             Imap::Mailbox::FavoriteTagsModel *m_favoriteTags);
-    ~MessageView();
+    ~MessageView() override;
 
     void setNetworkWatcher(Imap::Mailbox::NetworkWatcher *netWatcher);
     void reply(MainWindow *mainWindow, Composer::ReplyMode mode);

@@ -71,7 +71,7 @@ class SMTPFactory: public MSAFactory
 public:
     SMTPFactory(const QString &host, quint16 port, bool encryptedConnect, bool startTls, bool auth,
          const QString &user);
-    virtual ~SMTPFactory();
+    ~SMTPFactory() override;
     AbstractMSA *create(QObject *parent) const override;
 private:
     QString m_host;

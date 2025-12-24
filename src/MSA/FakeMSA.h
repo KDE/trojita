@@ -34,7 +34,7 @@ class Fake : public AbstractMSA
     Q_OBJECT
 public:
     Fake(QObject *parent, FakeFactory *factory, const bool supportsBurl, const bool supportsImap);
-    virtual ~Fake();
+    ~Fake() override;
     void sendMail(const QByteArray &from, const QList<QByteArray> &to, const QByteArray &data) override;
     void sendBurl(const QByteArray &from, const QList<QByteArray> &to, const QByteArray &imapUrl) override;
 public slots:
@@ -58,7 +58,7 @@ class FakeFactory: public QObject, public MSAFactory
     Q_OBJECT
 public:
     FakeFactory();
-    virtual ~FakeFactory();
+    ~FakeFactory() override;
     AbstractMSA *create(QObject *parent) const override;
     Fake *lastMSA() const;
 

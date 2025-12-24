@@ -41,7 +41,7 @@ class ImapModelObtainSynchronizedMailboxTest : public LibMailboxSync
     enum class MessageNumberChange { SAME, MORE, LESS };
     void helperMissingUidNext(const MessageNumberChange mode);
 private slots:
-    void init();
+    void init() override;
     void testSyncEmptyMinimal();
     void testSyncEmptyMinimalNonEmpty();
     void testSyncEmptyNormal();

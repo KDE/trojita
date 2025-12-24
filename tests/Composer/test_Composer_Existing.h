@@ -34,7 +34,7 @@ public:
     ComposerExistingTest();
 
 private slots:
-    void init();
+    void init() override;
 
     void testDoNothing();
     void testSimpleCompose();

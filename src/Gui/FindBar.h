@@ -50,11 +50,11 @@ public:
     void notifyMatch(bool match);
     bool highlightAllState() const;
 
-    void setVisible(bool visible);
+    void setVisible(bool visible) override;
     void setAssociatedWebView(QWebView *webView);
 
 protected:
-    void keyPressEvent(QKeyEvent *event);
+    void keyPressEvent(QKeyEvent *event) override;
 
 private slots:
     void findText(const QString &search);

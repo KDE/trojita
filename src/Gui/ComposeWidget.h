@@ -78,7 +78,7 @@ class ComposeWidget : public QWidget
 {
     Q_OBJECT
 public:
-    ~ComposeWidget();
+    ~ComposeWidget() override;
     static ComposeWidget *warnIfMsaNotConfigured(ComposeWidget *widget, MainWindow *mainWindow);
     static ComposeWidget *createDraft(MainWindow *mainWindow, const QString &path);
     static ComposeWidget *createBlank(MainWindow *mainWindow);
@@ -91,9 +91,9 @@ public:
     static ComposeWidget *createFromReadOnly(MainWindow *mainWindow, const QModelIndex &messageRoot, const QList<QPair<Composer::RecipientKind, QString>> &recipients);
     void placeOnMainWindow();
 protected:
-    void changeEvent(QEvent *e);
-    void closeEvent(QCloseEvent *ce);
-    bool eventFilter(QObject *o, QEvent *e);
+    void changeEvent(QEvent *e) override;
+    void closeEvent(QCloseEvent *ce) override;
+    bool eventFilter(QObject *o, QEvent *e) override;
 
 private slots:
     void calculateMaxVisibleRecipients();

@@ -67,7 +67,7 @@ public:
     } CollapsingFlags;
 
     WebRenderingTester();
-    virtual ~WebRenderingTester();
+    ~WebRenderingTester() override;
     QString asPlainText(const QString &input, const UiUtils::FlowedFormat format,
                         const CollapsingFlags collapsing=RenderDefaultCollapsing);
 public slots:

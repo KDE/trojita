@@ -83,12 +83,12 @@ class KDEUI_EXPORT KDescendantsProxyModel : public QAbstractProxyModel
     /**
      * Destroys the descendant entities proxy model.
      */
-    virtual ~KDescendantsProxyModel();
+    ~KDescendantsProxyModel() override;
 
     /**
      * Sets the source @p model of the proxy.
      */
-    virtual void setSourceModel( QAbstractItemModel *model );
+    void setSourceModel( QAbstractItemModel *model ) override;
 
     /**
      * @deprecated
@@ -156,31 +156,31 @@ class KDEUI_EXPORT KDescendantsProxyModel : public QAbstractProxyModel
      */
     int descendantCount( const QModelIndex &index ) const;
 
-    QModelIndex mapFromSource ( const QModelIndex & sourceIndex ) const;
-    QModelIndex mapToSource ( const QModelIndex & proxyIndex ) const;
+    QModelIndex mapFromSource ( const QModelIndex & sourceIndex ) const override;
+    QModelIndex mapToSource ( const QModelIndex & proxyIndex ) const override;
 
-    virtual Qt::ItemFlags flags( const QModelIndex &index ) const;
-    QVariant data( const QModelIndex & index, int role = Qt::DisplayRole ) const;
-    virtual int rowCount( const QModelIndex & parent = QModelIndex() ) const;
-    virtual QVariant headerData(int section, Qt::Orientation orientation, int role) const;
+    Qt::ItemFlags flags( const QModelIndex &index ) const override;
+    QVariant data( const QModelIndex & index, int role = Qt::DisplayRole ) const override;
+    int rowCount( const QModelIndex & parent = QModelIndex() ) const override;
+    QVariant headerData(int section, Qt::Orientation orientation, int role) const override;
 
-    virtual QMimeData* mimeData( const QModelIndexList & indexes ) const;
-    virtual QStringList mimeTypes() const;
+    QMimeData* mimeData( const QModelIndexList & indexes ) const override;
+    QStringList mimeTypes() const override;
 
-    virtual bool hasChildren ( const QModelIndex & parent = QModelIndex() ) const;
-    virtual QModelIndex index(int, int, const QModelIndex &parent = QModelIndex() ) const;
-    virtual QModelIndex parent(const QModelIndex&) const;
-    virtual int columnCount(const QModelIndex& index = QModelIndex()) const;
+    bool hasChildren ( const QModelIndex & parent = QModelIndex() ) const override;
+    QModelIndex index(int, int, const QModelIndex &parent = QModelIndex() ) const override;
+    QModelIndex parent(const QModelIndex&) const override;
+    int columnCount(const QModelIndex& index = QModelIndex()) const override;
 
-    virtual Qt::DropActions supportedDropActions() const;
+    Qt::DropActions supportedDropActions() const override;
 
     /**
     Reimplemented to match all descendants.
     */
-    virtual QModelIndexList match(const QModelIndex& start, int role, const QVariant& value,
-        int hits = 1, Qt::MatchFlags flags = Qt::MatchFlags( Qt::MatchStartsWith | Qt::MatchWrap ) ) const;
+    QModelIndexList match(const QModelIndex& start, int role, const QVariant& value,
+        int hits = 1, Qt::MatchFlags flags = Qt::MatchFlags( Qt::MatchStartsWith | Qt::MatchWrap ) ) const override;
 
-    virtual QHash<int,QByteArray> roleNames() const;
+    QHash<int,QByteArray> roleNames() const override;
 
     void proxySetRoleNames(const QHash<int,QByteArray> &roleNames);
 

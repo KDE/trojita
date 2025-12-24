@@ -74,10 +74,10 @@ public slots:
     void stop();
 
 protected:
-    bool event(QEvent *e);
-    bool eventFilter(QObject *o, QEvent *e);
-    void paintEvent(QPaintEvent *e);
-    void timerEvent(QTimerEvent *e);
+    bool event(QEvent *e) override;
+    bool eventFilter(QObject *o, QEvent *e) override;
+    void paintEvent(QPaintEvent *e) override;
+    void timerEvent(QTimerEvent *e) override;
 private slots:
     void updateAncestors();
     void updateGeometry();

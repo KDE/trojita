@@ -61,8 +61,8 @@ public:
     ImapException(const std::string &msg) : m_msg(msg), m_offset(-1), m_exceptionClass("ImapException") {};
     ImapException(const std::string &msg, const QByteArray &line, const int offset):
         m_msg(msg), m_line(line), m_offset(offset), m_exceptionClass("ImapException") {};
-    virtual const char *what() const throw();
-    virtual ~ImapException() throw() {};
+    const char *what() const throw() override;
+    ~ImapException() throw() override {};
     std::string msg() const { return m_msg; }
     QByteArray line() const { return m_line; }
     int offset() const { return m_offset; }
@@ -117,7 +117,7 @@ public:
     MailboxException(const char *const msg, const Imap::Responses::AbstractResponse &response);
     explicit MailboxException(const char *const msg);
     const char *what() const throw() override { return m_msg.c_str(); }
-    virtual ~MailboxException() throw() {}
+    ~MailboxException() throw() override {}
 
 };
 

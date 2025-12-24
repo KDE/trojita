@@ -67,7 +67,7 @@ public:
      * Takes an QIODevice instance as a parameter. */
     Parser(QObject *parent, Streams::Socket *socket, const uint myId);
 
-    ~Parser();
+    ~Parser() override;
 
     /** @short Checks for waiting responses */
     bool hasResponse() const;

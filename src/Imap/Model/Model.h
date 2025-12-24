@@ -123,14 +123,14 @@ class Model: public QAbstractItemModel
 
 public:
     Model(QObject *parent, std::shared_ptr<AbstractCache> cache, SocketFactoryPtr m_socketFactory, TaskFactoryPtr m_taskFactory);
-    ~Model();
+    ~Model() override;
 
-    virtual QModelIndex index(int row, int column, const QModelIndex &parent) const;
-    virtual QModelIndex parent(const QModelIndex &index) const;
-    virtual int rowCount(const QModelIndex &index) const;
-    virtual int columnCount(const QModelIndex &index) const;
-    virtual QVariant data(const QModelIndex &index, int role) const;
-    virtual bool hasChildren(const QModelIndex &parent = QModelIndex()) const;
+    QModelIndex index(int row, int column, const QModelIndex &parent) const override;
+    QModelIndex parent(const QModelIndex &index) const override;
+    int rowCount(const QModelIndex &index) const override;
+    int columnCount(const QModelIndex &index) const override;
+    QVariant data(const QModelIndex &index, int role) const override;
+    bool hasChildren(const QModelIndex &parent = QModelIndex()) const override;
 
     void handleState(Imap::Parser *ptr, const Imap::Responses::State *const resp);
     void handleCapability(Imap::Parser *ptr, const Imap::Responses::Capability *const resp);

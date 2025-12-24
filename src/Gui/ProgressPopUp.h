@@ -38,7 +38,7 @@ class ProgressPopUp : public QFrame
 
 public:
     explicit ProgressPopUp(QWidget *parent = 0);
-    ~ProgressPopUp();
+    ~ProgressPopUp() override;
 
 public slots:
     void setMinimum(const int minimum);
@@ -47,7 +47,7 @@ public slots:
     void setLabelText(const QString &text);
 
 protected:
-    void changeEvent(QEvent *e);
+    void changeEvent(QEvent *e) override;
 
 private:
     Ui::ProgressPopUp *ui;

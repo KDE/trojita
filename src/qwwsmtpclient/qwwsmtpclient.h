@@ -52,7 +52,7 @@ class QwwSmtpClient : public QObject {
 
 public:
     explicit QwwSmtpClient(QObject *parent = 0);
-    ~QwwSmtpClient();
+    ~QwwSmtpClient() override;
     enum State { Disconnected, Connecting, Connected, TLSRequested, Authenticating, Sending, Disconnecting };
     enum Option { NoOptions = 0, StartTlsOption, SizeOption, PipeliningOption, EightBitMimeOption, AuthOption };
     Q_DECLARE_FLAGS ( Options, Option );

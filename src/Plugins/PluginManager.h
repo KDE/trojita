@@ -55,7 +55,7 @@ public:
     /** @short Create plugin manager instance and load plugins */
     PluginManager(QObject *parent, QSettings *settings, const QString &addressbookKey, const QString &passwordKey, const QString &spellcheckerKey);
 
-    virtual ~PluginManager();
+    ~PluginManager() override;
 
     /** @short Return list of addressbook plugin pairs (name, description) */
     QMap<QString, QString> availableAddressbookPlugins() const;

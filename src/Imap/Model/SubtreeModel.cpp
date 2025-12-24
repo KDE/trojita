@@ -40,7 +40,7 @@ public:
 
 template <typename SourceModel>
 class SubtreeClassSpecificItem: public SubtreeClassAdaptor {
-    virtual QModelIndex parentCreateIndex(const QAbstractItemModel *sourceModel,
+    QModelIndex parentCreateIndex(const QAbstractItemModel *sourceModel,
                                           const int row, const int column, void *internalPointer) const override {
         return qobject_cast<const SourceModel*>(sourceModel)->createIndex(row, column, internalPointer);
     }

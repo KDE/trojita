@@ -45,7 +45,7 @@ class ShortcutConfigDialog : public QDialog
 
 public:
     explicit ShortcutConfigDialog(QWidget *parent = 0);
-    ~ShortcutConfigDialog();
+    ~ShortcutConfigDialog() override;
 
     void setExclusivityGroups(const QList<QStringList> &groups);
     void setActionDescriptions(const QHash<QString, ActionDescription> &actionDescriptions);
@@ -54,8 +54,8 @@ Q_SIGNALS:
     void shortcutsChanged(const QHash<QString, ActionDescription> &actionDescriptions);
 
 protected Q_SLOTS:
-    void accept();
-    void reject();
+    void accept() override;
+    void reject() override;
 
 private:
     ShortcutConfigWidget *m_shortcutConfigWidget;

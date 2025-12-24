@@ -40,7 +40,7 @@ class OverlayWidget: public QWidget
 
 public:
     OverlayWidget(QWidget *what, QWidget *parent);
-    bool eventFilter(QObject *obj, QEvent *event);
+    bool eventFilter(QObject *obj, QEvent *event) override;
 
 private:
     QWidget *m_widget;

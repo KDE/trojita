@@ -54,7 +54,7 @@ private slots:
 
     void helper_multipleExpunges();
 protected slots:
-    virtual void init();
+    void init() override;
 private:
     void complexMapping(Mapping &m, QByteArray &response);
     static QByteArray prepareHugeUntaggedThread(const uint num);

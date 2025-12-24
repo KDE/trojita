@@ -46,8 +46,8 @@ public:
     ClearTextPasswordJob(const QString &accountId, const QString &accountType, const QString &password, enum Type type, QObject *parent, QSettings *settings);
 
 public slots:
-    virtual void doStart();
-    virtual void doStop();
+    void doStart() override;
+    void doStop() override;
 
 private:
     QString m_accountId, m_accountType, m_password;
@@ -61,12 +61,12 @@ class ClearTextPassword : public PasswordPlugin
 
 public:
     ClearTextPassword(QObject *parent, QSettings *settings);
-    virtual Features features() const;
+    Features features() const override;
 
 public slots:
-    virtual PasswordJob *requestPassword(const QString &accountId, const QString &accountType);
-    virtual PasswordJob *storePassword(const QString &accountId, const QString &accountType, const QString &password);
-    virtual PasswordJob *deletePassword(const QString &accountId, const QString &accountType);
+    PasswordJob *requestPassword(const QString &accountId, const QString &accountType) override;
+    PasswordJob *storePassword(const QString &accountId, const QString &accountType, const QString &password) override;
+    PasswordJob *deletePassword(const QString &accountId, const QString &accountType) override;
 
 private:
     QSettings *m_settings;

@@ -52,17 +52,17 @@ class SubtreeModel: public QAbstractProxyModel
 
 public:
     SubtreeModel(QObject *parent, SubtreeClassAdaptor *classSpecificAdaptor);
-    virtual ~SubtreeModel();
+    ~SubtreeModel() override;
 
-    virtual QModelIndex index(int row, int column, const QModelIndex &parent = QModelIndex()) const;
-    virtual QModelIndex parent(const QModelIndex &child) const;
-    virtual int rowCount(const QModelIndex &parent = QModelIndex()) const;
-    virtual int columnCount(const QModelIndex &parent = QModelIndex()) const;
-    virtual QModelIndex mapToSource(const QModelIndex &proxyIndex) const;
-    virtual QModelIndex mapFromSource(const QModelIndex &sourceIndex) const;
-    virtual bool hasChildren(const QModelIndex &parent = QModelIndex()) const;
-    void setSourceModel(QAbstractItemModel *sourceModel);
-    virtual bool dropMimeData(const QMimeData *data, Qt::DropAction action, int row, int column, const QModelIndex &parent);
+    QModelIndex index(int row, int column, const QModelIndex &parent = QModelIndex()) const override;
+    QModelIndex parent(const QModelIndex &child) const override;
+    int rowCount(const QModelIndex &parent = QModelIndex()) const override;
+    int columnCount(const QModelIndex &parent = QModelIndex()) const override;
+    QModelIndex mapToSource(const QModelIndex &proxyIndex) const override;
+    QModelIndex mapFromSource(const QModelIndex &sourceIndex) const override;
+    bool hasChildren(const QModelIndex &parent = QModelIndex()) const override;
+    void setSourceModel(QAbstractItemModel *sourceModel) override;
+    bool dropMimeData(const QMimeData *data, Qt::DropAction action, int row, int column, const QModelIndex &parent) override;
     Q_INVOKABLE void setRootItem(QModelIndex rootIndex);
     Q_INVOKABLE void setRootItemByOffset(const int row);
     Q_INVOKABLE void setRootOneLevelUp();
@@ -70,7 +70,7 @@ public:
     Q_INVOKABLE QModelIndex parentOfRoot() const;
     Q_INVOKABLE bool itemsValid() const;
     QModelIndex rootIndex() const;
-    virtual QHash<int, QByteArray> roleNames() const;
+    QHash<int, QByteArray> roleNames() const override;
 
 private slots:
     void handleDataChanged(const QModelIndex &topLeft, const QModelIndex &bottomRight);

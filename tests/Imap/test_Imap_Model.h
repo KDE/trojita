@@ -36,8 +36,8 @@ class ImapModelTest : public LibMailboxSync
 {
     Q_OBJECT
 private slots:
-    void init();
-    void initTestCase();
+    void init() override;
+    void initTestCase() override;
 
     void testSyncMailbox();
 

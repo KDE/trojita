@@ -46,12 +46,12 @@ class VisibleTasksModel : public QSortFilterProxyModel
 public:
     explicit VisibleTasksModel(QObject *parent, QAbstractItemModel *taskModel);
     bool hasVisibleTasks() const;
-    virtual QHash<int, QByteArray> roleNames() const;
+    QHash<int, QByteArray> roleNames() const override;
 
 signals:
     void hasVisibleTasksChanged();
 protected:
-    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
+    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const override;
 private:
     KDescendantsProxyModel *m_flatteningModel;
 };

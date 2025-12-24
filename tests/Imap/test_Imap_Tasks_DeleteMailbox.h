@@ -31,9 +31,9 @@ class ImapModelDeleteMailboxTest : public LibMailboxSync
 {
     Q_OBJECT
 private slots:
-    void init();
-    void cleanup();
-    void initTestCase();
+    void init() override;
+    void cleanup() override;
+    void initTestCase() override;
 
     void testDeleteOne();
     void testDeleteFail();

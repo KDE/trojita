@@ -58,7 +58,7 @@ class ImapTask : public QObject
     Q_OBJECT
 public:
     explicit ImapTask(Model *model);
-    virtual ~ImapTask();
+    ~ImapTask() override;
 
     /** @short Start performing the job of the task
 

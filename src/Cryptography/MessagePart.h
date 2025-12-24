@@ -105,7 +105,7 @@ class TopLevelMessage : public MessagePart
 {
 public:
     TopLevelMessage(const QModelIndex &messageRoot, MessageModel *model);
-    ~TopLevelMessage();
+    ~TopLevelMessage() override;
 
     void fetchChildren(MessageModel *model) override;
     QVariant data(int role) const override;
@@ -122,7 +122,7 @@ class ProxyMessagePart : public MessagePart
 {
 public:
     ProxyMessagePart(MessagePart *parent, const int row, const QModelIndex &sourceIndex, MessageModel *model);
-    ~ProxyMessagePart();
+    ~ProxyMessagePart() override;
 
     void fetchChildren(MessageModel *model) override;
 
@@ -141,7 +141,7 @@ class LocalMessagePart : public MessagePart
 {
 public:
     LocalMessagePart(MessagePart *parent, const int row, const QByteArray &mimetype);
-    ~LocalMessagePart();
+    ~LocalMessagePart() override;
 
     void fetchChildren(MessageModel *model) override;
 

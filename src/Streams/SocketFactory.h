@@ -44,7 +44,7 @@ class SocketFactory: public QObject
     bool m_startTls;
 public:
     SocketFactory();
-    virtual ~SocketFactory() {}
+    ~SocketFactory() override {}
     /** @short Create new socket and return a smart pointer to it */
     virtual Socket *create() = 0;
     virtual void setProxySettings(const Streams::ProxySettings proxySettings, const QString &protocolTag) = 0;

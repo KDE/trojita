@@ -51,7 +51,7 @@ public:
    OnePanelAtTimeWidget(QMainWindow *mainWindow, MailBoxTreeView *mboxTree, MessageListWidget *msgListWidget,
                         QLabel *messageWidget, QToolBar *toolbar, QAction* toolbarActions);
 #endif
-    virtual ~OnePanelAtTimeWidget();
+    ~OnePanelAtTimeWidget() override;
 
 public slots:
     void slotOneAtTimeGoBack();

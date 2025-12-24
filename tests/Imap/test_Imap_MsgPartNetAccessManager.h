@@ -33,8 +33,8 @@ class ImapMsgPartNetAccessManagerTest : public LibMailboxSync
 {
     Q_OBJECT
 private Q_SLOTS:
-    void init();
-    void cleanup();
+    void init() override;
+    void cleanup() override;
     void testMessageParts();
     void testMessageParts_data();
     void testFetchResultOfflineSingle();

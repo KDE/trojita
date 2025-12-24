@@ -40,7 +40,7 @@ class FakeSocket: public Socket
     Q_OBJECT
 public:
     explicit FakeSocket(const Imap::ConnectionState initialState);
-    ~FakeSocket();
+    ~FakeSocket() override;
     bool canReadLine() override;
     QByteArray read(qint64 maxSize) override;
     QByteArray readLine(qint64 maxSize = 0) override;

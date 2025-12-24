@@ -75,7 +75,7 @@ class SQLCache : public AbstractCache
 {
 public:
     SQLCache();
-    virtual ~SQLCache();
+    ~SQLCache() override;
 
     QList<MailboxMetadata> childMailboxes(const QString &mailbox) const override;
     bool childMailboxesFresh(const QString &mailbox) const override;

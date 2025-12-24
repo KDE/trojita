@@ -30,8 +30,8 @@ signals:
     void escapePressed();
 
 protected:
-    bool eventFilter(QObject *o, QEvent *e);
-    void keyReleaseEvent(QKeyEvent *ke);
+    bool eventFilter(QObject *o, QEvent *e) override;
+    void keyReleaseEvent(QKeyEvent *ke) override;
 
 private Q_SLOTS:
     void learnEntry();

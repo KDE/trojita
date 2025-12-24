@@ -97,7 +97,7 @@ class MainWindow: public QMainWindow
 public:
     MainWindow(QSettings *settings);
     void showMainWindow();
-    QSize sizeHint() const;
+    QSize sizeHint() const override;
 
     Imap::Mailbox::Model *imapModel() const;
 
@@ -121,8 +121,8 @@ public slots:
     void slotComposeMail();
     void invokeContactEditor();
 protected:
-    void closeEvent(QCloseEvent *event);
-    bool eventFilter(QObject *o, QEvent *e);
+    void closeEvent(QCloseEvent *event) override;
+    bool eventFilter(QObject *o, QEvent *e) override;
 private slots:
     void showContextMenuMboxTree(const QPoint &position);
     void showContextMenuMsgListTree(const QPoint &position);
@@ -224,7 +224,7 @@ private slots:
     void recoverDrafts();
 
 protected:
-    void resizeEvent(QResizeEvent *);
+    void resizeEvent(QResizeEvent *) override;
 
 private:
     void defineActions();

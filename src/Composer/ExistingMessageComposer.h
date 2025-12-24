@@ -40,7 +40,7 @@ class ExistingMessageComposer : public AbstractComposer
 public:
 
     explicit ExistingMessageComposer(const QModelIndex &messageRoot);
-    ~ExistingMessageComposer();
+    ~ExistingMessageComposer() override;
 
     bool isReadyForSerialization() const override;
     bool asRawMessage(QIODevice *target, QString *errorMessage) const override;

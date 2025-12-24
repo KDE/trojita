@@ -40,9 +40,9 @@ class FromAddressProxyModel : public QSortFilterProxyModel
     Q_OBJECT
 public:
     explicit FromAddressProxyModel(QObject *parent = 0);
-    void setSourceModel(QAbstractItemModel *sourceModel);
-    bool filterAcceptsColumn(int source_column, const QModelIndex &source_parent) const;
-    QVariant data(const QModelIndex &index, int role) const;
+    void setSourceModel(QAbstractItemModel *sourceModel) override;
+    bool filterAcceptsColumn(int source_column, const QModelIndex &source_parent) const override;
+    QVariant data(const QModelIndex &index, int role) const override;
 };
 
 }

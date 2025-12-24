@@ -110,7 +110,7 @@ protected:
 class ImapMessageAttachmentItem: public AttachmentItem {
 public:
     ImapMessageAttachmentItem(Imap::Mailbox::Model *model, const QString &mailbox, const uint uidValidity, const uint uid);
-    ~ImapMessageAttachmentItem();
+    ~ImapMessageAttachmentItem() override;
 
     QString caption() const override;
     QString tooltip() const override;
@@ -133,7 +133,7 @@ private:
 class ImapPartAttachmentItem: public AttachmentItem {
 public:
     ImapPartAttachmentItem(Imap::Mailbox::Model *model, const QString &mailbox, const uint uidValidity, const uint uid, const QByteArray &trojitaPath);
-    ~ImapPartAttachmentItem();
+    ~ImapPartAttachmentItem() override;
 
     QString caption() const override;
     QString tooltip() const override;
@@ -155,7 +155,7 @@ private:
 class FileAttachmentItem: public AttachmentItem {
 public:
     explicit FileAttachmentItem(const QString &fileName);
-    ~FileAttachmentItem();
+    ~FileAttachmentItem() override;
 
     QString caption() const override;
     QString tooltip() const override;

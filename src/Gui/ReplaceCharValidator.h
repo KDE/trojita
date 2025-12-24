@@ -33,9 +33,9 @@ class ReplaceCharValidator: public QValidator
 Q_OBJECT
 public:
     ReplaceCharValidator(const QChar replaceWhat, const QChar replaceBy, QObject *parent);
-    ~ReplaceCharValidator();
+    ~ReplaceCharValidator() override;
 
-    virtual State validate(QString &input, int &pos) const;
+    State validate(QString &input, int &pos) const override;
 
 private:
     QChar m_replaceWhat, m_replaceBy;

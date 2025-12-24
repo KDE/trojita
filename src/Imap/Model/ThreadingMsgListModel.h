@@ -124,24 +124,24 @@ public:
     } SortCriterium;
 
     explicit ThreadingMsgListModel(QObject *parent);
-    virtual void setSourceModel(QAbstractItemModel *sourceModel);
+    void setSourceModel(QAbstractItemModel *sourceModel) override;
 
-    virtual QModelIndex index(int row, int column, const QModelIndex &parent=QModelIndex()) const;
-    virtual QModelIndex parent(const QModelIndex &index) const;
-    virtual int rowCount(const QModelIndex &parent=QModelIndex()) const;
-    virtual int columnCount(const QModelIndex &parent=QModelIndex()) const;
-    virtual QModelIndex mapToSource(const QModelIndex &proxyIndex) const;
-    virtual QModelIndex mapFromSource(const QModelIndex &sourceIndex) const;
-    virtual bool hasChildren(const QModelIndex &parent=QModelIndex()) const;
-    virtual QVariant data(const QModelIndex &proxyIndex, int role) const;
-    virtual Qt::ItemFlags flags(const QModelIndex &index) const;
-    QVariant headerData(int section, Qt::Orientation orientation, int role) const;
+    QModelIndex index(int row, int column, const QModelIndex &parent=QModelIndex()) const override;
+    QModelIndex parent(const QModelIndex &index) const override;
+    int rowCount(const QModelIndex &parent=QModelIndex()) const override;
+    int columnCount(const QModelIndex &parent=QModelIndex()) const override;
+    QModelIndex mapToSource(const QModelIndex &proxyIndex) const override;
+    QModelIndex mapFromSource(const QModelIndex &sourceIndex) const override;
+    bool hasChildren(const QModelIndex &parent=QModelIndex()) const override;
+    QVariant data(const QModelIndex &proxyIndex, int role) const override;
+    Qt::ItemFlags flags(const QModelIndex &index) const override;
+    QVariant headerData(int section, Qt::Orientation orientation, int role) const override;
     // Qt5 reimplements sibling() within the proxy models, and the default implementation constitutes
     // a behavior change compared to Qt4.
-    virtual QModelIndex sibling(int row, int column, const QModelIndex &idx) const;
+    QModelIndex sibling(int row, int column, const QModelIndex &idx) const override;
 
-    virtual QStringList mimeTypes() const;
-    virtual QMimeData *mimeData(const QModelIndexList &indexes) const;
+    QStringList mimeTypes() const override;
+    QMimeData *mimeData(const QModelIndexList &indexes) const override;
 
     /** @short List of capabilities which could be used for threading
 

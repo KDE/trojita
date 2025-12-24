@@ -59,7 +59,7 @@ class ProtocolLoggerWidget : public QWidget
     Q_OBJECT
 public:
     explicit ProtocolLoggerWidget(QWidget *parent = 0);
-    virtual ~ProtocolLoggerWidget();
+    ~ProtocolLoggerWidget() override;
 
 public slots:
     /** @short A protocol handler wants to log something */
@@ -96,8 +96,8 @@ private:
     /** @short Dump the log bufer contents to the GUI widget */
     void flushToWidget(const uint connectionId, Common::RingBuffer<Common::LogMessage> &buf);
 
-    virtual void showEvent(QShowEvent *e);
-    virtual void hideEvent(QHideEvent *e);
+    void showEvent(QShowEvent *e) override;
+    void hideEvent(QHideEvent *e) override;
 };
 
 }

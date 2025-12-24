@@ -45,21 +45,21 @@ class MsgListModel: public QAbstractProxyModel
 public:
     MsgListModel(QObject *parent, Model *model);
 
-    virtual QModelIndex index(int row, int column, const QModelIndex &parent=QModelIndex()) const;
-    virtual QModelIndex parent(const QModelIndex &index) const;
-    virtual int rowCount(const QModelIndex &parent=QModelIndex()) const;
-    virtual int columnCount(const QModelIndex &parent=QModelIndex()) const;
-    virtual QModelIndex mapToSource(const QModelIndex &proxyIndex) const;
-    virtual QModelIndex mapFromSource(const QModelIndex &sourceIndex) const;
-    virtual bool hasChildren(const QModelIndex &parent=QModelIndex()) const;
-    virtual QVariant data(const QModelIndex &proxyIndex, int role=Qt::DisplayRole) const;
-    virtual QVariant headerData(int section, Qt::Orientation orientation, int role=Qt::DisplayRole) const;
-    virtual Qt::ItemFlags flags(const QModelIndex &index) const;
-    virtual QStringList mimeTypes() const;
-    virtual QMimeData *mimeData(const QModelIndexList &indexes) const;
-    virtual Qt::DropActions supportedDragActions() const;
-    virtual Qt::DropActions supportedDropActions() const;
-    virtual QHash<int, QByteArray> roleNames() const;
+    QModelIndex index(int row, int column, const QModelIndex &parent=QModelIndex()) const override;
+    QModelIndex parent(const QModelIndex &index) const override;
+    int rowCount(const QModelIndex &parent=QModelIndex()) const override;
+    int columnCount(const QModelIndex &parent=QModelIndex()) const override;
+    QModelIndex mapToSource(const QModelIndex &proxyIndex) const override;
+    QModelIndex mapFromSource(const QModelIndex &sourceIndex) const override;
+    bool hasChildren(const QModelIndex &parent=QModelIndex()) const override;
+    QVariant data(const QModelIndex &proxyIndex, int role=Qt::DisplayRole) const override;
+    QVariant headerData(int section, Qt::Orientation orientation, int role=Qt::DisplayRole) const override;
+    Qt::ItemFlags flags(const QModelIndex &index) const override;
+    QStringList mimeTypes() const override;
+    QMimeData *mimeData(const QModelIndexList &indexes) const override;
+    Qt::DropActions supportedDragActions() const override;
+    Qt::DropActions supportedDropActions() const override;
+    QHash<int, QByteArray> roleNames() const override;
 
     QModelIndex currentMailbox() const;
 

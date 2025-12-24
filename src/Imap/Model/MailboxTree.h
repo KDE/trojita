@@ -148,7 +148,7 @@ class TreeItemMailbox: public TreeItem
 public:
     explicit TreeItemMailbox(TreeItem *parent);
     TreeItemMailbox(TreeItem *parent, Responses::List);
-    ~TreeItemMailbox();
+    ~TreeItemMailbox() override;
 
     static TreeItemMailbox *fromMetadata(TreeItem *parent, const MailboxMetadata &metadata);
 
@@ -313,7 +313,7 @@ class TreeItemMessage: public TreeItem
 
 public:
     explicit TreeItemMessage(TreeItem *parent);
-    ~TreeItemMessage();
+    ~TreeItemMessage() override;
 
     int row() const override;
     void fetch(Model *const model) override;
@@ -364,7 +364,7 @@ class TreeItemPart: public TreeItem
     bool m_binaryCTEFailed;
 public:
     TreeItemPart(TreeItem *parent, const QByteArray &mimeType);
-    ~TreeItemPart();
+    ~TreeItemPart() override;
 
     unsigned int childrenCount(Model *const model) override;
     TreeItem *child(const int offset, Model *const model) override;
@@ -458,7 +458,7 @@ class TreeItemPartMultipartMessage: public TreeItemPart
     mutable std::unique_ptr<TreeItemPart> m_partText;
 public:
     TreeItemPartMultipartMessage(TreeItem *parent, const Message::Envelope &envelope);
-    virtual ~TreeItemPartMultipartMessage();
+    ~TreeItemPartMultipartMessage() override;
     QVariant data(Model * const model, int role) override;
     TreeItem *specialColumnPtr(int row, int column) const override;
     void silentlyReleaseMemoryRecursive() override;

@@ -44,24 +44,24 @@ class MailboxModel: public QAbstractProxyModel
 public:
     MailboxModel(QObject *parent, Model *model);
 
-    virtual QModelIndex index(int row, int column, const QModelIndex &parent=QModelIndex()) const;
-    virtual QModelIndex parent(const QModelIndex &index) const;
-    virtual int rowCount(const QModelIndex &parent=QModelIndex()) const;
-    virtual int columnCount(const QModelIndex &parent=QModelIndex()) const;
-    virtual QModelIndex mapToSource(const QModelIndex &proxyIndex) const;
-    virtual QModelIndex mapFromSource(const QModelIndex &sourceIndex) const;
-    virtual bool hasChildren(const QModelIndex &parent = QModelIndex()) const;
+    QModelIndex index(int row, int column, const QModelIndex &parent=QModelIndex()) const override;
+    QModelIndex parent(const QModelIndex &index) const override;
+    int rowCount(const QModelIndex &parent=QModelIndex()) const override;
+    int columnCount(const QModelIndex &parent=QModelIndex()) const override;
+    QModelIndex mapToSource(const QModelIndex &proxyIndex) const override;
+    QModelIndex mapFromSource(const QModelIndex &sourceIndex) const override;
+    bool hasChildren(const QModelIndex &parent = QModelIndex()) const override;
 
-    virtual QVariant data(const QModelIndex &proxyIndex, int role = Qt::DisplayRole) const;
+    QVariant data(const QModelIndex &proxyIndex, int role = Qt::DisplayRole) const override;
 
-    virtual Qt::ItemFlags flags(const QModelIndex &index) const;
-    virtual Qt::DropActions supportedDropActions() const;
-    virtual QStringList mimeTypes() const;
-    virtual bool canDropMimeData(const QMimeData *data, Qt::DropAction action, int row, int column, const QModelIndex &parent) const;
-    virtual bool dropMimeData(const QMimeData *data, Qt::DropAction action,
-                              int row, int column, const QModelIndex &parent);
+    Qt::ItemFlags flags(const QModelIndex &index) const override;
+    Qt::DropActions supportedDropActions() const override;
+    QStringList mimeTypes() const override;
+    bool canDropMimeData(const QMimeData *data, Qt::DropAction action, int row, int column, const QModelIndex &parent) const override;
+    bool dropMimeData(const QMimeData *data, Qt::DropAction action,
+                              int row, int column, const QModelIndex &parent) override;
 
-    virtual QHash<int, QByteArray> roleNames() const;
+    QHash<int, QByteArray> roleNames() const override;
 
 protected slots:
     void handleDataChanged(const QModelIndex &topLeft, const QModelIndex &bottomRight);

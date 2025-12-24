@@ -38,10 +38,10 @@ class PrettyMsgListModel: public QSortFilterProxyModel
     Q_OBJECT
 public:
     explicit PrettyMsgListModel(QObject *parent);
-    virtual QVariant data(const QModelIndex &index, int role) const;
+    QVariant data(const QModelIndex &index, int role) const override;
     void setHideRead(bool value);
-    virtual bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
-    virtual void sort(int column, Qt::SortOrder order);
+    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const override;
+    void sort(int column, Qt::SortOrder order) override;
 
 signals:
     void sortingPreferenceChanged(int column, Qt::SortOrder order);

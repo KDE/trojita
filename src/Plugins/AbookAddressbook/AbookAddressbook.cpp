@@ -42,14 +42,14 @@ public:
         AddressbookCompletionJob(parent), m_input(input), m_ignores(ignores), m_max(max), m_parent(parent) {}
 
 public slots:
-    virtual void doStart()
+    void doStart() override
     {
         NameEmailList completion = m_parent->complete(m_input, m_ignores, m_max);
         emit completionAvailable(completion);
         finished();
     }
 
-    virtual void doStop()
+    void doStop() override
     {
         emit error(AddressbookJob::Stopped);
         finished();
@@ -70,14 +70,14 @@ public:
         AddressbookNamesJob(parent), m_email(email), m_parent(parent) {}
 
 public slots:
-    virtual void doStart()
+    void doStart() override
     {
         QStringList displayNames = m_parent->prettyNamesForAddress(m_email);
         emit prettyNamesForAddressAvailable(displayNames);
         finished();
     }
 
-    virtual void doStop()
+    void doStop() override
     {
         emit error(AddressbookJob::Stopped);
         finished();

@@ -73,7 +73,7 @@ class GpgMePart : public QObject, public LocalMessagePart {
 public:
     GpgMePart(const Protocol protocol, GpgMeReplacer *replacer, MessageModel *model, MessagePart *parentPart,
               const QModelIndex &sourceItemIndex, const QModelIndex &proxyParentIndex);
-    ~GpgMePart();
+    ~GpgMePart() override;
     QVariant data(int role) const override;
 
 protected slots:
@@ -114,7 +114,7 @@ class GpgMeSigned : public GpgMePart {
 public:
     GpgMeSigned(const Protocol protocol, GpgMeReplacer *replacer, MessageModel *model, MessagePart *parentPart, Ptr original,
                 const QModelIndex &sourceItemIndex, const QModelIndex &proxyParentIndex);
-    ~GpgMeSigned();
+    ~GpgMeSigned() override;
 
 private slots:
     void handleDataChanged(const QModelIndex &topLeft, const QModelIndex &bottomRight) override;
@@ -128,7 +128,7 @@ class GpgMeEncrypted : public GpgMePart {
 public:
     GpgMeEncrypted(const Protocol protocol, GpgMeReplacer *replacer, MessageModel *model, MessagePart *parentPart, Ptr original,
                    const QModelIndex &sourceItemIndex, const QModelIndex &proxyParentIndex);
-    ~GpgMeEncrypted();
+    ~GpgMeEncrypted() override;
 
 private slots:
     void handleDataChanged(const QModelIndex &topLeft, const QModelIndex &bottomRight) override;

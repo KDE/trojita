@@ -47,17 +47,17 @@ class MsgListView : public QTreeView
     Q_OBJECT
 public:
     explicit MsgListView(QWidget *parent, Imap::Mailbox::FavoriteTagsModel *m_favoriteTagsModel);
-    virtual ~MsgListView() {}
-    void setModel(QAbstractItemModel *model);
+    ~MsgListView() override {}
+    void setModel(QAbstractItemModel *model) override;
     void setAutoActivateAfterKeyNavigation(bool enabled);
     void updateActionsAfterRestoredState();
-    virtual int sizeHintForColumn(int column) const;
+    int sizeHintForColumn(int column) const override;
     QHeaderView::ResizeMode resizeModeForColumn(const int column) const;
 protected:
-    void keyPressEvent(QKeyEvent *ke);
-    void keyReleaseEvent(QKeyEvent *ke);
-    virtual void startDrag(Qt::DropActions supportedActions);
-    bool event(QEvent *event);
+    void keyPressEvent(QKeyEvent *ke) override;
+    void keyReleaseEvent(QKeyEvent *ke) override;
+    void startDrag(Qt::DropActions supportedActions) override;
+    bool event(QEvent *event) override;
     /** @short Returns a list of all selected and related (collapsed) message indexes for column 0 */
     QModelIndexList selectedTree() const;
 private slots:

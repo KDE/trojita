@@ -42,7 +42,7 @@ public:
 
     QString tagName() const;
 
-    bool event(QEvent *e);
+    bool event(QEvent *e) override;
 
 signals:
     void removeClicked(QString);

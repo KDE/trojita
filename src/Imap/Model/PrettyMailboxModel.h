@@ -36,11 +36,11 @@ class PrettyMailboxModel: public QSortFilterProxyModel
     Q_OBJECT
 public:
     PrettyMailboxModel(QObject *parent, QAbstractItemModel *mailboxModel);
-    virtual QVariant data(const QModelIndex &index, int role) const;
-    virtual bool filterAcceptsColumn(int source_column, const QModelIndex &source_parent) const;
-    virtual bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
+    QVariant data(const QModelIndex &index, int role) const override;
+    bool filterAcceptsColumn(int source_column, const QModelIndex &source_parent) const override;
+    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const override;
     /** @short Override in order to prevent needless LIST commands */
-    virtual bool hasChildren(const QModelIndex &parent=QModelIndex()) const;
+    bool hasChildren(const QModelIndex &parent=QModelIndex()) const override;
 
 public slots:
     void setShowOnlySubscribed(bool filterUnsubscribed);
