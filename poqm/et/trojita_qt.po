@@ -281,7 +281,7 @@ msgctxt "Cryptography::GpgMePart|"
 msgid "[getAuditLog failed: %1]"
 msgstr "[getAuditLog nurjus: %1]"
 
-#: src/Cryptography/GpgMe++.cpp:170
+#: src/Cryptography/GpgMe++.cpp:168
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Waiting for data..."
@@ -289,7 +289,7 @@ msgctxt "GpgMePart|"
 msgid "Waiting for data..."
 msgstr "Andmete ootamine ..."
 
-#: src/Cryptography/GpgMe++.cpp:313
+#: src/Cryptography/GpgMe++.cpp:311
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted; some signature: missing key"
@@ -297,7 +297,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
 msgstr "Krüptitud, osaline allkiri: võti puudub"
 
-#: src/Cryptography/GpgMe++.cpp:313
+#: src/Cryptography/GpgMe++.cpp:311
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Some signature: missing key"
@@ -305,7 +305,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
 msgstr "Osaline allkiri: võti puudub"
 
-#: src/Cryptography/GpgMe++.cpp:314
+#: src/Cryptography/GpgMe++.cpp:312
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid ""
@@ -322,7 +322,7 @@ msgstr ""
 "Allkirja kehtivust ei saa kotrollida ega midagi muud ette võtta. Kirja võib, "
 "aga ei pruugi olla keegi vahepeal sorkinud."
 
-#: src/Cryptography/GpgMe++.cpp:325
+#: src/Cryptography/GpgMe++.cpp:323
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Internal error"
@@ -330,7 +330,7 @@ msgctxt "GpgMePart|"
 msgid "Internal error"
 msgstr "Sisemine tõrge"
 
-#: src/Cryptography/GpgMe++.cpp:326
+#: src/Cryptography/GpgMe++.cpp:324
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Error when verifying signature: cannot retrieve key %1: %2"
@@ -338,7 +338,7 @@ msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
 msgstr "Tõrge allkirja kontrollimisel: võtme %1 tõmbamine nurjus: %2"
 
-#: src/Cryptography/GpgMe++.cpp:376
+#: src/Cryptography/GpgMe++.cpp:374
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, verified signature"
@@ -346,7 +346,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
 msgstr "Krüptitud, allkiri kontrollitud"
 
-#: src/Cryptography/GpgMe++.cpp:376
+#: src/Cryptography/GpgMe++.cpp:374
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Verified signature"
@@ -354,7 +354,7 @@ msgctxt "GpgMePart|"
 msgid "Verified signature"
 msgstr "Allkiri kontrollitud"
 
-#: src/Cryptography/GpgMe++.cpp:377
+#: src/Cryptography/GpgMe++.cpp:375
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Verified signature from %1 on %2"
@@ -362,7 +362,7 @@ msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
 msgstr "Kontrollitud allkiri saatjalt %1 %2"
 
-#: src/Cryptography/GpgMe++.cpp:382
+#: src/Cryptography/GpgMe++.cpp:380
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, signed by stranger"
@@ -370,7 +370,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
 msgstr "Krüptitud, võõras allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:382
+#: src/Cryptography/GpgMe++.cpp:380
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signed by stranger"
@@ -378,7 +378,7 @@ msgctxt "GpgMePart|"
 msgid "Signed by stranger"
 msgstr "Võõras allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:383
+#: src/Cryptography/GpgMe++.cpp:381
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid ""
@@ -395,7 +395,7 @@ msgstr ""
 "%1\n"
 "Allkiri anti %2."
 
-#: src/Cryptography/GpgMe++.cpp:390
+#: src/Cryptography/GpgMe++.cpp:388
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature"
@@ -403,7 +403,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
 msgstr "Krüptitud, halb allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:390
+#: src/Cryptography/GpgMe++.cpp:388
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature"
@@ -411,7 +411,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature"
 msgstr "Halb allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:393
+#: src/Cryptography/GpgMe++.cpp:391
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature: %1"
@@ -419,7 +419,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
 msgstr "Krüptitud, halb allkiri: %1"
 
-#: src/Cryptography/GpgMe++.cpp:394
+#: src/Cryptography/GpgMe++.cpp:392
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature: %1"
@@ -427,7 +427,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
 msgstr "Halb allkiri: %1"
 
-#: src/Cryptography/GpgMe++.cpp:396
+#: src/Cryptography/GpgMe++.cpp:394
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by %1 on %2"
@@ -435,7 +435,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
 msgstr "Halb allkiri saatjalt %1 %2"
 
-#: src/Cryptography/GpgMe++.cpp:399
+#: src/Cryptography/GpgMe++.cpp:397
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature by stranger"
@@ -443,7 +443,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
 msgstr "Krüptitud, võõras halb allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:399
+#: src/Cryptography/GpgMe++.cpp:397
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by stranger"
@@ -451,7 +451,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
 msgstr "Võõras halb allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:402
+#: src/Cryptography/GpgMe++.cpp:400
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature by stranger: %1"
@@ -459,7 +459,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
 msgstr "Krüptitud, võõras halb allkiri: %1"
 
-#: src/Cryptography/GpgMe++.cpp:403
+#: src/Cryptography/GpgMe++.cpp:401
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by stranger: %1"
@@ -467,7 +467,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
 msgstr "Võõras halb allkiri: %1"
 
-#: src/Cryptography/GpgMe++.cpp:405
+#: src/Cryptography/GpgMe++.cpp:403
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by someone else: %1 on %2."
@@ -475,7 +475,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by someone else: %1 on %2."
 msgstr "Kellegi teise halb allkiri: %1 %2"
 
-#: src/Cryptography/GpgMe++.cpp:421
+#: src/Cryptography/GpgMe++.cpp:419
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, some signature"
@@ -483,7 +483,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
 msgstr "Krüptitud, osaline allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:421
+#: src/Cryptography/GpgMe++.cpp:419
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Some signature"
@@ -491,7 +491,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature"
 msgstr "Osaline allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:422
+#: src/Cryptography/GpgMe++.cpp:420
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Unknown signature from %1 on %2"
@@ -499,7 +499,7 @@ msgctxt "GpgMePart|"
 msgid "Unknown signature from %1 on %2"
 msgstr "Tundmatu allkiri saatjalt %1 %2"
 
-#: src/Cryptography/GpgMe++.cpp:426
+#: src/Cryptography/GpgMe++.cpp:424
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, some signature by stranger"
@@ -507,7 +507,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
 msgstr "Krüptitud, võõras osaline allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:426
+#: src/Cryptography/GpgMe++.cpp:424
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Some signature by stranger"
@@ -515,7 +515,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
 msgstr "Võõras osaline allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:427
+#: src/Cryptography/GpgMe++.cpp:425
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Unknown signature by somebody else: %1 on %2"
@@ -523,7 +523,7 @@ msgctxt "GpgMePart|"
 msgid "Unknown signature by somebody else: %1 on %2"
 msgstr "Kellegi teise tundmatu allkiri: %1 %2"
 
-#: src/Cryptography/GpgMe++.cpp:435
+#: src/Cryptography/GpgMe++.cpp:433
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, semi-trusted signature"
@@ -531,7 +531,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
 msgstr "Krüptitud, pooleldi usaldusväärne allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:435
+#: src/Cryptography/GpgMe++.cpp:433
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature"
@@ -539,7 +539,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
 msgstr "Pooleldi usaldusväärne allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:436
+#: src/Cryptography/GpgMe++.cpp:434
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature from %1 on %2"
@@ -547,7 +547,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature from %1 on %2"
 msgstr "Pooleldi usaldusväärne allkiri saatjalt %1 %2"
 
-#: src/Cryptography/GpgMe++.cpp:441
+#: src/Cryptography/GpgMe++.cpp:439
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, semi-trusted signature by stranger"
@@ -555,7 +555,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature by stranger"
 msgstr "Krüptitud, võõras pooleldi usaldusväärne allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:442
+#: src/Cryptography/GpgMe++.cpp:440
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature by stranger"
@@ -563,7 +563,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by stranger"
 msgstr "Võõras pooleldi usaldusväärne allkiri"
 
-#: src/Cryptography/GpgMe++.cpp:443
+#: src/Cryptography/GpgMe++.cpp:441
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature by somebody else: %1 on %2"
@@ -571,7 +571,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by somebody else: %1 on %2"
 msgstr "Kellegi teise pooleldi usaldusväärne allkiri: %1 %2"
 
-#: src/Cryptography/GpgMe++.cpp:456
+#: src/Cryptography/GpgMe++.cpp:454
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "The key or at least one certificate has been revoked."
@@ -579,7 +579,7 @@ msgctxt "GpgMePart|"
 msgid "The key or at least one certificate has been revoked."
 msgstr "Võti või vähemalt üks sertifikaat on tühistatud."
 
-#: src/Cryptography/GpgMe++.cpp:461
+#: src/Cryptography/GpgMe++.cpp:459
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "The key or one of the certificates has expired."
@@ -587,7 +587,7 @@ msgctxt "GpgMePart|"
 msgid "The key or one of the certificates has expired."
 msgstr "Võti või üks sertifikaat on aegunud."
 
-#: src/Cryptography/GpgMe++.cpp:465
+#: src/Cryptography/GpgMe++.cpp:463
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature expired on %1."
@@ -595,7 +595,7 @@ msgctxt "GpgMePart|"
 msgid "Signature expired on %1."
 msgstr "Allkiri aegus %1."
 
-#: src/Cryptography/GpgMe++.cpp:470
+#: src/Cryptography/GpgMe++.cpp:468
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Can't verify due to a missing key or certificate."
@@ -603,7 +603,7 @@ msgctxt "GpgMePart|"
 msgid "Can't verify due to a missing key or certificate."
 msgstr "Kontrollimine nurjus puuduva võtme või sertifikaadi tõttu."
 
-#: src/Cryptography/GpgMe++.cpp:474
+#: src/Cryptography/GpgMe++.cpp:472
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "The CRL (or an equivalent mechanism) is not available."
@@ -611,7 +611,7 @@ msgctxt "GpgMePart|"
 msgid "The CRL (or an equivalent mechanism) is not available."
 msgstr "CRL-i (ega mõnda muud võrdväärset mehhanismi) pole saadaval."
 
-#: src/Cryptography/GpgMe++.cpp:478
+#: src/Cryptography/GpgMe++.cpp:476
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Available CRL is too old."
@@ -619,7 +619,7 @@ msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
 msgstr "Saadaolev CRL on liiga vana."
 
-#: src/Cryptography/GpgMe++.cpp:482
+#: src/Cryptography/GpgMe++.cpp:480
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "A policy requirement was not met."
@@ -627,7 +627,7 @@ msgctxt "GpgMePart|"
 msgid "A policy requirement was not met."
 msgstr "Reegli nõue on täitmata."
 
-#: src/Cryptography/GpgMe++.cpp:486
+#: src/Cryptography/GpgMe++.cpp:484
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "A system error occurred. %1"
@@ -635,7 +635,7 @@ msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
 msgstr "Tekkis süsteemne tõrge. %1"
 
-#: src/Cryptography/GpgMe++.cpp:495
+#: src/Cryptography/GpgMe++.cpp:493
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is undefined."
@@ -643,7 +643,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is undefined."
 msgstr "Allkirja kehtivus on määramata."
 
-#: src/Cryptography/GpgMe++.cpp:499
+#: src/Cryptography/GpgMe++.cpp:497
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is never to be trusted."
@@ -651,7 +651,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is never to be trusted."
 msgstr "Allkirja kehtivust ei ole kunagi usaldusväärseks peetud."
 
-#: src/Cryptography/GpgMe++.cpp:503
+#: src/Cryptography/GpgMe++.cpp:501
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is marginal."
@@ -659,7 +659,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is marginal."
 msgstr "Allkirja kehtivus on marginaalne."
 
-#: src/Cryptography/GpgMe++.cpp:507
+#: src/Cryptography/GpgMe++.cpp:505
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is full."
@@ -667,7 +667,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is full."
 msgstr "Allkirja kehtivus on täielik."
 
-#: src/Cryptography/GpgMe++.cpp:511
+#: src/Cryptography/GpgMe++.cpp:509
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is ultimate."
@@ -675,7 +675,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is ultimate."
 msgstr "Allkirja kehtivus on ülim."
 
-#: src/Cryptography/GpgMe++.cpp:515
+#: src/Cryptography/GpgMe++.cpp:513
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is unknown."
@@ -683,7 +683,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is unknown."
 msgstr "Allkirja kehtivus on teadmata."
 
-#: src/Cryptography/GpgMe++.cpp:525
+#: src/Cryptography/GpgMe++.cpp:523
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Trust chain:"
@@ -691,7 +691,7 @@ msgctxt "GpgMePart|"
 msgid "Trust chain:"
 msgstr "Usaldusahel:"
 
-#: src/Cryptography/GpgMe++.cpp:531
+#: src/Cryptography/GpgMe++.cpp:529
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "%1(Unavailable)"
@@ -699,7 +699,7 @@ msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
 msgstr "%1 (ei ole saadaval)"
 
-#: src/Cryptography/GpgMe++.cpp:535
+#: src/Cryptography/GpgMe++.cpp:533
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "%1(self-signed)"
@@ -707,7 +707,7 @@ msgctxt "GpgMePart|"
 msgid "%1(self-signed)"
 msgstr "%1 (enda allkirjastatud)"
 
-#: src/Cryptography/GpgMe++.cpp:544
+#: src/Cryptography/GpgMe++.cpp:542
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Error when retrieving key for the trust chain: %1"
@@ -715,7 +715,7 @@ msgctxt "GpgMePart|"
 msgid "Error when retrieving key for the trust chain: %1"
 msgstr "Tõrge usaldusahela võtme tõmbamisel: %1"
 
-#: src/Cryptography/GpgMe++.cpp:554
+#: src/Cryptography/GpgMe++.cpp:552
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature invalidity reason: %1"
@@ -723,7 +723,7 @@ msgctxt "GpgMePart|"
 msgid "Signature invalidity reason: %1"
 msgstr "Allkirja mittekehtivuse põhjus: %1"
 
-#: src/Cryptography/GpgMe++.cpp:616
+#: src/Cryptography/GpgMe++.cpp:614
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Malformed Signed Message"
@@ -731,7 +731,7 @@ msgctxt "GpgMeSigned|"
 msgid "Malformed Signed Message"
 msgstr "Vigane allkirjastatud kiri"
 
-#: src/Cryptography/GpgMe++.cpp:617
+#: src/Cryptography/GpgMe++.cpp:615
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Expected 2 parts, but found %1."
@@ -739,7 +739,7 @@ msgctxt "GpgMeSigned|"
 msgid "Expected 2 parts, but found %1."
 msgstr "Oodati 2 osa, aga leiti %1."
 
-#: src/Cryptography/GpgMe++.cpp:621
+#: src/Cryptography/GpgMe++.cpp:619
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Cannot verify signature"
@@ -747,7 +747,7 @@ msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
 msgstr "Allkirja ei saa kontrollida"
 
-#: src/Cryptography/GpgMe++.cpp:622
+#: src/Cryptography/GpgMe++.cpp:620
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Failed to initialize GpgME (%1)"
@@ -755,7 +755,7 @@ msgctxt "GpgMeSigned|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr "GpgME initsialiseerimine nurjus (%1)"
 
-#: src/Cryptography/GpgMe++.cpp:642
+#: src/Cryptography/GpgMe++.cpp:640
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Signed message is gone"
@@ -763,7 +763,7 @@ msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
 msgstr "Allkirjastatud kiri on kadunud"
 
-#: src/Cryptography/GpgMe++.cpp:654
+#: src/Cryptography/GpgMe++.cpp:652
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Data Unavailable"
@@ -771,7 +771,7 @@ msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
 msgstr "Andmeid ei ole saadaval"
 
-#: src/Cryptography/GpgMe++.cpp:655
+#: src/Cryptography/GpgMe++.cpp:653
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid ""
@@ -782,7 +782,7 @@ msgid ""
 msgstr ""
 "Mõningaid andmeid ei ole saadaval, tõenäoliselt võrguühenduse puudumise tõttu"
 
-#: src/Cryptography/GpgMe++.cpp:675
+#: src/Cryptography/GpgMe++.cpp:673
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Verifying signature..."
@@ -790,7 +790,7 @@ msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
 msgstr "Allkirja kontrollimine ..."
 
-#: src/Cryptography/GpgMe++.cpp:700
+#: src/Cryptography/GpgMe++.cpp:698
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "No signatures in the signed message"
@@ -798,7 +798,7 @@ msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
 msgstr "Allkirjastatud kirjas pole ühtegi allkirja"
 
-#: src/Cryptography/GpgMe++.cpp:740 src/Cryptography/GpgMe++.cpp:814
+#: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Malformed Encrypted Message"
@@ -806,7 +806,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
 msgstr "Vigane krüptitud kiri"
 
-#: src/Cryptography/GpgMe++.cpp:741
+#: src/Cryptography/GpgMe++.cpp:739
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
@@ -814,7 +814,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
 msgstr "Oodati krüptitud OpenPGP kirja 2 osa, aga leiti %1."
 
-#: src/Cryptography/GpgMe++.cpp:766
+#: src/Cryptography/GpgMe++.cpp:764
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Cannot descrypt"
@@ -822,7 +822,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Cannot descrypt"
 msgstr "Lahtikrüptimine nurjus"
 
-#: src/Cryptography/GpgMe++.cpp:767
+#: src/Cryptography/GpgMe++.cpp:765
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Failed to initialize GpgME (%1)"
@@ -830,7 +830,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr "GpgME initsialiseerimine nurjus (%1)"
 
-#: src/Cryptography/GpgMe++.cpp:787 src/Cryptography/GpgMe++.cpp:923
+#: src/Cryptography/GpgMe++.cpp:785 src/Cryptography/GpgMe++.cpp:921
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted message is gone"
@@ -838,7 +838,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
 msgstr "Krüptitud kiri on kadunud"
 
-#: src/Cryptography/GpgMe++.cpp:797
+#: src/Cryptography/GpgMe++.cpp:795
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Data Unavailable"
@@ -846,7 +846,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
 msgstr "Andmeid ei ole saadaval"
 
-#: src/Cryptography/GpgMe++.cpp:798
+#: src/Cryptography/GpgMe++.cpp:796
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid ""
@@ -860,7 +860,7 @@ msgstr ""
 "Lahtikrüptimine nurjus. Mõningaid andmeid ei ole saadaval, tõenäoliselt "
 "võrguühenduse puudumise tõttu."
 
-#: src/Cryptography/GpgMe++.cpp:815
+#: src/Cryptography/GpgMe++.cpp:813
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
@@ -868,7 +868,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
 msgstr "Toetamata PGP/MIME versioon. Oodati \"Version: 1\", saadi \"%1\"."
 
-#: src/Cryptography/GpgMe++.cpp:821
+#: src/Cryptography/GpgMe++.cpp:819
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Decrypting..."
@@ -876,7 +876,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
 msgstr "Lahtikrüptimine ..."
 
-#: src/Cryptography/GpgMe++.cpp:864
+#: src/Cryptography/GpgMe++.cpp:862
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Broken encrypted message"
@@ -884,7 +884,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
 msgstr "Katkine krüptitud kiri"
 
-#: src/Cryptography/GpgMe++.cpp:867
+#: src/Cryptography/GpgMe++.cpp:865
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Decryption error: %1"
@@ -892,7 +892,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Decryption error: %1"
 msgstr "Tõrge lahtikrüptimisel: %1"
 
-#: src/Cryptography/GpgMe++.cpp:870
+#: src/Cryptography/GpgMe++.cpp:868
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted message"
@@ -900,7 +900,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
 msgstr "Krüptitud kiri"
 
-#: src/Cryptography/GpgMe++.cpp:876
+#: src/Cryptography/GpgMe++.cpp:874
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Wrong key usage, not for encryption"
@@ -908,7 +908,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Wrong key usage, not for encryption"
 msgstr "Võtme vale kasutus, mitte krüptimiseks"
 
-#: src/Cryptography/GpgMe++.cpp:880
+#: src/Cryptography/GpgMe++.cpp:878
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Unsupported algorithm: %1"
@@ -916,7 +916,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
 msgstr "Toetamata algoritm: %1"
 
-#: src/Cryptography/GpgMe++.cpp:888
+#: src/Cryptography/GpgMe++.cpp:886
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Cannot extract recipient %1: %2"
@@ -924,7 +924,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Cannot extract recipient %1: %2"
 msgstr "Saaja %1 hankimine: %2"
 
-#: src/Cryptography/GpgMe++.cpp:893
+#: src/Cryptography/GpgMe++.cpp:891
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted to %1 (%2)"
@@ -932,7 +932,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
 msgstr "Krüptitud saajale %1 (%2)"
 
-#: src/Cryptography/GpgMe++.cpp:897
+#: src/Cryptography/GpgMe++.cpp:895
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted to %1"
@@ -940,7 +940,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
 msgstr "Krüptitud saajale %1"
 
-#: src/Cryptography/GpgMe++.cpp:903
+#: src/Cryptography/GpgMe++.cpp:901
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Original filename: %1"
@@ -4414,12 +4414,12 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
 msgstr "[laaditakse %1: %2...]"
 
-#: src/Imap/Model/Model.cpp:1070
+#: src/Imap/Model/Model.cpp:1088
 msgctxt "Imap::Mailbox::Model|"
 msgid "Going offline"
 msgstr "Üleminek võrguühenduseta režiimi"
 
-#: src/Imap/Model/Model.cpp:1144
+#: src/Imap/Model/Model.cpp:1162
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
@@ -4427,7 +4427,7 @@ msgid ""
 msgstr ""
 "<p>Paistab, et püüad ühenduda POP3 serveriga. Seda siin teha ei saa.</p>"
 
-#: src/Imap/Model/Model.cpp:1146
+#: src/Imap/Model/Model.cpp:1164
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
@@ -4435,7 +4435,7 @@ msgid ""
 msgstr ""
 "<p>Paistab, et püüad ühenduda SMTP serveriga. Seda siin teha ei saa.</p>"
 
-#: src/Imap/Model/Model.cpp:1148
+#: src/Imap/Model/Model.cpp:1166
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -4447,7 +4447,7 @@ msgstr ""
 "ühendud ikka IMAP teenusega. IMAP port on tüüpiliselt 143 või 993.</"
 "p><p>Server vastas:</p><pre>%2</pre>"
 
-#: src/Imap/Model/Model.cpp:1155
+#: src/Imap/Model/Model.cpp:1173
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -4463,12 +4463,12 @@ msgstr ""
 "%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 
-#: src/Imap/Model/Model.cpp:1213
+#: src/Imap/Model/Model.cpp:1231
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
 msgstr "Läbirääkimisi ei peeta IMAP4 serveriga"
 
-#: src/Imap/Model/Model.cpp:1468
+#: src/Imap/Model/Model.cpp:1486
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "Ühendus tapeti määratlemata põhjusel"

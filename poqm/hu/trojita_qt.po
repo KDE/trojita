@@ -279,7 +279,7 @@ msgctxt "Cryptography::GpgMePart|"
 msgid "[getAuditLog failed: %1]"
 msgstr "[sikertelen getAuditLog: %1]"
 
-#: src/Cryptography/GpgMe++.cpp:170
+#: src/Cryptography/GpgMe++.cpp:168
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Waiting for data..."
@@ -287,7 +287,7 @@ msgctxt "GpgMePart|"
 msgid "Waiting for data..."
 msgstr "Várakozás adatokra…"
 
-#: src/Cryptography/GpgMe++.cpp:313
+#: src/Cryptography/GpgMe++.cpp:311
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted; some signature: missing key"
@@ -295,7 +295,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
 msgstr "Titkosítva; valamilyen aláírással: hiányzó kulcs"
 
-#: src/Cryptography/GpgMe++.cpp:313
+#: src/Cryptography/GpgMe++.cpp:311
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Some signature: missing key"
@@ -303,7 +303,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
 msgstr "Valamilyen aláírás: hiányzó kulcs"
 
-#: src/Cryptography/GpgMe++.cpp:314
+#: src/Cryptography/GpgMe++.cpp:312
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid ""
@@ -320,7 +320,7 @@ msgstr ""
 "Nem lehet ellenőrizni az aláírás érvényességét, vagy bármi mást tenni. Az "
 "üzenet lehet, hogy nem manipulálták, de az is lehet, hogy igen."
 
-#: src/Cryptography/GpgMe++.cpp:325
+#: src/Cryptography/GpgMe++.cpp:323
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Internal error"
@@ -328,7 +328,7 @@ msgctxt "GpgMePart|"
 msgid "Internal error"
 msgstr "Belső hiba"
 
-#: src/Cryptography/GpgMe++.cpp:326
+#: src/Cryptography/GpgMe++.cpp:324
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Error when verifying signature: cannot retrieve key %1: %2"
@@ -336,7 +336,7 @@ msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
 msgstr "Hiba az aláírás ellenőrzésekor: a(z) %1 kulcs nem kérhető le: %2"
 
-#: src/Cryptography/GpgMe++.cpp:376
+#: src/Cryptography/GpgMe++.cpp:374
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, verified signature"
@@ -344,7 +344,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
 msgstr "Titkosítva, ellenőrzött aláírás"
 
-#: src/Cryptography/GpgMe++.cpp:376
+#: src/Cryptography/GpgMe++.cpp:374
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Verified signature"
@@ -352,7 +352,7 @@ msgctxt "GpgMePart|"
 msgid "Verified signature"
 msgstr "Ellenőrzött aláírás"
 
-#: src/Cryptography/GpgMe++.cpp:377
+#: src/Cryptography/GpgMe++.cpp:375
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Verified signature from %1 on %2"
@@ -360,7 +360,7 @@ msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
 msgstr "%1 aláírása ellenőrizve: %2"
 
-#: src/Cryptography/GpgMe++.cpp:382
+#: src/Cryptography/GpgMe++.cpp:380
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, signed by stranger"
@@ -368,7 +368,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
 msgstr "Titkosítva, egy ismeretlen által aláírva"
 
-#: src/Cryptography/GpgMe++.cpp:382
+#: src/Cryptography/GpgMe++.cpp:380
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signed by stranger"
@@ -376,7 +376,7 @@ msgctxt "GpgMePart|"
 msgid "Signed by stranger"
 msgstr "Ismeretlen által aláírva"
 
-#: src/Cryptography/GpgMe++.cpp:383
+#: src/Cryptography/GpgMe++.cpp:381
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid ""
@@ -393,7 +393,7 @@ msgstr ""
 "%1\n"
 "Az aláírás időpontja: %2."
 
-#: src/Cryptography/GpgMe++.cpp:390
+#: src/Cryptography/GpgMe++.cpp:388
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature"
@@ -401,7 +401,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
 msgstr "Titkosítva, hibás aláírás"
 
-#: src/Cryptography/GpgMe++.cpp:390
+#: src/Cryptography/GpgMe++.cpp:388
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature"
@@ -409,7 +409,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature"
 msgstr "Hibás aláírás"
 
-#: src/Cryptography/GpgMe++.cpp:393
+#: src/Cryptography/GpgMe++.cpp:391
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature: %1"
@@ -417,7 +417,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
 msgstr "Titkosítva, hibás aláírás: %1"
 
-#: src/Cryptography/GpgMe++.cpp:394
+#: src/Cryptography/GpgMe++.cpp:392
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature: %1"
@@ -425,7 +425,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
 msgstr "Hibás aláírás: %1"
 
-#: src/Cryptography/GpgMe++.cpp:396
+#: src/Cryptography/GpgMe++.cpp:394
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by %1 on %2"
@@ -433,7 +433,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
 msgstr "%1 aláírása hibás: %2"
 
-#: src/Cryptography/GpgMe++.cpp:399
+#: src/Cryptography/GpgMe++.cpp:397
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature by stranger"
@@ -441,7 +441,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
 msgstr "Titkosítva, hibás aláírás egy ismeretlentől"
 
-#: src/Cryptography/GpgMe++.cpp:399
+#: src/Cryptography/GpgMe++.cpp:397
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by stranger"
@@ -449,7 +449,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
 msgstr "Hibás aláírás egy ismeretlentől"
 
-#: src/Cryptography/GpgMe++.cpp:402
+#: src/Cryptography/GpgMe++.cpp:400
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature by stranger: %1"
@@ -457,7 +457,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
 msgstr "Titkosítva, hibás aláírás egy ismeretlentől: %1"
 
-#: src/Cryptography/GpgMe++.cpp:403
+#: src/Cryptography/GpgMe++.cpp:401
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by stranger: %1"
@@ -465,7 +465,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
 msgstr "Hibás aláírás egy ismeretlentől: %1"
 
-#: src/Cryptography/GpgMe++.cpp:405
+#: src/Cryptography/GpgMe++.cpp:403
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by someone else: %1 on %2."
@@ -473,7 +473,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by someone else: %1 on %2."
 msgstr "Hibás aláírás valaki mástól: %1, %2."
 
-#: src/Cryptography/GpgMe++.cpp:421
+#: src/Cryptography/GpgMe++.cpp:419
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, some signature"
@@ -481,7 +481,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
 msgstr "Titkosítva valamilyen aláírással"
 
-#: src/Cryptography/GpgMe++.cpp:421
+#: src/Cryptography/GpgMe++.cpp:419
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Some signature"
@@ -489,7 +489,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature"
 msgstr "Valamilyen aláírás"
 
-#: src/Cryptography/GpgMe++.cpp:422
+#: src/Cryptography/GpgMe++.cpp:420
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Unknown signature from %1 on %2"
@@ -497,7 +497,7 @@ msgctxt "GpgMePart|"
 msgid "Unknown signature from %1 on %2"
 msgstr "Ismeretlen aláírás: %1, %2"
 
-#: src/Cryptography/GpgMe++.cpp:426
+#: src/Cryptography/GpgMe++.cpp:424
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, some signature by stranger"
@@ -505,7 +505,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
 msgstr "Titkosítva, valamilyen aláírás egy ismeretlentől"
 
-#: src/Cryptography/GpgMe++.cpp:426
+#: src/Cryptography/GpgMe++.cpp:424
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Some signature by stranger"
@@ -513,7 +513,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
 msgstr "Valamilyen aláírás egy ismeretlentől"
 
-#: src/Cryptography/GpgMe++.cpp:427
+#: src/Cryptography/GpgMe++.cpp:425
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Unknown signature by somebody else: %1 on %2"
@@ -521,7 +521,7 @@ msgctxt "GpgMePart|"
 msgid "Unknown signature by somebody else: %1 on %2"
 msgstr "Ismeretlen aláírás valaki mástól: %1, %2"
 
-#: src/Cryptography/GpgMe++.cpp:435
+#: src/Cryptography/GpgMe++.cpp:433
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, semi-trusted signature"
@@ -529,7 +529,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
 msgstr "Titkosítva, félig megbízható aláírással"
 
-#: src/Cryptography/GpgMe++.cpp:435
+#: src/Cryptography/GpgMe++.cpp:433
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature"
@@ -537,7 +537,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
 msgstr "Félig megbízható aláírás"
 
-#: src/Cryptography/GpgMe++.cpp:436
+#: src/Cryptography/GpgMe++.cpp:434
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature from %1 on %2"
@@ -545,7 +545,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature from %1 on %2"
 msgstr "Félig megbízható aláírás tőle: %1, %2"
 
-#: src/Cryptography/GpgMe++.cpp:441
+#: src/Cryptography/GpgMe++.cpp:439
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, semi-trusted signature by stranger"
@@ -553,7 +553,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature by stranger"
 msgstr "Titkosítva, félig megbízható aláírással egy ismeretlentől"
 
-#: src/Cryptography/GpgMe++.cpp:442
+#: src/Cryptography/GpgMe++.cpp:440
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature by stranger"
@@ -561,7 +561,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by stranger"
 msgstr "Félig megbízható aláírás egy ismeretlentől"
 
-#: src/Cryptography/GpgMe++.cpp:443
+#: src/Cryptography/GpgMe++.cpp:441
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature by somebody else: %1 on %2"
@@ -569,7 +569,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by somebody else: %1 on %2"
 msgstr "Félig megbízható aláírás valaki mástól: %1, %2"
 
-#: src/Cryptography/GpgMe++.cpp:456
+#: src/Cryptography/GpgMe++.cpp:454
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "The key or at least one certificate has been revoked."
@@ -577,7 +577,7 @@ msgctxt "GpgMePart|"
 msgid "The key or at least one certificate has been revoked."
 msgstr "A kulcsot vagy legalább egy tanúsítványt visszavontak."
 
-#: src/Cryptography/GpgMe++.cpp:461
+#: src/Cryptography/GpgMe++.cpp:459
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "The key or one of the certificates has expired."
@@ -585,7 +585,7 @@ msgctxt "GpgMePart|"
 msgid "The key or one of the certificates has expired."
 msgstr "A kulcs vagy a tanúsítványok egyike lejárt."
 
-#: src/Cryptography/GpgMe++.cpp:465
+#: src/Cryptography/GpgMe++.cpp:463
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature expired on %1."
@@ -593,7 +593,7 @@ msgctxt "GpgMePart|"
 msgid "Signature expired on %1."
 msgstr "Az aláírás lejárata: %1."
 
-#: src/Cryptography/GpgMe++.cpp:470
+#: src/Cryptography/GpgMe++.cpp:468
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Can't verify due to a missing key or certificate."
@@ -601,7 +601,7 @@ msgctxt "GpgMePart|"
 msgid "Can't verify due to a missing key or certificate."
 msgstr "Nem ellenőrizhető hiányzó kulcs vagy tanúsítvány miatt."
 
-#: src/Cryptography/GpgMe++.cpp:474
+#: src/Cryptography/GpgMe++.cpp:472
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "The CRL (or an equivalent mechanism) is not available."
@@ -609,7 +609,7 @@ msgctxt "GpgMePart|"
 msgid "The CRL (or an equivalent mechanism) is not available."
 msgstr "A CRL (vagy más, ekvivalens mechanizmus) nem érhető el."
 
-#: src/Cryptography/GpgMe++.cpp:478
+#: src/Cryptography/GpgMe++.cpp:476
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Available CRL is too old."
@@ -617,7 +617,7 @@ msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
 msgstr "A rendelkezésre álló CRL túl régi."
 
-#: src/Cryptography/GpgMe++.cpp:482
+#: src/Cryptography/GpgMe++.cpp:480
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "A policy requirement was not met."
@@ -625,7 +625,7 @@ msgctxt "GpgMePart|"
 msgid "A policy requirement was not met."
 msgstr "Egy szabály nem teljesült."
 
-#: src/Cryptography/GpgMe++.cpp:486
+#: src/Cryptography/GpgMe++.cpp:484
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "A system error occurred. %1"
@@ -633,7 +633,7 @@ msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
 msgstr "Rendszerhiba történt. %1"
 
-#: src/Cryptography/GpgMe++.cpp:495
+#: src/Cryptography/GpgMe++.cpp:493
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is undefined."
@@ -641,7 +641,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is undefined."
 msgstr "Az aláírás érvényessége nem meghatározott."
 
-#: src/Cryptography/GpgMe++.cpp:499
+#: src/Cryptography/GpgMe++.cpp:497
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is never to be trusted."
@@ -649,7 +649,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is never to be trusted."
 msgstr "Az aláírás érvényességében soha nem lehet megbízni."
 
-#: src/Cryptography/GpgMe++.cpp:503
+#: src/Cryptography/GpgMe++.cpp:501
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is marginal."
@@ -657,7 +657,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is marginal."
 msgstr "Az aláírás érvényessége marginális."
 
-#: src/Cryptography/GpgMe++.cpp:507
+#: src/Cryptography/GpgMe++.cpp:505
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is full."
@@ -665,7 +665,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is full."
 msgstr "Az aláírás érvényessége teljes."
 
-#: src/Cryptography/GpgMe++.cpp:511
+#: src/Cryptography/GpgMe++.cpp:509
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is ultimate."
@@ -673,7 +673,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is ultimate."
 msgstr "Az aláírás érvényessége végleges."
 
-#: src/Cryptography/GpgMe++.cpp:515
+#: src/Cryptography/GpgMe++.cpp:513
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is unknown."
@@ -681,7 +681,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is unknown."
 msgstr "Az aláírás érvényessége ismeretlen."
 
-#: src/Cryptography/GpgMe++.cpp:525
+#: src/Cryptography/GpgMe++.cpp:523
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Trust chain:"
@@ -689,7 +689,7 @@ msgctxt "GpgMePart|"
 msgid "Trust chain:"
 msgstr "Megbízhatósági lánc:"
 
-#: src/Cryptography/GpgMe++.cpp:531
+#: src/Cryptography/GpgMe++.cpp:529
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "%1(Unavailable)"
@@ -697,7 +697,7 @@ msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
 msgstr "%1(nem érhető el)"
 
-#: src/Cryptography/GpgMe++.cpp:535
+#: src/Cryptography/GpgMe++.cpp:533
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "%1(self-signed)"
@@ -705,7 +705,7 @@ msgctxt "GpgMePart|"
 msgid "%1(self-signed)"
 msgstr "%1(önaláírt)"
 
-#: src/Cryptography/GpgMe++.cpp:544
+#: src/Cryptography/GpgMe++.cpp:542
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Error when retrieving key for the trust chain: %1"
@@ -713,7 +713,7 @@ msgctxt "GpgMePart|"
 msgid "Error when retrieving key for the trust chain: %1"
 msgstr "Hiba a megbízhatósági lánc kulcsának lekérésekor: %1"
 
-#: src/Cryptography/GpgMe++.cpp:554
+#: src/Cryptography/GpgMe++.cpp:552
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature invalidity reason: %1"
@@ -721,7 +721,7 @@ msgctxt "GpgMePart|"
 msgid "Signature invalidity reason: %1"
 msgstr "Az aláírás érvénytelenségének oka: %1"
 
-#: src/Cryptography/GpgMe++.cpp:616
+#: src/Cryptography/GpgMe++.cpp:614
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Malformed Signed Message"
@@ -729,7 +729,7 @@ msgctxt "GpgMeSigned|"
 msgid "Malformed Signed Message"
 msgstr "Hibásan aláírt üzenet"
 
-#: src/Cryptography/GpgMe++.cpp:617
+#: src/Cryptography/GpgMe++.cpp:615
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Expected 2 parts, but found %1."
@@ -737,7 +737,7 @@ msgctxt "GpgMeSigned|"
 msgid "Expected 2 parts, but found %1."
 msgstr "Két rész várt, %1 érkezett."
 
-#: src/Cryptography/GpgMe++.cpp:621
+#: src/Cryptography/GpgMe++.cpp:619
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Cannot verify signature"
@@ -745,7 +745,7 @@ msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
 msgstr "Nem lehet ellenőrizni az aláírást"
 
-#: src/Cryptography/GpgMe++.cpp:622
+#: src/Cryptography/GpgMe++.cpp:620
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Failed to initialize GpgME (%1)"
@@ -753,7 +753,7 @@ msgctxt "GpgMeSigned|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr "A GpgME előkészítése sikertelen (%1)"
 
-#: src/Cryptography/GpgMe++.cpp:642
+#: src/Cryptography/GpgMe++.cpp:640
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Signed message is gone"
@@ -761,7 +761,7 @@ msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
 msgstr "Az aláírt üzenet eltűnt"
 
-#: src/Cryptography/GpgMe++.cpp:654
+#: src/Cryptography/GpgMe++.cpp:652
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Data Unavailable"
@@ -769,7 +769,7 @@ msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
 msgstr "Nem érhető el adat"
 
-#: src/Cryptography/GpgMe++.cpp:655
+#: src/Cryptography/GpgMe++.cpp:653
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid ""
@@ -779,7 +779,7 @@ msgid ""
 "Some data are not available, perhaps due to an offline network connection"
 msgstr "Néhány adat nem érhető el, talán egy offline hálózati kapcsolat miatt"
 
-#: src/Cryptography/GpgMe++.cpp:675
+#: src/Cryptography/GpgMe++.cpp:673
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Verifying signature..."
@@ -787,7 +787,7 @@ msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
 msgstr "Aláírás ellenőrzése…"
 
-#: src/Cryptography/GpgMe++.cpp:700
+#: src/Cryptography/GpgMe++.cpp:698
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "No signatures in the signed message"
@@ -795,7 +795,7 @@ msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
 msgstr "Nincsenek aláírások az aláírt üzenetben"
 
-#: src/Cryptography/GpgMe++.cpp:740 src/Cryptography/GpgMe++.cpp:814
+#: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Malformed Encrypted Message"
@@ -803,7 +803,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
 msgstr "Hibásan titkosított üzenet"
 
-#: src/Cryptography/GpgMe++.cpp:741
+#: src/Cryptography/GpgMe++.cpp:739
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
@@ -811,7 +811,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
 msgstr "Két rész szükséges egy titkosított OpenPGP üzenethez, de %1 érkezett."
 
-#: src/Cryptography/GpgMe++.cpp:766
+#: src/Cryptography/GpgMe++.cpp:764
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Cannot descrypt"
@@ -819,7 +819,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Cannot descrypt"
 msgstr "Nem lehet visszafejteni"
 
-#: src/Cryptography/GpgMe++.cpp:767
+#: src/Cryptography/GpgMe++.cpp:765
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Failed to initialize GpgME (%1)"
@@ -827,7 +827,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr "A GpgME előkészítése sikertelen (%1)"
 
-#: src/Cryptography/GpgMe++.cpp:787 src/Cryptography/GpgMe++.cpp:923
+#: src/Cryptography/GpgMe++.cpp:785 src/Cryptography/GpgMe++.cpp:921
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted message is gone"
@@ -835,7 +835,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
 msgstr "A titkosított üzenet eltűnt"
 
-#: src/Cryptography/GpgMe++.cpp:797
+#: src/Cryptography/GpgMe++.cpp:795
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Data Unavailable"
@@ -843,7 +843,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
 msgstr "Nem érhető el adat"
 
-#: src/Cryptography/GpgMe++.cpp:798
+#: src/Cryptography/GpgMe++.cpp:796
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid ""
@@ -857,7 +857,7 @@ msgstr ""
 "Nem lehet visszafejteni. Néhány adat nem érhető el, talán egy offline "
 "hálózati kapcsolat miatt."
 
-#: src/Cryptography/GpgMe++.cpp:815
+#: src/Cryptography/GpgMe++.cpp:813
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
@@ -866,7 +866,7 @@ msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
 msgstr ""
 "Nem támogatott PGP/MIME verzió. „Verzió: 1” volt a várt, „%1” érkezett."
 
-#: src/Cryptography/GpgMe++.cpp:821
+#: src/Cryptography/GpgMe++.cpp:819
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Decrypting..."
@@ -874,7 +874,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
 msgstr "Visszafejtés…"
 
-#: src/Cryptography/GpgMe++.cpp:864
+#: src/Cryptography/GpgMe++.cpp:862
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Broken encrypted message"
@@ -882,7 +882,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
 msgstr "Sérült titkosított üzenet"
 
-#: src/Cryptography/GpgMe++.cpp:867
+#: src/Cryptography/GpgMe++.cpp:865
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Decryption error: %1"
@@ -890,7 +890,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Decryption error: %1"
 msgstr "Visszafejtési hiba: %1"
 
-#: src/Cryptography/GpgMe++.cpp:870
+#: src/Cryptography/GpgMe++.cpp:868
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted message"
@@ -898,7 +898,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
 msgstr "Titkosított üzenet"
 
-#: src/Cryptography/GpgMe++.cpp:876
+#: src/Cryptography/GpgMe++.cpp:874
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Wrong key usage, not for encryption"
@@ -906,7 +906,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Wrong key usage, not for encryption"
 msgstr "Rossz kulcshasználat, nem titkosításra való"
 
-#: src/Cryptography/GpgMe++.cpp:880
+#: src/Cryptography/GpgMe++.cpp:878
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Unsupported algorithm: %1"
@@ -914,7 +914,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
 msgstr "Nem támogatott algoritmus: %1"
 
-#: src/Cryptography/GpgMe++.cpp:888
+#: src/Cryptography/GpgMe++.cpp:886
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Cannot extract recipient %1: %2"
@@ -922,7 +922,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Cannot extract recipient %1: %2"
 msgstr "Nem lehet kibontani a(z) %1. címzettet: %2"
 
-#: src/Cryptography/GpgMe++.cpp:893
+#: src/Cryptography/GpgMe++.cpp:891
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted to %1 (%2)"
@@ -930,7 +930,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
 msgstr "Titkosítva neki: %1 (%2)"
 
-#: src/Cryptography/GpgMe++.cpp:897
+#: src/Cryptography/GpgMe++.cpp:895
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted to %1"
@@ -938,7 +938,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
 msgstr "Titkosítva neki: %1"
 
-#: src/Cryptography/GpgMe++.cpp:903
+#: src/Cryptography/GpgMe++.cpp:901
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Original filename: %1"
@@ -4426,12 +4426,12 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
 msgstr "[%1 betöltése: %2…]"
 
-#: src/Imap/Model/Model.cpp:1070
+#: src/Imap/Model/Model.cpp:1088
 msgctxt "Imap::Mailbox::Model|"
 msgid "Going offline"
 msgstr "Offline módra váltás"
 
-#: src/Imap/Model/Model.cpp:1144
+#: src/Imap/Model/Model.cpp:1162
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
@@ -4440,7 +4440,7 @@ msgstr ""
 "<p>Úgy tűnik, hogy egy POP3 kiszolgálóhoz próbál csatlakozni. Ez nem fog "
 "menni.</p>"
 
-#: src/Imap/Model/Model.cpp:1146
+#: src/Imap/Model/Model.cpp:1164
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
@@ -4449,7 +4449,7 @@ msgstr ""
 "<p>Úgy tűnik, hogy egy SMTP kiszolgálóhoz próbál csatlakozni. Ez nem fog "
 "menni.</p>"
 
-#: src/Imap/Model/Model.cpp:1148
+#: src/Imap/Model/Model.cpp:1166
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -4461,7 +4461,7 @@ msgstr ""
 "biztosan egy IMAP szolgáltatáshoz csatlakozik-e. Az IMAP portszámai "
 "általában 143 vagy 993.</p><p>A kiszolgáló válasza:</p><pre>%2</pre>"
 
-#: src/Imap/Model/Model.cpp:1155
+#: src/Imap/Model/Model.cpp:1173
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -4477,12 +4477,12 @@ msgstr ""
 "</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 
-#: src/Imap/Model/Model.cpp:1213
+#: src/Imap/Model/Model.cpp:1231
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
 msgstr "Nem IMAP4 kiszolgálóval beszélgetünk"
 
-#: src/Imap/Model/Model.cpp:1468
+#: src/Imap/Model/Model.cpp:1486
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "A kapcsolatot ismeretlen okokból megszüntették"

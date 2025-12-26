@@ -278,7 +278,7 @@ msgctxt "Cryptography::GpgMePart|"
 msgid "[getAuditLog failed: %1]"
 msgstr "[getAuditLog alınmadı: %1]"
 
-#: src/Cryptography/GpgMe++.cpp:170
+#: src/Cryptography/GpgMe++.cpp:168
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Waiting for data..."
@@ -286,7 +286,7 @@ msgctxt "GpgMePart|"
 msgid "Waiting for data..."
 msgstr "Verilənlər gözlənilir..."
 
-#: src/Cryptography/GpgMe++.cpp:313
+#: src/Cryptography/GpgMe++.cpp:311
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted; some signature: missing key"
@@ -294,7 +294,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
 msgstr "Şifrələnmiş; bəzi imza: çatışmayan açar"
 
-#: src/Cryptography/GpgMe++.cpp:313
+#: src/Cryptography/GpgMe++.cpp:311
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Some signature: missing key"
@@ -302,7 +302,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
 msgstr "Bəzi imza: çatışmayan açar"
 
-#: src/Cryptography/GpgMe++.cpp:314
+#: src/Cryptography/GpgMe++.cpp:312
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid ""
@@ -319,7 +319,7 @@ msgstr ""
 "İmzanın doğruluğunu yoxlamaq və ya başqa bir şey etmək mümkün deyil. Məktub "
 "təhrif oluna və ya olunmaya bilər."
 
-#: src/Cryptography/GpgMe++.cpp:325
+#: src/Cryptography/GpgMe++.cpp:323
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Internal error"
@@ -327,7 +327,7 @@ msgctxt "GpgMePart|"
 msgid "Internal error"
 msgstr "Daxili xəta"
 
-#: src/Cryptography/GpgMe++.cpp:326
+#: src/Cryptography/GpgMe++.cpp:324
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Error when verifying signature: cannot retrieve key %1: %2"
@@ -335,7 +335,7 @@ msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
 msgstr "İmza doğrulanması zamanı xəta beş verdi: %1 açarı alına bilmir: %2"
 
-#: src/Cryptography/GpgMe++.cpp:376
+#: src/Cryptography/GpgMe++.cpp:374
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, verified signature"
@@ -343,7 +343,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
 msgstr "Şifrələnib, imza doğrulandı"
 
-#: src/Cryptography/GpgMe++.cpp:376
+#: src/Cryptography/GpgMe++.cpp:374
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Verified signature"
@@ -351,7 +351,7 @@ msgctxt "GpgMePart|"
 msgid "Verified signature"
 msgstr "İmza doğrulandı"
 
-#: src/Cryptography/GpgMe++.cpp:377
+#: src/Cryptography/GpgMe++.cpp:375
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Verified signature from %1 on %2"
@@ -359,7 +359,7 @@ msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
 msgstr "İmza %2, üstündə %1 ilə doğrulandı"
 
-#: src/Cryptography/GpgMe++.cpp:382
+#: src/Cryptography/GpgMe++.cpp:380
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, signed by stranger"
@@ -367,7 +367,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
 msgstr "Şifrələnmiş, kənar şəxs tərəfindən imzalanıb"
 
-#: src/Cryptography/GpgMe++.cpp:382
+#: src/Cryptography/GpgMe++.cpp:380
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signed by stranger"
@@ -375,7 +375,7 @@ msgctxt "GpgMePart|"
 msgid "Signed by stranger"
 msgstr "Kənar şəxs tərəfindən imzalanıb"
 
-#: src/Cryptography/GpgMe++.cpp:383
+#: src/Cryptography/GpgMe++.cpp:381
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid ""
@@ -392,7 +392,7 @@ msgstr ""
 "%1\n"
 "İmza %2 üzərində hazırlanıb."
 
-#: src/Cryptography/GpgMe++.cpp:390
+#: src/Cryptography/GpgMe++.cpp:388
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature"
@@ -400,7 +400,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
 msgstr "Şifrələnmiş, pis imza"
 
-#: src/Cryptography/GpgMe++.cpp:390
+#: src/Cryptography/GpgMe++.cpp:388
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature"
@@ -408,7 +408,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature"
 msgstr "Pis imza"
 
-#: src/Cryptography/GpgMe++.cpp:393
+#: src/Cryptography/GpgMe++.cpp:391
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature: %1"
@@ -416,7 +416,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
 msgstr "Şifrələnmiş, pis imza: %1"
 
-#: src/Cryptography/GpgMe++.cpp:394
+#: src/Cryptography/GpgMe++.cpp:392
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature: %1"
@@ -424,7 +424,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
 msgstr "Pis imza: %1"
 
-#: src/Cryptography/GpgMe++.cpp:396
+#: src/Cryptography/GpgMe++.cpp:394
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by %1 on %2"
@@ -432,7 +432,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
 msgstr "%2 üstündə %1 tərəfindən yararsız imza"
 
-#: src/Cryptography/GpgMe++.cpp:399
+#: src/Cryptography/GpgMe++.cpp:397
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature by stranger"
@@ -440,7 +440,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
 msgstr "Başqa biri tərəfindən imzalanıb, pis imza"
 
-#: src/Cryptography/GpgMe++.cpp:399
+#: src/Cryptography/GpgMe++.cpp:397
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by stranger"
@@ -448,7 +448,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
 msgstr "Başqa biri tərəfindən yararsız imza"
 
-#: src/Cryptography/GpgMe++.cpp:402
+#: src/Cryptography/GpgMe++.cpp:400
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, bad signature by stranger: %1"
@@ -456,7 +456,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
 msgstr "Başqa biri tərəfindən imzalanıb, pis imza: %1"
 
-#: src/Cryptography/GpgMe++.cpp:403
+#: src/Cryptography/GpgMe++.cpp:401
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by stranger: %1"
@@ -464,7 +464,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
 msgstr "Başqa biri tərəfindən yararsız imza: %1"
 
-#: src/Cryptography/GpgMe++.cpp:405
+#: src/Cryptography/GpgMe++.cpp:403
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Bad signature by someone else: %1 on %2."
@@ -472,7 +472,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by someone else: %1 on %2."
 msgstr "Hansısa başqa birinin yararsız imzası: %2 üstündə %1"
 
-#: src/Cryptography/GpgMe++.cpp:421
+#: src/Cryptography/GpgMe++.cpp:419
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, some signature"
@@ -480,7 +480,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
 msgstr "Şifrələnmiş, bir sıra imza"
 
-#: src/Cryptography/GpgMe++.cpp:421
+#: src/Cryptography/GpgMe++.cpp:419
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Some signature"
@@ -488,7 +488,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature"
 msgstr "Bir sıra imza"
 
-#: src/Cryptography/GpgMe++.cpp:422
+#: src/Cryptography/GpgMe++.cpp:420
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Unknown signature from %1 on %2"
@@ -496,7 +496,7 @@ msgctxt "GpgMePart|"
 msgid "Unknown signature from %1 on %2"
 msgstr "%2 üstündəki %1 ilə naməlum imza"
 
-#: src/Cryptography/GpgMe++.cpp:426
+#: src/Cryptography/GpgMe++.cpp:424
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, some signature by stranger"
@@ -504,7 +504,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
 msgstr "Şifrələnmiş, başqa biri tərəfindən bir sıra imza"
 
-#: src/Cryptography/GpgMe++.cpp:426
+#: src/Cryptography/GpgMe++.cpp:424
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Some signature by stranger"
@@ -512,7 +512,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
 msgstr "Başqa birisinin cir sıra imzası"
 
-#: src/Cryptography/GpgMe++.cpp:427
+#: src/Cryptography/GpgMe++.cpp:425
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Unknown signature by somebody else: %1 on %2"
@@ -520,7 +520,7 @@ msgctxt "GpgMePart|"
 msgid "Unknown signature by somebody else: %1 on %2"
 msgstr "Kimsə başqa biri tərəfindən naməlum imza: %2 üstündə %1"
 
-#: src/Cryptography/GpgMe++.cpp:435
+#: src/Cryptography/GpgMe++.cpp:433
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, semi-trusted signature"
@@ -528,7 +528,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
 msgstr "Şifrələnmiş, yarı etibarlı imza"
 
-#: src/Cryptography/GpgMe++.cpp:435
+#: src/Cryptography/GpgMe++.cpp:433
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature"
@@ -536,7 +536,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
 msgstr "Yarı etibarlı imza"
 
-#: src/Cryptography/GpgMe++.cpp:436
+#: src/Cryptography/GpgMe++.cpp:434
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature from %1 on %2"
@@ -544,7 +544,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature from %1 on %2"
 msgstr "%2 üstündə %1 ilə yarı etibarlı imza"
 
-#: src/Cryptography/GpgMe++.cpp:441
+#: src/Cryptography/GpgMe++.cpp:439
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Encrypted, semi-trusted signature by stranger"
@@ -552,7 +552,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature by stranger"
 msgstr "Şifrələnmiş, kimsə başqa birinin yarı etibarlı imzası"
 
-#: src/Cryptography/GpgMe++.cpp:442
+#: src/Cryptography/GpgMe++.cpp:440
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature by stranger"
@@ -560,7 +560,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by stranger"
 msgstr "Başqasının yarı etibarlı imzası"
 
-#: src/Cryptography/GpgMe++.cpp:443
+#: src/Cryptography/GpgMe++.cpp:441
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Semi-trusted signature by somebody else: %1 on %2"
@@ -568,7 +568,7 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by somebody else: %1 on %2"
 msgstr "Kimsə başqa birinin yarı etibarlı imzası: %2 üstündə %1"
 
-#: src/Cryptography/GpgMe++.cpp:456
+#: src/Cryptography/GpgMe++.cpp:454
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "The key or at least one certificate has been revoked."
@@ -576,7 +576,7 @@ msgctxt "GpgMePart|"
 msgid "The key or at least one certificate has been revoked."
 msgstr "Açar və ya ən azından bir sertifikat ləğv edildi."
 
-#: src/Cryptography/GpgMe++.cpp:461
+#: src/Cryptography/GpgMe++.cpp:459
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "The key or one of the certificates has expired."
@@ -584,7 +584,7 @@ msgctxt "GpgMePart|"
 msgid "The key or one of the certificates has expired."
 msgstr "Açar və ya sertifikatın vaxtı bitib."
 
-#: src/Cryptography/GpgMe++.cpp:465
+#: src/Cryptography/GpgMe++.cpp:463
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature expired on %1."
@@ -592,7 +592,7 @@ msgctxt "GpgMePart|"
 msgid "Signature expired on %1."
 msgstr "%1 üzərindəki imzanın vaxtı bitib."
 
-#: src/Cryptography/GpgMe++.cpp:470
+#: src/Cryptography/GpgMe++.cpp:468
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Can't verify due to a missing key or certificate."
@@ -600,7 +600,7 @@ msgctxt "GpgMePart|"
 msgid "Can't verify due to a missing key or certificate."
 msgstr "Açar və sertifikat olmadığından doğrulana bilmədi."
 
-#: src/Cryptography/GpgMe++.cpp:474
+#: src/Cryptography/GpgMe++.cpp:472
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "The CRL (or an equivalent mechanism) is not available."
@@ -608,7 +608,7 @@ msgctxt "GpgMePart|"
 msgid "The CRL (or an equivalent mechanism) is not available."
 msgstr "CRL (və ya buna bərabər mexanizm) əlçatan deyil."
 
-#: src/Cryptography/GpgMe++.cpp:478
+#: src/Cryptography/GpgMe++.cpp:476
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Available CRL is too old."
@@ -616,7 +616,7 @@ msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
 msgstr "Mövcud CRL çox köhnədir."
 
-#: src/Cryptography/GpgMe++.cpp:482
+#: src/Cryptography/GpgMe++.cpp:480
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "A policy requirement was not met."
@@ -624,7 +624,7 @@ msgctxt "GpgMePart|"
 msgid "A policy requirement was not met."
 msgstr "Bu qaydanın tələbi yerinə yetirilmədi."
 
-#: src/Cryptography/GpgMe++.cpp:486
+#: src/Cryptography/GpgMe++.cpp:484
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "A system error occurred. %1"
@@ -632,7 +632,7 @@ msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
 msgstr "Sistem xətası baş verdi. %1"
 
-#: src/Cryptography/GpgMe++.cpp:495
+#: src/Cryptography/GpgMe++.cpp:493
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is undefined."
@@ -640,7 +640,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is undefined."
 msgstr "İmzanın etibarlılığı dəqiq təyin edilməyib"
 
-#: src/Cryptography/GpgMe++.cpp:499
+#: src/Cryptography/GpgMe++.cpp:497
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is never to be trusted."
@@ -648,7 +648,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is never to be trusted."
 msgstr "İmzanın doğruluğuna heç vaxt etibar edilə bilməz"
 
-#: src/Cryptography/GpgMe++.cpp:503
+#: src/Cryptography/GpgMe++.cpp:501
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is marginal."
@@ -656,7 +656,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is marginal."
 msgstr "İmzanın etibarlılığı ən aşağı səviyyədədir."
 
-#: src/Cryptography/GpgMe++.cpp:507
+#: src/Cryptography/GpgMe++.cpp:505
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is full."
@@ -664,7 +664,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is full."
 msgstr "İmzanın etbarlılığı tamdır."
 
-#: src/Cryptography/GpgMe++.cpp:511
+#: src/Cryptography/GpgMe++.cpp:509
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is ultimate."
@@ -672,7 +672,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is ultimate."
 msgstr "İmza tamamilə etibarlıdır."
 
-#: src/Cryptography/GpgMe++.cpp:515
+#: src/Cryptography/GpgMe++.cpp:513
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature validity is unknown."
@@ -680,7 +680,7 @@ msgctxt "GpgMePart|"
 msgid "Signature validity is unknown."
 msgstr "İmzanın doğruluğu naməlumdur."
 
-#: src/Cryptography/GpgMe++.cpp:525
+#: src/Cryptography/GpgMe++.cpp:523
 #, fuzzy
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Trust chain:"
@@ -688,7 +688,7 @@ msgctxt "GpgMePart|"
 msgid "Trust chain:"
 msgstr "Etibarlılıq zənciri:"
 
-#: src/Cryptography/GpgMe++.cpp:531
+#: src/Cryptography/GpgMe++.cpp:529
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "%1(Unavailable)"
@@ -696,7 +696,7 @@ msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
 msgstr "%1(əlçatmaz)"
 
-#: src/Cryptography/GpgMe++.cpp:535
+#: src/Cryptography/GpgMe++.cpp:533
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "%1(self-signed)"
@@ -704,7 +704,7 @@ msgctxt "GpgMePart|"
 msgid "%1(self-signed)"
 msgstr "%1(özü tərəfindən imzalanan)"
 
-#: src/Cryptography/GpgMe++.cpp:544
+#: src/Cryptography/GpgMe++.cpp:542
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Error when retrieving key for the trust chain: %1"
@@ -712,7 +712,7 @@ msgctxt "GpgMePart|"
 msgid "Error when retrieving key for the trust chain: %1"
 msgstr "Etibarlılıq zənciri üçün açarın alınması zamanı xəta: %1"
 
-#: src/Cryptography/GpgMe++.cpp:554
+#: src/Cryptography/GpgMe++.cpp:552
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMePart|"
 #| msgid "Signature invalidity reason: %1"
@@ -720,7 +720,7 @@ msgctxt "GpgMePart|"
 msgid "Signature invalidity reason: %1"
 msgstr "İmzanın yararsızlığının səbəbi: %1"
 
-#: src/Cryptography/GpgMe++.cpp:616
+#: src/Cryptography/GpgMe++.cpp:614
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Malformed Signed Message"
@@ -728,7 +728,7 @@ msgctxt "GpgMeSigned|"
 msgid "Malformed Signed Message"
 msgstr "Yalnış imzalanmış məktub"
 
-#: src/Cryptography/GpgMe++.cpp:617
+#: src/Cryptography/GpgMe++.cpp:615
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Expected 2 parts, but found %1."
@@ -736,7 +736,7 @@ msgctxt "GpgMeSigned|"
 msgid "Expected 2 parts, but found %1."
 msgstr "2 hissə gözlənilirdi, lakin, %1 tapıldı."
 
-#: src/Cryptography/GpgMe++.cpp:621
+#: src/Cryptography/GpgMe++.cpp:619
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Cannot verify signature"
@@ -744,7 +744,7 @@ msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
 msgstr "İmzanı təsdiqləmək olmur"
 
-#: src/Cryptography/GpgMe++.cpp:622
+#: src/Cryptography/GpgMe++.cpp:620
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Failed to initialize GpgME (%1)"
@@ -752,7 +752,7 @@ msgctxt "GpgMeSigned|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr "GpgME (%1) başladıla bilmədi"
 
-#: src/Cryptography/GpgMe++.cpp:642
+#: src/Cryptography/GpgMe++.cpp:640
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Signed message is gone"
@@ -760,7 +760,7 @@ msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
 msgstr "İmzalanmış məktub itdi"
 
-#: src/Cryptography/GpgMe++.cpp:654
+#: src/Cryptography/GpgMe++.cpp:652
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Data Unavailable"
@@ -768,7 +768,7 @@ msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
 msgstr "Məlumatlar əlçatmazdır"
 
-#: src/Cryptography/GpgMe++.cpp:655
+#: src/Cryptography/GpgMe++.cpp:653
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid ""
@@ -780,7 +780,7 @@ msgstr ""
 "Bəzi verilənlər mövcud deyil, buna şəbəkə bağlantısının kəsilməsi səbəb ola "
 "bilər"
 
-#: src/Cryptography/GpgMe++.cpp:675
+#: src/Cryptography/GpgMe++.cpp:673
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Verifying signature..."
@@ -788,7 +788,7 @@ msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
 msgstr "İmza doğrulanır..."
 
-#: src/Cryptography/GpgMe++.cpp:700
+#: src/Cryptography/GpgMe++.cpp:698
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "No signatures in the signed message"
@@ -796,7 +796,7 @@ msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
 msgstr "İmzalanmış məktubda imza yoxdur"
 
-#: src/Cryptography/GpgMe++.cpp:740 src/Cryptography/GpgMe++.cpp:814
+#: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Malformed Encrypted Message"
@@ -804,7 +804,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
 msgstr "Qüsurlu şifrələnmiş məktub"
 
-#: src/Cryptography/GpgMe++.cpp:741
+#: src/Cryptography/GpgMe++.cpp:739
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
@@ -813,7 +813,7 @@ msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
 msgstr ""
 "Şifrələnmiş OpenPGP mesajı üçün 2 hissə gözlənilirdi, lakin% %1 tapıldı."
 
-#: src/Cryptography/GpgMe++.cpp:766
+#: src/Cryptography/GpgMe++.cpp:764
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Cannot descrypt"
@@ -821,7 +821,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Cannot descrypt"
 msgstr "Şifrəni açmaq olmur"
 
-#: src/Cryptography/GpgMe++.cpp:767
+#: src/Cryptography/GpgMe++.cpp:765
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Failed to initialize GpgME (%1)"
@@ -829,7 +829,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr "GpgME (%1) başladıla bilmədi"
 
-#: src/Cryptography/GpgMe++.cpp:787 src/Cryptography/GpgMe++.cpp:923
+#: src/Cryptography/GpgMe++.cpp:785 src/Cryptography/GpgMe++.cpp:921
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted message is gone"
@@ -837,7 +837,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
 msgstr "Şifrələnmiş məktub itirildi"
 
-#: src/Cryptography/GpgMe++.cpp:797
+#: src/Cryptography/GpgMe++.cpp:795
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeSigned|"
 #| msgid "Data Unavailable"
@@ -845,7 +845,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
 msgstr "Məlumatlar əlçatmazdır"
 
-#: src/Cryptography/GpgMe++.cpp:798
+#: src/Cryptography/GpgMe++.cpp:796
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid ""
@@ -859,7 +859,7 @@ msgstr ""
 "Şifrə açıla bilmir. Bəzi verilənlər əlçatan deyil, buna şəbəkə bağlantısının "
 "kəsilməsi səbəb ola bilər."
 
-#: src/Cryptography/GpgMe++.cpp:815
+#: src/Cryptography/GpgMe++.cpp:813
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
@@ -868,7 +868,7 @@ msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
 msgstr ""
 "Dəstəklənməyən PGP/MİME versiyası. Gözlənilən \"Versiya: 1\", alındı \"%1\""
 
-#: src/Cryptography/GpgMe++.cpp:821
+#: src/Cryptography/GpgMe++.cpp:819
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Decrypting..."
@@ -876,7 +876,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
 msgstr "Şifrəsi açılır..."
 
-#: src/Cryptography/GpgMe++.cpp:864
+#: src/Cryptography/GpgMe++.cpp:862
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Broken encrypted message"
@@ -884,7 +884,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
 msgstr "Pozulmuş şifrəli məktub"
 
-#: src/Cryptography/GpgMe++.cpp:867
+#: src/Cryptography/GpgMe++.cpp:865
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Decryption error: %1"
@@ -892,7 +892,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Decryption error: %1"
 msgstr "Deşifrə xətası: %1"
 
-#: src/Cryptography/GpgMe++.cpp:870
+#: src/Cryptography/GpgMe++.cpp:868
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted message"
@@ -900,7 +900,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
 msgstr "Şifrələnmiş məktub"
 
-#: src/Cryptography/GpgMe++.cpp:876
+#: src/Cryptography/GpgMe++.cpp:874
 #, fuzzy
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Wrong key usage, not for encryption"
@@ -908,7 +908,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Wrong key usage, not for encryption"
 msgstr "Şifrələmə üçün olmayan səhv açardan istifadə olunub"
 
-#: src/Cryptography/GpgMe++.cpp:880
+#: src/Cryptography/GpgMe++.cpp:878
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Unsupported algorithm: %1"
@@ -916,7 +916,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
 msgstr "Dəstəklənməyən alqoritm: %1"
 
-#: src/Cryptography/GpgMe++.cpp:888
+#: src/Cryptography/GpgMe++.cpp:886
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Cannot extract recipient %1: %2"
@@ -924,7 +924,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Cannot extract recipient %1: %2"
 msgstr "%1 alıcısını çıxartmaq mümkün olmadı: %2"
 
-#: src/Cryptography/GpgMe++.cpp:893
+#: src/Cryptography/GpgMe++.cpp:891
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted to %1 (%2)"
@@ -932,7 +932,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
 msgstr "%1-ə/a şifrələnib (%2)"
 
-#: src/Cryptography/GpgMe++.cpp:897
+#: src/Cryptography/GpgMe++.cpp:895
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Encrypted to %1"
@@ -940,7 +940,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
 msgstr "%1-ə/a şifrələnib"
 
-#: src/Cryptography/GpgMe++.cpp:903
+#: src/Cryptography/GpgMe++.cpp:901
 #, fuzzy, qt-format
 #| msgctxt "Cryptography::GpgMeEncrypted|"
 #| msgid "Original filename: %1"
@@ -4434,12 +4434,12 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
 msgstr "[%1 yüklənir: %2...]"
 
-#: src/Imap/Model/Model.cpp:1070
+#: src/Imap/Model/Model.cpp:1088
 msgctxt "Imap::Mailbox::Model|"
 msgid "Going offline"
 msgstr "Oflayn rejimə keçilir"
 
-#: src/Imap/Model/Model.cpp:1144
+#: src/Imap/Model/Model.cpp:1162
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
@@ -4448,7 +4448,7 @@ msgstr ""
 "<p>Bu göstəriri ki, siz POP3 serverinə qoşulursunuz. Bu, burada "
 "işləməyəcəkdir.</p>"
 
-#: src/Imap/Model/Model.cpp:1146
+#: src/Imap/Model/Model.cpp:1164
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
@@ -4457,7 +4457,7 @@ msgstr ""
 "<p>Bu göztəriri ki, siz SMTP serverinə qoşulursunuz. Bu, burada "
 "işləməyəcəkdir</p>"
 
-#: src/Imap/Model/Model.cpp:1148
+#: src/Imap/Model/Model.cpp:1166
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -4469,7 +4469,7 @@ msgstr ""
 "üçün ayarları yoxlayın. Ənənəvi İMAP portu 143 və ya 993-dür.</p><p>Serverin "
 "cavabı:</p><pre>%2</pre>"
 
-#: src/Imap/Model/Model.cpp:1155
+#: src/Imap/Model/Model.cpp:1173
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -4485,12 +4485,12 @@ msgstr ""
 "Ətraflı burada:</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 
-#: src/Imap/Model/Model.cpp:1213
+#: src/Imap/Model/Model.cpp:1231
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
 msgstr "İMAP4 serveri ilə əlaqə yoxdur"
 
-#: src/Imap/Model/Model.cpp:1468
+#: src/Imap/Model/Model.cpp:1486
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr "Bağlantı, bilinməyən bir səsbəbdən sona çatdı"

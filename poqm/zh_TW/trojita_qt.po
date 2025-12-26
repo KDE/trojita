@@ -256,7 +256,7 @@ msgctxt "Cryptography::GpgMePart|"
 msgid "[getAuditLog failed: %1]"
 msgstr "登入失敗：%1"
 
-#: src/Cryptography/GpgMe++.cpp:170
+#: src/Cryptography/GpgMe++.cpp:168
 #, fuzzy
 #| msgctxt "QObject|"
 #| msgid "Waiting for encryption..."
@@ -264,7 +264,7 @@ msgctxt "GpgMePart|"
 msgid "Waiting for data..."
 msgstr "等待加密中..."
 
-#: src/Cryptography/GpgMe++.cpp:313
+#: src/Cryptography/GpgMe++.cpp:311
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -272,7 +272,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:313
+#: src/Cryptography/GpgMe++.cpp:311
 #, fuzzy
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -280,7 +280,7 @@ msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:314
+#: src/Cryptography/GpgMe++.cpp:312
 #, qt-format
 msgctxt "GpgMePart|"
 msgid ""
@@ -289,18 +289,18 @@ msgid ""
 "might not have been tampered with."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:325
+#: src/Cryptography/GpgMe++.cpp:323
 msgctxt "GpgMePart|"
 msgid "Internal error"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:326
+#: src/Cryptography/GpgMe++.cpp:324
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:376
+#: src/Cryptography/GpgMe++.cpp:374
 #, fuzzy
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -308,7 +308,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
 msgstr "信件"
 
-#: src/Cryptography/GpgMe++.cpp:376
+#: src/Cryptography/GpgMe++.cpp:374
 #, fuzzy
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -316,13 +316,13 @@ msgctxt "GpgMePart|"
 msgid "Verified signature"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:377
+#: src/Cryptography/GpgMe++.cpp:375
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:382
+#: src/Cryptography/GpgMe++.cpp:380
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -330,7 +330,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:382
+#: src/Cryptography/GpgMe++.cpp:380
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -338,7 +338,7 @@ msgctxt "GpgMePart|"
 msgid "Signed by stranger"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:383
+#: src/Cryptography/GpgMe++.cpp:381
 #, qt-format
 msgctxt "GpgMePart|"
 msgid ""
@@ -347,7 +347,7 @@ msgid ""
 "Signature was made on %2."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:390
+#: src/Cryptography/GpgMe++.cpp:388
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -355,7 +355,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:390
+#: src/Cryptography/GpgMe++.cpp:388
 #, fuzzy
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -363,7 +363,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:393
+#: src/Cryptography/GpgMe++.cpp:391
 #, fuzzy, qt-format
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -371,7 +371,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:394
+#: src/Cryptography/GpgMe++.cpp:392
 #, fuzzy, qt-format
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -379,7 +379,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:396
+#: src/Cryptography/GpgMe++.cpp:394
 #, fuzzy, qt-format
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -387,7 +387,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:399
+#: src/Cryptography/GpgMe++.cpp:397
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -395,7 +395,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:399
+#: src/Cryptography/GpgMe++.cpp:397
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -403,7 +403,7 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:402
+#: src/Cryptography/GpgMe++.cpp:400
 #, fuzzy, qt-format
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -411,7 +411,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:403
+#: src/Cryptography/GpgMe++.cpp:401
 #, fuzzy, qt-format
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -419,13 +419,13 @@ msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:405
+#: src/Cryptography/GpgMe++.cpp:403
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by someone else: %1 on %2."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:421
+#: src/Cryptography/GpgMe++.cpp:419
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -433,7 +433,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:421
+#: src/Cryptography/GpgMe++.cpp:419
 #, fuzzy
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -441,13 +441,13 @@ msgctxt "GpgMePart|"
 msgid "Some signature"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:422
+#: src/Cryptography/GpgMe++.cpp:420
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature from %1 on %2"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:426
+#: src/Cryptography/GpgMe++.cpp:424
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -455,7 +455,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:426
+#: src/Cryptography/GpgMe++.cpp:424
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -463,13 +463,13 @@ msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:427
+#: src/Cryptography/GpgMe++.cpp:425
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature by somebody else: %1 on %2"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:435
+#: src/Cryptography/GpgMe++.cpp:433
 #, fuzzy
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -477,7 +477,7 @@ msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
 msgstr "信件"
 
-#: src/Cryptography/GpgMe++.cpp:435
+#: src/Cryptography/GpgMe++.cpp:433
 #, fuzzy
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -485,18 +485,18 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:436
+#: src/Cryptography/GpgMe++.cpp:434
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature from %1 on %2"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:441
+#: src/Cryptography/GpgMe++.cpp:439
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature by stranger"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:442
+#: src/Cryptography/GpgMe++.cpp:440
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -504,90 +504,90 @@ msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by stranger"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:443
+#: src/Cryptography/GpgMe++.cpp:441
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by somebody else: %1 on %2"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:456
+#: src/Cryptography/GpgMe++.cpp:454
 msgctxt "GpgMePart|"
 msgid "The key or at least one certificate has been revoked."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:461
+#: src/Cryptography/GpgMe++.cpp:459
 msgctxt "GpgMePart|"
 msgid "The key or one of the certificates has expired."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:465
+#: src/Cryptography/GpgMe++.cpp:463
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Signature expired on %1."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:470
+#: src/Cryptography/GpgMe++.cpp:468
 msgctxt "GpgMePart|"
 msgid "Can't verify due to a missing key or certificate."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:474
+#: src/Cryptography/GpgMe++.cpp:472
 msgctxt "GpgMePart|"
 msgid "The CRL (or an equivalent mechanism) is not available."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:478
+#: src/Cryptography/GpgMe++.cpp:476
 msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:482
+#: src/Cryptography/GpgMe++.cpp:480
 msgctxt "GpgMePart|"
 msgid "A policy requirement was not met."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:486
+#: src/Cryptography/GpgMe++.cpp:484
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:495
+#: src/Cryptography/GpgMe++.cpp:493
 msgctxt "GpgMePart|"
 msgid "Signature validity is undefined."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:499
+#: src/Cryptography/GpgMe++.cpp:497
 msgctxt "GpgMePart|"
 msgid "Signature validity is never to be trusted."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:503
+#: src/Cryptography/GpgMe++.cpp:501
 msgctxt "GpgMePart|"
 msgid "Signature validity is marginal."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:507
+#: src/Cryptography/GpgMe++.cpp:505
 msgctxt "GpgMePart|"
 msgid "Signature validity is full."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:511
+#: src/Cryptography/GpgMe++.cpp:509
 msgctxt "GpgMePart|"
 msgid "Signature validity is ultimate."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:515
+#: src/Cryptography/GpgMe++.cpp:513
 msgctxt "GpgMePart|"
 msgid "Signature validity is unknown."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:525
+#: src/Cryptography/GpgMe++.cpp:523
 msgctxt "GpgMePart|"
 msgid "Trust chain:"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:531
+#: src/Cryptography/GpgMe++.cpp:529
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::MessageComposer|"
 #| msgid "Attachment %1 is not available"
@@ -595,25 +595,25 @@ msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
 msgstr "附件 %1 無法取得"
 
-#: src/Cryptography/GpgMe++.cpp:535
+#: src/Cryptography/GpgMe++.cpp:533
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(self-signed)"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:544
+#: src/Cryptography/GpgMe++.cpp:542
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when retrieving key for the trust chain: %1"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:554
+#: src/Cryptography/GpgMe++.cpp:552
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Signature invalidity reason: %1"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:616
+#: src/Cryptography/GpgMe++.cpp:614
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -621,13 +621,13 @@ msgctxt "GpgMeSigned|"
 msgid "Malformed Signed Message"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:617
+#: src/Cryptography/GpgMe++.cpp:615
 #, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Expected 2 parts, but found %1."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:621
+#: src/Cryptography/GpgMe++.cpp:619
 #, fuzzy
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -635,13 +635,13 @@ msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:622
+#: src/Cryptography/GpgMe++.cpp:620
 #, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:642
+#: src/Cryptography/GpgMe++.cpp:640
 #, fuzzy
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -649,7 +649,7 @@ msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
 msgstr "信件"
 
-#: src/Cryptography/GpgMe++.cpp:654
+#: src/Cryptography/GpgMe++.cpp:652
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MessageComposer|"
 #| msgid "Attachment %1 is not available"
@@ -657,13 +657,13 @@ msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
 msgstr "附件 %1 無法取得"
 
-#: src/Cryptography/GpgMe++.cpp:655
+#: src/Cryptography/GpgMe++.cpp:653
 msgctxt "GpgMeSigned|"
 msgid ""
 "Some data are not available, perhaps due to an offline network connection"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:675
+#: src/Cryptography/GpgMe++.cpp:673
 #, fuzzy
 #| msgctxt "Composer::SenderIdentitiesModel|"
 #| msgid "Signature"
@@ -671,7 +671,7 @@ msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
 msgstr "簽名"
 
-#: src/Cryptography/GpgMe++.cpp:700
+#: src/Cryptography/GpgMe++.cpp:698
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -679,7 +679,7 @@ msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:740 src/Cryptography/GpgMe++.cpp:814
+#: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -687,13 +687,13 @@ msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:741
+#: src/Cryptography/GpgMe++.cpp:739
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:766
+#: src/Cryptography/GpgMe++.cpp:764
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Can't create mailbox"
@@ -701,13 +701,13 @@ msgctxt "GpgMeEncrypted|"
 msgid "Cannot descrypt"
 msgstr "無法建立信箱檔"
 
-#: src/Cryptography/GpgMe++.cpp:767
+#: src/Cryptography/GpgMe++.cpp:765
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Failed to initialize GpgME (%1)"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:787 src/Cryptography/GpgMe++.cpp:923
+#: src/Cryptography/GpgMe++.cpp:785 src/Cryptography/GpgMe++.cpp:921
 #, fuzzy
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -715,7 +715,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
 msgstr "信件"
 
-#: src/Cryptography/GpgMe++.cpp:797
+#: src/Cryptography/GpgMe++.cpp:795
 #, fuzzy
 #| msgctxt "Imap::Mailbox::MessageComposer|"
 #| msgid "Attachment %1 is not available"
@@ -723,20 +723,20 @@ msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
 msgstr "附件 %1 無法取得"
 
-#: src/Cryptography/GpgMe++.cpp:798
+#: src/Cryptography/GpgMe++.cpp:796
 msgctxt "GpgMeEncrypted|"
 msgid ""
 "Cannot decrypt. Some data are not available, perhaps due to an offline "
 "network connection."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:815
+#: src/Cryptography/GpgMe++.cpp:813
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:821
+#: src/Cryptography/GpgMe++.cpp:819
 #, fuzzy
 #| msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 #| msgid "Loading..."
@@ -744,7 +744,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
 msgstr "載入中..."
 
-#: src/Cryptography/GpgMe++.cpp:864
+#: src/Cryptography/GpgMe++.cpp:862
 #, fuzzy
 #| msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 #| msgid "Removing deleted messages"
@@ -752,13 +752,13 @@ msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
 msgstr "移除刪除的信件中"
 
-#: src/Cryptography/GpgMe++.cpp:867
+#: src/Cryptography/GpgMe++.cpp:865
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Decryption error: %1"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:870
+#: src/Cryptography/GpgMe++.cpp:868
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -766,12 +766,12 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
 msgstr "已簽署信件"
 
-#: src/Cryptography/GpgMe++.cpp:876
+#: src/Cryptography/GpgMe++.cpp:874
 msgctxt "GpgMeEncrypted|"
 msgid "Wrong key usage, not for encryption"
 msgstr ""
 
-#: src/Cryptography/GpgMe++.cpp:880
+#: src/Cryptography/GpgMe++.cpp:878
 #, fuzzy, qt-format
 #| msgctxt "MSA::AbstractMSA|"
 #| msgid "BURL is not supported by %1"
@@ -779,7 +779,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
 msgstr "%1 不支援 BURL"
 
-#: src/Cryptography/GpgMe++.cpp:888
+#: src/Cryptography/GpgMe++.cpp:886
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -791,7 +791,7 @@ msgstr ""
 "無法剖析收件者：\n"
 "%1"
 
-#: src/Cryptography/GpgMe++.cpp:893
+#: src/Cryptography/GpgMe++.cpp:891
 #, fuzzy, qt-format
 #| msgctxt "Imap::SslTlsSocket|"
 #| msgid "Negotiating encryption..."
@@ -799,7 +799,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
 msgstr "協調加密中..."
 
-#: src/Cryptography/GpgMe++.cpp:897
+#: src/Cryptography/GpgMe++.cpp:895
 #, fuzzy, qt-format
 #| msgctxt "Imap::SslTlsSocket|"
 #| msgid "Negotiating encryption..."
@@ -807,7 +807,7 @@ msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
 msgstr "協調加密中..."
 
-#: src/Cryptography/GpgMe++.cpp:903
+#: src/Cryptography/GpgMe++.cpp:901
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::OpenConnectionTask|"
 #| msgid "Login failed: %1"
@@ -4439,26 +4439,26 @@ msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
 msgstr "[載入 %1 中: %2...]"
 
-#: src/Imap/Model/Model.cpp:1070
+#: src/Imap/Model/Model.cpp:1088
 msgctxt "Imap::Mailbox::Model|"
 msgid "Going offline"
 msgstr ""
 
-#: src/Imap/Model/Model.cpp:1144
+#: src/Imap/Model/Model.cpp:1162
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
 "</p>"
 msgstr ""
 
-#: src/Imap/Model/Model.cpp:1146
+#: src/Imap/Model/Model.cpp:1164
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
 "here.</p>"
 msgstr ""
 
-#: src/Imap/Model/Model.cpp:1148
+#: src/Imap/Model/Model.cpp:1166
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -4467,7 +4467,7 @@ msgid ""
 "is 143 or 993.</p><p>The server said:</p><pre>%2</pre>"
 msgstr ""
 
-#: src/Imap/Model/Model.cpp:1155
+#: src/Imap/Model/Model.cpp:1173
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::Model|"
 #| msgid ""
@@ -4489,12 +4489,12 @@ msgstr ""
 "p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 
-#: src/Imap/Model/Model.cpp:1213
+#: src/Imap/Model/Model.cpp:1231
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
 msgstr "並非與 IMAP4 伺服器通訊"
 
-#: src/Imap/Model/Model.cpp:1468
+#: src/Imap/Model/Model.cpp:1486
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
 msgstr ""
