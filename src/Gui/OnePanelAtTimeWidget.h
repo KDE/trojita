@@ -44,13 +44,8 @@ class OnePanelAtTimeWidget: public QStackedWidget
 {
     Q_OBJECT
 public:
-#ifdef TROJITA_HAVE_WEBKIT
-    OnePanelAtTimeWidget(QMainWindow *mainWindow, MailBoxTreeView *mboxTree, MessageListWidget *msgListWidget,
-                         CompleteMessageWidget *messageWidget, QToolBar *toolbar, QAction* toolbarActions);
-#else
    OnePanelAtTimeWidget(QMainWindow *mainWindow, MailBoxTreeView *mboxTree, MessageListWidget *msgListWidget,
-                        QLabel *messageWidget, QToolBar *toolbar, QAction* toolbarActions);
-#endif
+                        QWidget *messageWidget, QToolBar *toolbar, QAction* toolbarActions);
     ~OnePanelAtTimeWidget() override;
 
 public slots:
@@ -61,12 +56,7 @@ private:
     QMainWindow *m_mainWindow;
     MailBoxTreeView *m_mboxTree;
     MessageListWidget *m_msgListWidget;
-#ifdef TROJITA_HAVE_WEBKIT
-    CompleteMessageWidget *m_messageWidget;
-#else
-    QLabel *m_messageWidget;
-#endif
-
+    QWidget *m_messageWidget;
 
     QPointer<QToolBar> m_toolbar;
     QPointer<QAction> m_actionGoBack;

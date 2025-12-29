@@ -31,13 +31,8 @@
 #include "MsgListView.h"
 
 namespace Gui {
-#ifdef TROJITA_HAVE_WEBKIT
 OnePanelAtTimeWidget::OnePanelAtTimeWidget(QMainWindow *mainWindow, MailBoxTreeView *mboxTree, MessageListWidget *msgListWidget,
-                                           CompleteMessageWidget *messageWidget, QToolBar *toolbar, QAction *actionGoBack):
-#else
-OnePanelAtTimeWidget::OnePanelAtTimeWidget(QMainWindow *mainWindow, MailBoxTreeView *mboxTree, MessageListWidget *msgListWidget,
-                                           QLabel *messageWidget, QToolBar *toolbar, QAction *actionGoBack):
-#endif
+                                           QWidget *messageWidget, QToolBar *toolbar, QAction *actionGoBack):
     QStackedWidget(mainWindow), m_mainWindow(mainWindow), m_mboxTree(mboxTree), m_msgListWidget(msgListWidget),
     m_messageWidget(messageWidget), m_toolbar(toolbar), m_actionGoBack(actionGoBack)
 {
