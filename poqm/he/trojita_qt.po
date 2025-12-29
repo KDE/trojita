@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-12-26 17:59+0200\n"
+"PO-Revision-Date: 2025-12-27 15:09+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -1498,6 +1498,8 @@ msgid "+ %n additional item(s)"
 msgid_plural "+ %n additional item(s)"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Gui/MsgListView.cpp:336
 msgctxt "Gui::MsgListView|"
@@ -1624,6 +1626,8 @@ msgid_plural ""
 "this widget was hidden.</i></p>"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Gui/ProtocolLoggerWidget.cpp:211
 #, qt-format
@@ -1636,6 +1640,8 @@ msgid_plural ""
 "span>"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -2589,6 +2595,8 @@ msgid "%n ongoing actions"
 msgid_plural "%n ongoing actions"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Gui/TaskProgressIndicator.cpp:86
 msgctxt "Gui::TaskProgressIndicator|"
@@ -3157,6 +3165,8 @@ msgid "Attempting to reconnect in %n seconds.."
 msgid_plural "Attempting to reconnect in %n seconds.."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Gui/Window.cpp:999
 msgctxt "Gui::MainWindow|"
@@ -3171,6 +3181,8 @@ msgid " - %n unread message(s)"
 msgid_plural " - %n unread message(s)"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
 #: src/Gui/Window.cpp:1117
@@ -3491,6 +3503,8 @@ msgid "%1 - %n unread - Trojitá"
 msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Gui/Window.cpp:2570
 #, qt-format
@@ -3806,6 +3820,8 @@ msgid "Attempting to reconnect in %n secs"
 msgid_plural "Attempting to reconnect in %n secs"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -3826,6 +3842,8 @@ msgid "%n messages"
 msgid_plural "%n messages"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:120
 #, qt-format
@@ -3834,6 +3852,8 @@ msgid "%n unread"
 msgid_plural "%n unread"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
 #, qt-format
@@ -3842,6 +3862,8 @@ msgid "%n recent"
 msgid_plural "%n recent"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/Imap/Model/PrettyMsgListModel.cpp:108
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
@@ -4659,7 +4681,7 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Login failed: %1"
-msgstr ""
+msgstr "הכניסה נכשלה: %1"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:329
 #, qt-format
@@ -4874,7 +4896,7 @@ msgstr ""
 #: src/MSA/SMTP.cpp:139
 msgctxt "MSA::SMTP|"
 msgid "Unknown SMTP mode"
-msgstr ""
+msgstr "מצב SMTP לא ידוע"
 
 #. Translators: BE::Contacts is the name of a stand-alone address book application. BE refers to Bose/Einstein (condensate).
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:151
@@ -4885,232 +4907,232 @@ msgstr ""
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:398
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
 msgid "Addressbook in ~/.abook/"
-msgstr ""
+msgstr "פנקס כתובות ב־‎~/.abook/‎"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:82
 msgctxt "BE::Contacts|"
 msgid "Filter"
-msgstr ""
+msgstr "מסנן"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:162
 msgctxt "BE::Contacts|"
 msgid "Contacts"
-msgstr ""
+msgstr "אנשי קשר"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:162
 msgctxt "BE::Contacts|"
 msgid "Save changes?"
-msgstr ""
+msgstr "לשמור את השינויים?"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:276
 msgctxt "BE::Contacts|"
 msgid "[New Contact]"
-msgstr ""
+msgstr "[איש קשר חדש]"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:457
 msgctxt "BE::Contacts|"
 msgid "[name]"
-msgstr ""
+msgstr "[שם]"
 
 #: src/Plugins/AbookAddressbook/be-contacts.ui:14
 msgctxt "Contacts|"
 msgid "Contacts"
-msgstr ""
+msgstr "אנשי קשר"
 
 #: src/Plugins/AbookAddressbook/be-contacts.ui:48
 msgctxt "Contacts|"
 msgid "Delete"
-msgstr ""
+msgstr "מחיקה"
 
 #: src/Plugins/AbookAddressbook/be-contacts.ui:58
 msgctxt "Contacts|"
 msgid "Add"
-msgstr ""
+msgstr "הוספה"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:31
 msgctxt "OneContact|"
 msgid "name"
-msgstr ""
+msgstr "שם"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:50
 msgctxt "OneContact|"
 msgid "<Mail>"
-msgstr ""
+msgstr "<דוא״ל>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:69
 msgctxt "OneContact|"
 msgid "<Internet>"
-msgstr ""
+msgstr "<אינטרנט>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:84
 msgctxt "OneContact|"
 msgid "Address"
-msgstr ""
+msgstr "כתובת"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:105
 msgctxt "OneContact|"
 msgid "<country>"
-msgstr ""
+msgstr "<ארץ>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:124
 msgctxt "OneContact|"
 msgid "<state>"
-msgstr ""
+msgstr "<מדינה>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:149
 msgctxt "OneContact|"
 msgid "<city>"
-msgstr ""
+msgstr "<עיר>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:168
 msgctxt "OneContact|"
 msgid "<zip>"
-msgstr ""
+msgstr "<מיקוד>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:187
 msgctxt "OneContact|"
 msgid "<address>"
-msgstr ""
+msgstr "<כתובת>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:203
 msgctxt "OneContact|"
 msgid "Phone"
-msgstr ""
+msgstr "טלפון"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:212
 msgctxt "OneContact|"
 msgid "Office"
-msgstr ""
+msgstr "משרד"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:234
 msgctxt "OneContact|"
 msgid "workphone"
-msgstr ""
+msgstr "טלפון בעבודה"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:247
 msgctxt "OneContact|"
 msgid "Mobile"
-msgstr ""
+msgstr "נייד"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:269
 msgctxt "OneContact|"
 msgid "mobile"
-msgstr ""
+msgstr "נייד"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:282
 msgctxt "OneContact|"
 msgid "Home"
-msgstr ""
+msgstr "בית"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:304
 msgctxt "OneContact|"
 msgid "phone"
-msgstr ""
+msgstr "טלפון"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:317
 msgctxt "OneContact|"
 msgid "Fax"
-msgstr ""
+msgstr "פקס"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:339
 msgctxt "OneContact|"
 msgid "fax"
-msgstr ""
+msgstr "פקס"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:355
 msgctxt "OneContact|"
 msgid "Notes"
-msgstr ""
+msgstr "הערות"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:364
 msgctxt "OneContact|"
 msgid "Nick"
-msgstr ""
+msgstr "כינוי"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:383
 msgctxt "OneContact|"
 msgid "<nick>"
-msgstr ""
+msgstr "<כינוי>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:396
 msgctxt "OneContact|"
 msgid "Anniversary"
-msgstr ""
+msgstr "יום שנה"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:415
 msgctxt "OneContact|"
 msgid "<anniversary>"
-msgstr ""
+msgstr "<יום שנה>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:428
 msgctxt "OneContact|"
 msgid "Custom notes"
-msgstr ""
+msgstr "הערות בהתאמה אישית"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:447
 msgctxt "OneContact|"
 msgid "notes"
-msgstr ""
+msgstr "הערות"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:482
 msgctxt "OneContact|"
 msgid "Photo"
-msgstr ""
+msgstr "תמונה"
 
 #: src/Plugins/AkonadiAddressbook/AkonadiAddressbook.cpp:67
 msgctxt "trojita_plugin_AkonadiAddressbookPlugin|"
 msgid "KDE Addressbook (Akonadi)"
-msgstr ""
+msgstr "פנקס הכתובות של KDE ‏(Akonadi)"
 
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:51
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:67
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:79
 msgctxt "ClearTextPasswordJob|"
 msgid "This plugin only supports storing of IMAP and SMTP passwords"
-msgstr ""
+msgstr "התוסף הזה תומך באחסון של סיסמאות IMAP ו־SMTP בלבד"
 
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:123
 msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
 msgid "Trojitá's settings"
-msgstr ""
+msgstr "ההגדרות של Trojitá"
 
 #: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:129
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
 msgid "Secure storage via QtKeychain"
-msgstr ""
+msgstr "אחסון מאובטח עם QtKeychain"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr ""
+msgstr "Sonnet"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
 msgid "Unsupported or unknown authentication scheme"
-msgstr ""
+msgstr "סכמת האימות לא נתמכת או לא מוכרת"
 
 #: src/Streams/IODeviceSocket.cpp:178
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid "Disconnected: %1"
-msgstr ""
+msgstr "מנותק: %1"
 
 #: src/Streams/IODeviceSocket.cpp:192
 msgctxt "Streams::ProcessSocket|"
 msgid "The process has started"
-msgstr ""
+msgstr "התהליך החל"
 
 #: src/Streams/IODeviceSocket.cpp:195
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid "Starting process `%1 %2`"
-msgstr ""
+msgstr "התהליך `%1 %2` עולה"
 
 #: src/Streams/IODeviceSocket.cpp:202
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid "The process has exited with return code %1."
-msgstr ""
+msgstr "התהליך הסתיים והחזיר את הקוד %1."
 
 #: src/Streams/IODeviceSocket.cpp:205
 #, qt-format
@@ -5120,6 +5142,9 @@ msgid ""
 "\n"
 "%2"
 msgstr ""
+"התהליך הסתיים והחזיר את הקוד %1:\n"
+"\n"
+"%2"
 
 #: src/Streams/IODeviceSocket.cpp:258
 msgctxt "Streams::SslTlsSocket|"
