@@ -1,6 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: l10n\n"
+"POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: lt\n"
@@ -8,9 +9,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.8\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -20,27 +22,29 @@ msgid ""
 "%1\n"
 "(from %2)"
 msgstr ""
+"%1\n"
+"(nuo %2)"
 
 #: src/Composer/ComposerAttachments.cpp:157
 msgctxt "MessageComposer|"
 msgid "File does not exist"
-msgstr ""
+msgstr "Failo nėra"
 
 #: src/Composer/ComposerAttachments.cpp:160
 msgctxt "MessageComposer|"
 msgid "File is not readable"
-msgstr ""
+msgstr "Failas neperskaitomas"
 
 #: src/Composer/ComposerAttachments.cpp:163
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
-msgstr ""
+msgstr "%1: %2, %3"
 
 #: src/Composer/ComposerAttachments.cpp:260
 msgctxt "MessageComposer|"
 msgid "Message not available"
-msgstr ""
+msgstr "Laiškas neprieinamas"
 
 #: src/Composer/ComposerAttachments.cpp:263
 #, qt-format
@@ -49,24 +53,26 @@ msgid ""
 "%1\n"
 "(%2)"
 msgstr ""
+"%1\n"
+"(%2)"
 
 #: src/Composer/ComposerAttachments.cpp:273
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP message %1"
-msgstr ""
+msgstr "IMAP laiškas %1"
 
 #: src/Composer/ComposerAttachments.cpp:384
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP part %1"
-msgstr ""
+msgstr "IMAP dalis %1"
 
 #: src/Composer/ComposerAttachments.cpp:396
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: src/Composer/ExistingMessageComposer.cpp:78
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
@@ -88,22 +94,22 @@ msgstr ""
 #: src/Composer/SenderIdentitiesModel.cpp:94
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Name"
-msgstr ""
+msgstr "Vardas"
 
 #: src/Composer/SenderIdentitiesModel.cpp:96
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "E-mail"
-msgstr ""
+msgstr "El. paštas"
 
 #: src/Composer/SenderIdentitiesModel.cpp:98
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Organization"
-msgstr ""
+msgstr "Organizacija"
 
 #: src/Composer/SenderIdentitiesModel.cpp:100
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Signature"
-msgstr ""
+msgstr "Parašas"
 
 #: src/Composer/Submission.cpp:113
 msgctxt "Submission|"
@@ -190,12 +196,12 @@ msgstr ""
 #, qt-format
 msgctxt "Cryptography::GpgMePart|"
 msgid "[getAuditLog failed: %1]"
-msgstr ""
+msgstr "[getAuditLog patyrė nesėkmę: %1]"
 
 #: src/Cryptography/GpgMe++.cpp:168
 msgctxt "GpgMePart|"
 msgid "Waiting for data..."
-msgstr ""
+msgstr "Laukiama duomenų..."
 
 #: src/Cryptography/GpgMe++.cpp:311
 msgctxt "GpgMePart|"
@@ -579,7 +585,7 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:819
 msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
-msgstr ""
+msgstr "Iššifruojama..."
 
 #: src/Cryptography/GpgMe++.cpp:862
 msgctxt "GpgMeEncrypted|"
@@ -590,12 +596,12 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Decryption error: %1"
-msgstr ""
+msgstr "Iššifravimo klaida: %1"
 
 #: src/Cryptography/GpgMe++.cpp:868
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
-msgstr ""
+msgstr "Šifruotas laiškas"
 
 #: src/Cryptography/GpgMe++.cpp:874
 msgctxt "GpgMeEncrypted|"
@@ -606,7 +612,7 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
-msgstr ""
+msgstr "Nepalaikomas algoritmas: %1"
 
 #: src/Cryptography/GpgMe++.cpp:886
 #, qt-format
@@ -630,17 +636,18 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Original filename: %1"
-msgstr ""
+msgstr "Pradinis failo pavadinimas: %1"
 
 #: src/Gui/AboutDialog.ui:14
 msgctxt "AboutDialog|"
 msgid "About Trojitá"
-msgstr ""
+msgstr "Apie Trojitá"
 
 #: src/Gui/AboutDialog.ui:152
 msgctxt "AboutDialog|"
 msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
 msgstr ""
+"<p>Tai yra <b>Trojitá</b>, greita Qt IMAP el. pašto kliento programa</p>"
 
 #: src/Gui/AddressRowWidget.cpp:130
 #, qt-format
@@ -651,22 +658,22 @@ msgstr ""
 #: src/Gui/AddressRowWidget.cpp:130
 msgctxt "Expander|"
 msgid "Click to collapse"
-msgstr ""
+msgstr "Spustelėkite norėdami suskleisti"
 
 #: src/Gui/AttachmentView.cpp:87
 msgctxt "Gui::AttachmentView|"
 msgid "Download"
-msgstr ""
+msgstr "Atsiųsti"
 
 #: src/Gui/AttachmentView.cpp:88
 msgctxt "Gui::AttachmentView|"
 msgid "Open Directly"
-msgstr ""
+msgstr "Atverti tiesiogiai"
 
 #: src/Gui/AttachmentView.cpp:93
 msgctxt "Gui::AttachmentView|"
 msgid "Show Preview"
-msgstr ""
+msgstr "Rodyti peržiūrą"
 
 #: src/Gui/AttachmentView.cpp:100
 msgctxt "Gui::AttachmentView|"
@@ -683,12 +690,12 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::AttachmentView|"
 msgid "%2, %3"
-msgstr ""
+msgstr "%2, %3"
 
 #: src/Gui/AttachmentView.cpp:238
 msgctxt "Gui::AttachmentView|"
 msgid "Save Attachment"
-msgstr ""
+msgstr "Įrašyti priedą"
 
 #: src/Gui/AttachmentView.cpp:405
 msgctxt "Gui::AttachmentView|"
@@ -703,22 +710,22 @@ msgstr ""
 #: src/Gui/ComposerAttachmentsList.cpp:53
 msgctxt "ComposerAttachmentsList|"
 msgid "Rename..."
-msgstr ""
+msgstr "Pervadinti..."
 
 #: src/Gui/ComposerAttachmentsList.cpp:57
 msgctxt "ComposerAttachmentsList|"
 msgid "Remove"
-msgstr ""
+msgstr "Šalinti"
 
 #: src/Gui/ComposerAttachmentsList.cpp:136
 msgctxt "ComposerAttachmentsList|"
 msgid "Rename Attachment"
-msgstr ""
+msgstr "Pervadinti priedą"
 
 #: src/Gui/ComposerAttachmentsList.cpp:136
 msgctxt "ComposerAttachmentsList|"
 msgid "New Name"
-msgstr ""
+msgstr "Naujas pavadinimas"
 
 #: src/Gui/ComposerTextEdit.cpp:55
 msgctxt "ComposerTextEdit|"
@@ -728,22 +735,22 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel..."
-msgstr ""
+msgstr "Atsisakyti..."
 
 #: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel"
-msgstr ""
+msgstr "Atsisakyti"
 
 #: src/Gui/ComposeWidget.cpp:196
 msgctxt "ComposeWidget|"
 msgid "Send"
-msgstr ""
+msgstr "Siųsti"
 
 #: src/Gui/ComposeWidget.cpp:235
 msgctxt "ComposeWidget|"
 msgid "New Thread"
-msgstr ""
+msgstr "Naujas gija"
 
 #: src/Gui/ComposeWidget.cpp:238
 msgctxt "ComposeWidget|"
@@ -760,7 +767,7 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:359
 msgctxt "ComposeWidget|"
 msgid "Error"
-msgstr ""
+msgstr "Klaida"
 
 #: src/Gui/ComposeWidget.cpp:359
 msgctxt "ComposeWidget|"
@@ -790,7 +797,7 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:567
 msgctxt "ComposeWidget|"
 msgid "Sender"
-msgstr ""
+msgstr "Siuntėjas"
 
 #: src/Gui/ComposeWidget.cpp:573
 #, qt-format
@@ -849,7 +856,7 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:726
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
-msgstr ""
+msgstr "Įrašyti juodraštį?"
 
 #: src/Gui/ComposeWidget.cpp:727
 msgctxt "ComposeWidget|"
@@ -867,17 +874,17 @@ msgstr ""
 #: src/Gui/Window.cpp:1531
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
-msgstr ""
+msgstr "Juodraščiai"
 
 #: src/Gui/ComposeWidget.cpp:750
 msgctxt "ComposeWidget|"
 msgid "Save as"
-msgstr ""
+msgstr "Įrašyti kaip"
 
 #: src/Gui/ComposeWidget.cpp:751
 msgctxt "ComposeWidget|"
 msgid "Drafts"
-msgstr ""
+msgstr "Juodraščiai"
 
 #: src/Gui/ComposeWidget.cpp:780
 #, qt-format
@@ -886,11 +893,13 @@ msgid ""
 "Cannot parse recipients:\n"
 "%1"
 msgstr ""
+"Nepavyksta išnagrinėti gavėjų:\n"
+"%1"
 
 #: src/Gui/ComposeWidget.cpp:784
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
-msgstr ""
+msgstr "Jūs neįvedėte jokių gavėjų"
 
 #: src/Gui/ComposeWidget.cpp:792
 msgctxt "ComposeWidget|"
@@ -957,53 +966,53 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:1616
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
-msgstr ""
+msgstr "Pridėti failą..."
 
 #: src/Gui/ComposeWidget.cpp:1810
 msgctxt "ComposeWidget|"
 msgid "<br/>"
-msgstr ""
+msgstr "<br/>"
 
 #: src/Gui/ComposeWidget.cpp:1853
 msgctxt "ComposeWidget|"
 msgid "Compose Mail"
-msgstr ""
+msgstr "Rašyti laišką"
 
 #: src/Gui/ComposeWidget.cpp:1855
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
-msgstr ""
+msgstr "%1 – Rašyti laišką"
 
 #: src/Gui/ComposeWidget.ui:51
 msgctxt "ComposeWidget|"
 msgid "From"
-msgstr ""
+msgstr "Nuo"
 
 #: src/Gui/ComposeWidget.ui:77
 msgctxt "ComposeWidget|"
 msgid "Subject"
-msgstr ""
+msgstr "Tema"
 
 #: src/Gui/ComposeWidget.ui:121
 msgctxt "ComposeWidget|"
 msgid "Attach..."
-msgstr ""
+msgstr "Pridėti..."
 
 #: src/Gui/CreateMailboxDialog.ui:14
 msgctxt "CreateMailboxDialog|"
 msgid "Create Mailbox"
-msgstr ""
+msgstr "Sukurti pašto dėžutę"
 
 #: src/Gui/CreateMailboxDialog.ui:22
 msgctxt "CreateMailboxDialog|"
 msgid "&Mailbox:"
-msgstr ""
+msgstr "&Pašto dėžutė:"
 
 #: src/Gui/CreateMailboxDialog.ui:39
 msgctxt "CreateMailboxDialog|"
 msgid "Other Mai&lboxes"
-msgstr ""
+msgstr "Kitos pašto &dėžutės"
 
 #: src/Gui/CreateMailboxDialog.ui:46
 msgctxt "CreateMailboxDialog|"
@@ -1029,37 +1038,37 @@ msgstr ""
 #: src/Gui/EditFavoriteTag.ui:29
 msgctxt "EditFavoriteTag|"
 msgid "Name"
-msgstr ""
+msgstr "Pavadinimas"
 
 #: src/Gui/EditFavoriteTag.ui:39
 msgctxt "EditFavoriteTag|"
 msgid "Color"
-msgstr ""
+msgstr "Spalva"
 
 #: src/Gui/EditIdentity.ui:20
 msgctxt "EditIdentity|"
 msgid "Manage Identity"
-msgstr ""
+msgstr "Tvarkyti tapatybę"
 
 #: src/Gui/EditIdentity.ui:29
 msgctxt "EditIdentity|"
 msgid "Real Name"
-msgstr ""
+msgstr "Tikras vardas"
 
 #: src/Gui/EditIdentity.ui:39
 msgctxt "EditIdentity|"
 msgid "E-mail"
-msgstr ""
+msgstr "El. paštas"
 
 #: src/Gui/EditIdentity.ui:52
 msgctxt "EditIdentity|"
 msgid "Organisation"
-msgstr ""
+msgstr "Organizacija"
 
 #: src/Gui/EditIdentity.ui:59
 msgctxt "EditIdentity|"
 msgid "Signature"
-msgstr ""
+msgstr "Parašas"
 
 #: src/Gui/EmbeddedWebView.cpp:100
 msgctxt "Gui::EmbeddedWebView|"
@@ -1135,12 +1144,12 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::EnvelopeView|"
 msgid "<a href=\"%1\">%2</a>"
-msgstr ""
+msgstr "<a href=\"%1\">%2</a>"
 
 #: src/Gui/EnvelopeView.cpp:172
 msgctxt "Gui::EnvelopeView|"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Gui/EnvelopeView.cpp:177
 msgctxt "Gui::EnvelopeView|"
@@ -1155,7 +1164,7 @@ msgstr ""
 #: src/Gui/ExternalElementsWidget.cpp:36
 msgctxt "Gui::ExternalElementsWidget|"
 msgid "This e-mail wants to load external entities from the Internet"
-msgstr ""
+msgstr "Šis el. laiškas nori įkelti išorinį turinį iš interneto"
 
 #: src/Gui/FindBar.cpp:49
 msgctxt "Gui::FindBar|"
@@ -1201,7 +1210,7 @@ msgstr ""
 #: src/Gui/ImapInfoDialog.ui:14
 msgctxt "ImapInfoDialog|"
 msgid "IMAP Server Info"
-msgstr ""
+msgstr "Informacija apie IMAP serverį"
 
 #: src/Gui/ImapInfoDialog.ui:33
 msgctxt "ImapInfoDialog|"
@@ -1212,7 +1221,7 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::LoadablePartWidget|"
 msgid "Load %1 (%2)"
-msgstr ""
+msgstr "Įkelti %1 (%2)"
 
 #: src/Gui/MailBoxTreeView.cpp:143
 msgctxt "MailBoxTreeView|"
@@ -1227,18 +1236,18 @@ msgstr ""
 #: src/Gui/MailBoxTreeView.cpp:145
 msgctxt "MailBoxTreeView|"
 msgid "Cancel"
-msgstr ""
+msgstr "Atsisakyti"
 
 #: src/Gui/main.cpp:60
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
-msgstr ""
+msgstr "Trojitá %1 – greita Qt IMAP el. pašto kliento programa"
 
 #: src/Gui/main.cpp:65
 msgctxt "QObject|"
 msgid "Show addressbook window."
-msgstr ""
+msgstr "Rodyti adresų knygos langą."
 
 #: src/Gui/main.cpp:69
 msgctxt "QObject|"
@@ -1576,22 +1585,22 @@ msgstr ""
 #: src/Gui/PartWidget.cpp:211 src/Gui/PartWidget.cpp:256
 msgctxt "Gui::PartStatusWidget|"
 msgid "Show Details"
-msgstr ""
+msgstr "Rodyti išsamesnę informaciją"
 
 #: src/Gui/PartWidget.cpp:260
 msgctxt "Gui::PartStatusWidget|"
 msgid "Hide Details"
-msgstr ""
+msgstr "Slėpti išsamesnę informaciją"
 
 #: src/Gui/PartWidget.cpp:386
 msgctxt "Gui::MultipartSignedEncryptedWidget|"
 msgid "[Encrypted message]"
-msgstr ""
+msgstr "[Šifruotas laiškas]"
 
 #: src/Gui/PasswordDialog.ui:14
 msgctxt "PasswordDialog|"
 msgid "Authentication Required"
-msgstr ""
+msgstr "Reikia nustatyti tapatybę"
 
 #: src/Gui/PasswordDialog.ui:28
 #, qt-format
@@ -1646,7 +1655,7 @@ msgstr ""
 #: src/Gui/SettingsCachePage.ui:48
 msgctxt "CachePage|"
 msgid "&Don't use cache"
-msgstr ""
+msgstr "Nenaudoti po&dėlio"
 
 #: src/Gui/SettingsCachePage.ui:61
 msgctxt "CachePage|"
@@ -1661,7 +1670,7 @@ msgstr ""
 #: src/Gui/SettingsCachePage.ui:106
 msgctxt "CachePage|"
 msgid "Notifications"
-msgstr ""
+msgstr "Pranešimai"
 
 #: src/Gui/SettingsCachePage.ui:112
 msgctxt "CachePage|"
@@ -1701,7 +1710,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:85
 msgctxt "Gui::SettingsDialog|"
 msgid "Settings"
-msgstr ""
+msgstr "Nuostatos"
 
 #: src/Gui/SettingsDialog.cpp:92
 msgctxt "Gui::SettingsDialog|"
@@ -1711,7 +1720,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:93
 msgctxt "Gui::SettingsDialog|"
 msgid "I&MAP"
-msgstr ""
+msgstr "I&MAP"
 
 #: src/Gui/SettingsDialog.cpp:94
 msgctxt "Gui::SettingsDialog|"
@@ -1721,7 +1730,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:95
 msgctxt "Gui::SettingsDialog|"
 msgid "&SMTP"
-msgstr ""
+msgstr "&SMTP"
 
 #: src/Gui/SettingsDialog.cpp:96
 msgctxt "Gui::SettingsDialog|"
@@ -1755,53 +1764,53 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::GeneralPage|"
 msgid "Plugin not found (%1)"
-msgstr ""
+msgstr "Įskiepis nerastas (%1)"
 
 #: src/Gui/SettingsDialog.cpp:401
 msgctxt "Gui::GeneralPage|"
 msgid "Disable address book"
-msgstr ""
+msgstr "Išjungti adresų knygą"
 
 #: src/Gui/SettingsDialog.cpp:402
 msgctxt "Gui::GeneralPage|"
 msgid "Disable passwords"
-msgstr ""
+msgstr "Išjungti slaptažodžius"
 
 #: src/Gui/SettingsDialog.cpp:403
 msgctxt "Gui::GeneralPage|"
 msgid "Disable spell checking"
-msgstr ""
+msgstr "Išjungti rašybos tikrinimą"
 
 #: src/Gui/SettingsDialog.cpp:419
 msgctxt "Gui::GeneralPage|"
 msgid "Move"
-msgstr ""
+msgstr "Perkelti"
 
 #: src/Gui/SettingsDialog.cpp:422
 msgctxt "Gui::GeneralPage|"
 msgid "Copy"
-msgstr ""
+msgstr "Kopijuoti"
 
 #: src/Gui/SettingsDialog.cpp:501
 msgctxt "Gui::GeneralPage|"
 msgid "Add New Identity"
-msgstr ""
+msgstr "Pridėti naują tapatybę"
 
 #: src/Gui/SettingsDialog.cpp:509
 msgctxt "Gui::GeneralPage|"
 msgid "Edit Identity"
-msgstr ""
+msgstr "Taisyti tapatybę"
 
 #: src/Gui/SettingsDialog.cpp:517
 msgctxt "Gui::GeneralPage|"
 msgid "Delete Identity?"
-msgstr ""
+msgstr "Ištrinti tapatybę?"
 
 #: src/Gui/SettingsDialog.cpp:518
 #, qt-format
 msgctxt "Gui::GeneralPage|"
 msgid "Are you sure you want to delete identity %1 <%2>?"
-msgstr ""
+msgstr "Ar tikrai norite ištrinti tapatybę %1 <%2>?"
 
 #: src/Gui/SettingsDialog.cpp:566
 msgctxt "Gui::GeneralPage|"
@@ -1816,7 +1825,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:700
 msgctxt "Gui::ImapPage|"
 msgid "Network Connection"
-msgstr ""
+msgstr "Tinklo ryšys"
 
 #: src/Gui/SettingsDialog.cpp:701
 msgctxt "Gui::ImapPage|"
@@ -1831,7 +1840,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:704
 msgctxt "Gui::ImapPage|"
 msgid "Use encryption (STARTTLS)"
-msgstr ""
+msgstr "Naudoti šifravimą (STARTTLS)"
 
 #: src/Gui/SettingsDialog.cpp:705
 msgctxt "Gui::ImapPage|"
@@ -2007,7 +2016,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:143
 msgctxt "GeneralPage|"
 msgid "Show system tray icon"
-msgstr ""
+msgstr "Rodyti sistemos dėklo piktogramą"
 
 #: src/Gui/SettingsGeneralPage.ui:150
 msgctxt "GeneralPage|"
@@ -2046,42 +2055,42 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:199
 msgctxt "GeneralPage|"
 msgid "Add"
-msgstr ""
+msgstr "Pridėti"
 
 #: src/Gui/SettingsGeneralPage.ui:206
 msgctxt "GeneralPage|"
 msgid "Edit"
-msgstr ""
+msgstr "Taisyti"
 
 #: src/Gui/SettingsGeneralPage.ui:213
 msgctxt "GeneralPage|"
 msgid "Delete"
-msgstr ""
+msgstr "Ištrinti"
 
 #: src/Gui/SettingsGeneralPage.ui:227
 msgctxt "GeneralPage|"
 msgid "Addressbook"
-msgstr ""
+msgstr "Adresų knyga"
 
 #: src/Gui/SettingsGeneralPage.ui:244
 msgctxt "GeneralPage|"
 msgid "Passwords"
-msgstr ""
+msgstr "Slaptažodžiai"
 
 #: src/Gui/SettingsGeneralPage.ui:261
 msgctxt "GeneralPage|"
 msgid "Spell checker"
-msgstr ""
+msgstr "Rašybos tikrinimas"
 
 #: src/Gui/SettingsImapPage.ui:27
 msgctxt "ImapPage|"
 msgid "M&ethod"
-msgstr ""
+msgstr "M&etodas"
 
 #: src/Gui/SettingsImapPage.ui:37
 msgctxt "ImapPage|"
 msgid "How to connect to the IMAP server"
-msgstr ""
+msgstr "Kaip prisijungti prie IMAP serverio"
 
 #: src/Gui/SettingsImapPage.ui:40
 msgctxt "ImapPage|"
@@ -2118,12 +2127,12 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:55
 msgctxt "ImapPage|"
 msgid "Encryption"
-msgstr ""
+msgstr "Šifravimas"
 
 #: src/Gui/SettingsImapPage.ui:65
 msgctxt "ImapPage|"
 msgid "Ser&ver"
-msgstr ""
+msgstr "Ser&veris"
 
 #: src/Gui/SettingsImapPage.ui:75
 msgctxt "ImapPage|"
@@ -2138,12 +2147,12 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:88
 msgctxt "ImapPage|"
 msgid "&Port"
-msgstr ""
+msgstr "&Prievadas"
 
 #: src/Gui/SettingsImapPage.ui:98
 msgctxt "ImapPage|"
 msgid "Port number of the IMAP server"
-msgstr ""
+msgstr "IMAP serverio prievado numeris"
 
 #: src/Gui/SettingsImapPage.ui:118
 msgctxt "ImapPage|"
@@ -2165,27 +2174,27 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:147
 msgctxt "ImapPage|"
 msgid "&Username"
-msgstr ""
+msgstr "Na&udotojo vardas"
 
 #: src/Gui/SettingsImapPage.ui:157
 msgctxt "ImapPage|"
 msgid "Username"
-msgstr ""
+msgstr "Naudotojo vardas"
 
 #: src/Gui/SettingsImapPage.ui:160
 msgctxt "ImapPage|"
 msgid "User name to log in to the IMAP server"
-msgstr ""
+msgstr "Naudotojo vardas, kurį naudojant prisijungti prie IMAP serverio"
 
 #: src/Gui/SettingsImapPage.ui:170
 msgctxt "ImapPage|"
 msgid "Pass&word"
-msgstr ""
+msgstr "S&laptažodis"
 
 #: src/Gui/SettingsImapPage.ui:180
 msgctxt "ImapPage|"
 msgid "Password"
-msgstr ""
+msgstr "Slaptažodis"
 
 #: src/Gui/SettingsImapPage.ui:183
 msgctxt "ImapPage|"
@@ -2296,12 +2305,12 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:325
 msgctxt "ImapPage|"
 msgid "Account Icon"
-msgstr ""
+msgstr "Paskyros piktograma"
 
 #: src/Gui/SettingsImapPage.ui:332
 msgctxt "ImapPage|"
 msgid "Default Trojitá icon"
-msgstr ""
+msgstr "Numatytoji Trojitá piktograma"
 
 #: src/Gui/SettingsImapPage.ui:342
 msgctxt "ImapPage|"
@@ -2311,22 +2320,22 @@ msgstr ""
 #: src/Gui/SettingsOutgoingPage.ui:27
 msgctxt "OutgoingPage|"
 msgid "&Method"
-msgstr ""
+msgstr "&Metodas"
 
 #: src/Gui/SettingsOutgoingPage.ui:40
 msgctxt "OutgoingPage|"
 msgid "Encryption"
-msgstr ""
+msgstr "Šifravimas"
 
 #: src/Gui/SettingsOutgoingPage.ui:50
 msgctxt "OutgoingPage|"
 msgid "Ser&ver"
-msgstr ""
+msgstr "Ser&veris"
 
 #: src/Gui/SettingsOutgoingPage.ui:63
 msgctxt "OutgoingPage|"
 msgid "&Port"
-msgstr ""
+msgstr "&Prievadas"
 
 #: src/Gui/SettingsOutgoingPage.ui:86
 msgctxt "OutgoingPage|"
@@ -2383,7 +2392,7 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
 msgid "Trojitá"
-msgstr ""
+msgstr "Trojitá"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:41
 msgctxt "Gui::ShortcutConfigWidget|"
@@ -2394,7 +2403,7 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:203
 msgctxt "Gui::ShortcutConfigWidget|"
 msgid "Trojitá"
-msgstr ""
+msgstr "Trojitá"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:177
 msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
@@ -2491,7 +2500,7 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutHandler.cpp:103
 msgctxt "Gui::ShortcutHandler|"
 msgid "Main Window"
-msgstr ""
+msgstr "Pagrindinis langas"
 
 #: src/Gui/ShortcutHandler/ShortcutHandler.cpp:144
 msgctxt "Gui::ShortcutHandler|"
@@ -2503,7 +2512,7 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutHandler.h:319
 msgctxt "QObject|"
 msgid "Main Window"
-msgstr ""
+msgstr "Pagrindinis langas"
 
 #: src/Gui/SimplePartWidget.cpp:78
 msgctxt "Gui::SimplePartWidget|"
@@ -2518,42 +2527,42 @@ msgstr ""
 #: src/Gui/SimplePartWidget.cpp:86
 msgctxt "Gui::SimplePartWidget|"
 msgid "Search..."
-msgstr ""
+msgstr "Ieškoti..."
 
 #: src/Gui/SimplePartWidget.cpp:89
 msgctxt "Gui::SimplePartWidget|"
 msgid "Copy e-mail address"
-msgstr ""
+msgstr "Kopijuoti el. pašto adresą"
 
 #: src/Gui/SimplePartWidget.cpp:130
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save Attachment"
-msgstr ""
+msgstr "Įrašyti priedą"
 
 #: src/Gui/SimplePartWidget.cpp:207
 msgctxt "Gui::SimplePartWidget|"
 msgid "Color scheme"
-msgstr ""
+msgstr "Spalvų rinkinys"
 
 #: src/Gui/SimplePartWidget.cpp:221
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom"
-msgstr ""
+msgstr "Mastelis"
 
 #: src/Gui/SimplePartWidget.cpp:227
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom In"
-msgstr ""
+msgstr "Didinti"
 
 #: src/Gui/SimplePartWidget.cpp:231
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom Out"
-msgstr ""
+msgstr "Mažinti"
 
 #: src/Gui/SimplePartWidget.cpp:235
 msgctxt "Gui::SimplePartWidget|"
 msgid "Original Size"
-msgstr ""
+msgstr "Pradinis dydis"
 
 #: src/Gui/TagAddDialog.ui:14
 msgctxt "TagAddDialog|"
@@ -2601,12 +2610,12 @@ msgstr ""
 #: src/Gui/Util.cpp:88
 msgctxt "Gui::MainWindow|"
 msgid "Don't ask again"
-msgstr ""
+msgstr "Daugiau nebeklausti"
 
 #: src/Gui/Window.cpp:134
 msgctxt "Gui::MainWindow|"
 msgid "Plugin Error"
-msgstr ""
+msgstr "Įskiepio klaida"
 
 #. The %1 placeholder is a full error message as provided by Qt, ready for human consumption.
 #: src/Gui/Window.cpp:136
@@ -2622,22 +2631,22 @@ msgstr ""
 #: src/Gui/Window.cpp:238
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
-msgstr ""
+msgstr "&Išeiti"
 
 #: src/Gui/Window.cpp:239
 msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
-msgstr ""
+msgstr "&Naujas laiškas..."
 
 #: src/Gui/Window.cpp:240
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
-msgstr ""
+msgstr "&Taisyti juodraštį..."
 
 #: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
-msgstr ""
+msgstr "Rodyti pagrindinę meniu &juostą"
 
 #: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
@@ -2657,22 +2666,22 @@ msgstr ""
 #: src/Gui/Window.cpp:243
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
-msgstr ""
+msgstr "Žymėti kaip &skaitytą"
 
 #: src/Gui/Window.cpp:244
 msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
-msgstr ""
+msgstr "&Kitas neskaitytas laiškas"
 
 #: src/Gui/Window.cpp:245
 msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
-msgstr ""
+msgstr "&Ankstesnis neskaitytas laiškas"
 
 #: src/Gui/Window.cpp:246
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
-msgstr ""
+msgstr "Žymėti kaip &ištrintą"
 
 #: src/Gui/Window.cpp:247
 msgctxt "Gui::MainWindow|"
@@ -2692,7 +2701,7 @@ msgstr ""
 #: src/Gui/Window.cpp:250
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
-msgstr ""
+msgstr "Į&rašyti laišką..."
 
 #: src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
@@ -2732,7 +2741,7 @@ msgstr ""
 #: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
-msgstr ""
+msgstr "Atsakyti &visiems"
 
 #: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
@@ -2782,7 +2791,7 @@ msgstr ""
 #: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
-msgstr ""
+msgstr "Adresų knyga..."
 
 #: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
@@ -2802,32 +2811,32 @@ msgstr ""
 #: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
-msgstr ""
+msgstr "Užverti atskirą laiško langą"
 
 #: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
-msgstr ""
+msgstr "Atverti laišką naujame lange..."
 
 #: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
-msgstr ""
+msgstr "Naršyti atgal"
 
 #: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
-msgstr ""
+msgstr "Didinti"
 
 #: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
-msgstr ""
+msgstr "Mažinti"
 
 #: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
-msgstr ""
+msgstr "Pradinis dydis"
 
 #: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
@@ -2902,7 +2911,7 @@ msgstr ""
 #: src/Gui/Window.cpp:316
 msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
-msgstr ""
+msgstr "Tikrinti, ar yra &naujų laiškų"
 
 #: src/Gui/Window.cpp:319
 msgctxt "Gui::MainWindow|"
@@ -2912,7 +2921,7 @@ msgstr ""
 #: src/Gui/Window.cpp:323
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
-msgstr ""
+msgstr "Išeiti iš programos"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
 #: src/Gui/Window.cpp:342
@@ -2947,17 +2956,17 @@ msgstr ""
 #: src/Gui/Window.cpp:370
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
-msgstr ""
+msgstr "In&formacija apie IMAP serverį..."
 
 #: src/Gui/Window.cpp:379
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
-msgstr ""
+msgstr "Rodyti į&rankių juostą"
 
 #: src/Gui/Window.cpp:385
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
-msgstr ""
+msgstr "Nuo&statos..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:482
@@ -2969,18 +2978,18 @@ msgstr ""
 #: src/Gui/Window.cpp:486
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
-msgstr ""
+msgstr "Sukurti &naują pašto dėžutę..."
 
 #: src/Gui/Window.cpp:489
 msgctxt "Gui::MainWindow|"
 msgid "&Mark Mailbox as Read"
-msgstr ""
+msgstr "Ž&ymėti pašto dėžutę kaip skaitytą"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:493
 msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
-msgstr ""
+msgstr "Ša&linti pašto dėžutę"
 
 #: src/Gui/Window.cpp:511
 msgctxt "Gui::MainWindow|"
@@ -3030,12 +3039,12 @@ msgstr ""
 #: src/Gui/Window.cpp:545
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
-msgstr ""
+msgstr "Dydi&s"
 
 #: src/Gui/Window.cpp:547
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
-msgstr ""
+msgstr "&Tema"
 
 #: src/Gui/Window.cpp:549
 msgctxt "Gui::MainWindow|"
@@ -3045,7 +3054,7 @@ msgstr ""
 #: src/Gui/Window.cpp:554
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
-msgstr ""
+msgstr "Slė&pti skaitytus laiškus"
 
 #: src/Gui/Window.cpp:563
 msgctxt "Gui::MainWindow|"
@@ -3075,17 +3084,17 @@ msgstr ""
 #: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
-msgstr ""
+msgstr "&Apie Trojitá..."
 
 #: src/Gui/Window.cpp:587
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
-msgstr ""
+msgstr "&Paremti projektą"
 
 #: src/Gui/Window.cpp:592
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
-msgstr ""
+msgstr "Rašyti laišką"
 
 #: src/Gui/Window.cpp:692
 msgctxt "Gui::MainWindow|"
@@ -3188,7 +3197,7 @@ msgstr ""
 #: src/Gui/Window.cpp:1126 src/Gui/Window.cpp:2573
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
-msgstr ""
+msgstr "Trojitá"
 
 #: src/Gui/Window.cpp:1127
 msgctxt "Gui::MainWindow|"
@@ -3206,17 +3215,17 @@ msgstr ""
 #: src/Gui/Window.cpp:1343
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
-msgstr ""
+msgstr "IMAP protokolo klaida"
 
 #: src/Gui/Window.cpp:1351
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
-msgstr ""
+msgstr "Tinklo klaida"
 
 #: src/Gui/Window.cpp:1372
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
-msgstr ""
+msgstr "IMAP podėlio klaida"
 
 #: src/Gui/Window.cpp:1373
 #, qt-format
@@ -3263,7 +3272,7 @@ msgstr ""
 #: src/Gui/Window.cpp:1531
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
-msgstr ""
+msgstr "Taisyti juodraštį"
 
 #: src/Gui/Window.cpp:1658
 msgctxt "Gui::MainWindow|"
@@ -3284,7 +3293,7 @@ msgstr ""
 #: src/Gui/Window.cpp:1736
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
-msgstr ""
+msgstr "Ištrinti pašto dėžutę"
 
 #: src/Gui/Window.cpp:1737
 #, qt-format
@@ -3295,7 +3304,7 @@ msgstr ""
 #: src/Gui/Window.cpp:2050
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
-msgstr ""
+msgstr "Nepavyksta ištrinti pašto dėžutės"
 
 #: src/Gui/Window.cpp:2051
 #, qt-format
@@ -3308,7 +3317,7 @@ msgstr ""
 #: src/Gui/Window.cpp:2056
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
-msgstr ""
+msgstr "Nepavyksta sukurti pašto dėžutės"
 
 #: src/Gui/Window.cpp:2057
 #, qt-format
@@ -3321,7 +3330,7 @@ msgstr ""
 #: src/Gui/Window.cpp:2062
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
-msgstr ""
+msgstr "Nepavyksta atverti pašto dėžutės"
 
 #: src/Gui/Window.cpp:2063
 #, qt-format
@@ -3340,17 +3349,17 @@ msgstr ""
 #: src/Gui/Window.cpp:2127
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
-msgstr ""
+msgstr "Įskiepiai"
 
 #: src/Gui/Window.cpp:2134
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
-msgstr ""
+msgstr "Šifruoti ir pasirašyti laiškai"
 
 #: src/Gui/Window.cpp:2141
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
-msgstr ""
+msgstr "IMAP glaudinimas"
 
 #: src/Gui/Window.cpp:2152
 #, qt-format
@@ -3367,7 +3376,7 @@ msgstr ""
 #: src/Gui/Window.cpp:2211
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
-msgstr ""
+msgstr "Nepavyksta įrašyti į failą"
 
 #: src/Gui/Window.cpp:2212
 #, qt-format
@@ -3376,11 +3385,13 @@ msgid ""
 "Unable to save into file. Error:\n"
 "%1"
 msgstr ""
+"Nepavyko įrašyti į failą. Klaida:\n"
+"%1"
 
 #: src/Gui/Window.cpp:2217
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
-msgstr ""
+msgstr "Įrašyti laišką"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/Window.cpp:2233
@@ -3392,7 +3403,7 @@ msgstr ""
 #: src/Gui/Window.cpp:2248 src/Gui/Window.cpp:2270
 msgctxt "Gui::MainWindow|"
 msgid "Close"
-msgstr ""
+msgstr "Užverti"
 
 #: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
 msgctxt "Gui::MainWindow|"
@@ -3403,35 +3414,35 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
-msgstr ""
+msgstr "<li>%1</li>\n"
 
 #: src/Gui/Window.cpp:2501
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
-msgstr ""
+msgstr "Nežinoma"
 
 #: src/Gui/Window.cpp:2515
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
-msgstr ""
+msgstr "<p>"
 
 #: src/Gui/Window.cpp:2517
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
-msgstr ""
+msgstr "Serveris: %1 %2"
 
 #: src/Gui/Window.cpp:2519
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
-msgstr ""
+msgstr "Serveris: %1"
 
 #: src/Gui/Window.cpp:2522
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
-msgstr ""
+msgstr " (%1)"
 
 #: src/Gui/Window.cpp:2526
 #, qt-format
@@ -3450,7 +3461,7 @@ msgstr ""
 #: src/Gui/Window.cpp:2530
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
-msgstr ""
+msgstr "</p>"
 
 #: src/Gui/Window.cpp:2532
 msgctxt "Gui::MainWindow|"
@@ -3461,19 +3472,20 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
-msgstr ""
+msgstr "<li>%1: %2</li>"
 
 #: src/Gui/Window.cpp:2538
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
-msgstr ""
+msgstr "<ul>%1</ul>"
 
 #: src/Gui/Window.cpp:2540
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr ""
+"<p>Serveris nepateikė informacijos apie savo programinės įrangos versiją.</p>"
 
 #: src/Gui/Window.cpp:2547
 #, qt-format
@@ -3490,22 +3502,24 @@ msgid ""
 "<ul>\n"
 "%1</ul>"
 msgstr ""
+"<ul>\n"
+"%1</ul>"
 
 #: src/Gui/Window.cpp:2567
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
 msgid_plural "%1 - %n unread - Trojitá"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 – %n neskaitytas – Trojitá"
+msgstr[1] "%1 – %n neskaityti – Trojitá"
+msgstr[2] "%1 – %n neskaitytų – Trojitá"
+msgstr[3] "%1 – %n neskaitytas – Trojitá"
 
 #: src/Gui/Window.cpp:2570
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
-msgstr ""
+msgstr "%1 – Trojitá"
 
 #: src/Gui/Window.cpp:2995
 #, qt-format
@@ -3521,107 +3535,107 @@ msgstr ""
 #: src/Imap/ConnectionState.cpp:37
 msgctxt "QObject|"
 msgid "Connecting to the IMAP server..."
-msgstr ""
+msgstr "Jungiamasi prie IMAP serverio..."
 
 #: src/Imap/ConnectionState.cpp:39
 msgctxt "QObject|"
 msgid "Starting encryption (SSL)..."
-msgstr ""
+msgstr "Pradedamas šifravimas (SSL)..."
 
 #: src/Imap/ConnectionState.cpp:41
 msgctxt "QObject|"
 msgid "Checking certificates (SSL)..."
-msgstr ""
+msgstr "Tikrinami liudijimai (SSL)..."
 
 #: src/Imap/ConnectionState.cpp:43
 msgctxt "QObject|"
 msgid "Checking capabilities..."
-msgstr ""
+msgstr "Tikrinamos galimybės..."
 
 #: src/Imap/ConnectionState.cpp:45
 msgctxt "QObject|"
 msgid "Waiting for encryption..."
-msgstr ""
+msgstr "Laukiama šifravimo..."
 
 #: src/Imap/ConnectionState.cpp:47
 msgctxt "QObject|"
 msgid "Asking for encryption..."
-msgstr ""
+msgstr "Prašoma šifravimo..."
 
 #: src/Imap/ConnectionState.cpp:49
 msgctxt "QObject|"
 msgid "Starting encryption (STARTTLS)..."
-msgstr ""
+msgstr "Pradedamas šifravimas (STARTTLS)..."
 
 #: src/Imap/ConnectionState.cpp:51
 msgctxt "QObject|"
 msgid "Checking certificates (STARTTLS)..."
-msgstr ""
+msgstr "Tikrinami liudijimai (STARTTLS)..."
 
 #: src/Imap/ConnectionState.cpp:53
 msgctxt "QObject|"
 msgid "Checking capabilities (after STARTTLS)..."
-msgstr ""
+msgstr "Tikrinamos galimybės (po STARTTLS)..."
 
 #: src/Imap/ConnectionState.cpp:55
 msgctxt "QObject|"
 msgid "Logging in..."
-msgstr ""
+msgstr "Prisijungiama prie paskyros..."
 
 #: src/Imap/ConnectionState.cpp:57
 msgctxt "QObject|"
 msgid "Checking capabilities (after login)..."
-msgstr ""
+msgstr "Tikrinamos galimybės (po prisijungimo)..."
 
 #: src/Imap/ConnectionState.cpp:59
 msgctxt "QObject|"
 msgid "Activating compression..."
-msgstr ""
+msgstr "Aktyvuojamas glaudinimas..."
 
 #: src/Imap/ConnectionState.cpp:61
 msgctxt "QObject|"
 msgid "Logged in."
-msgstr ""
+msgstr "Prisijungta prie paskyros."
 
 #: src/Imap/ConnectionState.cpp:63
 msgctxt "QObject|"
 msgid "Waiting for another mailbox..."
-msgstr ""
+msgstr "Laukiama kitos pašto dėžutės..."
 
 #: src/Imap/ConnectionState.cpp:65
 msgctxt "QObject|"
 msgid "Opening mailbox..."
-msgstr ""
+msgstr "Atveriama pašto dėžutė..."
 
 #: src/Imap/ConnectionState.cpp:67
 msgctxt "QObject|"
 msgid "Synchronizing mailbox..."
-msgstr ""
+msgstr "Sinchronizuojama pašto dėžutė..."
 
 #: src/Imap/ConnectionState.cpp:69
 msgctxt "QObject|"
 msgid "Mailbox opened."
-msgstr ""
+msgstr "Pašto dėžutė atverta."
 
 #: src/Imap/ConnectionState.cpp:71
 msgctxt "QObject|"
 msgid "Downloading message..."
-msgstr ""
+msgstr "Atsiunčiamas laiškas..."
 
 #: src/Imap/ConnectionState.cpp:73
 msgctxt "QObject|"
 msgid "Downloading message structure..."
-msgstr ""
+msgstr "Atsiunčiama laiško struktūra..."
 
 #: src/Imap/ConnectionState.cpp:75
 msgctxt "QObject|"
 msgid "Logged out."
-msgstr ""
+msgstr "Atsijungta nuo paskyros."
 
 #: src/Imap/Model/DiskPartCache.cpp:64
 msgctxt "QObject|"
 msgid "Unrecognized QFile error"
-msgstr ""
+msgstr "Neatpažinta QFile klaida"
 
 #: src/Imap/Model/DiskPartCache.cpp:85
 #, qt-format
@@ -3650,12 +3664,12 @@ msgstr ""
 #: src/Imap/Model/FavoriteTagsModel.cpp:126
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "Name"
-msgstr ""
+msgstr "Pavadinimas"
 
 #: src/Imap/Model/FavoriteTagsModel.cpp:128
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "Color"
-msgstr ""
+msgstr "Spalva"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:79
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
@@ -3681,7 +3695,7 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to create directory %1"
-msgstr ""
+msgstr "Nepavyko sukurti katalogo %1"
 
 #: src/Imap/Model/ImapAccess.cpp:326
 #, qt-format
@@ -3692,7 +3706,7 @@ msgstr ""
 #: src/Imap/Model/MailboxTree.cpp:1244
 msgctxt "Imap::Mailbox::Model|"
 msgid "Today"
-msgstr ""
+msgstr "Šiandien"
 
 #: src/Imap/Model/MailboxTree.cpp:1248
 msgctxt "Imap::Mailbox::Model|"
@@ -3705,19 +3719,19 @@ msgctxt ""
 "translated, but their order can be changed to follow the local conventions. "
 "For valid specifiers see http://doc.qt.io/qt-5/qdate.html#toString"
 msgid "MMMM yyyy"
-msgstr ""
+msgstr "yyyy MMMM"
 
 #: src/Imap/Model/MailboxTree.cpp:1718
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1...]"
-msgstr ""
+msgstr "[įkeliama %1...]"
 
 #: src/Imap/Model/MailboxTree.cpp:1719
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
-msgstr ""
+msgstr "[įkeliama %1: %2...]"
 
 #: src/Imap/Model/Model.cpp:1088
 msgctxt "Imap::Mailbox::Model|"
@@ -3729,14 +3743,14 @@ msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
 "</p>"
-msgstr ""
+msgstr "<p>Atrodo, kad jungiatės prie POP3 serverio. Tai čia neveiks.</p>"
 
 #: src/Imap/Model/Model.cpp:1164
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
 "here.</p>"
-msgstr ""
+msgstr "<p>Atrodo, kad jungiatės prie SMTP serverio. Tai čia neveiks.</p>"
 
 #: src/Imap/Model/Model.cpp:1166
 #, qt-format
@@ -3766,7 +3780,7 @@ msgstr ""
 #: src/Imap/Model/Model.cpp:1486
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
-msgstr ""
+msgstr "Ryšys yra nutraukiamas dėl nenurodytos priežasties"
 
 #: src/Imap/Model/MsgListModel.cpp:284
 msgctxt "MsgListModel|"
@@ -3796,17 +3810,17 @@ msgstr ""
 #: src/Imap/Model/MsgListModel.cpp:294
 msgctxt "MsgListModel|"
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: src/Imap/Model/MsgListModel.cpp:296
 msgctxt "MsgListModel|"
 msgid "Received"
-msgstr ""
+msgstr "Gautas"
 
 #: src/Imap/Model/MsgListModel.cpp:298
 msgctxt "MsgListModel|"
 msgid "Size"
-msgstr ""
+msgstr "Dydis"
 
 #: src/Imap/Model/NetworkWatcher.cpp:63
 #, qt-format
@@ -3822,48 +3836,48 @@ msgstr[3] ""
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%1 (%2/%3)"
-msgstr ""
+msgstr "%1 (%2/%3)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:81
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:119
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n messages"
 msgid_plural "%n messages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%n laiškas"
+msgstr[1] "%n laiškai"
+msgstr[2] "%n laiškų"
+msgstr[3] "%n laiškas"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:120
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n unread"
 msgid_plural "%n unread"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%n neskaitytas"
+msgstr[1] "%n neskaityti"
+msgstr[2] "%n neskaitytų"
+msgstr[3] "%n neskaitytas"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n recent"
 msgid_plural "%n recent"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%n paskiausias"
+msgstr[1] "%n paskiausi"
+msgstr[2] "%n paskiausių"
+msgstr[3] "%n paskiausias"
 
 #: src/Imap/Model/PrettyMsgListModel.cpp:108
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 msgid "Loading..."
-msgstr ""
+msgstr "Įkeliama..."
 
 #: src/Imap/Model/PrettyMsgListModel.cpp:113
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
@@ -4813,19 +4827,19 @@ msgstr ""
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "BURL is not supported by %1"
-msgstr ""
+msgstr "%1 nepalaiko BURL"
 
 #: src/MSA/AbstractMSA.cpp:68
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "IMAP sending is not supported by %1"
-msgstr ""
+msgstr "%1 nepalaiko IMAP siuntimo"
 
 #: src/MSA/AbstractMSA.cpp:74
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "Setting password is not supported by %1"
-msgstr ""
+msgstr "%1 nepalaiko slaptažodžio nustatymo"
 
 #: src/MSA/Account.cpp:233
 #, qt-format
@@ -4891,7 +4905,7 @@ msgstr ""
 #: src/MSA/SMTP.cpp:139
 msgctxt "MSA::SMTP|"
 msgid "Unknown SMTP mode"
-msgstr ""
+msgstr "Nežinoma SMTP veiksena"
 
 #. Translators: BE::Contacts is the name of a stand-alone address book application. BE refers to Bose/Einstein (condensate).
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:151
@@ -4912,12 +4926,12 @@ msgstr ""
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:162
 msgctxt "BE::Contacts|"
 msgid "Contacts"
-msgstr ""
+msgstr "Adresatai"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:162
 msgctxt "BE::Contacts|"
 msgid "Save changes?"
-msgstr ""
+msgstr "Įrašyti pakeitimus?"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:276
 msgctxt "BE::Contacts|"
@@ -4932,17 +4946,17 @@ msgstr ""
 #: src/Plugins/AbookAddressbook/be-contacts.ui:14
 msgctxt "Contacts|"
 msgid "Contacts"
-msgstr ""
+msgstr "Adresatai"
 
 #: src/Plugins/AbookAddressbook/be-contacts.ui:48
 msgctxt "Contacts|"
 msgid "Delete"
-msgstr ""
+msgstr "Ištrinti"
 
 #: src/Plugins/AbookAddressbook/be-contacts.ui:58
 msgctxt "Contacts|"
 msgid "Add"
-msgstr ""
+msgstr "Pridėti"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:31
 msgctxt "OneContact|"
@@ -5072,12 +5086,12 @@ msgstr ""
 #: src/Plugins/AbookAddressbook/onecontact.ui:482
 msgctxt "OneContact|"
 msgid "Photo"
-msgstr ""
+msgstr "Nuotrauka"
 
 #: src/Plugins/AkonadiAddressbook/AkonadiAddressbook.cpp:67
 msgctxt "trojita_plugin_AkonadiAddressbookPlugin|"
 msgid "KDE Addressbook (Akonadi)"
-msgstr ""
+msgstr "KDE adresų knyga (Akonadi)"
 
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:51
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:67
@@ -5089,7 +5103,7 @@ msgstr ""
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:123
 msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
 msgid "Trojitá's settings"
-msgstr ""
+msgstr "Trojitá nuostatos"
 
 #: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:129
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
@@ -5110,18 +5124,18 @@ msgstr ""
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid "Disconnected: %1"
-msgstr ""
+msgstr "Atsijungta: %1"
 
 #: src/Streams/IODeviceSocket.cpp:192
 msgctxt "Streams::ProcessSocket|"
 msgid "The process has started"
-msgstr ""
+msgstr "Procesas prasidėjo"
 
 #: src/Streams/IODeviceSocket.cpp:195
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid "Starting process `%1 %2`"
-msgstr ""
+msgstr "Pradedamas procesas „%1 %2“"
 
 #: src/Streams/IODeviceSocket.cpp:202
 #, qt-format
@@ -5141,7 +5155,7 @@ msgstr ""
 #: src/Streams/IODeviceSocket.cpp:258
 msgctxt "Streams::SslTlsSocket|"
 msgid "Connection closed"
-msgstr ""
+msgstr "Ryšys nutrauktas"
 
 #: src/Streams/IODeviceSocket.cpp:283
 #, qt-format
@@ -5165,23 +5179,23 @@ msgstr ""
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid "Looking up %1%2..."
-msgstr ""
+msgstr "Ieškoma %1%2..."
 
 #: src/Streams/IODeviceSocket.cpp:299
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid "Connecting to %1:%2%3%4..."
-msgstr ""
+msgstr "Jungiamasi prie %1:%2%3%4..."
 
 #: src/Streams/IODeviceSocket.cpp:300
 msgctxt "Streams::SslTlsSocket|"
 msgid " (SSL)"
-msgstr ""
+msgstr " (SSL)"
 
 #: src/Streams/IODeviceSocket.cpp:309
 msgctxt "Streams::SslTlsSocket|"
 msgid "Connected"
-msgstr ""
+msgstr "Prisijungta"
 
 #: src/Streams/IODeviceSocket.cpp:311
 msgctxt "Streams::SslTlsSocket|"
@@ -5205,33 +5219,33 @@ msgstr ""
 #: src/UiUtils/Formatting.cpp:40
 msgctxt "Formatting|"
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: src/UiUtils/Formatting.cpp:41
 msgctxt "Formatting|"
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: src/UiUtils/Formatting.cpp:42
 msgctxt "Formatting|"
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: src/UiUtils/Formatting.cpp:43
 msgctxt "Formatting|"
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: src/UiUtils/Formatting.cpp:44
 msgctxt "Formatting|"
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: src/UiUtils/Formatting.cpp:67
 #, qt-format
 msgctxt "Formatting|"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: src/UiUtils/Formatting.cpp:86
 msgctxt ""
@@ -5239,7 +5253,7 @@ msgctxt ""
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "hh:mm"
-msgstr ""
+msgstr "hh:mm"
 
 #: src/UiUtils/Formatting.cpp:91
 msgctxt ""
@@ -5247,7 +5261,7 @@ msgctxt ""
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "ddd hh:mm"
-msgstr ""
+msgstr "ddd hh:mm"
 
 #: src/UiUtils/Formatting.cpp:99
 msgctxt ""
@@ -5255,7 +5269,7 @@ msgctxt ""
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "d MMM hh:mm"
-msgstr ""
+msgstr "MMM d hh:mm"
 
 #: src/UiUtils/Formatting.cpp:142
 #, qt-format
@@ -5271,7 +5285,7 @@ msgstr ""
 #: src/UiUtils/Formatting.cpp:145 src/UiUtils/Formatting.cpp:146
 msgctxt "Formatting|"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/UiUtils/Formatting.cpp:152
 msgctxt "Formatting|"
@@ -5289,13 +5303,13 @@ msgstr ""
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
 msgctxt "Formatting|"
 msgid "\n"
-msgstr ""
+msgstr "\n"
 
 #: src/UiUtils/Formatting.cpp:160
 #, qt-format
 msgctxt "Formatting|"
 msgid "<li>%1</li>"
-msgstr ""
+msgstr "<li>%1</li>"
 
 #: src/UiUtils/Formatting.cpp:163
 msgctxt "Formatting|"
@@ -5385,13 +5399,13 @@ msgstr ""
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Loading password from plugin %1..."
-msgstr ""
+msgstr "Įkeliamas slaptažodis iš įskiepio %1..."
 
 #: src/UiUtils/PasswordWatcher.cpp:86
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot read password via plugin %1"
-msgstr ""
+msgstr "Nepavyksta perskaityti slaptažodį per įskiepį %1"
 
 #: src/UiUtils/PasswordWatcher.cpp:89 src/UiUtils/PasswordWatcher.cpp:175
 msgctxt "UiUtils::PasswordWatcher|"
