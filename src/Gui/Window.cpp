@@ -122,7 +122,7 @@ namespace Gui
 
 MainWindow::MainWindow(QSettings *settings): QMainWindow(), m_imapAccess(nullptr), m_mainHSplitter(nullptr), m_mainVSplitter(nullptr),
     m_mainStack(nullptr), m_layoutMode(LAYOUT_COMPACT), m_skipSavingOfUI(true), m_delayedStateSaving(nullptr), m_actionSortNone(nullptr),
-    m_ignoreStoredPassword(false), m_settings(settings), m_pluginManager(nullptr), m_networkErrorMessageBox(nullptr), m_trayIcon(nullptr)
+    m_ignoreStoredPassword(false), m_settings(settings), m_pluginManager(nullptr), m_msgActionHandler(this),m_networkErrorMessageBox(nullptr), m_trayIcon(nullptr)
 {
     setAttribute(Qt::WA_AlwaysShowToolTips);
     // m_pluginManager must be created before calling createWidgets
@@ -230,6 +230,15 @@ MainWindow::MainWindow(QSettings *settings): QMainWindow(), m_imapAccess(nullptr
     connect(delayedResize, &QTimer::timeout, this, &MainWindow::desktopGeometryChanged);
     connect(QGuiApplication::primaryScreen(), &QScreen::availableGeometry, delayedResize, static_cast<void (QTimer::*)()>(&QTimer::start));
     m_skipSavingOfUI = false;
+}
+
+void MainWindow::reply(const Composer::ReplyMode mode)
+{
+#ifdef TROJITA_HAVE_WEBKIT
+    const QModelIndex messageIndex = m_messageWidget->message();
+    const QString quoteText = m_messageWidget->quoteText();
+    m_msgActionHandler.reply(messageIndex, mode, quoteText);
+#endif
 }
 
 void MainWindow::defineActions()
@@ -1903,30 +1912,22 @@ void MainWindow::scrollMessageUp()
 
 void MainWindow::slotReplyTo()
 {
-#ifdef TROJITA_HAVE_WEBKIT
-    m_messageWidget->messageView->reply(this, Composer::REPLY_PRIVATE);
-#endif
+    reply(Composer::REPLY_PRIVATE);
 }
 
 void MainWindow::slotReplyAll()
 {
-#ifdef TROJITA_HAVE_WEBKIT
-    m_messageWidget->messageView->reply(this, Composer::REPLY_ALL);
-#endif
+    reply(Composer::REPLY_ALL);
 }
 
 void MainWindow::slotReplyAllButMe()
 {
-#ifdef TROJITA_HAVE_WEBKIT
-    m_messageWidget->messageView->reply(this, Composer::REPLY_ALL_BUT_ME);
-#endif
+    reply(Composer::REPLY_ALL_BUT_ME);
 }
 
 void MainWindow::slotReplyList()
 {
-#ifdef TROJITA_HAVE_WEBKIT
-    m_messageWidget->messageView->reply(this, Composer::REPLY_LIST);
-#endif
+    reply(Composer::REPLY_LIST);
 }
 
 void MainWindow::slotReplyGuess()
@@ -1945,7 +1946,8 @@ void MainWindow::slotReplyGuess()
 void MainWindow::slotForwardAsAttachment()
 {
 #ifdef TROJITA_HAVE_WEBKIT
-    m_messageWidget->messageView->forward(this, Composer::ForwardMode::FORWARD_AS_ATTACHMENT);
+    const QModelIndex messageIndex = m_messageWidget->message();
+    m_msgActionHandler.forward(messageIndex, Composer::ForwardMode::FORWARD_AS_ATTACHMENT);
 #endif
 }
 

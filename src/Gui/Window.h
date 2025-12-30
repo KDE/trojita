@@ -31,6 +31,7 @@
 #include "Composer/Recipients.h"
 #include "Imap/ConnectionState.h"
 #include "Imap/Model/Cache.h"
+#include "MessageActionHandler.h"
 
 class QAuthenticator;
 class QCloseEvent;
@@ -227,6 +228,8 @@ protected:
     void resizeEvent(QResizeEvent *) override;
 
 private:
+    void reply(const Composer::ReplyMode mode);
+
     void defineActions();
     void createMenus();
     void createActions();
@@ -376,6 +379,7 @@ private:
 
     QSettings *m_settings;
     Plugins::PluginManager *m_pluginManager;
+    MessageActionHandler m_msgActionHandler;
 
     QMessageBox *m_networkErrorMessageBox;
 

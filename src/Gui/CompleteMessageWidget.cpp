@@ -67,6 +67,21 @@ CompleteMessageWidget::CompleteMessageWidget(QWidget *parent, QSettings *setting
     }
 }
 
+QModelIndex CompleteMessageWidget::message() const
+{
+    return messageView->currentMessage();
+}
+
+void CompleteMessageWidget::setMessage(const QModelIndex &index)
+{
+    messageView->setMessage(index);
+}
+
+QString CompleteMessageWidget::quoteText()
+{
+    return messageView->quoteText();
+}
+
 void CompleteMessageWidget::keyPressEvent(QKeyEvent *ke)
 {
     if (ke->key() == Qt::Key_Home) {

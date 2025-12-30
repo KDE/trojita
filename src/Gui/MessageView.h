@@ -86,11 +86,10 @@ public:
     ~MessageView() override;
 
     void setNetworkWatcher(Imap::Mailbox::NetworkWatcher *netWatcher);
-    void reply(MainWindow *mainWindow, Composer::ReplyMode mode);
-    void forward(MainWindow *mainWindow, const Composer::ForwardMode mode);
     QModelIndex currentMessage() const;
     Plugins::PluginManager *pluginManager() const;
     QSettings* profileSettings() const;
+    QString quoteText() const;
 public slots:
     void setMessage(const QModelIndex &index);
     void setEmpty();
@@ -122,7 +121,6 @@ signals:
 private:
     bool eventFilter(QObject *object, QEvent *event) override;
     Imap::Message::Envelope envelope() const;
-    QString quoteText() const;
     void showMessageNow();
     AbstractPartWidget *bodyWidget() const;
     void unsetPreviousMessage();

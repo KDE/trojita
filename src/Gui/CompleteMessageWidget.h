@@ -48,6 +48,11 @@ public:
     CompleteMessageWidget(QWidget *parent, QSettings *settings, Plugins::PluginManager *pluginManager,
             Imap::Mailbox::FavoriteTagsModel *m_favoriteTags);
 
+    [[nodiscard]] QModelIndex message() const;
+    void setMessage(const QModelIndex &index);
+
+    [[nodiscard]] QString quoteText();
+
     MessageView *messageView;
     QScrollArea *area;
     void closeEvent(QCloseEvent *event) override;
