@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-12-27 15:09+0200\n"
+"PO-Revision-Date: 2025-12-30 15:06+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -3697,12 +3697,12 @@ msgstr ""
 #: src/Imap/Model/MailboxTree.cpp:1244
 msgctxt "Imap::Mailbox::Model|"
 msgid "Today"
-msgstr ""
+msgstr "היום"
 
 #: src/Imap/Model/MailboxTree.cpp:1248
 msgctxt "Imap::Mailbox::Model|"
 msgid "Last Week"
-msgstr ""
+msgstr "שבוע שעבר"
 
 #: src/Imap/Model/MailboxTree.cpp:1251
 msgctxt ""
@@ -3710,19 +3710,19 @@ msgctxt ""
 "translated, but their order can be changed to follow the local conventions. "
 "For valid specifiers see http://doc.qt.io/qt-5/qdate.html#toString"
 msgid "MMMM yyyy"
-msgstr ""
+msgstr "MMMM, yyyy"
 
 #: src/Imap/Model/MailboxTree.cpp:1718
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1...]"
-msgstr ""
+msgstr "[%1 נטען…]"
 
 #: src/Imap/Model/MailboxTree.cpp:1719
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
-msgstr ""
+msgstr "[%1 נטען: %2…]"
 
 #: src/Imap/Model/Model.cpp:1088
 msgctxt "Imap::Mailbox::Model|"
@@ -3766,52 +3766,52 @@ msgstr ""
 #: src/Imap/Model/Model.cpp:1231
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
-msgstr ""
+msgstr "אנחנו לא מדברים מול שרת IMAP4"
 
 #: src/Imap/Model/Model.cpp:1486
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
-msgstr ""
+msgstr "החיבור מחוסל מסיבות שלא צוינו"
 
 #: src/Imap/Model/MsgListModel.cpp:284
 msgctxt "MsgListModel|"
 msgid "Subject"
-msgstr ""
+msgstr "נושא"
 
 #: src/Imap/Model/MsgListModel.cpp:286
 msgctxt "MsgListModel|"
 msgid "From"
-msgstr ""
+msgstr "מאת"
 
 #: src/Imap/Model/MsgListModel.cpp:288
 msgctxt "MsgListModel|"
 msgid "To"
-msgstr ""
+msgstr "אל"
 
 #: src/Imap/Model/MsgListModel.cpp:290
 msgctxt "MsgListModel|"
 msgid "Cc"
-msgstr ""
+msgstr "עותק"
 
 #: src/Imap/Model/MsgListModel.cpp:292
 msgctxt "MsgListModel|"
 msgid "Bcc"
-msgstr ""
+msgstr "עותק סמוי"
 
 #: src/Imap/Model/MsgListModel.cpp:294
 msgctxt "MsgListModel|"
 msgid "Date"
-msgstr ""
+msgstr "תאריך"
 
 #: src/Imap/Model/MsgListModel.cpp:296
 msgctxt "MsgListModel|"
 msgid "Received"
-msgstr ""
+msgstr "התקבלה"
 
 #: src/Imap/Model/MsgListModel.cpp:298
 msgctxt "MsgListModel|"
 msgid "Size"
-msgstr ""
+msgstr "גודל"
 
 #: src/Imap/Model/NetworkWatcher.cpp:63
 #, qt-format
@@ -3827,33 +3827,33 @@ msgstr[3] ""
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%1 (%2/%3)"
-msgstr ""
+msgstr "%1 (%2/%3)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:81
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:119
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n messages"
 msgid_plural "%n messages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "הודעה"
+msgstr[1] "שתי הודעות"
+msgstr[2] "%n הודעות"
+msgstr[3] "%n הודעות"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:120
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n unread"
 msgid_plural "%n unread"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "לא נקראה"
+msgstr[1] "שתיים לא נקראו"
+msgstr[2] "%n לא נקראו"
+msgstr[3] "%n לא נקראו"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
 #, qt-format
@@ -3868,12 +3868,12 @@ msgstr[3] ""
 #: src/Imap/Model/PrettyMsgListModel.cpp:108
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 msgid "Loading..."
-msgstr ""
+msgstr "בטעינה…"
 
 #: src/Imap/Model/PrettyMsgListModel.cpp:113
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 msgid "(no subject)"
-msgstr ""
+msgstr "(אין נושא)"
 
 #: src/Imap/Model/SQLCache.cpp:97
 msgctxt "QObject|"
@@ -4714,33 +4714,33 @@ msgstr ""
 #: src/Imap/Tasks/OpenConnectionTask.cpp:484
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Connecting to mail server"
-msgstr ""
+msgstr "מתבצעת התחברות לשרת דוא״ל"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:504
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "The security state of the SSL connection got rejected"
-msgstr ""
+msgstr "מצב האבטחה של חיבור ה־SSL נדחה"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:513
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
 "The security state of the connection after a STARTTLS operation got rejected"
-msgstr ""
+msgstr "מצב האבטחה של החיבור אחרי פעולת STARTTLS נדחה"
 
 #: src/Imap/Tasks/SortTask.cpp:55
 msgctxt "Imap::Mailbox::SortTask|"
 msgid "Mailbox vanished before we could ask for threading info"
-msgstr ""
+msgstr "תיבת הדוא״ל נעלמה לפני שהצלחנו לבקש פרטי שרשורים"
 
 #: src/Imap/Tasks/SortTask.cpp:150
 msgctxt "Imap::Mailbox::SortTask|"
 msgid "Sorting command has failed"
-msgstr ""
+msgstr "פקודת המיון נכשלה"
 
 #: src/Imap/Tasks/SortTask.cpp:243
 msgctxt "Imap::Mailbox::SortTask|"
 msgid "Sorting mailbox"
-msgstr ""
+msgstr "תיבת הדוא״ל ממוינת"
 
 #: src/Imap/Tasks/SubscribeUnsubscribeTask.cpp:94
 msgctxt "Imap::Mailbox::SubscribeUnsubscribeTask|"
@@ -4750,12 +4750,12 @@ msgstr ""
 #: src/Imap/Tasks/SubscribeUnsubscribeTask.cpp:110
 msgctxt "Imap::Mailbox::SubscribeUnsubscribeTask|"
 msgid "Updating subscription information"
-msgstr ""
+msgstr "פרטי המינוי מתעדכנים"
 
 #: src/Imap/Tasks/ThreadTask.cpp:53
 msgctxt "Imap::Mailbox::ThreadTask|"
 msgid "Mailbox vanished before we could ask for threading info"
-msgstr ""
+msgstr "תיבת הדוא״ל נעלמה לפני שהצלחנו לבקש פרטי שרשורים"
 
 #: src/Imap/Tasks/ThreadTask.cpp:75
 msgctxt "Imap::Mailbox::ThreadTask|"
@@ -4765,7 +4765,7 @@ msgstr ""
 #: src/Imap/Tasks/ThreadTask.cpp:109
 msgctxt "Imap::Mailbox::ThreadTask|"
 msgid "Fetching conversations"
-msgstr ""
+msgstr "הדיונים מתקבלים"
 
 #: src/Imap/Tasks/UidSubmitTask.cpp:55
 #, qt-format
@@ -4776,7 +4776,7 @@ msgstr ""
 #: src/Imap/Tasks/UidSubmitTask.cpp:84
 msgctxt "Imap::Mailbox::UidSubmitTask|"
 msgid "Sending mail"
-msgstr ""
+msgstr "דוא״ל נשלח"
 
 #: src/Imap/Tasks/UnSelectTask.cpp:49 src/Imap/Tasks/UnSelectTask.cpp:67
 msgctxt "Imap::Mailbox::UnSelectTask|"
@@ -4786,57 +4786,57 @@ msgstr ""
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:101
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
 msgid "Failed to update Mailbox FLAGS"
-msgstr ""
+msgstr "עדכון דגלוני תיבת הדוא״ל נכשל"
 
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:110
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
 msgid "Saving mailbox state"
-msgstr ""
+msgstr "מצב תיבת הדואר נשמר"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:121
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
 msgid "All messages got removed before we could've updated their flags"
-msgstr ""
+msgstr "כל ההודעות הוסרו לפני שהצלחנו לעדכן את הדגלונים שלהן"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:138
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
 msgid "Failed to update FLAGS"
-msgstr ""
+msgstr "עדכון הדגלונים נכשל"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:148
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
 msgid "Saving message state"
-msgstr ""
+msgstr "מצב ההודעה נשמר"
 
 #: src/MSA/AbstractMSA.cpp:51
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "Sending mail plaintext is not supported by %1"
-msgstr ""
+msgstr "ב־%1 אין תמיכה בשליחת דוא״ל בטקסט לא מוצפן"
 
 #: src/MSA/AbstractMSA.cpp:59
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "BURL is not supported by %1"
-msgstr ""
+msgstr "ב־%1 אין תמיכה ב־BURL"
 
 #: src/MSA/AbstractMSA.cpp:68
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "IMAP sending is not supported by %1"
-msgstr ""
+msgstr "ב־%1 אין תמיכה בשליחה דרך IMAP"
 
 #: src/MSA/AbstractMSA.cpp:74
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "Setting password is not supported by %1"
-msgstr ""
+msgstr "ב־%1 אין תמיכה בהגדרת סיסמה"
 
 #: src/MSA/Account.cpp:233
 #, qt-format
 msgctxt "Account|"
 msgid "This port is nonstandard. The default port for cleartext SMTP is %1."
-msgstr ""
+msgstr "זאת פתחה לא שגרתית. פתחת ברירת המחדל ל־SMTP ללא הצפנה היא %1."
 
 #: src/MSA/Account.cpp:236
 #, qt-format
@@ -4845,6 +4845,7 @@ msgid ""
 "This port is nonstandard. The default port for SMTP submission secured via "
 "STARTTLS is %1."
 msgstr ""
+"זאת פתחה לא שגרתית. פתחת ברירת המחדל להגשת SMTP באבטחת STARTTLS היא %1."
 
 #: src/MSA/Account.cpp:239
 #, qt-format
@@ -4853,12 +4854,14 @@ msgid ""
 "This port is nonstandard. The default port for SMTP over encrypted SSL/TLS "
 "connection is %1."
 msgstr ""
+"זאת פתחה לא שגרתית. פתחת ברירת המחדל ל־SMTP על גבי חיבור בהצפנת SSL/TLS היא "
+"%1."
 
 #: src/MSA/Sendmail.cpp:85
 #, qt-format
 msgctxt "MSA::Sendmail|"
 msgid "The sendmail process has failed: %1"
-msgstr ""
+msgstr "תהליך sendmail נכשל: %1"
 
 #: src/MSA/Sendmail.cpp:107
 #, qt-format
@@ -4868,22 +4871,25 @@ msgid ""
 "%2\n"
 "%3"
 msgstr ""
+"תהליך sendmail נכשל (%1):\n"
+"%2\n"
+"%3"
 
 #: src/MSA/SMTP.cpp:54
 msgctxt "MSA::SMTP|"
 msgid "Sending of the message was cancelled"
-msgstr ""
+msgstr "שליחת ההודעה בוטלה"
 
 #: src/MSA/SMTP.cpp:69
 msgctxt "MSA::SMTP|"
 msgid "Sending of the message failed."
-msgstr ""
+msgstr "שליחת ההודעה נכשלה."
 
 #: src/MSA/SMTP.cpp:71
 #, qt-format
 msgctxt "MSA::SMTP|"
 msgid "Sending of the message failed with the following error: %1"
-msgstr ""
+msgstr "שליחת ההודעה נכשלה עם השגיאה הבאה: %1"
 
 #: src/MSA/SMTP.cpp:85
 #, qt-format
@@ -4892,6 +4898,8 @@ msgid ""
 "<p>Cannot send message due to an SSL/TLS error</p>\n"
 "%1"
 msgstr ""
+"<p>לא ניתן לשלוח הודעות עקב שגיאת SSL/TLS</p>\n"
+"%1"
 
 #: src/MSA/SMTP.cpp:139
 msgctxt "MSA::SMTP|"
