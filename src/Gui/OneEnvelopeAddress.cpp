@@ -39,8 +39,8 @@
 
 namespace Gui {
 
-OneEnvelopeAddress::OneEnvelopeAddress(QWidget *parent, const Imap::Message::MailAddress &address, MessageView *messageView, const Position lastOneInRow):
-    QLabel(parent), m_address(address), m_lastOneInRow(lastOneInRow), m_pluginManager(messageView->pluginManager())
+OneEnvelopeAddress::OneEnvelopeAddress(QWidget *parent, const Imap::Message::MailAddress &address, Plugins::PluginManager *pluginManager, const Position lastOneInRow):
+    QLabel(parent), m_address(address), m_lastOneInRow(lastOneInRow), m_pluginManager(pluginManager)
 {
     setTextInteractionFlags(Qt::TextSelectableByMouse | Qt::LinksAccessibleByMouse);
     setIndent(5);

@@ -104,7 +104,7 @@ MessageView::MessageView(QWidget *parent, QSettings *settings, Plugins::PluginMa
     auto fullMsgLayout = new QVBoxLayout(m_messageWidget);
     m_stack->addWidget(m_messageWidget);
 
-    m_envelope = new EnvelopeView(m_messageWidget, this);
+    m_envelope = new EnvelopeView(m_messageWidget, pluginManager);
     fullMsgLayout->addWidget(m_envelope, 1);
 
     tags = new TagListWidget(m_messageWidget, m_favoriteTags);

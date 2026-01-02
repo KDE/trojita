@@ -36,7 +36,7 @@
 
 namespace Gui {
 
-EnvelopeView::EnvelopeView(QWidget *parent, MessageView *messageView): QWidget(parent), m_messageView(messageView)
+EnvelopeView::EnvelopeView(QWidget *parent, Plugins::PluginManager *pluginManager): QWidget(parent), m_pluginManager(pluginManager)
 {
     QVBoxLayout *lay = new QVBoxLayout(this);
     lay->setContentsMargins(0, 0, 0, 0);
@@ -103,22 +103,22 @@ void EnvelopeView::setMessage(const QModelIndex &index)
     QString senderLabel;
     if (!e.from.isEmpty()) {
         senderLabel = tr("From");
-        senderWidget = new AddressRowWidget(this, QString(), e.from, m_messageView);
+        senderWidget = new AddressRowWidget(this, QString(), e.from, m_pluginManager);
     }
     if (!e.sender.isEmpty() && e.sender != e.from) {
         if (senderWidget) {
-            senderWidget->addAddresses(QStringLiteral(" %1").arg(tr("sent via")), e.sender, m_messageView);
+            senderWidget->addAddresses(QStringLiteral(" %1").arg(tr("sent via")), e.sender, m_pluginManager);
         } else {
             senderLabel = tr("Sender");
-            senderWidget = new AddressRowWidget(this, QString(), e.sender, m_messageView);
+            senderWidget = new AddressRowWidget(this, QString(), e.sender, m_pluginManager);
         }
     }
     if (!e.replyTo.isEmpty() && e.replyTo != e.from) {
         if (senderWidget) {
-            senderWidget->addAddresses(QStringLiteral(", %1").arg(tr("replies to")), e.replyTo, m_messageView);
+            senderWidget->addAddresses(QStringLiteral(", %1").arg(tr("replies to")), e.replyTo, m_pluginManager);
         } else {
             senderLabel = tr("Reply-To");
-            senderWidget = new AddressRowWidget(this, QString(), e.replyTo, m_messageView);
+            senderWidget = new AddressRowWidget(this, QString(), e.replyTo, m_pluginManager);
         }
     }
     if (senderWidget)
@@ -129,22 +129,22 @@ void EnvelopeView::setMessage(const QModelIndex &index)
     QString receiverLabel;
     if (!e.to.isEmpty()) {
         receiverLabel = tr("To");
-        receiverWidget = new AddressRowWidget(this, QString(), e.to, m_messageView);
+        receiverWidget = new AddressRowWidget(this, QString(), e.to, m_pluginManager);
     }
     if (!e.cc.isEmpty()) {
         if (receiverWidget) {
-            receiverWidget->addAddresses(QStringLiteral(" %1").arg(tr("Cc'd to")), e.cc, m_messageView);
+            receiverWidget->addAddresses(QStringLiteral(" %1").arg(tr("Cc'd to")), e.cc, m_pluginManager);
         } else {
             receiverLabel = tr("Cc");
-            receiverWidget = new AddressRowWidget(this, QString(), e.cc, m_messageView);
+            receiverWidget = new AddressRowWidget(this, QString(), e.cc, m_pluginManager);
         }
     }
     if (!e.bcc.isEmpty()) {
         if (receiverWidget) {
-            receiverWidget->addAddresses(QStringLiteral(" %1").arg(tr("Bcc'd to")), e.bcc, m_messageView);
+            receiverWidget->addAddresses(QStringLiteral(" %1").arg(tr("Bcc'd to")), e.bcc, m_pluginManager);
         } else {
             receiverLabel = tr("Bcc");
-            receiverWidget = new AddressRowWidget(this, QString(), e.bcc, m_messageView);
+            receiverWidget = new AddressRowWidget(this, QString(), e.bcc, m_pluginManager);
         }
     }
     if (receiverWidget)

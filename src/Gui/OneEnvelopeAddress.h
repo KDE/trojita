@@ -33,8 +33,6 @@ class PluginManager;
 
 namespace Gui {
 
-class MessageView;
-
 /** @short Widget displaying the message envelope */
 class OneEnvelopeAddress : public QLabel
 {
@@ -46,7 +44,7 @@ public:
         Last, /**< This is the last item */
     };
 
-    OneEnvelopeAddress(QWidget *parent, const Imap::Message::MailAddress &address, MessageView *messageView, const Position lastOneInRow);
+    OneEnvelopeAddress(QWidget *parent, const Imap::Message::MailAddress &address, Plugins::PluginManager *pluginManager, const Position lastOneInRow);
 
     void contextMenuEvent(QContextMenuEvent *e) override;
 

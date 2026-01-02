@@ -444,7 +444,7 @@ Message822Widget::Message822Widget(QWidget *parent,
 {
     QVBoxLayout *layout = new QVBoxLayout(this);
     layout->setSpacing(0);
-    EnvelopeView *envelope = new EnvelopeView(0, factory->context());
+    EnvelopeView *envelope = new EnvelopeView(0, factory->context()->pluginManager());
     envelope->setMessage(partIndex);
     layout->addWidget(envelope);
     for (int i = 0; i < partIndex.model()->rowCount(partIndex); ++i) {

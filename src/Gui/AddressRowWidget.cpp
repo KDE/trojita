@@ -22,6 +22,7 @@
 #include "Gui/AddressRowWidget.h"
 #include "Gui/FlowLayout.h"
 #include "Gui/OneEnvelopeAddress.h"
+#include "Plugins/PluginManager.h"
 
 #include <QLabel>
 #include <QMouseEvent>
@@ -40,7 +41,7 @@ static int plainChars(const QLabel *l)
 }
 
 AddressRowWidget::AddressRowWidget(QWidget *parent, const QString &description,
-                                   const QList<Imap::Message::MailAddress> &addresses, MessageView *messageView):
+                                   const QList<Imap::Message::MailAddress> &addresses, Plugins::PluginManager *pluginManager):
     QWidget(parent), m_expander(0), m_expandedLength(0)
 {
     FlowLayout *lay = new FlowLayout(this, 0, 0, 0);
@@ -48,10 +49,10 @@ AddressRowWidget::AddressRowWidget(QWidget *parent, const QString &description,
 
     setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
 
-    addAddresses(description, addresses, messageView);
+    addAddresses(description, addresses, pluginManager);
 }
 
-void AddressRowWidget::addAddresses(const QString &description, const QList<Imap::Message::MailAddress> &addresses, MessageView *messageView)
+void AddressRowWidget::addAddresses(const QString &description, const QList<Imap::Message::MailAddress> &addresses, Plugins::PluginManager *pluginManager)
 {
     if (m_expander)
         layout()->removeWidget(m_expander);
@@ -65,7 +66,7 @@ void AddressRowWidget::addAddresses(const QString &description, const QList<Imap
     }
     int collapse = m_expander ? m_expander->expanding() : 0;
     for (int i = 0; i < addresses.size(); ++i) {
-        auto *w = new OneEnvelopeAddress(this, addresses[i], messageView,
+        auto *w = new OneEnvelopeAddress(this, addresses[i], pluginManager,
                                          i == addresses.size() - 1 ?
                                          OneEnvelopeAddress::Position::Last :
                                          OneEnvelopeAddress::Position::Middle);

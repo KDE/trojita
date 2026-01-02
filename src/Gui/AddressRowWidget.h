@@ -30,9 +30,11 @@ class MailAddress;
 }
 }
 
-namespace Gui {
+namespace Plugins {
+    class PluginManager;
+}
 
-class MessageView;
+namespace Gui {
 
 /** @short A label with expansion indicating text and "clicked" signal */
 class Expander : public QLabel
@@ -57,8 +59,8 @@ class AddressRowWidget : public QWidget
 {
     Q_OBJECT
 public:
-    AddressRowWidget(QWidget *parent, const QString &description, const QList<Imap::Message::MailAddress> &addresses, MessageView *messageView);
-    void addAddresses(const QString &description, const QList<Imap::Message::MailAddress> &addresses, MessageView *messageView);
+    AddressRowWidget(QWidget *parent, const QString &description, const QList<Imap::Message::MailAddress> &addresses, Plugins::PluginManager *pluginManager);
+    void addAddresses(const QString &description, const QList<Imap::Message::MailAddress> &addresses, Plugins::PluginManager *pluginManager);
 
 private slots:
     void toggle();

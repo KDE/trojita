@@ -31,16 +31,18 @@ class MailAddress;
 }
 }
 
-namespace Gui {
+namespace Plugins {
+    class PluginManager;
+}
 
-class MessageView;
+namespace Gui {
 
 /** @short Widget displaying the message envelope */
 class EnvelopeView : public QWidget
 {
     Q_OBJECT
 public:
-    EnvelopeView(QWidget *parent, MessageView *messageView);
+    EnvelopeView(QWidget *parent, Plugins::PluginManager *pluginManager);
 
     void setMessage(const QModelIndex &index);
 
@@ -49,7 +51,7 @@ private:
 
     QString htmlizeAddresses(const QList<Imap::Message::MailAddress> &addresses);
 
-    MessageView *m_messageView;
+    Plugins::PluginManager *m_pluginManager;
 
     EnvelopeView(const EnvelopeView &); // don't implement
     EnvelopeView &operator=(const EnvelopeView &); // don't implement
