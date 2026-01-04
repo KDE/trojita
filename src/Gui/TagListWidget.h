@@ -46,8 +46,8 @@ public:
     void setTagList(QStringList list);
 
 signals:
-    void tagAdded(QString tag);
-    void tagRemoved(QString tag);
+    void tagAdded(const QString &tag);
+    void tagRemoved(const QString &tag);
 
 private slots:
     void newTagsRequested();
