@@ -245,7 +245,7 @@ void MessageView::showMessageNow()
     m_envelope->setMessage(message);
 
     auto updateTagList = [this]() {
-        tags->setTagList(message.data(Imap::Mailbox::RoleMessageFlags).toStringList());
+        tags->setTagList(m_taghandler.tags(message));
     };
     connect(messageModel, &QAbstractItemModel::dataChanged, this, updateTagList);
     updateTagList();
@@ -445,20 +445,12 @@ void MessageView::enableExternalData()
 
 void MessageView::newLabelAction(const QString &tag)
 {
-    if (!message.isValid())
-        return;
-
-    Imap::Mailbox::Model *model = dynamic_cast<Imap::Mailbox::Model *>(const_cast<QAbstractItemModel *>(message.model()));
-    model->setMessageFlags(QModelIndexList() << message, tag, Imap::Mailbox::FLAG_ADD);
+    m_taghandler.addTag(message, tag);
 }
 
 void MessageView::deleteLabelAction(const QString &tag)
 {
-    if (!message.isValid())
-        return;
-
-    Imap::Mailbox::Model *model = dynamic_cast<Imap::Mailbox::Model *>(const_cast<QAbstractItemModel *>(message.model()));
-    model->setMessageFlags(QModelIndexList() << message, tag, Imap::Mailbox::FLAG_REMOVE);
+    m_taghandler.removeTag(message, tag);
 }
 
 void MessageView::showEvent(QShowEvent *se)

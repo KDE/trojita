@@ -30,6 +30,7 @@
 #include "Composer/Recipients.h"
 #include "Gui/PartWalker.h"
 #include "Imap/Model/FavoriteTagsModel.h"
+#include "TagHandler.h"
 
 class QBoxLayout;
 class QLabel;
@@ -148,6 +149,7 @@ private:
     Spinner *m_loadingSpinner;
     QSettings *m_settings;
     Plugins::PluginManager *m_pluginManager;
+    TagHandler m_taghandler;
     QSet<QWebView*> m_loadingItems;
 
     std::vector<QMetaObject::Connection> m_waitingMessageConns;
