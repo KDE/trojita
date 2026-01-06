@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-12-30 15:06+0200\n"
+"PO-Revision-Date: 2026-01-04 11:03+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -3355,7 +3355,7 @@ msgstr ""
 #: src/Gui/Window.cpp:2141
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
-msgstr ""
+msgstr "דחיסת IMAP"
 
 #: src/Gui/Window.cpp:2152
 #, qt-format
@@ -3938,32 +3938,32 @@ msgstr ""
 #: src/Imap/Model/SQLCache.cpp:224
 msgctxt "QObject|"
 msgid "Failed to prepare table structures"
-msgstr ""
+msgstr "הכנת מבני הטבלה נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:228
 msgctxt "QObject|"
 msgid "Can't store version info"
-msgstr ""
+msgstr "לא ניתן לאחסן פרטי גרסה"
 
 #: src/Imap/Model/SQLCache.cpp:239
 msgctxt "QObject|"
 msgid "Can't create table child_mailboxes"
-msgstr ""
+msgstr "לא ניתן ליצור את הטבלה child_mailboxes"
 
 #: src/Imap/Model/SQLCache.cpp:247
 msgctxt "QObject|"
 msgid "Can't create table uid_mapping"
-msgstr ""
+msgstr "לא ניתן ליצור את הטבלה uid_mapping"
 
 #: src/Imap/Model/SQLCache.cpp:259
 msgctxt "QObject|"
 msgid "Can't create table flags"
-msgstr ""
+msgstr "לא ניתן ליצור את דגלוני הטבלה"
 
 #: src/Imap/Model/SQLCache.cpp:269
 msgctxt "QObject|"
 msgid "Can't create table parts"
-msgstr ""
+msgstr "לא ניתן ליצור את חלקי הטבלה"
 
 #: src/Imap/Model/SQLCache.cpp:282
 msgctxt "QObject|"
@@ -4312,7 +4312,7 @@ msgstr ""
 #: src/Imap/Network/MsgPartNetworkReply.cpp:87
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Error downloading data"
-msgstr ""
+msgstr "שגיאת הורדת נתונים"
 
 #: src/Imap/Tasks/AppendTask.cpp:97
 msgctxt "Imap::Mailbox::AppendTask|"
@@ -4611,7 +4611,7 @@ msgstr ""
 #: src/Imap/Tasks/OpenConnectionTask.cpp:195
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "This server gracefully refuses IMAP connections through a BYE response."
-msgstr ""
+msgstr "השרת מסרב בנימוס לחיבורי IMAP עם תגובת BYE (סיום)."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:202
 #, qt-format
@@ -4620,11 +4620,13 @@ msgid ""
 "The server replied with the following BAD response:\n"
 "%1"
 msgstr ""
+"השרת השיב עם תגובת ה־BAD (פסול) הבאה:\n"
+"%1"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:204
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server has greeted us with a BAD response"
-msgstr ""
+msgstr "השרת קיבלת את פנינו עם תגובת BAD (פסול)"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:236
 #, qt-format
@@ -4633,23 +4635,25 @@ msgid ""
 "Cannot establish a secure connection.\n"
 "The STARTTLS command failed: %1"
 msgstr ""
+"לא ניתן להקים חיבור מאובטח.\n"
+"פקודת ה־STARTTLS נכשלה: %1"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:265
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server error: Capabilities contain LOGINDISABLED even after STARTTLS"
-msgstr ""
+msgstr "שגיאת שרת: היכולות מכילות LOGINDISABLED אפילו אחרי STARTTLS"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:301
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Temporary failure because a subsystem is down."
-msgstr ""
+msgstr "כשל זמני עקב תת־מערכת לא פעילה."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:304
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
 "Authentication failed.  This often happens due to bad password or wrong user "
 "name."
-msgstr ""
+msgstr "האימות נכשל. זה בדרך כלל קורה עקב סיסמה או שם משתמש שגויים."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:307
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4666,16 +4670,18 @@ msgid ""
 "data; either way, access is no longer permitted using that passphrase.  You "
 "should get a new passphrase."
 msgstr ""
+"או שהאימות הצליח או שלשרת לא היה עוד את הנתונים הנחוצים, כך או כך, הגישה עם "
+"מילת הצופן הזאת לא מורשית יותר. צריך מילת צופן חדשה."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:317
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "The operation is not permitted due to a lack of privacy."
-msgstr ""
+msgstr "הפעולה לא מורשית עקב העדר פרטיות."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:320
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "You should contact the system administrator or support desk."
-msgstr ""
+msgstr "יש ליצור קשר עם הנהלת המערכת או מערך התמיכה."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:327
 #, qt-format
@@ -4687,7 +4693,7 @@ msgstr "הכניסה נכשלה: %1"
 #, qt-format
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:383
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
