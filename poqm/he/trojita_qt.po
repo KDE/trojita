@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-04 11:03+0200\n"
+"PO-Revision-Date: 2026-01-07 13:51+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 25.12.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -4109,133 +4109,133 @@ msgstr ""
 #: src/Imap/Model/SQLCache.cpp:488
 msgctxt "QObject|"
 msgid "Query queryChildMailboxesFresh failed"
-msgstr ""
+msgstr "השאילתה queryChildMailboxesFresh נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:513
 msgctxt "QObject|"
 msgid "Query queryRemoveChildMailboxes failed"
-msgstr ""
+msgstr "השאילתה queryRemoveChildMailboxes נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:521
 msgctxt "QObject|"
 msgid "Query querySetChildMailboxes failed"
-msgstr ""
+msgstr "השאילתה querySetChildMailboxes נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:531
 msgctxt "QObject|"
 msgid "Query queryMailboxSyncState failed"
-msgstr ""
+msgstr "השאילתה queryMailboxSyncState נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:556
 msgctxt "QObject|"
 msgid "Query querySetMailboxSyncState failed"
-msgstr ""
+msgstr "השאילתה querySetMailboxSyncState נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:566
 msgctxt "QObject|"
 msgid "Query queryUidMapping failed"
-msgstr ""
+msgstr "השאילתה queryUidMapping נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:591
 msgctxt "QObject|"
 msgid "Query querySetUidMapping failed"
-msgstr ""
+msgstr "השאילתה querySetUidMapping נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:603
 msgctxt "QObject|"
 msgid "Query queryClearUidMapping failed"
-msgstr ""
+msgstr "השאילתה queryClearUidMapping נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:618
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages1 failed"
-msgstr ""
+msgstr "השאילתה queryClearAllMessages1 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:621
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages2 failed"
-msgstr ""
+msgstr "השאילתה queryClearAllMessages2 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:624
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages3 failed"
-msgstr ""
+msgstr "השאילתה queryClearAllMessages3 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:627
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages4 failed"
-msgstr ""
+msgstr "השאילתה queryClearAllMessages4 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:645
 msgctxt "QObject|"
 msgid "Query queryClearMessage1 failed"
-msgstr ""
+msgstr "השאילתה queryClearMessage1 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:648
 msgctxt "QObject|"
 msgid "Query queryClearMessage2 failed"
-msgstr ""
+msgstr "השאילתה queryClearMessage2 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:651
 msgctxt "QObject|"
 msgid "Query queryClearMessage3 failed"
-msgstr ""
+msgstr "השאילתה queryClearMessage3 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:661
 msgctxt "QObject|"
 msgid "Query queryMessageFlags failed"
-msgstr ""
+msgstr "השאילתה queryMessageFlags נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:687
 msgctxt "QObject|"
 msgid "Query querySetMessageFlags failed"
-msgstr ""
+msgstr "השאילתה querySetMessageFlags נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:697
 msgctxt "QObject|"
 msgid "Query queryMessageMetadata failed"
-msgstr ""
+msgstr "השאילתה queryMessageMetadata נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:715
 msgctxt "QObject|"
 msgid "Query queryAccessMessageMetadata failed"
-msgstr ""
+msgstr "השאילתה queryAccessMessageMetadata נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:741
 msgctxt "QObject|"
 msgid "Query querySetMessageMetadata failed"
-msgstr ""
+msgstr "השאילתה querySetMessageMetadata נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:752
 msgctxt "QObject|"
 msgid "Query queryMessagePart failed"
-msgstr ""
+msgstr "השאילתה queryMessagePart נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:773
 msgctxt "QObject|"
 msgid "Query querySetMessagePart failed"
-msgstr ""
+msgstr "השאילתה querySetMessagePart נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:787
 msgctxt "QObject|"
 msgid "Query queryForgetMessagePart failed"
-msgstr ""
+msgstr "השאילתה queryForgetMessagePart נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:796
 msgctxt "QObject|"
 msgid "Query queryMessageThreading failed"
-msgstr ""
+msgstr "השאילתה queryMessageThreading נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:820
 msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
-msgstr ""
+msgstr "השאילתה querySetMessageThreading נכשלה"
 
 #: src/Imap/Model/TaskPresentationModel.cpp:194
 #, qt-format
 msgctxt "Imap::Mailbox::TaskPresentationModel|"
 msgid "Parser %1"
-msgstr ""
+msgstr "מפענח %1"
 
 #: src/Imap/Model/TaskPresentationModel.cpp:199
 #, qt-format
@@ -4264,45 +4264,45 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "CID not found (%1)"
-msgstr ""
+msgstr "ה־CID (מזהה תוכן) לא נמצא (%1)"
 
 #: src/Imap/Network/FileDownloadManager.cpp:60
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Unsupported URL (%1)"
-msgstr ""
+msgstr "כתובת לא נתמכת (%1)"
 
 #: src/Imap/Network/FileDownloadManager.cpp:74
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1.eml"
-msgstr ""
+msgstr "הודעה_%1.eml"
 
 #: src/Imap/Network/FileDownloadManager.cpp:77
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1_%2"
-msgstr ""
+msgstr "הודעה_%1_%2"
 
 #: src/Imap/Network/FileDownloadManager.cpp:89
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadPart(): part has disappeared"
-msgstr ""
+msgstr "FileDownloadManager::downloadPart(): חלק נעלם"
 
 #: src/Imap/Network/FileDownloadManager.cpp:118
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadMessage(): message has disappeared"
-msgstr ""
+msgstr "FileDownloadManager::downloadMessage(): ההודעה נעלמה"
 
 #: src/Imap/Network/ForbiddenReply.cpp:34
 msgctxt "Imap::Network::ForbiddenReply|"
 msgid "Remote Content Is Banned"
-msgstr ""
+msgstr "התוכן המרוחק חסום"
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:82
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Cannot access data"
-msgstr ""
+msgstr "לא ניתן לגשת לנתונים"
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:85
 msgctxt "Imap::Network::MsgPartNetworkReply|"
@@ -4317,7 +4317,7 @@ msgstr "שגיאת הורדת נתונים"
 #: src/Imap/Tasks/AppendTask.cpp:97
 msgctxt "Imap::Mailbox::AppendTask|"
 msgid "Uploading message"
-msgstr ""
+msgstr "ההודעה עולה"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:83
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
@@ -4327,13 +4327,13 @@ msgstr ""
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:105
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "ביקש להתחסל"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:116
 #, qt-format
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "The COPY operation has failed: %1"
-msgstr ""
+msgstr "פעולת COPY (העתקה) נכשלה: %1"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:123
 #, qt-format
@@ -4344,17 +4344,17 @@ msgstr ""
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:133
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "Copying messages"
-msgstr ""
+msgstr "הודעות מועתקות"
 
 #: src/Imap/Tasks/CreateMailboxTask.cpp:64
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "ביקש להתחסל"
 
 #: src/Imap/Tasks/CreateMailboxTask.cpp:71
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Cannot create mailbox"
-msgstr ""
+msgstr "לא ניתן ליצור תיבת דוא״ל"
 
 #: src/Imap/Tasks/CreateMailboxTask.cpp:79
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
@@ -4364,23 +4364,23 @@ msgstr ""
 #: src/Imap/Tasks/CreateMailboxTask.cpp:89
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Creating mailbox"
-msgstr ""
+msgstr "נוצרת תיבת דוא״ל"
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:99
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Couldn't delete mailbox"
-msgstr ""
+msgstr "לא ניתן למחוק תיבת דוא״ל"
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:109
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Deleting mailbox"
-msgstr ""
+msgstr "תיבת הדוא״ל נמחקת"
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:115
 #, qt-format
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox %1 has pending activity, so it cannot be deleted now."
-msgstr ""
+msgstr "יש פעולה ממתינה בתיבת הדוא״ל %1, לכן לא ניתן למחוק אותה כעת."
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:116
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
@@ -4445,33 +4445,33 @@ msgstr ""
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:101
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
 msgid "Downloading headers"
-msgstr ""
+msgstr "הכותרות יורדות"
 
 #: src/Imap/Tasks/FetchMsgPartTask.cpp:59
 #: src/Imap/Tasks/FetchMsgPartTask.cpp:75
 msgctxt "Imap::Mailbox::FetchMsgPartTask|"
 msgid "Mailbox disappeared"
-msgstr ""
+msgstr "תיבת הדוא״ל נעלמה"
 
 #: src/Imap/Tasks/FetchMsgPartTask.cpp:121
 msgctxt "Imap::Mailbox::FetchMsgPartTask|"
 msgid "Downloading messages"
-msgstr ""
+msgstr "ההורדות יורדות"
 
 #: src/Imap/Tasks/GenUrlAuthTask.cpp:87
 msgctxt "Imap::Mailbox::GenUrlAuthTask|"
 msgid "Obtaining authentication token"
-msgstr ""
+msgstr "אסימון האימות מתקבל"
 
 #: src/Imap/Tasks/IdTask.cpp:67
 msgctxt "Imap::Mailbox::IdTask|"
 msgid "ID failed, strange"
-msgstr ""
+msgstr "ID (מזהה) נכשל, מוזר"
 
 #: src/Imap/Tasks/IdTask.cpp:84
 msgctxt "Imap::Mailbox::IdTask|"
 msgid "Identifying server"
-msgstr ""
+msgstr "השרת מזוהה"
 
 #: src/Imap/Tasks/ImapTask.cpp:256
 #, qt-format
@@ -4480,6 +4480,8 @@ msgid ""
 "The server sent the following ALERT:\n"
 "%1"
 msgstr ""
+"השרת שלח את ה־ALERT (התראה) הבא:\n"
+"%1"
 
 #: src/Imap/Tasks/ImapTask.h:191
 msgctxt "Imap::Mailbox::ImapTask|"
@@ -4533,32 +4535,32 @@ msgstr ""
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:105
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Mailbox no longer available -- weird timing?"
-msgstr ""
+msgstr "תיבת הדוא״ל לא זמינה עוד -- תזמון מוזר?"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:151
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Listing mailboxes"
-msgstr ""
+msgstr "תיבות הדוא״ל מוצגות"
 
 #: src/Imap/Tasks/NoopTask.cpp:63
 msgctxt "Imap::Mailbox::NoopTask|"
 msgid "NOOP failed, strange"
-msgstr ""
+msgstr "ה־NOOP (אין פעולה) נכשל, מוזר"
 
 #: src/Imap/Tasks/NoopTask.cpp:74
 msgctxt "Imap::Mailbox::NoopTask|"
 msgid "Checking for new messages"
-msgstr ""
+msgstr "מתבצעת בדיקה לאיתור הודעות חדשות"
 
 #: src/Imap/Tasks/NumberOfMessagesTask.cpp:78
 msgctxt "Imap::Mailbox::NumberOfMessagesTask|"
 msgid "STATUS has failed"
-msgstr ""
+msgstr "STATUS (מצב) נכשל"
 
 #: src/Imap/Tasks/NumberOfMessagesTask.cpp:99
 msgctxt "Imap::Mailbox::NumberOfMessagesTask|"
 msgid "Looking for messages"
-msgstr ""
+msgstr "מתבצע איתור הודעות"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:72
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
@@ -4705,12 +4707,12 @@ msgstr ""
 #: src/Imap/Tasks/OpenConnectionTask.cpp:403
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server error: did not get the required CAPABILITY response."
-msgstr ""
+msgstr "שגיאת שרת: לא התקבלה תגובת ה־CAPABILITY (יכולת) הנדרשת."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:407
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server error: The CAPABILITY request failed."
-msgstr ""
+msgstr "שגיאת שרת: בקשת CAPABILITY (יכולת) נכשלה."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:472
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4751,7 +4753,7 @@ msgstr "תיבת הדוא״ל ממוינת"
 #: src/Imap/Tasks/SubscribeUnsubscribeTask.cpp:94
 msgctxt "Imap::Mailbox::SubscribeUnsubscribeTask|"
 msgid "SUBSCRIBE/UNSUBSCRIBE has failed"
-msgstr ""
+msgstr "SUBSCRIBE/UNSUBSCRIBE (רישום/הסרה) נכשלו"
 
 #: src/Imap/Tasks/SubscribeUnsubscribeTask.cpp:110
 msgctxt "Imap::Mailbox::SubscribeUnsubscribeTask|"
@@ -4777,7 +4779,7 @@ msgstr "הדיונים מתקבלים"
 #, qt-format
 msgctxt "Imap::Mailbox::UidSubmitTask|"
 msgid "UIDVALIDITY mismatch: expected %1, got %2"
-msgstr ""
+msgstr "חוסר תאימות UIDVALIDITY: אמור להיות %1, התקבל %2"
 
 #: src/Imap/Tasks/UidSubmitTask.cpp:84
 msgctxt "Imap::Mailbox::UidSubmitTask|"
@@ -4916,7 +4918,7 @@ msgstr "מצב SMTP לא ידוע"
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:151
 msgctxt "BE::Contacts|"
 msgid "BE::Contacts"
-msgstr ""
+msgstr "BE::Contacts"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:398
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
