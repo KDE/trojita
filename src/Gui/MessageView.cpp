@@ -29,8 +29,6 @@
 
 #include "Common/InvokeMethod.h"
 #include "Common/SettingsNames.h"
-#include "Composer/QuoteText.h"
-#include "Composer/SubjectMangling.h"
 #include "Cryptography/MessageModel.h"
 #include "Gui/MessageView.h"
 #include "Gui/ComposeWidget.h"
@@ -344,32 +342,26 @@ bool MessageView::eventFilter(QObject *object, QEvent *event)
     }
 }
 
-QString MessageView::quoteText() const
+QString MessageView::text() const
 {
     if (auto w = bodyWidget()) {
-        const Imap::Message::Envelope &e = message.data(Imap::Mailbox::RoleMessageEnvelope).value<Imap::Message::Envelope>();
-        QString sender;
-        if (!e.from.isEmpty())
-            sender = e.from[0].prettyName(Imap::Message::MailAddress::FORMAT_JUST_NAME);
-        if (e.from.isEmpty())
-            sender = tr("you");
-
-        QModelIndex index = messageModel->index(0, 0); /* fake message root */
-        if (messageModel->index(0, 0, index)  /* first MIME part */.data(Imap::Mailbox::RolePartDecryptionSupported).toBool()) {
-            // This is just an UX improvement shortcut: real filtering for CVE-2019-10734 is in
-            // MultipartSignedEncryptedWidget::quoteMe().
-            // That is required because the encrypted part might not be the root part of the message.
-            return tr("On %1, %2 sent an encrypted message:\n> ...\n\n")
-                .arg(QLocale::system().toString(e.date.toLocalTime(), QLocale::LongFormat), sender);
-        }
-
-        QStringList quote = Composer::quoteText(w->quoteMe().split(QLatin1Char('\n')));
-        // One extra newline at the end of the quoted text to separate the response
-        quote << QString();
-
-        return tr("On %1, %2 wrote:\n").arg(QLocale::system().toString(e.date.toLocalTime(), QLocale::LongFormat), sender) + quote.join(QStringLiteral("\n"));
+        return w->quoteMe();
     }
+
     return QString();
+}
+
+bool MessageView::isCryptoMessage() const
+{
+    QModelIndex index = messageModel->index(0, 0); /* fake message root */
+    if (messageModel->index(0, 0, index)  /* first MIME part */.data(Imap::Mailbox::RolePartDecryptionSupported).toBool()) {
+        // This is just an UX improvement shortcut: real filtering for CVE-2019-10734 is in
+        // MultipartSignedEncryptedWidget::quoteMe().
+        // That is required because the encrypted part might not be the root part of the message.
+        return true;
+    }
+
+    return false;
 }
 
 #define FORWARD_METHOD(METHOD) \

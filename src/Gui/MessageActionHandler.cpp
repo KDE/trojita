@@ -1,6 +1,7 @@
 /* Copyright (C) 2006 - 2016 Jan Kundrát <jkt@kde.org>
    Copyright (C) 2014        Luke Dashjr <luke+trojita@dashjr.org>
    Copyright (C) 2014 - 2015 Stephan Platz <trojita@paalsteek.de>
+   Copyright (C) 2026 Espen Sandøy Hustad <espen@ehustad.com>
 
    This file is part of the Trojita Qt IMAP e-mail client,
    http://trojita.flaska.net/
@@ -24,6 +25,7 @@
 
 #include "MessageActionHandler.h"
 
+#include "Composer/QuoteText.h"
 #include "Composer/SubjectMangling.h"
 #include "Imap/Model/ItemRoles.h"
 
@@ -31,8 +33,10 @@
 #include "Window.h"
 
 #include <QByteArray>
+#include <QCoreApplication>
 #include <QList>
 #include <QModelIndex>
+#include <QStringList>
 
 namespace Gui
 {
@@ -64,7 +68,7 @@ void MessageActionHandler::forward(const QModelIndex &messageIndex, const Compos
         m_parent);
 }
 
-void MessageActionHandler::reply(const QModelIndex &messageIndex, const Composer::ReplyMode mode, const QString &quoteText)
+void MessageActionHandler::reply(const QModelIndex &messageIndex, const Composer::ReplyMode mode, const QString &text, const MessageType messageType)
 {
     if (!messageIndex.isValid())
         return;
@@ -82,10 +86,35 @@ void MessageActionHandler::reply(const QModelIndex &messageIndex, const Composer
                                    messageIndex,
                                    QList<QPair<Composer::RecipientKind, QString>>(),
                                    Composer::Util::replySubject(messageIndex.data(Imap::Mailbox::RoleMessageSubject).toString()),
-                                   quoteText,
+                                   quoteText(messageIndex, text, messageType),
                                    messageIdList,
                                    messageIndex.data(Imap::Mailbox::RoleMessageHeaderReferences).value<QList<QByteArray>>() + messageIdList),
         m_parent);
+}
+
+QString MessageActionHandler::quoteText(const QModelIndex &messageIndex, const QString &text, const MessageType messageType) const
+{
+    const Imap::Message::Envelope &e = messageIndex.data(Imap::Mailbox::RoleMessageEnvelope).value<Imap::Message::Envelope>();
+    QString sender;
+    if (!e.from.isEmpty()) {
+        sender = e.from[0].prettyName(Imap::Message::MailAddress::FORMAT_JUST_NAME);
+    }
+    if (e.from.isEmpty()) {
+        sender = QCoreApplication::translate("MessageActionHandler", "you");
+    }
+
+    if (messageType == CryptoMessage) {
+        return QCoreApplication::translate("MessageActionHandler", "On %1, %2 sent an encrypted message:\n> ...\n\n")
+            .arg(QLocale::system().toString(e.date.toLocalTime(), QLocale::LongFormat), sender);
+    }
+
+    QStringList quote = Composer::quoteText(text.split(QLatin1Char('\n')));
+    // One extra newline at the end of the quoted text to separate the response
+    quote << QString();
+
+    return QCoreApplication::translate("MessageActionHandler", "On %1, %2 wrote:\n")
+               .arg(QLocale::system().toString(e.date.toLocalTime(), QLocale::LongFormat), sender)
+        + quote.join(QStringLiteral("\n"));
 }
 
 }

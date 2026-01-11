@@ -236,8 +236,13 @@ void MainWindow::reply(const Composer::ReplyMode mode)
 {
 #ifdef TROJITA_HAVE_WEBKIT
     const QModelIndex messageIndex = m_messageWidget->message();
-    const QString quoteText = m_messageWidget->quoteText();
-    m_msgActionHandler.reply(messageIndex, mode, quoteText);
+    const QString text = m_messageWidget->text();
+
+    if (m_messageWidget->isCryptoMessage()) {
+        m_msgActionHandler.reply(messageIndex, mode, text, MessageActionHandler::CryptoMessage);
+    } else {
+        m_msgActionHandler.reply(messageIndex, mode, text, MessageActionHandler::Message);
+    }
 #endif
 }
 

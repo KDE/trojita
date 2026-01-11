@@ -1,5 +1,6 @@
 /* Copyright (C) 2006 - 2016 Jan Kundrát <jkt@kde.org>
    Copyright (C) 2014 - 2015 Stephan Platz <trojita@paalsteek.de>
+   Copyright (C) 2026 Espen Sandøy Hustad <espen@ehustad.com>
 
    This file is part of the Trojita Qt IMAP e-mail client,
    http://trojita.flaska.net/
@@ -37,12 +38,19 @@ class MainWindow;
 class MessageActionHandler
 {
 public:
+    enum MessageType {
+        Message,
+        CryptoMessage
+    };
+
     MessageActionHandler(MainWindow *parent);
 
     void forward(const QModelIndex &messageIndex, const Composer::ForwardMode mode);
-    void reply(const QModelIndex &messageIndex, const Composer::ReplyMode mode, const QString &quoteText);
+    void reply(const QModelIndex &messageIndex, const Composer::ReplyMode mode, const QString &text, const MessageType messageType);
 
 private:
+    [[nodiscard]] QString quoteText(const QModelIndex &messageIndex, const QString &text, const MessageType messageType) const;
+
     MainWindow *m_parent;
 };
 

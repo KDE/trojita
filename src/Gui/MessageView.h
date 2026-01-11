@@ -89,7 +89,8 @@ public:
     QModelIndex currentMessage() const;
     Plugins::PluginManager *pluginManager() const;
     QSettings* profileSettings() const;
-    QString quoteText() const;
+    QString text() const;
+    bool isCryptoMessage() const;
 public slots:
     void setMessage(const QModelIndex &index);
     void setEmpty();

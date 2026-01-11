@@ -48,10 +48,12 @@ public:
     CompleteMessageWidget(QWidget *parent, QSettings *settings, Plugins::PluginManager *pluginManager,
             Imap::Mailbox::FavoriteTagsModel *m_favoriteTags);
 
+    [[nodiscard]] bool isCryptoMessage() const;
+
     [[nodiscard]] QModelIndex message() const;
     void setMessage(const QModelIndex &index);
 
-    [[nodiscard]] QString quoteText();
+    [[nodiscard]] QString text();
 
     MessageView *messageView;
     QScrollArea *area;

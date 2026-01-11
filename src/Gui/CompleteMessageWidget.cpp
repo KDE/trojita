@@ -67,6 +67,11 @@ CompleteMessageWidget::CompleteMessageWidget(QWidget *parent, QSettings *setting
     }
 }
 
+bool CompleteMessageWidget::isCryptoMessage() const
+{
+    return messageView->isCryptoMessage();
+}
+
 QModelIndex CompleteMessageWidget::message() const
 {
     return messageView->currentMessage();
@@ -77,9 +82,9 @@ void CompleteMessageWidget::setMessage(const QModelIndex &index)
     messageView->setMessage(index);
 }
 
-QString CompleteMessageWidget::quoteText()
+QString CompleteMessageWidget::text()
 {
-    return messageView->quoteText();
+    return messageView->text();
 }
 
 void CompleteMessageWidget::keyPressEvent(QKeyEvent *ke)
