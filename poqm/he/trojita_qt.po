@@ -1,9 +1,9 @@
-# SPDX-FileCopyrightText: 2025 Yaron Shahrabani <sh.yaron@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-07 13:51+0200\n"
+"PO-Revision-Date: 2026-01-10 22:02+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -34,18 +34,18 @@ msgstr "הקובץ לא קיים"
 #: src/Composer/ComposerAttachments.cpp:160
 msgctxt "MessageComposer|"
 msgid "File is not readable"
-msgstr ""
+msgstr "הקובץ בלתי קריא"
 
 #: src/Composer/ComposerAttachments.cpp:163
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
-msgstr ""
+msgstr "%1: %2, %3"
 
 #: src/Composer/ComposerAttachments.cpp:260
 msgctxt "MessageComposer|"
 msgid "Message not available"
-msgstr ""
+msgstr "ההודעה לא זמינה"
 
 #: src/Composer/ComposerAttachments.cpp:263
 #, qt-format
@@ -54,24 +54,26 @@ msgid ""
 "%1\n"
 "(%2)"
 msgstr ""
+"%1\n"
+"(%2)"
 
 #: src/Composer/ComposerAttachments.cpp:273
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP message %1"
-msgstr ""
+msgstr "הודעת IMAP‏ %1"
 
 #: src/Composer/ComposerAttachments.cpp:384
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP part %1"
-msgstr ""
+msgstr "חלק IMAP‏ %1"
 
 #: src/Composer/ComposerAttachments.cpp:396
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: src/Composer/ExistingMessageComposer.cpp:78
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
@@ -82,73 +84,73 @@ msgstr ""
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 is not available"
-msgstr ""
+msgstr "הצרופה %1 לא זמינה"
 
 #: src/Composer/MessageComposer.cpp:637
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 disappeared"
-msgstr ""
+msgstr "הצרופה %1 נעלמה"
 
 #: src/Composer/SenderIdentitiesModel.cpp:94
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Name"
-msgstr ""
+msgstr "שם"
 
 #: src/Composer/SenderIdentitiesModel.cpp:96
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "E-mail"
-msgstr ""
+msgstr "דוא״ל"
 
 #: src/Composer/SenderIdentitiesModel.cpp:98
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Organization"
-msgstr ""
+msgstr "ארגון"
 
 #: src/Composer/SenderIdentitiesModel.cpp:100
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Signature"
-msgstr ""
+msgstr "חתימה"
 
 #: src/Composer/Submission.cpp:113
 msgctxt "Submission|"
 msgid "Preparing to send"
-msgstr ""
+msgstr "בהכנות לשליחה"
 
 #: src/Composer/Submission.cpp:118
 msgctxt "Submission|"
 msgid "Creating message"
-msgstr ""
+msgstr "הודעה נוצרת"
 
 #: src/Composer/Submission.cpp:123
 msgctxt "Submission|"
 msgid "Saving to the sent folder"
-msgstr ""
+msgstr "נשמרת לתיקיית הפריטים שנשלחו"
 
 #: src/Composer/Submission.cpp:128
 msgctxt "Submission|"
 msgid "Preparing message for delivery"
-msgstr ""
+msgstr "ההודעה מתכוננת למסירה"
 
 #: src/Composer/Submission.cpp:133
 msgctxt "Submission|"
 msgid "Submitting message"
-msgstr ""
+msgstr "ההודעה מוגשת"
 
 #: src/Composer/Submission.cpp:138
 msgctxt "Submission|"
 msgid "Updating message keywords"
-msgstr ""
+msgstr "מילות המפתח של ההודעה מעודכנות"
 
 #: src/Composer/Submission.cpp:143
 msgctxt "Submission|"
 msgid "Message sent"
-msgstr ""
+msgstr "ההודעה נשלחה"
 
 #: src/Composer/Submission.cpp:150
 msgctxt "Submission|"
 msgid "Sending failed"
-msgstr ""
+msgstr "השליחה נכשלה"
 
 #: src/Composer/Submission.cpp:180
 msgctxt "Submission|"
@@ -158,11 +160,15 @@ msgid ""
 "Sorry for the trouble, please see <a href=\"https://projects.flaska.net/"
 "issues/640\">https://projects.flaska.net/issues/640</a> for details."
 msgstr ""
+"חיבור ה־IMAP נעלם. יש לסגור את חלון כתיבת ההודעה, לשמור את הטיוטה ולפתוח "
+"אותה שוב מחדש. את הצרופות יש לצרף בהמשך. סליחה על הטרחה, נא לקרוא את <a href="
+"\"https://projects.flaska.net/issues/640\">https://projects.flaska.net/"
+"issues/640</a> לפרטים נוספים."
 
 #: src/Composer/Submission.cpp:195
 msgctxt "Submission|"
 msgid "Some data are not available yet"
-msgstr ""
+msgstr "חלק מהנתונים לא זמינים עדיין"
 
 #: src/Composer/Submission.cpp:211
 #, qt-format
@@ -171,6 +177,8 @@ msgid ""
 "Cannot send right now -- saving failed:\n"
 " %1"
 msgstr ""
+"לא ניתן לשלוח כרגע -- השליחה נכשלה:\n"
+" %1"
 
 #: src/Composer/Submission.cpp:215
 #, qt-format
@@ -200,7 +208,7 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:168
 msgctxt "GpgMePart|"
 msgid "Waiting for data..."
-msgstr ""
+msgstr "בהמתנה…"
 
 #: src/Cryptography/GpgMe++.cpp:311
 msgctxt "GpgMePart|"
@@ -224,39 +232,39 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:323
 msgctxt "GpgMePart|"
 msgid "Internal error"
-msgstr ""
+msgstr "שגיאה פנימית"
 
 #: src/Cryptography/GpgMe++.cpp:324
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
-msgstr ""
+msgstr "שגיאה באימות חתימה: לא ניתן למשוך את המפתח %1: %2"
 
 #: src/Cryptography/GpgMe++.cpp:374
 msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
-msgstr ""
+msgstr "מוצפנת, חתימה מאומתת"
 
 #: src/Cryptography/GpgMe++.cpp:374
 msgctxt "GpgMePart|"
 msgid "Verified signature"
-msgstr ""
+msgstr "חתימה מאומתת"
 
 #: src/Cryptography/GpgMe++.cpp:375
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
-msgstr ""
+msgstr "חתימה מאומתת מאת %1 על %2"
 
 #: src/Cryptography/GpgMe++.cpp:380
 msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
-msgstr ""
+msgstr "מוצפנת, נחתמה על ידי גורם זר"
 
 #: src/Cryptography/GpgMe++.cpp:380
 msgctxt "GpgMePart|"
 msgid "Signed by stranger"
-msgstr ""
+msgstr "נחתמה על ידי גורם זר"
 
 #: src/Cryptography/GpgMe++.cpp:381
 #, qt-format
@@ -270,18 +278,18 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:388
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
-msgstr ""
+msgstr "מוצפנת, חתימה פגומה"
 
 #: src/Cryptography/GpgMe++.cpp:388
 msgctxt "GpgMePart|"
 msgid "Bad signature"
-msgstr ""
+msgstr "חתימה פגומה"
 
 #: src/Cryptography/GpgMe++.cpp:391
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
-msgstr ""
+msgstr "מוצפנת, חתימה פגומה: %1"
 
 #: src/Cryptography/GpgMe++.cpp:392
 #, qt-format
@@ -363,13 +371,13 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:433
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
-msgstr ""
+msgstr "חתימה אמינה חלקית"
 
 #: src/Cryptography/GpgMe++.cpp:434
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature from %1 on %2"
-msgstr ""
+msgstr "חתימה אמינה חלקית מאת %1 על %2"
 
 #: src/Cryptography/GpgMe++.cpp:439
 msgctxt "GpgMePart|"
@@ -427,7 +435,7 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
-msgstr ""
+msgstr "אירעה שגיאת מערכת. %1"
 
 #: src/Cryptography/GpgMe++.cpp:493
 msgctxt "GpgMePart|"
@@ -518,7 +526,7 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:652
 msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
-msgstr ""
+msgstr "נתונים לא זמינים"
 
 #: src/Cryptography/GpgMe++.cpp:653
 msgctxt "GpgMeSigned|"
@@ -529,12 +537,12 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:673
 msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
-msgstr ""
+msgstr "חתימה מאומתת…"
 
 #: src/Cryptography/GpgMe++.cpp:698
 msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
-msgstr ""
+msgstr "אין חתימות בהודעה החתומה"
 
 #: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
 msgctxt "GpgMeEncrypted|"
@@ -595,12 +603,12 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Decryption error: %1"
-msgstr ""
+msgstr "שגיאת פיענוח: %1"
 
 #: src/Cryptography/GpgMe++.cpp:868
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
-msgstr ""
+msgstr "הודעה מוצפנת"
 
 #: src/Cryptography/GpgMe++.cpp:874
 msgctxt "GpgMeEncrypted|"
@@ -635,12 +643,12 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Original filename: %1"
-msgstr ""
+msgstr "שם קובץ מקורי: %1"
 
 #: src/Gui/AboutDialog.ui:14
 msgctxt "AboutDialog|"
 msgid "About Trojitá"
-msgstr ""
+msgstr "על Trojitá"
 
 #: src/Gui/AboutDialog.ui:152
 msgctxt "AboutDialog|"
@@ -656,27 +664,27 @@ msgstr ""
 #: src/Gui/AddressRowWidget.cpp:130
 msgctxt "Expander|"
 msgid "Click to collapse"
-msgstr ""
+msgstr "לחיצה תצמצם"
 
 #: src/Gui/AttachmentView.cpp:87
 msgctxt "Gui::AttachmentView|"
 msgid "Download"
-msgstr ""
+msgstr "הורדה"
 
 #: src/Gui/AttachmentView.cpp:88
 msgctxt "Gui::AttachmentView|"
 msgid "Open Directly"
-msgstr ""
+msgstr "פתיחה ישירות"
 
 #: src/Gui/AttachmentView.cpp:93
 msgctxt "Gui::AttachmentView|"
 msgid "Show Preview"
-msgstr ""
+msgstr "הצגת תצוגה מקדימה"
 
 #: src/Gui/AttachmentView.cpp:100
 msgctxt "Gui::AttachmentView|"
 msgid "Show Message Source"
-msgstr ""
+msgstr "הצגת מקור ההודעה"
 
 #: src/Gui/AttachmentView.cpp:124
 #, qt-format
@@ -688,67 +696,67 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::AttachmentView|"
 msgid "%2, %3"
-msgstr ""
+msgstr "%2, %3"
 
 #: src/Gui/AttachmentView.cpp:238
 msgctxt "Gui::AttachmentView|"
 msgid "Save Attachment"
-msgstr ""
+msgstr "שמירת צרופה"
 
 #: src/Gui/AttachmentView.cpp:405
 msgctxt "Gui::AttachmentView|"
 msgid "Source of Attached Message"
-msgstr ""
+msgstr "מקור ההודעה המצורפת"
 
 #: src/Gui/ComposerAttachmentsList.cpp:48
 msgctxt "ComposerAttachmentsList|"
 msgid "Send Inline"
-msgstr ""
+msgstr "שליחה כחלק מההודעה"
 
 #: src/Gui/ComposerAttachmentsList.cpp:53
 msgctxt "ComposerAttachmentsList|"
 msgid "Rename..."
-msgstr ""
+msgstr "שינוי שם…"
 
 #: src/Gui/ComposerAttachmentsList.cpp:57
 msgctxt "ComposerAttachmentsList|"
 msgid "Remove"
-msgstr ""
+msgstr "הסרה"
 
 #: src/Gui/ComposerAttachmentsList.cpp:136
 msgctxt "ComposerAttachmentsList|"
 msgid "Rename Attachment"
-msgstr ""
+msgstr "שינוי שם לצרופה"
 
 #: src/Gui/ComposerAttachmentsList.cpp:136
 msgctxt "ComposerAttachmentsList|"
 msgid "New Name"
-msgstr ""
+msgstr "שם חדש"
 
 #: src/Gui/ComposerTextEdit.cpp:55
 msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
-msgstr ""
+msgstr "הדבקה כטקסט מצוטט"
 
 #: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel..."
-msgstr ""
+msgstr "ביטול…"
 
 #: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
 msgid "Cancel"
-msgstr ""
+msgstr "ביטול"
 
 #: src/Gui/ComposeWidget.cpp:196
 msgctxt "ComposeWidget|"
 msgid "Send"
-msgstr ""
+msgstr "שליחה"
 
 #: src/Gui/ComposeWidget.cpp:235
 msgctxt "ComposeWidget|"
 msgid "New Thread"
-msgstr ""
+msgstr "שרשור חדש"
 
 #: src/Gui/ComposeWidget.cpp:238
 msgctxt "ComposeWidget|"
@@ -760,12 +768,12 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:239
 msgctxt "ComposeWidget|"
 msgid "Threaded"
-msgstr ""
+msgstr "משורשר"
 
 #: src/Gui/ComposeWidget.cpp:359
 msgctxt "ComposeWidget|"
 msgid "Error"
-msgstr ""
+msgstr "שגיאה"
 
 #: src/Gui/ComposeWidget.cpp:359
 msgctxt "ComposeWidget|"
@@ -806,32 +814,32 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:573
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
-msgstr ""
+msgstr "(אין נושא)"
 
 #: src/Gui/ComposeWidget.cpp:587
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
-msgstr ""
+msgstr "להורדה אין נושא"
 
 #: src/Gui/ComposeWidget.cpp:590
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
-msgstr ""
+msgstr "כותרת מזהה ההודעה (Message-ID) חסרה"
 
 #: src/Gui/ComposeWidget.cpp:593
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
-msgstr ""
+msgstr "להודעה אין תאריך"
 
 #: src/Gui/ComposeWidget.cpp:596
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
-msgstr ""
+msgstr "אין שום דבר בשדה מאת"
 
 #: src/Gui/ComposeWidget.cpp:599
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
-msgstr ""
+msgstr "אין נמענים בשדה אל"
 
 #: src/Gui/ComposeWidget.cpp:602
 msgctxt "ComposeWidget|"
@@ -843,7 +851,7 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:691
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
-msgstr ""
+msgstr "נדרש אימות"
 
 #: src/Gui/ComposeWidget.cpp:692
 #, qt-format
@@ -854,7 +862,7 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:726
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
-msgstr ""
+msgstr "לשמור טיוטה?"
 
 #: src/Gui/ComposeWidget.cpp:727
 msgctxt "ComposeWidget|"
@@ -872,17 +880,17 @@ msgstr ""
 #: src/Gui/Window.cpp:1531
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
-msgstr ""
+msgstr "טיוטות"
 
 #: src/Gui/ComposeWidget.cpp:750
 msgctxt "ComposeWidget|"
 msgid "Save as"
-msgstr ""
+msgstr "שמירה בשם"
 
 #: src/Gui/ComposeWidget.cpp:751
 msgctxt "ComposeWidget|"
 msgid "Drafts"
-msgstr ""
+msgstr "טיוטות"
 
 #: src/Gui/ComposeWidget.cpp:780
 #, qt-format
@@ -895,43 +903,43 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:784
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
-msgstr ""
+msgstr "לא מילאת נמענים"
 
 #: src/Gui/ComposeWidget.cpp:792
 msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
-msgstr ""
+msgstr "הכתובת בשדה מאת: לא נראית תקינה"
 
 #: src/Gui/ComposeWidget.cpp:799
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
-msgstr ""
+msgstr "לא מילאת נושא. לא ניתן לשלוח הודעה שכזאת, מחילה."
 
 #: src/Gui/ComposeWidget.cpp:831
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
-msgstr ""
+msgstr "לא ניתן להכין את הודעת הדוא״ל לשליחה: חלקים מסוימים לא זמינים"
 
 #: src/Gui/ComposeWidget.cpp:922 src/Gui/ComposeWidget.cpp:1809
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
-msgstr ""
+msgstr "ההודעה הזאת תסומן כתגובה<hr/>%1"
 
 #: src/Gui/ComposeWidget.cpp:1100
 msgctxt "ComposeWidget|"
 msgid "To"
-msgstr ""
+msgstr "אל"
 
 #: src/Gui/ComposeWidget.cpp:1101
 msgctxt "ComposeWidget|"
 msgid "Cc"
-msgstr ""
+msgstr "עותק"
 
 #: src/Gui/ComposeWidget.cpp:1102
 msgctxt "ComposeWidget|"
 msgid "Bcc"
-msgstr ""
+msgstr "עותק סמוי"
 
 #: src/Gui/ComposeWidget.cpp:1104
 msgctxt "ComposeWidget|"
@@ -951,7 +959,7 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:1390
 msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
-msgstr ""
+msgstr "שליחת דוא״ל נכשלה"
 
 #: src/Gui/ComposeWidget.cpp:1417
 #, qt-format
@@ -962,58 +970,58 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:1616
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
-msgstr ""
+msgstr "צירוף קובץ…"
 
 #: src/Gui/ComposeWidget.cpp:1810
 msgctxt "ComposeWidget|"
 msgid "<br/>"
-msgstr ""
+msgstr "<br/>"
 
 #: src/Gui/ComposeWidget.cpp:1853
 msgctxt "ComposeWidget|"
 msgid "Compose Mail"
-msgstr ""
+msgstr "כתיבת הודעה"
 
 #: src/Gui/ComposeWidget.cpp:1855
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
-msgstr ""
+msgstr "%1 - כתיבת הודעה"
 
 #: src/Gui/ComposeWidget.ui:51
 msgctxt "ComposeWidget|"
 msgid "From"
-msgstr ""
+msgstr "מאת"
 
 #: src/Gui/ComposeWidget.ui:77
 msgctxt "ComposeWidget|"
 msgid "Subject"
-msgstr ""
+msgstr "נושא"
 
 #: src/Gui/ComposeWidget.ui:121
 msgctxt "ComposeWidget|"
 msgid "Attach..."
-msgstr ""
+msgstr "צירוף…"
 
 #: src/Gui/CreateMailboxDialog.ui:14
 msgctxt "CreateMailboxDialog|"
 msgid "Create Mailbox"
-msgstr ""
+msgstr "יצירת תיבת דוא״ל"
 
 #: src/Gui/CreateMailboxDialog.ui:22
 msgctxt "CreateMailboxDialog|"
 msgid "&Mailbox:"
-msgstr ""
+msgstr "&תיבת דוא״ל:"
 
 #: src/Gui/CreateMailboxDialog.ui:39
 msgctxt "CreateMailboxDialog|"
 msgid "Other Mai&lboxes"
-msgstr ""
+msgstr "תיבות דוא״ל &אחרות"
 
 #: src/Gui/CreateMailboxDialog.ui:46
 msgctxt "CreateMailboxDialog|"
 msgid "Messages Only"
-msgstr ""
+msgstr "הודעות בלבד"
 
 #: src/Gui/CreateMailboxDialog.ui:58
 msgctxt "CreateMailboxDialog|"
@@ -1024,226 +1032,226 @@ msgstr ""
 #: src/Gui/CreateMailboxDialog.ui:61
 msgctxt "CreateMailboxDialog|"
 msgid "&Subscribe"
-msgstr ""
+msgstr "&רישום למינוי"
 
 #: src/Gui/EditFavoriteTag.ui:20
 msgctxt "EditFavoriteTag|"
 msgid "Manage Tag"
-msgstr ""
+msgstr "ניהול תגית"
 
 #: src/Gui/EditFavoriteTag.ui:29
 msgctxt "EditFavoriteTag|"
 msgid "Name"
-msgstr ""
+msgstr "שם"
 
 #: src/Gui/EditFavoriteTag.ui:39
 msgctxt "EditFavoriteTag|"
 msgid "Color"
-msgstr ""
+msgstr "צבע"
 
 #: src/Gui/EditIdentity.ui:20
 msgctxt "EditIdentity|"
 msgid "Manage Identity"
-msgstr ""
+msgstr "ניהול זהות"
 
 #: src/Gui/EditIdentity.ui:29
 msgctxt "EditIdentity|"
 msgid "Real Name"
-msgstr ""
+msgstr "שם אמיתי"
 
 #: src/Gui/EditIdentity.ui:39
 msgctxt "EditIdentity|"
 msgid "E-mail"
-msgstr ""
+msgstr "דוא״ל"
 
 #: src/Gui/EditIdentity.ui:52
 msgctxt "EditIdentity|"
 msgid "Organisation"
-msgstr ""
+msgstr "ארגון"
 
 #: src/Gui/EditIdentity.ui:59
 msgctxt "EditIdentity|"
 msgid "Signature"
-msgstr ""
+msgstr "חתימה"
 
 #: src/Gui/EmbeddedWebView.cpp:100
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Ctrl+C"
-msgstr ""
+msgstr "Ctrl+C"
 
 #: src/Gui/EmbeddedWebView.cpp:361
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System colors"
-msgstr ""
+msgstr "צבעי המערכת"
 
 #: src/Gui/EmbeddedWebView.cpp:362
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System theme adjusted for better contrast"
-msgstr ""
+msgstr "ערכת העיצוב של המערכת הותאמה לשיפור הניגודיות"
 
 #: src/Gui/EmbeddedWebView.cpp:363
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Black on white, forced"
-msgstr ""
+msgstr "שחור על לבן, מאולץ"
 
 #: src/Gui/EnvelopeView.cpp:105
 msgctxt "Gui::EnvelopeView|"
 msgid "From"
-msgstr ""
+msgstr "מאת"
 
 #: src/Gui/EnvelopeView.cpp:110
 msgctxt "Gui::EnvelopeView|"
 msgid "sent via"
-msgstr ""
+msgstr "נשלחה דרך"
 
 #: src/Gui/EnvelopeView.cpp:112
 msgctxt "Gui::EnvelopeView|"
 msgid "Sender"
-msgstr ""
+msgstr "מוען"
 
 #: src/Gui/EnvelopeView.cpp:118
 msgctxt "Gui::EnvelopeView|"
 msgid "replies to"
-msgstr ""
+msgstr "בתגובה אל"
 
 #: src/Gui/EnvelopeView.cpp:120
 msgctxt "Gui::EnvelopeView|"
 msgid "Reply-To"
-msgstr ""
+msgstr "תגובה אל"
 
 #: src/Gui/EnvelopeView.cpp:131
 msgctxt "Gui::EnvelopeView|"
 msgid "To"
-msgstr ""
+msgstr "אל"
 
 #: src/Gui/EnvelopeView.cpp:136
 msgctxt "Gui::EnvelopeView|"
 msgid "Cc'd to"
-msgstr ""
+msgstr "עותק אל"
 
 #: src/Gui/EnvelopeView.cpp:138
 msgctxt "Gui::EnvelopeView|"
 msgid "Cc"
-msgstr ""
+msgstr "עותק"
 
 #: src/Gui/EnvelopeView.cpp:144
 msgctxt "Gui::EnvelopeView|"
 msgid "Bcc'd to"
-msgstr ""
+msgstr "עותק סמוי אל"
 
 #: src/Gui/EnvelopeView.cpp:146
 msgctxt "Gui::EnvelopeView|"
 msgid "Bcc"
-msgstr ""
+msgstr "עותק סמוי"
 
 #: src/Gui/EnvelopeView.cpp:167
 #, qt-format
 msgctxt "Gui::EnvelopeView|"
 msgid "<a href=\"%1\">%2</a>"
-msgstr ""
+msgstr "<a href=\"%1\">%2</a>"
 
 #: src/Gui/EnvelopeView.cpp:172
 msgctxt "Gui::EnvelopeView|"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: src/Gui/EnvelopeView.cpp:177
 msgctxt "Gui::EnvelopeView|"
 msgid "Mailing List"
-msgstr ""
+msgstr "רשימת דיוור"
 
 #: src/Gui/ExternalElementsWidget.cpp:35
 msgctxt "Gui::ExternalElementsWidget|"
 msgid "Load"
-msgstr ""
+msgstr "טעינה"
 
 #: src/Gui/ExternalElementsWidget.cpp:36
 msgctxt "Gui::ExternalElementsWidget|"
 msgid "This e-mail wants to load external entities from the Internet"
-msgstr ""
+msgstr "הודעת הדוא״ל הזאת רוצה לטעון זהויות חיצוניות מהאינטרנט"
 
 #: src/Gui/FindBar.cpp:49
 msgctxt "Gui::FindBar|"
 msgid "&Match case"
-msgstr ""
+msgstr "התאמת &רישיות"
 
 #: src/Gui/FindBar.cpp:50
 msgctxt "Gui::FindBar|"
 msgid "&Highlight all"
-msgstr ""
+msgstr "ה&דגשה של הכול"
 
 #: src/Gui/FindBar.cpp:62
 msgctxt "Gui::FindBar|"
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #: src/Gui/FindBar.cpp:68
 msgctxt "Gui::FindBar|"
 msgid "Find:"
-msgstr ""
+msgstr "איתור:"
 
 #: src/Gui/FindBar.cpp:81
 msgctxt "Gui::FindBar|"
 msgid "&Next"
-msgstr ""
+msgstr "ה&בא"
 
 #: src/Gui/FindBar.cpp:82
 msgctxt "Gui::FindBar|"
 msgid "F3"
-msgstr ""
+msgstr "F3"
 
 #: src/Gui/FindBar.cpp:83
 msgctxt "Gui::FindBar|"
 msgid "&Previous"
-msgstr ""
+msgstr "ה&קודם"
 
 #. Translators: You can change this shortcut, but button names like Shift should not be localized here. That will break setting the shortcut. Button names will still appear localized in the UI.
 #: src/Gui/FindBar.cpp:86
 msgctxt "Gui::FindBar|"
 msgid "Shift+F3"
-msgstr ""
+msgstr "Shift+F3"
 
 #: src/Gui/ImapInfoDialog.ui:14
 msgctxt "ImapInfoDialog|"
 msgid "IMAP Server Info"
-msgstr ""
+msgstr "פרטי שרת IMAP"
 
 #: src/Gui/ImapInfoDialog.ui:33
 msgctxt "ImapInfoDialog|"
 msgid "<html><head/><body><p>SERVERINFO Placeholder</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>ממלא מקום SERVERINFO</p></body></html>"
 
 #: src/Gui/LoadablePartWidget.cpp:47
 #, qt-format
 msgctxt "Gui::LoadablePartWidget|"
 msgid "Load %1 (%2)"
-msgstr ""
+msgstr "טעינת %1 (%2)"
 
 #: src/Gui/MailBoxTreeView.cpp:143
 msgctxt "MailBoxTreeView|"
 msgid "Move here\tShift"
-msgstr ""
+msgstr "העברה לכאן\tShift"
 
 #: src/Gui/MailBoxTreeView.cpp:144
 msgctxt "MailBoxTreeView|"
 msgid "Copy here\tCtrl"
-msgstr ""
+msgstr "העתקה לכאן\tCtrl"
 
 #: src/Gui/MailBoxTreeView.cpp:145
 msgctxt "MailBoxTreeView|"
 msgid "Cancel"
-msgstr ""
+msgstr "ביטול"
 
 #: src/Gui/main.cpp:60
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
-msgstr ""
+msgstr "Trojitá %1 - לקוח דוא״ל IMAP עם ממשק Qt"
 
 #: src/Gui/main.cpp:65
 msgctxt "QObject|"
 msgid "Show addressbook window."
-msgstr ""
+msgstr "הצגת חלון פנקס כתובות."
 
 #: src/Gui/main.cpp:69
 msgctxt "QObject|"
@@ -1263,12 +1271,12 @@ msgstr ""
 #: src/Gui/main.cpp:81
 msgctxt "QObject|"
 msgid "Set profile."
-msgstr ""
+msgstr "הגדרת פרופיל."
 
 #: src/Gui/main.cpp:81
 msgctxt "QObject|"
 msgid "profile"
-msgstr ""
+msgstr "פרופיל"
 
 #: src/Gui/main.cpp:84
 msgctxt "QObject|"
@@ -1278,24 +1286,24 @@ msgstr ""
 #: src/Gui/main.cpp:85
 msgctxt "QObject|"
 msgid "[url]"
-msgstr ""
+msgstr "[כתובת]"
 
 #: src/Gui/main.cpp:108
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected argument '%1'."
-msgstr ""
+msgstr "הארגומנט ‚%1’ מפתיע."
 
 #: src/Gui/main.cpp:113
 msgctxt "QObject|"
 msgid "Unexpected arguments."
-msgstr ""
+msgstr "ארגומנטים מפתיעים."
 
 #: src/Gui/main.cpp:163
 #, qt-format
 msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
-msgstr ""
+msgstr "שגיאה: רישום מופע IPC נכשל: %1"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
@@ -1307,17 +1315,17 @@ msgstr ""
 #: src/Gui/MessageHeadersWidget.cpp:55
 msgctxt "MessageHeadersWidget|"
 msgid "Search..."
-msgstr ""
+msgstr "חיפוש…"
 
 #: src/Gui/MessageHeadersWidget.cpp:56
 msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
-msgstr ""
+msgstr "Ctrl+F"
 
 #: src/Gui/MessageListWidget.cpp:51
 msgctxt "Gui::MessageListWidget|"
 msgid "Quick Search"
-msgstr ""
+msgstr "חיפוש מהיר"
 
 #: src/Gui/MessageListWidget.cpp:52
 msgctxt "Gui::MessageListWidget|"
@@ -1331,92 +1339,92 @@ msgstr ""
 #: src/Gui/MessageListWidget.cpp:57
 msgctxt "Gui::MessageListWidget|"
 msgid "<query>"
-msgstr ""
+msgstr "<שאילתה>"
 
 #: src/Gui/MessageListWidget.cpp:65
 msgctxt "Gui::MessageListWidget|"
 msgid "Options for the IMAP search..."
-msgstr ""
+msgstr "אפשרויות לחיפוש ה־IMAP…"
 
 #: src/Gui/MessageListWidget.cpp:68
 msgctxt "Gui::MessageListWidget|"
 msgid "Fuzzy Search"
-msgstr ""
+msgstr "חיפוש מעורפל"
 
 #: src/Gui/MessageListWidget.cpp:71
 msgctxt "Gui::MessageListWidget|"
 msgid "Subject"
-msgstr ""
+msgstr "נושא"
 
 #: src/Gui/MessageListWidget.cpp:74
 msgctxt "Gui::MessageListWidget|"
 msgid "Body"
-msgstr ""
+msgstr "תוכן"
 
 #: src/Gui/MessageListWidget.cpp:76
 msgctxt "Gui::MessageListWidget|"
 msgid "Senders"
-msgstr ""
+msgstr "מוענים"
 
 #: src/Gui/MessageListWidget.cpp:79
 msgctxt "Gui::MessageListWidget|"
 msgid "Recipients"
-msgstr ""
+msgstr "נמענים"
 
 #: src/Gui/MessageListWidget.cpp:84
 msgctxt "Gui::MessageListWidget|"
 msgid "Complex IMAP query"
-msgstr ""
+msgstr "שאילתת IMAP מורכבת"
 
 #: src/Gui/MessageListWidget.cpp:86
 msgctxt "Gui::MessageListWidget|"
 msgid "Not ..."
-msgstr ""
+msgstr "לא …"
 
 #: src/Gui/MessageListWidget.cpp:87
 msgctxt "Gui::MessageListWidget|"
 msgid "Either... or..."
-msgstr ""
+msgstr "או … או …"
 
 #: src/Gui/MessageListWidget.cpp:89
 msgctxt "Gui::MessageListWidget|"
 msgid "From sender"
-msgstr ""
+msgstr "מהמוען"
 
 #: src/Gui/MessageListWidget.cpp:90
 msgctxt "Gui::MessageListWidget|"
 msgid "To receiver"
-msgstr ""
+msgstr "לנמען"
 
 #: src/Gui/MessageListWidget.cpp:92
 msgctxt "Gui::MessageListWidget|"
 msgid "About subject"
-msgstr ""
+msgstr "על הנושא"
 
 #: src/Gui/MessageListWidget.cpp:93
 msgctxt "Gui::MessageListWidget|"
 msgid "Message contains ..."
-msgstr ""
+msgstr "ההודעה מכילה …"
 
 #: src/Gui/MessageListWidget.cpp:95
 msgctxt "Gui::MessageListWidget|"
 msgid "Before date"
-msgstr ""
+msgstr "לפני תאריך"
 
 #: src/Gui/MessageListWidget.cpp:96
 msgctxt "Gui::MessageListWidget|"
 msgid "Since date"
-msgstr ""
+msgstr "מאז תאריך"
 
 #: src/Gui/MessageListWidget.cpp:98
 msgctxt "Gui::MessageListWidget|"
 msgid "Has been seen"
-msgstr ""
+msgstr "נקרא"
 
 #: src/Gui/MessageListWidget.cpp:100
 msgctxt "Gui::MessageListWidget|"
 msgid "Allow raw IMAP search"
-msgstr ""
+msgstr "לאפשר חיפוש גולמי ב־IMAP"
 
 #: src/Gui/MessageSourceWidget.cpp:49
 msgctxt "Gui::MessageSourceWidget|"
@@ -1424,26 +1432,28 @@ msgid ""
 "Fetching\n"
 "Message"
 msgstr ""
+"ההודעה\n"
+"מתקבלת"
 
 #: src/Gui/MessageSourceWidget.cpp:58
 msgctxt "Gui::MessageSourceWidget|"
 msgid "Search..."
-msgstr ""
+msgstr "חיפוש…"
 
 #: src/Gui/MessageSourceWidget.cpp:59
 msgctxt "Gui::MessageSourceWidget|"
 msgid "Ctrl+F"
-msgstr ""
+msgstr "Ctrl+F"
 
 #: src/Gui/MessageView.cpp:91
 msgctxt "MessageView|"
 msgid "Search..."
-msgstr ""
+msgstr "חיפוש…"
 
 #: src/Gui/MessageView.cpp:92
 msgctxt "MessageView|"
 msgid "Ctrl+F"
-msgstr ""
+msgstr "Ctrl+F"
 
 #: src/Gui/MessageView.cpp:135
 msgctxt "MessageView|"
@@ -1451,6 +1461,8 @@ msgid ""
 "Fetching\n"
 "Message"
 msgstr ""
+"ההודעה\n"
+"מתקבלת"
 
 #: src/Gui/MessageView.cpp:220
 msgctxt "MessageView|"
@@ -1459,11 +1471,13 @@ msgid ""
 "for\n"
 "Message..."
 msgstr ""
+"בהמתנה\n"
+"להודעה…"
 
 #: src/Gui/MessageView.cpp:355
 msgctxt "MessageView|"
 msgid "you"
-msgstr ""
+msgstr "אני"
 
 #: src/Gui/MessageView.cpp:362
 #, qt-format
@@ -1489,7 +1503,7 @@ msgstr ""
 #: src/Gui/MsgListView.cpp:149
 msgctxt "Gui::MsgListView|"
 msgid "88.8 kB"
-msgstr ""
+msgstr "88.8 ק״ב"
 
 #: src/Gui/MsgListView.cpp:204
 #, qt-format
@@ -1524,7 +1538,7 @@ msgstr ""
 #: src/Gui/OneEnvelopeAddress.cpp:130
 msgctxt "OneEnvelopeAddress|"
 msgid "(empty display name)"
-msgstr ""
+msgstr "(שם תצוגה ריק)"
 
 #: src/Gui/OneEnvelopeAddress.cpp:134
 msgctxt "OneEnvelopeAddress|"
@@ -1534,86 +1548,86 @@ msgstr ""
 #: src/Gui/OneEnvelopeAddress.cpp:141
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy e-mail address"
-msgstr ""
+msgstr "העתקת כתובת דוא״ל"
 
 #: src/Gui/OneEnvelopeAddress.cpp:146
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy text"
-msgstr ""
+msgstr "העתקת טקסט"
 
 #. Translators: use something very short, perhaps even "text". Don't describe this as "Clear text". This string is used as a caption of a tab showing the plaintext part of a mail which is e.g. sent in both plaintext and HTML formats.
 #: src/Gui/PartWidget.cpp:144
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Plaintext"
-msgstr ""
+msgstr "טקסט גלוי"
 
 #. Translators: caption of the tab which shows a HTML version of the mail. Use some short, compact text here.
 #: src/Gui/PartWidget.cpp:147
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: src/Gui/PartWidget.cpp:153
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Cancelled Event"
-msgstr ""
+msgstr "אירוע שבוטל"
 
 #: src/Gui/PartWidget.cpp:155
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Meeting Request"
-msgstr ""
+msgstr "בקשת פגישה"
 
 #: src/Gui/PartWidget.cpp:157
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Calendar Event"
-msgstr ""
+msgstr "אירוע בלוח השנה"
 
 #: src/Gui/PartWidget.cpp:159
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Calendar Reply"
-msgstr ""
+msgstr "תגובה ללוח השנה"
 
 #: src/Gui/PartWidget.cpp:161
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "New Meeting"
-msgstr ""
+msgstr "פגישה חדשה"
 
 #: src/Gui/PartWidget.cpp:211 src/Gui/PartWidget.cpp:256
 msgctxt "Gui::PartStatusWidget|"
 msgid "Show Details"
-msgstr ""
+msgstr "הצגת פרטים"
 
 #: src/Gui/PartWidget.cpp:260
 msgctxt "Gui::PartStatusWidget|"
 msgid "Hide Details"
-msgstr ""
+msgstr "הסתרת פרטים"
 
 #: src/Gui/PartWidget.cpp:386
 msgctxt "Gui::MultipartSignedEncryptedWidget|"
 msgid "[Encrypted message]"
-msgstr ""
+msgstr "[הודעה מוצפנת]"
 
 #: src/Gui/PasswordDialog.ui:14
 msgctxt "PasswordDialog|"
 msgid "Authentication Required"
-msgstr ""
+msgstr "נדרש אימות"
 
 #: src/Gui/PasswordDialog.ui:28
 #, qt-format
 msgctxt "PasswordDialog|"
 msgid "<p>Please provide password for %1 on %2.</p>"
-msgstr ""
+msgstr "<p>נא לספק סיסמה עבור %1 ב־%2.</p>"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:51
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Clear all"
-msgstr ""
+msgstr "פינוי של הכול"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:98
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Connection %1"
-msgstr ""
+msgstr "חיבור %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:170
 #, qt-format
@@ -1646,12 +1660,12 @@ msgstr[3] ""
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
 msgid "Offline mode"
-msgstr ""
+msgstr "מצב לא מקוון"
 
 #: src/Gui/SettingsCachePage.ui:48
 msgctxt "CachePage|"
 msgid "&Don't use cache"
-msgstr ""
+msgstr "&לא להשתמש במטמון"
 
 #: src/Gui/SettingsCachePage.ui:61
 msgctxt "CachePage|"
@@ -1661,12 +1675,12 @@ msgstr ""
 #: src/Gui/SettingsCachePage.ui:90
 msgctxt "CachePage|"
 msgid "Store &forever"
-msgstr ""
+msgstr "לאחסן ל&עד"
 
 #: src/Gui/SettingsCachePage.ui:106
 msgctxt "CachePage|"
 msgid "Notifications"
-msgstr ""
+msgstr "התראות"
 
 #: src/Gui/SettingsCachePage.ui:112
 msgctxt "CachePage|"
@@ -1706,17 +1720,17 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:85
 msgctxt "Gui::SettingsDialog|"
 msgid "Settings"
-msgstr ""
+msgstr "הגדרות"
 
 #: src/Gui/SettingsDialog.cpp:92
 msgctxt "Gui::SettingsDialog|"
 msgid "&General"
-msgstr ""
+msgstr "&כללי"
 
 #: src/Gui/SettingsDialog.cpp:93
 msgctxt "Gui::SettingsDialog|"
 msgid "I&MAP"
-msgstr ""
+msgstr "I&MAP"
 
 #: src/Gui/SettingsDialog.cpp:94
 msgctxt "Gui::SettingsDialog|"
@@ -1726,7 +1740,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:95
 msgctxt "Gui::SettingsDialog|"
 msgid "&SMTP"
-msgstr ""
+msgstr "&SMTP"
 
 #: src/Gui/SettingsDialog.cpp:96
 msgctxt "Gui::SettingsDialog|"
@@ -1749,99 +1763,99 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:309
 msgctxt "Gui::FavoriteTagsPage|"
 msgid "Add New Tag"
-msgstr ""
+msgstr "הוספת תגית חדשה"
 
 #: src/Gui/SettingsDialog.cpp:317
 msgctxt "Gui::FavoriteTagsPage|"
 msgid "Edit Tag"
-msgstr ""
+msgstr "עריכת תגית"
 
 #: src/Gui/SettingsDialog.cpp:400
 #, qt-format
 msgctxt "Gui::GeneralPage|"
 msgid "Plugin not found (%1)"
-msgstr ""
+msgstr "התוסף לא נמצא (%1)"
 
 #: src/Gui/SettingsDialog.cpp:401
 msgctxt "Gui::GeneralPage|"
 msgid "Disable address book"
-msgstr ""
+msgstr "השבתת פנקס כתובות"
 
 #: src/Gui/SettingsDialog.cpp:402
 msgctxt "Gui::GeneralPage|"
 msgid "Disable passwords"
-msgstr ""
+msgstr "השבתת סיסמאות"
 
 #: src/Gui/SettingsDialog.cpp:403
 msgctxt "Gui::GeneralPage|"
 msgid "Disable spell checking"
-msgstr ""
+msgstr "השבתת בדיקת איות"
 
 #: src/Gui/SettingsDialog.cpp:419
 msgctxt "Gui::GeneralPage|"
 msgid "Move"
-msgstr ""
+msgstr "העברה"
 
 #: src/Gui/SettingsDialog.cpp:422
 msgctxt "Gui::GeneralPage|"
 msgid "Copy"
-msgstr ""
+msgstr "העתקה"
 
 #: src/Gui/SettingsDialog.cpp:501
 msgctxt "Gui::GeneralPage|"
 msgid "Add New Identity"
-msgstr ""
+msgstr "הוספת זהות חדשה"
 
 #: src/Gui/SettingsDialog.cpp:509
 msgctxt "Gui::GeneralPage|"
 msgid "Edit Identity"
-msgstr ""
+msgstr "עריכת זהות"
 
 #: src/Gui/SettingsDialog.cpp:517
 msgctxt "Gui::GeneralPage|"
 msgid "Delete Identity?"
-msgstr ""
+msgstr "למחוק זהות?"
 
 #: src/Gui/SettingsDialog.cpp:518
 #, qt-format
 msgctxt "Gui::GeneralPage|"
 msgid "Are you sure you want to delete identity %1 <%2>?"
-msgstr ""
+msgstr "למחוק את הזהות %1 <%2>?"
 
 #: src/Gui/SettingsDialog.cpp:566
 msgctxt "Gui::GeneralPage|"
 msgid "Please define some identities here"
-msgstr ""
+msgstr "נא להגדיר כאן כמה זהויות"
 
 #: src/Gui/SettingsDialog.cpp:663
 msgctxt "Gui::EditFavoriteTag|"
 msgid "Select tag color"
-msgstr ""
+msgstr "בחירת צבע תגית"
 
 #: src/Gui/SettingsDialog.cpp:700
 msgctxt "Gui::ImapPage|"
 msgid "Network Connection"
-msgstr ""
+msgstr "חיבור לאינטרנט"
 
 #: src/Gui/SettingsDialog.cpp:701
 msgctxt "Gui::ImapPage|"
 msgid "Local Process"
-msgstr ""
+msgstr "תהליך מקומי"
 
 #: src/Gui/SettingsDialog.cpp:703
 msgctxt "Gui::ImapPage|"
 msgid "No encryption"
-msgstr ""
+msgstr "ללא הצפנה"
 
 #: src/Gui/SettingsDialog.cpp:704
 msgctxt "Gui::ImapPage|"
 msgid "Use encryption (STARTTLS)"
-msgstr ""
+msgstr "להשתמש בהצפנה (STARTTLS)"
 
 #: src/Gui/SettingsDialog.cpp:705
 msgctxt "Gui::ImapPage|"
 msgid "Force encryption (TLS)"
-msgstr ""
+msgstr "אילוץ הצפנה (TLS)"
 
 #: src/Gui/SettingsDialog.cpp:827
 msgctxt "Gui::ImapPage|"
@@ -1849,6 +1863,8 @@ msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
 "password here, Trojitá will prompt for one when needed."
 msgstr ""
+"הסיסמה הזאת תישמר באחסון המוצפן. אם לא תמולא פה סיסמה, Trojitá תבקש ממך למלא "
+"לפי הצורך."
 
 #: src/Gui/SettingsDialog.cpp:831
 msgctxt "Gui::ImapPage|"
@@ -1856,11 +1872,13 @@ msgid ""
 "This password will be saved in clear text. If you do not enter password "
 "here, Trojitá will prompt for one when needed."
 msgstr ""
+"הסיסמה הזאת תישמר בטקסט גלוי. אם לא תמולא פה סיסמה, Trojitá תבקש ממך למלא "
+"לפי הצורך."
 
 #: src/Gui/SettingsDialog.cpp:902
 msgctxt "Gui::ImapPage|"
 msgid "The IMAP server hostname is missing here"
-msgstr ""
+msgstr "שם מארח שרת ה־IMAP חסר כאן"
 
 #: src/Gui/SettingsDialog.cpp:908
 msgctxt "Gui::ImapPage|"
@@ -1875,7 +1893,7 @@ msgctxt "Gui::ImapPage|"
 msgid ""
 "This port is nonstandard. The default port for IMAP secured over SSL/TLS is "
 "%1."
-msgstr ""
+msgstr "זאת פתחה לא שגרתית. פתחת ברירת המחדל ל־IMAP באבטחת SSL/TLS היא %1."
 
 #: src/Gui/SettingsDialog.cpp:929
 #, qt-format
@@ -1883,7 +1901,7 @@ msgctxt "Gui::ImapPage|"
 msgid ""
 "This port is nonstandard. The default port for IMAP secured via STARTTLS is "
 "%1."
-msgstr ""
+msgstr "זאת פתחה לא שגרתית. פתחת ברירת המחדל ל־IMAP באבטחת STARTTLS היא %1."
 
 #: src/Gui/SettingsDialog.cpp:931
 #, qt-format
@@ -1895,7 +1913,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:1039
 msgctxt "Gui::OutgoingPage|"
 msgid "Network"
-msgstr ""
+msgstr "רשת"
 
 #: src/Gui/SettingsDialog.cpp:1040
 msgctxt "Gui::OutgoingPage|"
@@ -1910,17 +1928,17 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:1043
 msgctxt "Gui::OutgoingPage|"
 msgid "No encryption"
-msgstr ""
+msgstr "ללא הצפנה"
 
 #: src/Gui/SettingsDialog.cpp:1044
 msgctxt "Gui::OutgoingPage|"
 msgid "Use encryption (STARTTLS)"
-msgstr ""
+msgstr "להשתמש בהצפנה (STARTTLS)"
 
 #: src/Gui/SettingsDialog.cpp:1045
 msgctxt "Gui::OutgoingPage|"
 msgid "Force encryption (TLS)"
-msgstr ""
+msgstr "אילוץ הצפנה (TLS)"
 
 #: src/Gui/SettingsDialog.cpp:1189
 msgctxt "Gui::OutgoingPage|"
@@ -1928,6 +1946,8 @@ msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
 "password here, Trojitá will prompt for one when needed."
 msgstr ""
+"הסיסמה הזאת תישמר באחסון המוצפן. אם לא תמולא פה סיסמה, Trojitá תבקש ממך למלא "
+"לפי הצורך."
 
 #: src/Gui/SettingsDialog.cpp:1193
 msgctxt "Gui::OutgoingPage|"
@@ -1935,16 +1955,18 @@ msgid ""
 "This password will be saved in clear text. If you do not enter password "
 "here, Trojitá will prompt for one when needed."
 msgstr ""
+"הסיסמה הזאת תישמר בטקסט גלוי. אם לא תמולא פה סיסמה, Trojitá תבקש ממך למלא "
+"לפי הצורך."
 
 #: src/Gui/SettingsDialog.cpp:1287 src/Gui/SettingsDialog.cpp:1293
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP server hostname is missing here"
-msgstr ""
+msgstr "שם מארח שרת ה־SMTP חסר כאן"
 
 #: src/Gui/SettingsDialog.cpp:1289
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP username is missing here"
-msgstr ""
+msgstr "שם משתמש ה־SMTP חסר כאן"
 
 #: src/Gui/SettingsDialog.cpp:1300
 msgctxt "Gui::OutgoingPage|"
@@ -1954,65 +1976,65 @@ msgstr ""
 #: src/Gui/SettingsFavoriteTagsPage.ui:14
 msgctxt "FavoriteTagsPage|"
 msgid "ScrollArea"
-msgstr ""
+msgstr "אזור גלילה"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:108
 msgctxt "FavoriteTagsPage|"
 msgid "Add"
-msgstr ""
+msgstr "הוספה"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:115
 msgctxt "FavoriteTagsPage|"
 msgid "Edit"
-msgstr ""
+msgstr "עריכה"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:122
 msgctxt "FavoriteTagsPage|"
 msgid "Delete"
-msgstr ""
+msgstr "עריכה"
 
 #: src/Gui/SettingsGeneralPage.ui:14
 msgctxt "GeneralPage|"
 msgid "ScrollArea"
-msgstr ""
+msgstr "אזור גלילה"
 
 #: src/Gui/SettingsGeneralPage.ui:93
 msgctxt "GeneralPage|"
 msgid "Start minimized"
-msgstr ""
+msgstr "התחלה ממוזערת"
 
 #: src/Gui/SettingsGeneralPage.ui:100
 msgctxt "GeneralPage|"
 msgid "Show plaintext e-mails instead of the HTML version"
-msgstr ""
+msgstr "להציג הודעות בטקסט כלוי במקום בגרסת ה־HTML"
 
 #: src/Gui/SettingsGeneralPage.ui:112
 msgctxt "GeneralPage|"
 msgid "Automatically mark messages as read"
-msgstr ""
+msgstr "לסמן שההודעה נקראה אוטומטית"
 
 #. To indicate that there's no delay
 #: src/Gui/SettingsGeneralPage.ui:119
 msgctxt "GeneralPage|"
 msgid "immediately"
-msgstr ""
+msgstr "מיידית"
 
 #. A suffix "seconds" inside a QDoubleSpinBox for configuring a time delay. Please keep this short so that the window is reasonably narrow.
 #: src/Gui/SettingsGeneralPage.ui:122
 msgctxt "GeneralPage|"
 msgid " s"
-msgstr ""
+msgstr " שנ׳"
 
 #. The action will happen *after* user-provided timeout in seconds
 #: src/Gui/SettingsGeneralPage.ui:125
 msgctxt "GeneralPage|"
 msgid "after "
-msgstr ""
+msgstr "אחרי "
 
 #: src/Gui/SettingsGeneralPage.ui:143
 msgctxt "GeneralPage|"
 msgid "Show system tray icon"
-msgstr ""
+msgstr "הצגת סמל בשורת המערכת"
 
 #: src/Gui/SettingsGeneralPage.ui:150
 msgctxt "GeneralPage|"
@@ -2032,7 +2054,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:153
 msgctxt "GeneralPage|"
 msgid "Reveal Trojitá's version and platform information"
-msgstr ""
+msgstr "לחשוף את הגרסה של Trojitá ואת פרטי הפלטפורמה"
 
 #: src/Gui/SettingsGeneralPage.ui:165
 msgctxt "GeneralPage|"
@@ -2051,42 +2073,42 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:199
 msgctxt "GeneralPage|"
 msgid "Add"
-msgstr ""
+msgstr "הוספה"
 
 #: src/Gui/SettingsGeneralPage.ui:206
 msgctxt "GeneralPage|"
 msgid "Edit"
-msgstr ""
+msgstr "עריכה"
 
 #: src/Gui/SettingsGeneralPage.ui:213
 msgctxt "GeneralPage|"
 msgid "Delete"
-msgstr ""
+msgstr "מחיקה"
 
 #: src/Gui/SettingsGeneralPage.ui:227
 msgctxt "GeneralPage|"
 msgid "Addressbook"
-msgstr ""
+msgstr "פנקס כתובות"
 
 #: src/Gui/SettingsGeneralPage.ui:244
 msgctxt "GeneralPage|"
 msgid "Passwords"
-msgstr ""
+msgstr "סיסמאות"
 
 #: src/Gui/SettingsGeneralPage.ui:261
 msgctxt "GeneralPage|"
 msgid "Spell checker"
-msgstr ""
+msgstr "בודק איות"
 
 #: src/Gui/SettingsImapPage.ui:27
 msgctxt "ImapPage|"
 msgid "M&ethod"
-msgstr ""
+msgstr "&שיטה"
 
 #: src/Gui/SettingsImapPage.ui:37
 msgctxt "ImapPage|"
 msgid "How to connect to the IMAP server"
-msgstr ""
+msgstr "איך להתחבר לשרת ה־IMAP"
 
 #: src/Gui/SettingsImapPage.ui:40
 msgctxt "ImapPage|"
@@ -2123,37 +2145,37 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:55
 msgctxt "ImapPage|"
 msgid "Encryption"
-msgstr ""
+msgstr "הצפנה"
 
 #: src/Gui/SettingsImapPage.ui:65
 msgctxt "ImapPage|"
 msgid "Ser&ver"
-msgstr ""
+msgstr "&שרת"
 
 #: src/Gui/SettingsImapPage.ui:75
 msgctxt "ImapPage|"
 msgid "Hostname of the IMAP server"
-msgstr ""
+msgstr "שם מארח שרת ה־IMAP"
 
 #: src/Gui/SettingsImapPage.ui:78
 msgctxt "ImapPage|"
 msgid "This is the name of the IMAP server that Trojitá should connect to."
-msgstr ""
+msgstr "זה שם שרת ה־IMAP ש־Trojitá אמורה להתחבר אליו."
 
 #: src/Gui/SettingsImapPage.ui:88
 msgctxt "ImapPage|"
 msgid "&Port"
-msgstr ""
+msgstr "&פתחה"
 
 #: src/Gui/SettingsImapPage.ui:98
 msgctxt "ImapPage|"
 msgid "Port number of the IMAP server"
-msgstr ""
+msgstr "מספר פתחת שרת ה־IMAP"
 
 #: src/Gui/SettingsImapPage.ui:118
 msgctxt "ImapPage|"
 msgid "Use System Proxy Settings"
-msgstr ""
+msgstr "להשתמש בהגדרות המתווך של המערכת"
 
 #: src/Gui/SettingsImapPage.ui:131
 msgctxt "ImapPage|"
@@ -2161,36 +2183,38 @@ msgid ""
 "Check if Trojitá should connect to a network in order to access this "
 "account. You will stay offline if there is no network connectivity."
 msgstr ""
+"לבדוק אם Trojitá אמורה להתחבר לרשת כדי לגשת לחשבון הזה. התוכנה תישאר לא "
+"מקוונת אם אין פעילות רשת."
 
 #: src/Gui/SettingsImapPage.ui:134
 msgctxt "ImapPage|"
 msgid "Needs Network"
-msgstr ""
+msgstr "נדרש חיבור רשת"
 
 #: src/Gui/SettingsImapPage.ui:147
 msgctxt "ImapPage|"
 msgid "&Username"
-msgstr ""
+msgstr "שם &משתמש"
 
 #: src/Gui/SettingsImapPage.ui:157
 msgctxt "ImapPage|"
 msgid "Username"
-msgstr ""
+msgstr "שם משתמש"
 
 #: src/Gui/SettingsImapPage.ui:160
 msgctxt "ImapPage|"
 msgid "User name to log in to the IMAP server"
-msgstr ""
+msgstr "שם משתמש לכניסה לשרת ה־IMAP"
 
 #: src/Gui/SettingsImapPage.ui:170
 msgctxt "ImapPage|"
 msgid "Pass&word"
-msgstr ""
+msgstr "&סיסמה"
 
 #: src/Gui/SettingsImapPage.ui:180
 msgctxt "ImapPage|"
 msgid "Password"
-msgstr ""
+msgstr "סיסמה"
 
 #: src/Gui/SettingsImapPage.ui:183
 msgctxt "ImapPage|"
@@ -2284,7 +2308,7 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:298
 msgctxt "ImapPage|"
 msgid "Refresh Interval"
-msgstr ""
+msgstr "הפרש בין ריענונים"
 
 #: src/Gui/SettingsImapPage.ui:305
 msgctxt "ImapPage|"
@@ -2296,62 +2320,62 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:309
 msgctxt "ImapPage|"
 msgid " seconds"
-msgstr ""
+msgstr " שניות"
 
 #: src/Gui/SettingsImapPage.ui:325
 msgctxt "ImapPage|"
 msgid "Account Icon"
-msgstr ""
+msgstr "סמל חשבון"
 
 #: src/Gui/SettingsImapPage.ui:332
 msgctxt "ImapPage|"
 msgid "Default Trojitá icon"
-msgstr ""
+msgstr "סמן ברירת המחדל של Trojitá"
 
 #: src/Gui/SettingsImapPage.ui:342
 msgctxt "ImapPage|"
 msgid "Archive Folder &Name"
-msgstr ""
+msgstr "שם תיקיית ה&ארכיון"
 
 #: src/Gui/SettingsOutgoingPage.ui:27
 msgctxt "OutgoingPage|"
 msgid "&Method"
-msgstr ""
+msgstr "&שיטה"
 
 #: src/Gui/SettingsOutgoingPage.ui:40
 msgctxt "OutgoingPage|"
 msgid "Encryption"
-msgstr ""
+msgstr "הצפנה"
 
 #: src/Gui/SettingsOutgoingPage.ui:50
 msgctxt "OutgoingPage|"
 msgid "Ser&ver"
-msgstr ""
+msgstr "ש&רת"
 
 #: src/Gui/SettingsOutgoingPage.ui:63
 msgctxt "OutgoingPage|"
 msgid "&Port"
-msgstr ""
+msgstr "&פתחה"
 
 #: src/Gui/SettingsOutgoingPage.ui:86
 msgctxt "OutgoingPage|"
 msgid "&Authenticate"
-msgstr ""
+msgstr "&אימות"
 
 #: src/Gui/SettingsOutgoingPage.ui:103
 msgctxt "OutgoingPage|"
 msgid "&Username"
-msgstr ""
+msgstr "שם &משתמש"
 
 #: src/Gui/SettingsOutgoingPage.ui:116
 msgctxt "OutgoingPage|"
 msgid "Pass&word"
-msgstr ""
+msgstr "&סיסמה"
 
 #: src/Gui/SettingsOutgoingPage.ui:156
 msgctxt "OutgoingPage|"
 msgid "Sendmail E&xecutable"
-msgstr ""
+msgstr "קובץ הה&פעלה של Sendmail"
 
 #: src/Gui/SettingsOutgoingPage.ui:169
 msgctxt "OutgoingPage|"
@@ -2378,7 +2402,7 @@ msgstr ""
 #: src/Gui/SettingsOutgoingPage.ui:218
 msgctxt "OutgoingPage|"
 msgid "Use IMAP Credentials"
-msgstr ""
+msgstr "להשתמש בפרטי גישה של IMAP"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
@@ -2388,7 +2412,7 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
 msgid "Trojitá"
-msgstr ""
+msgstr "Trojitá"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:41
 msgctxt "Gui::ShortcutConfigWidget|"
@@ -2399,27 +2423,27 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:203
 msgctxt "Gui::ShortcutConfigWidget|"
 msgid "Trojitá"
-msgstr ""
+msgstr "Trojitá"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:177
 msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
 msgid "Ctrl+"
-msgstr ""
+msgstr "Ctrl+"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:179
 msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
 msgid "Alt+"
-msgstr ""
+msgstr "Alt+"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:181
 msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
 msgid "Shift+"
-msgstr ""
+msgstr "Shift+"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:203
 msgctxt "Gui::ShortcutConfigWidget|"
 msgid "Shortcut Conflicts"
-msgstr ""
+msgstr "סתירות מקשי קיצור"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:204
 #, qt-format
@@ -2432,12 +2456,12 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:14
 msgctxt "ShortcutConfigWidget|"
 msgid "Configure Shortcuts"
-msgstr ""
+msgstr "הגדרת מקשי קיצור"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:20
 msgctxt "ShortcutConfigWidget|"
 msgid "Select an action and press a key combination to change its shortcut:"
-msgstr ""
+msgstr "נא לבחור פעולה וללחוץ על צירוף מקשים כדי לשנות את מקשי הקיצור שלו:"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:27
 msgctxt "ShortcutConfigWidget|"
@@ -2451,7 +2475,7 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:31
 msgctxt "ShortcutConfigWidget|"
 msgid "Action"
-msgstr ""
+msgstr "פעולה"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:36
 msgctxt "ShortcutConfigWidget|"
@@ -2465,11 +2489,13 @@ msgid ""
 "<p>Search interactively for shortcut names (e.g. Copy) or combination of "
 "keys (e.g. Ctrl+C) by typing them.</p>"
 msgstr ""
+"<p>חיפוש אינטראקטיבי בשמות קיצורי המקשים (למשל: העתקה) או צירוף מקשים (למשל: "
+"Ctrl+C) באמצעות הקלדתם.</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:49
 msgctxt "ShortcutConfigWidget|Label of search field"
 msgid "Search:"
-msgstr ""
+msgstr "חיפוש:"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:74
 msgctxt "ShortcutConfigWidget|"
@@ -2479,7 +2505,7 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:77
 msgctxt "ShortcutConfigWidget|Action for clearing shortcut"
 msgid "Clear"
-msgstr ""
+msgstr "פינוי"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:84
 msgctxt "ShortcutConfigWidget|"
@@ -2490,13 +2516,13 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:87
 msgctxt "ShortcutConfigWidget|Action for restoring default shortcut"
 msgid "Default"
-msgstr ""
+msgstr "ברירת מחדל"
 
 #: src/Gui/ShortcutHandler/ShortcutHandler.cpp:47
 #: src/Gui/ShortcutHandler/ShortcutHandler.cpp:103
 msgctxt "Gui::ShortcutHandler|"
 msgid "Main Window"
-msgstr ""
+msgstr "חלון ראשי"
 
 #: src/Gui/ShortcutHandler/ShortcutHandler.cpp:144
 msgctxt "Gui::ShortcutHandler|"
@@ -2508,72 +2534,72 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutHandler.h:319
 msgctxt "QObject|"
 msgid "Main Window"
-msgstr ""
+msgstr "חלון ראשי"
 
 #: src/Gui/SimplePartWidget.cpp:78
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save this message part..."
-msgstr ""
+msgstr "שמירת חלק ההודעה הזה…"
 
 #: src/Gui/SimplePartWidget.cpp:82
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save whole message..."
-msgstr ""
+msgstr "שמירת ההודעה כולה…"
 
 #: src/Gui/SimplePartWidget.cpp:86
 msgctxt "Gui::SimplePartWidget|"
 msgid "Search..."
-msgstr ""
+msgstr "חיפוש…"
 
 #: src/Gui/SimplePartWidget.cpp:89
 msgctxt "Gui::SimplePartWidget|"
 msgid "Copy e-mail address"
-msgstr ""
+msgstr "העתקת כתובת דואר"
 
 #: src/Gui/SimplePartWidget.cpp:130
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save Attachment"
-msgstr ""
+msgstr "שמירת צרופה"
 
 #: src/Gui/SimplePartWidget.cpp:207
 msgctxt "Gui::SimplePartWidget|"
 msgid "Color scheme"
-msgstr ""
+msgstr "ערכת צבעים"
 
 #: src/Gui/SimplePartWidget.cpp:221
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom"
-msgstr ""
+msgstr "תקריב"
 
 #: src/Gui/SimplePartWidget.cpp:227
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom In"
-msgstr ""
+msgstr "התקרבות"
 
 #: src/Gui/SimplePartWidget.cpp:231
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom Out"
-msgstr ""
+msgstr "התרחקות"
 
 #: src/Gui/SimplePartWidget.cpp:235
 msgctxt "Gui::SimplePartWidget|"
 msgid "Original Size"
-msgstr ""
+msgstr "גודל מקורי"
 
 #: src/Gui/TagAddDialog.ui:14
 msgctxt "TagAddDialog|"
 msgid "Add Tags"
-msgstr ""
+msgstr "הוספת תגיות"
 
 #: src/Gui/TagAddDialog.ui:26
 msgctxt "TagAddDialog|"
 msgid "Tag names (space-separated):"
-msgstr ""
+msgstr "שמות תגיות (מופרדים ברווח):"
 
 #: src/Gui/TagListWidget.cpp:107
 msgctxt "Gui::TagListWidget|"
 msgid "Disallowed tag value"
-msgstr ""
+msgstr "ערך תגית אסור"
 
 #: src/Gui/TagListWidget.cpp:108
 #, qt-format
@@ -2586,7 +2612,7 @@ msgstr ""
 #: src/Gui/TagWidget.cpp:59
 msgctxt "Gui::TagWidget|This is a verb!"
 msgid "Tag"
-msgstr ""
+msgstr "תגית"
 
 #: src/Gui/TaskProgressIndicator.cpp:84
 #, qt-format
@@ -2601,17 +2627,17 @@ msgstr[3] ""
 #: src/Gui/TaskProgressIndicator.cpp:86
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "IMAP connection idle"
-msgstr ""
+msgstr "חיבור ה־IMAP בהמתנה"
 
 #: src/Gui/Util.cpp:88
 msgctxt "Gui::MainWindow|"
 msgid "Don't ask again"
-msgstr ""
+msgstr "לא לשאול שוב"
 
 #: src/Gui/Window.cpp:134
 msgctxt "Gui::MainWindow|"
 msgid "Plugin Error"
-msgstr ""
+msgstr "שגיאת תוסף"
 
 #. The %1 placeholder is a full error message as provided by Qt, ready for human consumption.
 #: src/Gui/Window.cpp:136
@@ -2627,37 +2653,37 @@ msgstr ""
 #: src/Gui/Window.cpp:238
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
-msgstr ""
+msgstr "י&ציאה"
 
 #: src/Gui/Window.cpp:239
 msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
-msgstr ""
+msgstr "הודעה &חדשה…"
 
 #: src/Gui/Window.cpp:240
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
-msgstr ""
+msgstr "עריכת &טיוטה…"
 
 #: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
-msgstr ""
+msgstr "הצגת סרגל &תפריטים ראשי"
 
 #: src/Gui/Window.cpp:241
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+M"
-msgstr ""
+msgstr "Ctrl+M"
 
 #: src/Gui/Window.cpp:242
 msgctxt "Gui::MainWindow|"
 msgid "Exp&unge"
-msgstr ""
+msgstr "ה&שמדה"
 
 #: src/Gui/Window.cpp:242
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
-msgstr ""
+msgstr "Ctrl+E"
 
 #: src/Gui/Window.cpp:243
 msgctxt "Gui::MainWindow|"
@@ -2772,12 +2798,12 @@ msgstr ""
 #: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
-msgstr ""
+msgstr "Ctrl+Shift+F"
 
 #: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
-msgstr ""
+msgstr "שליחה מחדש…"
 
 #: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
@@ -2787,127 +2813,127 @@ msgstr ""
 #: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
-msgstr ""
+msgstr "פנקס כתובות…"
 
 #: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "&Offline"
-msgstr ""
+msgstr "מ&נותק"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
-msgstr ""
+msgstr "&חיבור יקר"
 
 #: src/Gui/Window.cpp:264
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
-msgstr ""
+msgstr "&גישה חופשית"
 
 #: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
-msgstr ""
+msgstr "סגירת חלון הודעה עצמאי"
 
 #: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
-msgstr ""
+msgstr "פתיחת הודעה בחלון חדש…"
 
 #: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
-msgstr ""
+msgstr "ניווט אחורה"
 
 #: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
-msgstr ""
+msgstr "התקרבות"
 
 #: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
-msgstr ""
+msgstr "התרחקות"
 
 #: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
-msgstr ""
+msgstr "גודל מקורי"
 
 #: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
-msgstr ""
+msgstr "העברת המיקוד לרשימת תיבות הדוא״ל"
 
 #: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
-msgstr ""
+msgstr "העברת המיקוד לרשימת ההודעות"
 
 #: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
-msgstr ""
+msgstr "העברת המיקוד לחיפוש המהיר"
 
 #: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
-msgstr ""
+msgstr "תיוג עם תגית מס׳ &1"
 
 #: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
-msgstr ""
+msgstr "תיוג עם תגית מס׳ &2"
 
 #: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
-msgstr ""
+msgstr "תיוג עם תגית מס׳ &3"
 
 #: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
-msgstr ""
+msgstr "תיוג עם תגית מס׳ &4"
 
 #: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
-msgstr ""
+msgstr "תיוג עם תגית מס׳ &5"
 
 #: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
-msgstr ""
+msgstr "תיוג עם תגית מס׳ &6"
 
 #: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
-msgstr ""
+msgstr "תיוג עם תגית מס׳ &7"
 
 #: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
-msgstr ""
+msgstr "תיוג עם תגית מס׳ &8"
 
 #: src/Gui/Window.cpp:282
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
-msgstr ""
+msgstr "תיוג עם תגית מס׳ &9"
 
 #: src/Gui/Window.cpp:310
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
-msgstr ""
+msgstr "ניווט"
 
 #: src/Gui/Window.cpp:313
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
-msgstr ""
+msgstr "&עדכון רשימת תיבות דוא״ל צאצאיות"
 
 #: src/Gui/Window.cpp:316
 msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
-msgstr ""
+msgstr "&איתור הודעות חדשות"
 
 #: src/Gui/Window.cpp:319
 msgctxt "Gui::MainWindow|"
@@ -2917,7 +2943,7 @@ msgstr ""
 #: src/Gui/Window.cpp:323
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
-msgstr ""
+msgstr "יציאה מהיישום"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
 #: src/Gui/Window.cpp:342
@@ -2940,7 +2966,7 @@ msgstr ""
 #: src/Gui/Window.cpp:359
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
-msgstr ""
+msgstr "הצגת יומן &פרוטוקול"
 
 #. file to save the debug log into
 #: src/Gui/Window.cpp:365
@@ -2952,17 +2978,17 @@ msgstr ""
 #: src/Gui/Window.cpp:370
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
-msgstr ""
+msgstr "&פרטי שרת IMAP…"
 
 #: src/Gui/Window.cpp:379
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
-msgstr ""
+msgstr "הצגת סרגל &כלים"
 
 #: src/Gui/Window.cpp:385
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
-msgstr ""
+msgstr "ה&גדרות…"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:482
@@ -2995,22 +3021,22 @@ msgstr ""
 #: src/Gui/Window.cpp:522
 msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
-msgstr ""
+msgstr "&עולה"
 
 #: src/Gui/Window.cpp:525
 msgctxt "Gui::MainWindow|"
 msgid "&Descending"
-msgstr ""
+msgstr "יו&רד"
 
 #: src/Gui/Window.cpp:533
 msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
-msgstr ""
+msgstr "&ללא מיון"
 
 #: src/Gui/Window.cpp:535
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
-msgstr ""
+msgstr "סידור לפי &שרשור"
 
 #: src/Gui/Window.cpp:537
 msgctxt "Gui::MainWindow|"
@@ -3030,42 +3056,42 @@ msgstr ""
 #: src/Gui/Window.cpp:543
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
-msgstr ""
+msgstr "מ&כתובת"
 
 #: src/Gui/Window.cpp:545
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
-msgstr ""
+msgstr "&גודל"
 
 #: src/Gui/Window.cpp:547
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
-msgstr ""
+msgstr "&נושא"
 
 #: src/Gui/Window.cpp:549
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
-msgstr ""
+msgstr "ל&כתובת"
 
 #: src/Gui/Window.cpp:554
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
-msgstr ""
+msgstr "הסתרת הודעות ש&נקראו"
 
 #: src/Gui/Window.cpp:563
 msgctxt "Gui::MainWindow|"
 msgid "&Compact"
-msgstr ""
+msgstr "מ&צומצם"
 
 #: src/Gui/Window.cpp:567
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
-msgstr ""
+msgstr "&רחב"
 
 #: src/Gui/Window.cpp:570
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
-msgstr ""
+msgstr "&אחד בכל פעם"
 
 #: src/Gui/Window.cpp:575
 msgctxt "Gui::MainWindow|"
@@ -3080,83 +3106,83 @@ msgstr ""
 #: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
-msgstr ""
+msgstr "&על Trojitá…"
 
 #: src/Gui/Window.cpp:587
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
-msgstr ""
+msgstr "&תרומה למיזם"
 
 #: src/Gui/Window.cpp:592
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
-msgstr ""
+msgstr "כתיבת הודעה"
 
 #: src/Gui/Window.cpp:692
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
-msgstr ""
+msgstr "יי&שום"
 
 #: src/Gui/Window.cpp:694
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
-msgstr ""
+msgstr "&גישה לרשת"
 
 #: src/Gui/Window.cpp:698
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
-msgstr ""
+msgstr "&ניפוי שגיאות"
 
 #: src/Gui/Window.cpp:718
 msgctxt "Gui::MainWindow|"
 msgid "&View"
-msgstr ""
+msgstr "ת&צוגה"
 
 #: src/Gui/Window.cpp:721
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
-msgstr ""
+msgstr "&פריסה"
 
 #: src/Gui/Window.cpp:728
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
-msgstr ""
+msgstr "תיבת &דוא״ל"
 
 #: src/Gui/Window.cpp:729
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
-msgstr ""
+msgstr "מ&יון"
 
 #: src/Gui/Window.cpp:753
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
-msgstr ""
+msgstr "הו&דעה"
 
 #: src/Gui/Window.cpp:832
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
-msgstr ""
+msgstr "יעד קישור: %1"
 
 #: src/Gui/Window.cpp:841
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
-msgstr ""
+msgstr "הכול"
 
 #: src/Gui/Window.cpp:849
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
-msgstr ""
+msgstr "משימות IMAP"
 
 #: src/Gui/Window.cpp:856
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
-msgstr ""
+msgstr "עץ סוגי תוכן/MIME"
 
 #: src/Gui/Window.cpp:867
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
-msgstr ""
+msgstr "יומן פרוטוקול"
 
 #: src/Gui/Window.cpp:946
 #, qt-format
@@ -3171,7 +3197,7 @@ msgstr[3] ""
 #: src/Gui/Window.cpp:999
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
-msgstr ""
+msgstr "י&ציאה"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
 #: src/Gui/Window.cpp:1114
@@ -3193,7 +3219,7 @@ msgstr ""
 #: src/Gui/Window.cpp:1126 src/Gui/Window.cpp:2573
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
-msgstr ""
+msgstr "Trojitá"
 
 #: src/Gui/Window.cpp:1127
 msgctxt "Gui::MainWindow|"
@@ -3206,22 +3232,22 @@ msgstr ""
 #: src/Gui/Window.cpp:1338
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
-msgstr ""
+msgstr "התראת IMAP"
 
 #: src/Gui/Window.cpp:1343
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
-msgstr ""
+msgstr "שגיאת פרוטוקול IMAP"
 
 #: src/Gui/Window.cpp:1351
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
-msgstr ""
+msgstr "שגיאת רשת"
 
 #: src/Gui/Window.cpp:1372
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
-msgstr ""
+msgstr "שגיאת מטמון IMAP"
 
 #: src/Gui/Window.cpp:1373
 #, qt-format
@@ -3236,71 +3262,71 @@ msgstr ""
 #: src/Gui/Window.cpp:1384
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
-msgstr ""
+msgstr "מנותק"
 
 #: src/Gui/Window.cpp:1430
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
-msgstr ""
+msgstr "אין הגדרות"
 
 #: src/Gui/Window.cpp:1431
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
-msgstr ""
+msgstr "לא מוגדר חשבון IMAP.‏ Trojitá לא יכולה לעשות יותר מדי בלי אחד כזה."
 
 #: src/Gui/Window.cpp:1456
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
-msgstr ""
+msgstr "משיכת סיסמה מהאחסון נכשלה: %1"
 
 #: src/Gui/Window.cpp:1474
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
-msgstr ""
+msgstr "נדרש אימות"
 
 #: src/Gui/Window.cpp:1475
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
-msgstr ""
+msgstr "<p>נא לספק סיסמת IMAP למשתמש <b>%1</b> ב־<b>%2</b>:</p>"
 
 #: src/Gui/Window.cpp:1531
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
-msgstr ""
+msgstr "עריכת טיוטה"
 
 #: src/Gui/Window.cpp:1658
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
-msgstr ""
+msgstr "העברה לארכיון נכשלה"
 
 #: src/Gui/Window.cpp:1708
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
-msgstr ""
+msgstr "יצירת תת־תיקייה של %1"
 
 #: src/Gui/Window.cpp:1709
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
-msgstr ""
+msgstr "יצירת תיבת דוא״ל ברמה העליונה"
 
 #: src/Gui/Window.cpp:1736
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
-msgstr ""
+msgstr "מחיקת תיבת דוא״ל"
 
 #: src/Gui/Window.cpp:1737
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
-msgstr ""
+msgstr "למחוק את תיבת הדוא״ל %1?"
 
 #: src/Gui/Window.cpp:2050
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
-msgstr ""
+msgstr "לא ניתן למחוק את תיבת הדוא״ל"
 
 #: src/Gui/Window.cpp:2051
 #, qt-format
@@ -3309,11 +3335,13 @@ msgid ""
 "Deleting mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
+"מחיקת תיבת הדוא״ל „%1” נכשלה עם ההודעה הבאה:\n"
+"%2"
 
 #: src/Gui/Window.cpp:2056
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
-msgstr ""
+msgstr "לא ניתן ליצור תיבת דוא״ל"
 
 #: src/Gui/Window.cpp:2057
 #, qt-format
@@ -3326,7 +3354,7 @@ msgstr ""
 #: src/Gui/Window.cpp:2062
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
-msgstr ""
+msgstr "לא ניתן לפתוח את תיבת הדוא״ל"
 
 #: src/Gui/Window.cpp:2063
 #, qt-format
@@ -3340,17 +3368,17 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
-msgstr ""
+msgstr "יעד קישור: %1"
 
 #: src/Gui/Window.cpp:2127
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
-msgstr ""
+msgstr "תוספים"
 
 #: src/Gui/Window.cpp:2134
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
-msgstr ""
+msgstr "הודעות מוצפנות וחתומות"
 
 #: src/Gui/Window.cpp:2141
 msgctxt "Gui::MainWindow|"
@@ -3361,18 +3389,18 @@ msgstr "דחיסת IMAP"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
-msgstr ""
+msgstr "<li>%1: נתמך</li>"
 
 #: src/Gui/Window.cpp:2153
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
-msgstr ""
+msgstr "<li>%1: <strong>כבוי</strong></li>"
 
 #: src/Gui/Window.cpp:2211
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
-msgstr ""
+msgstr "לא ניתן לשמור לקובץ"
 
 #: src/Gui/Window.cpp:2212
 #, qt-format
@@ -3381,11 +3409,13 @@ msgid ""
 "Unable to save into file. Error:\n"
 "%1"
 msgstr ""
+"לא ניתן לשמור לקובץ. שגיאה:\n"
+"%1"
 
 #: src/Gui/Window.cpp:2217
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
-msgstr ""
+msgstr "שמירת הודעה"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/Window.cpp:2233
@@ -3397,46 +3427,46 @@ msgstr ""
 #: src/Gui/Window.cpp:2248 src/Gui/Window.cpp:2270
 msgctxt "Gui::MainWindow|"
 msgid "Close"
-msgstr ""
+msgstr "סגירה"
 
 #: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
-msgstr ""
+msgstr "Ctrl+W"
 
 #: src/Gui/Window.cpp:2493
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
-msgstr ""
+msgstr "<li>%1</li>\n"
 
 #: src/Gui/Window.cpp:2501
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
-msgstr ""
+msgstr "לא ידוע"
 
 #: src/Gui/Window.cpp:2515
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
-msgstr ""
+msgstr "<p>"
 
 #: src/Gui/Window.cpp:2517
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
-msgstr ""
+msgstr "שרת: %1 %2"
 
 #: src/Gui/Window.cpp:2519
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
-msgstr ""
+msgstr "שרת: %1"
 
 #: src/Gui/Window.cpp:2522
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
-msgstr ""
+msgstr " (%1)"
 
 #: src/Gui/Window.cpp:2526
 #, qt-format
@@ -3444,41 +3474,41 @@ msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
 "version."
 msgid " on %1 %2"
-msgstr ""
+msgstr " על %1 %2"
 
 #: src/Gui/Window.cpp:2528
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
-msgstr ""
+msgstr " על %1"
 
 #: src/Gui/Window.cpp:2530
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
-msgstr ""
+msgstr "</p>"
 
 #: src/Gui/Window.cpp:2532
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
-msgstr ""
+msgstr "<p>שרת ה־IMAP לא החזיר מידע שימושי לגביו.</p>"
 
 #: src/Gui/Window.cpp:2536
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
-msgstr ""
+msgstr "<li>%1: %2</li>"
 
 #: src/Gui/Window.cpp:2538
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
-msgstr ""
+msgstr "<ul>%1</ul>"
 
 #: src/Gui/Window.cpp:2540
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
-msgstr ""
+msgstr "<p>השרת לא סיפק פרטים על גרסת התוכנה שלו.</p>"
 
 #: src/Gui/Window.cpp:2547
 #, qt-format
@@ -3487,6 +3517,8 @@ msgid ""
 "%1\n"
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
+"%1\n"
+"<p>היכולות הבאות מפורסמות כרגע:</p>"
 
 #: src/Gui/Window.cpp:2549
 #, qt-format
@@ -3510,123 +3542,123 @@ msgstr[3] ""
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
-msgstr ""
+msgstr "%1 - Trojitá"
 
 #: src/Gui/Window.cpp:2995
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
-msgstr ""
+msgstr "תיוג ב־„%1”"
 
 #: src/Imap/ConnectionState.cpp:35
 msgctxt "QObject|"
 msgid "Resolving hostname..."
-msgstr ""
+msgstr "שם המארח נפתר…"
 
 #: src/Imap/ConnectionState.cpp:37
 msgctxt "QObject|"
 msgid "Connecting to the IMAP server..."
-msgstr ""
+msgstr "מוקם חיבור לשרת ה־IMAP…"
 
 #: src/Imap/ConnectionState.cpp:39
 msgctxt "QObject|"
 msgid "Starting encryption (SSL)..."
-msgstr ""
+msgstr "ההצפנה מתחילה (SSL)"
 
 #: src/Imap/ConnectionState.cpp:41
 msgctxt "QObject|"
 msgid "Checking certificates (SSL)..."
-msgstr ""
+msgstr "האישורים נבדקים (SSL)…"
 
 #: src/Imap/ConnectionState.cpp:43
 msgctxt "QObject|"
 msgid "Checking capabilities..."
-msgstr ""
+msgstr "היכולות נבדקות…"
 
 #: src/Imap/ConnectionState.cpp:45
 msgctxt "QObject|"
 msgid "Waiting for encryption..."
-msgstr ""
+msgstr "בהמתנה להצפנה…"
 
 #: src/Imap/ConnectionState.cpp:47
 msgctxt "QObject|"
 msgid "Asking for encryption..."
-msgstr ""
+msgstr "בקשה להצפנה…"
 
 #: src/Imap/ConnectionState.cpp:49
 msgctxt "QObject|"
 msgid "Starting encryption (STARTTLS)..."
-msgstr ""
+msgstr "ההצפנה מתחילה (STARTTLS)…"
 
 #: src/Imap/ConnectionState.cpp:51
 msgctxt "QObject|"
 msgid "Checking certificates (STARTTLS)..."
-msgstr ""
+msgstr "האישורים נבדקים (STARTTLS)…"
 
 #: src/Imap/ConnectionState.cpp:53
 msgctxt "QObject|"
 msgid "Checking capabilities (after STARTTLS)..."
-msgstr ""
+msgstr "היכולות נבדקות (אחרי STARTTLS)…"
 
 #: src/Imap/ConnectionState.cpp:55
 msgctxt "QObject|"
 msgid "Logging in..."
-msgstr ""
+msgstr "מתבצעת כניסה למערכת"
 
 #: src/Imap/ConnectionState.cpp:57
 msgctxt "QObject|"
 msgid "Checking capabilities (after login)..."
-msgstr ""
+msgstr "היכולות נבדקות (לאחר הכניסה למערכת)…"
 
 #: src/Imap/ConnectionState.cpp:59
 msgctxt "QObject|"
 msgid "Activating compression..."
-msgstr ""
+msgstr "הדחיסה מופעלת…"
 
 #: src/Imap/ConnectionState.cpp:61
 msgctxt "QObject|"
 msgid "Logged in."
-msgstr ""
+msgstr "נכנסת."
 
 #: src/Imap/ConnectionState.cpp:63
 msgctxt "QObject|"
 msgid "Waiting for another mailbox..."
-msgstr ""
+msgstr "בהמתנה לתיבת דוא״ל אחרת…"
 
 #: src/Imap/ConnectionState.cpp:65
 msgctxt "QObject|"
 msgid "Opening mailbox..."
-msgstr ""
+msgstr "תיבת הדוא״ל נפתחת…"
 
 #: src/Imap/ConnectionState.cpp:67
 msgctxt "QObject|"
 msgid "Synchronizing mailbox..."
-msgstr ""
+msgstr "תיבת הדוא״ל מסתנכרנת…"
 
 #: src/Imap/ConnectionState.cpp:69
 msgctxt "QObject|"
 msgid "Mailbox opened."
-msgstr ""
+msgstr "תיבת הדוא״ל נפתחה."
 
 #: src/Imap/ConnectionState.cpp:71
 msgctxt "QObject|"
 msgid "Downloading message..."
-msgstr ""
+msgstr "ההודעה מתקבלת…"
 
 #: src/Imap/ConnectionState.cpp:73
 msgctxt "QObject|"
 msgid "Downloading message structure..."
-msgstr ""
+msgstr "מבנה ההודעה מתקבל…"
 
 #: src/Imap/ConnectionState.cpp:75
 msgctxt "QObject|"
 msgid "Logged out."
-msgstr ""
+msgstr "יצאת."
 
 #: src/Imap/Model/DiskPartCache.cpp:64
 msgctxt "QObject|"
 msgid "Unrecognized QFile error"
-msgstr ""
+msgstr "שגיאת QFile לא מוכרת"
 
 #: src/Imap/Model/DiskPartCache.cpp:85
 #, qt-format
@@ -3650,22 +3682,22 @@ msgstr ""
 #: src/Imap/Model/FavoriteTagsModel.cpp:124
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "#"
-msgstr ""
+msgstr "מס׳"
 
 #: src/Imap/Model/FavoriteTagsModel.cpp:126
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "Name"
-msgstr ""
+msgstr "שם"
 
 #: src/Imap/Model/FavoriteTagsModel.cpp:128
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "Color"
-msgstr ""
+msgstr "צבע"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:79
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Message is gone"
-msgstr ""
+msgstr "ההודעה נעלמה"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:91
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
@@ -3686,7 +3718,7 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to create directory %1"
-msgstr ""
+msgstr "יצירת התיקייה %1 נכשלה"
 
 #: src/Imap/Model/ImapAccess.cpp:326
 #, qt-format
@@ -3727,7 +3759,7 @@ msgstr "[%1 נטען: %2…]"
 #: src/Imap/Model/Model.cpp:1088
 msgctxt "Imap::Mailbox::Model|"
 msgid "Going offline"
-msgstr ""
+msgstr "מתבצע ניתוק"
 
 #: src/Imap/Model/Model.cpp:1162
 msgctxt "Imap::Mailbox::Model|"
@@ -3860,10 +3892,10 @@ msgstr[3] "%n לא נקראו"
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n recent"
 msgid_plural "%n recent"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "אחרון"
+msgstr[1] "שני אחרונים"
+msgstr[2] "%n אחרונים"
+msgstr[3] "%n אחרונים"
 
 #: src/Imap/Model/PrettyMsgListModel.cpp:108
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
@@ -3878,62 +3910,62 @@ msgstr "(אין נושא)"
 #: src/Imap/Model/SQLCache.cpp:97
 msgctxt "QObject|"
 msgid "Can't create table msg_threading"
-msgstr ""
+msgstr "לא ניתן ליצור את הטבלה msg_threading"
 
 #: src/Imap/Model/SQLCache.cpp:106
 msgctxt "QObject|"
 msgid "Can't create table mailbox_sync_state"
-msgstr ""
+msgstr "לא ניתן ליצור את הטבלה mailbox_sync_state"
 
 #: src/Imap/Model/SQLCache.cpp:118
 msgctxt "QObject|"
 msgid "Can't create table msg_metadata"
-msgstr ""
+msgstr "לא ניתן ליצור את הטבלה msg_metadata"
 
 #: src/Imap/Model/SQLCache.cpp:133
 msgctxt "QObject|"
 msgid "Can't open database"
-msgstr ""
+msgstr "לא ניתן לפתוח את מסד הנתונים"
 
 #: src/Imap/Model/SQLCache.cpp:148
 msgctxt "QObject|"
 msgid "Failed to verify version"
-msgstr ""
+msgstr "אימות הגרסה נכשל"
 
 #: src/Imap/Model/SQLCache.cpp:154
 msgctxt "QObject|"
 msgid "Can't determine version info"
-msgstr ""
+msgstr "לא ניתן לאתר את פרטי הגרסה"
 
 #: src/Imap/Model/SQLCache.cpp:163
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
-msgstr ""
+msgstr "עדכון גרסת סכמת מסד נתוני המטמון מ־1 ל־2 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:172
 msgctxt "QObject|"
 msgid "Failed to drop old table mailbox_sync_state"
-msgstr ""
+msgstr "השמטת הטבלה הישנה mailbox_sync_state נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:178
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v2/v3 to v4"
-msgstr ""
+msgstr "עדכון גרסת סכמת מסד נתוני המטמון מ־2/3 ל־4 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:191
 msgctxt "QObject|"
 msgid "Failed to drop old table msg_metadata"
-msgstr ""
+msgstr "השמטת הטבלה הישנה msg_metadata נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:197
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
-msgstr ""
+msgstr "עדכון גרסת סכמת מסד נתוני המטמון מ־4/5/6 ל־7 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:203
 msgctxt "QObject|"
 msgid "Unknown version of sqlite cache"
-msgstr ""
+msgstr "גרסה לא ידועה של מטמון sqlite"
 
 #: src/Imap/Model/SQLCache.cpp:224
 msgctxt "QObject|"
@@ -3968,143 +4000,143 @@ msgstr "לא ניתן ליצור את חלקי הטבלה"
 #: src/Imap/Model/SQLCache.cpp:282
 msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxes"
-msgstr ""
+msgstr "הכנת queryChildMailboxes נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:288
 msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxesFresh"
-msgstr ""
+msgstr "הכנת queryChildMailboxesFresh נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:294
 msgctxt "QObject|"
 msgid "Failed to prepare queryRemoveChildMailboxes"
-msgstr ""
+msgstr "הכנת queryRemoveChildMailboxes נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:300
 msgctxt "QObject|"
 msgid "Failed to prepare querySetChildMailboxes"
-msgstr ""
+msgstr "הכנת querySetChildMailboxes נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:306
 msgctxt "QObject|"
 msgid "Failed to prepare queryMailboxSyncState"
-msgstr ""
+msgstr "הכנת queryMailboxSyncState נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:314
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMailboxSyncState"
-msgstr ""
+msgstr "הכנת querySetMailboxSyncState נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:320
 msgctxt "QObject|"
 msgid "Failed to prepare queryUidMapping"
-msgstr ""
+msgstr "הכנת queryUidMapping נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:326
 msgctxt "QObject|"
 msgid "Failed to prepare querySetUidMapping"
-msgstr ""
+msgstr "הכנת querySetUidMapping נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:332
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearUidMapping"
-msgstr ""
+msgstr "הכנת queryClearUidMapping נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:338
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageMetadata"
-msgstr ""
+msgstr "הכנת queryMessageMetadata נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:344
 msgctxt "QObject|"
 msgid "Failed to prepare queryAccssMessageMetadata"
-msgstr ""
+msgstr "הכנת queryAccssMessageMetadata נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:350
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageMetadata"
-msgstr ""
+msgstr "הכנת querySetMessageMetadata נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:356
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageFlags"
-msgstr ""
+msgstr "הכנת queryMessageFlags נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:362
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageFlags"
-msgstr ""
+msgstr "הכנת querySetMessageFlags נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:368
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages1"
-msgstr ""
+msgstr "הכנת queryClearAllMessages1 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:374
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages2"
-msgstr ""
+msgstr "הכנת queryClearAllMessages2 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:380
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages3"
-msgstr ""
+msgstr "הכנת queryClearAllMessages3 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:386
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages4"
-msgstr ""
+msgstr "הכנת queryClearAllMessages4 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:392
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage1"
-msgstr ""
+msgstr "הכנת queryClearMessage1 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:398
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage2"
-msgstr ""
+msgstr "הכנת queryClearMessage2 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:404
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage3"
-msgstr ""
+msgstr "הכנת queryClearMessage3 נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:410
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessagePart"
-msgstr ""
+msgstr "הכנת queryMessagePart נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:416
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessagePart"
-msgstr ""
+msgstr "הכנת querySetMessagePart נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:422
 msgctxt "QObject|"
 msgid "Failed to prepare queryForgetMessagePart"
-msgstr ""
+msgstr "הכנת queryForgetMessagePart נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:428
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageThreading"
-msgstr ""
+msgstr "הכנת queryMessageThreading נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:434
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageThreading"
-msgstr ""
+msgstr "הכנת querySetMessageThreading נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:465
 msgctxt "QObject|"
 msgid "Query queryChildMailboxes failed"
-msgstr ""
+msgstr "השאילתה queryChildMailboxes נכשלה"
 
 #: src/Imap/Model/SQLCache.cpp:476
 #, qt-format
 msgctxt "QObject|"
 msgid "Corrupt data when reading child items for mailbox %1, line %2"
-msgstr ""
+msgstr "נתונים פגומים בעת קריאת פריטים צאצאיים מתיבת הדוא״ל %1, שורה %2"
 
 #: src/Imap/Model/SQLCache.cpp:488
 msgctxt "QObject|"
@@ -4241,12 +4273,12 @@ msgstr "מפענח %1"
 #, qt-format
 msgctxt "Imap::Mailbox::TaskPresentationModel|"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: src/Imap/Model/ThreadingMsgListModel.cpp:328
 msgctxt "Imap::Mailbox::ThreadingMsgListModel|"
 msgid "[Message is missing]"
-msgstr ""
+msgstr "[הודעה חסרה]"
 
 #: src/Imap/Model/ThreadingMsgListModel.cpp:331
 msgctxt "Imap::Mailbox::ThreadingMsgListModel|"
@@ -4307,7 +4339,7 @@ msgstr "לא ניתן לגשת לנתונים"
 #: src/Imap/Network/MsgPartNetworkReply.cpp:85
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Uncached data not available when offline"
-msgstr ""
+msgstr "נתונים שאינם במטמון לא זמינים ללא חיבור לאינטרנט"
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:87
 msgctxt "Imap::Network::MsgPartNetworkReply|"
@@ -4322,7 +4354,7 @@ msgstr "ההודעה עולה"
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:83
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "All messages disappeared before we could have copied them"
-msgstr ""
+msgstr "כל ההודעות נעלמו לפני שיכולנו להעתיק אותן"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:105
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
@@ -4359,7 +4391,7 @@ msgstr "לא ניתן ליצור תיבת דוא״ל"
 #: src/Imap/Tasks/CreateMailboxTask.cpp:79
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Error with the LIST command after the CREATE"
-msgstr ""
+msgstr "שגיאה עם פקודת ה־LIST אחרי ה־CREATE"
 
 #: src/Imap/Tasks/CreateMailboxTask.cpp:89
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
@@ -4385,62 +4417,62 @@ msgstr "יש פעולה ממתינה בתיבת הדוא״ל %1, לכן לא נ�
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:116
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox has pending activity"
-msgstr ""
+msgstr "יש פעולה שממתינה לתיבת הדוא״ל הנכנס"
 
 #: src/Imap/Tasks/EnableTask.cpp:75
 msgctxt "Imap::Mailbox::EnableTask|"
 msgid "ENABLE failed, strange"
-msgstr ""
+msgstr "ENABLE נכשל, מוזר"
 
 #: src/Imap/Tasks/EnableTask.cpp:86
 msgctxt "Imap::Mailbox::EnableTask|"
 msgid "Enabling IMAP extensions"
-msgstr ""
+msgstr "הרחבות IMAP מופעלות"
 
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:49
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 msgid "Mailbox vanished before we could expunge it"
-msgstr ""
+msgstr "תיבת הדוא״ל נעלמה לפני שהצלחנו להשמיד אותה"
 
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:68
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 msgid "Expunge failed"
-msgstr ""
+msgstr "ההשמדה נכשלה"
 
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:78
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 msgid "Removing deleted messages"
-msgstr ""
+msgstr "ההודעות שנמחקו עוברות הסרה"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:75
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "All messages are gone already"
-msgstr ""
+msgstr "כל ההודעת כבר אינן"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:80
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "The IMAP server doesn't support the UIDPLUS extension"
-msgstr ""
+msgstr "שרת ה־IMAP לא תומך בהרחבה UIDPLUS"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:95
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "UID EXPUNGE failed"
-msgstr ""
+msgstr "UID EXPUNGE נכשל"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:105
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "Removing some of the deleted messages"
-msgstr ""
+msgstr "חלק מההודעות שנמחקו עוברות הסרה"
 
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:60
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
 msgid "handleFetch: mailbox disappeared"
-msgstr ""
+msgstr "handleFetch: תיבת הדוא״ל נעלמה"
 
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:80
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
 msgid "UID FETCH failed"
-msgstr ""
+msgstr "UID FETCH נכשלה"
 
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:101
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
@@ -4486,12 +4518,12 @@ msgstr ""
 #: src/Imap/Tasks/ImapTask.h:191
 msgctxt "Imap::Mailbox::ImapTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "ביקש להתחסל"
 
 #: src/Imap/Tasks/ImapTask.h:195
 msgctxt "Imap::Mailbox::ImapTask|"
 msgid "Aborted"
-msgstr ""
+msgstr "בוטל באופן גורף"
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:176
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:427
@@ -4499,13 +4531,13 @@ msgstr ""
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:517
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "ביקש להתחסל"
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:264
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:265
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Parser is gone"
-msgstr ""
+msgstr "המפענח איננו"
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:713
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
@@ -4525,12 +4557,12 @@ msgstr ""
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:59
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Mailbox vanished before we could ask for its children"
-msgstr ""
+msgstr "תיבת הדוא״ל נעלמה לפני שהספקנו לבקש את הצאצאים שלה"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:101
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "LIST failed"
-msgstr ""
+msgstr "LIST (הצגה) נכשל"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:105
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
@@ -4565,17 +4597,17 @@ msgstr "מתבצע איתור הודעות"
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:72
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Asked to abort or die"
-msgstr ""
+msgstr "ביקש להתחסל או להתבטל"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:73
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Mailbox syncing dead or aborted"
-msgstr ""
+msgstr "סנכרון תיבת דוא״ל חוסל או בוטל"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:146
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "ביקש להתחסל"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1200
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
@@ -4585,22 +4617,22 @@ msgstr ""
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1205
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Synchronizing mailbox"
-msgstr ""
+msgstr "תיבת הדוא״ל מסתנכרנת"
 
 #: src/Imap/Tasks/OfflineConnectionTask.cpp:55
 msgctxt "Imap::Mailbox::OfflineConnectionTask|"
 msgid "We're offline"
-msgstr ""
+msgstr "אין חיבור"
 
 #: src/Imap/Tasks/OfflineConnectionTask.cpp:62
 msgctxt "Imap::Mailbox::OfflineConnectionTask|"
 msgid "Offline"
-msgstr ""
+msgstr "מנותק"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:116
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "ביקש להתחסל"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:163
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4664,6 +4696,8 @@ msgid ""
 "server cannot or will not allow the authentication identity to act as the "
 "requested authorization identity."
 msgstr ""
+"האימות הצליח להשתמש בזהות האימות, אבל השרת לא יכול או שלא ירשה לפעול בתור "
+"זהות האימות המבוקשת."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:312
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4703,6 +4737,7 @@ msgid ""
 "Server error: LOGINDISABLED but no STARTTLS capability. The login is "
 "effectively disabled entirely."
 msgstr ""
+"שגיאת שרת: LOGINDISABLED אבל אין יכולת STARTTLS. הכניסה מושבתת לחלוטין בפועל."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:403
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4717,7 +4752,7 @@ msgstr "שגיאת שרת: בקשת CAPABILITY (יכולת) נכשלה."
 #: src/Imap/Tasks/OpenConnectionTask.cpp:472
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Cannot login, you have not provided any credentials yet."
-msgstr ""
+msgstr "לא ניתן להיכנס, לא סיפקת פרטי גישה עדיין."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:484
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4768,7 +4803,7 @@ msgstr "תיבת הדוא״ל נעלמה לפני שהצלחנו לבקש פרט
 #: src/Imap/Tasks/ThreadTask.cpp:75
 msgctxt "Imap::Mailbox::ThreadTask|"
 msgid "Threading command has failed"
-msgstr ""
+msgstr "פקודת התהליכונים נכשלה"
 
 #: src/Imap/Tasks/ThreadTask.cpp:109
 msgctxt "Imap::Mailbox::ThreadTask|"
@@ -4789,7 +4824,7 @@ msgstr "דוא״ל נשלח"
 #: src/Imap/Tasks/UnSelectTask.cpp:49 src/Imap/Tasks/UnSelectTask.cpp:67
 msgctxt "Imap::Mailbox::UnSelectTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "ביקש להתחסל"
 
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:101
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
@@ -5224,7 +5259,7 @@ msgctxt "Streams::SslTlsSocket|"
 msgid ""
 "The underlying socket is having troubles when processing connection to %1:"
 "%2: %3"
-msgstr ""
+msgstr "שקע היסוד נתקל בבעיות בעיבוד החיבור אל %1:%2: %3"
 
 #: src/UiUtils/Formatting.cpp:40
 msgctxt "Formatting|"
