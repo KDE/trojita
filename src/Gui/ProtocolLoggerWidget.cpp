@@ -168,7 +168,11 @@ void ProtocolLoggerWidget::flushToWidget(const uint connectionId, Common::RingBu
 
     if (buf.skippedCount()) {
         w->appendHtml(QStringLiteral("<p style=\"color: #bb0000\"><i><b>%1</b> %2/i></p>")
-                      .arg(tr("%n message(s)", nullptr, buf.skippedCount()), tr("were skipped because this widget was hidden.")));
+                      .arg(
+                      //~ singular %n message
+                      //~ plural %n messages
+                      tr("%n message(s)", nullptr, buf.skippedCount()),
+                      tr("were skipped because this widget was hidden.")));
     }
 
     for (RingBuffer<LogMessage>::const_iterator it = buf.begin(); it != buf.end(); ++it) {
@@ -209,6 +213,8 @@ void ProtocolLoggerWidget::flushToWidget(const uint connectionId, Common::RingBu
 
         if (it->truncatedBytes) {
             trimmedInfo = QStringLiteral("<br/><span style=\"color: #808080; font-style: italic;\">%1</span>")
+                //~ singular %n more byte
+                //~ plural %n more bytes
                 .arg(tr("+ %n more byte(s)", nullptr, it->truncatedBytes));
         }
 

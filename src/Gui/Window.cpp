@@ -943,6 +943,8 @@ void MainWindow::setupModels()
     Q_ASSERT(nw);
     connect(nw, &Imap::Mailbox::NetworkWatcher::reconnectAttemptScheduled,
             this, [this](const int timeout) {
+            //~ singular Attempting to reconnect in %n second
+            //~ plural Attempting to reconnect in %n seconds
             showStatusMessage(tr("Attempting to reconnect in %n second(s)..", nullptr, timeout/1000));
             });
     connect(nw, &Imap::Mailbox::NetworkWatcher::resetReconnectState, this, &MainWindow::slotResetReconnectState);
@@ -1111,6 +1113,8 @@ void MainWindow::handleTrayIconChange()
         painter.drawPath(path);
 
         //: This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
+        //~ singular %n unread message
+        //~ plural %n unread messages
         tooltip += tr(" - %n unread message(s)", nullptr, unreadCount);
     } else if (isOffline) {
         //: A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
@@ -2564,6 +2568,8 @@ void MainWindow::slotUpdateWindowTitle()
         profileName = QLatin1String(" [") + profileName + QLatin1Char(']');
     if (mailbox.isValid()) {
         if (mailbox.data(Imap::Mailbox::RoleUnreadMessageCount).toInt()) {
+            //~ singular %1 - %n unread - Trojitá
+            //~ plural %1 - %n unread - Trojitá
             setWindowTitle(tr("%1 - %n unread - Trojitá", nullptr, mailbox.data(Imap::Mailbox::RoleUnreadMessageCount).toInt())
                            .arg(mailbox.data(Imap::Mailbox::RoleShortMailboxName).toString()) + profileName);
         } else {

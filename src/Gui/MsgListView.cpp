@@ -201,6 +201,8 @@ void MsgListView::startDrag(Qt::DropActions supportedActions)
             if (i == maxItems) {
                 p.fillRect(opt.rect, palette().color(QPalette::Disabled, QPalette::Highlight));
                 p.setBrush(palette().color(QPalette::Disabled, QPalette::HighlightedText));
+                //~ singular + %n additional item
+                //~ plural + %n additional items
                 p.drawText(opt.rect, Qt::AlignRight, tr("+ %n additional item(s)", nullptr, baseIndexes.size() - maxItems));
                 break;
             }

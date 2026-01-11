@@ -116,8 +116,14 @@ QVariant PrettyMailboxModel::data(const QModelIndex &index, int role) const
         QModelIndex translated = mapToSource(index);
         return QStringLiteral("<p>%1</p>\n<p>%2<br/>%3<br/>%4</p>").arg(
                     UiUtils::Formatting::htmlEscaped(translated.data(RoleShortMailboxName).toString()),
+                    //~ singular %n message
+                    //~ plural %n messages
                     tr("%n message(s)", nullptr, translated.data(RoleTotalMessageCount).toInt()),
+                    //~ singular %n unread
+                    //~ plural %n unread
                     tr("%n unread", nullptr, translated.data(RoleUnreadMessageCount).toInt()),
+                    //~ singular %n recent
+                    //~ plural %n recent
                     tr("%n recent", nullptr, translated.data(RoleRecentMessageCount).toInt()));
     }
     default:

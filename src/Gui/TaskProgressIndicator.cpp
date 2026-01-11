@@ -81,6 +81,8 @@ void TaskProgressIndicator::updateActivityIndication()
     }
 
     if (busy) {
+        //~ singular %n ongoing action
+        //~ plural %n ongoing actions
         setToolTip(tr("%n ongoing action(s)", nullptr, m_visibleTasksModel->rowCount()));
     } else {
         setToolTip(tr("IMAP connection idle"));
