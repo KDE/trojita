@@ -167,8 +167,8 @@ void ProtocolLoggerWidget::flushToWidget(const uint connectionId, Common::RingBu
     QPlainTextEdit *w = getLogger(connectionId);
 
     if (buf.skippedCount()) {
-        w->appendHtml(tr("<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because this widget was hidden.</i></p>",
-                         "", buf.skippedCount()));
+        w->appendHtml(QStringLiteral("<p style=\"color: #bb0000\"><i><b>%1</b> %2/i></p>")
+                      .arg(tr("%n message(s)", nullptr, buf.skippedCount()), tr("were skipped because this widget was hidden.")));
     }
 
     for (RingBuffer<LogMessage>::const_iterator it = buf.begin(); it != buf.end(); ++it) {
@@ -208,7 +208,8 @@ void ProtocolLoggerWidget::flushToWidget(const uint connectionId, Common::RingBu
         }
 
         if (it->truncatedBytes) {
-            trimmedInfo = tr("<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more byte(s))</span>", "", it->truncatedBytes);
+            trimmedInfo = QStringLiteral("<br/><span style=\"color: #808080; font-style: italic;\">%1</span>")
+                .arg(tr("+ %n more byte(s)", nullptr, it->truncatedBytes));
         }
 
         QString niceLine = it->message.toHtmlEscaped();
