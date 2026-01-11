@@ -60,7 +60,7 @@ void NetworkWatcher::attemptReconnect()
     m_reconnectTimer->setInterval(qMin(MAX_RECONNECT_TIMEOUT, m_reconnectTimer->interval()*2));
     m_reconnectTimer->start();
     m_model->logTrace(0, Common::LogKind::LOG_OTHER, QStringLiteral("Network"),
-                      tr("Attempting to reconnect in %n secs", nullptr, m_reconnectTimer->interval()/1000));
+                      tr("Attempting to reconnect in %n second(s)", nullptr, m_reconnectTimer->interval()/1000));
     emit reconnectAttemptScheduled(m_reconnectTimer->interval());
 }
 

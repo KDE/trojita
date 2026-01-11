@@ -208,7 +208,7 @@ void ProtocolLoggerWidget::flushToWidget(const uint connectionId, Common::RingBu
         }
 
         if (it->truncatedBytes) {
-            trimmedInfo = tr("<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more bytes)</span>", "", it->truncatedBytes);
+            trimmedInfo = tr("<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more byte(s))</span>", "", it->truncatedBytes);
         }
 
         QString niceLine = it->message.toHtmlEscaped();

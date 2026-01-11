@@ -943,7 +943,7 @@ void MainWindow::setupModels()
     Q_ASSERT(nw);
     connect(nw, &Imap::Mailbox::NetworkWatcher::reconnectAttemptScheduled,
             this, [this](const int timeout) {
-            showStatusMessage(tr("Attempting to reconnect in %n seconds..", nullptr, timeout/1000));
+            showStatusMessage(tr("Attempting to reconnect in %n second(s)..", nullptr, timeout/1000));
             });
     connect(nw, &Imap::Mailbox::NetworkWatcher::resetReconnectState, this, &MainWindow::slotResetReconnectState);
 
