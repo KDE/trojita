@@ -4,6 +4,8 @@ project(trojita)
 
 set(QT_REQUIRED_VERSION 6.7.0)
 
+set(SONNET_LIB_VERSION "6.21.0")
+
 find_package(ECM REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH
@@ -109,7 +111,7 @@ if(WIN32)
 endif()
 
 trojita_find_package(Qt6Keychain QUIET "https://github.com/frankosterfeld/qtkeychain" "QtKeychain library (Qt6 version)" "Needed for QtKeychain password plugin" WITH_QTKEYCHAIN_PLUGIN)
-trojita_find_package(KF6Sonnet "" "https://projects.kde.org/projects/frameworks/sonnet" "Qt6 Spell Checking Library from KDE" "Spell checking support" WITH_SONNET_PLUGIN)
+trojita_find_package(KF6Sonnet ${SONNET_LIB_VERSION} "https://projects.kde.org/projects/frameworks/sonnet" "Qt6 Spell Checking Library from KDE" "Spell checking support" WITH_SONNET_PLUGIN)
 if(Qt6Keychain_FOUND OR QtKeychain_FOUND)
     message(STATUS "Found QtKeychain library (includes at ${QTKEYCHAIN_INCLUDE_DIRS}, lib at ${QTKEYCHAIN_LIBRARIES})")
 else()
