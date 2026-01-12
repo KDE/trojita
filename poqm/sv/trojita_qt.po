@@ -902,8 +902,8 @@ msgstr ""
 "<br><span style=\"color:red\">Varning: Bilagor sparas <b>inte</b> med "
 "utkastet.</span>"
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1529
-#: src/Gui/Window.cpp:1531
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1533
+#: src/Gui/Window.cpp:1535
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Utkast"
@@ -1545,7 +1545,7 @@ msgctxt "Gui::MsgListView|"
 msgid "88.8 kB"
 msgstr "88,8 Kibyte"
 
-#: src/Gui/MsgListView.cpp:204
+#: src/Gui/MsgListView.cpp:206
 #, qt-format
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
@@ -1553,17 +1553,17 @@ msgid_plural "+ %n additional item(s)"
 msgstr[0] "+ %n ytterligare objekt"
 msgstr[1] "+ %n ytterligare objekt"
 
-#: src/Gui/MsgListView.cpp:336
+#: src/Gui/MsgListView.cpp:338
 msgctxt "Gui::MsgListView|"
 msgid "Seen status"
 msgstr "Betraktningsstatus"
 
-#: src/Gui/MsgListView.cpp:339
+#: src/Gui/MsgListView.cpp:341
 msgctxt "Gui::MsgListView|"
 msgid "Flagged status"
 msgstr "Flaggad status"
 
-#: src/Gui/MsgListView.cpp:342
+#: src/Gui/MsgListView.cpp:344
 msgctxt "Gui::MsgListView|"
 msgid "Attachment"
 msgstr "Bilaga"
@@ -1667,37 +1667,42 @@ msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Connection %1"
 msgstr "Anslutning %1"
 
-#: src/Gui/ProtocolLoggerWidget.cpp:170
-#, qt-format
+#: src/Gui/ProtocolLoggerWidget.cpp:174
+#, fuzzy, qt-format
+#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
+#| msgid "%n messages"
+#| msgid_plural "%n messages"
 msgctxt "Gui::ProtocolLoggerWidget|"
-msgid ""
-"<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-"this widget was hidden.</i></p>"
-msgid_plural ""
-"<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-"this widget was hidden.</i></p>"
-msgstr[0] ""
-"<p style='color: #bb0000'><i><b>%n brev</b> hoppades över eftersom den här "
-"grafiska komponenten var dold.</i></p>"
-msgstr[1] ""
+msgid "%n message(s)"
+msgid_plural "%n message(s)"
+msgstr[0] "%n brev"
+msgstr[1] "%n brev"
+
+#: src/Gui/ProtocolLoggerWidget.cpp:175
+#, fuzzy
+#| msgctxt "Gui::ProtocolLoggerWidget|"
+#| msgid ""
+#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
+#| "this widget was hidden.</i></p>"
+#| msgid_plural ""
+#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
+#| "this widget was hidden.</i></p>"
+msgctxt "Gui::ProtocolLoggerWidget|"
+msgid "were skipped because this widget was hidden."
+msgstr ""
 "<p style='color: #bb0000'><i><b>%n brev</b> hoppades över eftersom den här "
 "grafiska komponenten var dold.</i></p>"
 
-#: src/Gui/ProtocolLoggerWidget.cpp:211
-#, qt-format
+#: src/Gui/ProtocolLoggerWidget.cpp:218
+#, fuzzy, qt-format
+#| msgctxt "UiUtils::Formatting|"
+#| msgid "%n bytes"
+#| msgid_plural "%n bytes"
 msgctxt "Gui::ProtocolLoggerWidget|"
-msgid ""
-"<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more bytes)</"
-"span>"
-msgid_plural ""
-"<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more bytes)</"
-"span>"
-msgstr[0] ""
-"<br/><span style='color: #808080; font-style: italic;'>(+ %n ytterligare "
-"byte)</span>"
-msgstr[1] ""
-"<br/><span style='color: #808080; font-style: italic;'>(+ %n ytterligare "
-"byte)</span>"
+msgid "+ %n more byte(s)"
+msgid_plural "+ %n more byte(s)"
+msgstr[0] "%n byte"
+msgstr[1] "%n byte"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -2778,15 +2783,18 @@ msgctxt "Gui::TagWidget|This is a verb!"
 msgid "Tag"
 msgstr "Etikettera"
 
-#: src/Gui/TaskProgressIndicator.cpp:84
-#, qt-format
+#: src/Gui/TaskProgressIndicator.cpp:86
+#, fuzzy, qt-format
+#| msgctxt "Gui::TaskProgressIndicator|"
+#| msgid "%n ongoing actions"
+#| msgid_plural "%n ongoing actions"
 msgctxt "Gui::TaskProgressIndicator|"
-msgid "%n ongoing actions"
-msgid_plural "%n ongoing actions"
+msgid "%n ongoing action(s)"
+msgid_plural "%n ongoing action(s)"
 msgstr[0] "%n pågående åtgärd"
 msgstr[1] "%n pågående åtgärder"
 
-#: src/Gui/TaskProgressIndicator.cpp:86
+#: src/Gui/TaskProgressIndicator.cpp:88
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "IMAP connection idle"
 msgstr "IMAP-anslutning overksam"
@@ -3351,21 +3359,24 @@ msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "Protokollogg"
 
-#: src/Gui/Window.cpp:946
-#, qt-format
+#: src/Gui/Window.cpp:948
+#, fuzzy, qt-format
+#| msgctxt "Gui::MainWindow|"
+#| msgid "Attempting to reconnect in %n seconds.."
+#| msgid_plural "Attempting to reconnect in %n seconds.."
 msgctxt "Gui::MainWindow|"
-msgid "Attempting to reconnect in %n seconds.."
-msgid_plural "Attempting to reconnect in %n seconds.."
+msgid "Attempting to reconnect in %n second(s).."
+msgid_plural "Attempting to reconnect in %n second(s).."
 msgstr[0] "Försöker ansluta igen om %n sekund..."
 msgstr[1] "Försöker ansluta igen om %n sekunder..."
 
-#: src/Gui/Window.cpp:999
+#: src/Gui/Window.cpp:1001
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "&Avsluta"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1114
+#: src/Gui/Window.cpp:1118
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3374,17 +3385,17 @@ msgstr[0] " - %n oläst brev"
 msgstr[1] " - %n olästa brev"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1117
+#: src/Gui/Window.cpp:1121
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - nerkopplad"
 
-#: src/Gui/Window.cpp:1126 src/Gui/Window.cpp:2573
+#: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1127
+#: src/Gui/Window.cpp:1131
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3394,27 +3405,27 @@ msgstr ""
 "inställningarna."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1338
+#: src/Gui/Window.cpp:1342
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "IMAP-underrättelse"
 
-#: src/Gui/Window.cpp:1343
+#: src/Gui/Window.cpp:1347
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "IMAP-protokollfel"
 
-#: src/Gui/Window.cpp:1351
+#: src/Gui/Window.cpp:1355
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Nätverksfel"
 
-#: src/Gui/Window.cpp:1372
+#: src/Gui/Window.cpp:1376
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "IMAP-cachefel"
 
-#: src/Gui/Window.cpp:1373
+#: src/Gui/Window.cpp:1377
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3428,77 +3439,77 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:1384
+#: src/Gui/Window.cpp:1388
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "Nerkopplad"
 
-#: src/Gui/Window.cpp:1430
+#: src/Gui/Window.cpp:1434
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "Ingen inställning"
 
-#: src/Gui/Window.cpp:1431
+#: src/Gui/Window.cpp:1435
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 "Inget IMAP-konto är inställt. Trojitá kan inte göra särskilt mycket utan det."
 
-#: src/Gui/Window.cpp:1456
+#: src/Gui/Window.cpp:1460
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "Misslyckades hämta lösenord från lagring: %1"
 
-#: src/Gui/Window.cpp:1474
+#: src/Gui/Window.cpp:1478
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "Behörighetskontroll krävs"
 
-#: src/Gui/Window.cpp:1475
+#: src/Gui/Window.cpp:1479
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>Ange IMAP-lösenord för användaren <b>%1</b> på <b>%2</b>:</p>"
 
-#: src/Gui/Window.cpp:1531
+#: src/Gui/Window.cpp:1535
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Redigera utkast"
 
-#: src/Gui/Window.cpp:1658
+#: src/Gui/Window.cpp:1662
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "Misslyckades arkivera"
 
-#: src/Gui/Window.cpp:1708
+#: src/Gui/Window.cpp:1712
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "Skapa en underkorg till %1"
 
-#: src/Gui/Window.cpp:1709
+#: src/Gui/Window.cpp:1713
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "Skapa en brevlåda på toppnivå"
 
-#: src/Gui/Window.cpp:1736
+#: src/Gui/Window.cpp:1740
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Ta bort brevlåda"
 
-#: src/Gui/Window.cpp:1737
+#: src/Gui/Window.cpp:1741
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "Är du säker på att du vill ta bort brevlådan %1?"
 
-#: src/Gui/Window.cpp:2050
+#: src/Gui/Window.cpp:2054
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Kan inte ta bort brevlåda"
 
-#: src/Gui/Window.cpp:2051
+#: src/Gui/Window.cpp:2055
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3508,12 +3519,12 @@ msgstr ""
 "Borttagning av brevlådan \"%1\" misslyckades med följande meddelande:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2056
+#: src/Gui/Window.cpp:2060
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Kan inte skapa brevlåda"
 
-#: src/Gui/Window.cpp:2057
+#: src/Gui/Window.cpp:2061
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3523,12 +3534,12 @@ msgstr ""
 "Skapa brevlådan \"%1\" misslyckades med följande meddelande:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2062
+#: src/Gui/Window.cpp:2066
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Kan inte öppna brevlåda"
 
-#: src/Gui/Window.cpp:2063
+#: src/Gui/Window.cpp:2067
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3538,45 +3549,45 @@ msgstr ""
 "Misslyckades öppna brevlådan \"%1\" med följande meddelande:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2112
+#: src/Gui/Window.cpp:2116
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Länkmål: %1"
 
-#: src/Gui/Window.cpp:2127
+#: src/Gui/Window.cpp:2131
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "Insticksprogram"
 
-#: src/Gui/Window.cpp:2134
+#: src/Gui/Window.cpp:2138
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Krypterade och signerade brev"
 
-#: src/Gui/Window.cpp:2141
+#: src/Gui/Window.cpp:2145
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "IMAP-komprimering"
 
-#: src/Gui/Window.cpp:2152
+#: src/Gui/Window.cpp:2156
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: stöds</li>"
 
-#: src/Gui/Window.cpp:2153
+#: src/Gui/Window.cpp:2157
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>inaktiverad</strong></li>"
 
-#: src/Gui/Window.cpp:2211
+#: src/Gui/Window.cpp:2215
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Kan inte spara i fil"
 
-#: src/Gui/Window.cpp:2212
+#: src/Gui/Window.cpp:2216
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3586,63 +3597,63 @@ msgstr ""
 "Kan inte spara i fil. Fel:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2217
+#: src/Gui/Window.cpp:2221
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Spara brev"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2233
+#: src/Gui/Window.cpp:2237
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "Brevkälla för UID %1 i %2"
 
-#: src/Gui/Window.cpp:2248 src/Gui/Window.cpp:2270
+#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Stäng"
 
-#: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
+#: src/Gui/Window.cpp:2254 src/Gui/Window.cpp:2276
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2493
+#: src/Gui/Window.cpp:2497
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2501
+#: src/Gui/Window.cpp:2505
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Okänd"
 
-#: src/Gui/Window.cpp:2515
+#: src/Gui/Window.cpp:2519
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2517
+#: src/Gui/Window.cpp:2521
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Server: %1 %2"
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2523
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Server: %1"
 
-#: src/Gui/Window.cpp:2522
+#: src/Gui/Window.cpp:2526
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2526
+#: src/Gui/Window.cpp:2530
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -3650,36 +3661,36 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " på %1 %2"
 
-#: src/Gui/Window.cpp:2528
+#: src/Gui/Window.cpp:2532
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " på %1"
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2534
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2532
+#: src/Gui/Window.cpp:2536
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr ""
 "<p>IMAP-servern returnerade inte användbar information om sig själv.</p>"
 
-#: src/Gui/Window.cpp:2536
+#: src/Gui/Window.cpp:2540
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2538
+#: src/Gui/Window.cpp:2542
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2540
+#: src/Gui/Window.cpp:2544
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
@@ -3687,7 +3698,7 @@ msgstr ""
 "<p>Servern har inte tillhandahållit information om dess programvaruversion.</"
 "p>"
 
-#: src/Gui/Window.cpp:2547
+#: src/Gui/Window.cpp:2551
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3697,7 +3708,7 @@ msgstr ""
 "%1\n"
 "<p>Följande funktionalitet offentliggörs för närvarande:</p>"
 
-#: src/Gui/Window.cpp:2549
+#: src/Gui/Window.cpp:2553
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3707,7 +3718,7 @@ msgstr ""
 "<ul>\n"
 "%1</ul>"
 
-#: src/Gui/Window.cpp:2567
+#: src/Gui/Window.cpp:2573
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -3715,13 +3726,13 @@ msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] "%1 - %n oläst - Trojitá"
 msgstr[1] "%1 - %n olästa - Trojitá"
 
-#: src/Gui/Window.cpp:2570
+#: src/Gui/Window.cpp:2576
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - Trojitá"
 
-#: src/Gui/Window.cpp:2995
+#: src/Gui/Window.cpp:3001
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
@@ -4037,13 +4048,16 @@ msgctxt "MsgListModel|"
 msgid "Size"
 msgstr "Storlek"
 
-#: src/Imap/Model/NetworkWatcher.cpp:63
-#, qt-format
+#: src/Imap/Model/NetworkWatcher.cpp:65
+#, fuzzy, qt-format
+#| msgctxt "Gui::MainWindow|"
+#| msgid "Attempting to reconnect in %n seconds.."
+#| msgid_plural "Attempting to reconnect in %n seconds.."
 msgctxt "Imap::Mailbox::NetworkWatcher|"
-msgid "Attempting to reconnect in %n secs"
-msgid_plural "Attempting to reconnect in %n secs"
-msgstr[0] "Försöker att ansluta igen om %n s"
-msgstr[1] "Försöker att ansluta igen om %n s"
+msgid "Attempting to reconnect in %n second(s)"
+msgid_plural "Attempting to reconnect in %n second(s)"
+msgstr[0] "Försöker ansluta igen om %n sekund..."
+msgstr[1] "Försöker ansluta igen om %n sekunder..."
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -4057,15 +4071,18 @@ msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: src/Imap/Model/PrettyMailboxModel.cpp:119
-#, qt-format
+#: src/Imap/Model/PrettyMailboxModel.cpp:121
+#, fuzzy, qt-format
+#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
+#| msgid "%n messages"
+#| msgid_plural "%n messages"
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-msgid "%n messages"
-msgid_plural "%n messages"
+msgid "%n message(s)"
+msgid_plural "%n message(s)"
 msgstr[0] "%n brev"
 msgstr[1] "%n brev"
 
-#: src/Imap/Model/PrettyMailboxModel.cpp:120
+#: src/Imap/Model/PrettyMailboxModel.cpp:124
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n unread"
@@ -4073,7 +4090,7 @@ msgid_plural "%n unread"
 msgstr[0] "%n oläst"
 msgstr[1] "%n olästa"
 
-#: src/Imap/Model/PrettyMailboxModel.cpp:121
+#: src/Imap/Model/PrettyMailboxModel.cpp:127
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n recent"
@@ -5722,6 +5739,26 @@ msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "Kan inte spara lösenord via insticksprogram %1"
 
+#~ msgctxt "Gui::ProtocolLoggerWidget|"
+#~ msgid ""
+#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more "
+#~ "bytes)</span>"
+#~ msgid_plural ""
+#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more "
+#~ "bytes)</span>"
+#~ msgstr[0] ""
+#~ "<br/><span style='color: #808080; font-style: italic;'>(+ %n ytterligare "
+#~ "byte)</span>"
+#~ msgstr[1] ""
+#~ "<br/><span style='color: #808080; font-style: italic;'>(+ %n ytterligare "
+#~ "byte)</span>"
+
+#~ msgctxt "Imap::Mailbox::NetworkWatcher|"
+#~ msgid "Attempting to reconnect in %n secs"
+#~ msgid_plural "Attempting to reconnect in %n secs"
+#~ msgstr[0] "Försöker att ansluta igen om %n s"
+#~ msgstr[1] "Försöker att ansluta igen om %n s"
+
 #~ msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
 #~ msgid ""
 #~ "Qt does not recognize any network session. Please be sure that qtbearer "
@@ -6092,12 +6129,6 @@ msgstr "Kan inte spara lösenord via insticksprogram %1"
 #~ msgctxt "UiUtils::Formatting|"
 #~ msgid "0"
 #~ msgstr "0"
-
-#~ msgctxt "UiUtils::Formatting|"
-#~ msgid "%n bytes"
-#~ msgid_plural "%n bytes"
-#~ msgstr[0] "%n byte"
-#~ msgstr[1] "%n byte"
 
 #~ msgctxt "OutgoingPage|"
 #~ msgid "M&ethod"

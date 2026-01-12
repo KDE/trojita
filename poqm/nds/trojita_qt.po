@@ -992,8 +992,8 @@ msgid ""
 "the draft!</span>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1529
-#: src/Gui/Window.cpp:1531
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1533
+#: src/Gui/Window.cpp:1535
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr ""
@@ -1648,24 +1648,24 @@ msgctxt "Gui::MsgListView|"
 msgid "88.8 kB"
 msgstr ""
 
-#: src/Gui/MsgListView.cpp:204
+#: src/Gui/MsgListView.cpp:206
 #, qt-format
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
 msgid_plural "+ %n additional item(s)"
 msgstr[0] ""
 
-#: src/Gui/MsgListView.cpp:336
+#: src/Gui/MsgListView.cpp:338
 msgctxt "Gui::MsgListView|"
 msgid "Seen status"
 msgstr ""
 
-#: src/Gui/MsgListView.cpp:339
+#: src/Gui/MsgListView.cpp:341
 msgctxt "Gui::MsgListView|"
 msgid "Flagged status"
 msgstr ""
 
-#: src/Gui/MsgListView.cpp:342
+#: src/Gui/MsgListView.cpp:344
 msgctxt "Gui::MsgListView|"
 msgid "Attachment"
 msgstr ""
@@ -1772,29 +1772,30 @@ msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Connection %1"
 msgstr ""
 
-#: src/Gui/ProtocolLoggerWidget.cpp:170
-#, qt-format
+#: src/Gui/ProtocolLoggerWidget.cpp:174
+#, fuzzy, qt-format
+#| msgctxt "Composer::MessageComposer|"
+#| msgid "IMAP message %1"
 msgctxt "Gui::ProtocolLoggerWidget|"
-msgid ""
-"<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-"this widget was hidden.</i></p>"
-msgid_plural ""
-"<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-"this widget was hidden.</i></p>"
-msgstr[0] ""
-msgstr[1] ""
+msgid "%n message(s)"
+msgid_plural "%n message(s)"
+msgstr[0] "IMAP-Naricht %1"
+msgstr[1] "IMAP-Naricht %1"
 
-#: src/Gui/ProtocolLoggerWidget.cpp:211
-#, qt-format
+#: src/Gui/ProtocolLoggerWidget.cpp:175
 msgctxt "Gui::ProtocolLoggerWidget|"
-msgid ""
-"<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more bytes)</"
-"span>"
-msgid_plural ""
-"<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more bytes)</"
-"span>"
-msgstr[0] ""
-msgstr[1] ""
+msgid "were skipped because this widget was hidden."
+msgstr ""
+
+#: src/Gui/ProtocolLoggerWidget.cpp:218
+#, fuzzy, qt-format
+#| msgctxt "Imap::Mailbox::PrettySize|"
+#| msgid "%1 bytes"
+msgctxt "Gui::ProtocolLoggerWidget|"
+msgid "+ %n more byte(s)"
+msgid_plural "+ %n more byte(s)"
+msgstr[0] "%1 Bytes"
+msgstr[1] "%1 Bytes"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -2765,15 +2766,15 @@ msgctxt "Gui::TagWidget|This is a verb!"
 msgid "Tag"
 msgstr ""
 
-#: src/Gui/TaskProgressIndicator.cpp:84
+#: src/Gui/TaskProgressIndicator.cpp:86
 #, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
-msgid "%n ongoing actions"
-msgid_plural "%n ongoing actions"
+msgid "%n ongoing action(s)"
+msgid_plural "%n ongoing action(s)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Gui/TaskProgressIndicator.cpp:86
+#: src/Gui/TaskProgressIndicator.cpp:88
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "IMAP connection idle"
 msgstr ""
@@ -3341,21 +3342,21 @@ msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr ""
 
-#: src/Gui/Window.cpp:946
+#: src/Gui/Window.cpp:948
 #, qt-format
 msgctxt "Gui::MainWindow|"
-msgid "Attempting to reconnect in %n seconds.."
-msgid_plural "Attempting to reconnect in %n seconds.."
+msgid "Attempting to reconnect in %n second(s).."
+msgid_plural "Attempting to reconnect in %n second(s).."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Gui/Window.cpp:999
+#: src/Gui/Window.cpp:1001
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr ""
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1114
+#: src/Gui/Window.cpp:1118
 #, fuzzy, qt-format
 #| msgctxt "Composer::MessageComposer|"
 #| msgid "IMAP message %1"
@@ -3366,7 +3367,7 @@ msgstr[0] "IMAP-Naricht %1"
 msgstr[1] "IMAP-Naricht %1"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1117
+#: src/Gui/Window.cpp:1121
 #, fuzzy
 #| msgctxt "Imap::Network::MsgPartNetworkReply|"
 #| msgid "Offline"
@@ -3374,12 +3375,12 @@ msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr "Afkoppelt"
 
-#: src/Gui/Window.cpp:1126 src/Gui/Window.cpp:2573
+#: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr ""
 
-#: src/Gui/Window.cpp:1127
+#: src/Gui/Window.cpp:1131
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3387,27 +3388,27 @@ msgid ""
 msgstr ""
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1338
+#: src/Gui/Window.cpp:1342
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr ""
 
-#: src/Gui/Window.cpp:1343
+#: src/Gui/Window.cpp:1347
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr ""
 
-#: src/Gui/Window.cpp:1351
+#: src/Gui/Window.cpp:1355
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr ""
 
-#: src/Gui/Window.cpp:1372
+#: src/Gui/Window.cpp:1376
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr ""
 
-#: src/Gui/Window.cpp:1373
+#: src/Gui/Window.cpp:1377
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3417,76 +3418,76 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1384
+#: src/Gui/Window.cpp:1388
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr ""
 
-#: src/Gui/Window.cpp:1430
+#: src/Gui/Window.cpp:1434
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr ""
 
-#: src/Gui/Window.cpp:1431
+#: src/Gui/Window.cpp:1435
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 
-#: src/Gui/Window.cpp:1456
+#: src/Gui/Window.cpp:1460
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1474
+#: src/Gui/Window.cpp:1478
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr ""
 
-#: src/Gui/Window.cpp:1475
+#: src/Gui/Window.cpp:1479
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:1531
+#: src/Gui/Window.cpp:1535
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr ""
 
-#: src/Gui/Window.cpp:1658
+#: src/Gui/Window.cpp:1662
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr ""
 
-#: src/Gui/Window.cpp:1708
+#: src/Gui/Window.cpp:1712
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1709
+#: src/Gui/Window.cpp:1713
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:1736
+#: src/Gui/Window.cpp:1740
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:1737
+#: src/Gui/Window.cpp:1741
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr ""
 
-#: src/Gui/Window.cpp:2050
+#: src/Gui/Window.cpp:2054
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:2051
+#: src/Gui/Window.cpp:2055
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3494,12 +3495,12 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2056
+#: src/Gui/Window.cpp:2060
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:2057
+#: src/Gui/Window.cpp:2061
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3507,12 +3508,12 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2062
+#: src/Gui/Window.cpp:2066
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:2063
+#: src/Gui/Window.cpp:2067
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3520,18 +3521,18 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2112
+#: src/Gui/Window.cpp:2116
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:2127
+#: src/Gui/Window.cpp:2131
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr ""
 
-#: src/Gui/Window.cpp:2134
+#: src/Gui/Window.cpp:2138
 #, fuzzy
 #| msgctxt "Composer::MessageComposer|"
 #| msgid "IMAP message %1"
@@ -3539,12 +3540,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "IMAP-Naricht %1"
 
-#: src/Gui/Window.cpp:2141
+#: src/Gui/Window.cpp:2145
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr ""
 
-#: src/Gui/Window.cpp:2152
+#: src/Gui/Window.cpp:2156
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::CertificateUtils|"
 #| msgid "<li>%1</li>"
@@ -3552,18 +3553,18 @@ msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1</li>"
 
-#: src/Gui/Window.cpp:2153
+#: src/Gui/Window.cpp:2157
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2211
+#: src/Gui/Window.cpp:2215
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr ""
 
-#: src/Gui/Window.cpp:2212
+#: src/Gui/Window.cpp:2216
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3571,63 +3572,63 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Gui/Window.cpp:2217
+#: src/Gui/Window.cpp:2221
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr ""
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2233
+#: src/Gui/Window.cpp:2237
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2248 src/Gui/Window.cpp:2270
+#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr ""
 
-#: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
+#: src/Gui/Window.cpp:2254 src/Gui/Window.cpp:2276
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr ""
 
-#: src/Gui/Window.cpp:2493
+#: src/Gui/Window.cpp:2497
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr ""
 
-#: src/Gui/Window.cpp:2501
+#: src/Gui/Window.cpp:2505
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr ""
 
-#: src/Gui/Window.cpp:2515
+#: src/Gui/Window.cpp:2519
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2517
+#: src/Gui/Window.cpp:2521
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2523
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:2522
+#: src/Gui/Window.cpp:2526
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr ""
 
-#: src/Gui/Window.cpp:2526
+#: src/Gui/Window.cpp:2530
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::PrettySize|"
 #| msgid "%1 %2"
@@ -3637,41 +3638,41 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr "%1 %2"
 
-#: src/Gui/Window.cpp:2528
+#: src/Gui/Window.cpp:2532
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2534
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2532
+#: src/Gui/Window.cpp:2536
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2536
+#: src/Gui/Window.cpp:2540
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2538
+#: src/Gui/Window.cpp:2542
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2540
+#: src/Gui/Window.cpp:2544
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2547
+#: src/Gui/Window.cpp:2551
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3679,7 +3680,7 @@ msgid ""
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2549
+#: src/Gui/Window.cpp:2553
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::CertificateUtils|"
 #| msgid "<li>%1</li>"
@@ -3689,7 +3690,7 @@ msgid ""
 "%1</ul>"
 msgstr "<li>%1</li>"
 
-#: src/Gui/Window.cpp:2567
+#: src/Gui/Window.cpp:2573
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -3697,13 +3698,13 @@ msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Gui/Window.cpp:2570
+#: src/Gui/Window.cpp:2576
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr ""
 
-#: src/Gui/Window.cpp:2995
+#: src/Gui/Window.cpp:3001
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
@@ -4037,11 +4038,11 @@ msgctxt "MsgListModel|"
 msgid "Size"
 msgstr "Grött"
 
-#: src/Imap/Model/NetworkWatcher.cpp:63
+#: src/Imap/Model/NetworkWatcher.cpp:65
 #, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
-msgid "Attempting to reconnect in %n secs"
-msgid_plural "Attempting to reconnect in %n secs"
+msgid "Attempting to reconnect in %n second(s)"
+msgid_plural "Attempting to reconnect in %n second(s)"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -4057,17 +4058,17 @@ msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: src/Imap/Model/PrettyMailboxModel.cpp:119
+#: src/Imap/Model/PrettyMailboxModel.cpp:121
 #, fuzzy, qt-format
 #| msgctxt "Composer::MessageComposer|"
 #| msgid "IMAP message %1"
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-msgid "%n messages"
-msgid_plural "%n messages"
+msgid "%n message(s)"
+msgid_plural "%n message(s)"
 msgstr[0] "IMAP-Naricht %1"
 msgstr[1] "IMAP-Naricht %1"
 
-#: src/Imap/Model/PrettyMailboxModel.cpp:120
+#: src/Imap/Model/PrettyMailboxModel.cpp:124
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n unread"
@@ -4075,7 +4076,7 @@ msgid_plural "%n unread"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Imap/Model/PrettyMailboxModel.cpp:121
+#: src/Imap/Model/PrettyMailboxModel.cpp:127
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n recent"
@@ -5785,15 +5786,6 @@ msgstr ""
 #~ msgctxt "UiUtils::Formatting|"
 #~ msgid "0"
 #~ msgstr "0"
-
-#, fuzzy
-#~| msgctxt "Imap::Mailbox::PrettySize|"
-#~| msgid "%1 bytes"
-#~ msgctxt "UiUtils::Formatting|"
-#~ msgid "%n bytes"
-#~ msgid_plural "%n bytes"
-#~ msgstr[0] "%1 Bytes"
-#~ msgstr[1] "%1 Bytes"
 
 #, fuzzy
 #~| msgctxt "OneContact|"
