@@ -1,15 +1,15 @@
 # Translation of trojita_qt.po to Catalan
-# Copyright (C) 2014-2025 This_file_is_part_of_KDE
+# Copyright (C) 2014-2026 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2020 Antoni Bella Pérez <antonibella5@yahoo.com>
-# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2025-11-30 10:38+0100\n"
+"PO-Revision-Date: 2026-01-12 11:03+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -1685,10 +1685,7 @@ msgid "Connection %1"
 msgstr "Connexió %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -1696,27 +1693,17 @@ msgstr[0] "%n missatge"
 msgstr[1] "%n missatges"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
-"<p style=\"color: #bb0000\"><i><b>%n missatge</b> s'ha omès a causa que "
-"aquest giny està ocult.</i></p>"
+msgstr "s'han omès perquè aquest giny estava ocult."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "+ %n byte més"
+msgstr[1] "+ %n bytes més"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -2810,10 +2797,7 @@ msgid "Tag"
 msgstr "Etiqueta"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
-#, fuzzy, qt-format
-#| msgctxt "Gui::TaskProgressIndicator|"
-#| msgid "%n ongoing actions"
-#| msgid_plural "%n ongoing actions"
+#, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
@@ -3386,10 +3370,7 @@ msgid "Protocol log"
 msgstr "Registre del protocol"
 
 #: src/Gui/Window.cpp:948
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
@@ -4082,15 +4063,12 @@ msgid "Size"
 msgstr "Mida"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] "S'intentarà tornar a connectar d'aquí a %n segon..."
-msgstr[1] "S'intentarà tornar a connectar d'aquí a %n segons..."
+msgstr[0] "S'intentarà tornar a connectar d'aquí a %n segon"
+msgstr[1] "S'intentarà tornar a connectar d'aquí a %n segons"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -4105,10 +4083,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"

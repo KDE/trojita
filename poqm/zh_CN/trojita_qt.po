@@ -1611,13 +1611,11 @@ msgid "Connection %1"
 msgstr "连接 %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "正在复制信件"
+msgstr[0] ""
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
 msgctxt "Gui::ProtocolLoggerWidget|"
@@ -3809,13 +3807,11 @@ msgid "%1 (%2)"
 msgstr "%1 (%2 封)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "正在复制信件"
+msgstr[0] ""
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:124
 #, qt-format

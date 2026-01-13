@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-10 22:02+0200\n"
+"PO-Revision-Date: 2026-01-11 20:56+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -2649,6 +2649,10 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
+"טעינת תוסף נכשלה, לכן חלק מהיכולות עלולות ללכת לאיבוד. כנראה שכדאי לך לעדכן "
+"את המערכת שלך או לדווח על תקלה מול הספק.\n"
+"\n"
+"%1"
 
 #: src/Gui/Window.cpp:238
 msgctxt "Gui::MainWindow|"
@@ -2723,7 +2727,7 @@ msgstr ""
 #: src/Gui/Window.cpp:250
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
-msgstr ""
+msgstr "&שמירת הודעה…"
 
 #: src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-11-30 07:45+0100\n"
+"PO-Revision-Date: 2026-01-12 09:46+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -1673,10 +1673,7 @@ msgid "Connection %1"
 msgstr "Povezava %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -1686,29 +1683,19 @@ msgstr[2] "%n sporočila"
 msgstr[3] "%n sporočil"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
-"<p style=\"color: #bb0000\"><i><b>%n sporočilo</b> je bilo preskočeno, ker "
-"je bil ta gradnik skrit.</i></p>"
+msgstr "je bilo preskočeno, ker je bil ta gradnik skrit."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "+ %n byte"
+msgstr[1] "+ %n byta"
+msgstr[2] "+ %n byti"
+msgstr[3] "+ %n bytov"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -1718,17 +1705,17 @@ msgstr "Način brez povezave"
 #: src/Gui/SettingsCachePage.ui:48
 msgctxt "CachePage|"
 msgid "&Don't use cache"
-msgstr "&Ne uporabljaj predpomnilnika"
+msgstr "Ne uporabljaj predpomnilnika"
 
 #: src/Gui/SettingsCachePage.ui:61
 msgctxt "CachePage|"
 msgid "&Remember messages for X days"
-msgstr "&Pomni sporočila za X dni"
+msgstr "Pomni sporočila za X dni"
 
 #: src/Gui/SettingsCachePage.ui:90
 msgctxt "CachePage|"
 msgid "Store &forever"
-msgstr "Shrani &za vedno"
+msgstr "Shrani za vedno"
 
 #: src/Gui/SettingsCachePage.ui:106
 msgctxt "CachePage|"
@@ -2789,10 +2776,7 @@ msgid "Tag"
 msgstr "Oznaka"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
-#, fuzzy, qt-format
-#| msgctxt "Gui::TaskProgressIndicator|"
-#| msgid "%n ongoing actions"
-#| msgid_plural "%n ongoing actions"
+#, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
@@ -3367,10 +3351,7 @@ msgid "Protocol log"
 msgstr "Dnevnik protokola"
 
 #: src/Gui/Window.cpp:948
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
@@ -4055,17 +4036,14 @@ msgid "Size"
 msgstr "Velikost"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] "Poskus ponovne vzpostavitve povezave čez %n s.."
-msgstr[1] "Poskus ponovne vzpostavitve povezave čez %n s.."
+msgstr[0] "Poskus ponovne vzpostavitve povezave čez %n s"
+msgstr[1] "Poskus ponovne vzpostavitve povezave čez %n s"
 msgstr[2] "Poskus ponovne vzpostavitve povezave čez %n s.."
-msgstr[3] "Poskus ponovne vzpostavitve povezave čez %n s.."
+msgstr[3] "Poskus ponovne vzpostavitve povezave čez %n s"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -4080,10 +4058,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"

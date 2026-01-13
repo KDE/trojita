@@ -1,15 +1,15 @@
 # Translation of trojita_qt.po to Catalan (Valencian)
-# Copyright (C) 2014-2025 This_file_is_part_of_KDE
+# Copyright (C) 2014-2026 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2020 Antoni Bella Pérez <antonibella5@yahoo.com>
-# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2025-11-30 10:38+0100\n"
+"PO-Revision-Date: 2026-01-12 11:03+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -1688,10 +1688,7 @@ msgid "Connection %1"
 msgstr "Connexió %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -1699,27 +1696,17 @@ msgstr[0] "%n missatge"
 msgstr[1] "%n missatges"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
-"<p style=\"color: #bb0000\"><i><b>%n missatge</b> s'ha omés a causa que este "
-"giny està ocult.</i></p>"
+msgstr "s'han omés perquè este giny estava ocult."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "+ %n byte més"
+msgstr[1] "+ %n bytes més"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -1952,7 +1939,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:902
 msgctxt "Gui::ImapPage|"
 msgid "The IMAP server hostname is missing here"
-msgstr "Ací falta el nom de l'amfitrió IMAP"
+msgstr "Ací falta el nom d'amfitrió del servidor IMAP"
 
 #: src/Gui/SettingsDialog.cpp:908
 msgctxt "Gui::ImapPage|"
@@ -2043,7 +2030,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:1287 src/Gui/SettingsDialog.cpp:1293
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP server hostname is missing here"
-msgstr "Ací falta el nom de l'amfitrió SMTP"
+msgstr "Ací falta el nom d'amfitrió del servidor SMTP"
 
 #: src/Gui/SettingsDialog.cpp:1289
 msgctxt "Gui::OutgoingPage|"
@@ -2281,7 +2268,7 @@ msgstr "Ser&vidor"
 #: src/Gui/SettingsImapPage.ui:75
 msgctxt "ImapPage|"
 msgid "Hostname of the IMAP server"
-msgstr "Nom de l'amfitrió IMAP"
+msgstr "Nom d'amfitrió del servidor IMAP"
 
 #: src/Gui/SettingsImapPage.ui:78
 msgctxt "ImapPage|"
@@ -2814,10 +2801,7 @@ msgid "Tag"
 msgstr "Etiqueta"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
-#, fuzzy, qt-format
-#| msgctxt "Gui::TaskProgressIndicator|"
-#| msgid "%n ongoing actions"
-#| msgid_plural "%n ongoing actions"
+#, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
@@ -3390,10 +3374,7 @@ msgid "Protocol log"
 msgstr "Registre del protocol"
 
 #: src/Gui/Window.cpp:948
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
@@ -4087,15 +4068,12 @@ msgid "Size"
 msgstr "Mida"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] "S'intentarà tornar a connectar d'ací a %n segon…"
-msgstr[1] "S'intentarà tornar a connectar d'ací a %n segons…"
+msgstr[0] "S'intentarà tornar a connectar d'ací a %n segon"
+msgstr[1] "S'intentarà tornar a connectar d'ací a %n segons"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -4110,10 +4088,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -5540,7 +5515,8 @@ msgid ""
 "The underlying socket is having troubles when processing connection to %1:"
 "%2: %3"
 msgstr ""
-"El sòcol subjacent té problemes en processar la connexió amb %1: %2: %3"
+"El sòcol subjacent té problemes mentre es processava la connexió amb %1: %2: "
+"%3"
 
 #: src/UiUtils/Formatting.cpp:40
 msgctxt "Formatting|"
@@ -5800,51 +5776,3 @@ msgstr "S'està guardant la contrasenya des del connector %1…"
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "No s'ha pogut guardar la contrasenya mitjançant el connector %1"
-
-#~ msgctxt "Gui::ProtocolLoggerWidget|"
-#~ msgid ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more "
-#~ "bytes)</span>"
-#~ msgid_plural ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more "
-#~ "bytes)</span>"
-#~ msgstr[0] ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n byte més)</"
-#~ "span>"
-#~ msgstr[1] ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n bytes "
-#~ "més)</span>"
-
-#~ msgctxt "Imap::Mailbox::NetworkWatcher|"
-#~ msgid "Attempting to reconnect in %n secs"
-#~ msgid_plural "Attempting to reconnect in %n secs"
-#~ msgstr[0] "S'intentarà tornar a connectar d'ací a %n segon"
-#~ msgstr[1] "S'intentarà tornar a connectar d'ací a %n segons."
-
-#~ msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
-#~ msgid ""
-#~ "Qt does not recognize any network session. Please be sure that qtbearer "
-#~ "package (or similar) is installed. Assuming that network is actually "
-#~ "already available."
-#~ msgstr ""
-#~ "Qt no reconeix cap sessió de xarxa. Assegureu-vos que està instal·lat el "
-#~ "paquet «qtbearer» (o similar). Suposant que la xarxa en realitat ja està "
-#~ "disponible."
-
-#~ msgctxt "Gui::GeneralPage|"
-#~ msgid ""
-#~ "<p>If enabled, Trojitá will show its homepage upon startup.</p><p>The "
-#~ "remote server will receive the user's IP address and versions of Trojitá, "
-#~ "the Qt library, and the underlying operating system. No private "
-#~ "information, like account settings or IMAP server details, are collected."
-#~ "</p>"
-#~ msgstr ""
-#~ "<p>Si està marcada, Trojitá mostrarà la seua pàgina d'inici en iniciar.</"
-#~ "p><p>El servidor remot rebrà l'adreça IP de l'usuari d'IP i les versions "
-#~ "de Trojitá, la biblioteca Qt, i el sistema operatiu subjacent. No "
-#~ "s'arreplegarà informació privada, com la configuració del compte o els "
-#~ "detalls del servidor IMAP.</p>"
-
-#~ msgctxt "GeneralPage|"
-#~ msgid "Show Trojitá's homepage on startup"
-#~ msgstr "Mostra la pàgina web de Trojitá durant l'inici"

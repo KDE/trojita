@@ -1,15 +1,15 @@
 # Spanish translations for trojita_qt.po package.
-# Copyright (C) 2012-2025 This file is copyright:
+# Copyright (C) 2012-2026 This file is copyright:
 # This file is distributed under the same license as the trojita package.
 #
-# SPDX-FileCopyrightText: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023, 2025 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023, 2025, 2026 Eloy Cuadra <ecuadra@eloihr.net>
 # SPDX-FileCopyrightText: 2013 Rafael Belmonte <EagleScreen@gmail.com>
 # SPDX-FileCopyrightText: 2015, 2016 Sergio Ahumada <sahumada@texla.cl>
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita_qt\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2025-12-21 03:08+0100\n"
+"PO-Revision-Date: 2026-01-13 00:33+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -1684,38 +1684,25 @@ msgid "Connection %1"
 msgstr "Conexión %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "%n mensage"
+msgstr[0] "%n mensaje"
 msgstr[1] "%n mensajes"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
-"<p style=\"color: #bb0000\"><i>Se ha omitido <b>%n mensaje</b> porque este "
-"elemento gráfico estaba oculto.</i></p>"
+msgstr "se han omitido porque este elemento gráfico estaba oculto."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "+ %n byte más"
+msgstr[1] "+ %n bytes más"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -2809,10 +2796,7 @@ msgid "Tag"
 msgstr "Etiquetar"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
-#, fuzzy, qt-format
-#| msgctxt "Gui::TaskProgressIndicator|"
-#| msgid "%n ongoing actions"
-#| msgid_plural "%n ongoing actions"
+#, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
@@ -3385,15 +3369,12 @@ msgid "Protocol log"
 msgstr "Registro del protocolo"
 
 #: src/Gui/Window.cpp:948
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
-msgstr[0] "Intentando la reconexión en %n segundo."
-msgstr[1] "Intentando la reconexión en %n segundos."
+msgstr[0] "Intentando la reconexión en %n segundo…"
+msgstr[1] "Intentando la reconexión en %n segundos…"
 
 #: src/Gui/Window.cpp:1001
 msgctxt "Gui::MainWindow|"
@@ -4085,15 +4066,12 @@ msgid "Size"
 msgstr "Tamaño"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] "Intentando la reconexión en %n segundo."
-msgstr[1] "Intentando la reconexión en %n segundos."
+msgstr[0] "Intentando la reconexión en %n segundo"
+msgstr[1] "Intentando la reconexión en %n segundos"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -4108,14 +4086,11 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "%n mensage"
+msgstr[0] "%n mensaje"
 msgstr[1] "%n mensajes"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:124
@@ -5794,33 +5769,3 @@ msgstr "Guardando contraseña desde el complemento %1…"
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "No se puede guardar la contraseña usando el complemento %1"
-
-#~ msgctxt "Gui::ProtocolLoggerWidget|"
-#~ msgid ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more "
-#~ "bytes)</span>"
-#~ msgid_plural ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more "
-#~ "bytes)</span>"
-#~ msgstr[0] ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n byte más)</"
-#~ "span>"
-#~ msgstr[1] ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n bytes "
-#~ "más)</span>"
-
-#~ msgctxt "Imap::Mailbox::NetworkWatcher|"
-#~ msgid "Attempting to reconnect in %n secs"
-#~ msgid_plural "Attempting to reconnect in %n secs"
-#~ msgstr[0] "Intentando la reconexión en %n segundo"
-#~ msgstr[1] "Intentando la reconexión en %n segundos"
-
-#~ msgctxt "Imap::Mailbox::SystemNetworkWatcher|"
-#~ msgid ""
-#~ "Qt does not recognize any network session. Please be sure that qtbearer "
-#~ "package (or similar) is installed. Assuming that network is actually "
-#~ "already available."
-#~ msgstr ""
-#~ "Qt no reconoce ninguna sesión de red. Asegúrese de que el paquete "
-#~ "«qtbearer» (u otro similar) está instalado. Se supone que la red está "
-#~ "disponible."
