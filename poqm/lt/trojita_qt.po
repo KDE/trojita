@@ -575,6 +575,8 @@ msgid ""
 "Cannot decrypt. Some data are not available, perhaps due to an offline "
 "network connection."
 msgstr ""
+"Nepavyksta iššifruoti. Kai kurie duomenys neprieinami, galbūt, dėl to, kad "
+"nėra tinklo ryšio."
 
 #: src/Cryptography/GpgMe++.cpp:813
 #, qt-format
@@ -930,7 +932,7 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:1100
 msgctxt "ComposeWidget|"
 msgid "To"
-msgstr ""
+msgstr "Kam"
 
 #: src/Gui/ComposeWidget.cpp:1101
 msgctxt "ComposeWidget|"
@@ -1231,12 +1233,12 @@ msgstr "Įkelti %1 (%2)"
 #: src/Gui/MailBoxTreeView.cpp:143
 msgctxt "MailBoxTreeView|"
 msgid "Move here\tShift"
-msgstr ""
+msgstr "Perkelti čia\tLyg2"
 
 #: src/Gui/MailBoxTreeView.cpp:144
 msgctxt "MailBoxTreeView|"
 msgid "Copy here\tCtrl"
-msgstr ""
+msgstr "Kopijuoti čia\tVald"
 
 #: src/Gui/MailBoxTreeView.cpp:145
 msgctxt "MailBoxTreeView|"
@@ -1287,7 +1289,7 @@ msgstr ""
 #: src/Gui/main.cpp:85
 msgctxt "QObject|"
 msgid "[url]"
-msgstr ""
+msgstr "[url]"
 
 #: src/Gui/main.cpp:108
 #, qt-format
@@ -1627,10 +1629,7 @@ msgid "Connection %1"
 msgstr ""
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -3852,10 +3851,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -3917,17 +3913,17 @@ msgstr "Nepavyksta atverti duomenų bazės"
 #: src/Imap/Model/SQLCache.cpp:148
 msgctxt "QObject|"
 msgid "Failed to verify version"
-msgstr ""
+msgstr "Nepavyko patikrinti versijos"
 
 #: src/Imap/Model/SQLCache.cpp:154
 msgctxt "QObject|"
 msgid "Can't determine version info"
-msgstr ""
+msgstr "Nepavyko nustatyti informacijos apie versiją"
 
 #: src/Imap/Model/SQLCache.cpp:163
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
-msgstr ""
+msgstr "Nepavyko atnaujinti podėlio duomenų bazės schemos iš v1 į v2"
 
 #: src/Imap/Model/SQLCache.cpp:172
 msgctxt "QObject|"
@@ -3947,12 +3943,12 @@ msgstr ""
 #: src/Imap/Model/SQLCache.cpp:197
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
-msgstr ""
+msgstr "Nepavyko atnaujinti podėlio duomenų bazės schemos iš v4/v5/v6 į v7"
 
 #: src/Imap/Model/SQLCache.cpp:203
 msgctxt "QObject|"
 msgid "Unknown version of sqlite cache"
-msgstr ""
+msgstr "Nežinoma sqlite podėlio versija"
 
 #: src/Imap/Model/SQLCache.cpp:224
 msgctxt "QObject|"

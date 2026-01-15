@@ -1,9 +1,9 @@
-# SPDX-FileCopyrightText: 2021, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# SPDX-FileCopyrightText: 2021, 2025, 2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 # Safa Alfulaij <safa1996alfulaij@gmail.com>, 2014, 2015, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-12-03 16:34+0400\n"
+"PO-Revision-Date: 2026-01-14 08:43+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -1656,10 +1656,7 @@ msgid "Connection %1"
 msgstr "الاتّصال %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -1671,34 +1668,21 @@ msgstr[4] "%n رسالةً"
 msgstr[5] "%n رسالة"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
-"<p style=\"color: #bb0000\"><i><b>%n رسالة</b> أُهمِلت لأن هذه الودجة كانت "
-"مخفية.</i></p>"
+msgstr "تخطيت لأن هذه الأداة كانت مخفية."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "%n bytes"
-#| msgid_plural "%n bytes"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] "لا بايتات"
-msgstr[1] "بايت واحد"
-msgstr[2] "بايتان"
-msgstr[3] "%n بايتات"
-msgstr[4] "%n بايتًا"
-msgstr[5] "%n بايت"
+msgstr[0] "+ لا بايتات إضافية"
+msgstr[1] "+ بايت إضافي واحد"
+msgstr[2] "+ بايتان إضافيان"
+msgstr[3] "+ %n بايتات إضافية"
+msgstr[4] "+ %n بايتًا إضافيًا"
+msgstr[5] "+ %n بايت إضافي"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -2761,19 +2745,16 @@ msgid "Tag"
 msgstr "سِم"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
-#, fuzzy, qt-format
-#| msgctxt "Gui::TaskProgressIndicator|"
-#| msgid "%n ongoing actions"
-#| msgid_plural "%n ongoing actions"
+#, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
 msgstr[0] "لا إجراءات جارية"
-msgstr[1] "إجراء واحد يجري"
-msgstr[2] "إجراءان يجريان"
-msgstr[3] "%n إجراءات تجري"
-msgstr[4] "%n إجراءًا يجري"
-msgstr[5] "%n إجراء يجري"
+msgstr[1] "إجراء واحد يعمل"
+msgstr[2] "إجراءان يعملان"
+msgstr[3] "%n إجراءات تعمل"
+msgstr[4] "%n إجراءً تعمل"
+msgstr[5] "%n إجراء تعمل"
 
 #: src/Gui/TaskProgressIndicator.cpp:88
 msgctxt "Gui::TaskProgressIndicator|"
@@ -3340,18 +3321,15 @@ msgid "Protocol log"
 msgstr "سجل البروتوكول"
 
 #: src/Gui/Window.cpp:948
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
 msgstr[0] "يحاول إعادة الاتّصال حالًا.."
 msgstr[1] "يحاول إعادة الاتّصال خلال ثانية واحدة.."
 msgstr[2] "يحاول إعادة الاتّصال خلال ثانيتين.."
-msgstr[3] "يحاول إعادة الاتّصال خلال %n ثوان.."
-msgstr[4] "يحاول إعادة الاتّصال خلال %n ثانية.."
+msgstr[3] "يحاول إعادة الاتّصال خلال %n ثوانٍ.."
+msgstr[4] "يحاول إعادة الاتّصال خلال %n ثانيةً.."
 msgstr[5] "يحاول إعادة الاتّصال خلال %n ثانية.."
 
 #: src/Gui/Window.cpp:1001
@@ -4028,19 +4006,16 @@ msgid "Size"
 msgstr "الحجم"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] "يحاول إعادة الاتّصال حالًا.."
-msgstr[1] "يحاول إعادة الاتّصال خلال ثانية واحدة.."
-msgstr[2] "يحاول إعادة الاتّصال خلال ثانيتين.."
-msgstr[3] "يحاول إعادة الاتّصال خلال %n ثوان.."
-msgstr[4] "يحاول إعادة الاتّصال خلال %n ثانية.."
-msgstr[5] "يحاول إعادة الاتّصال خلال %n ثانية.."
+msgstr[0] "يحاول إعادة الاتّصال حالًا"
+msgstr[1] "يحاول إعادة الاتّصال خلال ثانية واحدة"
+msgstr[2] "يحاول إعادة الاتّصال خلال ثانيتين"
+msgstr[3] "يحاول إعادة الاتّصال خلال %n ثوانٍ"
+msgstr[4] "يحاول إعادة الاتّصال خلال %n ثانيةً"
+msgstr[5] "يحاول إعادة الاتّصال خلال %n ثانية"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -4055,10 +4030,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -4505,7 +4477,7 @@ msgstr "CID غير موجود (%1)"
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Unsupported URL (%1)"
-msgstr "عنوان غير مدعوم (%1)"
+msgstr "عنوان غير متاح (%1)"
 
 #: src/Imap/Network/FileDownloadManager.cpp:74
 #, qt-format
@@ -5305,7 +5277,7 @@ msgstr "ملاحظات"
 #: src/Plugins/AbookAddressbook/onecontact.ui:364
 msgctxt "OneContact|"
 msgid "Nick"
-msgstr "لقب"
+msgstr "اللقب"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:383
 msgctxt "OneContact|"
