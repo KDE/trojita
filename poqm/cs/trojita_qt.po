@@ -1618,30 +1618,20 @@ msgstr "Spojení %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
 #, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#| msgctxt "Gui::MainWindow|"
+#| msgid " - %n unread message(s)"
+#| msgid_plural " - %n unread message(s)"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "%n zpráva"
-msgstr[1] "%n zprávy"
-msgstr[2] "%n zpráv"
+msgstr[0] "- %n nepřečtená zpráva"
+msgstr[1] "- %n nepřečtené zprávy"
+msgstr[2] "- %n nepřečtených zpráv"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
 msgstr ""
-"<p style=\"color: #bb0000\"><i><b>%n zpráva</b> byla přeskočena, protože byl "
-"tento widget skryt.</i></p>"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
 #, qt-format
@@ -3863,15 +3853,15 @@ msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
 #, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#| msgctxt "Gui::MainWindow|"
+#| msgid " - %n unread message(s)"
+#| msgid_plural " - %n unread message(s)"
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "%n zpráva"
-msgstr[1] "%n zprávy"
-msgstr[2] "%n zpráv"
+msgstr[0] "- %n nepřečtená zpráva"
+msgstr[1] "- %n nepřečtené zprávy"
+msgstr[2] "- %n nepřečtených zpráv"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:124
 #, qt-format
@@ -5463,20 +5453,3 @@ msgstr "Ukládání hesel z modulu %1..."
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "Heslo nelze uložit pomocí modulu %1"
-
-#~ msgctxt "Gui::ProtocolLoggerWidget|"
-#~ msgid ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more "
-#~ "bytes)</span>"
-#~ msgid_plural ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n more "
-#~ "bytes)</span>"
-#~ msgstr[0] ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n bajt "
-#~ "navíc)</span>"
-#~ msgstr[1] ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n bajty "
-#~ "navíc)</span>"
-#~ msgstr[2] ""
-#~ "<br/><span style=\"color: #808080; font-style: italic;\">(+ %n bajtů "
-#~ "navíc)</span>"

@@ -1623,8 +1623,6 @@ msgstr "Tilkobling %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
 #, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -3944,8 +3942,6 @@ msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
 #, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita_common\n"
-"PO-Revision-Date: 2026-01-10 19:12+0100\n"
+"PO-Revision-Date: 2026-01-14 08:27+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -1694,40 +1694,25 @@ msgid "Connection %1"
 msgstr "Connexion %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "%n message"
-msgstr[1] "%n messages"
+msgstr[0] "%n message(s)"
+msgstr[1] "%n message(s)"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
-"<p style='color: #bb0000'><i><b>%n message(s)</b> ont été ignorés car ce "
-"composant graphique a été caché.</i></p>"
+msgstr "ont été ignorés car ce composant graphique a été caché."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "%1 bytes"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] "%1 octets"
-msgstr[1] "%1 octets"
+msgstr[0] "+ %n octets de plus"
+msgstr[1] "+ %n octets de plus"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -2826,15 +2811,12 @@ msgid "Tag"
 msgstr "Étiquette"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
-#, fuzzy, qt-format
-#| msgctxt "Gui::TaskProgressIndicator|"
-#| msgid "%n ongoing actions"
-#| msgid_plural "%n ongoing actions"
+#, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
-msgstr[0] "%n action en cours"
-msgstr[1] "%n actions en cours"
+msgstr[0] "%n action(s) en cours"
+msgstr[1] "%n action(s) en cours"
 
 #: src/Gui/TaskProgressIndicator.cpp:88
 msgctxt "Gui::TaskProgressIndicator|"
@@ -3402,15 +3384,12 @@ msgid "Protocol log"
 msgstr "Journal du protocole"
 
 #: src/Gui/Window.cpp:948
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
-msgstr[0] "Nouvel essai de connexion dans %n seconde..."
-msgstr[1] "Nouvel essai de connexion dans %n secondes..."
+msgstr[0] "Nouvelle tentative de connexion dans %n seconde(s)..."
+msgstr[1] "Nouvelle tentative de connexion dans %n seconde(s)..."
 
 #: src/Gui/Window.cpp:1001
 msgctxt "Gui::MainWindow|"
@@ -4107,14 +4086,11 @@ msgid "Size"
 msgstr "Taille"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] "Nouvel essai de connexion dans %n seconde..."
+msgstr[0] "Nouvelle tentative de connexion dans %n seconde(s)..."
 msgstr[1] "Nouvel essai de connexion dans %n secondes..."
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
@@ -4130,15 +4106,12 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "%n message"
-msgstr[1] "%n messages"
+msgstr[0] "%n message(s)"
+msgstr[1] "%n message(s)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:124
 #, qt-format
