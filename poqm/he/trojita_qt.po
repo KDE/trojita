@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-11 20:56+0200\n"
+"PO-Revision-Date: 2026-01-16 10:59+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -798,18 +798,18 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:520
 msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
-msgstr ""
+msgstr "לא ניתן לקבוע מה הם הנמענים"
 
 #: src/Gui/ComposeWidget.cpp:567
 msgctxt "ComposeWidget|"
 msgid "Sender"
-msgstr ""
+msgstr "מוען"
 
 #: src/Gui/ComposeWidget.cpp:573
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
-msgstr ""
+msgstr "שליחת הודעה מחדש: %1"
 
 #: src/Gui/ComposeWidget.cpp:573
 msgctxt "ComposeWidget|"
@@ -899,6 +899,8 @@ msgid ""
 "Cannot parse recipients:\n"
 "%1"
 msgstr ""
+"לא ניתן לפענח את הנמענים:\n"
+"%1"
 
 #: src/Gui/ComposeWidget.cpp:784
 msgctxt "ComposeWidget|"
@@ -1487,12 +1489,15 @@ msgid ""
 "> ...\n"
 "\n"
 msgstr ""
+"ב־%1, נשלחה הודעה מוצפנת על ידי %2:\n"
+"> …\n"
+"\n"
 
 #: src/Gui/MessageView.cpp:370
 #, qt-format
 msgctxt "MessageView|"
 msgid "On %1, %2 wrote:\n"
-msgstr ""
+msgstr "ב־%1, נכתב על ידי %2:\n"
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
 #: src/Gui/MsgListView.cpp:147
@@ -1745,12 +1750,12 @@ msgstr "&SMTP"
 #: src/Gui/SettingsDialog.cpp:96
 msgctxt "Gui::SettingsDialog|"
 msgid "Favorite &tags"
-msgstr ""
+msgstr "תגיות מו&עדפות"
 
 #: src/Gui/SettingsDialog.cpp:212
 msgctxt "Gui::SettingsDialog|"
 msgid "Saving passwords failed"
-msgstr ""
+msgstr "שמירת הסיסמה נכשלה"
 
 #: src/Gui/SettingsDialog.cpp:213
 #, qt-format
@@ -1759,6 +1764,8 @@ msgid ""
 "<p>Couldn't save passwords. These were the error messages:</p>\n"
 "<p>%1</p>"
 msgstr ""
+"<p>לא ניתן לשמור סיסמאות. אלו היו הודעות השגיאה:</p>\n"
+"<p>%1</p>"
 
 #: src/Gui/SettingsDialog.cpp:309
 msgctxt "Gui::FavoriteTagsPage|"
@@ -1885,7 +1892,7 @@ msgctxt "Gui::ImapPage|"
 msgid ""
 "The command line to the IMAP server is missing here. Perhaps you need to use "
 "SSL or TCP?"
-msgstr ""
+msgstr "שורת הפקודה לשרת ה־IMAP חסרה כאן. אולי צריך להשתמש ב־SSL או ב־TCP?"
 
 #: src/Gui/SettingsDialog.cpp:925
 #, qt-format
@@ -1971,7 +1978,7 @@ msgstr "שם משתמש ה־SMTP חסר כאן"
 #: src/Gui/SettingsDialog.cpp:1300
 msgctxt "Gui::OutgoingPage|"
 msgid "Please specify the folder name here"
-msgstr ""
+msgstr "נא לציין כאן שם תיקייה"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:14
 msgctxt "FavoriteTagsPage|"
@@ -2792,12 +2799,12 @@ msgstr ""
 #: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
-msgstr ""
+msgstr "Ctrl+R"
 
 #: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
-msgstr ""
+msgstr "ה&עברה"
 
 #: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
@@ -2812,7 +2819,7 @@ msgstr "שליחה מחדש…"
 #: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
-msgstr ""
+msgstr "ל&ארכיון"
 
 #: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
@@ -2942,7 +2949,7 @@ msgstr "&איתור הודעות חדשות"
 #: src/Gui/Window.cpp:319
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
-msgstr ""
+msgstr "ל&טעון הכול מחדש"
 
 #: src/Gui/Window.cpp:323
 msgctxt "Gui::MainWindow|"
@@ -2959,13 +2966,13 @@ msgstr ""
 #: src/Gui/Window.cpp:348
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
-msgstr ""
+msgstr "הצגת &עץ ImapTask"
 
 #. a debugging tool showing the mime tree of the current message
 #: src/Gui/Window.cpp:354
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
-msgstr ""
+msgstr "הצגת עץ &סוגי תוכן/MIME"
 
 #: src/Gui/Window.cpp:359
 msgctxt "Gui::MainWindow|"
@@ -2977,7 +2984,7 @@ msgstr "הצגת יומן &פרוטוקול"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
-msgstr ""
+msgstr "ל&תעד אל %1"
 
 #: src/Gui/Window.cpp:370
 msgctxt "Gui::MainWindow|"
@@ -3020,7 +3027,7 @@ msgstr ""
 #: src/Gui/Window.cpp:511
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
-msgstr ""
+msgstr "הצגת הודעות ב&שרשורים"
 
 #: src/Gui/Window.cpp:522
 msgctxt "Gui::MainWindow|"
@@ -3045,7 +3052,7 @@ msgstr "סידור לפי &שרשור"
 #: src/Gui/Window.cpp:537
 msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
-msgstr ""
+msgstr "ה&געה"
 
 #: src/Gui/Window.cpp:539
 msgctxt "Gui::MainWindow|"
@@ -3055,7 +3062,7 @@ msgstr ""
 #: src/Gui/Window.cpp:541
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
-msgstr ""
+msgstr "ת&אריך כותרות ההודעה"
 
 #: src/Gui/Window.cpp:543
 msgctxt "Gui::MainWindow|"
@@ -3193,10 +3200,10 @@ msgstr "יומן פרוטוקול"
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "יתבצע ניסיון התחברות מחדש בעוד שנייה…"
+msgstr[1] "יתבצע ניסיון התחברות מחדש בעוד שתי שניות…"
+msgstr[2] "יתבצע ניסיון התחברות מחדש %n שתי שניות…"
+msgstr[3] "יתבצע ניסיון התחברות מחדש %n שתי שניות…"
 
 #: src/Gui/Window.cpp:1001
 msgctxt "Gui::MainWindow|"
@@ -3209,10 +3216,10 @@ msgstr "י&ציאה"
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
 msgid_plural " - %n unread message(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] " - הודעה שלא נקראה"
+msgstr[1] " - שתי הודעות שלא נקראו"
+msgstr[2] " - %n הודעות שלא נקראו"
+msgstr[3] " - %n הודעות שלא נקראו"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
 #: src/Gui/Window.cpp:1121
@@ -3230,7 +3237,7 @@ msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
 "settings."
-msgstr ""
+msgstr "היישום ימשיך לרוץ בשורת המערכת. אפשר להשבית את זה דרך ההגדרות."
 
 #. "ALERT" is a special warning which we're required to show to the user
 #: src/Gui/Window.cpp:1342
@@ -3262,6 +3269,10 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
+"תת־מערכת המטמון מנהלת זיכרון מטמון של הנתונים שכבר ירדו משרת ה־IMAP חווה "
+"קשיים. כל המטמון יושבת.\n"
+"\n"
+"%1"
 
 #: src/Gui/Window.cpp:1388
 msgctxt "Gui::MainWindow|"
@@ -3354,6 +3365,8 @@ msgid ""
 "Creating mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
+"יצירת תיבת הדוא״ל „%1” נכשלה עם ההודעה הבאה:\n"
+"%2"
 
 #: src/Gui/Window.cpp:2066
 msgctxt "Gui::MainWindow|"
@@ -3367,6 +3380,8 @@ msgid ""
 "Opening mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
+"פתיחת תיבת הדוא״ל „%1” נכשלה עם ההודעה הבאה:\n"
+"%2"
 
 #: src/Gui/Window.cpp:2116
 #, qt-format
@@ -3706,17 +3721,17 @@ msgstr "ההודעה נעלמה"
 #: src/Imap/Model/FullMessageCombiner.cpp:91
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached message data not available"
-msgstr ""
+msgstr "מצב לא מקוון: נתוני הודעה שלא נשמרו במטמון לא זמינים"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:93
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached header data not available"
-msgstr ""
+msgstr "מצב לא מקוון: נתוני כותרת שלא נשמרו במטמון לא זמינים"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:95
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached body data not available"
-msgstr ""
+msgstr "מצב לא מקוון: נתוני תוכן שלא נשמרו במטמון לא זמינים"
 
 #: src/Imap/Model/ImapAccess.cpp:317
 #, qt-format
@@ -3728,7 +3743,7 @@ msgstr "יצירת התיקייה %1 נכשלה"
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to set safe permissions on cache directory %1"
-msgstr ""
+msgstr "הגדרת הרשאות בטוחות על תיקיית המטמון %1 נכשלה"
 
 #: src/Imap/Model/MailboxTree.cpp:1244
 msgctxt "Imap::Mailbox::Model|"
@@ -3770,14 +3785,14 @@ msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
 "</p>"
-msgstr ""
+msgstr "<p>נראה שזאת התחברות לשרת POP3. זה לא יעבוד כאן.</p>"
 
 #: src/Imap/Model/Model.cpp:1164
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
 "here.</p>"
-msgstr ""
+msgstr "<p>נראה שזאת התחברות לשרת SMTP. זה לא יעבוד כאן.</p>"
 
 #: src/Imap/Model/Model.cpp:1166
 #, qt-format
@@ -3787,6 +3802,9 @@ msgid ""
 "sure you are connecting to the IMAP service. A typical port number for IMAP "
 "is 143 or 993.</p><p>The server said:</p><pre>%2</pre>"
 msgstr ""
+"<h2>זה לא שרת IMAP</h2>%1<p>נא לבדוק שההגדרות שלך תקינות ולוודא שהחיבור "
+"מתבצע לשירות IMAP. מספר פתחה שגרתי לשרת IMAP הוא 143 או 993.</p><p>השרת אמר:"
+"</p><pre>%2</pre>"
 
 #: src/Imap/Model/Model.cpp:1173
 #, qt-format
@@ -3798,6 +3816,10 @@ msgid ""
 "the details:</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 msgstr ""
+"<p>שרת ה־IMAP שלח לנו תגובה שלא הצלחנו לפענח. משמעות הדבר היא שכנראה יש טעות "
+"בקוד של Trojitá, או ששרת ה־IMAP שאליו התחברת פגום. נא לדווח על התקלה הזאת כך "
+"או כך. הנה הפרטים:</p><p><b>%1</b>: %2</p><pre>%3\n"
+"%4</pre>"
 
 #: src/Imap/Model/Model.cpp:1231
 msgctxt "Imap::Mailbox::Model|"
