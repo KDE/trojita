@@ -993,7 +993,7 @@ msgstr ""
 "<p>Este é o <b>Trojitá</b>, um cliente de e-mail por IMAP rápido para o Qt</"
 "p>"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, fuzzy, qt-format
 #| msgctxt "Gui::Expander|"
 #| msgid "Click to see %1 more items"
@@ -1001,7 +1001,7 @@ msgctxt "Expander|"
 msgid "Click to see %1 more items"
 msgstr "Carregue para ver mais %1 itens"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, fuzzy
 #| msgctxt "Gui::Expander|"
 #| msgid "Click to collapse"

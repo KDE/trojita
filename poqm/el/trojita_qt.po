@@ -966,7 +966,7 @@ msgstr ""
 "<p>Αυτό είναι το <b>Trojitá</b>, ένας γρήγορος Qt πελάτης IMAP "
 "αλληλογραφίας</p>"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, fuzzy, qt-format
 #| msgctxt "Gui::Expander|"
 #| msgid "Click to see %1 more items"
@@ -974,7 +974,7 @@ msgctxt "Expander|"
 msgid "Click to see %1 more items"
 msgstr "Κάντε κλικ για να δείτε %1 περισσότερα αντικείμενα"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, fuzzy
 #| msgctxt "Gui::Expander|"
 #| msgid "Click to collapse"

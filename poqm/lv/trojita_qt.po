@@ -959,7 +959,7 @@ msgstr ""
 "<p>Šī ir <b>„<i>Trojitá</i>”</b>, ar „<i>Qt</i>” veidots <i>IMAP</i> e-pasta "
 "klients</p>"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, fuzzy, qt-format
 #| msgctxt "Gui::Expander|"
 #| msgid "Click to see %1 more items"
@@ -967,7 +967,7 @@ msgctxt "Expander|"
 msgid "Click to see %1 more items"
 msgstr "Uzklikšķini, lai redzētu vēl %1 ierakstus"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, fuzzy
 #| msgctxt "Gui::Expander|"
 #| msgid "Click to collapse"

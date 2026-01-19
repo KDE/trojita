@@ -676,13 +676,13 @@ msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
 msgstr ""
 "<p>Dies ist <b>Trojitá</b>, ein schnelles Qt-E-Mailprogramm für IMAP</p>"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, qt-format
 msgctxt "Expander|"
 msgid "Click to see %1 more items"
 msgstr "Klicken Sie, um %1 weitere Elemente anzuzeigen"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 msgctxt "Expander|"
 msgid "Click to collapse"
 msgstr "Klicke Sie, um einzuklappen"

@@ -670,13 +670,13 @@ msgctxt "AboutDialog|"
 msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
 msgstr "<p>Dit is <b>Trojitá</b>, een snelle Qt-IMAP e-mailclient</p>"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, qt-format
 msgctxt "Expander|"
 msgid "Click to see %1 more items"
 msgstr "Klik om %1 meer items te zien"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 msgctxt "Expander|"
 msgid "Click to collapse"
 msgstr "Klik om in te vouwen"

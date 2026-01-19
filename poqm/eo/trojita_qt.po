@@ -899,7 +899,7 @@ msgctxt "AboutDialog|"
 msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
 msgstr "<p>Ĉi tio estas <b>Trojitá</b>, rapida retpoŝta kliento Qt IMAP</p>"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, fuzzy, qt-format
 #| msgctxt "Gui::Expander|"
 #| msgid "Click to see %1 more items"
@@ -907,7 +907,7 @@ msgctxt "Expander|"
 msgid "Click to see %1 more items"
 msgstr "Klaku por vidi %1 pliajn erojn"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, fuzzy
 #| msgctxt "Gui::Expander|"
 #| msgid "Click to collapse"

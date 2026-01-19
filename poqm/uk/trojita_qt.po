@@ -679,13 +679,13 @@ msgstr ""
 "<p>Це <b>Trojitá</b> — швидка Qt-програма для роботи з електронною поштою "
 "IMAP</p>"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, qt-format
 msgctxt "Expander|"
 msgid "Click to see %1 more items"
 msgstr "Натисніть, щоб переглянути ще %1 записів"
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 msgctxt "Expander|"
 msgid "Click to collapse"
 msgstr "Натисніть, щоб згорнути"

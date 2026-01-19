@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-16 10:59+0200\n"
+"PO-Revision-Date: 2026-01-18 20:45+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -78,7 +78,7 @@ msgstr "%1, %2"
 #: src/Composer/ExistingMessageComposer.cpp:78
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Cannot obtain IMAP URL for CATENATE"
-msgstr ""
+msgstr "לא ניתן לקבל כתובת IMAP ל־CATENATE"
 
 #: src/Composer/MessageComposer.cpp:601 src/Composer/MessageComposer.cpp:632
 #, qt-format
@@ -187,23 +187,25 @@ msgid ""
 "Cannot send right now -- saving (CATENATE) failed:\n"
 " %1"
 msgstr ""
+"לא ניתן לשלוח כרגע -- השמירה (CATENATE) נכשלה:\n"
+" %1"
 
 #: src/Composer/Submission.cpp:361
 #, qt-format
 msgctxt "Submission|"
 msgid "APPEND failed: %1"
-msgstr ""
+msgstr "‏APPEND נכשלה: %1"
 
 #: src/Composer/Submission.cpp:391
 msgctxt "Submission|"
 msgid "The URLAUTH response does not contain a proper URL"
-msgstr ""
+msgstr "תגובת ה־URLAUאי לא מכילה כתובת תקפה"
 
 #: src/Cryptography/GpgMe++.cpp:54
 #, qt-format
 msgctxt "Cryptography::GpgMePart|"
 msgid "[getAuditLog failed: %1]"
-msgstr ""
+msgstr "‏[getAuditLog נכשלה: %1]"
 
 #: src/Cryptography/GpgMe++.cpp:168
 msgctxt "GpgMePart|"
@@ -218,7 +220,7 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:311
 msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
-msgstr ""
+msgstr "חתימה כלשהי: חסר מפתח"
 
 #: src/Cryptography/GpgMe++.cpp:312
 #, qt-format
@@ -295,13 +297,13 @@ msgstr "מוצפנת, חתימה פגומה: %1"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
-msgstr ""
+msgstr "חתימה פגומה: %1"
 
 #: src/Cryptography/GpgMe++.cpp:394
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
-msgstr ""
+msgstr "חתימה פגומה על ידי %1 ב־%2"
 
 #: src/Cryptography/GpgMe++.cpp:397
 msgctxt "GpgMePart|"
@@ -339,13 +341,13 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:419
 msgctxt "GpgMePart|"
 msgid "Some signature"
-msgstr ""
+msgstr "חתימה כלשהי"
 
 #: src/Cryptography/GpgMe++.cpp:420
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature from %1 on %2"
-msgstr ""
+msgstr "חתימה לא ידועה מאת %1 ב־%2"
 
 #: src/Cryptography/GpgMe++.cpp:424
 msgctxt "GpgMePart|"
@@ -355,7 +357,7 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:424
 msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
-msgstr ""
+msgstr "חתימה כלשהי על ידי גוף זר"
 
 #: src/Cryptography/GpgMe++.cpp:425
 #, qt-format
@@ -398,38 +400,38 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:454
 msgctxt "GpgMePart|"
 msgid "The key or at least one certificate has been revoked."
-msgstr ""
+msgstr "המפתח או אחד האישורים לפחות נשללו."
 
 #: src/Cryptography/GpgMe++.cpp:459
 msgctxt "GpgMePart|"
 msgid "The key or one of the certificates has expired."
-msgstr ""
+msgstr "תוקף המפתח או אחד מהאישורים פג."
 
 #: src/Cryptography/GpgMe++.cpp:463
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Signature expired on %1."
-msgstr ""
+msgstr "תוקף החתימה פג ב־%1."
 
 #: src/Cryptography/GpgMe++.cpp:468
 msgctxt "GpgMePart|"
 msgid "Can't verify due to a missing key or certificate."
-msgstr ""
+msgstr "לא ניתן לוודא עקב מפתח או אישור חסרים."
 
 #: src/Cryptography/GpgMe++.cpp:472
 msgctxt "GpgMePart|"
 msgid "The CRL (or an equivalent mechanism) is not available."
-msgstr ""
+msgstr "רשימת שלילת האישור (או כל מנגנון דומה) לא זמינה."
 
 #: src/Cryptography/GpgMe++.cpp:476
 msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
-msgstr ""
+msgstr "רשימת שלילת האישורים הזמינה ישנה מדי."
 
 #: src/Cryptography/GpgMe++.cpp:480
 msgctxt "GpgMePart|"
 msgid "A policy requirement was not met."
-msgstr ""
+msgstr "דרישת מדיניות לא סופקה."
 
 #: src/Cryptography/GpgMe++.cpp:484
 #, qt-format
@@ -440,43 +442,43 @@ msgstr "אירעה שגיאת מערכת. %1"
 #: src/Cryptography/GpgMe++.cpp:493
 msgctxt "GpgMePart|"
 msgid "Signature validity is undefined."
-msgstr ""
+msgstr "תוקף החתימה לא מוגדר."
 
 #: src/Cryptography/GpgMe++.cpp:497
 msgctxt "GpgMePart|"
 msgid "Signature validity is never to be trusted."
-msgstr ""
+msgstr "תוקף החתימה לא יהיה אמין לעולם."
 
 #: src/Cryptography/GpgMe++.cpp:501
 msgctxt "GpgMePart|"
 msgid "Signature validity is marginal."
-msgstr ""
+msgstr "תוקף החתימה גבולי."
 
 #: src/Cryptography/GpgMe++.cpp:505
 msgctxt "GpgMePart|"
 msgid "Signature validity is full."
-msgstr ""
+msgstr "תוקף החתימה מלא."
 
 #: src/Cryptography/GpgMe++.cpp:509
 msgctxt "GpgMePart|"
 msgid "Signature validity is ultimate."
-msgstr ""
+msgstr "תוקף החתימה מוחלט."
 
 #: src/Cryptography/GpgMe++.cpp:513
 msgctxt "GpgMePart|"
 msgid "Signature validity is unknown."
-msgstr ""
+msgstr "תוקף החתימה לא ידוע."
 
 #: src/Cryptography/GpgMe++.cpp:523
 msgctxt "GpgMePart|"
 msgid "Trust chain:"
-msgstr ""
+msgstr "שרשרת אמון:"
 
 #: src/Cryptography/GpgMe++.cpp:529
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
-msgstr ""
+msgstr "%1(לא זמין)"
 
 #: src/Cryptography/GpgMe++.cpp:533
 #, qt-format
@@ -655,13 +657,13 @@ msgctxt "AboutDialog|"
 msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
 msgstr ""
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 #, qt-format
 msgctxt "Expander|"
 msgid "Click to see %1 more items"
 msgstr ""
 
-#: src/Gui/AddressRowWidget.cpp:130
+#: src/Gui/AddressRowWidget.cpp:131
 msgctxt "Expander|"
 msgid "Click to collapse"
 msgstr "לחיצה תצמצם"
@@ -2739,57 +2741,57 @@ msgstr "&שמירת הודעה…"
 #: src/Gui/Window.cpp:251
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
-msgstr ""
+msgstr "הצגת מ&קור הודעה…"
 
 #: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
-msgstr ""
+msgstr "הצגת &כותרות הודעה…"
 
 #: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
-msgstr ""
+msgstr "Ctrl+U"
 
 #: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
-msgstr ""
+msgstr "תגובה &פרטית"
 
 #: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
-msgstr ""
+msgstr "Ctrl+Shift+A"
 
 #: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Reply to All &but Me"
-msgstr ""
+msgstr "להגיב לכולם חוץ ממ&ני"
 
 #: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
-msgstr ""
+msgstr "Ctrl+Shift+R"
 
 #: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
-msgstr ""
+msgstr "להגיב ל&כולם"
 
 #: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
-msgstr ""
+msgstr "Ctrl+Alt+Shift+R"
 
 #: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &Mailing List"
-msgstr ""
+msgstr "להגיב ל&רשימת דיוור"
 
 #: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
-msgstr ""
+msgstr "Ctrl+L"
 
 #: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
@@ -3005,24 +3007,24 @@ msgstr "ה&גדרות…"
 #: src/Gui/Window.cpp:482
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
-msgstr ""
+msgstr "יצירת תיבת דוא״ל &צאצאית…"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:486
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
-msgstr ""
+msgstr "יצירת תיבת דוא״ל &חדשה…"
 
 #: src/Gui/Window.cpp:489
 msgctxt "Gui::MainWindow|"
 msgid "&Mark Mailbox as Read"
-msgstr ""
+msgstr "סימון תיבת הדוא״ל כ&נקראה"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:493
 msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
-msgstr ""
+msgstr "ה&סרת תיבת דוא״ל"
 
 #: src/Gui/Window.cpp:511
 msgctxt "Gui::MainWindow|"
@@ -3057,7 +3059,7 @@ msgstr "ה&געה"
 #: src/Gui/Window.cpp:539
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
-msgstr ""
+msgstr "&עותק (נייר העתקה)"
 
 #: src/Gui/Window.cpp:541
 msgctxt "Gui::MainWindow|"
@@ -3107,12 +3109,12 @@ msgstr "&אחד בכל פעם"
 #: src/Gui/Window.cpp:575
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
-msgstr ""
+msgstr "להציג תיקיות ש&נרשמת אליהן בלבד"
 
 #: src/Gui/Window.cpp:579
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
-msgstr ""
+msgstr "נ&רשמת"
 
 #: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
@@ -3225,7 +3227,7 @@ msgstr[3] " - %n הודעות שלא נקראו"
 #: src/Gui/Window.cpp:1121
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
-msgstr ""
+msgstr " - אין חיבור"
 
 #: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
 msgctxt "Gui::MainWindow|"
@@ -3546,6 +3548,8 @@ msgid ""
 "<ul>\n"
 "%1</ul>"
 msgstr ""
+"<ul>\n"
+"%1</ul>"
 
 #: src/Gui/Window.cpp:2573
 #, qt-format
@@ -3697,6 +3701,8 @@ msgctxt "QObject|"
 msgid ""
 "Couldn't save the part %1 of message %2 (mailbox %3) into file %4: %5 (%6)"
 msgstr ""
+"לא ניתן לשמור את החלק %1 מתוך ההודעה %2 (תיבת דוא״ל %3) לתוך הקובץ %4: %5 "
+"(%6)"
 
 #: src/Imap/Model/FavoriteTagsModel.cpp:124
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
@@ -3876,10 +3882,10 @@ msgstr "גודל"
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "יתבצע ניסיון התחברות מחדש בעוד שנייה"
+msgstr[1] "יתבצע ניסיון התחברות מחדש בעוד שתי שניות"
+msgstr[2] "יתבצע ניסיון התחברות מחדש בעוד %n שניות"
+msgstr[3] "יתבצע ניסיון התחברות מחדש בעוד %n שניות"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -4315,6 +4321,8 @@ msgid ""
 "This thread refers to an extra message, but that message is not present in "
 "the selected mailbox, or is missing from the current search context."
 msgstr ""
+"השרשור הזה מתייחס להודעה נוספת אבל ההודעה הזאת לא קיימת בתיבת הדוא״ל הנבחרת "
+"או שהיא חסרה מהקשר החיפוש הנוכחי."
 
 #: src/Imap/Network/FileDownloadManager.cpp:45
 msgctxt "Imap::Network::FileDownloadManager|"
