@@ -1,9 +1,9 @@
-# SPDX-FileCopyrightText: 2014, 2015, 2018, 2019, 2020, 2022, 2024, 2025 Tommi Nieminen <translator@legisign.org>
+# SPDX-FileCopyrightText: 2014, 2015, 2018, 2019, 2020, 2022, 2024, 2025, 2026 Tommi Nieminen <translator@legisign.org>
 # Lasse Liehu <lasse.liehu@gmail.com>, 2014, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-10-15 19:19+0300\n"
+"PO-Revision-Date: 2026-01-10 21:07+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -5357,12 +5357,9 @@ msgid "Secure storage via QtKeychain"
 msgstr "Salattu tallennustila QtKeyChainin kautta"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
-#, fuzzy
-#| msgctxt "SslSheet|"
-#| msgid "Connect"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr "Yhdistä"
+msgstr "Sonnet"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
