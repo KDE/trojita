@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-18 20:45+0200\n"
+"PO-Revision-Date: 2026-01-20 07:58+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1637,10 +1637,7 @@ msgid "Connection %1"
 msgstr "חיבור %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -2536,7 +2533,7 @@ msgstr "חלון ראשי"
 #: src/Gui/ShortcutHandler/ShortcutHandler.cpp:144
 msgctxt "Gui::ShortcutHandler|"
 msgid "Configure S&hortcuts..."
-msgstr ""
+msgstr "הגדרת מקשי &קיצור…"
 
 #: src/Gui/ShortcutHandler/ShortcutHandler.h:45
 #: src/Gui/ShortcutHandler/ShortcutHandler.h:309
@@ -2617,6 +2614,7 @@ msgid ""
 "No tags were set because the following given tag(s) are reserved and have "
 "been disallowed from being set in this way: %1."
 msgstr ""
+"לא הוגדרו תגיות כיוון שהתגיות הבאות שמורות ונאסרו להגדרה בדרך הזאת: %1."
 
 #: src/Gui/TagWidget.cpp:59
 msgctxt "Gui::TagWidget|This is a verb!"
@@ -2796,7 +2794,7 @@ msgstr "Ctrl+L"
 #: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
-msgstr ""
+msgstr "תגובה ב&ניחוש"
 
 #: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
@@ -2962,7 +2960,7 @@ msgstr "יציאה מהיישום"
 #: src/Gui/Window.cpp:342
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
-msgstr ""
+msgstr "הצגת חלון עץ מ&לא"
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
 #: src/Gui/Window.cpp:348
@@ -3556,10 +3554,10 @@ msgstr ""
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
 msgid_plural "%1 - %n unread - Trojitá"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 - אחד לא נקרא - Trojitá"
+msgstr[1] "%1 - שתיים לא נקראו - Trojitá"
+msgstr[2] "%1 - %n לא נקראו - Trojitá"
+msgstr[3] "%1 - %n לא נקראו - Trojitá"
 
 #: src/Gui/Window.cpp:2576
 #, qt-format
@@ -3687,13 +3685,13 @@ msgstr "שגיאת QFile לא מוכרת"
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1 for mailbox %2"
-msgstr ""
+msgstr "לא ניתן להסיר את הקובץ %1 לתיבת הדוא״ל %2"
 
 #: src/Imap/Model/DiskPartCache.cpp:95
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1 for message %2, mailbox %3"
-msgstr ""
+msgstr "לא ניתן להסיר את הקובץ %1 לתיבת הדוא״ל %2, תיבת דוא״ל %3"
 
 #: src/Imap/Model/DiskPartCache.cpp:117
 #, qt-format
@@ -3900,10 +3898,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -4678,6 +4673,9 @@ msgid ""
 "PREAUTH. Encryption cannot be established. If this configuration worked "
 "previously, someone is after your data and they are pretty smart."
 msgstr ""
+"ההגדרות דורשות שליחת STARTTLS, אבל שרת ה־IMAP מברך אותנו ב־PREAUTH. אי אפשר "
+"לבסס הצפנה. אם ההגדרות האלו עבדו בעבר, מישהו מנסה לצוד את המידע שלך והוא לא "
+"פראייר."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:195
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -5430,6 +5428,11 @@ msgid ""
 "%1\n"
 "<p>Would you like to connect and remember the new certificate?</p>"
 msgstr ""
+"<p>המפתח הציבורי של אישור ה־SSL השתנה. זה אמור לקרות רק כאשר התרחש איזה "
+"אירוע אבטחת מידע בשרת המרוחק. הגדרות המערכת שלך מוגדרות לקבל אישורים כאלה "
+"בכל מקרה.</p>\n"
+"%1\n"
+"<p>להתחבר ולזכור את האישור החדש?</p>"
 
 #: src/UiUtils/Formatting.cpp:183
 msgctxt "Formatting|"
@@ -5447,6 +5450,11 @@ msgid ""
 "%2\n"
 "<p>Would you like to connect anyway and remember the new certificate?</p>"
 msgstr ""
+"<p>המפתח הציבורי של אישור ה־SSL של שרת ה־IMAP השתנה מאז הפעם האחרונה והמערכת "
+"שלך לא מאמינה שהאישור החדש הוא אמיתי.</p>\n"
+"%1\n"
+"%2\n"
+"<p>להתחבר בכל זאת ולזכור את האישור החדש?</p>"
 
 #: src/UiUtils/Formatting.cpp:193 src/UiUtils/Formatting.cpp:200
 msgctxt "Formatting|"
