@@ -1,17 +1,17 @@
-# Giovanni Sora <g.sora@tiscali.it>, 2012, 2013, 2014, 2020, 2021.
+# SPDX-FileCopyrightText: 2012, 2013, 2014, 2020, 2021, 2026 Giovanni Sora <g.sora@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-28 02:35+0200\n"
-"PO-Revision-Date: 2021-06-03 17:07+0200\n"
+"PO-Revision-Date: 2026-01-22 16:05+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 20.04.2\n"
+"X-Generator: Lokalize 23.08.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Qt-Contexts: true\n"
 
@@ -31,9 +31,6 @@ msgstr ""
 "(ex %2)"
 
 #: src/Composer/ComposerAttachments.cpp:157
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File does not exist"
 msgctxt "MessageComposer|"
 msgid "File does not exist"
 msgstr "File non existe"
@@ -44,7 +41,7 @@ msgstr "File non existe"
 #| msgid "File is not readable"
 msgctxt "MessageComposer|"
 msgid "File is not readable"
-msgstr "File  non es legibile"
+msgstr "Le file  '%1' non es legibile."
 
 #: src/Composer/ComposerAttachments.cpp:163
 #, fuzzy, qt-format
@@ -72,9 +69,7 @@ msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(%2)"
-msgstr ""
-" %1 \n"
-"(%2)"
+msgstr "N"
 
 #: src/Composer/ComposerAttachments.cpp:273
 #, fuzzy, qt-format
@@ -186,9 +181,6 @@ msgid "Updating message keywords"
 msgstr "Actualisante claves de message"
 
 #: src/Composer/Submission.cpp:143
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Submission|"
 msgid "Message sent"
 msgstr "Message inviate"
@@ -262,9 +254,7 @@ msgstr ""
 #| "Message..."
 msgctxt "GpgMePart|"
 msgid "Waiting for data..."
-msgstr ""
-"Attendente\n"
-"Message..."
+msgstr "Attende datos ..."
 
 #: src/Cryptography/GpgMe++.cpp:311
 #, fuzzy
@@ -292,9 +282,6 @@ msgid ""
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:323
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Internal error"
 msgctxt "GpgMePart|"
 msgid "Internal error"
 msgstr "Error Interne"
@@ -361,9 +348,6 @@ msgid "Encrypted, bad signature"
 msgstr "Message signate e cryptate"
 
 #: src/Cryptography/GpgMe++.cpp:388
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature"
 msgctxt "GpgMePart|"
 msgid "Bad signature"
 msgstr "Mal signatura"
@@ -382,7 +366,7 @@ msgstr "Mal signatura: %1"
 #| msgid "Bad signature: %1"
 msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
-msgstr "Mal signatura: %1"
+msgstr "Mal signatura"
 
 #: src/Cryptography/GpgMe++.cpp:394
 #, fuzzy, qt-format
@@ -603,7 +587,7 @@ msgstr ""
 #| msgid "%1(Unavailable)"
 msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
-msgstr "%1(non disponibile)"
+msgstr "non disponibile"
 
 #: src/Cryptography/GpgMe++.cpp:533
 #, qt-format
@@ -679,7 +663,7 @@ msgstr ""
 #| msgid "Some signature"
 msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
-msgstr "Alcun Signatura"
+msgstr "Verificante signatura %1..."
 
 #: src/Cryptography/GpgMe++.cpp:698
 #, fuzzy
@@ -752,7 +736,7 @@ msgstr ""
 #| msgid "Decrypting..."
 msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
-msgstr "Decryptante ..."
+msgstr "Decryptante %1..."
 
 #: src/Cryptography/GpgMe++.cpp:862
 #, fuzzy
@@ -771,9 +755,6 @@ msgid "Decryption error: %1"
 msgstr "Error de decryptation: %1"
 
 #: src/Cryptography/GpgMe++.cpp:868
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
 msgstr "Message Cryptate"
@@ -817,7 +798,7 @@ msgstr "Cryptate a %1"
 #| msgid "Original filename: %1"
 msgctxt "GpgMeEncrypted|"
 msgid "Original filename: %1"
-msgstr "Nomine de file original: %1"
+msgstr "Nomine de file original"
 
 #: src/Gui/AboutDialog.ui:14
 msgctxt "AboutDialog|"
@@ -945,12 +926,9 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:239
 msgctxt "ComposeWidget|"
 msgid "Threaded"
-msgstr ""
+msgstr "Threaded (ampliate con topicos)"
 
 #: src/Gui/ComposeWidget.cpp:359
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Error"
 msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Error"
@@ -981,9 +959,6 @@ msgid "Cannot Determine Recipients"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:567
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Sender"
 msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Mittente"
@@ -995,9 +970,6 @@ msgid "Resend Mail: %1"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:573
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "(no subject)"
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(Necun Subjecto)"
@@ -1041,9 +1013,6 @@ msgid ""
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:691
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Authentication Required"
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Authentication requirite"
@@ -1089,9 +1058,6 @@ msgid "Save as"
 msgstr "Salveguarda como"
 
 #: src/Gui/ComposeWidget.cpp:751
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Drafts"
 msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Versiones provisori"
@@ -1136,12 +1102,9 @@ msgstr ""
 #| msgid "To"
 msgctxt "ComposeWidget|"
 msgid "To"
-msgstr "a:"
+msgstr "A"
 
 #: src/Gui/ComposeWidget.cpp:1101
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "pc (CC)"
@@ -1198,7 +1161,7 @@ msgstr ""
 #| msgid "Attach File..."
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
-msgstr "Attacha File..."
+msgstr "Attacha File"
 
 #: src/Gui/ComposeWidget.cpp:1810
 #, fuzzy
@@ -1464,7 +1427,7 @@ msgstr "Carga %1 (%2)"
 #| msgid "Move here\tShift"
 msgctxt "MailBoxTreeView|"
 msgid "Move here\tShift"
-msgstr "Move ci\tShift"
+msgstr "&Move ci\tShift"
 
 #: src/Gui/MailBoxTreeView.cpp:144
 #, fuzzy
@@ -1472,7 +1435,7 @@ msgstr "Move ci\tShift"
 #| msgid "Copy here\tCtrl"
 msgctxt "MailBoxTreeView|"
 msgid "Copy here\tCtrl"
-msgstr "Copia ci\tCtrl"
+msgstr "&Copia ci\tCtrl"
 
 #: src/Gui/MailBoxTreeView.cpp:145
 #, fuzzy
@@ -1561,9 +1524,6 @@ msgid "Search..."
 msgstr "Cerca..."
 
 #: src/Gui/MessageHeadersWidget.cpp:56
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
@@ -1700,19 +1660,11 @@ msgid "Search..."
 msgstr "Cerca..."
 
 #: src/Gui/MessageView.cpp:92
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
 #: src/Gui/MessageView.cpp:135
-#, fuzzy
-#| msgctxt "Gui::MessageSourceWidget|"
-#| msgid ""
-#| "Fetching\n"
-#| "Message"
 msgctxt "MessageView|"
 msgid ""
 "Fetching\n"
@@ -1743,7 +1695,7 @@ msgstr ""
 #| msgid "you"
 msgctxt "MessageView|"
 msgid "you"
-msgstr "tu"
+msgstr "Tu"
 
 #: src/Gui/MessageView.cpp:362
 #, qt-format
@@ -1813,7 +1765,7 @@ msgstr ""
 #| msgid "<hr/><b>Address Book:</b><br/>"
 msgctxt "OneEnvelopeAddress|"
 msgid "<hr/><b>Address Book:</b><br/>"
-msgstr "<hr/><b>Adressario:</b><br/>"
+msgstr "Adressario..."
 
 #: src/Gui/OneEnvelopeAddress.cpp:141
 msgctxt "OneEnvelopeAddress|"
@@ -1821,9 +1773,6 @@ msgid "Copy e-mail address"
 msgstr ""
 
 #: src/Gui/OneEnvelopeAddress.cpp:146
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "Copy text"
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy text"
 msgstr "Copia texto"
@@ -1832,7 +1781,7 @@ msgstr "Copia texto"
 #: src/Gui/PartWidget.cpp:144
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Plaintext"
-msgstr ""
+msgstr "Plaintext (texto simplice)"
 
 #. Translators: caption of the tab which shows a HTML version of the mail. Use some short, compact text here.
 #: src/Gui/PartWidget.cpp:147
@@ -2272,7 +2221,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:93
 msgctxt "GeneralPage|"
 msgid "Start minimized"
-msgstr ""
+msgstr "Starta minimisate"
 
 #: src/Gui/SettingsGeneralPage.ui:100
 msgctxt "GeneralPage|"
@@ -2849,9 +2798,10 @@ msgid "Zoom Out"
 msgstr "Zoom Out (Diminuer)"
 
 #: src/Gui/SimplePartWidget.cpp:235
+#, fuzzy
 msgctxt "Gui::SimplePartWidget|"
 msgid "Original Size"
-msgstr ""
+msgstr "Grandor original"
 
 #: src/Gui/TagAddDialog.ui:14
 msgctxt "TagAddDialog|"
@@ -2948,7 +2898,7 @@ msgstr "&Elimina"
 #: src/Gui/Window.cpp:242
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
-msgstr ""
+msgstr "Ctrl+E"
 
 #: src/Gui/Window.cpp:243
 msgctxt "Gui::MainWindow|"
@@ -3003,7 +2953,7 @@ msgstr "Vide &capites de message..."
 #: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
-msgstr ""
+msgstr "Ctrl+U"
 
 #: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
@@ -3013,7 +2963,7 @@ msgstr ""
 #: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
-msgstr ""
+msgstr "Ctrl+Shift+A"
 
 #: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
@@ -3053,7 +3003,7 @@ msgstr ""
 #: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
-msgstr ""
+msgstr "Ctrl+R"
 
 #: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
@@ -3063,7 +3013,7 @@ msgstr "&Avante"
 #: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
-msgstr ""
+msgstr "Ctrl+Shift+F"
 
 #: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
@@ -3121,9 +3071,10 @@ msgid "Zoom Out"
 msgstr "Zoom Out (Diminuer)"
 
 #: src/Gui/Window.cpp:270
+#, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
-msgstr ""
+msgstr "Grandor original"
 
 #: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
@@ -3364,9 +3315,10 @@ msgid "Show Only S&ubscribed Folders"
 msgstr ""
 
 #: src/Gui/Window.cpp:579
+#, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
-msgstr ""
+msgstr "Subscribite"
 
 #: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
@@ -3374,9 +3326,10 @@ msgid "&About Trojitá..."
 msgstr ""
 
 #: src/Gui/Window.cpp:587
+#, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
-msgstr ""
+msgstr "Dona al projecto"
 
 #: src/Gui/Window.cpp:592
 msgctxt "Gui::MainWindow|"
@@ -3389,9 +3342,10 @@ msgid "&Application"
 msgstr "&Application"
 
 #: src/Gui/Window.cpp:694
+#, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
-msgstr ""
+msgstr "Accesso de rete"
 
 #: src/Gui/Window.cpp:698
 msgctxt "Gui::MainWindow|"
@@ -3871,9 +3825,10 @@ msgid "Activating compression..."
 msgstr ""
 
 #: src/Imap/ConnectionState.cpp:61
+#, fuzzy
 msgctxt "QObject|"
 msgid "Logged in."
-msgstr ""
+msgstr "Aperi session"
 
 #: src/Imap/ConnectionState.cpp:63
 msgctxt "QObject|"
@@ -3906,9 +3861,10 @@ msgid "Downloading message structure..."
 msgstr "Discargante structura de message..."
 
 #: src/Imap/ConnectionState.cpp:75
+#, fuzzy
 msgctxt "QObject|"
 msgid "Logged out."
-msgstr ""
+msgstr "Claude session"
 
 #: src/Imap/Model/DiskPartCache.cpp:64
 msgctxt "QObject|"
@@ -4082,12 +4038,9 @@ msgstr "Ex"
 #| msgid "To"
 msgctxt "MsgListModel|"
 msgid "To"
-msgstr "a:"
+msgstr "A"
 
 #: src/Imap/Model/MsgListModel.cpp:290
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "MsgListModel|"
 msgid "Cc"
 msgstr "pc (CC)"
@@ -4101,17 +4054,11 @@ msgid "Bcc"
 msgstr "BCC"
 
 #: src/Imap/Model/MsgListModel.cpp:294
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Date"
 msgctxt "MsgListModel|"
 msgid "Date"
 msgstr "Data"
 
 #: src/Imap/Model/MsgListModel.cpp:296
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Received"
 msgctxt "MsgListModel|"
 msgid "Received"
 msgstr "Recipite"
@@ -4122,7 +4069,7 @@ msgstr "Recipite"
 #| msgid "Size"
 msgctxt "MsgListModel|"
 msgid "Size"
-msgstr "Grandor"
+msgstr "Dimension"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
 #, qt-format
@@ -5517,41 +5464,26 @@ msgid ""
 msgstr ""
 
 #: src/UiUtils/Formatting.cpp:40
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "B"
 msgctxt "Formatting|"
 msgid "B"
 msgstr "B"
 
 #: src/UiUtils/Formatting.cpp:41
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "kB"
 msgctxt "Formatting|"
 msgid "kB"
 msgstr "kB"
 
 #: src/UiUtils/Formatting.cpp:42
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "MB"
 msgctxt "Formatting|"
 msgid "MB"
 msgstr "MB"
 
 #: src/UiUtils/Formatting.cpp:43
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "GB"
 msgctxt "Formatting|"
 msgid "GB"
 msgstr "GB"
 
 #: src/UiUtils/Formatting.cpp:44
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "TB"
 msgctxt "Formatting|"
 msgid "TB"
 msgstr "TB"
@@ -5565,12 +5497,6 @@ msgid "%1 %2"
 msgstr "%1 %2"
 
 #: src/UiUtils/Formatting.cpp:86
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
@@ -5644,7 +5570,7 @@ msgstr ""
 #| msgid "\n"
 msgctxt "Formatting|"
 msgid "\n"
-msgstr "\n"
+msgstr "N"
 
 #: src/UiUtils/Formatting.cpp:160
 #, fuzzy, qt-format

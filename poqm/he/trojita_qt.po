@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-20 07:58+0200\n"
+"PO-Revision-Date: 2026-01-22 09:12+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1540,7 +1540,7 @@ msgstr ""
 #: src/Gui/OneEnvelopeAddress.cpp:89
 msgctxt "OneEnvelopeAddress|"
 msgid ","
-msgstr ""
+msgstr ","
 
 #: src/Gui/OneEnvelopeAddress.cpp:130
 msgctxt "OneEnvelopeAddress|"
@@ -1739,7 +1739,7 @@ msgstr "I&MAP"
 #: src/Gui/SettingsDialog.cpp:94
 msgctxt "Gui::SettingsDialog|"
 msgid "&Offline"
-msgstr ""
+msgstr "&ניתוק"
 
 #: src/Gui/SettingsDialog.cpp:95
 msgctxt "Gui::SettingsDialog|"
@@ -1914,7 +1914,7 @@ msgstr "זאת פתחה לא שגרתית. פתחת ברירת המחדל ל־IM
 msgctxt "Gui::ImapPage|"
 msgid ""
 "This port is nonstandard. The default port for IMAP over cleartext is %1."
-msgstr ""
+msgstr "זאת פתחה לא שגרתית. פתחת ברירת המחדל ל־IMAP ללא הצפנה היא %1."
 
 #: src/Gui/SettingsDialog.cpp:1039
 msgctxt "Gui::OutgoingPage|"
@@ -1924,12 +1924,12 @@ msgstr "רשת"
 #: src/Gui/SettingsDialog.cpp:1040
 msgctxt "Gui::OutgoingPage|"
 msgid "Local sendmail-compatible"
-msgstr ""
+msgstr "תואם sendmail מקומי"
 
 #: src/Gui/SettingsDialog.cpp:1041
 msgctxt "Gui::OutgoingPage|"
 msgid "IMAP SENDMAIL Extension"
-msgstr ""
+msgstr "הרחבת SENDMAIL ל־IMAP"
 
 #: src/Gui/SettingsDialog.cpp:1043
 msgctxt "Gui::OutgoingPage|"
@@ -2074,7 +2074,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:168
 msgctxt "GeneralPage|"
 msgid "Default drop action for the mbox tree"
-msgstr ""
+msgstr "פעולת ברירת מחדל של גרירה לעץ ה־mbox"
 
 #: src/Gui/SettingsGeneralPage.ui:199
 msgctxt "GeneralPage|"
@@ -2259,11 +2259,13 @@ msgid ""
 "The password will be stored in plaintext. Leave it blank for Trojitá to "
 "prompt when needed."
 msgstr ""
+"הסיסמה תאוחסן באופן גלוי. יש להשאיר אותה ריקה כדי ש־Trojitá תבקש אותה במקרה "
+"הצורך."
 
 #: src/Gui/SettingsImapPage.ui:230
 msgctxt "ImapPage|"
 msgid "Path to Server &Binary"
-msgstr ""
+msgstr "נתיב לקובץ הבינרי של ה&שרת"
 
 #: src/Gui/SettingsImapPage.ui:240
 msgctxt "ImapPage|"
@@ -2294,12 +2296,12 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:256
 msgctxt "ImapPage|"
 msgid "Extension &Blacklist"
-msgstr ""
+msgstr "רשימת סיומות &חסומות"
 
 #: src/Gui/SettingsImapPage.ui:269
 msgctxt "ImapPage|"
 msgid "Timeout of IMAP IDLE"
-msgstr ""
+msgstr "תום זמן המתנה ל־IDLE ב־IMAP"
 
 #: src/Gui/SettingsImapPage.ui:282
 msgctxt "ImapPage|"
@@ -2391,7 +2393,7 @@ msgstr ""
 #: src/Gui/SettingsOutgoingPage.ui:182
 msgctxt "OutgoingPage|"
 msgid "Sent Folder &Name"
-msgstr ""
+msgstr "שם תיקיית הדוא״ל היו&צא"
 
 #: src/Gui/SettingsOutgoingPage.ui:195
 msgctxt "OutgoingPage|"

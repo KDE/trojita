@@ -1,10 +1,10 @@
-# SPDX-FileCopyrightText: 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2025 Valter Mura <valtermura@gmail.com>
+# SPDX-FileCopyrightText: 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2025, 2026 Valter Mura <valtermura@gmail.com>
 # Vincenzo Reale <smart2128vr@gmail.com>, 2022.
 # SPDX-FileCopyrightText: 2025 Paolo Zamponi <feus73@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita_common\n"
-"PO-Revision-Date: 2025-11-30 17:31+0100\n"
+"PO-Revision-Date: 2026-01-15 18:21+0100\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 25.12.0\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
@@ -1673,41 +1673,25 @@ msgid "Connection %1"
 msgstr "Connessione %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "%n messaggi"
+msgstr[0] "%n messaggio"
 msgstr[1] "%n messaggi"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
-"<p style=\"color: #bb0000\"><i><b>%n messaggio</b> è stato saltato perché "
-"questo oggetto era nascosto.</i></p>"
+msgstr "saltato(i) perché questo oggetto era nascosto."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "%n bytes"
-#| msgid_plural "%n bytes"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] "%n byte"
-msgstr[1] "%n byte"
+msgstr[0] "+ %n più byte"
+msgstr[1] "+ %n più byte"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -2795,14 +2779,11 @@ msgid "Tag"
 msgstr "Etichetta"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
-#, fuzzy, qt-format
-#| msgctxt "Gui::TaskProgressIndicator|"
-#| msgid "%n ongoing actions"
-#| msgid_plural "%n ongoing actions"
+#, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
-msgstr[0] "%n azioni in corso"
+msgstr[0] "%n azione in corso"
 msgstr[1] "%n azioni in corso"
 
 #: src/Gui/TaskProgressIndicator.cpp:88
@@ -3371,14 +3352,11 @@ msgid "Protocol log"
 msgstr "Registro protocollo"
 
 #: src/Gui/Window.cpp:948
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
-msgstr[0] "Tentativo di riconnessione in %n secondi..."
+msgstr[0] "Tentativo di riconnessione in %n secondo..."
 msgstr[1] "Tentativo di riconnessione in %n secondi..."
 
 #: src/Gui/Window.cpp:1001
@@ -4063,14 +4041,11 @@ msgid "Size"
 msgstr "Dimensione"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] "Tentativo di riconnessione in %n secondi..."
+msgstr[0] "Tentativo di riconnessione in %n secondo..."
 msgstr[1] "Tentativo di riconnessione in %n secondi..."
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
@@ -4086,14 +4061,11 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "%n messaggi"
+msgstr[0] "%n messaggio"
 msgstr[1] "%n messaggi"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:124
