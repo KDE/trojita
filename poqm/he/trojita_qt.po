@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-22 09:12+0200\n"
+"PO-Revision-Date: 2026-01-24 21:23+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1525,17 +1525,17 @@ msgstr[3] ""
 #: src/Gui/MsgListView.cpp:338
 msgctxt "Gui::MsgListView|"
 msgid "Seen status"
-msgstr ""
+msgstr "מצב צפייה"
 
 #: src/Gui/MsgListView.cpp:341
 msgctxt "Gui::MsgListView|"
 msgid "Flagged status"
-msgstr ""
+msgstr "מצב סימון"
 
 #: src/Gui/MsgListView.cpp:344
 msgctxt "Gui::MsgListView|"
 msgid "Attachment"
-msgstr ""
+msgstr "צרופה"
 
 #: src/Gui/OneEnvelopeAddress.cpp:89
 msgctxt "OneEnvelopeAddress|"
@@ -1550,7 +1550,7 @@ msgstr "(שם תצוגה ריק)"
 #: src/Gui/OneEnvelopeAddress.cpp:134
 msgctxt "OneEnvelopeAddress|"
 msgid "<hr/><b>Address Book:</b><br/>"
-msgstr ""
+msgstr "<hr/><b>פנקס כתובות:</b><br/>"
 
 #: src/Gui/OneEnvelopeAddress.cpp:141
 msgctxt "OneEnvelopeAddress|"
@@ -1649,7 +1649,7 @@ msgstr[3] "%n הודעות"
 #: src/Gui/ProtocolLoggerWidget.cpp:175
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
+msgstr "נפסח כי הווידג׳ט שלו הוסתר."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
 #, qt-format

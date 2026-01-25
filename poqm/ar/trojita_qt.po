@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-01-14 08:43+0400\n"
+"PO-Revision-Date: 2026-01-24 12:37+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -2979,7 +2979,7 @@ msgstr "افتح الرسالة في نافذة جديدة..."
 #: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
-msgstr "تنقّل للخلف"
+msgstr "عُد"
 
 #: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
