@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-28 02:35+0200\n"
-"PO-Revision-Date: 2026-01-22 16:05+0100\n"
+"PO-Revision-Date: 2026-01-26 17:57+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -17,11 +17,7 @@ msgstr ""
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(from %2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
@@ -36,20 +32,15 @@ msgid "File does not exist"
 msgstr "File non existe"
 
 #: src/Composer/ComposerAttachments.cpp:160
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File is not readable"
 msgctxt "MessageComposer|"
 msgid "File is not readable"
-msgstr "Le file  '%1' non es legibile."
+msgstr "Le file non es legibile."
 
 #: src/Composer/ComposerAttachments.cpp:163
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1: %2, %3"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
-msgstr "%1: %2,%3"
+msgstr "%1: %2, %3"
 
 #: src/Composer/ComposerAttachments.cpp:260
 #, fuzzy
@@ -60,16 +51,14 @@ msgid "Message not available"
 msgstr "Message non disponibile"
 
 #: src/Composer/ComposerAttachments.cpp:263
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(%2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(%2)"
-msgstr "N"
+msgstr ""
+"%1\n"
+"(%2)"
 
 #: src/Composer/ComposerAttachments.cpp:273
 #, fuzzy, qt-format
@@ -88,12 +77,10 @@ msgid "IMAP part %1"
 msgstr "parte de IMAP %1"
 
 #: src/Composer/ComposerAttachments.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1, %2"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
-msgstr "%1,%2"
+msgstr "%1, %2"
 
 #: src/Composer/ExistingMessageComposer.cpp:78
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
@@ -246,12 +233,6 @@ msgid "[getAuditLog failed: %1]"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:168
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid ""
-#| "Waiting\n"
-#| "for\n"
-#| "Message..."
 msgctxt "GpgMePart|"
 msgid "Waiting for data..."
 msgstr "Attende datos ..."
