@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-24 21:23+0200\n"
+"PO-Revision-Date: 2026-01-27 22:09+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -215,7 +215,7 @@ msgstr "בהמתנה…"
 #: src/Cryptography/GpgMe++.cpp:311
 msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
-msgstr ""
+msgstr "מוצפן, חתימה כלשהי: חסר מפתח"
 
 #: src/Cryptography/GpgMe++.cpp:311
 msgctxt "GpgMePart|"
@@ -230,6 +230,9 @@ msgid ""
 "Cannot verify signature validity or do anything else. The message might or "
 "might not have been tampered with."
 msgstr ""
+"המפתח %1 לא זמין בצרור המפתחות.\n"
+"לא ניתן לאמת את תוקף החתימה או לעשות משהו אחר. יכול להיות שבוצעה חבלה בהודעה "
+"ויכול גם להיות שלא."
 
 #: src/Cryptography/GpgMe++.cpp:323
 msgctxt "GpgMePart|"
@@ -276,6 +279,9 @@ msgid ""
 "%1\n"
 "Signature was made on %2."
 msgstr ""
+"חתימה מאומתת, אבל הגורם שחתם הוא אחר:\n"
+"%1\n"
+"החתימה נוצרה ב־%2."
 
 #: src/Cryptography/GpgMe++.cpp:388
 msgctxt "GpgMePart|"
@@ -308,35 +314,35 @@ msgstr "חתימה פגומה על ידי %1 ב־%2"
 #: src/Cryptography/GpgMe++.cpp:397
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
-msgstr ""
+msgstr "מוצפן, חתימה פגומה על ידי גורם זר"
 
 #: src/Cryptography/GpgMe++.cpp:397
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
-msgstr ""
+msgstr "חתימה פגומה על ידי גורם זר"
 
 #: src/Cryptography/GpgMe++.cpp:400
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
-msgstr ""
+msgstr "מוצפן, חתימה פגומה על ידי גורם זר: %1"
 
 #: src/Cryptography/GpgMe++.cpp:401
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
-msgstr ""
+msgstr "חתימה פגומה על ידי גורם זר: %1"
 
 #: src/Cryptography/GpgMe++.cpp:403
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by someone else: %1 on %2."
-msgstr ""
+msgstr "חתימה פגומה על ידי גורם אחר: %1 על %2."
 
 #: src/Cryptography/GpgMe++.cpp:419
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
-msgstr ""
+msgstr "מוצפן, חתימה כלשהי"
 
 #: src/Cryptography/GpgMe++.cpp:419
 msgctxt "GpgMePart|"
@@ -352,7 +358,7 @@ msgstr "חתימה לא ידועה מאת %1 ב־%2"
 #: src/Cryptography/GpgMe++.cpp:424
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
-msgstr ""
+msgstr "מוצפן, חתימה כלשהי על ידי גוף זר"
 
 #: src/Cryptography/GpgMe++.cpp:424
 msgctxt "GpgMePart|"
@@ -363,12 +369,12 @@ msgstr "חתימה כלשהי על ידי גוף זר"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature by somebody else: %1 on %2"
-msgstr ""
+msgstr "חתימה לא ידועה מגוף אחר: %1 על %2"
 
 #: src/Cryptography/GpgMe++.cpp:433
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
-msgstr ""
+msgstr "מוצפן, חתימה אמינה חלקית"
 
 #: src/Cryptography/GpgMe++.cpp:433
 msgctxt "GpgMePart|"
@@ -384,18 +390,18 @@ msgstr "חתימה אמינה חלקית מאת %1 על %2"
 #: src/Cryptography/GpgMe++.cpp:439
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature by stranger"
-msgstr ""
+msgstr "מוצפן, חתימה אמינה חלקית מגורם זר"
 
 #: src/Cryptography/GpgMe++.cpp:440
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by stranger"
-msgstr ""
+msgstr "חתימה אמינה חלקית מגורם זר"
 
 #: src/Cryptography/GpgMe++.cpp:441
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by somebody else: %1 on %2"
-msgstr ""
+msgstr "חתימה אמינה חלקית מגוף אחר: %1 על %2"
 
 #: src/Cryptography/GpgMe++.cpp:454
 msgctxt "GpgMePart|"
@@ -484,46 +490,46 @@ msgstr "%1(לא זמין)"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(self-signed)"
-msgstr ""
+msgstr "%1(חתימה עצמית)"
 
 #: src/Cryptography/GpgMe++.cpp:542
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when retrieving key for the trust chain: %1"
-msgstr ""
+msgstr "שגיאה במשיכת מפתח משרשרת האמון: %1"
 
 #: src/Cryptography/GpgMe++.cpp:552
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Signature invalidity reason: %1"
-msgstr ""
+msgstr "סיבה לאי־תקפות החתימה: %1"
 
 #: src/Cryptography/GpgMe++.cpp:614
 msgctxt "GpgMeSigned|"
 msgid "Malformed Signed Message"
-msgstr ""
+msgstr "הודעה חתומה פגומה"
 
 #: src/Cryptography/GpgMe++.cpp:615
 #, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Expected 2 parts, but found %1."
-msgstr ""
+msgstr "אמורים להיות 2 חלקים, אך נמצאו %1."
 
 #: src/Cryptography/GpgMe++.cpp:619
 msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
-msgstr ""
+msgstr "לא ניתן לאמת חתימה"
 
 #: src/Cryptography/GpgMe++.cpp:620
 #, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Failed to initialize GpgME (%1)"
-msgstr ""
+msgstr "אתחול GpgMe נכשל (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:640
 msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
-msgstr ""
+msgstr "ההודעה החתומה נעלמה"
 
 #: src/Cryptography/GpgMe++.cpp:652
 msgctxt "GpgMeSigned|"
@@ -534,7 +540,7 @@ msgstr "נתונים לא זמינים"
 msgctxt "GpgMeSigned|"
 msgid ""
 "Some data are not available, perhaps due to an offline network connection"
-msgstr ""
+msgstr "חלק מהנתונים לא זמינים, אולי עקב חיבור רשת לא מקוון"
 
 #: src/Cryptography/GpgMe++.cpp:673
 msgctxt "GpgMeSigned|"
@@ -549,57 +555,57 @@ msgstr "אין חתימות בהודעה החתומה"
 #: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
 msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
-msgstr ""
+msgstr "הודעה מוצפנת פגומה"
 
 #: src/Cryptography/GpgMe++.cpp:739
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
-msgstr ""
+msgstr "אמורים להיות 2 חלקים להודעת OpenPGP מוצפנת, נמצאו %1."
 
 #: src/Cryptography/GpgMe++.cpp:764
 msgctxt "GpgMeEncrypted|"
 msgid "Cannot descrypt"
-msgstr ""
+msgstr "לא ניתן לפענח"
 
 #: src/Cryptography/GpgMe++.cpp:765
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Failed to initialize GpgME (%1)"
-msgstr ""
+msgstr "אתחול GpgMe נכשל (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:785 src/Cryptography/GpgMe++.cpp:921
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
-msgstr ""
+msgstr "ההודעה המוצפנת נעלמה"
 
 #: src/Cryptography/GpgMe++.cpp:795
 msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
-msgstr ""
+msgstr "הנתונים לא זמינים"
 
 #: src/Cryptography/GpgMe++.cpp:796
 msgctxt "GpgMeEncrypted|"
 msgid ""
 "Cannot decrypt. Some data are not available, perhaps due to an offline "
 "network connection."
-msgstr ""
+msgstr "לא ניתן לפענח. חלק מהנתונים לא זמינים, אולי עקב חיבור רשת לא מקוון."
 
 #: src/Cryptography/GpgMe++.cpp:813
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
-msgstr ""
+msgstr "גרסת PGP/MIME לא נתמכה. אמורה להיות „Version: 1”, התקבלה „%1”."
 
 #: src/Cryptography/GpgMe++.cpp:819
 msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
-msgstr ""
+msgstr "מתבצע פענוח…"
 
 #: src/Cryptography/GpgMe++.cpp:862
 msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
-msgstr ""
+msgstr "הודעה מוצפנת פגומה"
 
 #: src/Cryptography/GpgMe++.cpp:865
 #, qt-format
@@ -615,31 +621,31 @@ msgstr "הודעה מוצפנת"
 #: src/Cryptography/GpgMe++.cpp:874
 msgctxt "GpgMeEncrypted|"
 msgid "Wrong key usage, not for encryption"
-msgstr ""
+msgstr "שימוש שגוי במפתח, לא להצפנה"
 
 #: src/Cryptography/GpgMe++.cpp:878
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
-msgstr ""
+msgstr "אלגוריתם לא נתמך: %1"
 
 #: src/Cryptography/GpgMe++.cpp:886
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Cannot extract recipient %1: %2"
-msgstr ""
+msgstr "לא ניתן לחלץ את הנמען %1: %2"
 
 #: src/Cryptography/GpgMe++.cpp:891
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
-msgstr ""
+msgstr "מוצפן למען %1 (%2)"
 
 #: src/Cryptography/GpgMe++.cpp:895
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
-msgstr ""
+msgstr "מוצפן למען %1"
 
 #: src/Cryptography/GpgMe++.cpp:901
 #, qt-format
@@ -655,13 +661,13 @@ msgstr "על Trojitá"
 #: src/Gui/AboutDialog.ui:152
 msgctxt "AboutDialog|"
 msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
-msgstr ""
+msgstr "<p>זאת <b>Trojitá</b>, לקוח דוא״ל IMAP ב־Qt</p>"
 
 #: src/Gui/AddressRowWidget.cpp:131
 #, qt-format
 msgctxt "Expander|"
 msgid "Click to see %1 more items"
-msgstr ""
+msgstr "יש ללחוץ כדי להציג %1 פריטים נוספים"
 
 #: src/Gui/AddressRowWidget.cpp:131
 msgctxt "Expander|"
@@ -692,7 +698,7 @@ msgstr "הצגת מקור ההודעה"
 #, qt-format
 msgctxt "Gui::AttachmentView|"
 msgid "IMAP Server error for this part: %1 (%2)"
-msgstr ""
+msgstr "שגיאת שרת IMAP לחלק הזה: %1 (%2)"
 
 #: src/Gui/AttachmentView.cpp:163
 #, qt-format
@@ -765,7 +771,7 @@ msgctxt "ComposeWidget|"
 msgid ""
 "This mail will be sent as a standalone message.<hr/>Change to preserve the "
 "reply hierarchy."
-msgstr ""
+msgstr "ההודעה הזאת תישלח בנפרד.<hr/>אפשר לשנות כדי לשנות את היררכיית התגובות."
 
 #: src/Gui/ComposeWidget.cpp:239
 msgctxt "ComposeWidget|"
@@ -780,14 +786,14 @@ msgstr "שגיאה"
 #: src/Gui/ComposeWidget.cpp:359
 msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
-msgstr ""
+msgstr "נא לקבוע הגדרות הולמות להודעות יוצאות."
 
 #: src/Gui/ComposeWidget.cpp:512
 msgctxt "ComposeWidget|"
 msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
 "the recipients manually."
-msgstr ""
+msgstr "זה לא נראה שההודעה הזאת מיועדת לרשימת דיוור. נא למלא את הנמענים ידנית."
 
 #: src/Gui/ComposeWidget.cpp:515
 msgctxt "ComposeWidget|"
@@ -796,6 +802,8 @@ msgid ""
 "of the message. You might want to use the \"Reply All\" function and trim "
 "the list of addresses manually."
 msgstr ""
+"Trojitá לא הצליחה לקבוע בבטחה את כתובת הדוא״ל האמיתית של מקור ההודעה. אולי "
+"כדאי להשתמש בפונקציה „להגיב לכולם” ולדלל את רשימת הכתובות ידנית."
 
 #: src/Gui/ComposeWidget.cpp:520
 msgctxt "ComposeWidget|"
@@ -848,7 +856,7 @@ msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
 "</b>"
-msgstr ""
+msgstr "<b>ההודעה הזאת פגומה, נא להיזהר לפני שליחתה.</b>"
 
 #: src/Gui/ComposeWidget.cpp:691
 msgctxt "ComposeWidget|"
@@ -859,7 +867,7 @@ msgstr "נדרש אימות"
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
-msgstr ""
+msgstr "<p>נא לספק סיסמת SMTP למשתמש <b>%1</b> ב־<b>%2</b>:</p>"
 
 #: src/Gui/ComposeWidget.cpp:726
 msgctxt "ComposeWidget|"
@@ -869,7 +877,7 @@ msgstr "לשמור טיוטה?"
 #: src/Gui/ComposeWidget.cpp:727
 msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
-msgstr ""
+msgstr "הודעת הדוא״ל לא נשלחה.<br>לשמור את הטיוטה?"
 
 #: src/Gui/ComposeWidget.cpp:729
 msgctxt "ComposeWidget|"
@@ -877,6 +885,8 @@ msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
 "the draft!</span>"
 msgstr ""
+"<br><span style=\"color:red\">אזהרה: צרופות <b>לא</b> נשמרות עם הטיוטה!</"
+"span>"
 
 #: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1533
 #: src/Gui/Window.cpp:1535
@@ -969,7 +979,7 @@ msgstr "שליחת דוא״ל נכשלה"
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
-msgstr ""
+msgstr "לא ניתן לפענח את „%1” ככתובת דוא״ל."
 
 #: src/Gui/ComposeWidget.cpp:1616
 msgctxt "ComposeWidget|"
@@ -1032,6 +1042,8 @@ msgctxt "CreateMailboxDialog|"
 msgid ""
 "Check to add this mailbox to the server-side list of subscribed mailboxes"
 msgstr ""
+"יש לסמן כדי להוסיף את תיבת הדוא״ל הזאת לרשימת תיבות הדוא״ל שנרשמת אליהן בצד "
+"השרת"
 
 #: src/Gui/CreateMailboxDialog.ui:61
 msgctxt "CreateMailboxDialog|"
@@ -1260,17 +1272,17 @@ msgstr "הצגת חלון פנקס כתובות."
 #: src/Gui/main.cpp:69
 msgctxt "QObject|"
 msgid "Compose new e-mail (default when url is provided)."
-msgstr ""
+msgstr "כתיבת הודעת דוא״ל חדשה (ברירת מחדל כשמסופקת כתובת)."
 
 #: src/Gui/main.cpp:73
 msgctxt "QObject|"
 msgid "Activate debug traffic logging to disk by default."
-msgstr ""
+msgstr "הפעלת תיעוד תעבורת ניפוי שגיאות לכונן כברירת מחדל."
 
 #: src/Gui/main.cpp:77
 msgctxt "QObject|"
 msgid "Show main window (default when no option is provided)."
-msgstr ""
+msgstr "הצגת החלון הראשי (ברירת מחדל כשלא מסופקת אף אפשרות)."
 
 #: src/Gui/main.cpp:81
 msgctxt "QObject|"
@@ -1285,7 +1297,7 @@ msgstr "פרופיל"
 #: src/Gui/main.cpp:84
 msgctxt "QObject|"
 msgid "Mailto: URL address for composing new e-mail."
-msgstr ""
+msgstr "כתובת Mailto:‎ לכתיבת הודעת דוא״ל חדשה."
 
 #: src/Gui/main.cpp:85
 msgctxt "QObject|"
@@ -1517,10 +1529,10 @@ msgstr "88.8 ק״ב"
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
 msgid_plural "+ %n additional item(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "+ פריט נוסף"
+msgstr[1] "+ שני פריטים נוספים"
+msgstr[2] "+ %n פריטים נוספים"
+msgstr[3] "+ %n פריטים נוספים"
 
 #: src/Gui/MsgListView.cpp:338
 msgctxt "Gui::MsgListView|"
@@ -1656,10 +1668,10 @@ msgstr "נפסח כי הווידג׳ט שלו הוסתר."
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "+ בית נוסף"
+msgstr[1] "+ שני בתים נוספים"
+msgstr[2] "+ %n בתים נוספים"
+msgstr[3] "+ %n בתים נוספים"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -1674,7 +1686,7 @@ msgstr "&לא להשתמש במטמון"
 #: src/Gui/SettingsCachePage.ui:61
 msgctxt "CachePage|"
 msgid "&Remember messages for X days"
-msgstr ""
+msgstr "ל&זכור הודעות למשך X ימים"
 
 #: src/Gui/SettingsCachePage.ui:90
 msgctxt "CachePage|"
@@ -1689,12 +1701,12 @@ msgstr "התראות"
 #: src/Gui/SettingsCachePage.ui:112
 msgctxt "CachePage|"
 msgid "Only the INBOX folder will be included for new message checking"
-msgstr ""
+msgstr "רק תיקיית הדוא״ל הנכנס (INBOX) תיכלל בבדיקת הודעות חדשות"
 
 #: src/Gui/SettingsCachePage.ui:115
 msgctxt "CachePage|"
 msgid "&INBOX Only"
-msgstr ""
+msgstr "&דוא״ל נכנס (INBOX) בלבד"
 
 #: src/Gui/SettingsCachePage.ui:122
 msgctxt "CachePage|"
@@ -1702,11 +1714,13 @@ msgid ""
 "This might result in extremely slow operation in certain scenarios with "
 "shared mailboxes, rich folder hierarchies, or IMAP proxying, for example."
 msgstr ""
+"עלול לגרום לפעולה איטית במיוחד בתרחישים מסוימים עם תיבות דוא״ל משותפות, "
+"היררכיות תיקיות עשירות או תיווך IMAP למשל."
 
 #: src/Gui/SettingsCachePage.ui:125
 msgctxt "CachePage|"
 msgid "&All Mailboxes (use with care)"
-msgstr ""
+msgstr "&כל תיבות הדוא״ל (להשתמש בזהירות)"
 
 #: src/Gui/SettingsCachePage.ui:132
 msgctxt "CachePage|"
@@ -2488,7 +2502,7 @@ msgstr "פעולה"
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:36
 msgctxt "ShortcutConfigWidget|"
 msgid "Shortcut"
-msgstr ""
+msgstr "מקשי קיצור"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:46
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:65
@@ -2508,7 +2522,7 @@ msgstr "חיפוש:"
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:74
 msgctxt "ShortcutConfigWidget|"
 msgid "<p>Remove the shortcut of the currently highlighted action.</p>"
-msgstr ""
+msgstr "<p>הסרת מקשי הקיצור של הפעולה שמודגשת כרגע.</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:77
 msgctxt "ShortcutConfigWidget|Action for clearing shortcut"
@@ -2701,27 +2715,27 @@ msgstr "Ctrl+E"
 #: src/Gui/Window.cpp:243
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
-msgstr ""
+msgstr "סימון כ&נקראה"
 
 #: src/Gui/Window.cpp:244
 msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
-msgstr ""
+msgstr "ההודעה ה&באה שלא נקראה"
 
 #: src/Gui/Window.cpp:245
 msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
-msgstr ""
+msgstr "ההודעה הקודמת ש&לא נקראה"
 
 #: src/Gui/Window.cpp:246
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
-msgstr ""
+msgstr "סימון כמ&חוקה"
 
 #: src/Gui/Window.cpp:247
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Flagged"
-msgstr ""
+msgstr "סימון ב&דגל"
 
 #: src/Gui/Window.cpp:248
 msgctxt "Gui::MainWindow|"
