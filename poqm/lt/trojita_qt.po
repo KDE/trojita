@@ -1721,7 +1721,7 @@ msgstr "Nuostatos"
 #: src/Gui/SettingsDialog.cpp:92
 msgctxt "Gui::SettingsDialog|"
 msgid "&General"
-msgstr ""
+msgstr "&Bendros"
 
 #: src/Gui/SettingsDialog.cpp:93
 msgctxt "Gui::SettingsDialog|"
@@ -1920,7 +1920,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:1043
 msgctxt "Gui::OutgoingPage|"
 msgid "No encryption"
-msgstr ""
+msgstr "Jokio šifravimo"
 
 #: src/Gui/SettingsDialog.cpp:1044
 msgctxt "Gui::OutgoingPage|"
@@ -1930,7 +1930,7 @@ msgstr "Naudoti šifravimą (STARTTLS)"
 #: src/Gui/SettingsDialog.cpp:1045
 msgctxt "Gui::OutgoingPage|"
 msgid "Force encryption (TLS)"
-msgstr ""
+msgstr "Priverstinis šifravimas (TLS)"
 
 #: src/Gui/SettingsDialog.cpp:1189
 msgctxt "Gui::OutgoingPage|"
@@ -1989,12 +1989,13 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:93
 msgctxt "GeneralPage|"
 msgid "Start minimized"
-msgstr ""
+msgstr "Paleisti suskleistą"
 
 #: src/Gui/SettingsGeneralPage.ui:100
 msgctxt "GeneralPage|"
 msgid "Show plaintext e-mails instead of the HTML version"
 msgstr ""
+"Rodyti el. laiškus grynojo teksto pavidalu, o ne HTML versijos pavidalu"
 
 #: src/Gui/SettingsGeneralPage.ui:112
 msgctxt "GeneralPage|"
@@ -2163,7 +2164,7 @@ msgstr "IMAP serverio prievado numeris"
 #: src/Gui/SettingsImapPage.ui:118
 msgctxt "ImapPage|"
 msgid "Use System Proxy Settings"
-msgstr ""
+msgstr "Naudoti sistemos įgaliotojo serverio nuostatas"
 
 #: src/Gui/SettingsImapPage.ui:131
 msgctxt "ImapPage|"
@@ -2346,7 +2347,7 @@ msgstr "&Prievadas"
 #: src/Gui/SettingsOutgoingPage.ui:86
 msgctxt "OutgoingPage|"
 msgid "&Authenticate"
-msgstr ""
+msgstr "&Nustatyti tapatybę"
 
 #: src/Gui/SettingsOutgoingPage.ui:103
 msgctxt "OutgoingPage|"
@@ -2366,12 +2367,12 @@ msgstr ""
 #: src/Gui/SettingsOutgoingPage.ui:169
 msgctxt "OutgoingPage|"
 msgid "Save Ou&tgoing Mail"
-msgstr ""
+msgstr "Įrašyti išsiųs&tus laiškus"
 
 #: src/Gui/SettingsOutgoingPage.ui:182
 msgctxt "OutgoingPage|"
 msgid "Sent Folder &Name"
-msgstr ""
+msgstr "Išsiųstųjų aplanko pavadi&nimas"
 
 #: src/Gui/SettingsOutgoingPage.ui:195
 msgctxt "OutgoingPage|"
@@ -3251,12 +3252,13 @@ msgstr ""
 #: src/Gui/Window.cpp:1434
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
-msgstr ""
+msgstr "Nėra konfigūracijos"
 
 #: src/Gui/Window.cpp:1435
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
+"Nėra sukonfigūruota jokia IMAP paskyra. Be jos Trojitá negalės daug atlikti."
 
 #: src/Gui/Window.cpp:1460
 #, qt-format
@@ -4893,18 +4895,18 @@ msgstr ""
 #: src/MSA/SMTP.cpp:54
 msgctxt "MSA::SMTP|"
 msgid "Sending of the message was cancelled"
-msgstr ""
+msgstr "Laiško siuntimo buvo atsisakyta"
 
 #: src/MSA/SMTP.cpp:69
 msgctxt "MSA::SMTP|"
 msgid "Sending of the message failed."
-msgstr ""
+msgstr "Nepavyko išsiųsti laiško."
 
 #: src/MSA/SMTP.cpp:71
 #, qt-format
 msgctxt "MSA::SMTP|"
 msgid "Sending of the message failed with the following error: %1"
-msgstr ""
+msgstr "Nepavyko išsiųsti laiško dėl šios klaidos: %1"
 
 #: src/MSA/SMTP.cpp:85
 #, qt-format
@@ -4925,7 +4927,7 @@ msgstr "Nežinoma SMTP veiksena"
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:151
 msgctxt "BE::Contacts|"
 msgid "BE::Contacts"
-msgstr ""
+msgstr "BE::Adresatai"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:398
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
@@ -5112,7 +5114,7 @@ msgstr "KDE adresų knyga (Akonadi)"
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:79
 msgctxt "ClearTextPasswordJob|"
 msgid "This plugin only supports storing of IMAP and SMTP passwords"
-msgstr ""
+msgstr "Šis įskiepis palaiko tik IMAP ir SMTP slaptažodžių saugojimą"
 
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:123
 msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
@@ -5132,7 +5134,7 @@ msgstr ""
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
 msgid "Unsupported or unknown authentication scheme"
-msgstr ""
+msgstr "Nepalaikoma ar nežinoma tapatybės nustatymo schema"
 
 #: src/Streams/IODeviceSocket.cpp:178
 #, qt-format
@@ -5313,6 +5315,8 @@ msgid ""
 "<p>This is the certificate chain of the connection:</p>\n"
 "<ul>%1</ul>\n"
 msgstr ""
+"<p>Tai yra ryšio liudijimų grandinė:</p>\n"
+"<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
 msgctxt "Formatting|"
@@ -5328,7 +5332,7 @@ msgstr "<li>%1</li>"
 #: src/UiUtils/Formatting.cpp:163
 msgctxt "Formatting|"
 msgid "<p>According to your system's policy, this connection is secure.</p>\n"
-msgstr ""
+msgstr "<p>Remiantis jūsų sistemos politika, šis ryšys yra saugus.</p>\n"
 
 #: src/UiUtils/Formatting.cpp:164
 #, qt-format
