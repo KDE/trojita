@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-27 22:09+0200\n"
+"PO-Revision-Date: 2026-01-30 17:18+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -958,17 +958,17 @@ msgstr "עותק סמוי"
 #: src/Gui/ComposeWidget.cpp:1104
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
-msgstr ""
+msgstr "נשלח מחדש אל"
 
 #: src/Gui/ComposeWidget.cpp:1105
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
-msgstr ""
+msgstr "עותק נשלח מחדש"
 
 #: src/Gui/ComposeWidget.cpp:1106
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
-msgstr ""
+msgstr "עותק סמוי נשלח מחדש"
 
 #: src/Gui/ComposeWidget.cpp:1390
 msgctxt "ComposeWidget|"
@@ -1326,7 +1326,7 @@ msgstr "שגיאה: רישום מופע IPC נכשל: %1"
 #, qt-format
 msgctxt "MessageHeadersWidget|"
 msgid "Message headers of UID %1 in %2"
-msgstr ""
+msgstr "כותרות הודעה של UID %1 ב־%2"
 
 #: src/Gui/MessageHeadersWidget.cpp:55
 msgctxt "MessageHeadersWidget|"
@@ -1729,6 +1729,8 @@ msgid ""
 "notifications. To subscribe a mailbox, use the context menu in the mailbox "
 "view."
 msgstr ""
+"תיקיות דוא״ל שמסומנות למינוי תיכללנה בהתראות. כדי להירשם לתיבת דוא״ל, יש "
+"להשתמש בתפריט ההקשר בתצוגת תיבת הדוא״ל."
 
 #: src/Gui/SettingsCachePage.ui:135
 msgctxt "CachePage|"
@@ -2084,6 +2086,10 @@ msgid ""
 "override the action using modifier keys when dropping (control: copy, shift: "
 "move).</p>"
 msgstr ""
+"<p>אם האפשרות פעילה, אפשר להגדיר את פעולת הגרירה בעץ תיבות הדוא״ל כברירת "
+"מחדל.</p><p>אם האפשרות כבויה, Trojitá תבקש ממך כל פעם מחדש. תמיד אפשר לדרוס "
+"את הפעולה באמצעות מקשי החלפה תוך כדי גרירה (control: העתקה, shift: העברה).</"
+"p>"
 
 #: src/Gui/SettingsGeneralPage.ui:168
 msgctxt "GeneralPage|"
@@ -2266,6 +2272,30 @@ msgid ""
 "password, Trojitá will prompt for one when it needs it, but only once per "
 "session.</p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">הסיסמה שתשמש להתחברות לשרת "
+"IMAP.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">הסיסמה הזאת תישמר באופן "
+"<span style=\" font-weight:600;\">גלוי</span> במכשיר הזה, ללא שום הצפנה. אלא "
+"אם כן בחרת צורה בטוחה מאוד של הצפנת כונן מלא, זה רעיון <span style=\" font-"
+"weight:600;\">גרוע במיוחר</span> לשמור את הסיסמה שלך כאן.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ללא שמירת הסיסמה, Trojitá "
+"תבקש אותה ממך בכל פעם שתצטרך, אבל רק פעם אחת בכל הפעלה.</p></body></html>"
 
 #: src/Gui/SettingsImapPage.ui:204
 msgctxt "ImapPage|"
@@ -2326,6 +2356,10 @@ msgid ""
 "NAT gateways and other nasty annoyances.\n"
 "The default value is 29 minutes."
 msgstr ""
+"באיזו תדירות לחדש הפעלת IDLE.\n"
+"שימושי למניעת קטיעות תום זמן עקב רשתות מקרטעות או הגנות רשת מוגזמות,\n"
+"שערי גישת NAT ושאר מרעין בישין.\n"
+"ערך ברירת המחדל הוא 29 דקות."
 
 #: src/Gui/SettingsImapPage.ui:298
 msgctxt "ImapPage|"
@@ -2338,6 +2372,8 @@ msgid ""
 "How often to check for new emails in all IMAP folders.\n"
 "The default value is 300 seconds (5 minutes)."
 msgstr ""
+"באיזו תדירות לבדוק אם יש הודעות חדשות בכל תיקיות ה־IMAP.\n"
+"ערך ברירת המחדל הוא 300 שניות (5 דקות)."
 
 #: src/Gui/SettingsImapPage.ui:309
 msgctxt "ImapPage|"
@@ -2402,7 +2438,7 @@ msgstr "קובץ הה&פעלה של Sendmail"
 #: src/Gui/SettingsOutgoingPage.ui:169
 msgctxt "OutgoingPage|"
 msgid "Save Ou&tgoing Mail"
-msgstr ""
+msgstr "שמירת הודעות יו&צאות"
 
 #: src/Gui/SettingsOutgoingPage.ui:182
 msgctxt "OutgoingPage|"
@@ -2415,11 +2451,13 @@ msgid ""
 "Enable forward-without-download via BURL (RFC 4468) when the IMAP and ESMTP "
 "servers support it. Extra server-side configuration is required."
 msgstr ""
+"הפעלת העברה ללא הורדה דרך BURL (RFC 4468) כאשר שרתי ה־IMAP וה־ESMTP תומכים "
+"בזה. נדרשות הגדרות נוספות מצד השרת."
 
 #: src/Gui/SettingsOutgoingPage.ui:198
 msgctxt "OutgoingPage|"
 msgid "Send with &BURL"
-msgstr ""
+msgstr "&שליחה עם BURL"
 
 #: src/Gui/SettingsOutgoingPage.ui:218
 msgctxt "OutgoingPage|"
@@ -2429,7 +2467,7 @@ msgstr "להשתמש בפרטי גישה של IMAP"
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
 msgid "Configure Shortcuts"
-msgstr ""
+msgstr "הגדרת מקשי קיצור"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
@@ -2439,7 +2477,7 @@ msgstr "Trojitá"
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:41
 msgctxt "Gui::ShortcutConfigWidget|"
 msgid "Configure Shortcuts"
-msgstr ""
+msgstr "הגדרת מקשי קיצור"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:41
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:203
@@ -2533,7 +2571,7 @@ msgstr "פינוי"
 msgctxt "ShortcutConfigWidget|"
 msgid ""
 "<p>Restore the default shortcut for the currently highlighted action.</p>"
-msgstr ""
+msgstr "<p>לשחזר את מקשי הקיצור כברירת מחדל של הפעולה שמודגשת כרגע.</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:87
 msgctxt "ShortcutConfigWidget|Action for restoring default shortcut"
@@ -2642,10 +2680,10 @@ msgstr "תגית"
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "פעולה ברקע"
+msgstr[1] "שתי פעולות ברקע"
+msgstr[2] "%n פעולות ברקע"
+msgstr[3] "%n פעולות ברקע"
 
 #: src/Gui/TaskProgressIndicator.cpp:88
 msgctxt "Gui::TaskProgressIndicator|"
@@ -3457,7 +3495,7 @@ msgstr "שמירת הודעה"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
-msgstr ""
+msgstr "מקור הודעת UID %1 ב־%2"
 
 #: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
 msgctxt "Gui::MainWindow|"
@@ -4338,7 +4376,7 @@ msgstr ""
 #: src/Imap/Network/FileDownloadManager.cpp:45
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Cannot translate CID URL: message is gone"
-msgstr ""
+msgstr "לא ניתן לתרגם כתובת CID: ההודעה נעלמה"
 
 #: src/Imap/Network/FileDownloadManager.cpp:57
 #, qt-format
@@ -4419,7 +4457,7 @@ msgstr "פעולת COPY (העתקה) נכשלה: %1"
 #, qt-format
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "The UID MOVE operation has failed: %1"
-msgstr ""
+msgstr "פעולת ה־UID MOVE נכשלה: %1"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:133
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
@@ -4590,17 +4628,19 @@ msgstr "המפענח איננו"
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:713
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Logging off..."
-msgstr ""
+msgstr "התנתקות…"
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:920
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "The UIDVALIDITY has changed while mailbox is open. Please reconnect."
 msgstr ""
+"ה־UIDVALIDITY (תוקף מזהה הודעת IMAP ייחודי) השתנה בזמן שתיבת הדוא״ל פתוחה. "
+"נא להתחבר שוב."
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:948
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "UNSELECTed"
-msgstr ""
+msgstr "בוטלה בחירה (UNSELECT)"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:59
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
