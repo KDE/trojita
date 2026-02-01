@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-30 17:18+0200\n"
+"PO-Revision-Date: 2026-01-31 17:16+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1735,7 +1735,7 @@ msgstr ""
 #: src/Gui/SettingsCachePage.ui:135
 msgctxt "CachePage|"
 msgid "&Subscribed Mailboxes"
-msgstr ""
+msgstr "תיבות דוא״ל ש&נרשמת אליהן"
 
 #: src/Gui/SettingsDialog.cpp:85
 msgctxt "Gui::SettingsDialog|"
