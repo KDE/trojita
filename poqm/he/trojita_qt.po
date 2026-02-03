@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-31 17:16+0200\n"
+"PO-Revision-Date: 2026-02-02 21:12+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -1517,7 +1517,7 @@ msgstr "ב־%1, נכתב על ידי %2:\n"
 #: src/Gui/MsgListView.cpp:147
 msgctxt "Gui::MsgListView|"
 msgid "Mon 10"
-msgstr ""
+msgstr "שני 10"
 
 #: src/Gui/MsgListView.cpp:149
 msgctxt "Gui::MsgListView|"
@@ -2512,6 +2512,8 @@ msgid ""
 "<p>The \"%1\" shortcut is ambiguous with the following shortcut:</p><p>%2</"
 "p><p>Do you want to assign an empty shortcut to this action?</p>"
 msgstr ""
+"<p>מקש הקיצור „%1” סותר את מקש הקיצור הבא:</p><p>%2</p><p>להקצות מקש קיצור "
+"ריק לפעולה הזאת?</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:14
 msgctxt "ShortcutConfigWidget|"
@@ -2778,12 +2780,12 @@ msgstr "סימון ב&דגל"
 #: src/Gui/Window.cpp:248
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Junk"
-msgstr ""
+msgstr "סימון כ&זבל"
 
 #: src/Gui/Window.cpp:249
 msgctxt "Gui::MainWindow|"
 msgid "Mark as Not &junk"
-msgstr ""
+msgstr "סימון כ&לא זבל"
 
 #: src/Gui/Window.cpp:250
 msgctxt "Gui::MainWindow|"
