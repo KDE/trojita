@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-28 02:35+0200\n"
-"PO-Revision-Date: 2026-01-26 17:57+0100\n"
+"PO-Revision-Date: 2026-02-05 15:47+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -568,7 +568,7 @@ msgstr ""
 #| msgid "%1(Unavailable)"
 msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
-msgstr "non disponibile"
+msgstr "Non disponibile"
 
 #: src/Cryptography/GpgMe++.cpp:533
 #, qt-format
