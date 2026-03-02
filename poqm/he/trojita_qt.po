@@ -1344,6 +1344,13 @@ msgid "Quick Search"
 msgstr "חיפוש מהיר"
 
 #: src/Gui/MessageListWidget.cpp:52
+#, fuzzy
+#| msgctxt "Gui::MessageListWidget|"
+#| msgid ""
+#| "Type in a text to search for within this mailbox. The icon on the left "
+#| "can be used to limit the search options (like whether to include "
+#| "addresses or message bodies, etc).<br/><hr/>Experts who have read RFC3501 "
+#| "can use the  prefix and switch to a raw IMAP mode."
 msgctxt "Gui::MessageListWidget|"
 msgid ""
 "Type in a text to search for within this mailbox. The icon on the left can "
@@ -1351,6 +1358,10 @@ msgid ""
 "message bodies, etc).<br/><hr/>Experts who have read RFC3501 can use the "
 "<code>:=</code> prefix and switch to a raw IMAP mode."
 msgstr ""
+"נא להקליד טקסט לחיפוש בתיבת הדוא״ל הזאת. אפשר להשתמש בסמל מימין כדי להגביל "
+"את אפשרויות החיפוש (כמו למשל האם לכלול כתובות או תוכן של הודעות, וכו׳).<br/"
+"><hr/>מומחים שקראו את RFC3501 יכולים להשתמש בקידומת <code>:=</code> ולעבור "
+"למצב IMAP גולמי."
 
 #: src/Gui/MessageListWidget.cpp:57
 msgctxt "Gui::MessageListWidget|"
@@ -4760,7 +4771,7 @@ msgstr "ביקש להתחסל"
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1200
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Escaped from mailbox"
-msgstr ""
+msgstr "יצא מתיבת הדוא״ל"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1205
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
