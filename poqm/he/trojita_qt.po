@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-22 09:24+0200\n"
+"PO-Revision-Date: 2026-03-02 14:18+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -1344,13 +1344,6 @@ msgid "Quick Search"
 msgstr "חיפוש מהיר"
 
 #: src/Gui/MessageListWidget.cpp:52
-#, fuzzy
-#| msgctxt "Gui::MessageListWidget|"
-#| msgid ""
-#| "Type in a text to search for within this mailbox. The icon on the left "
-#| "can be used to limit the search options (like whether to include "
-#| "addresses or message bodies, etc).<br/><hr/>Experts who have read RFC3501 "
-#| "can use the  prefix and switch to a raw IMAP mode."
 msgctxt "Gui::MessageListWidget|"
 msgid ""
 "Type in a text to search for within this mailbox. The icon on the left can "
@@ -1360,7 +1353,7 @@ msgid ""
 msgstr ""
 "נא להקליד טקסט לחיפוש בתיבת הדוא״ל הזאת. אפשר להשתמש בסמל מימין כדי להגביל "
 "את אפשרויות החיפוש (כמו למשל האם לכלול כתובות או תוכן של הודעות, וכו׳).<br/"
-"><hr/>מומחים שקראו את RFC3501 יכולים להשתמש בקידומת <code>:=</code> ולעבור "
+"><hr/>מומחים שקראו את RFC3501 יכולים להשתמש בקידומת <code>‎:=</code> ולעבור "
 "למצב IMAP גולמי."
 
 #: src/Gui/MessageListWidget.cpp:57
