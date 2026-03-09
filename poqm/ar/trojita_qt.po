@@ -550,7 +550,7 @@ msgstr "يتحقّق من التّوقيع..."
 #: src/Cryptography/GpgMe++.cpp:698
 msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
-msgstr "لا تواقيع في الرّسالة الموقّعة"
+msgstr "لا تواقيع في الرّسالة الموقعة"
 
 #: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
 msgctxt "GpgMeEncrypted|"
@@ -1354,7 +1354,7 @@ msgid ""
 msgstr ""
 "اكتب نصًّا للبحث عنه في صندوق البريد هذا. الأيقونة على اليمين يمكن استخدامها "
 "لحدّ خيارات البحث (كتضمين العناوين أو متون الرّسائل أو لا، إلخ).<br/><hr/"
-">المتمرّسون الّذين قرؤوا RFC3501 يمكنهم استخدام سابقة <code>‎:=</code> والتّبديل "
+">المتمرّسون الذين قرؤوا RFC3501 يمكنهم استخدام سابقة <code>‎:=</code> والتّبديل "
 "إلى وضع IMAP الخامّ."
 
 #: src/Gui/MessageListWidget.cpp:57
@@ -2230,7 +2230,7 @@ msgstr "اسم مضيف خادم IMAP"
 #: src/Gui/SettingsImapPage.ui:78
 msgctxt "ImapPage|"
 msgid "This is the name of the IMAP server that Trojitá should connect to."
-msgstr "هذا اسم خادم IMAP الّذي سيتّصل به تروجيتا."
+msgstr "هذا اسم خادم IMAP الذي سيتّصل به تروجيتا."
 
 #: src/Gui/SettingsImapPage.ui:88
 msgctxt "ImapPage|"
