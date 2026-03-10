@@ -340,7 +340,7 @@
       <li xml:lang="uk">Підтримка роботи з IMAP у автономному режимі.</li>
       <li xml:lang="zh-CN">离线 IMAP 支持</li>
       <li>Support for bandwidth-saving mode aimed at mobile users with expensive connection</li>
-      <li xml:lang="ar">دعم وضع حفظ عرض النّطاق الّذي يستهدف مستخدمي الهاتف ذوي الاتّصال الغالي</li>
+      <li xml:lang="ar">دعم وضع حفظ عرض النّطاق الذي يستهدف مستخدمي الهاتف ذوي الاتّصال الغالي</li>
       <li xml:lang="az">Bahalı bağlantısı olan mobil istifadəçilərə uyğun trafik istifadəsinə qənaət rejimi dəstəyi</li>
       <li xml:lang="bs">Podrška za režim snimanja propusnosti ciljan za korisnike mobilnih uređaja za skupom konekcijom</li>
       <li xml:lang="ca">Permet el mode d'estalvi de l'amplada de banda destinat als usuaris de mòbils amb una connexió cara</li>
@@ -491,7 +491,7 @@
     </screenshot>
     <screenshot>
       <caption>Encrypted and signed e-mail is supported, with status given in plain English</caption>
-      <caption xml:lang="ar">البُرد الإلكترونيّة المعمّاة والموقّعة مدعومة، حيث تُعطى حالتها بالإنجليزية</caption>
+      <caption xml:lang="ar">البُرد الإلكترونيّة المعمّاة والموقعة مدعومة، حيث تُعطى حالتها بالإنجليزية</caption>
       <caption xml:lang="az">Sadə bir dildə yazılan şifrələnmiş və imzalanmış e-məktublar dəstəklənir</caption>
       <caption xml:lang="ca">Funciona amb correu electrònic encriptat i signat, amb l'estat indicat en anglès</caption>
       <caption xml:lang="ca-valencia">Funciona amb correu electrònic encriptat i signat, amb l'estat indicat en anglés</caption>
