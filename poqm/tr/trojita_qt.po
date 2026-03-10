@@ -4,15 +4,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-01-12 15:56+0300\n"
-"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
+"PO-Revision-Date: 2026-03-09 22:05+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.0\n"
+"X-Generator: Lokalize 25.12.2\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
@@ -540,7 +540,7 @@ msgstr "Veri Kullanılamıyor"
 msgctxt "GpgMeSigned|"
 msgid ""
 "Some data are not available, perhaps due to an offline network connection"
-msgstr "Bazı veriler kullanılabilir değil, belki ağ bağlantısı çevrimdışıdır"
+msgstr "Bazı veriler kullanılabilir değil, belki ağ bağlantısı çevrim dışıdır"
 
 #: src/Cryptography/GpgMe++.cpp:673
 msgctxt "GpgMeSigned|"
@@ -591,7 +591,7 @@ msgid ""
 "network connection."
 msgstr ""
 "Şifre çözülemiyor. Bazı veriler kullanılabilir değil, belki ağ bağlantısı "
-"çevrimdışıdır."
+"çevrim dışıdır."
 
 #: src/Cryptography/GpgMe++.cpp:813
 #, qt-format
@@ -1352,7 +1352,7 @@ msgstr "Kontrol+F"
 #: src/Gui/MessageListWidget.cpp:51
 msgctxt "Gui::MessageListWidget|"
 msgid "Quick Search"
-msgstr "Hızlı Arama"
+msgstr "Tez Arama"
 
 #: src/Gui/MessageListWidget.cpp:52
 msgctxt "Gui::MessageListWidget|"
@@ -1686,7 +1686,7 @@ msgstr[1] "+ %n bayt daha"
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
 msgid "Offline mode"
-msgstr "Çevrimdışı kip"
+msgstr "Çevrim dışı kip"
 
 #: src/Gui/SettingsCachePage.ui:48
 msgctxt "CachePage|"
@@ -1766,7 +1766,7 @@ msgstr "&IMAP"
 #: src/Gui/SettingsDialog.cpp:94
 msgctxt "Gui::SettingsDialog|"
 msgid "&Offline"
-msgstr "&Çevrimdışı"
+msgstr "&Çevrim dışı"
 
 #: src/Gui/SettingsDialog.cpp:95
 msgctxt "Gui::SettingsDialog|"
@@ -2064,7 +2064,7 @@ msgstr "hemen"
 #: src/Gui/SettingsGeneralPage.ui:122
 msgctxt "GeneralPage|"
 msgid " s"
-msgstr " s"
+msgstr " sn"
 
 #. The action will happen *after* user-provided timeout in seconds
 #: src/Gui/SettingsGeneralPage.ui:125
@@ -2095,7 +2095,7 @@ msgstr ""
 "Qt sürümü ve işletim sistemi ayrıntılarıyla birlikte sürüm bilgisi "
 "içerilecektir. Lütfen bu seçeneği açık bırakmayı değerlendirin böylece "
 "geliştiriciler bir şeyler ters gittiğinde geliştiriciler hata raporlarını "
-"daha rahat çözebilirler.</p><p>Veri birçok şeyin yanında IMAP'ın <code>ID</"
+"daha rahat çözebilirler.</p><p>Veri birçok şeyin yanında IMAP’ın <code>ID</"
 "code> komutu ve giden e-postaların <code>User-Agent</code> başlığı "
 "aracılığıyla iletişim kurar.</p><p>Bu seçeneği kapatsanız bile Trojitá’nın "
 "konuştuğu sunucuların ve e-postalarınız okuyan insanların Trojitá’nın belli "
@@ -2104,7 +2104,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:153
 msgctxt "GeneralPage|"
 msgid "Reveal Trojitá's version and platform information"
-msgstr "Trojitá'nın sürüm ve platform bilgisini açığa çıkar"
+msgstr "Trojitá’nın sürüm ve platform bilgisini açığa çıkar"
 
 #: src/Gui/SettingsGeneralPage.ui:165
 msgctxt "GeneralPage|"
@@ -2240,7 +2240,7 @@ msgstr "IMAP sunucusunun adı"
 #: src/Gui/SettingsImapPage.ui:78
 msgctxt "ImapPage|"
 msgid "This is the name of the IMAP server that Trojitá should connect to."
-msgstr "Trojitá'nın bağlanacağı IMAP sunucusun adı"
+msgstr "Trojitá’nın bağlanacağı IMAP sunucusun adı"
 
 #: src/Gui/SettingsImapPage.ui:88
 msgctxt "ImapPage|"
@@ -2263,8 +2263,8 @@ msgid ""
 "Check if Trojitá should connect to a network in order to access this "
 "account. You will stay offline if there is no network connectivity."
 msgstr ""
-"Hesabınıza bağlanmak için Trojitá'nın uygun bir ağa bağlanması gerekir. Ağ "
-"erişimi yoksa Çevrimdışı kalacaksınız."
+"Hesabınıza bağlanmak için Trojitá’nın uygun bir ağa bağlanması gerekir. Ağ "
+"erişimi yoksa çevrim dışı kalacaksınız."
 
 #: src/Gui/SettingsImapPage.ui:134
 msgctxt "ImapPage|"
@@ -2970,7 +2970,7 @@ msgstr "Adres Defteri…"
 #: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "&Offline"
-msgstr "&Çevrimdışı"
+msgstr "&Çevrim dışı"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
@@ -3025,7 +3025,7 @@ msgstr "Odağı İleti Listesine Kaydır"
 #: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
-msgstr "Odağı Hızlı Arama'ya Taşı"
+msgstr "Odağı Tez Arama’ya Taşı"
 
 #: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
@@ -3362,7 +3362,7 @@ msgstr[1] " — %n okunmayan ileti"
 #: src/Gui/Window.cpp:1121
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
-msgstr " — çevrimdışı"
+msgstr " — çevrim dışı"
 
 #: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
 msgctxt "Gui::MainWindow|"
@@ -3415,7 +3415,7 @@ msgstr ""
 #: src/Gui/Window.cpp:1388
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
-msgstr "Çevrimdışı"
+msgstr "Çevrim dışı"
 
 #: src/Gui/Window.cpp:1434
 msgctxt "Gui::MainWindow|"
@@ -3697,7 +3697,7 @@ msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
 msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] "%1 — %n Okunmamış — Trojitá"
-msgstr[1] "%1 - %n Okunmamış — Trojitá"
+msgstr[1] "%1 — %n Okunmamış — Trojitá"
 
 #: src/Gui/Window.cpp:2576
 #, qt-format
@@ -3759,7 +3759,7 @@ msgstr "Sertifikalar denetleniyor (STARTTLS)…"
 #: src/Imap/ConnectionState.cpp:53
 msgctxt "QObject|"
 msgid "Checking capabilities (after STARTTLS)..."
-msgstr "Yetenekler denetleniyor (STARTTLS'den sonra)…"
+msgstr "Yetenekler denetleniyor (STARTTLS’den sonra)…"
 
 #: src/Imap/ConnectionState.cpp:55
 msgctxt "QObject|"
@@ -3865,17 +3865,17 @@ msgstr "İleti gitmiş"
 #: src/Imap/Model/FullMessageCombiner.cpp:91
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached message data not available"
-msgstr "Çevrimdışı kip: Önbelleğe işlenmemiş ileti verisine ulaşılamaz"
+msgstr "Çevrim dışı kip: Önbelleğe işlenmemiş ileti verisine ulaşılamaz"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:93
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached header data not available"
-msgstr "Çevrimdışı kip: önbelleğe işlenmemiş başlık verisine ulaşılamaz"
+msgstr "Çevrim dışı kip: önbelleğe işlenmemiş başlık verisine ulaşılamaz"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:95
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached body data not available"
-msgstr "Çevrimdışı kip: önbelleğe işlenmemiş gövde verisine ulaşılamaz"
+msgstr "Çevrim dışı kip: önbelleğe işlenmemiş gövde verisine ulaşılamaz"
 
 #: src/Imap/Model/ImapAccess.cpp:317
 #, qt-format
@@ -3922,7 +3922,7 @@ msgstr "[%1: %2 yükleniyor…]"
 #: src/Imap/Model/Model.cpp:1088
 msgctxt "Imap::Mailbox::Model|"
 msgid "Going offline"
-msgstr "Çevrimdışına geçiliyor"
+msgstr "Çevrim dışına geçiliyor"
 
 #: src/Imap/Model/Model.cpp:1162
 msgctxt "Imap::Mailbox::Model|"
@@ -4509,7 +4509,7 @@ msgstr "Veriye erişilemedi"
 #: src/Imap/Network/MsgPartNetworkReply.cpp:85
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Uncached data not available when offline"
-msgstr "Önbellekte olmayan veri çevrimdışı kullanılamaz"
+msgstr "Önbellekte olmayan veri çevrim dışı kullanılamaz"
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:87
 msgctxt "Imap::Network::MsgPartNetworkReply|"
@@ -4793,12 +4793,12 @@ msgstr "Posta kutusu eşitleniyor"
 #: src/Imap/Tasks/OfflineConnectionTask.cpp:55
 msgctxt "Imap::Mailbox::OfflineConnectionTask|"
 msgid "We're offline"
-msgstr "Çevrimdışıyız"
+msgstr "Çevrim dışıyız"
 
 #: src/Imap/Tasks/OfflineConnectionTask.cpp:62
 msgctxt "Imap::Mailbox::OfflineConnectionTask|"
 msgid "Offline"
-msgstr "Çevrimdışı"
+msgstr "Çevrim dışı"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:116
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
