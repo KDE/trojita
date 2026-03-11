@@ -118,7 +118,7 @@
     <p xml:lang="sk">Trojitá je e-mailový program ("klient") špecializovaný na rýchly a efektívny prístup k mailboxom cez protokol IMAP. Poštový server IMAP ukladá správy a umožňuje klientom naťahovať správy do miestneho počítača na požiadanie.</p>
     <p xml:lang="sl">Trojitá je program za e-pošto ("odjemalec") specializiran za hiter in učinkovit dostop do nabiralnikov prek protokola IMAP. Poštni strežnik IMAP shranjuje sporočila in strankam omogoča prenos sporočil v lokalni računalnik kadar to zahtevajo..</p>
     <p xml:lang="sv">Trojitá är ett e-postprogram ("klient") specialiserat på att ge snabb och effektiv åtkomst till brevlådor via IMAP-protokollet. En IMAP e-postserver lagrar brev och låter klienter hämta breven till den lokala datorn när de efterfrågas.</p>
-    <p xml:lang="tr">Trojitá, IMAP protokolü üzerinden posta kutularına hızlı ve verimli erişim sağlayan, uzmanlaşmış bir e-posta programıdır ("istemci"). Bir IMAP posta sunucusu iletileri saklar ve istemcilerin iletileri sorulduğunda yerel bilgisayara getirmesini sağlar.</p>
+    <p xml:lang="tr">Trojitá, IMAP protokolü üzerinden posta kutularına hızlı ve verimli erişim sağlayan, uzmanlaşmış bir e-posta programıdır (“istemci”). Bir IMAP posta sunucusu iletileri saklar ve istemcilerin iletileri sorulduğunda yerel bilgisayara getirmesini sağlar.</p>
     <p xml:lang="uk">Trojitá — програма для роботи з електронною поштою («клієнт»), що спеціалізується на наданні швидкого та ефективного доступу до поштових скриньок за допомогою протоколу IMAP. Самі повідомлення електронної пошти зберігаються на поштовому сервері IMAP, клієнтська програма отримує повідомлення на локальному комп’ютері, коли у цьому виникає потреба.</p>
     <p xml:lang="zh-CN">Trojitá是一个电子邮件程序（“客户端”），专门用于通过 IMAP 协议快速有效地访问邮箱。IMAP 邮件服务器会存储邮件，并允许客户端在需要时将邮件提取到本地计算机。</p>
     <p>
@@ -157,7 +157,7 @@
     <p xml:lang="sk">Prioritizuje efektivitu, rýchlosť a otvorené štandardy nad iné ciele. Trojitá sa tiež zameriava na mnohoplatformovosť a funkcie známe od veľkých desktopových počítačov po malé mobilné telefóny. Trojitá je samostatný program, nie súčasť balíka "správy osobných informácií".</p>
     <p xml:lang="sl">Program pred drugimi cilji daje učinkovitost, hitrost in odprte standarde. Trojitá želi delovati na več platformah in dobro deluje od velikih namiznih računalnikov do majhnih mobilnih telefonov. Trojitá je samostojenprogram, ki ni del zbirke "upravitelja osebnih podatkov".</p>
     <p xml:lang="sv">Det prioriterar effektivitet, snabbhet och öppna standarder jämfört med andra mål. Trojitá har också målsättningen att hantera flera plattformar, och fungerar bra på allt från stora skrivbordsdatorer till små mobiltelefoner. Trojitá är ett fristående program, inte del av någon programsvit för "personlig informationshantering".</p>
-    <p xml:lang="tr">Verimliliği, hızı ve açık standartları diğer hedeflerin üzerinde tutar. Trojitá aynı zamanda çoklu platform ve büyük masaüstü bilgisayarlardan küçük cep telefonlarına kadar her alanda iyi çalışmayı hedefliyor. Trojitá, "kişisel bilgi yöneticisi" paketinin parçası değil, bağımsız bir programdır.</p>
+    <p xml:lang="tr">Verimliliği, hızı ve açık standartları diğer hedeflerin üzerinde tutar. Trojitá aynı zamanda çoklu platform ve büyük masaüstü bilgisayarlardan küçük cep telefonlarına kadar her alanda iyi çalışmayı hedefliyor. Trojitá, “kişisel bilgi yöneticisi” paketinin parçası değil, bağımsız bir programdır.</p>
     <p xml:lang="uk">Основними пріоритетами під час розробки програми є ефективність, швидкість роботи та використання відкритих стандартів. Крім того, Trojitá може працювати на багатьох платформах: від великих стаціонарних комп’ютерів до малих кишенькових телефонів. Trojitá є окремою програмою, а не частиною якогось комплекту для керування особистими даними.</p>
     <p xml:lang="zh-CN">它将效率，速度和开放标准置于第一位。Trojitá 还旨在成为一款多平台软件，所有功能从大型台式机到小型手机上都能正常运行。Trojitá 是一个独立程序，不属于 “个人信息管理器” 套件。</p>
     <p>What could make Trojitá interesting for you:</p>
@@ -193,7 +193,7 @@
     <p xml:lang="sk">Čo môže byť pre vás zaujímavé na Trojitá:</p>
     <p xml:lang="sl">Kaj bi Trojita lahko naredila za vas zanimivega:</p>
     <p xml:lang="sv">Vad som skulle kunna göra  Trojitá intressant för dig:</p>
-    <p xml:lang="tr">Trojitá'yi sizin için ilginç kılan şey nedir:</p>
+    <p xml:lang="tr">Trojitá’yi sizin için ilginç kılan şey nedir:</p>
     <p xml:lang="uk">Можливості, які можуть зацікавити вас у Trojitá:</p>
     <p xml:lang="zh-CN">Trojitá 能够吸引您的地方有:</p>
     <ul>
@@ -300,7 +300,7 @@
       <li xml:lang="sk">Zoznam správ na požiadanie a načítavanie časti tela ("lenivé načítavanie")</li>
       <li xml:lang="sl">Seznam sporočil na zahtevo in nalaganje dela telesa sporočila ("leno nalaganje")</li>
       <li xml:lang="sv">Inläsning av brevlista och innehåll vid behov ("lat inläsning")</li>
-      <li xml:lang="tr">İsteğe bağlı ileti listesi ve gövde bölümü yükleme ("geç yükleme")</li>
+      <li xml:lang="tr">İsteğe bağlı ileti listesi ve gövde bölümü yükleme (“gerekirse yükleme”)</li>
       <li xml:lang="uk">Завантаження списку та тексту повідомлень на вимогу («відкладене завантаження»).</li>
       <li xml:lang="zh-CN">按需获取消息列表和正文部分加载（“延迟加载”）</li>
       <li>Offline IMAP support</li>
@@ -336,7 +336,7 @@
       <li xml:lang="sk">Offline podpora IMAP</li>
       <li xml:lang="sl">Podpora za IMAP brez povezave</li>
       <li xml:lang="sv">Nerkopplat IMAP-stöd</li>
-      <li xml:lang="tr">Çevrimdışı IMAP desteği</li>
+      <li xml:lang="tr">Çevrim dışı IMAP desteği</li>
       <li xml:lang="uk">Підтримка роботи з IMAP у автономному режимі.</li>
       <li xml:lang="zh-CN">离线 IMAP 支持</li>
       <li>Support for bandwidth-saving mode aimed at mobile users with expensive connection</li>
