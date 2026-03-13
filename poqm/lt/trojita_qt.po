@@ -77,19 +77,19 @@ msgstr "%1, %2"
 #: src/Composer/ExistingMessageComposer.cpp:78
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Cannot obtain IMAP URL for CATENATE"
-msgstr ""
+msgstr "Nepavyksta gauti IMAP URL, skirto CATENATE"
 
 #: src/Composer/MessageComposer.cpp:601 src/Composer/MessageComposer.cpp:632
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 is not available"
-msgstr ""
+msgstr "Priedas %1 neprieinamas"
 
 #: src/Composer/MessageComposer.cpp:637
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 disappeared"
-msgstr ""
+msgstr "Priedas %1 išnyko"
 
 #: src/Composer/SenderIdentitiesModel.cpp:94
 msgctxt "Composer::SenderIdentitiesModel|"
@@ -124,22 +124,22 @@ msgstr "Kuriamas laiškas"
 #: src/Composer/Submission.cpp:123
 msgctxt "Submission|"
 msgid "Saving to the sent folder"
-msgstr ""
+msgstr "Įrašoma į išsiųstųjų aplanką"
 
 #: src/Composer/Submission.cpp:128
 msgctxt "Submission|"
 msgid "Preparing message for delivery"
-msgstr ""
+msgstr "Laiškas ruošiamas pristatymui"
 
 #: src/Composer/Submission.cpp:133
 msgctxt "Submission|"
 msgid "Submitting message"
-msgstr ""
+msgstr "Pateikiamas laiškas"
 
 #: src/Composer/Submission.cpp:138
 msgctxt "Submission|"
 msgid "Updating message keywords"
-msgstr ""
+msgstr "Atnaujinami laiško raktažodžiai"
 
 #: src/Composer/Submission.cpp:143
 msgctxt "Submission|"
@@ -149,7 +149,7 @@ msgstr "Laiškas išsiųstas"
 #: src/Composer/Submission.cpp:150
 msgctxt "Submission|"
 msgid "Sending failed"
-msgstr ""
+msgstr "Išsiųsti nepavyko"
 
 #: src/Composer/Submission.cpp:180
 msgctxt "Submission|"
@@ -159,6 +159,10 @@ msgid ""
 "Sorry for the trouble, please see <a href=\"https://projects.flaska.net/"
 "issues/640\">https://projects.flaska.net/issues/640</a> for details."
 msgstr ""
+"IMAP ryšys dingo. Jums teks užverti rengyklę, įrašyti laiško juodraštį ir "
+"vėliau atverti jį iš naujo. Priedai turės būti pridėti vėliau. Atsiprašome "
+"už nepatogumus, išsamesnei informacijai žiūrėkite <a href=\"https://projects."
+"flaska.net/issues/640\">https://projects.flaska.net/issues/640</a>."
 
 #: src/Composer/Submission.cpp:195
 msgctxt "Submission|"
@@ -172,6 +176,8 @@ msgid ""
 "Cannot send right now -- saving failed:\n"
 " %1"
 msgstr ""
+"Šiuo metu nepavyksta išsiųsti -- nepavyko įrašyti:\n"
+" %1"
 
 #: src/Composer/Submission.cpp:215
 #, qt-format
@@ -180,17 +186,19 @@ msgid ""
 "Cannot send right now -- saving (CATENATE) failed:\n"
 " %1"
 msgstr ""
+"Šiuo metu nepavyksta išsiųsti -- nepavyko įrašyti (CATENATE):\n"
+" %1"
 
 #: src/Composer/Submission.cpp:361
 #, qt-format
 msgctxt "Submission|"
 msgid "APPEND failed: %1"
-msgstr ""
+msgstr "APPEND patyrė nesėkmę: %1"
 
 #: src/Composer/Submission.cpp:391
 msgctxt "Submission|"
 msgid "The URLAUTH response does not contain a proper URL"
-msgstr ""
+msgstr "URLAUTH atsakyme nėra tinkamo URL"
 
 #: src/Cryptography/GpgMe++.cpp:54
 #, qt-format
@@ -428,7 +436,7 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
-msgstr ""
+msgstr "Įvyko sistemos klaida. %1"
 
 #: src/Cryptography/GpgMe++.cpp:493
 msgctxt "GpgMePart|"
@@ -702,12 +710,12 @@ msgstr "Įrašyti priedą"
 #: src/Gui/AttachmentView.cpp:405
 msgctxt "Gui::AttachmentView|"
 msgid "Source of Attached Message"
-msgstr ""
+msgstr "Pridėto laiško šaltinis"
 
 #: src/Gui/ComposerAttachmentsList.cpp:48
 msgctxt "ComposerAttachmentsList|"
 msgid "Send Inline"
-msgstr ""
+msgstr "Siųsti įterptą"
 
 #: src/Gui/ComposerAttachmentsList.cpp:53
 msgctxt "ComposerAttachmentsList|"
@@ -732,7 +740,7 @@ msgstr "Naujas pavadinimas"
 #: src/Gui/ComposerTextEdit.cpp:55
 msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
-msgstr ""
+msgstr "Įdėti kaip cituojamą tekstą"
 
 #: src/Gui/ComposeWidget.cpp:127
 msgctxt "QWidget|"
@@ -1085,7 +1093,7 @@ msgstr ""
 #: src/Gui/EmbeddedWebView.cpp:361
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System colors"
-msgstr ""
+msgstr "Sistemos spalvos"
 
 #: src/Gui/EmbeddedWebView.cpp:362
 msgctxt "Gui::EmbeddedWebView|"
@@ -1306,7 +1314,7 @@ msgstr "Netikėti argumentai."
 #, qt-format
 msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
-msgstr ""
+msgstr "Klaida: Nepavyko užregistruoti IPC egzemplioriaus: %1"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
@@ -1532,7 +1540,7 @@ msgstr "Priedas"
 #: src/Gui/OneEnvelopeAddress.cpp:89
 msgctxt "OneEnvelopeAddress|"
 msgid ","
-msgstr ""
+msgstr ","
 
 #: src/Gui/OneEnvelopeAddress.cpp:130
 msgctxt "OneEnvelopeAddress|"
@@ -1558,13 +1566,13 @@ msgstr "Kopijuoti tekstą"
 #: src/Gui/PartWidget.cpp:144
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Plaintext"
-msgstr ""
+msgstr "Grynasis tekstas"
 
 #. Translators: caption of the tab which shows a HTML version of the mail. Use some short, compact text here.
 #: src/Gui/PartWidget.cpp:147
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: src/Gui/PartWidget.cpp:153
 msgctxt "Gui::MultipartAlternativeWidget|"
@@ -1626,7 +1634,7 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Connection %1"
-msgstr ""
+msgstr "Ryšys %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
 #, qt-format
@@ -1648,10 +1656,10 @@ msgstr ""
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "+ dar %n baitas"
+msgstr[1] "+ dar %n baitai"
+msgstr[2] "+ dar %n baitų"
+msgstr[3] "+ dar %n baitas"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -1836,7 +1844,7 @@ msgstr "Tinklo ryšys"
 #: src/Gui/SettingsDialog.cpp:701
 msgctxt "Gui::ImapPage|"
 msgid "Local Process"
-msgstr ""
+msgstr "Vietinis procesas"
 
 #: src/Gui/SettingsDialog.cpp:703
 msgctxt "Gui::ImapPage|"
@@ -2176,7 +2184,7 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:134
 msgctxt "ImapPage|"
 msgid "Needs Network"
-msgstr ""
+msgstr "Reikalauja tinklo ryšio"
 
 #: src/Gui/SettingsImapPage.ui:147
 msgctxt "ImapPage|"
@@ -2280,7 +2288,7 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:269
 msgctxt "ImapPage|"
 msgid "Timeout of IMAP IDLE"
-msgstr ""
+msgstr "Pasibaigė IMAP IDLE skirtas laikas"
 
 #: src/Gui/SettingsImapPage.ui:282
 msgctxt "ImapPage|"
@@ -2295,7 +2303,7 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:298
 msgctxt "ImapPage|"
 msgid "Refresh Interval"
-msgstr ""
+msgstr "Atnaujinimo intervalas"
 
 #: src/Gui/SettingsImapPage.ui:305
 msgctxt "ImapPage|"
@@ -2303,11 +2311,13 @@ msgid ""
 "How often to check for new emails in all IMAP folders.\n"
 "The default value is 300 seconds (5 minutes)."
 msgstr ""
+"Kaip dažnai tikrinti, ar atsirado visuose IMAP aplankuose naujų laiškų.\n"
+"Numatytoji reikšmė yra 300 sekundžių (5 minutės)."
 
 #: src/Gui/SettingsImapPage.ui:309
 msgctxt "ImapPage|"
 msgid " seconds"
-msgstr ""
+msgstr " sek."
 
 #: src/Gui/SettingsImapPage.ui:325
 msgctxt "ImapPage|"
@@ -2389,7 +2399,7 @@ msgstr ""
 #: src/Gui/SettingsOutgoingPage.ui:218
 msgctxt "OutgoingPage|"
 msgid "Use IMAP Credentials"
-msgstr ""
+msgstr "Naudoti IMAP prisijungimo duomenis"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
@@ -2908,7 +2918,7 @@ msgstr ""
 #: src/Gui/Window.cpp:310
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
-msgstr ""
+msgstr "Naršymas"
 
 #: src/Gui/Window.cpp:313
 msgctxt "Gui::MainWindow|"
@@ -2923,7 +2933,7 @@ msgstr "Tikrinti, ar yra &naujų laiškų"
 #: src/Gui/Window.cpp:319
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
-msgstr ""
+msgstr "Į&kelti viską iš naujo"
 
 #: src/Gui/Window.cpp:323
 msgctxt "Gui::MainWindow|"
@@ -2951,7 +2961,7 @@ msgstr "Rodyti &MIME medį"
 #: src/Gui/Window.cpp:359
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
-msgstr ""
+msgstr "Rodyti protokolo žurna&lą"
 
 #. file to save the debug log into
 #: src/Gui/Window.cpp:365
@@ -3167,7 +3177,7 @@ msgstr "MIME medis"
 #: src/Gui/Window.cpp:867
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
-msgstr ""
+msgstr "Protokolo žurnalas"
 
 #: src/Gui/Window.cpp:948
 #, qt-format
@@ -3269,7 +3279,7 @@ msgstr ""
 #: src/Gui/Window.cpp:1478
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
-msgstr ""
+msgstr "Reikia nustatyti tapatybę"
 
 #: src/Gui/Window.cpp:1479
 #, qt-format
@@ -3307,7 +3317,7 @@ msgstr "Ištrinti pašto dėžutę"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
-msgstr ""
+msgstr "Ar tikrai norite ištrinti pašto dėžutę %1?"
 
 #: src/Gui/Window.cpp:2054
 msgctxt "Gui::MainWindow|"
@@ -3474,7 +3484,7 @@ msgstr "</p>"
 #: src/Gui/Window.cpp:2536
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
-msgstr ""
+msgstr "<p>IMAP serveris nepateikė naudingos informacijos apie save.</p>"
 
 #: src/Gui/Window.cpp:2540
 #, qt-format
@@ -3502,6 +3512,8 @@ msgid ""
 "%1\n"
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
+"%1\n"
+"<p>Šiuo metu yra skelbiama apie tokias galimybes:</p>"
 
 #: src/Gui/Window.cpp:2553
 #, qt-format
@@ -3808,12 +3820,12 @@ msgstr "Kam"
 #: src/Imap/Model/MsgListModel.cpp:290
 msgctxt "MsgListModel|"
 msgid "Cc"
-msgstr ""
+msgstr "Cc"
 
 #: src/Imap/Model/MsgListModel.cpp:292
 msgctxt "MsgListModel|"
 msgid "Bcc"
-msgstr ""
+msgstr "Bcc"
 
 #: src/Imap/Model/MsgListModel.cpp:294
 msgctxt "MsgListModel|"
@@ -4252,7 +4264,7 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::Mailbox::TaskPresentationModel|"
 msgid "Parser %1"
-msgstr ""
+msgstr "Analizatorius %1"
 
 #: src/Imap/Model/TaskPresentationModel.cpp:199
 #, qt-format
@@ -4281,7 +4293,7 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "CID not found (%1)"
-msgstr ""
+msgstr "CID nerastas (%1)"
 
 #: src/Imap/Network/FileDownloadManager.cpp:60
 #, qt-format
@@ -4361,7 +4373,7 @@ msgstr ""
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:133
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "Copying messages"
-msgstr ""
+msgstr "Kopijuojami laiškai"
 
 #: src/Imap/Tasks/CreateMailboxTask.cpp:64
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
@@ -4407,7 +4419,7 @@ msgstr ""
 #: src/Imap/Tasks/EnableTask.cpp:75
 msgctxt "Imap::Mailbox::EnableTask|"
 msgid "ENABLE failed, strange"
-msgstr ""
+msgstr "ENABLE patyrė nesėkmę, keista"
 
 #: src/Imap/Tasks/EnableTask.cpp:86
 msgctxt "Imap::Mailbox::EnableTask|"
@@ -4447,7 +4459,7 @@ msgstr ""
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:105
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "Removing some of the deleted messages"
-msgstr ""
+msgstr "Šalinami kai kurie iš ištrintų laiškų"
 
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:60
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
