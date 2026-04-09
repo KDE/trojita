@@ -14,17 +14,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.12.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(from %2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
@@ -34,43 +30,28 @@ msgstr ""
 "(od %2)"
 
 #: src/Composer/ComposerAttachments.cpp:157
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File does not exist"
 msgctxt "MessageComposer|"
 msgid "File does not exist"
 msgstr "Súbor neexistuje"
 
 #: src/Composer/ComposerAttachments.cpp:160
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File is not readable"
 msgctxt "MessageComposer|"
 msgid "File is not readable"
 msgstr "Súbor nie je čitateľný"
 
 #: src/Composer/ComposerAttachments.cpp:163
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1: %2, %3"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
 msgstr "%1: %2, %3"
 
 #: src/Composer/ComposerAttachments.cpp:260
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "Message not available"
 msgctxt "MessageComposer|"
 msgid "Message not available"
 msgstr "Správa nie je dostupná"
 
 #: src/Composer/ComposerAttachments.cpp:263
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid ""
-#| "%1\n"
-#| "(%2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
@@ -80,25 +61,19 @@ msgstr ""
 "(%2)"
 
 #: src/Composer/ComposerAttachments.cpp:273
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP message %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP message %1"
 msgstr "IMAP správa %1"
 
 #: src/Composer/ComposerAttachments.cpp:384
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "IMAP part %1"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP part %1"
 msgstr "IMAP časť %1"
 
 #: src/Composer/ComposerAttachments.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1, %2"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
 msgstr "%1, %2"
@@ -106,7 +81,7 @@ msgstr "%1, %2"
 #: src/Composer/ExistingMessageComposer.cpp:78
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Cannot obtain IMAP URL for CATENATE"
-msgstr ""
+msgstr "Nie je možné obtain IMAP URL for CATENATE"
 
 #: src/Composer/MessageComposer.cpp:601 src/Composer/MessageComposer.cpp:632
 #, qt-format
@@ -141,78 +116,46 @@ msgid "Signature"
 msgstr "Podpis"
 
 #: src/Composer/Submission.cpp:113
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing to send"
 msgctxt "Submission|"
 msgid "Preparing to send"
 msgstr "Príprava na odoslanie"
 
 #: src/Composer/Submission.cpp:118
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Creating message"
 msgctxt "Submission|"
 msgid "Creating message"
 msgstr "Vytváranie správy"
 
 #: src/Composer/Submission.cpp:123
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Saving to the sent folder"
 msgctxt "Submission|"
 msgid "Saving to the sent folder"
 msgstr "Uloženie do priečinka odoslané"
 
 #: src/Composer/Submission.cpp:128
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Preparing message for delivery"
 msgctxt "Submission|"
 msgid "Preparing message for delivery"
 msgstr "Príprava správy pre doručenie"
 
 #: src/Composer/Submission.cpp:133
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Submitting message"
 msgctxt "Submission|"
 msgid "Submitting message"
 msgstr "Zasielanie správy"
 
 #: src/Composer/Submission.cpp:138
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Updating message keywords"
 msgctxt "Submission|"
 msgid "Updating message keywords"
 msgstr "Aktualizácia kľúčových slov správy"
 
 #: src/Composer/Submission.cpp:143
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Submission|"
 msgid "Message sent"
 msgstr "Odoslaná správa"
 
 #: src/Composer/Submission.cpp:150
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Sending failed"
 msgctxt "Submission|"
 msgid "Sending failed"
 msgstr "Odoslanie zlyhalo"
 
 #: src/Composer/Submission.cpp:180
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "The IMAP connection has disappeared. You'll have close the composer, save "
-#| "the draft and re-open it later. The attachments will have to be added "
-#| "later. Sorry for the trouble, please see <a href=\"https://projects."
-#| "flaska.net/issues/640\">https://projects.flaska.net/issues/640</a> for "
-#| "details."
 msgctxt "Submission|"
 msgid ""
 "The IMAP connection has disappeared. You'll have close the composer, save "
@@ -226,19 +169,12 @@ msgstr ""
 "projects.flaska.net/issues/640\">https://projects.flaska.net/issues/640</a>."
 
 #: src/Composer/Submission.cpp:195
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Some data are not available yet"
 msgctxt "Submission|"
 msgid "Some data are not available yet"
 msgstr "Niektoré údaje zatiaľ nie sú k dispozícii"
 
 #: src/Composer/Submission.cpp:211
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving failed:\n"
@@ -248,11 +184,7 @@ msgstr ""
 " %1"
 
 #: src/Composer/Submission.cpp:215
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid ""
-#| "Cannot send right now -- saving (CATENATE) failed:\n"
-#| " %1"
+#, qt-format
 msgctxt "Submission|"
 msgid ""
 "Cannot send right now -- saving (CATENATE) failed:\n"
@@ -262,49 +194,33 @@ msgstr ""
 " %1"
 
 #: src/Composer/Submission.cpp:361
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid "APPEND failed: %1"
+#, qt-format
 msgctxt "Submission|"
 msgid "APPEND failed: %1"
 msgstr "APPEND zlyhalo: %1"
 
 #: src/Composer/Submission.cpp:391
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "The URLAUTH response does not contain a proper URL"
 msgctxt "Submission|"
 msgid "The URLAUTH response does not contain a proper URL"
 msgstr "Odpoveď URLAUTH neobsahuje správnu adresu URL"
 
 #: src/Cryptography/GpgMe++.cpp:54
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::OpenConnectionTask|"
-#| msgid "Login failed: %1"
+#, qt-format
 msgctxt "Cryptography::GpgMePart|"
 msgid "[getAuditLog failed: %1]"
 msgstr "Prihlásenie zlyhalo: %1"
 
 #: src/Cryptography/GpgMe++.cpp:168
-#, fuzzy
-#| msgctxt "QObject|"
-#| msgid "Waiting for another mailbox..."
 msgctxt "GpgMePart|"
 msgid "Waiting for data..."
 msgstr "Čakanie na ďalšiu schránku..."
 
 #: src/Cryptography/GpgMe++.cpp:311
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
 msgstr "Podpísaná správa"
 
 #: src/Cryptography/GpgMe++.cpp:311
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
 msgstr "Podpis"
@@ -319,9 +235,6 @@ msgid ""
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:323
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Internal error"
 msgctxt "GpgMePart|"
 msgid "Internal error"
 msgstr "Interná chyba"
@@ -330,20 +243,14 @@ msgstr "Interná chyba"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when verifying signature: cannot retrieve key %1: %2"
-msgstr ""
+msgstr "Chyba: when verifying signature: cannot retrieve key %1: %2"
 
 #: src/Cryptography/GpgMe++.cpp:374
-#, fuzzy
-#| msgctxt "Imap::Mailbox::FullMessageCombiner|"
-#| msgid "Message is gone"
 msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
 msgstr "Správa odišla"
 
 #: src/Cryptography/GpgMe++.cpp:374
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Verifying signature..."
 msgctxt "GpgMePart|"
 msgid "Verified signature"
 msgstr "Overovanie podpisu..."
@@ -355,17 +262,11 @@ msgid "Verified signature from %1 on %2"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:380
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
 msgstr "Podpísaná správa"
 
 #: src/Cryptography/GpgMe++.cpp:380
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMePart|"
 msgid "Signed by stranger"
 msgstr "Podpísaná správa"
@@ -380,73 +281,51 @@ msgid ""
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:388
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
 msgstr "Podpísaná správa"
 
 #: src/Cryptography/GpgMe++.cpp:388
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature"
 msgctxt "GpgMePart|"
 msgid "Bad signature"
 msgstr "Nesprávny podpis"
 
 #: src/Cryptography/GpgMe++.cpp:391
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
 msgstr "Nesprávny podpis: %1"
 
 #: src/Cryptography/GpgMe++.cpp:392
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
 msgstr "Nesprávny podpis: %1"
 
 #: src/Cryptography/GpgMe++.cpp:394
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
-msgstr "Nesprávny podpis: %1"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:397
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
 msgstr "Podpísaná správa"
 
 #: src/Cryptography/GpgMe++.cpp:397
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
 msgstr "Podpísaná správa"
 
 #: src/Cryptography/GpgMe++.cpp:400
-#, fuzzy, qt-format
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
-msgstr "Podpísaná správa"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:401
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Bad signature: %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
 msgstr "Nesprávny podpis: %1"
@@ -458,17 +337,11 @@ msgid "Bad signature by someone else: %1 on %2."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:419
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
 msgstr "Zašifrovaná správa"
 
 #: src/Cryptography/GpgMe++.cpp:419
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Some signature"
 msgstr "Podpis"
@@ -480,17 +353,11 @@ msgid "Unknown signature from %1 on %2"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:424
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
 msgstr "Podpísaná správa"
 
 #: src/Cryptography/GpgMe++.cpp:424
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
 msgstr "Podpísaná správa"
@@ -502,17 +369,11 @@ msgid "Unknown signature by somebody else: %1 on %2"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:433
-#, fuzzy
-#| msgctxt "Imap::Mailbox::FullMessageCombiner|"
-#| msgid "Message is gone"
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
 msgstr "Správa odišla"
 
 #: src/Cryptography/GpgMe++.cpp:433
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
 msgstr "Podpis"
@@ -529,9 +390,6 @@ msgid "Encrypted, semi-trusted signature by stranger"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:440
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by stranger"
 msgstr "Podpísaná správa"
@@ -566,12 +424,9 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:472
 msgctxt "GpgMePart|"
 msgid "The CRL (or an equivalent mechanism) is not available."
-msgstr ""
+msgstr "The CRL (or an equivalent mechanism) nie je dostupný."
 
 #: src/Cryptography/GpgMe++.cpp:476
-#, fuzzy
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "Available CRL is too old."
 msgctxt "GpgMePart|"
 msgid "Available CRL is too old."
 msgstr "Dostupné CRL je príliš staré."
@@ -582,9 +437,7 @@ msgid "A policy requirement was not met."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:484
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "A system error occurred. %1"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "A system error occurred. %1"
 msgstr "Vyskytla sa systémová chyba. %1"
@@ -620,15 +473,12 @@ msgid "Signature validity is unknown."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:523
-#, fuzzy
 msgctxt "GpgMePart|"
 msgid "Trust chain:"
 msgstr "Reťaz dôvery"
 
 #: src/Cryptography/GpgMe++.cpp:529
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMePart|"
-#| msgid "%1(Unavailable)"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
 msgstr "%1 (Nedostupné)"
@@ -643,7 +493,7 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Error when retrieving key for the trust chain: %1"
-msgstr ""
+msgstr "Chyba: when retrieving key for the trust chain: %1"
 
 #: src/Cryptography/GpgMe++.cpp:552
 #, qt-format
@@ -652,9 +502,6 @@ msgid "Signature invalidity reason: %1"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:614
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMeSigned|"
 msgid "Malformed Signed Message"
 msgstr "Podpísaná správa"
@@ -666,9 +513,6 @@ msgid "Expected 2 parts, but found %1."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:619
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Verifying signature..."
 msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
 msgstr "Overovanie podpisu..."
@@ -677,20 +521,14 @@ msgstr "Overovanie podpisu..."
 #, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Failed to initialize GpgME (%1)"
-msgstr ""
+msgstr "Nepodarilo sa initialize GpgME (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:640
-#, fuzzy
-#| msgctxt "Imap::Mailbox::FullMessageCombiner|"
-#| msgid "Message is gone"
 msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
 msgstr "Správa odišla"
 
 #: src/Cryptography/GpgMe++.cpp:652
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "Message not available"
 msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
 msgstr "Správa nie je dostupná"
@@ -702,25 +540,16 @@ msgid ""
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:673
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeSigned|"
-#| msgid "Verifying signature..."
 msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
 msgstr "Overovanie podpisu..."
 
 #: src/Cryptography/GpgMe++.cpp:698
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
 msgstr "Podpísaná správa"
 
 #: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
 msgstr "Podpísaná správa"
@@ -732,9 +561,6 @@ msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:764
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CreateMailboxTask|"
-#| msgid "Cannot create mailbox"
 msgctxt "GpgMeEncrypted|"
 msgid "Cannot descrypt"
 msgstr "Nie je možné vytvoriť poštovú schránku"
@@ -743,20 +569,14 @@ msgstr "Nie je možné vytvoriť poštovú schránku"
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Failed to initialize GpgME (%1)"
-msgstr ""
+msgstr "Nepodarilo sa initialize GpgME (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:785 src/Cryptography/GpgMe++.cpp:921
-#, fuzzy
-#| msgctxt "Imap::Mailbox::FullMessageCombiner|"
-#| msgid "Message is gone"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
 msgstr "Správa odišla"
 
 #: src/Cryptography/GpgMe++.cpp:795
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "Message not available"
 msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
 msgstr "Správa nie je dostupná"
@@ -767,6 +587,8 @@ msgid ""
 "Cannot decrypt. Some data are not available, perhaps due to an offline "
 "network connection."
 msgstr ""
+"Nie je možné decrypt. Some data are not available, perhaps due to an offline "
+"network connection."
 
 #: src/Cryptography/GpgMe++.cpp:813
 #, qt-format
@@ -775,33 +597,22 @@ msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:819
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Decrypting..."
 msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
 msgstr "Dešifrujem..."
 
 #: src/Cryptography/GpgMe++.cpp:862
-#, fuzzy
-#| msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
-#| msgid "Removing deleted messages"
 msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
 msgstr "Odstraňovanie vymazaných správ"
 
 #: src/Cryptography/GpgMe++.cpp:865
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Decryption error: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Decryption error: %1"
 msgstr "Chyba pri dešifrovaní: %1"
 
 #: src/Cryptography/GpgMe++.cpp:868
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
 msgstr "Zašifrovaná správa"
@@ -812,45 +623,31 @@ msgid "Wrong key usage, not for encryption"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:878
-#, fuzzy, qt-format
-#| msgctxt "Imap::Network::FileDownloadManager|"
-#| msgid "Unsupported URL (%1)"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported algorithm: %1"
 msgstr "Nepodporované URL (%1)"
 
 #: src/Cryptography/GpgMe++.cpp:886
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "Cannot parse recipients:\n"
-#| "%1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Cannot extract recipient %1: %2"
-msgstr ""
-"Nie je možné spracovať príjemcov:\n"
-"%1"
+msgstr "Nie je možné extract recipient %1: %2"
 
 #: src/Cryptography/GpgMe++.cpp:891
-#, fuzzy, qt-format
-#| msgctxt "ImapPage|"
-#| msgid "Encryption"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
-msgstr "Šifrovanie"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:895
-#, fuzzy, qt-format
-#| msgctxt "ImapPage|"
-#| msgid "Encryption"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
-msgstr "Šifrovanie"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:901
-#, fuzzy, qt-format
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Original filename: %1"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Original filename: %1"
 msgstr "Pôvodný názov súboru: %1"
@@ -866,17 +663,12 @@ msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
 msgstr "<p>Toto je <b>Trojitá</b>, rýchly Qt IMAP e-mailový klient</p>"
 
 #: src/Gui/AddressRowWidget.cpp:131
-#, fuzzy, qt-format
-#| msgctxt "Gui::Expander|"
-#| msgid "Click to see %1 more items"
+#, qt-format
 msgctxt "Expander|"
 msgid "Click to see %1 more items"
 msgstr "Kliknite na zobrazenie viac položiek %1"
 
 #: src/Gui/AddressRowWidget.cpp:131
-#, fuzzy
-#| msgctxt "Gui::Expander|"
-#| msgid "Click to collapse"
 msgctxt "Expander|"
 msgid "Click to collapse"
 msgstr "Kliknite na zbalenie"
@@ -954,9 +746,6 @@ msgid "Paste as Quoted Text"
 msgstr "Vložiť ako citovaný text"
 
 #: src/Gui/ComposeWidget.cpp:127
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Cancel"
 msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Zrušiť"
@@ -967,27 +756,16 @@ msgid "Cancel"
 msgstr "Zrušiť"
 
 #: src/Gui/ComposeWidget.cpp:196
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Send"
 msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Poslať"
 
 #: src/Gui/ComposeWidget.cpp:235
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "New Thread"
 msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr "Nové vlákno"
 
 #: src/Gui/ComposeWidget.cpp:238
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "This mail will be sent as a standalone message.<hr/>Change to preserve "
-#| "the reply hierarchy."
 msgctxt "ComposeWidget|"
 msgid ""
 "This mail will be sent as a standalone message.<hr/>Change to preserve the "
@@ -997,35 +775,21 @@ msgstr ""
 "hierarchie odpovedí."
 
 #: src/Gui/ComposeWidget.cpp:239
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Threaded"
 msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Zaradené do vlákna"
 
 #: src/Gui/ComposeWidget.cpp:359
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Error"
 msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Chyba"
 
 #: src/Gui/ComposeWidget.cpp:359
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Please set appropriate settings for outgoing messages."
 msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr "Prosím, nastavte príslušné nastavenia pre odchádzajúce správy."
 
 #: src/Gui/ComposeWidget.cpp:512
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "It doesn't look like this is a message to the mailing list. Please fill "
-#| "in the recipients manually."
 msgctxt "ComposeWidget|"
 msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
@@ -1035,12 +799,6 @@ msgstr ""
 "ručne."
 
 #: src/Gui/ComposeWidget.cpp:515
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "Trojitá was unable to safely determine the real e-mail address of the "
-#| "author of the message. You might want to use the \"Reply All\" function "
-#| "and trim the list of addresses manually."
 msgctxt "ComposeWidget|"
 msgid ""
 "Trojitá was unable to safely determine the real e-mail address of the author "
@@ -1052,57 +810,37 @@ msgstr ""
 "skrátiť zoznam adries ručne."
 
 #: src/Gui/ComposeWidget.cpp:520
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cannot Determine Recipients"
 msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Nie je možné zistiť príjemcov"
 
 #: src/Gui/ComposeWidget.cpp:567
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Sender"
 msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Odosielateľ"
 
 #: src/Gui/ComposeWidget.cpp:573
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::OpenConnectionTask|"
-#| msgid "Login failed: %1"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "Prihlásenie zlyhalo: %1"
 
 #: src/Gui/ComposeWidget.cpp:573
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "(no subject)"
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(žiadny predmet)"
 
 #: src/Gui/ComposeWidget.cpp:587
-#, fuzzy
-#| msgctxt "Imap::Mailbox::FullMessageCombiner|"
-#| msgid "Message is gone"
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "Správa odišla"
 
 #: src/Gui/ComposeWidget.cpp:590
-#, fuzzy
-#| msgctxt "Imap::Mailbox::ThreadingMsgListModel|"
-#| msgid "[Message is missing]"
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "[Správa chýba]"
 
 #: src/Gui/ComposeWidget.cpp:593
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "Odoslaná správa"
@@ -1125,44 +863,28 @@ msgid ""
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:691
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Authentication Required"
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Vyžaduje sa overenie"
 
 #: src/Gui/ComposeWidget.cpp:692
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 "<p>Prosím, zadajte SMTP heslo pre užívateľa <b>%1</b> na <b>%2</b>:</p>"
 
 #: src/Gui/ComposeWidget.cpp:726
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save Draft?"
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Uložiť koncept?"
 
 #: src/Gui/ComposeWidget.cpp:727
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "Mail sa nepodarilo odoslať.<br>Chcete uložiť koncept?"
 
 #: src/Gui/ComposeWidget.cpp:729
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved "
-#| "with the draft!</span>"
 msgctxt "ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
@@ -1178,27 +900,17 @@ msgid "Drafts"
 msgstr "Koncepty"
 
 #: src/Gui/ComposeWidget.cpp:750
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save as"
 msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Uložiť ako"
 
 #: src/Gui/ComposeWidget.cpp:751
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Drafts"
 msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Koncepty"
 
 #: src/Gui/ComposeWidget.cpp:780
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid ""
-#| "Cannot parse recipients:\n"
-#| "%1"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid ""
 "Cannot parse recipients:\n"
@@ -1208,25 +920,16 @@ msgstr ""
 "%1"
 
 #: src/Gui/ComposeWidget.cpp:784
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "You haven't entered any recipients"
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Nezadali ste žiadnych príjemcov"
 
 #: src/Gui/ComposeWidget.cpp:792
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "The From: address does not look like a valid one"
 msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "Od: adresa nevyzerá ako platná"
 
 #: src/Gui/ComposeWidget.cpp:799
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr "Nezadali ste nijaký predmet. Nemožno poslať takýto mail, ľutujeme."
@@ -1235,101 +938,72 @@ msgstr "Nezadali ste nijaký predmet. Nemožno poslať takýto mail, ľutujeme."
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
+"Nie je možné prepare this e-mail for sending: some parts are not available"
 
 #: src/Gui/ComposeWidget.cpp:922 src/Gui/ComposeWidget.cpp:1809
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "This mail will be marked as a response<hr/>%1"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Tento mail bude označený ako odpoveď<hr/>%1"
 
 #: src/Gui/ComposeWidget.cpp:1100
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Pre"
 
 #: src/Gui/ComposeWidget.cpp:1101
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Kópia"
 
 #: src/Gui/ComposeWidget.cpp:1102
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Skrytá kópia"
 
 #: src/Gui/ComposeWidget.cpp:1104
-#, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Znova odoslať do"
 
 #: src/Gui/ComposeWidget.cpp:1105
-#, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Znova odoslať do"
 
 #: src/Gui/ComposeWidget.cpp:1106
-#, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Znova odoslať do"
 
 #: src/Gui/ComposeWidget.cpp:1390
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Zlyhalo odoslanie mailu"
 
 #: src/Gui/ComposeWidget.cpp:1417
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Can't parse \"%1\" as an e-mail address."
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "Nemožno spracovať \"%1\" ako e-mailovú adresu."
 
 #: src/Gui/ComposeWidget.cpp:1616
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Attach File..."
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Pripojiť súbor..."
 
 #: src/Gui/ComposeWidget.cpp:1810
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "<br/>"
 msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
 #: src/Gui/ComposeWidget.cpp:1853
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Compose Mail"
 msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Vytvoriť mail"
 
 #: src/Gui/ComposeWidget.cpp:1855
-#, fuzzy, qt-format
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "%1 - Compose Mail"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
 msgstr "%1 - Napísať mail"
@@ -1385,12 +1059,9 @@ msgstr "Prihlásiť sa"
 #: src/Gui/EditFavoriteTag.ui:20
 msgctxt "EditFavoriteTag|"
 msgid "Manage Tag"
-msgstr ""
+msgstr "Manage Tag"
 
 #: src/Gui/EditFavoriteTag.ui:29
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Name"
 msgctxt "EditFavoriteTag|"
 msgid "Name"
 msgstr "Názov"
@@ -1476,9 +1147,6 @@ msgid "To"
 msgstr "Pre"
 
 #: src/Gui/EnvelopeView.cpp:136
-#, fuzzy
-#| msgctxt "Gui::EnvelopeView|"
-#| msgid "CC'd to"
 msgctxt "Gui::EnvelopeView|"
 msgid "Cc'd to"
 msgstr "kópia pre"
@@ -1566,9 +1234,6 @@ msgid "Shift+F3"
 msgstr "Shift+F3"
 
 #: src/Gui/ImapInfoDialog.ui:14
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "IMAP Server Information"
 msgctxt "ImapInfoDialog|"
 msgid "IMAP Server Info"
 msgstr "Informácia IMAP servera"
@@ -1585,36 +1250,25 @@ msgid "Load %1 (%2)"
 msgstr "Načítať %1 (%2)"
 
 #: src/Gui/MailBoxTreeView.cpp:143
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Move here\tShift"
 msgctxt "MailBoxTreeView|"
 msgid "Move here\tShift"
 msgstr "Presunúť sem\tShift"
 
 #: src/Gui/MailBoxTreeView.cpp:144
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Copy here\tCtrl"
 msgctxt "MailBoxTreeView|"
 msgid "Copy here\tCtrl"
 msgstr "Kopírovať sem\tCtrl"
 
 #: src/Gui/MailBoxTreeView.cpp:145
-#, fuzzy
-#| msgctxt "QWidget|"
-#| msgid "Cancel"
 msgctxt "MailBoxTreeView|"
 msgid "Cancel"
 msgstr "Zrušiť"
 
 #: src/Gui/main.cpp:60
-#, fuzzy, qt-format
-#| msgctxt "AboutDialog|"
-#| msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
+#, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
-msgstr "<p>Toto je <b>Trojitá</b>, rýchly Qt IMAP e-mailový klient</p>"
+msgstr ""
 
 #: src/Gui/main.cpp:65
 msgctxt "QObject|"
@@ -1639,7 +1293,7 @@ msgstr ""
 #: src/Gui/main.cpp:81
 msgctxt "QObject|"
 msgid "Set profile."
-msgstr ""
+msgstr "Nastaviť profil."
 
 #: src/Gui/main.cpp:81
 msgctxt "QObject|"
@@ -1663,12 +1317,9 @@ msgid "Unexpected argument '%1'."
 msgstr "Neočakávaný argument '%1'."
 
 #: src/Gui/main.cpp:113
-#, fuzzy
-#| msgctxt "QObject|"
-#| msgid "Warning: Unexpected argument '%1'"
 msgctxt "QObject|"
 msgid "Unexpected arguments."
-msgstr "Varovanie: Neočakávaný argument '%1'"
+msgstr ""
 
 #: src/Gui/main.cpp:163
 #, qt-format
@@ -1678,25 +1329,17 @@ msgstr "Chyba: Registrácia IPC inštancie zlyhala: %1"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Message headers of UID %1 in %2"
+#, qt-format
 msgctxt "MessageHeadersWidget|"
 msgid "Message headers of UID %1 in %2"
 msgstr "Hlavičky správy UID %1 v %2"
 
 #: src/Gui/MessageHeadersWidget.cpp:55
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageHeadersWidget|"
 msgid "Search..."
 msgstr "Hľadať..."
 
 #: src/Gui/MessageHeadersWidget.cpp:56
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
@@ -1830,27 +1473,16 @@ msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
 #: src/Gui/MessageView.cpp:91
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Search..."
 msgctxt "MessageView|"
 msgid "Search..."
 msgstr "Hľadať..."
 
 #: src/Gui/MessageView.cpp:92
-#, fuzzy
-#| msgctxt "Gui::MessageHeadersWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
 #: src/Gui/MessageView.cpp:135
-#, fuzzy
-#| msgctxt "Gui::MessageSourceWidget|"
-#| msgid ""
-#| "Fetching\n"
-#| "Message"
 msgctxt "MessageView|"
 msgid ""
 "Fetching\n"
@@ -1860,9 +1492,6 @@ msgstr ""
 "správy"
 
 #: src/Gui/MessageView.cpp:220
-#, fuzzy
-#| msgctxt "QObject|"
-#| msgid "Waiting for another mailbox..."
 msgctxt "MessageView|"
 msgid ""
 "Waiting\n"
@@ -1871,9 +1500,6 @@ msgid ""
 msgstr "Čakanie na ďalšiu schránku..."
 
 #: src/Gui/MessageView.cpp:355
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid "you"
 msgctxt "MessageView|"
 msgid "you"
 msgstr "vy"
@@ -1888,9 +1514,7 @@ msgid ""
 msgstr ""
 
 #: src/Gui/MessageView.cpp:370
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageView|"
-#| msgid "On %1, %2 wrote:\n"
+#, qt-format
 msgctxt "MessageView|"
 msgid "On %1, %2 wrote:\n"
 msgstr "Na %1, %2 zapísalo:\n"
@@ -1931,25 +1555,16 @@ msgid "Attachment"
 msgstr "Príloha"
 
 #: src/Gui/OneEnvelopeAddress.cpp:89
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid ","
 msgctxt "OneEnvelopeAddress|"
 msgid ","
 msgstr ","
 
 #: src/Gui/OneEnvelopeAddress.cpp:130
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "(empty display name)"
 msgctxt "OneEnvelopeAddress|"
 msgid "(empty display name)"
 msgstr "(prázdne zobrazené meno)"
 
 #: src/Gui/OneEnvelopeAddress.cpp:134
-#, fuzzy
-#| msgctxt "Gui::OneEnvelopeAddress|"
-#| msgid "<hr/><b>Address Book:</b><br/>"
 msgctxt "OneEnvelopeAddress|"
 msgid "<hr/><b>Address Book:</b><br/>"
 msgstr "<hr/><b>Adresár kontaktov:</b><br/>"
@@ -1960,9 +1575,6 @@ msgid "Copy e-mail address"
 msgstr ""
 
 #: src/Gui/OneEnvelopeAddress.cpp:146
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Copy here\tCtrl"
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy text"
 msgstr "&Kopírovať text"
@@ -1982,12 +1594,12 @@ msgstr "HTML"
 #: src/Gui/PartWidget.cpp:153
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Cancelled Event"
-msgstr ""
+msgstr "Cancelled Event"
 
 #: src/Gui/PartWidget.cpp:155
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Meeting Request"
-msgstr ""
+msgstr "Meeting Request"
 
 #: src/Gui/PartWidget.cpp:157
 msgctxt "Gui::MultipartAlternativeWidget|"
@@ -1997,12 +1609,12 @@ msgstr "Udalosť kalendára"
 #: src/Gui/PartWidget.cpp:159
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Calendar Reply"
-msgstr ""
+msgstr "Calendar Reply"
 
 #: src/Gui/PartWidget.cpp:161
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "New Meeting"
-msgstr ""
+msgstr "New Meeting"
 
 #: src/Gui/PartWidget.cpp:211 src/Gui/PartWidget.cpp:256
 msgctxt "Gui::PartStatusWidget|"
@@ -2015,9 +1627,6 @@ msgid "Hide Details"
 msgstr "Skryť detaily"
 
 #: src/Gui/PartWidget.cpp:386
-#, fuzzy
-#| msgctxt "Cryptography::GpgMeEncrypted|"
-#| msgid "Encrypted message"
 msgctxt "Gui::MultipartSignedEncryptedWidget|"
 msgid "[Encrypted message]"
 msgstr "Zašifrovaná správa"
@@ -2045,10 +1654,7 @@ msgid "Connection %1"
 msgstr "Pripojenie %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -2057,14 +1663,6 @@ msgstr[1] "%n správy"
 msgstr[2] "%n správ"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
 msgstr ""
@@ -2072,10 +1670,7 @@ msgstr ""
 "widget bol skrytý.</i></p>"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "%n bytes"
-#| msgid_plural "%n bytes"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
@@ -2104,9 +1699,6 @@ msgid "Store &forever"
 msgstr "Uložiť navždy"
 
 #: src/Gui/SettingsCachePage.ui:106
-#, fuzzy
-#| msgctxt "QStandardPaths|"
-#| msgid "Applications"
 msgctxt "CachePage|"
 msgid "Notifications"
 msgstr "Upozornenia"
@@ -2142,9 +1734,6 @@ msgid ""
 msgstr ""
 
 #: src/Gui/SettingsCachePage.ui:135
-#, fuzzy
-#| msgctxt "CreateMailboxDialog|"
-#| msgid "&Subscribe"
 msgctxt "CachePage|"
 msgid "&Subscribed Mailboxes"
 msgstr "Prihlásiť sa"
@@ -2195,9 +1784,6 @@ msgstr ""
 "<p>%1</p>"
 
 #: src/Gui/SettingsDialog.cpp:309
-#, fuzzy
-#| msgctxt "Gui::TagListWidget|"
-#| msgid "New Tags"
 msgctxt "Gui::FavoriteTagsPage|"
 msgid "Add New Tag"
 msgstr "Pridať nový tag"
@@ -2229,15 +1815,11 @@ msgid "Disable spell checking"
 msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:419
-#, fuzzy
 msgctxt "Gui::GeneralPage|"
 msgid "Move"
 msgstr "Presunúť"
 
 #: src/Gui/SettingsDialog.cpp:422
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Copy here\tCtrl"
 msgctxt "Gui::GeneralPage|"
 msgid "Copy"
 msgstr "Kopírovať"
@@ -2271,7 +1853,7 @@ msgstr "Prosím, definujte tu niekoľko identít"
 #: src/Gui/SettingsDialog.cpp:663
 msgctxt "Gui::EditFavoriteTag|"
 msgid "Select tag color"
-msgstr ""
+msgstr "Vybrať značka farba"
 
 #: src/Gui/SettingsDialog.cpp:700
 msgctxt "Gui::ImapPage|"
@@ -2331,9 +1913,7 @@ msgstr ""
 "alebo TCP?"
 
 #: src/Gui/SettingsDialog.cpp:925
-#, fuzzy, qt-format
-#| msgctxt "MSA::Account|"
-#| msgid "This port is nonstandard. The default port is %1"
+#, qt-format
 msgctxt "Gui::ImapPage|"
 msgid ""
 "This port is nonstandard. The default port for IMAP secured over SSL/TLS is "
@@ -2341,9 +1921,7 @@ msgid ""
 msgstr "Tento port je neštandardný. Predvolený port je %1"
 
 #: src/Gui/SettingsDialog.cpp:929
-#, fuzzy, qt-format
-#| msgctxt "MSA::Account|"
-#| msgid "This port is nonstandard. The default port is %1"
+#, qt-format
 msgctxt "Gui::ImapPage|"
 msgid ""
 "This port is nonstandard. The default port for IMAP secured via STARTTLS is "
@@ -2351,9 +1929,7 @@ msgid ""
 msgstr "Tento port je neštandardný. Predvolený port je %1"
 
 #: src/Gui/SettingsDialog.cpp:931
-#, fuzzy, qt-format
-#| msgctxt "MSA::Account|"
-#| msgid "This port is nonstandard. The default port is %1"
+#, qt-format
 msgctxt "Gui::ImapPage|"
 msgid ""
 "This port is nonstandard. The default port for IMAP over cleartext is %1."
@@ -2433,17 +2009,11 @@ msgid "Add"
 msgstr "Pridať"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:115
-#, fuzzy
-#| msgctxt "GeneralPage|"
-#| msgid "Edit"
 msgctxt "FavoriteTagsPage|"
 msgid "Edit"
 msgstr "Upraviť"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:122
-#, fuzzy
-#| msgctxt "GeneralPage|"
-#| msgid "Delete"
 msgctxt "FavoriteTagsPage|"
 msgid "Delete"
 msgstr "Vymazať"
@@ -2560,7 +2130,6 @@ msgid "Passwords"
 msgstr "Heslá"
 
 #: src/Gui/SettingsGeneralPage.ui:261
-#, fuzzy
 msgctxt "GeneralPage|"
 msgid "Spell checker"
 msgstr "Kontrola pravopisu"
@@ -2876,17 +2445,11 @@ msgid "Account Icon"
 msgstr "Ikona účtu"
 
 #: src/Gui/SettingsImapPage.ui:332
-#, fuzzy
-#| msgctxt "AboutDialog|"
-#| msgid "About Trojitá"
 msgctxt "ImapPage|"
 msgid "Default Trojitá icon"
 msgstr "O Trojitá"
 
 #: src/Gui/SettingsImapPage.ui:342
-#, fuzzy
-#| msgctxt "OutgoingPage|"
-#| msgid "Sent Folder &Name"
 msgctxt "ImapPage|"
 msgid "Archive Folder &Name"
 msgstr "Názov priečinka archívu:"
@@ -3157,9 +2720,6 @@ msgid "Add Tags"
 msgstr "Pridať značky"
 
 #: src/Gui/TagAddDialog.ui:26
-#, fuzzy
-#| msgctxt "Gui::TagListWidget|"
-#| msgid "Tag names (space-separated):"
 msgctxt "TagAddDialog|"
 msgid "Tag names (space-separated):"
 msgstr "Názvy značiek (oddelené medzerou):"
@@ -3185,10 +2745,7 @@ msgid "Tag"
 msgstr "Značka"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
-#, fuzzy, qt-format
-#| msgctxt "Gui::TaskProgressIndicator|"
-#| msgid "%n ongoing actions"
-#| msgid_plural "%n ongoing actions"
+#, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
@@ -3373,13 +2930,11 @@ msgid "Ctrl+Shift+F"
 msgstr "Ctrl+Shift+F"
 
 #: src/Gui/Window.cpp:259
-#, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
 msgstr "Znovu odoslať"
 
 #: src/Gui/Window.cpp:260
-#, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
 msgstr "Archív"
@@ -3445,9 +3000,6 @@ msgid "Move Focus to Message List"
 msgstr ""
 
 #: src/Gui/Window.cpp:273
-#, fuzzy
-#| msgctxt "Gui::MessageListWidget|"
-#| msgid "Quick Search"
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
 msgstr "Rýchle hľadanie"
@@ -3536,17 +3088,11 @@ msgstr "Ukázať st&rom ImapTask"
 
 #. a debugging tool showing the mime tree of the current message
 #: src/Gui/Window.cpp:354
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Show ImapTask t&ree"
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
 msgstr "Ukázať st&rom ImapTask"
 
 #: src/Gui/Window.cpp:359
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Show IMAP protocol &log"
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
 msgstr "Ukázať záznam IMAP protoko&lu"
@@ -3672,9 +3218,6 @@ msgid "&Wide"
 msgstr "Široké"
 
 #: src/Gui/Window.cpp:570
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "&One At Time"
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
 msgstr "P&o jednom"
@@ -3730,9 +3273,6 @@ msgid "&Layout"
 msgstr "&Rozloženie"
 
 #: src/Gui/Window.cpp:728
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "&Mailbox"
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "Poštová schránka:"
@@ -3769,18 +3309,12 @@ msgid "MIME Tree"
 msgstr ""
 
 #: src/Gui/Window.cpp:867
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Show IMAP protocol &log"
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "Ukázať záznam IMAP protoko&lu"
 
 #: src/Gui/Window.cpp:948
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
@@ -3876,9 +3410,7 @@ msgstr ""
 "žiadneho."
 
 #: src/Gui/Window.cpp:1460
-#, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "Nepodarilo sa vytvoriť priečinok %1"
@@ -3901,9 +3433,6 @@ msgid "Edit draft"
 msgstr "Upraviť koncept"
 
 #: src/Gui/Window.cpp:1662
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to verify version"
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "Zlyhalo overenie verzie"
@@ -3987,28 +3516,20 @@ msgid "Plugins"
 msgstr "Moduly"
 
 #: src/Gui/Window.cpp:2138
-#, fuzzy
-#| msgctxt "Gui::MultipartSignedWidget|"
-#| msgid "Signed Message"
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Podpísaná správa"
 
 #: src/Gui/Window.cpp:2145
-#, fuzzy
-#| msgctxt "QObject|"
-#| msgid "Activating compression..."
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "Aktivujem kompresiu..."
 
 #: src/Gui/Window.cpp:2156
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "<li>%1: %2</li>"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
-msgstr "Podporované"
+msgstr ""
 
 #: src/Gui/Window.cpp:2157
 #, qt-format
@@ -4130,30 +3651,20 @@ msgid ""
 msgstr "<p>Server neposkytol informácie o jeho verzii softvéru.</p>"
 
 #: src/Gui/Window.cpp:2551
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid ""
-#| "%1<p>The following capabilities are currently advertised:</p>\n"
-#| "<ul>\n"
-#| "%2</ul>"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
 "%1\n"
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
-"%1<p>Nasledujúce schopnosti sú v teraz prezentované:</p>\n"
-"<ul>\n"
-"%2</ul>"
 
 #: src/Gui/Window.cpp:2553
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "<ul>%1</ul>"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<ul>\n"
 "%1</ul>"
-msgstr "<li>%1</li>\n"
+msgstr "<li>%1</li>"
 
 #: src/Gui/Window.cpp:2573
 #, qt-format
@@ -4287,26 +3798,19 @@ msgid "Unrecognized QFile error"
 msgstr "Nerozpoznaná chyba QFile"
 
 #: src/Imap/Model/DiskPartCache.cpp:85
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::DiskPartCache|"
-#| msgid "Couldn't remove file %1 for mailbox %2"
+#, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1 for mailbox %2"
 msgstr "Nebolo možné odstrániť súbor %1 pre poštovú schránku %2"
 
 #: src/Imap/Model/DiskPartCache.cpp:95
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::DiskPartCache|"
-#| msgid "Couldn't remove file %1 for message %2, mailbox %3"
+#, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1 for message %2, mailbox %3"
 msgstr "Nebolo možné odstrániť súbor %1 pre správu %2, poštová schránka %3"
 
 #: src/Imap/Model/DiskPartCache.cpp:117
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::DiskPartCache|"
-#| msgid ""
-#| "Couldn't save the part %1 of message %2 (mailbox %3) into file %4: %5 (%6)"
+#, qt-format
 msgctxt "QObject|"
 msgid ""
 "Couldn't save the part %1 of message %2 (mailbox %3) into file %4: %5 (%6)"
@@ -4317,12 +3821,9 @@ msgstr ""
 #: src/Imap/Model/FavoriteTagsModel.cpp:124
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: src/Imap/Model/FavoriteTagsModel.cpp:126
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Name"
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "Name"
 msgstr "Názov"
@@ -4459,74 +3960,47 @@ msgid "The connection is being killed for unspecified reason"
 msgstr "Pripojenie je zabité pre nešpecifikovaného dôvodu"
 
 #: src/Imap/Model/MsgListModel.cpp:284
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Subject"
 msgctxt "MsgListModel|"
 msgid "Subject"
 msgstr "Predmet"
 
 #: src/Imap/Model/MsgListModel.cpp:286
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "From"
 msgctxt "MsgListModel|"
 msgid "From"
 msgstr "Od"
 
 #: src/Imap/Model/MsgListModel.cpp:288
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "MsgListModel|"
 msgid "To"
 msgstr "Pre"
 
 #: src/Imap/Model/MsgListModel.cpp:290
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "MsgListModel|"
 msgid "Cc"
 msgstr "Kópia"
 
 #: src/Imap/Model/MsgListModel.cpp:292
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "MsgListModel|"
 msgid "Bcc"
 msgstr "Skrytá kópia"
 
 #: src/Imap/Model/MsgListModel.cpp:294
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Date"
 msgctxt "MsgListModel|"
 msgid "Date"
 msgstr "Dátum"
 
 #: src/Imap/Model/MsgListModel.cpp:296
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Received"
 msgctxt "MsgListModel|"
 msgid "Received"
 msgstr "Prijaté"
 
 #: src/Imap/Model/MsgListModel.cpp:298
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Size"
 msgctxt "MsgListModel|"
 msgid "Size"
 msgstr "Veľkosť"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
@@ -4547,10 +4021,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -4587,570 +4058,358 @@ msgid "(no subject)"
 msgstr "(žiadny predmet)"
 
 #: src/Imap/Model/SQLCache.cpp:97
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't create table msg_threading"
 msgctxt "QObject|"
 msgid "Can't create table msg_threading"
 msgstr "Nie je možné vytvoriť msg_threading tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:106
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't create table mailbox_sync_state"
 msgctxt "QObject|"
 msgid "Can't create table mailbox_sync_state"
 msgstr "Nie je možné vytvoriť mailbox_sync_state tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:118
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't create table msg_metadata"
 msgctxt "QObject|"
 msgid "Can't create table msg_metadata"
 msgstr "Nie je možné msg_metadata tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:133
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't open database"
 msgctxt "QObject|"
 msgid "Can't open database"
 msgstr "Nemôžem otvoriť databázu"
 
 #: src/Imap/Model/SQLCache.cpp:148
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to verify version"
 msgctxt "QObject|"
 msgid "Failed to verify version"
 msgstr "Zlyhalo overenie verzie"
 
 #: src/Imap/Model/SQLCache.cpp:154
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't determine version info"
 msgctxt "QObject|"
 msgid "Can't determine version info"
 msgstr "Nie je možné určiť informáciu o verzii"
 
 #: src/Imap/Model/SQLCache.cpp:163
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to update cache DB scheme from v1 to v2"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
 msgstr "Zlyhalo aktualizovanie schémy vyrovnávacej pamäte DB z v1 na v2"
 
 #: src/Imap/Model/SQLCache.cpp:172
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to drop old table mailbox_sync_state"
 msgctxt "QObject|"
 msgid "Failed to drop old table mailbox_sync_state"
 msgstr "Zlyhalo zanechanie mailbox_sync_state starej tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:178
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to update cache DB scheme from v2/v3 to v4"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v2/v3 to v4"
 msgstr "Zlyhalo aktualizovanie schémy vyrovnávacej pamäte DB z v2/v3 na v4"
 
 #: src/Imap/Model/SQLCache.cpp:191
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to drop old table msg_metadata"
 msgctxt "QObject|"
 msgid "Failed to drop old table msg_metadata"
 msgstr "Zlyhalo zanechanie msg_metadata starej tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:197
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
 msgstr "Zlyhalo aktualizovanie schémy vyrovnávacej pamäte DB z v4/v5/v6 na v7"
 
 #: src/Imap/Model/SQLCache.cpp:203
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Unknown version"
 msgctxt "QObject|"
 msgid "Unknown version of sqlite cache"
 msgstr "Neznáma verzia"
 
 #: src/Imap/Model/SQLCache.cpp:224
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare table structures"
 msgctxt "QObject|"
 msgid "Failed to prepare table structures"
 msgstr "Zlyhala príprava štruktúr tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:228
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't store version info"
 msgctxt "QObject|"
 msgid "Can't store version info"
 msgstr "Nemôžem uložiť informáciu o verzii"
 
 #: src/Imap/Model/SQLCache.cpp:239
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't create table child_mailboxes"
 msgctxt "QObject|"
 msgid "Can't create table child_mailboxes"
 msgstr "Nie je možné vytvoriť child_mailboxes tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:247
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't create table uid_mapping"
 msgctxt "QObject|"
 msgid "Can't create table uid_mapping"
 msgstr "Nie je možné vytvoriť uid_mapping tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:259
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't create table flags"
 msgctxt "QObject|"
 msgid "Can't create table flags"
 msgstr "Nie je možné vytvoriť vlajky tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:269
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Can't create table parts"
 msgctxt "QObject|"
 msgid "Can't create table parts"
 msgstr "Nie je možné vytvoriť časti tabuľky"
 
 #: src/Imap/Model/SQLCache.cpp:282
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryChildMailboxes"
 msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxes"
 msgstr "Zlyhala príprava queryChildMailboxes"
 
 #: src/Imap/Model/SQLCache.cpp:288
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryChildMailboxesFresh"
 msgctxt "QObject|"
 msgid "Failed to prepare queryChildMailboxesFresh"
 msgstr "Zlyhala príprava queryChildMailboxesFresh"
 
 #: src/Imap/Model/SQLCache.cpp:294
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryRemoveChildMailboxes"
 msgctxt "QObject|"
 msgid "Failed to prepare queryRemoveChildMailboxes"
 msgstr "Zlyhala príprava queryRemoveChildMailboxes"
 
 #: src/Imap/Model/SQLCache.cpp:300
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare querySetChildMailboxes"
 msgctxt "QObject|"
 msgid "Failed to prepare querySetChildMailboxes"
 msgstr "Zlyhala príprava querySetChildMailboxes"
 
 #: src/Imap/Model/SQLCache.cpp:306
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryMailboxSyncState"
 msgctxt "QObject|"
 msgid "Failed to prepare queryMailboxSyncState"
 msgstr "Zlyhala príprava queryMailboxSyncState"
 
 #: src/Imap/Model/SQLCache.cpp:314
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare querySetMailboxSyncState"
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMailboxSyncState"
 msgstr "Zlyhala príprava querySetMailboxSyncState"
 
 #: src/Imap/Model/SQLCache.cpp:320
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryUidMapping"
 msgctxt "QObject|"
 msgid "Failed to prepare queryUidMapping"
 msgstr "Zlyhala príprava queryUidMapping"
 
 #: src/Imap/Model/SQLCache.cpp:326
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare querySetUidMapping"
 msgctxt "QObject|"
 msgid "Failed to prepare querySetUidMapping"
 msgstr "Zlyhala príprava querySetUidMapping"
 
 #: src/Imap/Model/SQLCache.cpp:332
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryClearUidMapping"
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearUidMapping"
 msgstr "Zlyhala príprava queryClearUidMapping"
 
 #: src/Imap/Model/SQLCache.cpp:338
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryMessageMetadata"
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageMetadata"
 msgstr "Zlyhala príprava queryMessageMetadata"
 
 #: src/Imap/Model/SQLCache.cpp:344
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryAccssMessageMetadata"
 msgctxt "QObject|"
 msgid "Failed to prepare queryAccssMessageMetadata"
 msgstr "Zlyhala príprava queryAccssMessageMetadata"
 
 #: src/Imap/Model/SQLCache.cpp:350
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare querySetMessageMetadata"
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageMetadata"
 msgstr "Zlyhala príprava querySetMessageMetadata"
 
 #: src/Imap/Model/SQLCache.cpp:356
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryMessageFlags"
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageFlags"
 msgstr "Zlyhala príprava queryMessageFlags"
 
 #: src/Imap/Model/SQLCache.cpp:362
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare querySetMessageFlags"
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageFlags"
 msgstr "Zlyhala príprava querySetMessageFlags"
 
 #: src/Imap/Model/SQLCache.cpp:368
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryClearAllMessages1"
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages1"
 msgstr "Zlyhala príprava queryClearAllMessages1"
 
 #: src/Imap/Model/SQLCache.cpp:374
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryClearAllMessages2"
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages2"
 msgstr "Zlyhala príprava queryClearAllMessages2"
 
 #: src/Imap/Model/SQLCache.cpp:380
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryClearAllMessages3"
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages3"
 msgstr "Zlyhala príprava queryClearAllMessages3"
 
 #: src/Imap/Model/SQLCache.cpp:386
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryClearAllMessages4"
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearAllMessages4"
 msgstr "Zlyhala príprava queryClearAllMessages4"
 
 #: src/Imap/Model/SQLCache.cpp:392
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryClearMessage1"
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage1"
 msgstr "Zlyhala príprava queryClearMessage1"
 
 #: src/Imap/Model/SQLCache.cpp:398
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryClearMessage2"
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage2"
 msgstr "Zlyhala príprava queryClearMessage2"
 
 #: src/Imap/Model/SQLCache.cpp:404
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryClearMessage3"
 msgctxt "QObject|"
 msgid "Failed to prepare queryClearMessage3"
 msgstr "Zlyhala príprava queryClearMessage3"
 
 #: src/Imap/Model/SQLCache.cpp:410
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryMessagePart"
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessagePart"
 msgstr "Zlyhala príprava queryMessagePart"
 
 #: src/Imap/Model/SQLCache.cpp:416
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare querySetMessagePart"
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessagePart"
 msgstr "Zlyhala príprava querySetMessagePart"
 
 #: src/Imap/Model/SQLCache.cpp:422
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryForgetMessagePart"
 msgctxt "QObject|"
 msgid "Failed to prepare queryForgetMessagePart"
 msgstr "Zlyhala príprava queryForgetMessagePart"
 
 #: src/Imap/Model/SQLCache.cpp:428
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare queryMessageThreading"
 msgctxt "QObject|"
 msgid "Failed to prepare queryMessageThreading"
 msgstr "Zlyhala príprava queryMessageThreading"
 
 #: src/Imap/Model/SQLCache.cpp:434
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Failed to prepare querySetMessageThreading"
 msgctxt "QObject|"
 msgid "Failed to prepare querySetMessageThreading"
 msgstr "Zlyhala príprava querySetMessageThreading"
 
 #: src/Imap/Model/SQLCache.cpp:465
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryChildMailboxes failed"
 msgctxt "QObject|"
 msgid "Query queryChildMailboxes failed"
 msgstr "Dopyt queryChildMailboxes zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:476
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Corrupt data when reading child items for mailbox %1, line %2"
+#, qt-format
 msgctxt "QObject|"
 msgid "Corrupt data when reading child items for mailbox %1, line %2"
 msgstr ""
 "Porušené dáta pri čítaní položky potomka pre poštovú schránku %1, riadok %2"
 
 #: src/Imap/Model/SQLCache.cpp:488
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryChildMailboxesFresh failed"
 msgctxt "QObject|"
 msgid "Query queryChildMailboxesFresh failed"
 msgstr "Dopyt queryChildMailboxesFresh zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:513
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryRemoveChildMailboxes failed"
 msgctxt "QObject|"
 msgid "Query queryRemoveChildMailboxes failed"
 msgstr "Dopyt queryRemoveChildMailboxes zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:521
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query querySetChildMailboxes failed"
 msgctxt "QObject|"
 msgid "Query querySetChildMailboxes failed"
 msgstr "Dopyt querySetChildMailboxes zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:531
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryMailboxSyncState failed"
 msgctxt "QObject|"
 msgid "Query queryMailboxSyncState failed"
 msgstr "Dopyt queryMailboxSyncState zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:556
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query querySetMailboxSyncState failed"
 msgctxt "QObject|"
 msgid "Query querySetMailboxSyncState failed"
 msgstr "Dopyt querySetMailboxSyncState zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:566
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryUidMapping failed"
 msgctxt "QObject|"
 msgid "Query queryUidMapping failed"
 msgstr "Dopyt queryUidMapping zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:591
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query querySetUidMapping failed"
 msgctxt "QObject|"
 msgid "Query querySetUidMapping failed"
 msgstr "Dopyt querySetUidMapping zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:603
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryClearUidMapping failed"
 msgctxt "QObject|"
 msgid "Query queryClearUidMapping failed"
 msgstr "Dopyt queryClearUidMapping zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:618
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryClearAllMessages1 failed"
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages1 failed"
 msgstr "Dopyt queryClearAllMessages1 zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:621
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryClearAllMessages2 failed"
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages2 failed"
 msgstr "Dopyt queryClearAllMessages2 zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:624
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryClearAllMessages3 failed"
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages3 failed"
 msgstr "Dopyt queryClearAllMessages3 zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:627
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryClearAllMessages4 failed"
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages4 failed"
 msgstr "Dopyt queryClearAllMessages4 zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:645
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryClearMessage1 failed"
 msgctxt "QObject|"
 msgid "Query queryClearMessage1 failed"
 msgstr "Dopyt queryClearMessage1 zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:648
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryClearMessage2 failed"
 msgctxt "QObject|"
 msgid "Query queryClearMessage2 failed"
 msgstr "Dopyt queryClearMessage2 zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:651
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryClearMessage3 failed"
 msgctxt "QObject|"
 msgid "Query queryClearMessage3 failed"
 msgstr "Dopyt queryClearMessage3 zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:661
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryMessageFlags failed"
 msgctxt "QObject|"
 msgid "Query queryMessageFlags failed"
 msgstr "Dopyt queryMessageFlags zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:687
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query querySetMessageFlags failed"
 msgctxt "QObject|"
 msgid "Query querySetMessageFlags failed"
 msgstr "Dopyt querySetMessageFlags zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:697
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryMessageMetadata failed"
 msgctxt "QObject|"
 msgid "Query queryMessageMetadata failed"
 msgstr "Dopyt queryMessageMetadata zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:715
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryAccessMessageMetadata failed"
 msgctxt "QObject|"
 msgid "Query queryAccessMessageMetadata failed"
 msgstr "Dopyt queryAccessMessageMetadata zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:741
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query querySetMessageMetadata failed"
 msgctxt "QObject|"
 msgid "Query querySetMessageMetadata failed"
 msgstr "Dopyt querySetMessageMetadata zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:752
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryMessagePart failed"
 msgctxt "QObject|"
 msgid "Query queryMessagePart failed"
 msgstr "Dopyt queryMessagePart zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:773
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query querySetMessagePart failed"
 msgctxt "QObject|"
 msgid "Query querySetMessagePart failed"
 msgstr "Dopyt querySetMessagePart zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:787
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryForgetMessagePart failed"
 msgctxt "QObject|"
 msgid "Query queryForgetMessagePart failed"
 msgstr "Dopyt queryForgetMessagePart zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:796
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query queryMessageThreading failed"
 msgctxt "QObject|"
 msgid "Query queryMessageThreading failed"
 msgstr "Dopyt queryMessageThreading zlyhal"
 
 #: src/Imap/Model/SQLCache.cpp:820
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Query querySetMessageThreading failed"
 msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
 msgstr "Dopyt querySetMessageThreading zlyhal"
@@ -5226,17 +4485,11 @@ msgid "Remote Content Is Banned"
 msgstr "Vzdialený obsah je zakázaný"
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:82
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CreateMailboxTask|"
-#| msgid "Cannot create mailbox"
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Cannot access data"
 msgstr "Nie je možné vytvoriť poštovú schránku"
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:85
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Some data are not available yet"
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Uncached data not available when offline"
 msgstr "Niektoré údaje zatiaľ nie sú k dispozícii"
@@ -5244,7 +4497,7 @@ msgstr "Niektoré údaje zatiaľ nie sú k dispozícii"
 #: src/Imap/Network/MsgPartNetworkReply.cpp:87
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Error downloading data"
-msgstr ""
+msgstr "Chyba: downloading data"
 
 #: src/Imap/Tasks/AppendTask.cpp:97
 msgctxt "Imap::Mailbox::AppendTask|"
@@ -5262,20 +4515,16 @@ msgid "Asked to die"
 msgstr "Požiadané o ukončenie fungovania"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:116
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "The COPY operation has failed"
+#, qt-format
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "The COPY operation has failed: %1"
-msgstr "Operácia COPY zlyhala"
+msgstr ""
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:123
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "The UID MOVE operation has failed"
+#, qt-format
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "The UID MOVE operation has failed: %1"
-msgstr "Operácia UID MOVE zlyhala"
+msgstr ""
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:133
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
@@ -5798,17 +5047,13 @@ msgid "Setting password is not supported by %1"
 msgstr "Heslo nastavenia nie je podporované v %1"
 
 #: src/MSA/Account.cpp:233
-#, fuzzy, qt-format
-#| msgctxt "MSA::Account|"
-#| msgid "This port is nonstandard. The default port is %1"
+#, qt-format
 msgctxt "Account|"
 msgid "This port is nonstandard. The default port for cleartext SMTP is %1."
 msgstr "Tento port je neštandardný. Predvolený port je %1"
 
 #: src/MSA/Account.cpp:236
-#, fuzzy, qt-format
-#| msgctxt "MSA::Account|"
-#| msgid "This port is nonstandard. The default port is %1"
+#, qt-format
 msgctxt "Account|"
 msgid ""
 "This port is nonstandard. The default port for SMTP submission secured via "
@@ -5816,9 +5061,7 @@ msgid ""
 msgstr "Tento port je neštandardný. Predvolený port je %1"
 
 #: src/MSA/Account.cpp:239
-#, fuzzy, qt-format
-#| msgctxt "MSA::Account|"
-#| msgid "This port is nonstandard. The default port is %1"
+#, qt-format
 msgctxt "Account|"
 msgid ""
 "This port is nonstandard. The default port for SMTP over encrypted SSL/TLS "
@@ -6054,9 +5297,6 @@ msgid "Photo"
 msgstr "Fotka"
 
 #: src/Plugins/AkonadiAddressbook/AkonadiAddressbook.cpp:67
-#, fuzzy
-#| msgctxt "trojita_plugin_AkonadiAddressbookPlugin|"
-#| msgid "KDE Addressbook (akonadi)"
 msgctxt "trojita_plugin_AkonadiAddressbookPlugin|"
 msgid "KDE Addressbook (Akonadi)"
 msgstr "KDE kniha adries (akonadi)"
@@ -6079,9 +5319,6 @@ msgid "Secure storage via QtKeychain"
 msgstr "Bezpečné úložisko cez QtKeychain"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
-#, fuzzy
-#| msgctxt "SslSheet|"
-#| msgid "Connect"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
 msgstr "Pripojiť"
@@ -6191,60 +5428,37 @@ msgid ""
 msgstr "Základný soket má problémy pri spracovaní pripojenia k %1:%2: %3"
 
 #: src/UiUtils/Formatting.cpp:40
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "B"
 msgctxt "Formatting|"
 msgid "B"
 msgstr "B"
 
 #: src/UiUtils/Formatting.cpp:41
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "kB"
 msgctxt "Formatting|"
 msgid "kB"
 msgstr "kB"
 
 #: src/UiUtils/Formatting.cpp:42
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "MB"
 msgctxt "Formatting|"
 msgid "MB"
 msgstr "MB"
 
 #: src/UiUtils/Formatting.cpp:43
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "GB"
 msgctxt "Formatting|"
 msgid "GB"
 msgstr "GB"
 
 #: src/UiUtils/Formatting.cpp:44
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "TB"
 msgctxt "Formatting|"
 msgid "TB"
 msgstr "TB"
 
 #: src/UiUtils/Formatting.cpp:67
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::OpenConnectionTask|"
-#| msgid "%1 %2"
+#, qt-format
 msgctxt "Formatting|"
 msgid "%1 %2"
 msgstr "%1 %2"
 
 #: src/UiUtils/Formatting.cpp:86
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
@@ -6253,12 +5467,6 @@ msgid "hh:mm"
 msgstr "hh:mm"
 
 #: src/UiUtils/Formatting.cpp:91
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "ddd hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
@@ -6267,12 +5475,6 @@ msgid "ddd hh:mm"
 msgstr "ddd hh:mm"
 
 #: src/UiUtils/Formatting.cpp:99
-#, fuzzy
-#| msgctxt ""
-#| "UiUtils::Formatting|Please do not translate the format specifiers. You "
-#| "can change their order or the separator to follow the local conventions. "
-#| "For valid specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
-#| msgid "d MMM hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
@@ -6281,14 +5483,7 @@ msgid "d MMM hh:mm"
 msgstr "d MMM hh:mm"
 
 #: src/UiUtils/Formatting.cpp:142
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<li><b>CN</b>: %1,<br/>\n"
-#| "<b>Organization</b>: %2,<br/>\n"
-#| "<b>Serial</b>: %3,<br/>\n"
-#| "<b>SHA1</b>: %4,<br/>\n"
-#| "<b>MD5</b>: %5</li>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<li><b>CN</b>: %1,<br/>\n"
@@ -6304,27 +5499,17 @@ msgstr ""
 "<b>MD5</b>: %5</li>"
 
 #: src/UiUtils/Formatting.cpp:145 src/UiUtils/Formatting.cpp:146
-#, fuzzy
-#| msgctxt "Gui::EnvelopeView|"
-#| msgid ", "
 msgctxt "Formatting|"
 msgid ", "
 msgstr ", "
 
 #: src/UiUtils/Formatting.cpp:152
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "<p>The remote side doesn't have a certificate.</p>\n"
 msgctxt "Formatting|"
 msgid "<p>The remote side doesn't have a certificate.</p>\n"
 msgstr "<p>Vzdialená strana nemá certifikát.</p>\n"
 
 #: src/UiUtils/Formatting.cpp:153
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>This is the certificate chain of the connection:</p>\n"
-#| "<ul>%1</ul>\n"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>This is the certificate chain of the connection:</p>\n"
@@ -6334,36 +5519,23 @@ msgstr ""
 "<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "\n"
 msgctxt "Formatting|"
 msgid "\n"
 msgstr "\n"
 
 #: src/UiUtils/Formatting.cpp:160
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "<li>%1</li>"
+#, qt-format
 msgctxt "Formatting|"
 msgid "<li>%1</li>"
 msgstr "<li>%1</li>"
 
 #: src/UiUtils/Formatting.cpp:163
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>According to your system's policy, this connection is secure.</p>\n"
 msgctxt "Formatting|"
 msgid "<p>According to your system's policy, this connection is secure.</p>\n"
 msgstr "<p>Podľa vašej systémovej politiky je toto pripojenie bezpečné.</p>\n"
 
 #: src/UiUtils/Formatting.cpp:164
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>The connection triggered the following SSL errors:</p>\n"
-#| "<ul>%1</ul>\n"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>The connection triggered the following SSL errors:</p>\n"
@@ -6373,22 +5545,12 @@ msgstr ""
 "<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:175
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "Different SSL certificate"
 msgctxt "Formatting|"
 msgid "Different SSL certificate"
 msgstr "Rozdielny SSL certifikát"
 
 #: src/UiUtils/Formatting.cpp:176
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>The public key of the SSL certificate has changed. This should only "
-#| "happen when there was a security incident on the remote server. Your "
-#| "system configuration is set to accept such certificates anyway.</p>\n"
-#| "%1\n"
-#| "<p>Would you like to connect and remember the new certificate?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>The public key of the SSL certificate has changed. This should only "
@@ -6404,23 +5566,12 @@ msgstr ""
 "<p>Chceli by ste sa pripojiť a zachovať v pamäti tento certifikát?</p>"
 
 #: src/UiUtils/Formatting.cpp:183
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "SSL certificate looks fishy"
 msgctxt "Formatting|"
 msgid "SSL certificate looks fishy"
 msgstr "SSL certifikát vyzerá pochybne"
 
 #: src/UiUtils/Formatting.cpp:184
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>The public key of the SSL certificate of the IMAP server has changed "
-#| "since the last time and your system doesn't believe that the new "
-#| "certificate is genuine.</p>\n"
-#| "%1\n"
-#| "%2\n"
-#| "<p>Would you like to connect anyway and remember the new certificate?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>The public key of the SSL certificate of the IMAP server has changed "
@@ -6437,23 +5588,12 @@ msgstr ""
 "<p>Chceli by ste sa aj tak pripojiť a zachovať v pamäti tento certifikát?</p>"
 
 #: src/UiUtils/Formatting.cpp:193 src/UiUtils/Formatting.cpp:200
-#, fuzzy
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "Accept SSL connection?"
 msgctxt "Formatting|"
 msgid "Accept SSL connection?"
 msgstr "Prijať SSL pripojenie?"
 
 #: src/UiUtils/Formatting.cpp:194
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>This is the first time you're connecting to this IMAP server; the "
-#| "certificate is trusted by this system.</p>\n"
-#| "%1\n"
-#| "%2\n"
-#| "<p>Would you like to connect and remember this certificate's public key "
-#| "for the next time?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>This is the first time you're connecting to this IMAP server; the "
@@ -6471,16 +5611,7 @@ msgstr ""
 "certifikátu pre budúcnosť?</p>"
 
 #: src/UiUtils/Formatting.cpp:201
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid ""
-#| "<p>This is the first time you're connecting to this IMAP server and the "
-#| "server certificate failed validation test.</p>\n"
-#| "%1\n"
-#| "\n"
-#| "%2\n"
-#| "<p>Would you like to connect and remember this certificate's public key "
-#| "for the next time?</p>"
+#, qt-format
 msgctxt "Formatting|"
 msgid ""
 "<p>This is the first time you're connecting to this IMAP server and the "
@@ -6604,8 +5735,6 @@ msgstr "Nie je možné uložiť heslo cez zásuvný modul %1"
 #~ msgstr "Zobraziť domovskú stránku Trojitá pri spustení"
 
 #, fuzzy
-#~| msgctxt "Composer::MessageComposer|"
-#~| msgid "Message not available"
 #~ msgctxt "Cryptography::GpgMeEncrypted|"
 #~ msgid "Data Unavailable"
 #~ msgstr "Správa nie je dostupná"
@@ -6619,8 +5748,6 @@ msgstr "Nie je možné uložiť heslo cez zásuvný modul %1"
 #~ msgstr "Zrušiť"
 
 #, fuzzy
-#~| msgctxt "Gui::MessageHeadersWidget|"
-#~| msgid "Search..."
 #~ msgctxt "Gui::MessageView|"
 #~ msgid "Search..."
 #~ msgstr "Hľadať..."
@@ -6819,8 +5946,6 @@ msgstr "Nie je možné uložiť heslo cez zásuvný modul %1"
 #~ msgstr "&Pomocník"
 
 #, fuzzy
-#~| msgctxt "Gui::MainWindow|"
-#~| msgid "&New Message..."
 #~ msgctxt "Gui::MainWindow|"
 #~ msgid "Edit as New E-Mail Message..."
 #~ msgstr "&Nová správa..."
