@@ -233,6 +233,9 @@ msgid ""
 "Cannot verify signature validity or do anything else. The message might or "
 "might not have been tampered with."
 msgstr ""
+"Kľúč %1 nie je dostupný v kľúčenke.\n"
+"Nie je možné overiť platnosť podpisu ani vykonať iné akcie. Správa sa "
+"zobrazí tak, ako je."
 
 #: src/Cryptography/GpgMe++.cpp:323
 msgctxt "GpgMePart|"
@@ -259,7 +262,7 @@ msgstr "Overovanie podpisu..."
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Verified signature from %1 on %2"
-msgstr ""
+msgstr "Overený podpis od %1 dňa %2"
 
 #: src/Cryptography/GpgMe++.cpp:380
 msgctxt "GpgMePart|"
@@ -279,6 +282,9 @@ msgid ""
 "%1\n"
 "Signature was made on %2."
 msgstr ""
+"Overený podpis, ale podpisovateľ je niekto iný:\n"
+"%1\n"
+"Podpis bol vykonaný dňa %2."
 
 #: src/Cryptography/GpgMe++.cpp:388
 msgctxt "GpgMePart|"
@@ -306,7 +312,7 @@ msgstr "Nesprávny podpis: %1"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
-msgstr ""
+msgstr "Neplatný podpis od %1 dňa %2"
 
 #: src/Cryptography/GpgMe++.cpp:397
 msgctxt "GpgMePart|"
@@ -322,7 +328,7 @@ msgstr "Podpísaná správa"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
-msgstr ""
+msgstr "Zašifrované, neplatný podpis od neznámeho: %1"
 
 #: src/Cryptography/GpgMe++.cpp:401
 #, qt-format
@@ -334,7 +340,7 @@ msgstr "Nesprávny podpis: %1"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by someone else: %1 on %2."
-msgstr ""
+msgstr "Neplatný podpis od niekoho iného: %1 dňa %2."
 
 #: src/Cryptography/GpgMe++.cpp:419
 msgctxt "GpgMePart|"
@@ -350,7 +356,7 @@ msgstr "Podpis"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature from %1 on %2"
-msgstr ""
+msgstr "Neznámy podpis od %1 dňa %2"
 
 #: src/Cryptography/GpgMe++.cpp:424
 msgctxt "GpgMePart|"
@@ -366,7 +372,7 @@ msgstr "Podpísaná správa"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Unknown signature by somebody else: %1 on %2"
-msgstr ""
+msgstr "Neznámy podpis od niekoho iného: %1 dňa %2"
 
 #: src/Cryptography/GpgMe++.cpp:433
 msgctxt "GpgMePart|"
@@ -382,12 +388,12 @@ msgstr "Podpis"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature from %1 on %2"
-msgstr ""
+msgstr "Čiastočne dôveryhodný podpis od %1 dňa %2"
 
 #: src/Cryptography/GpgMe++.cpp:439
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature by stranger"
-msgstr ""
+msgstr "Zašifrované, čiastočne dôveryhodný podpis od neznámeho"
 
 #: src/Cryptography/GpgMe++.cpp:440
 msgctxt "GpgMePart|"
@@ -398,28 +404,28 @@ msgstr "Podpísaná správa"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature by somebody else: %1 on %2"
-msgstr ""
+msgstr "Čiastočne dôveryhodný podpis od niekoho iného: %1 dňa %2"
 
 #: src/Cryptography/GpgMe++.cpp:454
 msgctxt "GpgMePart|"
 msgid "The key or at least one certificate has been revoked."
-msgstr ""
+msgstr "Kľúč alebo aspoň jeden certifikát bol zrušený."
 
 #: src/Cryptography/GpgMe++.cpp:459
 msgctxt "GpgMePart|"
 msgid "The key or one of the certificates has expired."
-msgstr ""
+msgstr "Kľúč alebo jeden z certifikátov vypršal."
 
 #: src/Cryptography/GpgMe++.cpp:463
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Signature expired on %1."
-msgstr ""
+msgstr "Podpis vypršal dňa %1."
 
 #: src/Cryptography/GpgMe++.cpp:468
 msgctxt "GpgMePart|"
 msgid "Can't verify due to a missing key or certificate."
-msgstr ""
+msgstr "Nie je možné overiť kvôli chýbajúcemu kľúču alebo certifikátu."
 
 #: src/Cryptography/GpgMe++.cpp:472
 msgctxt "GpgMePart|"
@@ -434,7 +440,7 @@ msgstr "Dostupné CRL je príliš staré."
 #: src/Cryptography/GpgMe++.cpp:480
 msgctxt "GpgMePart|"
 msgid "A policy requirement was not met."
-msgstr ""
+msgstr "Požiadavka politiky nebola splnená."
 
 #: src/Cryptography/GpgMe++.cpp:484
 #, qt-format
@@ -445,32 +451,32 @@ msgstr "Vyskytla sa systémová chyba. %1"
 #: src/Cryptography/GpgMe++.cpp:493
 msgctxt "GpgMePart|"
 msgid "Signature validity is undefined."
-msgstr ""
+msgstr "Platnosť podpisu je nedefinovaná."
 
 #: src/Cryptography/GpgMe++.cpp:497
 msgctxt "GpgMePart|"
 msgid "Signature validity is never to be trusted."
-msgstr ""
+msgstr "Platnosti podpisu sa nikdy nemá dôverovať."
 
 #: src/Cryptography/GpgMe++.cpp:501
 msgctxt "GpgMePart|"
 msgid "Signature validity is marginal."
-msgstr ""
+msgstr "Platnosť podpisu je okrajová."
 
 #: src/Cryptography/GpgMe++.cpp:505
 msgctxt "GpgMePart|"
 msgid "Signature validity is full."
-msgstr ""
+msgstr "Platnosť podpisu je úplná."
 
 #: src/Cryptography/GpgMe++.cpp:509
 msgctxt "GpgMePart|"
 msgid "Signature validity is ultimate."
-msgstr ""
+msgstr "Platnosť podpisu je maximálna."
 
 #: src/Cryptography/GpgMe++.cpp:513
 msgctxt "GpgMePart|"
 msgid "Signature validity is unknown."
-msgstr ""
+msgstr "Platnosť podpisu je neznáma."
 
 #: src/Cryptography/GpgMe++.cpp:523
 msgctxt "GpgMePart|"
@@ -487,7 +493,7 @@ msgstr "%1 (Nedostupné)"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(self-signed)"
-msgstr ""
+msgstr "%1(vlastný podpis)"
 
 #: src/Cryptography/GpgMe++.cpp:542
 #, qt-format
@@ -499,7 +505,7 @@ msgstr "Chyba: when retrieving key for the trust chain: %1"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Signature invalidity reason: %1"
-msgstr ""
+msgstr "Dôvod neplatnosti podpisu: %1"
 
 #: src/Cryptography/GpgMe++.cpp:614
 msgctxt "GpgMeSigned|"
@@ -510,7 +516,7 @@ msgstr "Podpísaná správa"
 #, qt-format
 msgctxt "GpgMeSigned|"
 msgid "Expected 2 parts, but found %1."
-msgstr ""
+msgstr "Očakávali sa 2 časti, ale nájdených bolo %1."
 
 #: src/Cryptography/GpgMe++.cpp:619
 msgctxt "GpgMeSigned|"
@@ -538,6 +544,7 @@ msgctxt "GpgMeSigned|"
 msgid ""
 "Some data are not available, perhaps due to an offline network connection"
 msgstr ""
+"Niektoré údaje nie sú dostupné, možno kvôli offline sieťovému pripojeniu"
 
 #: src/Cryptography/GpgMe++.cpp:673
 msgctxt "GpgMeSigned|"
@@ -559,6 +566,7 @@ msgstr "Podpísaná správa"
 msgctxt "GpgMeEncrypted|"
 msgid "Expected 2 parts for an encrypted OpenPGP message, but found %1."
 msgstr ""
+"Očakávali sa 2 časti pre zašifrovanú správu OpenPGP, ale nájdených bolo %1."
 
 #: src/Cryptography/GpgMe++.cpp:764
 msgctxt "GpgMeEncrypted|"
@@ -595,6 +603,7 @@ msgstr ""
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
 msgstr ""
+"Nepodporovaná verzia PGP/MIME. Očakávaná \"Version: 1\", nájdená \"%1\"."
 
 #: src/Cryptography/GpgMe++.cpp:819
 msgctxt "GpgMeEncrypted|"
@@ -620,7 +629,7 @@ msgstr "Zašifrovaná správa"
 #: src/Cryptography/GpgMe++.cpp:874
 msgctxt "GpgMeEncrypted|"
 msgid "Wrong key usage, not for encryption"
-msgstr ""
+msgstr "Nesprávne použitie kľúča, nie je na šifrovanie"
 
 #: src/Cryptography/GpgMe++.cpp:878
 #, qt-format
@@ -638,13 +647,13 @@ msgstr "Nie je možné extract recipient %1: %2"
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
-msgstr ""
+msgstr "Zašifrované pre %1 (%2)"
 
 #: src/Cryptography/GpgMe++.cpp:895
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
-msgstr ""
+msgstr "Zašifrované pre %1"
 
 #: src/Cryptography/GpgMe++.cpp:901
 #, qt-format
@@ -697,7 +706,7 @@ msgstr "Ukazovať zdroj správy"
 #, qt-format
 msgctxt "Gui::AttachmentView|"
 msgid "IMAP Server error for this part: %1 (%2)"
-msgstr ""
+msgstr "Chyba IMAP servera pre túto časť: %1 (%2)"
 
 #: src/Gui/AttachmentView.cpp:163
 #, qt-format
@@ -848,12 +857,12 @@ msgstr "Odoslaná správa"
 #: src/Gui/ComposeWidget.cpp:596
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
-msgstr ""
+msgstr "Nič v poli Od"
 
 #: src/Gui/ComposeWidget.cpp:599
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
-msgstr ""
+msgstr "Žiadni príjemcovia v poli Komu"
 
 #: src/Gui/ComposeWidget.cpp:602
 msgctxt "ComposeWidget|"
@@ -861,6 +870,8 @@ msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
 "</b>"
 msgstr ""
+"<b>Táto správa sa zdá byť chybná, buďte prosím opatrní pred jej odoslaním.</"
+"b>"
 
 #: src/Gui/ComposeWidget.cpp:691
 msgctxt "ComposeWidget|"
@@ -1241,7 +1252,7 @@ msgstr "Informácia IMAP servera"
 #: src/Gui/ImapInfoDialog.ui:33
 msgctxt "ImapInfoDialog|"
 msgid "<html><head/><body><p>SERVERINFO Placeholder</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Zástupný text SERVERINFO</p></body></html>"
 
 #: src/Gui/LoadablePartWidget.cpp:47
 #, qt-format
@@ -1268,27 +1279,27 @@ msgstr "Zrušiť"
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
-msgstr ""
+msgstr "Trojitá %1 - rýchly Qt IMAP e-mailový klient"
 
 #: src/Gui/main.cpp:65
 msgctxt "QObject|"
 msgid "Show addressbook window."
-msgstr ""
+msgstr "Zobraziť okno adresára."
 
 #: src/Gui/main.cpp:69
 msgctxt "QObject|"
 msgid "Compose new e-mail (default when url is provided)."
-msgstr ""
+msgstr "Napísať nový e-mail (predvolené keď je zadaná URL)."
 
 #: src/Gui/main.cpp:73
 msgctxt "QObject|"
 msgid "Activate debug traffic logging to disk by default."
-msgstr ""
+msgstr "Predvolene aktivovať ladenie záznamu sieťovej prevádzky na disk."
 
 #: src/Gui/main.cpp:77
 msgctxt "QObject|"
 msgid "Show main window (default when no option is provided)."
-msgstr ""
+msgstr "Zobraziť hlavné okno (predvolené, keď nie je zadaná žiadna voľba)."
 
 #: src/Gui/main.cpp:81
 msgctxt "QObject|"
@@ -1303,7 +1314,7 @@ msgstr "profil"
 #: src/Gui/main.cpp:84
 msgctxt "QObject|"
 msgid "Mailto: URL address for composing new e-mail."
-msgstr ""
+msgstr "Mailto: URL adresa na napísanie nového e-mailu."
 
 #: src/Gui/main.cpp:85
 msgctxt "QObject|"
@@ -1319,7 +1330,7 @@ msgstr "Neočakávaný argument '%1'."
 #: src/Gui/main.cpp:113
 msgctxt "QObject|"
 msgid "Unexpected arguments."
-msgstr ""
+msgstr "Neočakávané argumenty."
 
 #: src/Gui/main.cpp:163
 #, qt-format
@@ -1512,6 +1523,8 @@ msgid ""
 "> ...\n"
 "\n"
 msgstr ""
+"Dňa %1 odoslal %2 zašifrovanú správu:\n"
+"> ...\n"
 
 #: src/Gui/MessageView.cpp:370
 #, qt-format
@@ -1572,7 +1585,7 @@ msgstr "<hr/><b>Adresár kontaktov:</b><br/>"
 #: src/Gui/OneEnvelopeAddress.cpp:141
 msgctxt "OneEnvelopeAddress|"
 msgid "Copy e-mail address"
-msgstr ""
+msgstr "Kopírovať e-mailovú adresu"
 
 #: src/Gui/OneEnvelopeAddress.cpp:146
 msgctxt "OneEnvelopeAddress|"
@@ -1706,12 +1719,12 @@ msgstr "Upozornenia"
 #: src/Gui/SettingsCachePage.ui:112
 msgctxt "CachePage|"
 msgid "Only the INBOX folder will be included for new message checking"
-msgstr ""
+msgstr "Na kontrolu nových správ bude zahrnutý iba priečinok INBOX"
 
 #: src/Gui/SettingsCachePage.ui:115
 msgctxt "CachePage|"
 msgid "&INBOX Only"
-msgstr ""
+msgstr "Iba &INBOX"
 
 #: src/Gui/SettingsCachePage.ui:122
 msgctxt "CachePage|"
@@ -1719,11 +1732,14 @@ msgid ""
 "This might result in extremely slow operation in certain scenarios with "
 "shared mailboxes, rich folder hierarchies, or IMAP proxying, for example."
 msgstr ""
+"Toto môže viesť k extrémne pomalej operácii v určitých scenároch so "
+"zdieľanými schránkami, bohatou hierarchiou priečinkov alebo veľkým počtom "
+"správ (ale predovšetkým odbery môžu pomôcť so zdieľanými schránkami)."
 
 #: src/Gui/SettingsCachePage.ui:125
 msgctxt "CachePage|"
 msgid "&All Mailboxes (use with care)"
-msgstr ""
+msgstr "&Všetky schránky (používajte opatrne)"
 
 #: src/Gui/SettingsCachePage.ui:132
 msgctxt "CachePage|"
@@ -1732,6 +1748,9 @@ msgid ""
 "notifications. To subscribe a mailbox, use the context menu in the mailbox "
 "view."
 msgstr ""
+"E-mailové priečinky, ktoré sú označené ako odoberané, budú zahrnuté do "
+"oznámení. Na odoberanie schránky kliknite na ňu pravým tlačidlom myši a "
+"vyberte možnosť Odoberať z kontextovej ponuky."
 
 #: src/Gui/SettingsCachePage.ui:135
 msgctxt "CachePage|"
@@ -1766,7 +1785,7 @@ msgstr "&SMTP"
 #: src/Gui/SettingsDialog.cpp:96
 msgctxt "Gui::SettingsDialog|"
 msgid "Favorite &tags"
-msgstr ""
+msgstr "Obľúbené &značky"
 
 #: src/Gui/SettingsDialog.cpp:212
 msgctxt "Gui::SettingsDialog|"
@@ -1812,7 +1831,7 @@ msgstr "Zakázať heslá"
 #: src/Gui/SettingsDialog.cpp:403
 msgctxt "Gui::GeneralPage|"
 msgid "Disable spell checking"
-msgstr ""
+msgstr "Zakázať kontrolu pravopisu"
 
 #: src/Gui/SettingsDialog.cpp:419
 msgctxt "Gui::GeneralPage|"
@@ -2098,11 +2117,14 @@ msgid ""
 "override the action using modifier keys when dropping (control: copy, shift: "
 "move).</p>"
 msgstr ""
+"<p>Ak je povolené, môžete nastaviť predvolenú akciu presunutia pre strom "
+"schránok.</p><p>Ak je zakázané, budete sa opýtaní zakaždým, keď presuniete "
+"správu do schránky.</p>"
 
 #: src/Gui/SettingsGeneralPage.ui:168
 msgctxt "GeneralPage|"
 msgid "Default drop action for the mbox tree"
-msgstr ""
+msgstr "Predvolená akcia presunutia pre strom mbox"
 
 #: src/Gui/SettingsGeneralPage.ui:199
 msgctxt "GeneralPage|"
@@ -2682,7 +2704,7 @@ msgstr "Hľadať..."
 #: src/Gui/SimplePartWidget.cpp:89
 msgctxt "Gui::SimplePartWidget|"
 msgid "Copy e-mail address"
-msgstr ""
+msgstr "Kopírovať e-mailovú adresu"
 
 #: src/Gui/SimplePartWidget.cpp:130
 msgctxt "Gui::SimplePartWidget|"
@@ -2778,6 +2800,10 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
+"Modul sa nepodarilo načítať, preto môže byť stratená nejaká funkcionalita. "
+"Možno budete chcieť aktualizovať váš systém alebo nahlásiť chybu.\n"
+"\n"
+"%1"
 
 #: src/Gui/Window.cpp:238
 msgctxt "Gui::MainWindow|"
@@ -2967,7 +2993,7 @@ msgstr "Zatvoriť samostatné okno správy"
 #: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
-msgstr ""
+msgstr "Otvoriť správu v novom okne..."
 
 #: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
@@ -2992,12 +3018,12 @@ msgstr "Originálna veľkosť"
 #: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
-msgstr ""
+msgstr "Presunúť zameranie na zoznam schránok"
 
 #: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
-msgstr ""
+msgstr "Presunúť zameranie na zoznam správ"
 
 #: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
@@ -3007,47 +3033,47 @@ msgstr "Rýchle hľadanie"
 #: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
-msgstr ""
+msgstr "Označiť &1. značkou"
 
 #: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
-msgstr ""
+msgstr "Označiť &2. značkou"
 
 #: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
-msgstr ""
+msgstr "Označiť &3. značkou"
 
 #: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
-msgstr ""
+msgstr "Označiť &4. značkou"
 
 #: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
-msgstr ""
+msgstr "Označiť &5. značkou"
 
 #: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
-msgstr ""
+msgstr "Označiť &6. značkou"
 
 #: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
-msgstr ""
+msgstr "Označiť &7. značkou"
 
 #: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
-msgstr ""
+msgstr "Označiť &8. značkou"
 
 #: src/Gui/Window.cpp:282
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
-msgstr ""
+msgstr "Označiť &9. značkou"
 
 #: src/Gui/Window.cpp:310
 msgctxt "Gui::MainWindow|"
@@ -3306,7 +3332,7 @@ msgstr "IMAP úlohy"
 #: src/Gui/Window.cpp:856
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
-msgstr ""
+msgstr "Strom MIME"
 
 #: src/Gui/Window.cpp:867
 msgctxt "Gui::MainWindow|"
@@ -3529,7 +3555,7 @@ msgstr "Aktivujem kompresiu..."
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
-msgstr ""
+msgstr "<li>%1: podporované</li>"
 
 #: src/Gui/Window.cpp:2157
 #, qt-format
@@ -3657,6 +3683,8 @@ msgid ""
 "%1\n"
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
+"%1\n"
+"<p>Nasledujúce schopnosti sú momentálne oznamované:</p>"
 
 #: src/Gui/Window.cpp:2553
 #, qt-format
@@ -3685,7 +3713,7 @@ msgstr "%1 - Trojitá"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
-msgstr ""
+msgstr "Označiť značkou „%1\""
 
 #: src/Imap/ConnectionState.cpp:35
 msgctxt "QObject|"
@@ -4518,13 +4546,13 @@ msgstr "Požiadané o ukončenie fungovania"
 #, qt-format
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "The COPY operation has failed: %1"
-msgstr ""
+msgstr "Operácia COPY zlyhala: %1"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:123
 #, qt-format
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "The UID MOVE operation has failed: %1"
-msgstr ""
+msgstr "Operácia UID MOVE zlyhala: %1"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:133
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
@@ -5109,6 +5137,8 @@ msgid ""
 "<p>Cannot send message due to an SSL/TLS error</p>\n"
 "%1"
 msgstr ""
+"<p>Nie je možné odoslať správu kvôli chybe SSL/TLS</p>\n"
+"%1"
 
 #: src/MSA/SMTP.cpp:139
 msgctxt "MSA::SMTP|"
