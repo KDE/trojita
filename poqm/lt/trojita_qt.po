@@ -5136,12 +5136,12 @@ msgstr "Trojitá nuostatos"
 #: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:129
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
 msgid "Secure storage via QtKeychain"
-msgstr ""
+msgstr "Saugi saugykla per QtKeychain"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr ""
+msgstr "Sonnet"
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
@@ -5169,7 +5169,7 @@ msgstr "Pradedamas procesas „%1 %2“"
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid "The process has exited with return code %1."
-msgstr ""
+msgstr "Procesas užbaigė darbą su grįžties kodu %1."
 
 #: src/Streams/IODeviceSocket.cpp:205
 #, qt-format
@@ -5179,6 +5179,9 @@ msgid ""
 "\n"
 "%2"
 msgstr ""
+"Procesas užbaigė darbą su grįžties kodu %1:\n"
+"\n"
+"%2"
 
 #: src/Streams/IODeviceSocket.cpp:258
 msgctxt "Streams::SslTlsSocket|"
@@ -5189,19 +5192,19 @@ msgstr "Ryšys nutrauktas"
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid " (via proxy %1)"
-msgstr ""
+msgstr " (per įgaliotąjį serverį %1)"
 
 #: src/Streams/IODeviceSocket.cpp:286
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid " (via SOCKS5 proxy %1)"
-msgstr ""
+msgstr " (per SOCKS5 įgaliotąjį serverį %1)"
 
 #: src/Streams/IODeviceSocket.cpp:289
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid " (via HTTP proxy %1)"
-msgstr ""
+msgstr " (per HTTP įgaliotąjį serverį %1)"
 
 #: src/Streams/IODeviceSocket.cpp:294
 #, qt-format
@@ -5228,13 +5231,13 @@ msgstr "Prisijungta"
 #: src/Streams/IODeviceSocket.cpp:311
 msgctxt "Streams::SslTlsSocket|"
 msgid "Negotiating encryption..."
-msgstr ""
+msgstr "Derinamas šifravimas..."
 
 #: src/Streams/IODeviceSocket.cpp:316
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid "Socket is disconnected: %1"
-msgstr ""
+msgstr "Lizdas yra atjungtas: %1"
 
 #: src/Streams/IODeviceSocket.cpp:328 src/Streams/IODeviceSocket.cpp:380
 #, qt-format
@@ -5242,7 +5245,7 @@ msgctxt "Streams::SslTlsSocket|"
 msgid ""
 "The underlying socket is having troubles when processing connection to %1:"
 "%2: %3"
-msgstr ""
+msgstr "Esminiam lizdui kilo problemų apdorojant ryšį su %1:%2: %3"
 
 #: src/UiUtils/Formatting.cpp:40
 msgctxt "Formatting|"
@@ -5309,6 +5312,11 @@ msgid ""
 "<b>SHA1</b>: %4,<br/>\n"
 "<b>MD5</b>: %5</li>"
 msgstr ""
+"<li><b>Bendrinis pavadinimas</b>: %1,<br/>\n"
+"<b>Organizacija</b>: %2,<br/>\n"
+"<b>Serijos numeris</b>: %3,<br/>\n"
+"<b>SHA1</b>: %4,<br/>\n"
+"<b>MD5</b>: %5</li>"
 
 #: src/UiUtils/Formatting.cpp:145 src/UiUtils/Formatting.cpp:146
 msgctxt "Formatting|"
@@ -5318,7 +5326,7 @@ msgstr ", "
 #: src/UiUtils/Formatting.cpp:152
 msgctxt "Formatting|"
 msgid "<p>The remote side doesn't have a certificate.</p>\n"
-msgstr ""
+msgstr "<p>Nuotolinė šalis neturi liudijimo.</p>\n"
 
 #: src/UiUtils/Formatting.cpp:153
 #, qt-format
@@ -5353,11 +5361,13 @@ msgid ""
 "<p>The connection triggered the following SSL errors:</p>\n"
 "<ul>%1</ul>\n"
 msgstr ""
+"<p>Ryšys sukėlė šias SSL klaidas:</p>\n"
+"<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:175
 msgctxt "Formatting|"
 msgid "Different SSL certificate"
-msgstr ""
+msgstr "Skiriasi SSL liudijimas"
 
 #: src/UiUtils/Formatting.cpp:176
 #, qt-format
@@ -5369,11 +5379,17 @@ msgid ""
 "%1\n"
 "<p>Would you like to connect and remember the new certificate?</p>"
 msgstr ""
+"<p>Pasikeitė SSL liudijimo viešasis raktas. Taip turėtų nutikti tik tuo "
+"atveju, jei nuotoliniame serveryje buvo nutikęs tam tikras su saugumu "
+"susijęs incidentas. Jūsų sistemos konfigūracija nustatyta taip, kad vis tiek "
+"priimtų tokius liudijimus.</p>\n"
+"%1\n"
+"<p>Ar norėtumėte prisijungti ir prisiminti naująjį liudijimą?</p>"
 
 #: src/UiUtils/Formatting.cpp:183
 msgctxt "Formatting|"
 msgid "SSL certificate looks fishy"
-msgstr ""
+msgstr "SSL liudijimas atrodo įtartinai"
 
 #: src/UiUtils/Formatting.cpp:184
 #, qt-format
@@ -5386,11 +5402,17 @@ msgid ""
 "%2\n"
 "<p>Would you like to connect anyway and remember the new certificate?</p>"
 msgstr ""
+"<p>Nuo paskutinio karto pasikeitė IMAP serverio SSL liudijimo viešasis "
+"raktas, ir jūsų sistema netiki, kad naujasis liudijimas yra autentiškas.</"
+"p>\n"
+"%1\n"
+"%2\n"
+"<p>Ar norėtumėte vis tiek prisijungti ir prisiminti naująjį liudijimą?</p>"
 
 #: src/UiUtils/Formatting.cpp:193 src/UiUtils/Formatting.cpp:200
 msgctxt "Formatting|"
 msgid "Accept SSL connection?"
-msgstr ""
+msgstr "Priimti SSL ryšį?"
 
 #: src/UiUtils/Formatting.cpp:194
 #, qt-format
@@ -5403,6 +5425,12 @@ msgid ""
 "<p>Would you like to connect and remember this certificate's public key for "
 "the next time?</p>"
 msgstr ""
+"<p>Tai yra pirmasis kartas, kai prisijungiate prie šio IMAP serverio; "
+"sistema pasitiki šiuo liudijimu.</p>\n"
+"%1\n"
+"%2\n"
+"<p>Ar norėtumėte prisijungti ir prisiminti šio liudijimo viešąjį raktą kitam "
+"kartui?</p>"
 
 #: src/UiUtils/Formatting.cpp:201
 #, qt-format
@@ -5416,6 +5444,13 @@ msgid ""
 "<p>Would you like to connect and remember this certificate's public key for "
 "the next time?</p>"
 msgstr ""
+"<p>Tai yra pirmasis kartas, kai prisijungiate prie šio IMAP serverio, o "
+"atliekant serverio liudijimo patikrą, buvo nustatyti pažeidimai.</p>\n"
+"%1\n"
+"\n"
+"%2\n"
+"<p>Ar norėtumėte prisijungti ir prisiminti šio liudijimo viešąjį raktą kitam "
+"kartui?</p>"
 
 #: src/UiUtils/PartWalker_impl.h:44
 msgctxt "PartWalker|"
@@ -5424,6 +5459,9 @@ msgid ""
 "To prevent stack exhaustion and your head from exploding, only\n"
 "the top-most thousand items or so are shown."
 msgstr ""
+"Šiame laiške yra per giliai vienas į kitą įdėtų MIME laiško dalių.\n"
+"Tam, kad būtų išvengta dėklo išsekimo ir jūsų galvos sprogimo,\n"
+"yra rodomi tik maždaug tūkstantis aukščiausių elementų"
 
 #: src/UiUtils/PasswordWatcher.cpp:82
 #, qt-format
@@ -5440,28 +5478,28 @@ msgstr "Nepavyksta perskaityti slaptažodį per įskiepį %1"
 #: src/UiUtils/PasswordWatcher.cpp:89 src/UiUtils/PasswordWatcher.cpp:175
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password plugin is not available."
-msgstr ""
+msgstr "Slaptažodžių įskiepis neprieinamas."
 
 #: src/UiUtils/PasswordWatcher.cpp:120
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password reading failed: %1"
-msgstr ""
+msgstr "Nepavyko perskaityti slaptažodžio: %1"
 
 #: src/UiUtils/PasswordWatcher.cpp:149
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password writing failed: %1"
-msgstr ""
+msgstr "Nepavyko rašyti slaptažodžio: %1"
 
 #: src/UiUtils/PasswordWatcher.cpp:168
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Saving password from plugin %1..."
-msgstr ""
+msgstr "Įrašomas slaptažodis iš įskiepio %1..."
 
 #: src/UiUtils/PasswordWatcher.cpp:172
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
-msgstr ""
+msgstr "Nepavyksta įrašyti slaptažodį per įskiepį %1"
