@@ -430,7 +430,7 @@ msgstr "Nie je možné overiť kvôli chýbajúcemu kľúču alebo certifikátu.
 #: src/Cryptography/GpgMe++.cpp:472
 msgctxt "GpgMePart|"
 msgid "The CRL (or an equivalent mechanism) is not available."
-msgstr "The CRL (or an equivalent mechanism) nie je dostupný."
+msgstr "CRL (alebo ekvivalentný mechanizmus) nie je dostupný."
 
 #: src/Cryptography/GpgMe++.cpp:476
 msgctxt "GpgMePart|"
@@ -595,8 +595,8 @@ msgid ""
 "Cannot decrypt. Some data are not available, perhaps due to an offline "
 "network connection."
 msgstr ""
-"Nie je možné decrypt. Some data are not available, perhaps due to an offline "
-"network connection."
+"Nie je možné dešifrovať. Niektoré údaje nie sú dostupné, možno z dôvodu "
+"offline sieťového pripojenia."
 
 #: src/Cryptography/GpgMe++.cpp:813
 #, qt-format
@@ -949,7 +949,8 @@ msgstr "Nezadali ste nijaký predmet. Nemožno poslať takýto mail, ľutujeme."
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
-"Nie je možné prepare this e-mail for sending: some parts are not available"
+"Nie je možné pripraviť tento e-mail na odoslanie: niektoré časti nie sú "
+"dostupné"
 
 #: src/Gui/ComposeWidget.cpp:922 src/Gui/ComposeWidget.cpp:1809
 #, qt-format
@@ -2337,7 +2338,7 @@ msgstr ""
 "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Heslo pre použitie pri "
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Heslo na použitie pri "
 "pripojení k serveru IMAP.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
@@ -2353,8 +2354,8 @@ msgstr ""
 "p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Ak heslo neuložíte, "
-"Trojitá vás výzve na jeho zadanie, keď to potrebuje, ale len raz počas "
-"sedenia.</p></body></html>"
+"Trojitá vás vyzve na jeho zadanie, keď ho bude potrebovať, ale len raz za "
+"sedenie.</p></body></html>"
 
 #: src/Gui/SettingsImapPage.ui:204
 msgctxt "ImapPage|"
@@ -3971,9 +3972,9 @@ msgid ""
 "the details:</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 msgstr ""
-"<p>IMAP server nám zaslal odpoveď, ktorú nedokážeme rozanalyzovať. To by "
-"mohlo znamenať buď, že je chyba v kóde aplikácie Trojitá, alebo, že IMAP "
-"server, ku ktorému ste pripojiť, je pokazený. Prosím, v každom prípade to "
+"<p>Server IMAP nám zaslal odpoveď, ktorú nedokážeme spracovať. To by mohlo "
+"znamenať buď to, že je chyba v kóde aplikácie Trojitá, alebo to, že server "
+"IMAP, ku ktorému ste pripojení, je chybný. Prosím, v každom prípade to "
 "oznámte ako chybu. Tu sú podrobnosti:</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 
@@ -5591,9 +5592,10 @@ msgid ""
 msgstr ""
 "<p>Verejný kľúč certifikátu SSL sa zmenil. Toto by sa malo stať iba v "
 "prípade bezpečnostného incidentu na vzdialenom serveri. Vaša systémová "
-"konfigurácia je rovnako nastavená na prijatie takýchto certifikátov.</p>\n"
+"konfigurácia je nastavená na prijatie takýchto certifikátov aj napriek tomu."
+"</p>\n"
 "%1\n"
-"<p>Chceli by ste sa pripojiť a zachovať v pamäti tento certifikát?</p>"
+"<p>Chceli by ste sa pripojiť a zapamätať si nový certifikát?</p>"
 
 #: src/UiUtils/Formatting.cpp:183
 msgctxt "Formatting|"
