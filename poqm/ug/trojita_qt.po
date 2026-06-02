@@ -4,14 +4,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-08-26 01:57+0000\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.9\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -23,54 +24,39 @@ msgid ""
 msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:157
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File does not exist"
 msgctxt "MessageComposer|"
 msgid "File does not exist"
 msgstr "ھۆججەت مەۋجۇت ئەمەس"
 
 #: src/Composer/ComposerAttachments.cpp:160
-#, fuzzy
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "File does not exist"
 msgctxt "MessageComposer|"
 msgid "File is not readable"
-msgstr "ھۆججەت مەۋجۇت ئەمەس"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:163
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::TaskPresentationModel|"
-#| msgid "%1: %2"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
-msgstr "%1: %2"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:260
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "MessageComposer|"
 msgid "Message not available"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:263
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%1 (%2)"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(%2)"
-msgstr "%1 (%2)"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:273
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP message %1"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:384
 #, qt-format
@@ -79,9 +65,7 @@ msgid "IMAP part %1"
 msgstr ""
 
 #: src/Composer/ComposerAttachments.cpp:396
-#, fuzzy, qt-format
-#| msgctxt "Composer::MessageComposer|"
-#| msgid "%1, %2"
+#, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
 msgstr "%1، %2"
@@ -116,7 +100,7 @@ msgstr "ئېلخەت"
 #: src/Composer/SenderIdentitiesModel.cpp:98
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Organization"
-msgstr "ئورگان"
+msgstr "تەشكىل"
 
 #: src/Composer/SenderIdentitiesModel.cpp:100
 msgctxt "Composer::SenderIdentitiesModel|"
@@ -129,12 +113,9 @@ msgid "Preparing to send"
 msgstr ""
 
 #: src/Composer/Submission.cpp:118
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "Submission|"
 msgid "Creating message"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Composer/Submission.cpp:123
 msgctxt "Submission|"
@@ -147,36 +128,24 @@ msgid "Preparing message for delivery"
 msgstr ""
 
 #: src/Composer/Submission.cpp:133
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "Submission|"
 msgid "Submitting message"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Composer/Submission.cpp:138
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "Submission|"
 msgid "Updating message keywords"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Composer/Submission.cpp:143
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Submission|"
 msgid "Message sent"
 msgstr "ئۇچۇر يوللاندى"
 
 #: src/Composer/Submission.cpp:150
-#, fuzzy
-#| msgctxt "Imap::Mailbox::UidSubmitTask|"
-#| msgid "Sending mail"
 msgctxt "Submission|"
 msgid "Sending failed"
-msgstr "خەت يوللاش"
+msgstr ""
 
 #: src/Composer/Submission.cpp:180
 msgctxt "Submission|"
@@ -188,12 +157,9 @@ msgid ""
 msgstr ""
 
 #: src/Composer/Submission.cpp:195
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Submission|"
 msgid "Some data are not available yet"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Composer/Submission.cpp:211
 #, qt-format
@@ -234,20 +200,14 @@ msgid "Waiting for data..."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:311
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMePart|"
 msgid "Encrypted; some signature: missing key"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:311
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Some signature: missing key"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:312
 #, qt-format
@@ -261,7 +221,7 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:323
 msgctxt "GpgMePart|"
 msgid "Internal error"
-msgstr ""
+msgstr "ئىچكى خاتالىق"
 
 #: src/Cryptography/GpgMe++.cpp:324
 #, qt-format
@@ -270,20 +230,14 @@ msgid "Error when verifying signature: cannot retrieve key %1: %2"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:374
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "GpgMePart|"
 msgid "Encrypted, verified signature"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:374
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Verified signature"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:375
 #, qt-format
@@ -292,12 +246,9 @@ msgid "Verified signature from %1 on %2"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:380
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMePart|"
 msgid "Encrypted, signed by stranger"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:380
 msgctxt "GpgMePart|"
@@ -314,76 +265,54 @@ msgid ""
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:388
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:388
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Bad signature"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:391
-#, fuzzy, qt-format
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature: %1"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:392
-#, fuzzy, qt-format
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:394
-#, fuzzy, qt-format
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:397
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:397
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:400
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Encrypted, bad signature by stranger: %1"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:401
-#, fuzzy, qt-format
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by stranger: %1"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:403
 #, qt-format
@@ -392,20 +321,14 @@ msgid "Bad signature by someone else: %1 on %2."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:419
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:419
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Some signature"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:420
 #, qt-format
@@ -414,20 +337,14 @@ msgid "Unknown signature from %1 on %2"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:424
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMePart|"
 msgid "Encrypted, some signature by stranger"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:424
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Some signature by stranger"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:425
 #, qt-format
@@ -436,20 +353,14 @@ msgid "Unknown signature by somebody else: %1 on %2"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:433
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "GpgMePart|"
 msgid "Encrypted, semi-trusted signature"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:433
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMePart|"
 msgid "Semi-trusted signature"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:434
 #, qt-format
@@ -551,12 +462,10 @@ msgid "Trust chain:"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:529
-#, fuzzy, qt-format
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
+#, qt-format
 msgctxt "GpgMePart|"
 msgid "%1(Unavailable)"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:533
 #, qt-format
@@ -577,12 +486,9 @@ msgid "Signature invalidity reason: %1"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:614
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMeSigned|"
 msgid "Malformed Signed Message"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:615
 #, qt-format
@@ -591,12 +497,9 @@ msgid "Expected 2 parts, but found %1."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:619
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:620
 #, qt-format
@@ -605,20 +508,14 @@ msgid "Failed to initialize GpgME (%1)"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:640
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:652
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "GpgMeSigned|"
 msgid "Data Unavailable"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:653
 msgctxt "GpgMeSigned|"
@@ -627,28 +524,19 @@ msgid ""
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:673
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Signature"
 msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
-msgstr "ئىمزا"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:698
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:739
 #, qt-format
@@ -668,20 +556,14 @@ msgid "Failed to initialize GpgME (%1)"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:785 src/Cryptography/GpgMe++.cpp:921
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:795
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "GpgMeEncrypted|"
 msgid "Data Unavailable"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:796
 msgctxt "GpgMeEncrypted|"
@@ -697,20 +579,14 @@ msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:819
-#, fuzzy
-#| msgctxt "MailboxListPage|"
-#| msgid "Loading..."
 msgctxt "GpgMeEncrypted|"
 msgid "Decrypting..."
-msgstr "ئوقۇۋاتىدۇ…"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:862
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:865
 #, qt-format
@@ -719,12 +595,9 @@ msgid "Decryption error: %1"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:868
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr "شىفىرلانغان ئۇچۇر"
 
 #: src/Cryptography/GpgMe++.cpp:874
 msgctxt "GpgMeEncrypted|"
@@ -744,20 +617,16 @@ msgid "Cannot extract recipient %1: %2"
 msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:891
-#, fuzzy, qt-format
-#| msgctxt "ShortcutConfigWidget|"
-#| msgid "Action"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
-msgstr "مەشغۇلات"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:895
-#, fuzzy, qt-format
-#| msgctxt "ShortcutConfigWidget|"
-#| msgid "Action"
+#, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
-msgstr "مەشغۇلات"
+msgstr ""
 
 #: src/Cryptography/GpgMe++.cpp:901
 #, qt-format
@@ -766,12 +635,9 @@ msgid "Original filename: %1"
 msgstr ""
 
 #: src/Gui/AboutDialog.ui:14
-#, fuzzy
-#| msgctxt "Gui::ShortcutConfigDialog|"
-#| msgid "Trojitá"
 msgctxt "AboutDialog|"
 msgid "About Trojitá"
-msgstr "Trojitá"
+msgstr ""
 
 #: src/Gui/AboutDialog.ui:152
 msgctxt "AboutDialog|"
@@ -862,25 +728,16 @@ msgid "Paste as Quoted Text"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:127
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Cancel"
 msgctxt "QWidget|"
 msgid "Cancel..."
-msgstr "ئەمەلدىن قالدۇر"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:127
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Cancel"
 msgctxt "QWidget|"
 msgid "Cancel"
-msgstr "ئەمەلدىن قالدۇر"
+msgstr "ۋاز كەچ"
 
 #: src/Gui/ComposeWidget.cpp:196
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Send"
 msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "يوللا"
@@ -903,9 +760,6 @@ msgid "Threaded"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:359
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Error"
 msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "خاتالىق"
@@ -936,12 +790,9 @@ msgid "Cannot Determine Recipients"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:567
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Send"
 msgctxt "ComposeWidget|"
 msgid "Sender"
-msgstr "يوللا"
+msgstr "يوللىغۇچى"
 
 #: src/Gui/ComposeWidget.cpp:573
 #, qt-format
@@ -950,20 +801,14 @@ msgid "Resend Mail: %1"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:573
-#, fuzzy
-#| msgctxt "Imap::Mailbox::PrettyMsgListModel|"
-#| msgid "(no subject)"
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(ماۋزۇسىز)"
 
 #: src/Gui/ComposeWidget.cpp:587
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:590
 msgctxt "ComposeWidget|"
@@ -971,12 +816,9 @@ msgid "The Message-ID header is missing"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:593
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:596
 msgctxt "ComposeWidget|"
@@ -996,9 +838,6 @@ msgid ""
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:691
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Authentication Required"
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "كىملىك دەلىللەش زۆرۈر"
@@ -1010,12 +849,9 @@ msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:726
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save as"
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
-msgstr "باشقا ئاتتا ساقلا"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:727
 msgctxt "ComposeWidget|"
@@ -1036,17 +872,11 @@ msgid "Drafts"
 msgstr "دەسلەپكى نۇسخا"
 
 #: src/Gui/ComposeWidget.cpp:750
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Save as"
 msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "باشقا ئاتتا ساقلا"
 
 #: src/Gui/ComposeWidget.cpp:751
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Drafts"
 msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "دەسلەپكى نۇسخا"
@@ -1086,25 +916,16 @@ msgid "This mail will be marked as a response<hr/>%1"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1100
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "تاپشۇرۇپ ئالغۇچى"
 
 #: src/Gui/ComposeWidget.cpp:1101
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "كۆچۈرۈپ يوللا"
 
 #: src/Gui/ComposeWidget.cpp:1102
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "مەخپىي كۆچۈرۈپ يوللا"
@@ -1146,30 +967,25 @@ msgid "<br/>"
 msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1853
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Compose Mail"
 msgctxt "ComposeWidget|"
 msgid "Compose Mail"
-msgstr "Compose Mail"
+msgstr ""
 
 #: src/Gui/ComposeWidget.cpp:1855
-#, fuzzy, qt-format
-#| msgctxt "ComposeWidget|"
-#| msgid "Compose Mail"
+#, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
-msgstr "Compose Mail"
+msgstr ""
 
 #: src/Gui/ComposeWidget.ui:51
 msgctxt "ComposeWidget|"
 msgid "From"
-msgstr "يوللىغۇچى"
+msgstr "كىمدىن"
 
 #: src/Gui/ComposeWidget.ui:77
 msgctxt "ComposeWidget|"
 msgid "Subject"
-msgstr "تېما"
+msgstr "ماۋزۇ"
 
 #: src/Gui/ComposeWidget.ui:121
 msgctxt "ComposeWidget|"
@@ -1213,9 +1029,6 @@ msgid "Manage Tag"
 msgstr ""
 
 #: src/Gui/EditFavoriteTag.ui:29
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Name"
 msgctxt "EditFavoriteTag|"
 msgid "Name"
 msgstr "ئاتى"
@@ -1223,7 +1036,7 @@ msgstr "ئاتى"
 #: src/Gui/EditFavoriteTag.ui:39
 msgctxt "EditFavoriteTag|"
 msgid "Color"
-msgstr ""
+msgstr "رەڭ"
 
 #: src/Gui/EditIdentity.ui:20
 msgctxt "EditIdentity|"
@@ -1253,7 +1066,7 @@ msgstr "ئىمزا"
 #: src/Gui/EmbeddedWebView.cpp:100
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Ctrl+C"
-msgstr "Ctrl+C"
+msgstr ""
 
 #: src/Gui/EmbeddedWebView.cpp:361
 msgctxt "Gui::EmbeddedWebView|"
@@ -1271,12 +1084,9 @@ msgid "Black on white, forced"
 msgstr ""
 
 #: src/Gui/EnvelopeView.cpp:105
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "From"
 msgctxt "Gui::EnvelopeView|"
 msgid "From"
-msgstr "يوللىغۇچى"
+msgstr "كىمدىن"
 
 #: src/Gui/EnvelopeView.cpp:110
 msgctxt "Gui::EnvelopeView|"
@@ -1284,12 +1094,9 @@ msgid "sent via"
 msgstr ""
 
 #: src/Gui/EnvelopeView.cpp:112
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Send"
 msgctxt "Gui::EnvelopeView|"
 msgid "Sender"
-msgstr "يوللا"
+msgstr "يوللىغۇچى"
 
 #: src/Gui/EnvelopeView.cpp:118
 msgctxt "Gui::EnvelopeView|"
@@ -1302,9 +1109,6 @@ msgid "Reply-To"
 msgstr ""
 
 #: src/Gui/EnvelopeView.cpp:131
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "Gui::EnvelopeView|"
 msgid "To"
 msgstr "تاپشۇرۇپ ئالغۇچى"
@@ -1315,9 +1119,6 @@ msgid "Cc'd to"
 msgstr ""
 
 #: src/Gui/EnvelopeView.cpp:138
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "Gui::EnvelopeView|"
 msgid "Cc"
 msgstr "كۆچۈرۈپ يوللا"
@@ -1328,9 +1129,6 @@ msgid "Bcc'd to"
 msgstr ""
 
 #: src/Gui/EnvelopeView.cpp:146
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "Gui::EnvelopeView|"
 msgid "Bcc"
 msgstr "مەخپىي كۆچۈرۈپ يوللا"
@@ -1339,7 +1137,7 @@ msgstr "مەخپىي كۆچۈرۈپ يوللا"
 #, qt-format
 msgctxt "Gui::EnvelopeView|"
 msgid "<a href=\"%1\">%2</a>"
-msgstr "<a href=\"%1\">%2</a>"
+msgstr ""
 
 #: src/Gui/EnvelopeView.cpp:172
 msgctxt "Gui::EnvelopeView|"
@@ -1354,7 +1152,7 @@ msgstr ""
 #: src/Gui/ExternalElementsWidget.cpp:35
 msgctxt "Gui::ExternalElementsWidget|"
 msgid "Load"
-msgstr "يۈك"
+msgstr "يۈكلە"
 
 #: src/Gui/ExternalElementsWidget.cpp:36
 msgctxt "Gui::ExternalElementsWidget|"
@@ -1400,7 +1198,7 @@ msgstr "ئالدىنقى(&P)"
 #: src/Gui/FindBar.cpp:86
 msgctxt "Gui::FindBar|"
 msgid "Shift+F3"
-msgstr "Shift+F3"
+msgstr ""
 
 #: src/Gui/ImapInfoDialog.ui:14
 msgctxt "ImapInfoDialog|"
@@ -1419,12 +1217,9 @@ msgid "Load %1 (%2)"
 msgstr ""
 
 #: src/Gui/MailBoxTreeView.cpp:143
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Move here"
 msgctxt "MailBoxTreeView|"
 msgid "Move here\tShift"
-msgstr "بۇ جايغا يۆتكە"
+msgstr ""
 
 #: src/Gui/MailBoxTreeView.cpp:144
 msgctxt "MailBoxTreeView|"
@@ -1432,12 +1227,9 @@ msgid "Copy here\tCtrl"
 msgstr ""
 
 #: src/Gui/MailBoxTreeView.cpp:145
-#, fuzzy
-#| msgctxt "Gui::MailBoxTreeView|"
-#| msgid "Cancel"
 msgctxt "MailBoxTreeView|"
 msgid "Cancel"
-msgstr "ئەمەلدىن قالدۇر"
+msgstr "ۋاز كەچ"
 
 #: src/Gui/main.cpp:60
 #, qt-format
@@ -1483,13 +1275,13 @@ msgstr ""
 #: src/Gui/main.cpp:85
 msgctxt "QObject|"
 msgid "[url]"
-msgstr ""
+msgstr "[url]"
 
 #: src/Gui/main.cpp:108
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected argument '%1'."
-msgstr ""
+msgstr "كۈتۈلمىگەن ئەركىن ئۆزگەرگۈچى «%1»."
 
 #: src/Gui/main.cpp:113
 msgctxt "QObject|"
@@ -1510,20 +1302,14 @@ msgid "Message headers of UID %1 in %2"
 msgstr ""
 
 #: src/Gui/MessageHeadersWidget.cpp:55
-#, fuzzy
-#| msgctxt "Gui::SimplePartWidget|"
-#| msgid "Search..."
 msgctxt "MessageHeadersWidget|"
 msgid "Search..."
 msgstr "ئىزدە…"
 
 #: src/Gui/MessageHeadersWidget.cpp:56
-#, fuzzy
-#| msgctxt "Gui::SimplePartWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageHeadersWidget|"
 msgid "Ctrl+F"
-msgstr "Ctrl+F"
+msgstr ""
 
 #: src/Gui/MessageListWidget.cpp:51
 msgctxt "Gui::MessageListWidget|"
@@ -1557,7 +1343,7 @@ msgstr ""
 #: src/Gui/MessageListWidget.cpp:71
 msgctxt "Gui::MessageListWidget|"
 msgid "Subject"
-msgstr "تېما"
+msgstr "ماۋزۇ"
 
 #: src/Gui/MessageListWidget.cpp:74
 msgctxt "Gui::MessageListWidget|"
@@ -1637,36 +1423,24 @@ msgid ""
 msgstr ""
 
 #: src/Gui/MessageSourceWidget.cpp:58
-#, fuzzy
-#| msgctxt "Gui::SimplePartWidget|"
-#| msgid "Search..."
 msgctxt "Gui::MessageSourceWidget|"
 msgid "Search..."
 msgstr "ئىزدە…"
 
 #: src/Gui/MessageSourceWidget.cpp:59
-#, fuzzy
-#| msgctxt "Gui::SimplePartWidget|"
-#| msgid "Ctrl+F"
 msgctxt "Gui::MessageSourceWidget|"
 msgid "Ctrl+F"
-msgstr "Ctrl+F"
+msgstr ""
 
 #: src/Gui/MessageView.cpp:91
-#, fuzzy
-#| msgctxt "Gui::SimplePartWidget|"
-#| msgid "Search..."
 msgctxt "MessageView|"
 msgid "Search..."
 msgstr "ئىزدە…"
 
 #: src/Gui/MessageView.cpp:92
-#, fuzzy
-#| msgctxt "Gui::SimplePartWidget|"
-#| msgid "Ctrl+F"
 msgctxt "MessageView|"
 msgid "Ctrl+F"
-msgstr "Ctrl+F"
+msgstr ""
 
 #: src/Gui/MessageView.cpp:135
 msgctxt "MessageView|"
@@ -1732,20 +1506,14 @@ msgid "Flagged status"
 msgstr ""
 
 #: src/Gui/MsgListView.cpp:344
-#, fuzzy
-#| msgctxt "Gui::AttachmentView|"
-#| msgid "Save Attachment"
 msgctxt "Gui::MsgListView|"
 msgid "Attachment"
-msgstr "قوشۇلمىنى ساقلا"
+msgstr ""
 
 #: src/Gui/OneEnvelopeAddress.cpp:89
-#, fuzzy
-#| msgctxt "Gui::EnvelopeView|"
-#| msgid ", "
 msgctxt "OneEnvelopeAddress|"
 msgid ","
-msgstr "، "
+msgstr "،"
 
 #: src/Gui/OneEnvelopeAddress.cpp:130
 msgctxt "OneEnvelopeAddress|"
@@ -1771,13 +1539,13 @@ msgstr ""
 #: src/Gui/PartWidget.cpp:144
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Plaintext"
-msgstr ""
+msgstr "ساپ تېكىست"
 
 #. Translators: caption of the tab which shows a HTML version of the mail. Use some short, compact text here.
 #: src/Gui/PartWidget.cpp:147
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: src/Gui/PartWidget.cpp:153
 msgctxt "Gui::MultipartAlternativeWidget|"
@@ -1807,20 +1575,17 @@ msgstr ""
 #: src/Gui/PartWidget.cpp:211 src/Gui/PartWidget.cpp:256
 msgctxt "Gui::PartStatusWidget|"
 msgid "Show Details"
-msgstr ""
+msgstr "تەپسىلاتلارنى كۆرسەت"
 
 #: src/Gui/PartWidget.cpp:260
 msgctxt "Gui::PartStatusWidget|"
 msgid "Hide Details"
-msgstr ""
+msgstr "تەپسىلاتلارنى يوشۇر"
 
 #: src/Gui/PartWidget.cpp:386
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "Gui::MultipartSignedEncryptedWidget|"
 msgid "[Encrypted message]"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Gui/PasswordDialog.ui:14
 msgctxt "PasswordDialog|"
@@ -1845,13 +1610,11 @@ msgid "Connection %1"
 msgstr ""
 
 #: src/Gui/ProtocolLoggerWidget.cpp:174
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr[0] ""
 
 #: src/Gui/ProtocolLoggerWidget.cpp:175
 msgctxt "Gui::ProtocolLoggerWidget|"
@@ -1859,13 +1622,11 @@ msgid "were skipped because this widget was hidden."
 msgstr ""
 
 #: src/Gui/ProtocolLoggerWidget.cpp:218
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "%1 bytes"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] "%1 بايت"
+msgstr[0] ""
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -1888,12 +1649,9 @@ msgid "Store &forever"
 msgstr ""
 
 #: src/Gui/SettingsCachePage.ui:106
-#, fuzzy
-#| msgctxt "QStandardPaths|"
-#| msgid "Applications"
 msgctxt "CachePage|"
 msgid "Notifications"
-msgstr "پروگراممىلار"
+msgstr "ئۇقتۇرۇش"
 
 #: src/Gui/SettingsCachePage.ui:112
 msgctxt "CachePage|"
@@ -1933,7 +1691,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:85
 msgctxt "Gui::SettingsDialog|"
 msgid "Settings"
-msgstr "تەڭشەكلەر"
+msgstr "تەڭشەك"
 
 #: src/Gui/SettingsDialog.cpp:92
 msgctxt "Gui::SettingsDialog|"
@@ -1974,20 +1732,14 @@ msgid ""
 msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:309
-#, fuzzy
-#| msgctxt "ComposerAttachmentsList|"
-#| msgid "New Name"
 msgctxt "Gui::FavoriteTagsPage|"
 msgid "Add New Tag"
-msgstr "يېڭى ئات"
+msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:317
-#, fuzzy
-#| msgctxt "GeneralPage|"
-#| msgid "Edit"
 msgctxt "Gui::FavoriteTagsPage|"
 msgid "Edit Tag"
-msgstr "تەھرىرلەش"
+msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:400
 #, qt-format
@@ -1996,20 +1748,14 @@ msgid "Plugin not found (%1)"
 msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:401
-#, fuzzy
-#| msgctxt "PasswordInputSheet|"
-#| msgid "Password"
 msgctxt "Gui::GeneralPage|"
 msgid "Disable address book"
-msgstr "ئىم"
+msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:402
-#, fuzzy
-#| msgctxt "PasswordInputSheet|"
-#| msgid "Password"
 msgctxt "Gui::GeneralPage|"
 msgid "Disable passwords"
-msgstr "ئىم"
+msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:403
 msgctxt "Gui::GeneralPage|"
@@ -2019,12 +1765,12 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:419
 msgctxt "Gui::GeneralPage|"
 msgid "Move"
-msgstr ""
+msgstr "يۆتكە"
 
 #: src/Gui/SettingsDialog.cpp:422
 msgctxt "Gui::GeneralPage|"
 msgid "Copy"
-msgstr ""
+msgstr "كۆچۈر"
 
 #: src/Gui/SettingsDialog.cpp:501
 msgctxt "Gui::GeneralPage|"
@@ -2070,7 +1816,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:703
 msgctxt "Gui::ImapPage|"
 msgid "No encryption"
-msgstr ""
+msgstr "شىفىرلاش يوق"
 
 #: src/Gui/SettingsDialog.cpp:704
 msgctxt "Gui::ImapPage|"
@@ -2132,12 +1878,9 @@ msgid ""
 msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:1039
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Connection Error"
 msgctxt "Gui::OutgoingPage|"
 msgid "Network"
-msgstr "باغلىنىش خاتالىقى"
+msgstr "تور"
 
 #: src/Gui/SettingsDialog.cpp:1040
 msgctxt "Gui::OutgoingPage|"
@@ -2150,12 +1893,9 @@ msgid "IMAP SENDMAIL Extension"
 msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:1043
-#, fuzzy
-#| msgctxt "ShortcutConfigWidget|"
-#| msgid "Action"
 msgctxt "Gui::OutgoingPage|"
 msgid "No encryption"
-msgstr "مەشغۇلات"
+msgstr "شىفىرلاش يوق"
 
 #: src/Gui/SettingsDialog.cpp:1044
 msgctxt "Gui::OutgoingPage|"
@@ -2163,12 +1903,9 @@ msgid "Use encryption (STARTTLS)"
 msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:1045
-#, fuzzy
-#| msgctxt "ShortcutConfigWidget|"
-#| msgid "Action"
 msgctxt "Gui::OutgoingPage|"
 msgid "Force encryption (TLS)"
-msgstr "مەشغۇلات"
+msgstr ""
 
 #: src/Gui/SettingsDialog.cpp:1189
 msgctxt "Gui::OutgoingPage|"
@@ -2205,25 +1942,16 @@ msgid "ScrollArea"
 msgstr ""
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:108
-#, fuzzy
-#| msgctxt "GeneralPage|"
-#| msgid "Add"
 msgctxt "FavoriteTagsPage|"
 msgid "Add"
 msgstr "قوش"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:115
-#, fuzzy
-#| msgctxt "GeneralPage|"
-#| msgid "Edit"
 msgctxt "FavoriteTagsPage|"
 msgid "Edit"
-msgstr "تەھرىرلەش"
+msgstr "تەھرىر"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:122
-#, fuzzy
-#| msgctxt "GeneralPage|"
-#| msgid "Delete"
 msgctxt "FavoriteTagsPage|"
 msgid "Delete"
 msgstr "ئۆچۈر"
@@ -2236,7 +1964,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:93
 msgctxt "GeneralPage|"
 msgid "Start minimized"
-msgstr ""
+msgstr "كىچىكلىتىشنى باشلا"
 
 #: src/Gui/SettingsGeneralPage.ui:100
 msgctxt "GeneralPage|"
@@ -2258,13 +1986,13 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:122
 msgctxt "GeneralPage|"
 msgid " s"
-msgstr ""
+msgstr " s"
 
 #. The action will happen *after* user-provided timeout in seconds
 #: src/Gui/SettingsGeneralPage.ui:125
 msgctxt "GeneralPage|"
 msgid "after "
-msgstr ""
+msgstr "كېيىن "
 
 #: src/Gui/SettingsGeneralPage.ui:143
 msgctxt "GeneralPage|"
@@ -2313,7 +2041,7 @@ msgstr "قوش"
 #: src/Gui/SettingsGeneralPage.ui:206
 msgctxt "GeneralPage|"
 msgid "Edit"
-msgstr "تەھرىرلەش"
+msgstr "تەھرىر"
 
 #: src/Gui/SettingsGeneralPage.ui:213
 msgctxt "GeneralPage|"
@@ -2321,17 +2049,11 @@ msgid "Delete"
 msgstr "ئۆچۈر"
 
 #: src/Gui/SettingsGeneralPage.ui:227
-#, fuzzy
-#| msgctxt "OneContact|"
-#| msgid "Address"
 msgctxt "GeneralPage|"
 msgid "Addressbook"
-msgstr "ئادرېس"
+msgstr ""
 
 #: src/Gui/SettingsGeneralPage.ui:244
-#, fuzzy
-#| msgctxt "Gui::XtConnectPage|"
-#| msgid "Password"
 msgctxt "GeneralPage|"
 msgid "Passwords"
 msgstr "ئىم"
@@ -2384,12 +2106,9 @@ msgid ""
 msgstr ""
 
 #: src/Gui/SettingsImapPage.ui:55
-#, fuzzy
-#| msgctxt "ShortcutConfigWidget|"
-#| msgid "Action"
 msgctxt "ImapPage|"
 msgid "Encryption"
-msgstr "مەشغۇلات"
+msgstr "شىفىرلاش"
 
 #: src/Gui/SettingsImapPage.ui:65
 msgctxt "ImapPage|"
@@ -2562,7 +2281,7 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:309
 msgctxt "ImapPage|"
 msgid " seconds"
-msgstr ""
+msgstr " سېكۇنت"
 
 #: src/Gui/SettingsImapPage.ui:325
 msgctxt "ImapPage|"
@@ -2570,12 +2289,9 @@ msgid "Account Icon"
 msgstr ""
 
 #: src/Gui/SettingsImapPage.ui:332
-#, fuzzy
-#| msgctxt "Gui::ShortcutConfigDialog|"
-#| msgid "Trojitá"
 msgctxt "ImapPage|"
 msgid "Default Trojitá icon"
-msgstr "Trojitá"
+msgstr ""
 
 #: src/Gui/SettingsImapPage.ui:342
 msgctxt "ImapPage|"
@@ -2588,12 +2304,9 @@ msgid "&Method"
 msgstr ""
 
 #: src/Gui/SettingsOutgoingPage.ui:40
-#, fuzzy
-#| msgctxt "ShortcutConfigWidget|"
-#| msgid "Action"
 msgctxt "OutgoingPage|"
 msgid "Encryption"
-msgstr "مەشغۇلات"
+msgstr "شىفىرلاش"
 
 #: src/Gui/SettingsOutgoingPage.ui:50
 msgctxt "OutgoingPage|"
@@ -2655,23 +2368,23 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
 msgid "Configure Shortcuts"
-msgstr "تېزلەتمە سەپلىمە"
+msgstr "تېزلەتمە سەپلە"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
 msgid "Trojitá"
-msgstr "Trojitá"
+msgstr ""
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:41
 msgctxt "Gui::ShortcutConfigWidget|"
 msgid "Configure Shortcuts"
-msgstr "تېزلەتمە سەپلىمە"
+msgstr "تېزلەتمە سەپلە"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:41
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:203
 msgctxt "Gui::ShortcutConfigWidget|"
 msgid "Trojitá"
-msgstr "Trojitá"
+msgstr ""
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:177
 msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
@@ -2704,7 +2417,7 @@ msgstr ""
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:14
 msgctxt "ShortcutConfigWidget|"
 msgid "Configure Shortcuts"
-msgstr "تېزلەتمە سەپلىمە"
+msgstr "تېزلەتمە سەپلە"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:20
 msgctxt "ShortcutConfigWidget|"
@@ -2815,30 +2528,27 @@ msgstr ""
 #: src/Gui/SimplePartWidget.cpp:221
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom"
-msgstr ""
+msgstr "نىسبەت"
 
 #: src/Gui/SimplePartWidget.cpp:227
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom In"
-msgstr ""
+msgstr "يېقىنلات"
 
 #: src/Gui/SimplePartWidget.cpp:231
 msgctxt "Gui::SimplePartWidget|"
 msgid "Zoom Out"
-msgstr ""
+msgstr "يىراقلات"
 
 #: src/Gui/SimplePartWidget.cpp:235
 msgctxt "Gui::SimplePartWidget|"
 msgid "Original Size"
-msgstr ""
+msgstr "ئەسلى چوڭلۇقى"
 
 #: src/Gui/TagAddDialog.ui:14
-#, fuzzy
-#| msgctxt "ComposerAttachmentsList|"
-#| msgid "New Name"
 msgctxt "TagAddDialog|"
 msgid "Add Tags"
-msgstr "يېڭى ئات"
+msgstr "خەتكۈش قوش"
 
 #: src/Gui/TagAddDialog.ui:26
 msgctxt "TagAddDialog|"
@@ -2861,7 +2571,7 @@ msgstr ""
 #: src/Gui/TagWidget.cpp:59
 msgctxt "Gui::TagWidget|This is a verb!"
 msgid "Tag"
-msgstr ""
+msgstr "بەلگە"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
 #, qt-format
@@ -2929,7 +2639,7 @@ msgstr ""
 #: src/Gui/Window.cpp:242
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
-msgstr "Ctrl+E"
+msgstr ""
 
 #: src/Gui/Window.cpp:243
 msgctxt "Gui::MainWindow|"
@@ -3024,7 +2734,7 @@ msgstr ""
 #: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
-msgstr "Ctrl+L"
+msgstr ""
 
 #: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
@@ -3039,15 +2749,12 @@ msgstr ""
 #: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
-msgstr ""
+msgstr "ئالدىغا(&F)"
 
 #: src/Gui/Window.cpp:258
-#, fuzzy
-#| msgctxt "Gui::FindBar|"
-#| msgid "Shift+F3"
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
-msgstr "Shift+F3"
+msgstr ""
 
 #: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
@@ -3057,7 +2764,7 @@ msgstr ""
 #: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
-msgstr ""
+msgstr "ئارخىپ(&A)"
 
 #: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
@@ -3097,17 +2804,17 @@ msgstr ""
 #: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
-msgstr ""
+msgstr "يېقىنلات"
 
 #: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
-msgstr ""
+msgstr "يىراقلات"
 
 #: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
-msgstr ""
+msgstr "ئەسلى چوڭلۇقى"
 
 #: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
@@ -3120,12 +2827,9 @@ msgid "Move Focus to Message List"
 msgstr ""
 
 #: src/Gui/Window.cpp:273
-#, fuzzy
-#| msgctxt "Gui::MessageListWidget|"
-#| msgid "Quick Search"
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
-msgstr "تېز ئىزدەش"
+msgstr ""
 
 #: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
@@ -3368,15 +3072,12 @@ msgstr ""
 #: src/Gui/Window.cpp:592
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
-msgstr "Compose Mail"
+msgstr ""
 
 #: src/Gui/Window.cpp:692
-#, fuzzy
-#| msgctxt "QStandardPaths|"
-#| msgid "Application Data"
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
-msgstr "پروگرامما سانلىق-مەلۇماتى"
+msgstr "پىروگرامما(&A)"
 
 #: src/Gui/Window.cpp:694
 msgctxt "Gui::MainWindow|"
@@ -3409,12 +3110,9 @@ msgid "S&orting"
 msgstr ""
 
 #: src/Gui/Window.cpp:753
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Gui/Window.cpp:832
 #, qt-format
@@ -3425,7 +3123,7 @@ msgstr ""
 #: src/Gui/Window.cpp:841
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
-msgstr ""
+msgstr "ھەممىسى"
 
 #: src/Gui/Window.cpp:849
 msgctxt "Gui::MainWindow|"
@@ -3452,31 +3150,26 @@ msgstr[0] ""
 #: src/Gui/Window.cpp:1001
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
-msgstr "ئاخىرلاشتۇر(&Q)"
+msgstr "چېكىن(&Q)"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
 #: src/Gui/Window.cpp:1118
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
 msgid_plural " - %n unread message(s)"
-msgstr[0] "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr[0] ""
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
 #: src/Gui/Window.cpp:1121
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Offline"
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
-msgstr "توردا يوق"
+msgstr ""
 
 #: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
-msgstr "Trojitá"
+msgstr ""
 
 #: src/Gui/Window.cpp:1131
 msgctxt "Gui::MainWindow|"
@@ -3497,12 +3190,9 @@ msgid "IMAP Protocol Error"
 msgstr ""
 
 #: src/Gui/Window.cpp:1355
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Connection Error"
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
-msgstr "باغلىنىش خاتالىقى"
+msgstr "تور خاتالىقى"
 
 #: src/Gui/Window.cpp:1376
 msgctxt "Gui::MainWindow|"
@@ -3522,7 +3212,7 @@ msgstr ""
 #: src/Gui/Window.cpp:1388
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
-msgstr "توردا يوق"
+msgstr "تورسىز"
 
 #: src/Gui/Window.cpp:1434
 msgctxt "Gui::MainWindow|"
@@ -3631,15 +3321,12 @@ msgstr ""
 #: src/Gui/Window.cpp:2131
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
-msgstr ""
+msgstr "قىستۇرما"
 
 #: src/Gui/Window.cpp:2138
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
-msgstr "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr ""
 
 #: src/Gui/Window.cpp:2145
 msgctxt "Gui::MainWindow|"
@@ -3647,12 +3334,10 @@ msgid "IMAP compression"
 msgstr ""
 
 #: src/Gui/Window.cpp:2156
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "<li>%1: %2</li>"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
-msgstr "<li>%1: %2</li>"
+msgstr ""
 
 #: src/Gui/Window.cpp:2157
 #, qt-format
@@ -3693,7 +3378,7 @@ msgstr "ياپ"
 #: src/Gui/Window.cpp:2254 src/Gui/Window.cpp:2276
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
-msgstr "Ctrl+W"
+msgstr ""
 
 #: src/Gui/Window.cpp:2497
 #, qt-format
@@ -3704,7 +3389,7 @@ msgstr "<li>%1</li>\n"
 #: src/Gui/Window.cpp:2505
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
-msgstr "نامەلۇم"
+msgstr "يوچۇن"
 
 #: src/Gui/Window.cpp:2519
 msgctxt "Gui::MainWindow|"
@@ -3727,17 +3412,15 @@ msgstr "مۇلازىمېتىر: %1"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
-msgstr " (%1)"
+msgstr ""
 
 #: src/Gui/Window.cpp:2530
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "%1 %2"
+#, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
 "version."
 msgid " on %1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: src/Gui/Window.cpp:2532
 #, qt-format
@@ -3759,13 +3442,13 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
-msgstr "<li>%1: %2</li>"
+msgstr ""
 
 #: src/Gui/Window.cpp:2542
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
-msgstr ""
+msgstr "<ul>%1</ul>"
 
 #: src/Gui/Window.cpp:2544
 msgctxt "Gui::MainWindow|"
@@ -3782,14 +3465,12 @@ msgid ""
 msgstr ""
 
 #: src/Gui/Window.cpp:2553
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CertificateUtils|"
-#| msgid "<li>%1</li>"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<ul>\n"
 "%1</ul>"
-msgstr "<li>%1</li>"
+msgstr ""
 
 #: src/Gui/Window.cpp:2573
 #, qt-format
@@ -3942,12 +3623,9 @@ msgstr ""
 #: src/Imap/Model/FavoriteTagsModel.cpp:124
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: src/Imap/Model/FavoriteTagsModel.cpp:126
-#, fuzzy
-#| msgctxt "Composer::SenderIdentitiesModel|"
-#| msgid "Name"
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "Name"
 msgstr "ئاتى"
@@ -3955,15 +3633,12 @@ msgstr "ئاتى"
 #: src/Imap/Model/FavoriteTagsModel.cpp:128
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "Color"
-msgstr ""
+msgstr "رەڭ"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:79
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Message is gone"
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/Imap/Model/FullMessageCombiner.cpp:91
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
@@ -3984,7 +3659,7 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to create directory %1"
-msgstr ""
+msgstr "%1 مۇندەرىجە قۇرالمىدى"
 
 #: src/Imap/Model/ImapAccess.cpp:326
 #, qt-format
@@ -3993,17 +3668,11 @@ msgid "Failed to set safe permissions on cache directory %1"
 msgstr ""
 
 #: src/Imap/Model/MailboxTree.cpp:1244
-#, fuzzy
-#| msgctxt "Imap::Mailbox::Model|"
-#| msgid "Today"
 msgctxt "Imap::Mailbox::Model|"
 msgid "Today"
 msgstr "بۈگۈن"
 
 #: src/Imap/Model/MailboxTree.cpp:1248
-#, fuzzy
-#| msgctxt "Imap::Mailbox::Model|"
-#| msgid "Last Week"
 msgctxt "Imap::Mailbox::Model|"
 msgid "Last Week"
 msgstr "ئۆتكەن ھەپتە"
@@ -4014,7 +3683,7 @@ msgctxt ""
 "translated, but their order can be changed to follow the local conventions. "
 "For valid specifiers see http://doc.qt.io/qt-5/qdate.html#toString"
 msgid "MMMM yyyy"
-msgstr ""
+msgstr "yyyy-يىلى MMMM"
 
 #: src/Imap/Model/MailboxTree.cpp:1718
 #, qt-format
@@ -4078,65 +3747,41 @@ msgid "The connection is being killed for unspecified reason"
 msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:284
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Subject"
 msgctxt "MsgListModel|"
 msgid "Subject"
-msgstr "تېما"
+msgstr "ماۋزۇ"
 
 #: src/Imap/Model/MsgListModel.cpp:286
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "From"
 msgctxt "MsgListModel|"
 msgid "From"
-msgstr "يوللىغۇچى"
+msgstr "كىمدىن"
 
 #: src/Imap/Model/MsgListModel.cpp:288
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "To"
 msgctxt "MsgListModel|"
 msgid "To"
 msgstr "تاپشۇرۇپ ئالغۇچى"
 
 #: src/Imap/Model/MsgListModel.cpp:290
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Cc"
 msgctxt "MsgListModel|"
 msgid "Cc"
 msgstr "كۆچۈرۈپ يوللا"
 
 #: src/Imap/Model/MsgListModel.cpp:292
-#, fuzzy
-#| msgctxt "Gui::ComposeWidget|"
-#| msgid "Bcc"
 msgctxt "MsgListModel|"
 msgid "Bcc"
 msgstr "مەخپىي كۆچۈرۈپ يوللا"
 
 #: src/Imap/Model/MsgListModel.cpp:294
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Date"
 msgctxt "MsgListModel|"
 msgid "Date"
 msgstr "چېسلا"
 
 #: src/Imap/Model/MsgListModel.cpp:296
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Received"
 msgctxt "MsgListModel|"
 msgid "Received"
-msgstr "تاپشۇرۇۋالغىنى"
+msgstr ""
 
 #: src/Imap/Model/MsgListModel.cpp:298
-#, fuzzy
-#| msgctxt "Imap::Mailbox::MsgListModel|"
-#| msgid "Size"
 msgctxt "MsgListModel|"
 msgid "Size"
 msgstr "چوڭلۇقى"
@@ -4152,7 +3797,7 @@ msgstr[0] ""
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%1 (%2/%3)"
-msgstr "%1 (%2/%3)"
+msgstr ""
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:81
 #, qt-format
@@ -4161,13 +3806,11 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
-#| msgid "Copying messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "ئۇچۇرلار كۆچۈرۈلۈۋاتىدۇ"
+msgstr[0] ""
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:124
 #, qt-format
@@ -4186,7 +3829,7 @@ msgstr[0] ""
 #: src/Imap/Model/PrettyMsgListModel.cpp:108
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 msgid "Loading..."
-msgstr "ئوقۇۋاتىدۇ…"
+msgstr "يۈكلەۋاتىدۇ…"
 
 #: src/Imap/Model/PrettyMsgListModel.cpp:113
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
@@ -4249,12 +3892,9 @@ msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
 msgstr ""
 
 #: src/Imap/Model/SQLCache.cpp:203
-#, fuzzy
-#| msgctxt "Imap::Mailbox::SQLCache|"
-#| msgid "Unknown version"
 msgctxt "QObject|"
 msgid "Unknown version of sqlite cache"
-msgstr "نامەلۇم نەشرى"
+msgstr ""
 
 #: src/Imap/Model/SQLCache.cpp:224
 msgctxt "QObject|"
@@ -4810,7 +4450,7 @@ msgstr ""
 #: src/Imap/Tasks/ImapTask.h:195
 msgctxt "Imap::Mailbox::ImapTask|"
 msgid "Aborted"
-msgstr ""
+msgstr "توختىتىلدى"
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:176
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:427
@@ -4827,12 +4467,9 @@ msgid "Parser is gone"
 msgstr ""
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:713
-#, fuzzy
-#| msgctxt "QObject|"
-#| msgid "Logging in..."
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Logging off..."
-msgstr "كىرىۋاتىدۇ…"
+msgstr ""
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:920
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
@@ -4850,12 +4487,9 @@ msgid "Mailbox vanished before we could ask for its children"
 msgstr ""
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:101
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Login Failed"
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "LIST failed"
-msgstr "كىرىش مەغلۇپ بولدى"
+msgstr ""
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:105
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
@@ -4913,20 +4547,14 @@ msgid "Synchronizing mailbox"
 msgstr ""
 
 #: src/Imap/Tasks/OfflineConnectionTask.cpp:55
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Offline"
 msgctxt "Imap::Mailbox::OfflineConnectionTask|"
 msgid "We're offline"
-msgstr "توردا يوق"
+msgstr ""
 
 #: src/Imap/Tasks/OfflineConnectionTask.cpp:62
-#, fuzzy
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Offline"
 msgctxt "Imap::Mailbox::OfflineConnectionTask|"
 msgid "Offline"
-msgstr "توردا يوق"
+msgstr "تورسىز"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:116
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -5017,9 +4645,7 @@ msgid "Login failed: %1"
 msgstr ""
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:329
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "%1 %2"
+#, qt-format
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -5235,12 +4861,9 @@ msgstr ""
 
 #. Translators: BE::Contacts is the name of a stand-alone address book application. BE refers to Bose/Einstein (condensate).
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:151
-#, fuzzy
-#| msgctxt "BE::Contacts|"
-#| msgid "Contacts"
 msgctxt "BE::Contacts|"
 msgid "BE::Contacts"
-msgstr "ئالاقەداشلار"
+msgstr ""
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:398
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
@@ -5255,7 +4878,7 @@ msgstr "سۈزگۈچ"
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:162
 msgctxt "BE::Contacts|"
 msgid "Contacts"
-msgstr "ئالاقەداشلار"
+msgstr "ئالاقەداش"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:162
 msgctxt "BE::Contacts|"
@@ -5263,28 +4886,19 @@ msgid "Save changes?"
 msgstr ""
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:276
-#, fuzzy
-#| msgctxt "BE::Contacts|"
-#| msgid "Contacts"
 msgctxt "BE::Contacts|"
 msgid "[New Contact]"
-msgstr "ئالاقەداشلار"
+msgstr ""
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:457
-#, fuzzy
-#| msgctxt "OneContact|"
-#| msgid "name"
 msgctxt "BE::Contacts|"
 msgid "[name]"
-msgstr "ئاتى"
+msgstr ""
 
 #: src/Plugins/AbookAddressbook/be-contacts.ui:14
-#, fuzzy
-#| msgctxt "BE::Contacts|"
-#| msgid "Contacts"
 msgctxt "Contacts|"
 msgid "Contacts"
-msgstr "ئالاقەداشلار"
+msgstr "ئالاقەداش"
 
 #: src/Plugins/AbookAddressbook/be-contacts.ui:48
 msgctxt "Contacts|"
@@ -5369,7 +4983,7 @@ msgstr "يان تېلېفون"
 #: src/Plugins/AbookAddressbook/onecontact.ui:282
 msgctxt "OneContact|"
 msgid "Home"
-msgstr "ماكان"
+msgstr "باش بەت"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:304
 msgctxt "OneContact|"
@@ -5379,7 +4993,7 @@ msgstr ""
 #: src/Plugins/AbookAddressbook/onecontact.ui:317
 msgctxt "OneContact|"
 msgid "Fax"
-msgstr "فاكىس"
+msgstr "فاكس"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:339
 msgctxt "OneContact|"
@@ -5394,7 +5008,7 @@ msgstr "ئىزاھ"
 #: src/Plugins/AbookAddressbook/onecontact.ui:364
 msgctxt "OneContact|"
 msgid "Nick"
-msgstr "Nick"
+msgstr ""
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:383
 msgctxt "OneContact|"
@@ -5427,12 +5041,9 @@ msgid "Photo"
 msgstr "سۈرەت"
 
 #: src/Plugins/AkonadiAddressbook/AkonadiAddressbook.cpp:67
-#, fuzzy
-#| msgctxt "OneContact|"
-#| msgid "Address"
 msgctxt "trojita_plugin_AkonadiAddressbookPlugin|"
 msgid "KDE Addressbook (Akonadi)"
-msgstr "ئادرېس"
+msgstr ""
 
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:51
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:67
@@ -5452,12 +5063,9 @@ msgid "Secure storage via QtKeychain"
 msgstr ""
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
-#, fuzzy
-#| msgctxt "SslSheet|"
-#| msgid "Connect"
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
 msgid "Sonnet"
-msgstr "باغلان"
+msgstr ""
 
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
@@ -5465,12 +5073,10 @@ msgid "Unsupported or unknown authentication scheme"
 msgstr ""
 
 #: src/Streams/IODeviceSocket.cpp:178
-#, fuzzy, qt-format
-#| msgctxt "Imap::SslTlsSocket|"
-#| msgid "Connected"
+#, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid "Disconnected: %1"
-msgstr "باغلاندى"
+msgstr ""
 
 #: src/Streams/IODeviceSocket.cpp:192
 msgctxt "Streams::ProcessSocket|"
@@ -5499,9 +5105,6 @@ msgid ""
 msgstr ""
 
 #: src/Streams/IODeviceSocket.cpp:258
-#, fuzzy
-#| msgctxt "Imap::SslTlsSocket|"
-#| msgid "Connection closed"
 msgctxt "Streams::SslTlsSocket|"
 msgid "Connection closed"
 msgstr "باغلىنىش تاقالدى"
@@ -5525,12 +5128,10 @@ msgid " (via HTTP proxy %1)"
 msgstr ""
 
 #: src/Streams/IODeviceSocket.cpp:294
-#, fuzzy, qt-format
-#| msgctxt "QObject|"
-#| msgid "Logging in..."
+#, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid "Looking up %1%2..."
-msgstr "كىرىۋاتىدۇ…"
+msgstr ""
 
 #: src/Streams/IODeviceSocket.cpp:299
 #, qt-format
@@ -5544,9 +5145,6 @@ msgid " (SSL)"
 msgstr ""
 
 #: src/Streams/IODeviceSocket.cpp:309
-#, fuzzy
-#| msgctxt "Imap::SslTlsSocket|"
-#| msgid "Connected"
 msgctxt "Streams::SslTlsSocket|"
 msgid "Connected"
 msgstr "باغلاندى"
@@ -5571,85 +5169,59 @@ msgid ""
 msgstr ""
 
 #: src/UiUtils/Formatting.cpp:40
-#, fuzzy
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "kB"
 msgctxt "Formatting|"
 msgid "B"
-msgstr "كىلوبايت"
+msgstr "B"
 
 #: src/UiUtils/Formatting.cpp:41
-#, fuzzy
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "kB"
 msgctxt "Formatting|"
 msgid "kB"
-msgstr "كىلوبايت"
+msgstr "kB"
 
 #: src/UiUtils/Formatting.cpp:42
-#, fuzzy
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "MB"
 msgctxt "Formatting|"
 msgid "MB"
-msgstr "مېگابايت"
+msgstr "MB"
 
 #: src/UiUtils/Formatting.cpp:43
-#, fuzzy
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "GB"
 msgctxt "Formatting|"
 msgid "GB"
-msgstr "گىگابايت"
+msgstr "GB"
 
 #: src/UiUtils/Formatting.cpp:44
-#, fuzzy
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "TB"
 msgctxt "Formatting|"
 msgid "TB"
-msgstr "تېرابايت"
+msgstr "TB"
 
 #: src/UiUtils/Formatting.cpp:67
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettySize|"
-#| msgid "%1 %2"
+#, qt-format
 msgctxt "Formatting|"
 msgid "%1 %2"
 msgstr "%1 %2"
 
 #: src/UiUtils/Formatting.cpp:86
-#, fuzzy
-#| msgctxt "Imap::Mailbox::PrettyMsgListModel|"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "hh:mm"
-msgstr "hh:mm"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:91
-#, fuzzy
-#| msgctxt "Imap::Mailbox::PrettyMsgListModel|"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "ddd hh:mm"
-msgstr "hh:mm"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:99
-#, fuzzy
-#| msgctxt "Imap::Mailbox::PrettyMsgListModel|"
-#| msgid "hh:mm"
 msgctxt ""
 "Formatting|Please do not translate the format specifiers. You can change "
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "d MMM hh:mm"
-msgstr "hh:mm"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:142
 #, qt-format
@@ -5663,9 +5235,6 @@ msgid ""
 msgstr ""
 
 #: src/UiUtils/Formatting.cpp:145 src/UiUtils/Formatting.cpp:146
-#, fuzzy
-#| msgctxt "Gui::EnvelopeView|"
-#| msgid ", "
 msgctxt "Formatting|"
 msgid ", "
 msgstr "، "
@@ -5684,17 +5253,12 @@ msgid ""
 msgstr ""
 
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CertificateUtils|"
-#| msgid "\n"
 msgctxt "Formatting|"
 msgid "\n"
 msgstr "\n"
 
 #: src/UiUtils/Formatting.cpp:160
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::CertificateUtils|"
-#| msgid "<li>%1</li>"
+#, qt-format
 msgctxt "Formatting|"
 msgid "<li>%1</li>"
 msgstr "<li>%1</li>"
@@ -5796,12 +5360,9 @@ msgid "Cannot read password via plugin %1"
 msgstr ""
 
 #: src/UiUtils/PasswordWatcher.cpp:89 src/UiUtils/PasswordWatcher.cpp:175
-#, fuzzy
-#| msgctxt "Composer::Submission|"
-#| msgid "Message sent"
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password plugin is not available."
-msgstr "ئۇچۇر يوللاندى"
+msgstr ""
 
 #: src/UiUtils/PasswordWatcher.cpp:120
 #, qt-format
@@ -5827,7 +5388,6 @@ msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr ""
 
-#, fuzzy
 #~| msgctxt "Composer::Submission|"
 #~| msgid "Message sent"
 #~ msgctxt "Cryptography::GpgMeEncrypted|"
@@ -5842,14 +5402,12 @@ msgstr ""
 #~ msgid "Cancel"
 #~ msgstr "ئەمەلدىن قالدۇر"
 
-#, fuzzy
 #~| msgctxt "Gui::SimplePartWidget|"
 #~| msgid "Search..."
 #~ msgctxt "Gui::MessageView|"
 #~ msgid "Search..."
 #~ msgstr "ئىزدە…"
 
-#, fuzzy
 #~| msgctxt "Gui::SimplePartWidget|"
 #~| msgid "Ctrl+F"
 #~ msgctxt "Gui::MessageView|"
@@ -5876,14 +5434,12 @@ msgstr ""
 #~ msgid "Bcc"
 #~ msgstr "مەخپىي كۆچۈرۈپ يوللا"
 
-#, fuzzy
 #~| msgctxt "Imap::Mailbox::PrettySize|"
 #~| msgid "%1 %2"
 #~ msgctxt "UiUtils::Formatting|"
 #~ msgid "%1 %2"
 #~ msgstr "%1 %2"
 
-#, fuzzy
 #~| msgctxt "Gui::EnvelopeView|"
 #~| msgid ", "
 #~ msgctxt "UiUtils::Formatting|"
@@ -5902,7 +5458,6 @@ msgstr ""
 #~ msgid "&Help"
 #~ msgstr "ياردەم(&H)"
 
-#, fuzzy
 #~| msgctxt "Gui::MainWindow|"
 #~| msgid "&New Message..."
 #~ msgctxt "Gui::MainWindow|"
@@ -5969,14 +5524,12 @@ msgstr ""
 #~ msgid "Download"
 #~ msgstr "چۈشۈرۈش"
 
-#, fuzzy
 #~| msgctxt "Imap::Mailbox::PrettySize|"
 #~| msgid "0"
 #~ msgctxt "UiUtils::Formatting|"
 #~ msgid "0"
 #~ msgstr "0"
 
-#, fuzzy
 #~| msgctxt "OneContact|"
 #~| msgid "name"
 #~ msgctxt "Gui::TagListWidget|"
@@ -5987,7 +5540,6 @@ msgstr ""
 #~ msgid "Username"
 #~ msgstr "ئىشلەتكۈچى ئاتى"
 
-#, fuzzy
 #~| msgctxt "Gui::MainWindow|"
 #~| msgid "Save Message"
 #~ msgctxt "ImapSettings|"
@@ -6018,14 +5570,12 @@ msgstr ""
 #~ msgid "Cancel"
 #~ msgstr "ئەمەلدىن قالدۇر"
 
-#, fuzzy
 #~| msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 #~| msgid "(no subject)"
 #~ msgctxt "MessageListPage|"
 #~ msgid "(No subject)"
 #~ msgstr "(ماۋزۇسىز)"
 
-#, fuzzy
 #~| msgctxt "Composer::Submission|"
 #~| msgid "Message sent"
 #~ msgctxt "MessageListPage|"
@@ -6048,7 +5598,6 @@ msgstr ""
 #~ msgid "Bcc"
 #~ msgstr "مەخپىي كۆچۈرۈپ يوللا"
 
-#, fuzzy
 #~| msgctxt "ComposeWidget|"
 #~| msgid "Subject"
 #~ msgctxt "OneMessagePage|"
@@ -6089,35 +5638,30 @@ msgstr ""
 #~ msgid "Server does not support STARTTLS"
 #~ msgstr "مۇلازىمېتىر STARTTLS نى قوللىمايدۇ"
 
-#, fuzzy
 #~| msgctxt "Gui::ShortcutConfigDialog|"
 #~| msgid "Trojitá"
 #~ msgctxt "QObject|"
 #~ msgid "Trojitá"
 #~ msgstr "Trojitá"
 
-#, fuzzy
 #~| msgctxt "Gui::ComposeWidget|"
 #~| msgid "To"
 #~ msgctxt "HeaderComponent|"
 #~ msgid "To:"
 #~ msgstr "تاپشۇرۇپ ئالغۇچى"
 
-#, fuzzy
 #~| msgctxt "Gui::ComposeWidget|"
 #~| msgid "Cc"
 #~ msgctxt "HeaderComponent|"
 #~ msgid "Cc:"
 #~ msgstr "كۆچۈرۈپ يوللا"
 
-#, fuzzy
 #~| msgctxt "Gui::SettingsDialog|"
 #~| msgid "Settings"
 #~ msgctxt "ImapSettings|"
 #~ msgid "Server Settings"
 #~ msgstr "تەڭشەكلەر"
 
-#, fuzzy
 #~| msgctxt "ImapSettings|"
 #~| msgid "Username"
 #~ msgctxt "ImapSettings|"
@@ -6128,126 +5672,108 @@ msgstr ""
 #~ msgid "Password"
 #~ msgstr "ئىم"
 
-#, fuzzy
 #~| msgctxt "ShortcutConfigWidget|"
 #~| msgid "Action"
 #~ msgctxt "ImapSettings|"
 #~ msgid "No Encryption"
 #~ msgstr "مەشغۇلات"
 
-#, fuzzy
 #~| msgctxt "Gui::MainWindow|"
 #~| msgid "Close"
 #~ msgctxt "InfoDialog|"
 #~ msgid "Close"
 #~ msgstr "ياپ"
 
-#, fuzzy
 #~| msgctxt "Gui::SettingsDialog|"
 #~| msgid "Settings"
 #~ msgctxt "MailboxListPage|"
 #~ msgid "Settings"
 #~ msgstr "تەڭشەكلەر"
 
-#, fuzzy
 #~| msgctxt "Gui::MainWindow|"
 #~| msgid "Connection Error"
 #~ msgctxt "MailboxListPage|"
 #~ msgid "Network"
 #~ msgstr "باغلىنىش خاتالىقى"
 
-#, fuzzy
 #~| msgctxt "Gui::MainWindow|"
 #~| msgid "Offline"
 #~ msgctxt "MailboxListPage|"
 #~ msgid "Offline mode"
 #~ msgstr "توردا يوق"
 
-#, fuzzy
 #~| msgctxt "Gui::MainWindow|"
 #~| msgid "Error"
 #~ msgctxt "main|"
 #~ msgid "Error"
 #~ msgstr "خاتالىق"
 
-#, fuzzy
 #~| msgctxt "Gui::MainWindow|"
 #~| msgid "Connection Error"
 #~ msgctxt "main|"
 #~ msgid "Network Error"
 #~ msgstr "باغلىنىش خاتالىقى"
 
-#, fuzzy
 #~| msgctxt "Gui::ComposeWidget|"
 #~| msgid "Authentication Required"
 #~ msgctxt "main|"
 #~ msgid "<font color='#333333'>Authentication Required</font>"
 #~ msgstr "كىملىك دەلىللەش زۆرۈر"
 
-#, fuzzy
 #~| msgctxt "ComposeWidget|"
 #~| msgid "Subject"
 #~ msgctxt "MessageListPage|"
 #~ msgid "<No Subject>"
 #~ msgstr "تېما"
 
-#, fuzzy
 #~| msgctxt "QStandardPaths|"
 #~| msgid "Applications"
 #~ msgctxt "MessageListToolbar|"
 #~ msgid "Options"
 #~ msgstr "پروگراممىلار"
 
-#, fuzzy
 #~| msgctxt "Gui::MainWindow|"
 #~| msgid "&Ascending"
 #~ msgctxt "MessageListToolbar|"
 #~ msgid "Ascending"
 #~ msgstr "ئۆسكۈچى(&A)"
 
-#, fuzzy
 #~| msgctxt "Gui::MainWindow|"
 #~| msgid "&Descending"
 #~ msgctxt "MessageListToolbar|"
 #~ msgid "Descending"
 #~ msgstr "كېمەيگۈچى(&D)"
 
-#, fuzzy
 #~| msgctxt "PasswordInputSheet|"
 #~| msgid "Password"
 #~ msgctxt "PasswordInputSheet|"
 #~ msgid "Enter password"
 #~ msgstr "ئىم"
 
-#, fuzzy
 #~| msgctxt "PasswordInputSheet|"
 #~| msgid "Password"
 #~ msgctxt "SettingsTabs|"
 #~ msgid "Failed saving password"
 #~ msgstr "ئىم"
 
-#, fuzzy
 #~| msgctxt "Gui::SettingsDialog|"
 #~| msgid "Settings"
 #~ msgctxt "SettingsTabs|"
 #~ msgid "IMAP Settings"
 #~ msgstr "تەڭشەكلەر"
 
-#, fuzzy
 #~| msgctxt "Gui::SettingsDialog|"
 #~| msgid "Settings"
 #~ msgctxt "SettingsTabs|"
 #~ msgid "SMTP Settings"
 #~ msgstr "تەڭشەكلەر"
 
-#, fuzzy
 #~| msgctxt "Gui::MailBoxTreeView|"
 #~| msgid "Cancel"
 #~ msgctxt "SettingsToolbar|"
 #~ msgid "Cancel"
 #~ msgstr "ئەمەلدىن قالدۇر"
 
-#, fuzzy
 #~| msgctxt "Gui::ComposeWidget|"
 #~| msgid "Save as"
 #~ msgctxt "SettingsToolbar|"
@@ -6262,7 +5788,6 @@ msgstr ""
 #~ msgid ", "
 #~ msgstr "، "
 
-#, fuzzy
 #~| msgctxt "main|"
 #~| msgid "OK"
 #~ msgctxt "ImapSettings|"
@@ -6281,7 +5806,6 @@ msgstr ""
 #~ msgid "Activated"
 #~ msgstr "ئاكتىپلاندى"
 
-#, fuzzy
 #~| msgctxt "Gui::EnvelopeView|"
 #~| msgid ", "
 #~ msgctxt "Gui::ComposeWidget|"
