@@ -79,6 +79,7 @@
   <summary xml:lang="sl">Odjemalec IMAP e-pošte</summary>
   <summary xml:lang="sv">IMAP e-postprogram</summary>
   <summary xml:lang="tr">IMAP E-posta İstemcisi</summary>
+  <summary xml:lang="ug">IMAP ئېلخەت خېرىدارى</summary>
   <summary xml:lang="uk">Клієнтська програма для роботи з електронною поштою IMAP</summary>
   <summary xml:lang="zh-CN">IMAP 电子邮件客户端</summary>
   <summary xml:lang="zh-TW">IMAP 電子郵件程式</summary>
@@ -337,6 +338,7 @@
       <li xml:lang="sl">Podpora za IMAP brez povezave</li>
       <li xml:lang="sv">Nerkopplat IMAP-stöd</li>
       <li xml:lang="tr">Çevrim dışı IMAP desteği</li>
+      <li xml:lang="ug">تورسىز IMAP قوللاش</li>
       <li xml:lang="uk">Підтримка роботи з IMAP у автономному режимі.</li>
       <li xml:lang="zh-CN">离线 IMAP 支持</li>
       <li>Support for bandwidth-saving mode aimed at mobile users with expensive connection</li>
