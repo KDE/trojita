@@ -1029,7 +1029,7 @@ msgstr "Editor de correu"
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
-msgstr "%1 - Editor de correu"
+msgstr "%1 – Editor de correu"
 
 #: src/Gui/ComposeWidget.ui:51
 msgctxt "ComposeWidget|"
@@ -3392,14 +3392,14 @@ msgstr "I&x"
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
 msgid_plural " - %n unread message(s)"
-msgstr[0] " - %n missatge sense llegir"
-msgstr[1] " - %n missatges sense llegir"
+msgstr[0] " – %n missatge sense llegir"
+msgstr[1] " – %n missatges sense llegir"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
 #: src/Gui/Window.cpp:1121
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
-msgstr " - desconnectat"
+msgstr " – desconnectat"
 
 #: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
 msgctxt "Gui::MainWindow|"
@@ -3735,14 +3735,14 @@ msgstr ""
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
 msgid_plural "%1 - %n unread - Trojitá"
-msgstr[0] "%1 - %n sense llegir - Trojitá"
-msgstr[1] "%1 - %n sense llegir - Trojitá"
+msgstr[0] "%1 – %n sense llegir – Trojitá"
+msgstr[1] "%1 – %n sense llegir – Trojitá"
 
 #: src/Gui/Window.cpp:2576
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
-msgstr "%1 - Trojitá"
+msgstr "%1 – Trojitá"
 
 #: src/Gui/Window.cpp:3001
 #, qt-format
