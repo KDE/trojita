@@ -7,7 +7,7 @@ msgstr ""
 "X-Language: en\n"
 "X-Qt-Contexts: true\n"
 
-#: ../src/Gui/Window.cpp:948
+#: ../src/Gui/Window.cpp:962
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
@@ -16,7 +16,7 @@ msgstr[0] "Attempting to reconnect in %n second"
 msgstr[1] "Attempting to reconnect in %n seconds"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: ../src/Gui/Window.cpp:1118
+#: ../src/Gui/Window.cpp:1132
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -24,7 +24,7 @@ msgid_plural " - %n unread message(s)"
 msgstr[0] "%n unread message"
 msgstr[1] "%n unread messages"
 
-#: ../src/Gui/Window.cpp:2573
+#: ../src/Gui/Window.cpp:2580
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"

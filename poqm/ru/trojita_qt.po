@@ -1075,8 +1075,8 @@ msgstr ""
 "<br><span style=\"color:red\">Предупреждение: вложения <b>не</b>сохраняются "
 "этот проект!</span>"
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1533
-#: src/Gui/Window.cpp:1535
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1547
+#: src/Gui/Window.cpp:1549
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Черновики"
@@ -1580,6 +1580,31 @@ msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
 msgstr ""
 
+#: src/Gui/MessageActionHandler.cpp:103
+#, fuzzy
+#| msgctxt "Gui::MessageView|"
+#| msgid "you"
+msgctxt "MessageActionHandler|"
+msgid "you"
+msgstr "Вы"
+
+#: src/Gui/MessageActionHandler.cpp:107
+#, qt-format
+msgctxt "MessageActionHandler|"
+msgid ""
+"On %1, %2 sent an encrypted message:\n"
+"> ...\n"
+"\n"
+msgstr ""
+
+#: src/Gui/MessageActionHandler.cpp:115
+#, fuzzy, qt-format
+#| msgctxt "Gui::MessageView|"
+#| msgid "On %1, %2 wrote:\n"
+msgctxt "MessageActionHandler|"
+msgid "On %1, %2 wrote:\n"
+msgstr "В %1, написал %2:\n"
+
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
 #, fuzzy, qt-format
@@ -1736,7 +1761,7 @@ msgctxt "Gui::MessageSourceWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:91
+#: src/Gui/MessageView.cpp:89
 #, fuzzy
 #| msgctxt "Gui::MessageHeadersWidget|"
 #| msgid "Search..."
@@ -1744,7 +1769,7 @@ msgctxt "MessageView|"
 msgid "Search..."
 msgstr "Поиск..."
 
-#: src/Gui/MessageView.cpp:92
+#: src/Gui/MessageView.cpp:90
 #, fuzzy
 #| msgctxt "Gui::MessageHeadersWidget|"
 #| msgid "Ctrl+F"
@@ -1752,7 +1777,7 @@ msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:135
+#: src/Gui/MessageView.cpp:133
 #, fuzzy
 #| msgctxt "Gui::MessageSourceWidget|"
 #| msgid ""
@@ -1766,7 +1791,7 @@ msgstr ""
 "Получение\n"
 "Сообщение"
 
-#: src/Gui/MessageView.cpp:220
+#: src/Gui/MessageView.cpp:218
 #, fuzzy
 #| msgctxt "Gui::MessageSourceWidget|"
 #| msgid ""
@@ -1780,31 +1805,6 @@ msgid ""
 msgstr ""
 "Получение\n"
 "Сообщение"
-
-#: src/Gui/MessageView.cpp:355
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid "you"
-msgctxt "MessageView|"
-msgid "you"
-msgstr "Вы"
-
-#: src/Gui/MessageView.cpp:362
-#, qt-format
-msgctxt "MessageView|"
-msgid ""
-"On %1, %2 sent an encrypted message:\n"
-"> ...\n"
-"\n"
-msgstr ""
-
-#: src/Gui/MessageView.cpp:370
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageView|"
-#| msgid "On %1, %2 wrote:\n"
-msgctxt "MessageView|"
-msgid "On %1, %2 wrote:\n"
-msgstr "В %1, написал %2:\n"
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
 #: src/Gui/MsgListView.cpp:147
@@ -3048,560 +3048,560 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
 msgstr "В&ыход"
 
-#: src/Gui/Window.cpp:239
+#: src/Gui/Window.cpp:253
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
 msgstr "Со&здать сообщение..."
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
 msgstr "&Изменить черновик..."
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
 msgstr "Показывать главное &меню"
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+M"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Exp&unge"
 msgstr "Стереть &отмеченные для удаления"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
 msgstr "Ctrl+E"
 
-#: src/Gui/Window.cpp:243
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
 msgstr "О&тметить как прочитанное"
 
-#: src/Gui/Window.cpp:244
+#: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
 msgstr "Следующее &непрочитанное"
 
-#: src/Gui/Window.cpp:245
+#: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
 msgstr "Предыдущее н&епрочитанное"
 
-#: src/Gui/Window.cpp:246
+#: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
 msgstr "&Отметить для удаления"
 
-#: src/Gui/Window.cpp:247
+#: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Flagged"
 msgstr "Отметить &флажком"
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Junk"
 msgstr ""
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
 msgid "Mark as Not &junk"
 msgstr ""
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:264
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
 msgstr "&Сохранить сообщение..."
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
 msgstr "Просмотр исходного кода &сообщения.."
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
 msgstr "Просмотр заголовка &сообщения..."
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
 msgstr "Ctrl+U"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
 msgstr "&Приватный ответ"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
 msgstr "Ctrl+Shift+A"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Reply to All &but Me"
 msgstr "Ответить всем &кроме меня"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
 msgstr "Ctrl+Shift+R"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
 msgstr "Ответить &всем"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
 msgstr "Ctrl+Alt+Shift+R"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &Mailing List"
 msgstr "Ответить в &список рассылки"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
 msgstr "Ответить &наугад"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
 msgstr "Ctrl+R"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:272
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
 msgstr "&Вперёд"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
 msgstr "Ctrl+Shift+F"
 
-#: src/Gui/Window.cpp:259
+#: src/Gui/Window.cpp:273
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
 msgstr "Переслать"
 
-#: src/Gui/Window.cpp:260
+#: src/Gui/Window.cpp:274
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
 msgstr "&Архивировать"
 
-#: src/Gui/Window.cpp:261
+#: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
 msgstr "Адресная книга..."
 
-#: src/Gui/Window.cpp:262
+#: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "&Offline"
 msgstr "&Автономный режим"
 
-#: src/Gui/Window.cpp:263
+#: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
 msgstr "&Дорогая связь"
 
-#: src/Gui/Window.cpp:264
+#: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
 msgstr "&Свободный доступ"
 
-#: src/Gui/Window.cpp:265
+#: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
 msgstr ""
 
-#: src/Gui/Window.cpp:266
+#: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
 msgstr ""
 
-#: src/Gui/Window.cpp:267
+#: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
 msgstr "Перейти назад"
 
-#: src/Gui/Window.cpp:268
+#: src/Gui/Window.cpp:282
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
 msgstr "Увеличить"
 
-#: src/Gui/Window.cpp:269
+#: src/Gui/Window.cpp:283
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
 msgstr "Уменьшить"
 
-#: src/Gui/Window.cpp:270
+#: src/Gui/Window.cpp:284
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
 msgstr "Исходный размер"
 
-#: src/Gui/Window.cpp:271
+#: src/Gui/Window.cpp:285
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
 msgstr ""
 
-#: src/Gui/Window.cpp:272
+#: src/Gui/Window.cpp:286
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
 msgstr ""
 
-#: src/Gui/Window.cpp:273
+#: src/Gui/Window.cpp:287
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
 msgstr ""
 
-#: src/Gui/Window.cpp:274
+#: src/Gui/Window.cpp:288
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:275
+#: src/Gui/Window.cpp:289
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:276
+#: src/Gui/Window.cpp:290
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:277
+#: src/Gui/Window.cpp:291
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:278
+#: src/Gui/Window.cpp:292
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:279
+#: src/Gui/Window.cpp:293
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:280
+#: src/Gui/Window.cpp:294
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:281
+#: src/Gui/Window.cpp:295
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:282
+#: src/Gui/Window.cpp:296
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:310
+#: src/Gui/Window.cpp:324
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
 msgstr "Навигация"
 
-#: src/Gui/Window.cpp:313
+#: src/Gui/Window.cpp:327
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
 msgstr "&Обновить список дочерних почтовых ящиков"
 
-#: src/Gui/Window.cpp:316
+#: src/Gui/Window.cpp:330
 msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
 msgstr "Проверить &почту"
 
-#: src/Gui/Window.cpp:319
+#: src/Gui/Window.cpp:333
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
 msgstr "&Перезагрузить все"
 
-#: src/Gui/Window.cpp:323
+#: src/Gui/Window.cpp:337
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
 msgstr "Выход из программы"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
-#: src/Gui/Window.cpp:342
+#: src/Gui/Window.cpp:356
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
 msgstr "Показывать полное &дерево окна"
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
-#: src/Gui/Window.cpp:348
+#: src/Gui/Window.cpp:362
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
 msgstr "Показать дерево &ImapTask"
 
 #. a debugging tool showing the mime tree of the current message
-#: src/Gui/Window.cpp:354
+#: src/Gui/Window.cpp:368
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
 msgstr ""
 
-#: src/Gui/Window.cpp:359
+#: src/Gui/Window.cpp:373
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
 msgstr ""
 
 #. file to save the debug log into
-#: src/Gui/Window.cpp:365
+#: src/Gui/Window.cpp:379
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
 msgstr "Сведения &журнала %1"
 
-#: src/Gui/Window.cpp:370
+#: src/Gui/Window.cpp:384
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
 msgstr "Сведения о IMAP &сервере..."
 
-#: src/Gui/Window.cpp:379
+#: src/Gui/Window.cpp:393
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
 msgstr "Показывать &панель инструментов"
 
-#: src/Gui/Window.cpp:385
+#: src/Gui/Window.cpp:399
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
 msgstr "&Настройка"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:482
+#: src/Gui/Window.cpp:496
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
 msgstr "Создать &дочерний почтовый ящик..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:486
+#: src/Gui/Window.cpp:500
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
 msgstr "Создать &почтовый ящик..."
 
-#: src/Gui/Window.cpp:489
+#: src/Gui/Window.cpp:503
 msgctxt "Gui::MainWindow|"
 msgid "&Mark Mailbox as Read"
 msgstr "&Отметить почтовый ящик как &прочитанный"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:493
+#: src/Gui/Window.cpp:507
 msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
 msgstr "&Удалить почтовый ящик"
 
-#: src/Gui/Window.cpp:511
+#: src/Gui/Window.cpp:525
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
 msgstr "Показывать &сообщения обсуждений"
 
-#: src/Gui/Window.cpp:522
+#: src/Gui/Window.cpp:536
 msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
 msgstr "По &возрастанию"
 
-#: src/Gui/Window.cpp:525
+#: src/Gui/Window.cpp:539
 msgctxt "Gui::MainWindow|"
 msgid "&Descending"
 msgstr "По &убыванию"
 
-#: src/Gui/Window.cpp:533
+#: src/Gui/Window.cpp:547
 msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
 msgstr "&Без сортировки"
 
-#: src/Gui/Window.cpp:535
+#: src/Gui/Window.cpp:549
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
 msgstr "По &обсуждению"
 
-#: src/Gui/Window.cpp:537
+#: src/Gui/Window.cpp:551
 msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
 msgstr "По &получению"
 
-#: src/Gui/Window.cpp:539
+#: src/Gui/Window.cpp:553
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
 msgstr "&Cc (Копия)"
 
-#: src/Gui/Window.cpp:541
+#: src/Gui/Window.cpp:555
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
 msgstr "По данным из &заголовков сообщений"
 
-#: src/Gui/Window.cpp:543
+#: src/Gui/Window.cpp:557
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
 msgstr "&Адресу отправителя"
 
-#: src/Gui/Window.cpp:545
+#: src/Gui/Window.cpp:559
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
 msgstr "Размер"
 
-#: src/Gui/Window.cpp:547
+#: src/Gui/Window.cpp:561
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
 msgstr "&Теме"
 
-#: src/Gui/Window.cpp:549
+#: src/Gui/Window.cpp:563
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
 msgstr "&Адресу получателя"
 
-#: src/Gui/Window.cpp:554
+#: src/Gui/Window.cpp:568
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
 msgstr "&Скрыть прочитанные"
 
-#: src/Gui/Window.cpp:563
+#: src/Gui/Window.cpp:577
 msgctxt "Gui::MainWindow|"
 msgid "&Compact"
 msgstr "&Компактный"
 
-#: src/Gui/Window.cpp:567
+#: src/Gui/Window.cpp:581
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
 msgstr "&Широкий"
 
-#: src/Gui/Window.cpp:570
+#: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
 msgstr ""
 
-#: src/Gui/Window.cpp:575
+#: src/Gui/Window.cpp:589
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
 msgstr "Показывать &только подписанные папки"
 
-#: src/Gui/Window.cpp:579
+#: src/Gui/Window.cpp:593
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
 msgstr "П&одписанные"
 
-#: src/Gui/Window.cpp:584
+#: src/Gui/Window.cpp:598
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "&О программе..."
 
-#: src/Gui/Window.cpp:587
+#: src/Gui/Window.cpp:601
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
 msgstr "&Жертвовать проекту"
 
-#: src/Gui/Window.cpp:592
+#: src/Gui/Window.cpp:606
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "Создать почтовое сообщение"
 
-#: src/Gui/Window.cpp:692
+#: src/Gui/Window.cpp:706
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr "Приложение"
 
-#: src/Gui/Window.cpp:694
+#: src/Gui/Window.cpp:708
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr "&Сетевой доступ"
 
-#: src/Gui/Window.cpp:698
+#: src/Gui/Window.cpp:712
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "Отла&дка"
 
-#: src/Gui/Window.cpp:718
+#: src/Gui/Window.cpp:732
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "&Вид"
 
-#: src/Gui/Window.cpp:721
+#: src/Gui/Window.cpp:735
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "&Внешний вид"
 
-#: src/Gui/Window.cpp:728
+#: src/Gui/Window.cpp:742
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "&Почтовый ящик"
 
-#: src/Gui/Window.cpp:729
+#: src/Gui/Window.cpp:743
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "&Сортировка"
 
-#: src/Gui/Window.cpp:753
+#: src/Gui/Window.cpp:767
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "Сообщение"
 
-#: src/Gui/Window.cpp:832
+#: src/Gui/Window.cpp:846
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "Ссылка на: %1"
 
-#: src/Gui/Window.cpp:841
+#: src/Gui/Window.cpp:855
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "Все"
 
-#: src/Gui/Window.cpp:849
+#: src/Gui/Window.cpp:863
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "Задачи IMAP"
 
-#: src/Gui/Window.cpp:856
+#: src/Gui/Window.cpp:870
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr ""
 
-#: src/Gui/Window.cpp:867
+#: src/Gui/Window.cpp:881
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr ""
 
-#: src/Gui/Window.cpp:948
+#: src/Gui/Window.cpp:962
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
@@ -3611,14 +3611,14 @@ msgstr[1] "Попытка повторного подключения через
 msgstr[2] "Попытка повторного подключения через %n секунд..."
 msgstr[3] ""
 
-#: src/Gui/Window.cpp:1001
+#: src/Gui/Window.cpp:1015
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "В&ыход"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1118
+#: src/Gui/Window.cpp:1132
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3629,17 +3629,17 @@ msgstr[2] ""
 msgstr[3] ""
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1121
+#: src/Gui/Window.cpp:1135
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - не в сети"
 
-#: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
+#: src/Gui/Window.cpp:1144 src/Gui/Window.cpp:2586
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1131
+#: src/Gui/Window.cpp:1145
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3649,28 +3649,28 @@ msgstr ""
 "отключено в настройках параметров."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1342
+#: src/Gui/Window.cpp:1356
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "Тревога IMAP"
 
-#: src/Gui/Window.cpp:1347
+#: src/Gui/Window.cpp:1361
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "Ошибка протокола IMAP"
 
-#: src/Gui/Window.cpp:1355
+#: src/Gui/Window.cpp:1369
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Ошибка сети"
 
-#: src/Gui/Window.cpp:1376
+#: src/Gui/Window.cpp:1390
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "Ошибка кэша IMAP"
 
-#: src/Gui/Window.cpp:1377
+#: src/Gui/Window.cpp:1391
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3680,36 +3680,36 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1388
+#: src/Gui/Window.cpp:1402
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "Автономный режим"
 
-#: src/Gui/Window.cpp:1434
+#: src/Gui/Window.cpp:1448
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "Нет конфигурации"
 
-#: src/Gui/Window.cpp:1435
+#: src/Gui/Window.cpp:1449
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 "Нет настроенной учетной записи IMAP. Trojitá не может ничего сделать без "
 "хотя бы одной одной."
 
-#: src/Gui/Window.cpp:1460
+#: src/Gui/Window.cpp:1474
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1478
+#: src/Gui/Window.cpp:1492
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "Требуется аутентификация"
 
-#: src/Gui/Window.cpp:1479
+#: src/Gui/Window.cpp:1493
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -3717,44 +3717,44 @@ msgstr ""
 "<p>Пожалуйста, предоставьте пароль IMAP для пользователя <b>%1</b> на <b>%2</"
 "b>:</p>"
 
-#: src/Gui/Window.cpp:1535
+#: src/Gui/Window.cpp:1549
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Изменить черновик"
 
-#: src/Gui/Window.cpp:1662
+#: src/Gui/Window.cpp:1676
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr ""
 
-#: src/Gui/Window.cpp:1712
+#: src/Gui/Window.cpp:1726
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "Создать вложенную папку %1"
 
-#: src/Gui/Window.cpp:1713
+#: src/Gui/Window.cpp:1727
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "Создать почтовый ящик верхнего уровня"
 
-#: src/Gui/Window.cpp:1740
+#: src/Gui/Window.cpp:1754
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Удалить почтовый ящик"
 
-#: src/Gui/Window.cpp:1741
+#: src/Gui/Window.cpp:1755
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "Вы действительно хотите удалить почтовый ящик %1?"
 
-#: src/Gui/Window.cpp:2054
+#: src/Gui/Window.cpp:2061
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Не удалось удалить почтовый ящик"
 
-#: src/Gui/Window.cpp:2055
+#: src/Gui/Window.cpp:2062
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3764,12 +3764,12 @@ msgstr ""
 "Удаление почтового ящика «%1» не удалось со следующим сообщением:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2060
+#: src/Gui/Window.cpp:2067
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Не удалось создать почтовый ящик"
 
-#: src/Gui/Window.cpp:2061
+#: src/Gui/Window.cpp:2068
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3779,12 +3779,12 @@ msgstr ""
 "Создание почтового ящика «%1» не удалось со следующим сообщением:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2066
+#: src/Gui/Window.cpp:2073
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Не удалось открыть почтовый ящик"
 
-#: src/Gui/Window.cpp:2067
+#: src/Gui/Window.cpp:2074
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3794,46 +3794,46 @@ msgstr ""
 "Открытие почтового ящика «%1» не удалось со следующим сообщением:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2116
+#: src/Gui/Window.cpp:2123
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Ссылка на: %1"
 
-#: src/Gui/Window.cpp:2131
+#: src/Gui/Window.cpp:2138
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "Модули"
 
-#: src/Gui/Window.cpp:2138
+#: src/Gui/Window.cpp:2145
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr ""
 
-#: src/Gui/Window.cpp:2145
+#: src/Gui/Window.cpp:2152
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr ""
 
-#: src/Gui/Window.cpp:2156
+#: src/Gui/Window.cpp:2163
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2157
+#: src/Gui/Window.cpp:2164
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "Отключено"
 
-#: src/Gui/Window.cpp:2215
+#: src/Gui/Window.cpp:2222
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Не удалось сохранить файл сведений"
 
-#: src/Gui/Window.cpp:2216
+#: src/Gui/Window.cpp:2223
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3843,65 +3843,65 @@ msgstr ""
 "Не удается сохранить файл. Ошибка:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2221
+#: src/Gui/Window.cpp:2228
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Сохранить письма"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2237
+#: src/Gui/Window.cpp:2244
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "Исходный код сообщений UID %1 в %2"
 
-#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
+#: src/Gui/Window.cpp:2259 src/Gui/Window.cpp:2281
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Закрыть"
 
-#: src/Gui/Window.cpp:2254 src/Gui/Window.cpp:2276
+#: src/Gui/Window.cpp:2261 src/Gui/Window.cpp:2283
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2497
+#: src/Gui/Window.cpp:2504
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "N"
 
-#: src/Gui/Window.cpp:2505
+#: src/Gui/Window.cpp:2512
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2526
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2521
+#: src/Gui/Window.cpp:2528
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Сервер:"
 
-#: src/Gui/Window.cpp:2523
+#: src/Gui/Window.cpp:2530
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Сервер:"
 
-#: src/Gui/Window.cpp:2526
+#: src/Gui/Window.cpp:2533
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr ""
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2537
 #, fuzzy, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -3909,42 +3909,42 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr "%1 на %2"
 
-#: src/Gui/Window.cpp:2532
+#: src/Gui/Window.cpp:2539
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr "%1 на %2"
 
-#: src/Gui/Window.cpp:2534
+#: src/Gui/Window.cpp:2541
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2536
+#: src/Gui/Window.cpp:2543
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>Сервер IMAP не вернул о себе полезной информации.</p>"
 
-#: src/Gui/Window.cpp:2540
+#: src/Gui/Window.cpp:2547
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2542
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2544
+#: src/Gui/Window.cpp:2551
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr ""
 "<p>Сервер не предоставил информацию о версии программного обеспечения.</p>"
 
-#: src/Gui/Window.cpp:2551
+#: src/Gui/Window.cpp:2558
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3952,7 +3952,7 @@ msgid ""
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2553
+#: src/Gui/Window.cpp:2560
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3960,7 +3960,7 @@ msgid ""
 "%1</ul>"
 msgstr "N"
 
-#: src/Gui/Window.cpp:2573
+#: src/Gui/Window.cpp:2580
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -3970,13 +3970,13 @@ msgstr[1] "%1 - %n непрочитанных"
 msgstr[2] "%1 - %n непрочитанных"
 msgstr[3] ""
 
-#: src/Gui/Window.cpp:2576
+#: src/Gui/Window.cpp:2583
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - Trojitá"
 
-#: src/Gui/Window.cpp:3001
+#: src/Gui/Window.cpp:3008
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""

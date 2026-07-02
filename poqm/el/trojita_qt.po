@@ -1286,8 +1286,8 @@ msgstr ""
 "<br><span style=\"color:red\">Προειδοποίηση: Τα συνημμένα <b>δεν</b> "
 "αποθηκεύονται με το προσχέδιο!</span>"
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1533
-#: src/Gui/Window.cpp:1535
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1547
+#: src/Gui/Window.cpp:1549
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Προσχέδια"
@@ -1793,6 +1793,39 @@ msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
 msgstr "Σφάλμα: Η καταγραφή μιας διαδραστικής επικοινωνίας IPC απέτυχε: %1"
 
+#: src/Gui/MessageActionHandler.cpp:103
+#, fuzzy
+#| msgctxt "Gui::MessageView|"
+#| msgid "you"
+msgctxt "MessageActionHandler|"
+msgid "you"
+msgstr "εσείς"
+
+#: src/Gui/MessageActionHandler.cpp:107
+#, fuzzy, qt-format
+#| msgctxt "Gui::MessageView|"
+#| msgid ""
+#| "On %1, %2 sent an encrypted message:\n"
+#| "> ...\n"
+#| "\n"
+msgctxt "MessageActionHandler|"
+msgid ""
+"On %1, %2 sent an encrypted message:\n"
+"> ...\n"
+"\n"
+msgstr ""
+"%1, %2 εστάλη κρυπτογραφημένο μήνυμα:\n"
+"> ...\n"
+"\n"
+
+#: src/Gui/MessageActionHandler.cpp:115
+#, fuzzy, qt-format
+#| msgctxt "Gui::MessageView|"
+#| msgid "On %1, %2 wrote:\n"
+msgctxt "MessageActionHandler|"
+msgid "On %1, %2 wrote:\n"
+msgstr "Την ημέρα %1, ο/η %2 έγραψε:\n"
+
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
 #, fuzzy, qt-format
@@ -1947,7 +1980,7 @@ msgctxt "Gui::MessageSourceWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:91
+#: src/Gui/MessageView.cpp:89
 #, fuzzy
 #| msgctxt "Gui::MessageHeadersWidget|"
 #| msgid "Search..."
@@ -1955,7 +1988,7 @@ msgctxt "MessageView|"
 msgid "Search..."
 msgstr "Αναζήτηση..."
 
-#: src/Gui/MessageView.cpp:92
+#: src/Gui/MessageView.cpp:90
 #, fuzzy
 #| msgctxt "Gui::MessageHeadersWidget|"
 #| msgid "Ctrl+F"
@@ -1963,7 +1996,7 @@ msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:135
+#: src/Gui/MessageView.cpp:133
 #, fuzzy
 #| msgctxt "Gui::MessageSourceWidget|"
 #| msgid ""
@@ -1977,7 +2010,7 @@ msgstr ""
 "Λήψη\n"
 "μηνύματος"
 
-#: src/Gui/MessageView.cpp:220
+#: src/Gui/MessageView.cpp:218
 #, fuzzy
 #| msgctxt "Gui::MessageView|"
 #| msgid ""
@@ -1992,39 +2025,6 @@ msgid ""
 msgstr ""
 "Αναμονή\n"
 "μηνύματος..."
-
-#: src/Gui/MessageView.cpp:355
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid "you"
-msgctxt "MessageView|"
-msgid "you"
-msgstr "εσείς"
-
-#: src/Gui/MessageView.cpp:362
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageView|"
-#| msgid ""
-#| "On %1, %2 sent an encrypted message:\n"
-#| "> ...\n"
-#| "\n"
-msgctxt "MessageView|"
-msgid ""
-"On %1, %2 sent an encrypted message:\n"
-"> ...\n"
-"\n"
-msgstr ""
-"%1, %2 εστάλη κρυπτογραφημένο μήνυμα:\n"
-"> ...\n"
-"\n"
-
-#: src/Gui/MessageView.cpp:370
-#, fuzzy, qt-format
-#| msgctxt "Gui::MessageView|"
-#| msgid "On %1, %2 wrote:\n"
-msgctxt "MessageView|"
-msgid "On %1, %2 wrote:\n"
-msgstr "Την ημέρα %1, ο/η %2 έγραψε:\n"
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
 #: src/Gui/MsgListView.cpp:147
@@ -3356,541 +3356,541 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
 msgstr "Έξοδος"
 
-#: src/Gui/Window.cpp:239
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
 msgstr "&Νέο μήνυμα..."
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
 msgstr "&Επεξεργασία προσχεδίου..."
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
 msgstr "Εμφάνιση κύριας &γραμμής μενού"
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+M"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Exp&unge"
 msgstr "Σ&βήσιμο"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
 msgstr "Ctrl+E"
 
-#: src/Gui/Window.cpp:243
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
 msgstr "Σημείωση ως &αναγνωσμένο"
 
-#: src/Gui/Window.cpp:244
+#: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
 msgstr "&Επόμενο μη αναγνωσμένο μήνυμα"
 
-#: src/Gui/Window.cpp:245
+#: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
 msgstr "&Προηγούμενο μη αναγνωσμένο μήνυμα"
 
-#: src/Gui/Window.cpp:246
+#: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
 msgstr "Σημείωση ως &διαγραμμένο"
 
-#: src/Gui/Window.cpp:247
+#: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Flagged"
 msgstr "Σημείωση ως &σημαντικό"
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Junk"
 msgstr "Σημείωση ως ανεπι&θύμητο"
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
 msgid "Mark as Not &junk"
 msgstr "Σημείωση ως επι&θυμητό"
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:264
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
 msgstr "&Αποθήκευση μηνύματος..."
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
 msgstr "Προ&βολή πηγαίου κώδικα μηνύματος..."
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
 msgstr "Προβολή &κεφαλίδων μηνύματος..."
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
 msgstr "Ctrl+U"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
 msgstr "Απάντηση &προσωπικά"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
 msgstr "Ctrl+Shift+A"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Reply to All &but Me"
 msgstr "Απάντηση σε όλους &εκτός από εμένα"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
 msgstr "Ctrl+Shift+R"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
 msgstr "Απάντηση σε &όλους"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
 msgstr "Ctrl+Alt+Shift+R"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &Mailing List"
 msgstr "Απάντηση στη &λίστα αλληλογραφίας"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
 msgstr "Απάντηση κατόπιν &εκτίμησης"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
 msgstr "Ctrl+R"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
 msgstr "&Προώθηση"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
 msgstr "Ctrl+Shift+F"
 
-#: src/Gui/Window.cpp:259
+#: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
 msgstr "Επανάληψη αποστολής..."
 
-#: src/Gui/Window.cpp:260
+#: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
 msgstr "&Αρχειοθέτηση"
 
-#: src/Gui/Window.cpp:261
+#: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
 msgstr "Βιβλίο διευθύνσεων..."
 
-#: src/Gui/Window.cpp:262
+#: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "&Offline"
 msgstr "&Χωρίς σύνδεση"
 
-#: src/Gui/Window.cpp:263
+#: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
 msgstr "&Σύνδεση υψηλής χρέωσης"
 
-#: src/Gui/Window.cpp:264
+#: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
 msgstr "&Ελεύθερη Πρόσβαση"
 
-#: src/Gui/Window.cpp:265
+#: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
 msgstr "Κλείσιμο του αυτόνομου παραθύρου μηνύματος"
 
-#: src/Gui/Window.cpp:266
+#: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
 msgstr "Άνοιγμα μηνύματος σε νέο παράθυρο..."
 
-#: src/Gui/Window.cpp:267
+#: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
 msgstr "Πλοήγηση πίσω"
 
-#: src/Gui/Window.cpp:268
+#: src/Gui/Window.cpp:282
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
 msgstr "Μεγέθυνση"
 
-#: src/Gui/Window.cpp:269
+#: src/Gui/Window.cpp:283
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
 msgstr "Σμίκρυνση"
 
-#: src/Gui/Window.cpp:270
+#: src/Gui/Window.cpp:284
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
 msgstr "Αρχικό μέγεθος"
 
-#: src/Gui/Window.cpp:271
+#: src/Gui/Window.cpp:285
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
 msgstr "Μετακίνηση του φίλτρου εστίασης στη λίστα γραμματοκιβωτίων"
 
-#: src/Gui/Window.cpp:272
+#: src/Gui/Window.cpp:286
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
 msgstr "Μετακίνηση του φίλτρου εστίασης στη λίστα μηνυμάτων"
 
-#: src/Gui/Window.cpp:273
+#: src/Gui/Window.cpp:287
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
 msgstr "Μεταφορά εστίσασης στη γρήγορη αναζήτηση"
 
-#: src/Gui/Window.cpp:274
+#: src/Gui/Window.cpp:288
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
 msgstr "Ετικέτα με &1η ετικέτα"
 
-#: src/Gui/Window.cpp:275
+#: src/Gui/Window.cpp:289
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
 msgstr "Ετικέτα με &2η ετικέτα"
 
-#: src/Gui/Window.cpp:276
+#: src/Gui/Window.cpp:290
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
 msgstr "Ετικέτα με &3η ετικέτα"
 
-#: src/Gui/Window.cpp:277
+#: src/Gui/Window.cpp:291
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
 msgstr "Ετικέτα με &4η ετικέτα"
 
-#: src/Gui/Window.cpp:278
+#: src/Gui/Window.cpp:292
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
 msgstr "Ετικέτα με &5η ετικέτα"
 
-#: src/Gui/Window.cpp:279
+#: src/Gui/Window.cpp:293
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
 msgstr "Ετικέτα με &6η ετικέτα"
 
-#: src/Gui/Window.cpp:280
+#: src/Gui/Window.cpp:294
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
 msgstr "Ετικέτα με &7η ετικέτα"
 
-#: src/Gui/Window.cpp:281
+#: src/Gui/Window.cpp:295
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
 msgstr "Ετικέτα με &8η ετικέτα"
 
-#: src/Gui/Window.cpp:282
+#: src/Gui/Window.cpp:296
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
 msgstr "Ετικέτα με &9η ετικέτα"
 
-#: src/Gui/Window.cpp:310
+#: src/Gui/Window.cpp:324
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
 msgstr "Πλοήγηση"
 
-#: src/Gui/Window.cpp:313
+#: src/Gui/Window.cpp:327
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
 msgstr "&Ενημέρωση της λίστας των γραμματοκιβωτίων-παιδιών "
 
-#: src/Gui/Window.cpp:316
+#: src/Gui/Window.cpp:330
 msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
 msgstr "Έλεγχος για &νέα μηνύματα"
 
-#: src/Gui/Window.cpp:319
+#: src/Gui/Window.cpp:333
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
 msgstr "&Επαναφόρτωση όλων"
 
-#: src/Gui/Window.cpp:323
+#: src/Gui/Window.cpp:337
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
 msgstr "Έξοδος από την εφαρμογή"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
-#: src/Gui/Window.cpp:342
+#: src/Gui/Window.cpp:356
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
 msgstr "Εμφάνιση παραθύρου πλήρους &δέντρου"
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
-#: src/Gui/Window.cpp:348
+#: src/Gui/Window.cpp:362
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
 msgstr "Εμφάνιση δέντρου ενερ&γειών IMAP"
 
 #. a debugging tool showing the mime tree of the current message
-#: src/Gui/Window.cpp:354
+#: src/Gui/Window.cpp:368
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
 msgstr "Εμφάνιση δέντρου &MIME"
 
-#: src/Gui/Window.cpp:359
+#: src/Gui/Window.cpp:373
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
 msgstr "Εμφάνιση καταγραφής πρωτοκό&λλων"
 
 #. file to save the debug log into
-#: src/Gui/Window.cpp:365
+#: src/Gui/Window.cpp:379
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
 msgstr "Καταγρα&φή στο  %1"
 
-#: src/Gui/Window.cpp:370
+#: src/Gui/Window.cpp:384
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
 msgstr "Πληροφορίες &διακομιστή IMAP..."
 
-#: src/Gui/Window.cpp:379
+#: src/Gui/Window.cpp:393
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
 msgstr "Εμφάνιση γραμμής εργα&λείων"
 
-#: src/Gui/Window.cpp:385
+#: src/Gui/Window.cpp:399
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
 msgstr "&Ρυθμίσεις..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:482
+#: src/Gui/Window.cpp:496
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
 msgstr "Δημιουργία γραμματοκι&βωτίου-παιδιού..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:486
+#: src/Gui/Window.cpp:500
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
 msgstr "Δημιουργία &νέου γραμματοκιβωτίου..."
 
-#: src/Gui/Window.cpp:489
+#: src/Gui/Window.cpp:503
 msgctxt "Gui::MainWindow|"
 msgid "&Mark Mailbox as Read"
 msgstr "Σημείωση &γραμματοκιβωτίου ως αναγνωσμένο"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:493
+#: src/Gui/Window.cpp:507
 msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
 msgstr "&Αφαίρεση γραμματοκιβωτίου"
 
-#: src/Gui/Window.cpp:511
+#: src/Gui/Window.cpp:525
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
 msgstr "Εμφάνιση μηνυμάτων σε &νήματα"
 
-#: src/Gui/Window.cpp:522
+#: src/Gui/Window.cpp:536
 msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
 msgstr "&Αύξουσα"
 
-#: src/Gui/Window.cpp:525
+#: src/Gui/Window.cpp:539
 msgctxt "Gui::MainWindow|"
 msgid "&Descending"
 msgstr "&Φθίνουσα"
 
-#: src/Gui/Window.cpp:533
+#: src/Gui/Window.cpp:547
 msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
 msgstr "&Χωρίς ταξινόμηση"
 
-#: src/Gui/Window.cpp:535
+#: src/Gui/Window.cpp:549
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
 msgstr "&Ταξινόμηση κατά νήματα"
 
-#: src/Gui/Window.cpp:537
+#: src/Gui/Window.cpp:551
 msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
 msgstr "Ά&φιξη"
 
-#: src/Gui/Window.cpp:539
+#: src/Gui/Window.cpp:553
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
 msgstr "&Cc (Ακριβές αντίγραφο)"
 
-#: src/Gui/Window.cpp:541
+#: src/Gui/Window.cpp:555
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
 msgstr "Ημερομηνία από τις &κεφαλίδες των μηνυμάτων"
 
-#: src/Gui/Window.cpp:543
+#: src/Gui/Window.cpp:557
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
 msgstr "Διεύθυνση &αποστολέα"
 
-#: src/Gui/Window.cpp:545
+#: src/Gui/Window.cpp:559
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
 msgstr "&Μέγεθος"
 
-#: src/Gui/Window.cpp:547
+#: src/Gui/Window.cpp:561
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
 msgstr "&Θέμα"
 
-#: src/Gui/Window.cpp:549
+#: src/Gui/Window.cpp:563
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
 msgstr "Διεύθυνση &παραλήπτη"
 
-#: src/Gui/Window.cpp:554
+#: src/Gui/Window.cpp:568
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
 msgstr "&Απόκρυψη αναγνωσμένων μηνυμάτων"
 
-#: src/Gui/Window.cpp:563
+#: src/Gui/Window.cpp:577
 msgctxt "Gui::MainWindow|"
 msgid "&Compact"
 msgstr "&Συμπαγής"
 
-#: src/Gui/Window.cpp:567
+#: src/Gui/Window.cpp:581
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
 msgstr "&Ευρεία"
 
-#: src/Gui/Window.cpp:570
+#: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
 msgstr "&Ένα τη φορά"
 
-#: src/Gui/Window.cpp:575
+#: src/Gui/Window.cpp:589
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
 msgstr "Εμφάνιση μόνο &εγγεγραμμένων φακέλων"
 
-#: src/Gui/Window.cpp:579
+#: src/Gui/Window.cpp:593
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
 msgstr "&Εγγεγραμμένος"
 
-#: src/Gui/Window.cpp:584
+#: src/Gui/Window.cpp:598
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "&Σχετικά με το Trojitá..."
 
-#: src/Gui/Window.cpp:587
+#: src/Gui/Window.cpp:601
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
 msgstr "&Δωρεά στο έργο"
 
-#: src/Gui/Window.cpp:592
+#: src/Gui/Window.cpp:606
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "Σύνταξη αλληλογραφίας"
 
-#: src/Gui/Window.cpp:692
+#: src/Gui/Window.cpp:706
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr "Εφ&αρμογή"
 
-#: src/Gui/Window.cpp:694
+#: src/Gui/Window.cpp:708
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr "&Δικτυακή πρόσβαση"
 
-#: src/Gui/Window.cpp:698
+#: src/Gui/Window.cpp:712
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "&Αποσφαλμάτωση"
 
-#: src/Gui/Window.cpp:718
+#: src/Gui/Window.cpp:732
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "Π&ροβολή"
 
-#: src/Gui/Window.cpp:721
+#: src/Gui/Window.cpp:735
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "&Διάταξη"
 
-#: src/Gui/Window.cpp:728
+#: src/Gui/Window.cpp:742
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "Γραμματοκι&βώτιο"
 
-#: src/Gui/Window.cpp:729
+#: src/Gui/Window.cpp:743
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "Τα&ξινόμηση"
 
-#: src/Gui/Window.cpp:753
+#: src/Gui/Window.cpp:767
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "&Μήνυμα"
 
-#: src/Gui/Window.cpp:832
+#: src/Gui/Window.cpp:846
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "Προορισμός συνδέσμου: %1"
 
-#: src/Gui/Window.cpp:841
+#: src/Gui/Window.cpp:855
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "Επαναφόρτωση όλων"
 
-#: src/Gui/Window.cpp:849
+#: src/Gui/Window.cpp:863
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "Εργασίες IMAP"
 
-#: src/Gui/Window.cpp:856
+#: src/Gui/Window.cpp:870
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr "Δέντρο MIME"
 
-#: src/Gui/Window.cpp:867
+#: src/Gui/Window.cpp:881
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "Καταγραφή πρωτοκόλλων"
 
-#: src/Gui/Window.cpp:948
+#: src/Gui/Window.cpp:962
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Attempting to reconnect in %n seconds.."
@@ -3901,13 +3901,13 @@ msgid_plural "Attempting to reconnect in %n second(s).."
 msgstr[0] "Προσπάθεια επανασύνδεσης σε %n δευτερόλεπτα."
 msgstr[1] "Προσπάθεια επανασύνδεσης σε %n δευτερόλεπτα."
 
-#: src/Gui/Window.cpp:1001
+#: src/Gui/Window.cpp:1015
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "Έ&ξοδος"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1118
+#: src/Gui/Window.cpp:1132
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3916,17 +3916,17 @@ msgstr[0] "- %n μη αναγνωσμένο(α) μήνυμα(τα)"
 msgstr[1] "- %n μη αναγνωσμένο(α) μήνυμα(τα)"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1121
+#: src/Gui/Window.cpp:1135
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - χωρίς σύνδεση"
 
-#: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
+#: src/Gui/Window.cpp:1144 src/Gui/Window.cpp:2586
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1131
+#: src/Gui/Window.cpp:1145
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3936,27 +3936,27 @@ msgstr ""
 "απενεργοποιηθεί από τις ρυθμίσεις."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1342
+#: src/Gui/Window.cpp:1356
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "Συναγερμός IMAP"
 
-#: src/Gui/Window.cpp:1347
+#: src/Gui/Window.cpp:1361
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "Σφάλμα πρωτοκόλλου IMAP"
 
-#: src/Gui/Window.cpp:1355
+#: src/Gui/Window.cpp:1369
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Σφάλμα δικτύου"
 
-#: src/Gui/Window.cpp:1376
+#: src/Gui/Window.cpp:1390
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "Σφάλμα λανθάνουσας μνήμης IMAP"
 
-#: src/Gui/Window.cpp:1377
+#: src/Gui/Window.cpp:1391
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3971,35 +3971,35 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:1388
+#: src/Gui/Window.cpp:1402
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "Χωρίς σύνδεση"
 
-#: src/Gui/Window.cpp:1434
+#: src/Gui/Window.cpp:1448
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "Καμιά διαμόρφωση"
 
-#: src/Gui/Window.cpp:1435
+#: src/Gui/Window.cpp:1449
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 "Δεν έχει διαμορφωθεί κάποιος λογαριασμός IMAP. Το Trojitá χωρίς έναν "
 "λογαριασμό δεν έχει λειτουργικότητα."
 
-#: src/Gui/Window.cpp:1460
+#: src/Gui/Window.cpp:1474
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "Αποτυχία λήψης του κωδικού πρόσβασης από την αποθήκη:  %1"
 
-#: src/Gui/Window.cpp:1478
+#: src/Gui/Window.cpp:1492
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "Απαιτείται ταυτοποίηση"
 
-#: src/Gui/Window.cpp:1479
+#: src/Gui/Window.cpp:1493
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -4007,44 +4007,44 @@ msgstr ""
 "<p>Καταχωρήστε παρακαλώ τον κωδικό πρόσβασης IMAP για τον χρήστη <b>%1</b> "
 "on <b>%2</b>:</p>"
 
-#: src/Gui/Window.cpp:1535
+#: src/Gui/Window.cpp:1549
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Επεξεργασία προσχεδίου"
 
-#: src/Gui/Window.cpp:1662
+#: src/Gui/Window.cpp:1676
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "Αποτυχία αρχειοθέτησης"
 
-#: src/Gui/Window.cpp:1712
+#: src/Gui/Window.cpp:1726
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "Δημιουργία υποφακέλου του %1"
 
-#: src/Gui/Window.cpp:1713
+#: src/Gui/Window.cpp:1727
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "Δημιουργία γραμματοκιβωτίου πρώτου επιπέδου"
 
-#: src/Gui/Window.cpp:1740
+#: src/Gui/Window.cpp:1754
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Διαγραφή γραμματοκιβωτίου"
 
-#: src/Gui/Window.cpp:1741
+#: src/Gui/Window.cpp:1755
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "Είστε βέβαιος-η ότι επιθυμείτε τη διαγραφή του γραμματοκιβωτίου %1;"
 
-#: src/Gui/Window.cpp:2054
+#: src/Gui/Window.cpp:2061
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Αδυναμία διαγραφής γραμματοκιβωτίου"
 
-#: src/Gui/Window.cpp:2055
+#: src/Gui/Window.cpp:2062
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4054,12 +4054,12 @@ msgstr ""
 "Η διαγραφή του γραμματοκιβωτίου \"%1\"απέτυχε με το ακόλουθο μήνυμα:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2060
+#: src/Gui/Window.cpp:2067
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Αδυναμία δημιουργίας γραμματοκιβωτίου"
 
-#: src/Gui/Window.cpp:2061
+#: src/Gui/Window.cpp:2068
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4069,12 +4069,12 @@ msgstr ""
 "Η δημιουργία του γραμματοκιβωτίου \"%1\"απέτυχε με το ακόλουθο μήνυμα:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2066
+#: src/Gui/Window.cpp:2073
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Αδυναμία ανοίγματος του γραμματοκιβωτίου"
 
-#: src/Gui/Window.cpp:2067
+#: src/Gui/Window.cpp:2074
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4084,45 +4084,45 @@ msgstr ""
 "Το άνοιγμα του γραμματοκιβωτίου «%1» απέτυχε με το ακόλουθο μήνυμα:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2116
+#: src/Gui/Window.cpp:2123
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Προορισμός συνδέσμου: %1"
 
-#: src/Gui/Window.cpp:2131
+#: src/Gui/Window.cpp:2138
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "Πρόσθετα"
 
-#: src/Gui/Window.cpp:2138
+#: src/Gui/Window.cpp:2145
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Κρυπτογραφημένα και υπογεγραμμένα μηνύματα"
 
-#: src/Gui/Window.cpp:2145
+#: src/Gui/Window.cpp:2152
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "Συμπίεση IMAP"
 
-#: src/Gui/Window.cpp:2156
+#: src/Gui/Window.cpp:2163
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: υποστηρίζει</li>"
 
-#: src/Gui/Window.cpp:2157
+#: src/Gui/Window.cpp:2164
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>απενεργοποιημένο</strong></li>"
 
-#: src/Gui/Window.cpp:2215
+#: src/Gui/Window.cpp:2222
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Αδύνατη η αποθήκευση στο αρχείο"
 
-#: src/Gui/Window.cpp:2216
+#: src/Gui/Window.cpp:2223
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4132,63 +4132,63 @@ msgstr ""
 "Αδύνατη η αποθήκευση του αρχείου. Σφάλμα:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2221
+#: src/Gui/Window.cpp:2228
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Αποθήκευση μηνύματος"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2237
+#: src/Gui/Window.cpp:2244
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "Πηγαίος κώδικας μηνύματος με UID %1 του %2"
 
-#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
+#: src/Gui/Window.cpp:2259 src/Gui/Window.cpp:2281
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: src/Gui/Window.cpp:2254 src/Gui/Window.cpp:2276
+#: src/Gui/Window.cpp:2261 src/Gui/Window.cpp:2283
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2497
+#: src/Gui/Window.cpp:2504
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2505
+#: src/Gui/Window.cpp:2512
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Άγνωστος"
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2526
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2521
+#: src/Gui/Window.cpp:2528
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Διακομιστής: %1 %2"
 
-#: src/Gui/Window.cpp:2523
+#: src/Gui/Window.cpp:2530
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Διακομιστής: %1"
 
-#: src/Gui/Window.cpp:2526
+#: src/Gui/Window.cpp:2533
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2537
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -4196,37 +4196,37 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " σε %1 %2"
 
-#: src/Gui/Window.cpp:2532
+#: src/Gui/Window.cpp:2539
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " σε %1"
 
-#: src/Gui/Window.cpp:2534
+#: src/Gui/Window.cpp:2541
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2536
+#: src/Gui/Window.cpp:2543
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr ""
 "<p>Ο διακομιστής IMAP δεν επέστρεψε χρήσιμες πληροφορίες σχετικά με αυτόν.</"
 "p>"
 
-#: src/Gui/Window.cpp:2540
+#: src/Gui/Window.cpp:2547
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2542
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2544
+#: src/Gui/Window.cpp:2551
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
@@ -4234,7 +4234,7 @@ msgstr ""
 "<p>Ο διακομιστής δεν παρείχε πληροφορίες σχετικά με την έκδοση του "
 "λογισμικού του.</p>"
 
-#: src/Gui/Window.cpp:2551
+#: src/Gui/Window.cpp:2558
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4244,7 +4244,7 @@ msgstr ""
 "%1\n"
 "<p>Αυτή τη στιγμή κοινοποιούνται οι παρακάτω δυνατότητες:</p>"
 
-#: src/Gui/Window.cpp:2553
+#: src/Gui/Window.cpp:2560
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4254,7 +4254,7 @@ msgstr ""
 "<ul>\n"
 "%1</ul>"
 
-#: src/Gui/Window.cpp:2573
+#: src/Gui/Window.cpp:2580
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -4262,13 +4262,13 @@ msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] "%1 - %n μη αναγνωσμένα - Trojitá"
 msgstr[1] "%1 - %n μη αναγνωσμένα - Trojitá"
 
-#: src/Gui/Window.cpp:2576
+#: src/Gui/Window.cpp:2583
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - Trojitá"
 
-#: src/Gui/Window.cpp:3001
+#: src/Gui/Window.cpp:3008
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""

@@ -1056,8 +1056,8 @@ msgid ""
 "the draft!</span>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1533
-#: src/Gui/Window.cpp:1535
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1547
+#: src/Gui/Window.cpp:1549
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr ""
@@ -1563,6 +1563,29 @@ msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
 msgstr ""
 
+#: src/Gui/MessageActionHandler.cpp:103
+#, fuzzy
+#| msgctxt "Gui::MessageView|"
+#| msgid "you"
+msgctxt "MessageActionHandler|"
+msgid "you"
+msgstr "tu"
+
+#: src/Gui/MessageActionHandler.cpp:107
+#, qt-format
+msgctxt "MessageActionHandler|"
+msgid ""
+"On %1, %2 sent an encrypted message:\n"
+"> ...\n"
+"\n"
+msgstr ""
+
+#: src/Gui/MessageActionHandler.cpp:115
+#, qt-format
+msgctxt "MessageActionHandler|"
+msgid "On %1, %2 wrote:\n"
+msgstr ""
+
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
 #, qt-format
@@ -1719,7 +1742,7 @@ msgctxt "Gui::MessageSourceWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+C"
 
-#: src/Gui/MessageView.cpp:91
+#: src/Gui/MessageView.cpp:89
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "Attach..."
@@ -1727,7 +1750,7 @@ msgctxt "MessageView|"
 msgid "Search..."
 msgstr "Atașează..."
 
-#: src/Gui/MessageView.cpp:92
+#: src/Gui/MessageView.cpp:90
 #, fuzzy
 #| msgctxt "Gui::EmbeddedWebView|"
 #| msgid "Ctrl+C"
@@ -1735,7 +1758,7 @@ msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Ctrl+C"
 
-#: src/Gui/MessageView.cpp:135
+#: src/Gui/MessageView.cpp:133
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Saving message..."
@@ -1745,7 +1768,7 @@ msgid ""
 "Message"
 msgstr "Se salvează mesajul..."
 
-#: src/Gui/MessageView.cpp:220
+#: src/Gui/MessageView.cpp:218
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Saving message..."
@@ -1755,29 +1778,6 @@ msgid ""
 "for\n"
 "Message..."
 msgstr "Se salvează mesajul..."
-
-#: src/Gui/MessageView.cpp:355
-#, fuzzy
-#| msgctxt "Gui::MessageView|"
-#| msgid "you"
-msgctxt "MessageView|"
-msgid "you"
-msgstr "tu"
-
-#: src/Gui/MessageView.cpp:362
-#, qt-format
-msgctxt "MessageView|"
-msgid ""
-"On %1, %2 sent an encrypted message:\n"
-"> ...\n"
-"\n"
-msgstr ""
-
-#: src/Gui/MessageView.cpp:370
-#, qt-format
-msgctxt "MessageView|"
-msgid "On %1, %2 wrote:\n"
-msgstr ""
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
 #: src/Gui/MsgListView.cpp:147
@@ -3034,12 +3034,12 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
 msgstr ""
 
-#: src/Gui/Window.cpp:239
+#: src/Gui/Window.cpp:253
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Save Message..."
@@ -3047,32 +3047,32 @@ msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
 msgstr "Salvează mesajul..."
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
 msgstr ""
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
 msgstr ""
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+M"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Exp&unge"
 msgstr ""
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
 msgstr "Ctrl+E"
 
-#: src/Gui/Window.cpp:243
+#: src/Gui/Window.cpp:257
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as Read"
@@ -3080,7 +3080,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
 msgstr "Marchează ca citit"
 
-#: src/Gui/Window.cpp:244
+#: src/Gui/Window.cpp:258
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Next Unread Message"
@@ -3088,7 +3088,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
 msgstr "Mesajul următor necitit"
 
-#: src/Gui/Window.cpp:245
+#: src/Gui/Window.cpp:259
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Previous Unread Message"
@@ -3096,7 +3096,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
 msgstr "Mesajul precedent necitit"
 
-#: src/Gui/Window.cpp:246
+#: src/Gui/Window.cpp:260
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as Deleted"
@@ -3104,7 +3104,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
 msgstr "Marchează ca șters"
 
-#: src/Gui/Window.cpp:247
+#: src/Gui/Window.cpp:261
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as Read"
@@ -3112,7 +3112,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Mark as &Flagged"
 msgstr "Marchează ca citit"
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:262
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as Read"
@@ -3120,7 +3120,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Mark as &Junk"
 msgstr "Marchează ca citit"
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:263
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as Read"
@@ -3128,7 +3128,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Mark as Not &junk"
 msgstr "Marchează ca citit"
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:264
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Save Message..."
@@ -3136,7 +3136,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
 msgstr "Salvează mesajul..."
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:265
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "View Message Headers..."
@@ -3144,7 +3144,7 @@ msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
 msgstr "Vezi antetele mesajului..."
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:266
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "View Message Headers..."
@@ -3152,12 +3152,12 @@ msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
 msgstr "Vezi antetele mesajului..."
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
 msgstr "Ctrl+U"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:267
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Private Reply"
@@ -3165,12 +3165,12 @@ msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
 msgstr "Răspuns privat"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
 msgstr ""
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:268
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Reply to All"
@@ -3178,12 +3178,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Reply to All &but Me"
 msgstr "Răspunde tuturor"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
 msgstr ""
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:269
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Reply to All"
@@ -3191,12 +3191,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
 msgstr "Răspunde tuturor"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
 msgstr ""
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:270
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Reply to Mailing List"
@@ -3204,7 +3204,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Reply to &Mailing List"
 msgstr "Răspunde pe lista de discuții"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:270
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Ctrl+M"
@@ -3212,12 +3212,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
 msgstr ""
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:271
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Ctrl+M"
@@ -3225,12 +3225,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
 msgstr ""
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:272
 #, fuzzy
 #| msgctxt "Gui::EmbeddedWebView|"
 #| msgid "Ctrl+C"
@@ -3238,22 +3238,22 @@ msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
 msgstr "Ctrl+C"
 
-#: src/Gui/Window.cpp:259
+#: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
 msgstr ""
 
-#: src/Gui/Window.cpp:260
+#: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
 msgstr ""
 
-#: src/Gui/Window.cpp:261
+#: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
 msgstr ""
 
-#: src/Gui/Window.cpp:262
+#: src/Gui/Window.cpp:276
 #, fuzzy
 #| msgctxt "PartWidgetFactory|"
 #| msgid "Offline"
@@ -3261,7 +3261,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Offline"
 msgstr "Deconectat"
 
-#: src/Gui/Window.cpp:263
+#: src/Gui/Window.cpp:277
 #, fuzzy
 #| msgctxt "Gui::XtConnectPage|"
 #| msgid "Database Connection"
@@ -3269,52 +3269,52 @@ msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
 msgstr "Conexiune la baza de date"
 
-#: src/Gui/Window.cpp:264
+#: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
 msgstr ""
 
-#: src/Gui/Window.cpp:265
+#: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
 msgstr ""
 
-#: src/Gui/Window.cpp:266
+#: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
 msgstr ""
 
-#: src/Gui/Window.cpp:267
+#: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
 msgstr ""
 
-#: src/Gui/Window.cpp:268
+#: src/Gui/Window.cpp:282
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
 msgstr ""
 
-#: src/Gui/Window.cpp:269
+#: src/Gui/Window.cpp:283
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
 msgstr ""
 
-#: src/Gui/Window.cpp:270
+#: src/Gui/Window.cpp:284
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
 msgstr ""
 
-#: src/Gui/Window.cpp:271
+#: src/Gui/Window.cpp:285
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
 msgstr ""
 
-#: src/Gui/Window.cpp:272
+#: src/Gui/Window.cpp:286
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
 msgstr ""
 
-#: src/Gui/Window.cpp:273
+#: src/Gui/Window.cpp:287
 #, fuzzy
 #| msgctxt "Gui::MessageListWidget|"
 #| msgid "Fuzzy Search"
@@ -3322,62 +3322,62 @@ msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
 msgstr "Căutare aproximativă"
 
-#: src/Gui/Window.cpp:274
+#: src/Gui/Window.cpp:288
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:275
+#: src/Gui/Window.cpp:289
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:276
+#: src/Gui/Window.cpp:290
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:277
+#: src/Gui/Window.cpp:291
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:278
+#: src/Gui/Window.cpp:292
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:279
+#: src/Gui/Window.cpp:293
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:280
+#: src/Gui/Window.cpp:294
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:281
+#: src/Gui/Window.cpp:295
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:282
+#: src/Gui/Window.cpp:296
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
 msgstr ""
 
-#: src/Gui/Window.cpp:310
+#: src/Gui/Window.cpp:324
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
 msgstr ""
 
-#: src/Gui/Window.cpp:313
+#: src/Gui/Window.cpp:327
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
 msgstr ""
 
-#: src/Gui/Window.cpp:316
+#: src/Gui/Window.cpp:330
 #, fuzzy
 #| msgctxt "Imap::Mailbox::NoopTask|"
 #| msgid "Checking for new messages"
@@ -3385,35 +3385,35 @@ msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
 msgstr "Se verifică dacă sînt mesaje noi"
 
-#: src/Gui/Window.cpp:319
+#: src/Gui/Window.cpp:333
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
 msgstr ""
 
-#: src/Gui/Window.cpp:323
+#: src/Gui/Window.cpp:337
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
 msgstr ""
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
-#: src/Gui/Window.cpp:342
+#: src/Gui/Window.cpp:356
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
 msgstr ""
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
-#: src/Gui/Window.cpp:348
+#: src/Gui/Window.cpp:362
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
 msgstr ""
 
 #. a debugging tool showing the mime tree of the current message
-#: src/Gui/Window.cpp:354
+#: src/Gui/Window.cpp:368
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
 msgstr ""
 
-#: src/Gui/Window.cpp:359
+#: src/Gui/Window.cpp:373
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "IMAP Protocol"
@@ -3422,18 +3422,18 @@ msgid "Show protocol &log"
 msgstr "Protocol IMAP"
 
 #. file to save the debug log into
-#: src/Gui/Window.cpp:365
+#: src/Gui/Window.cpp:379
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:370
+#: src/Gui/Window.cpp:384
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
 msgstr ""
 
-#: src/Gui/Window.cpp:379
+#: src/Gui/Window.cpp:393
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Show Toolbar"
@@ -3441,7 +3441,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
 msgstr "Arată bara de unelte"
 
-#: src/Gui/Window.cpp:385
+#: src/Gui/Window.cpp:399
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Settings..."
@@ -3450,7 +3450,7 @@ msgid "&Settings..."
 msgstr "Configurări..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:482
+#: src/Gui/Window.cpp:496
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Create New Mailbox..."
@@ -3459,7 +3459,7 @@ msgid "Create &Child Mailbox..."
 msgstr "Creează cutie poștală nouă..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:486
+#: src/Gui/Window.cpp:500
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Create New Mailbox..."
@@ -3467,7 +3467,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
 msgstr "Creează cutie poștală nouă..."
 
-#: src/Gui/Window.cpp:489
+#: src/Gui/Window.cpp:503
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mark as Read"
@@ -3476,7 +3476,7 @@ msgid "&Mark Mailbox as Read"
 msgstr "Marchează ca citit"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:493
+#: src/Gui/Window.cpp:507
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Delete Mailbox"
@@ -3484,7 +3484,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
 msgstr "Șterge cutia poștală"
 
-#: src/Gui/Window.cpp:511
+#: src/Gui/Window.cpp:525
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Show Messages in Threads"
@@ -3492,7 +3492,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
 msgstr "Arată mesajele în fire"
 
-#: src/Gui/Window.cpp:522
+#: src/Gui/Window.cpp:536
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Ascending"
@@ -3500,7 +3500,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
 msgstr "Crescător"
 
-#: src/Gui/Window.cpp:525
+#: src/Gui/Window.cpp:539
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Descending"
@@ -3508,7 +3508,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Descending"
 msgstr "Descrescător"
 
-#: src/Gui/Window.cpp:533
+#: src/Gui/Window.cpp:547
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "No sorting"
@@ -3516,7 +3516,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
 msgstr "Fără sortare"
 
-#: src/Gui/Window.cpp:535
+#: src/Gui/Window.cpp:549
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Sorted by Threading"
@@ -3524,7 +3524,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
 msgstr "Sortare pe fire"
 
-#: src/Gui/Window.cpp:537
+#: src/Gui/Window.cpp:551
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Arrival"
@@ -3532,12 +3532,12 @@ msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
 msgstr "Sosire"
 
-#: src/Gui/Window.cpp:539
+#: src/Gui/Window.cpp:553
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
 msgstr ""
 
-#: src/Gui/Window.cpp:541
+#: src/Gui/Window.cpp:555
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "View Message Headers..."
@@ -3545,12 +3545,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
 msgstr "Vezi antetele mesajului..."
 
-#: src/Gui/Window.cpp:543
+#: src/Gui/Window.cpp:557
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
 msgstr ""
 
-#: src/Gui/Window.cpp:545
+#: src/Gui/Window.cpp:559
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Size"
@@ -3558,7 +3558,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Size"
 msgstr "Dimensiune"
 
-#: src/Gui/Window.cpp:547
+#: src/Gui/Window.cpp:561
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Subject"
@@ -3566,7 +3566,7 @@ msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
 msgstr "Subiect"
 
-#: src/Gui/Window.cpp:549
+#: src/Gui/Window.cpp:563
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Invalid Address"
@@ -3574,7 +3574,7 @@ msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
 msgstr "Adresă nevalidă"
 
-#: src/Gui/Window.cpp:554
+#: src/Gui/Window.cpp:568
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Hide Read Messages"
@@ -3582,7 +3582,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
 msgstr "Ascunde mesajele citite"
 
-#: src/Gui/Window.cpp:563
+#: src/Gui/Window.cpp:577
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Compact"
@@ -3590,27 +3590,27 @@ msgctxt "Gui::MainWindow|"
 msgid "&Compact"
 msgstr "Compact"
 
-#: src/Gui/Window.cpp:567
+#: src/Gui/Window.cpp:581
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
 msgstr ""
 
-#: src/Gui/Window.cpp:570
+#: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
 msgstr ""
 
-#: src/Gui/Window.cpp:575
+#: src/Gui/Window.cpp:589
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
 msgstr ""
 
-#: src/Gui/Window.cpp:579
+#: src/Gui/Window.cpp:593
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
 msgstr ""
 
-#: src/Gui/Window.cpp:584
+#: src/Gui/Window.cpp:598
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "About Trojitá..."
@@ -3618,12 +3618,12 @@ msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "Despre Trojitá..."
 
-#: src/Gui/Window.cpp:587
+#: src/Gui/Window.cpp:601
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
 msgstr ""
 
-#: src/Gui/Window.cpp:592
+#: src/Gui/Window.cpp:606
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "Compose Mail"
@@ -3631,17 +3631,17 @@ msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "Compune o scrisoare"
 
-#: src/Gui/Window.cpp:692
+#: src/Gui/Window.cpp:706
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr ""
 
-#: src/Gui/Window.cpp:694
+#: src/Gui/Window.cpp:708
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr ""
 
-#: src/Gui/Window.cpp:698
+#: src/Gui/Window.cpp:712
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Debugging"
@@ -3649,7 +3649,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "Depanare"
 
-#: src/Gui/Window.cpp:718
+#: src/Gui/Window.cpp:732
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "View"
@@ -3657,7 +3657,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "Vizualizare"
 
-#: src/Gui/Window.cpp:721
+#: src/Gui/Window.cpp:735
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Layout"
@@ -3665,7 +3665,7 @@ msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "Aranjament"
 
-#: src/Gui/Window.cpp:728
+#: src/Gui/Window.cpp:742
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Mailbox"
@@ -3673,7 +3673,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "Cutie poștală"
 
-#: src/Gui/Window.cpp:729
+#: src/Gui/Window.cpp:743
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Sorting"
@@ -3681,7 +3681,7 @@ msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "Sortare"
 
-#: src/Gui/Window.cpp:753
+#: src/Gui/Window.cpp:767
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Save Message"
@@ -3689,28 +3689,28 @@ msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "Salvează mesajul"
 
-#: src/Gui/Window.cpp:832
+#: src/Gui/Window.cpp:846
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:841
+#: src/Gui/Window.cpp:855
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr ""
 
-#: src/Gui/Window.cpp:849
+#: src/Gui/Window.cpp:863
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr ""
 
-#: src/Gui/Window.cpp:856
+#: src/Gui/Window.cpp:870
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr ""
 
-#: src/Gui/Window.cpp:867
+#: src/Gui/Window.cpp:881
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "IMAP Protocol"
@@ -3718,7 +3718,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "Protocol IMAP"
 
-#: src/Gui/Window.cpp:948
+#: src/Gui/Window.cpp:962
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
@@ -3727,13 +3727,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/Gui/Window.cpp:1001
+#: src/Gui/Window.cpp:1015
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr ""
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1118
+#: src/Gui/Window.cpp:1132
 #, fuzzy, qt-format
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -3745,7 +3745,7 @@ msgstr[1] "Mesaj"
 msgstr[2] "Mesaj"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1121
+#: src/Gui/Window.cpp:1135
 #, fuzzy
 #| msgctxt "PartWidgetFactory|"
 #| msgid "Offline"
@@ -3753,12 +3753,12 @@ msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr "Deconectat"
 
-#: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
+#: src/Gui/Window.cpp:1144 src/Gui/Window.cpp:2586
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1131
+#: src/Gui/Window.cpp:1145
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3766,12 +3766,12 @@ msgid ""
 msgstr ""
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1342
+#: src/Gui/Window.cpp:1356
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "Alertă IMAP"
 
-#: src/Gui/Window.cpp:1347
+#: src/Gui/Window.cpp:1361
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "IMAP Protocol"
@@ -3779,7 +3779,7 @@ msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "Protocol IMAP"
 
-#: src/Gui/Window.cpp:1355
+#: src/Gui/Window.cpp:1369
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Connection Error"
@@ -3787,12 +3787,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Eroare de conexiune"
 
-#: src/Gui/Window.cpp:1376
+#: src/Gui/Window.cpp:1390
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr ""
 
-#: src/Gui/Window.cpp:1377
+#: src/Gui/Window.cpp:1391
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3802,39 +3802,39 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1388
+#: src/Gui/Window.cpp:1402
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr ""
 
-#: src/Gui/Window.cpp:1434
+#: src/Gui/Window.cpp:1448
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr ""
 
-#: src/Gui/Window.cpp:1435
+#: src/Gui/Window.cpp:1449
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 
-#: src/Gui/Window.cpp:1460
+#: src/Gui/Window.cpp:1474
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1478
+#: src/Gui/Window.cpp:1492
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr ""
 
-#: src/Gui/Window.cpp:1479
+#: src/Gui/Window.cpp:1493
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:1535
+#: src/Gui/Window.cpp:1549
 #, fuzzy
 #| msgctxt "Gui::GeneralPage|"
 #| msgid "Edit Identity"
@@ -3842,7 +3842,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Modifică identitatea"
 
-#: src/Gui/Window.cpp:1662
+#: src/Gui/Window.cpp:1676
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -3850,34 +3850,34 @@ msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "Expedierea poștei a eșuat"
 
-#: src/Gui/Window.cpp:1712
+#: src/Gui/Window.cpp:1726
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1713
+#: src/Gui/Window.cpp:1727
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:1740
+#: src/Gui/Window.cpp:1754
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Șterge cutia poștală"
 
-#: src/Gui/Window.cpp:1741
+#: src/Gui/Window.cpp:1755
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr ""
 
-#: src/Gui/Window.cpp:2054
+#: src/Gui/Window.cpp:2061
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:2055
+#: src/Gui/Window.cpp:2062
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3885,12 +3885,12 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2060
+#: src/Gui/Window.cpp:2067
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:2061
+#: src/Gui/Window.cpp:2068
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3898,7 +3898,7 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2066
+#: src/Gui/Window.cpp:2073
 #, fuzzy
 #| msgctxt "CreateMailboxDialog|"
 #| msgid "Create Mailbox"
@@ -3906,7 +3906,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Creează cutie poștală"
 
-#: src/Gui/Window.cpp:2067
+#: src/Gui/Window.cpp:2074
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3914,18 +3914,18 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2116
+#: src/Gui/Window.cpp:2123
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:2131
+#: src/Gui/Window.cpp:2138
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr ""
 
-#: src/Gui/Window.cpp:2138
+#: src/Gui/Window.cpp:2145
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -3933,12 +3933,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Mesaj semnat"
 
-#: src/Gui/Window.cpp:2145
+#: src/Gui/Window.cpp:2152
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr ""
 
-#: src/Gui/Window.cpp:2156
+#: src/Gui/Window.cpp:2163
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::CertificateUtils|"
 #| msgid "<li>%1</li>"
@@ -3946,13 +3946,13 @@ msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1</li>"
 
-#: src/Gui/Window.cpp:2157
+#: src/Gui/Window.cpp:2164
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2215
+#: src/Gui/Window.cpp:2222
 #, fuzzy
 #| msgctxt "Gui::AttachmentView|"
 #| msgid "Can't save attachment"
@@ -3960,7 +3960,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Atașamentul nu poate fi salvat"
 
-#: src/Gui/Window.cpp:2216
+#: src/Gui/Window.cpp:2223
 #, fuzzy, qt-format
 #| msgctxt "Gui::AttachmentView|"
 #| msgid ""
@@ -3974,63 +3974,63 @@ msgstr ""
 "Atașamentul nu poate fi salvat. Eroare:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2221
+#: src/Gui/Window.cpp:2228
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Salvează mesajul"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2237
+#: src/Gui/Window.cpp:2244
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
+#: src/Gui/Window.cpp:2259 src/Gui/Window.cpp:2281
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Închide"
 
-#: src/Gui/Window.cpp:2254 src/Gui/Window.cpp:2276
+#: src/Gui/Window.cpp:2261 src/Gui/Window.cpp:2283
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2497
+#: src/Gui/Window.cpp:2504
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2505
+#: src/Gui/Window.cpp:2512
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Necunoscut"
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2526
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2521
+#: src/Gui/Window.cpp:2528
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Server: %1 %2"
 
-#: src/Gui/Window.cpp:2523
+#: src/Gui/Window.cpp:2530
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Server: %1"
 
-#: src/Gui/Window.cpp:2526
+#: src/Gui/Window.cpp:2533
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2537
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid " on %1 %2"
@@ -4040,7 +4040,7 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " la %1 %2"
 
-#: src/Gui/Window.cpp:2532
+#: src/Gui/Window.cpp:2539
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid " on %1 %2"
@@ -4048,35 +4048,35 @@ msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " la %1 %2"
 
-#: src/Gui/Window.cpp:2534
+#: src/Gui/Window.cpp:2541
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2536
+#: src/Gui/Window.cpp:2543
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2540
+#: src/Gui/Window.cpp:2547
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2542
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2544
+#: src/Gui/Window.cpp:2551
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2551
+#: src/Gui/Window.cpp:2558
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4084,7 +4084,7 @@ msgid ""
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2553
+#: src/Gui/Window.cpp:2560
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::CertificateUtils|"
 #| msgid "<li>%1</li>"
@@ -4094,7 +4094,7 @@ msgid ""
 "%1</ul>"
 msgstr "<li>%1</li>"
 
-#: src/Gui/Window.cpp:2573
+#: src/Gui/Window.cpp:2580
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Trojitá"
@@ -4105,7 +4105,7 @@ msgstr[0] "Trojitá"
 msgstr[1] "Trojitá"
 msgstr[2] "Trojitá"
 
-#: src/Gui/Window.cpp:2576
+#: src/Gui/Window.cpp:2583
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Trojitá"
@@ -4113,7 +4113,7 @@ msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:3001
+#: src/Gui/Window.cpp:3008
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""

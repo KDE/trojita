@@ -904,8 +904,8 @@ msgstr ""
 "<br><span style=\"color:red\">Varovanie: Prílohy <b>nie</b> sú uložené s "
 "konceptom!</span>"
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1533
-#: src/Gui/Window.cpp:1535
+#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1547
+#: src/Gui/Window.cpp:1549
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Koncepty"
@@ -1339,6 +1339,38 @@ msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
 msgstr "Chyba: Registrácia IPC inštancie zlyhala: %1"
 
+#: src/Gui/MessageActionHandler.cpp:103
+#, fuzzy
+#| msgctxt "MessageView|"
+#| msgid "you"
+msgctxt "MessageActionHandler|"
+msgid "you"
+msgstr "vy"
+
+#: src/Gui/MessageActionHandler.cpp:107
+#, fuzzy, qt-format
+#| msgctxt "MessageView|"
+#| msgid ""
+#| "On %1, %2 sent an encrypted message:\n"
+#| "> ...\n"
+#| "\n"
+msgctxt "MessageActionHandler|"
+msgid ""
+"On %1, %2 sent an encrypted message:\n"
+"> ...\n"
+"\n"
+msgstr ""
+"Dňa %1 odoslal %2 zašifrovanú správu:\n"
+"> ...\n"
+
+#: src/Gui/MessageActionHandler.cpp:115
+#, fuzzy, qt-format
+#| msgctxt "MessageView|"
+#| msgid "On %1, %2 wrote:\n"
+msgctxt "MessageActionHandler|"
+msgid "On %1, %2 wrote:\n"
+msgstr "Na %1, %2 zapísalo:\n"
+
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
 #, qt-format
@@ -1484,17 +1516,17 @@ msgctxt "Gui::MessageSourceWidget|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:91
+#: src/Gui/MessageView.cpp:89
 msgctxt "MessageView|"
 msgid "Search..."
 msgstr "Hľadať..."
 
-#: src/Gui/MessageView.cpp:92
+#: src/Gui/MessageView.cpp:90
 msgctxt "MessageView|"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: src/Gui/MessageView.cpp:135
+#: src/Gui/MessageView.cpp:133
 msgctxt "MessageView|"
 msgid ""
 "Fetching\n"
@@ -1503,35 +1535,13 @@ msgstr ""
 "Sťahovanie\n"
 "správy"
 
-#: src/Gui/MessageView.cpp:220
+#: src/Gui/MessageView.cpp:218
 msgctxt "MessageView|"
 msgid ""
 "Waiting\n"
 "for\n"
 "Message..."
 msgstr "Čakanie na ďalšiu schránku..."
-
-#: src/Gui/MessageView.cpp:355
-msgctxt "MessageView|"
-msgid "you"
-msgstr "vy"
-
-#: src/Gui/MessageView.cpp:362
-#, qt-format
-msgctxt "MessageView|"
-msgid ""
-"On %1, %2 sent an encrypted message:\n"
-"> ...\n"
-"\n"
-msgstr ""
-"Dňa %1 odoslal %2 zašifrovanú správu:\n"
-"> ...\n"
-
-#: src/Gui/MessageView.cpp:370
-#, qt-format
-msgctxt "MessageView|"
-msgid "On %1, %2 wrote:\n"
-msgstr "Na %1, %2 zapísalo:\n"
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
 #: src/Gui/MsgListView.cpp:147
@@ -2806,541 +2816,541 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:238
+#: src/Gui/Window.cpp:252
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
 msgstr "Ukončiť"
 
-#: src/Gui/Window.cpp:239
+#: src/Gui/Window.cpp:253
 msgctxt "Gui::MainWindow|"
 msgid "&New Message..."
 msgstr "&Nová správa..."
 
-#: src/Gui/Window.cpp:240
+#: src/Gui/Window.cpp:254
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
 msgstr "&Upraviť koncept..."
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Show Main Menu &Bar"
 msgstr "&Ukazovať panel hlavnej ponuky"
 
-#: src/Gui/Window.cpp:241
+#: src/Gui/Window.cpp:255
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+M"
 msgstr "Ctrl+M"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Exp&unge"
 msgstr "&Kompletne vymazať"
 
-#: src/Gui/Window.cpp:242
+#: src/Gui/Window.cpp:256
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+E"
 msgstr "Ctrl+E"
 
-#: src/Gui/Window.cpp:243
+#: src/Gui/Window.cpp:257
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Read"
 msgstr "&Označiť ako prečítané"
 
-#: src/Gui/Window.cpp:244
+#: src/Gui/Window.cpp:258
 msgctxt "Gui::MainWindow|"
 msgid "&Next Unread Message"
 msgstr "Ďalšia neprečítaná správa"
 
-#: src/Gui/Window.cpp:245
+#: src/Gui/Window.cpp:259
 msgctxt "Gui::MainWindow|"
 msgid "&Previous Unread Message"
 msgstr "Predošlá &neprečítaná správa"
 
-#: src/Gui/Window.cpp:246
+#: src/Gui/Window.cpp:260
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Deleted"
 msgstr "&Označiť ako vymazané"
 
-#: src/Gui/Window.cpp:247
+#: src/Gui/Window.cpp:261
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Flagged"
 msgstr "&Klasifikovať ako označené vlajkou"
 
-#: src/Gui/Window.cpp:248
+#: src/Gui/Window.cpp:262
 msgctxt "Gui::MainWindow|"
 msgid "Mark as &Junk"
 msgstr "Označiť ako smeti"
 
-#: src/Gui/Window.cpp:249
+#: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
 msgid "Mark as Not &junk"
 msgstr "Označiť ako nie smeti"
 
-#: src/Gui/Window.cpp:250
+#: src/Gui/Window.cpp:264
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
 msgstr "Uložiť správu..."
 
-#: src/Gui/Window.cpp:251
+#: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
 msgstr "Zobraziť zdroj &správy..."
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
 msgstr "Zobraziť hlavičky &správy..."
 
-#: src/Gui/Window.cpp:252
+#: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+U"
 msgstr "Ctrl+U"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
 msgstr "Súkromná odpoveď"
 
-#: src/Gui/Window.cpp:253
+#: src/Gui/Window.cpp:267
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+A"
 msgstr "Ctrl+Shift+A"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Reply to All &but Me"
 msgstr "&Odpovedať všetkým okrem mňa"
 
-#: src/Gui/Window.cpp:254
+#: src/Gui/Window.cpp:268
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+R"
 msgstr "Ctrl+Shift+R"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &All"
 msgstr "Odpovedať všetkým"
 
-#: src/Gui/Window.cpp:255
+#: src/Gui/Window.cpp:269
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Alt+Shift+R"
 msgstr "Ctrl+Alt+Shift+R"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Reply to &Mailing List"
 msgstr "&Odpovedať do konferencie"
 
-#: src/Gui/Window.cpp:256
+#: src/Gui/Window.cpp:270
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
 msgstr "Odpovedať podľa predpokladu"
 
-#: src/Gui/Window.cpp:257
+#: src/Gui/Window.cpp:271
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+R"
 msgstr "Ctrl+R"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "&Forward"
 msgstr "&Preposlať"
 
-#: src/Gui/Window.cpp:258
+#: src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+Shift+F"
 msgstr "Ctrl+Shift+F"
 
-#: src/Gui/Window.cpp:259
+#: src/Gui/Window.cpp:273
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
 msgstr "Znovu odoslať"
 
-#: src/Gui/Window.cpp:260
+#: src/Gui/Window.cpp:274
 msgctxt "Gui::MainWindow|"
 msgid "&Archive"
 msgstr "Archív"
 
-#: src/Gui/Window.cpp:261
+#: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
 msgstr "Adresár..."
 
-#: src/Gui/Window.cpp:262
+#: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "&Offline"
 msgstr "Nepripojený"
 
-#: src/Gui/Window.cpp:263
+#: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
 msgstr "Drahé pripoj&enie"
 
-#: src/Gui/Window.cpp:264
+#: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
 msgstr "&Voľný prístup"
 
-#: src/Gui/Window.cpp:265
+#: src/Gui/Window.cpp:279
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
 msgstr "Zatvoriť samostatné okno správy"
 
-#: src/Gui/Window.cpp:266
+#: src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
 msgid "Open message in New Window..."
 msgstr "Otvoriť správu v novom okne..."
 
-#: src/Gui/Window.cpp:267
+#: src/Gui/Window.cpp:281
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
 msgstr "Navigovať späť"
 
-#: src/Gui/Window.cpp:268
+#: src/Gui/Window.cpp:282
 msgctxt "Gui::MainWindow|"
 msgid "Zoom In"
 msgstr "Priblížiť"
 
-#: src/Gui/Window.cpp:269
+#: src/Gui/Window.cpp:283
 msgctxt "Gui::MainWindow|"
 msgid "Zoom Out"
 msgstr "Oddialiť"
 
-#: src/Gui/Window.cpp:270
+#: src/Gui/Window.cpp:284
 msgctxt "Gui::MainWindow|"
 msgid "Original Size"
 msgstr "Originálna veľkosť"
 
-#: src/Gui/Window.cpp:271
+#: src/Gui/Window.cpp:285
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
 msgstr "Presunúť zameranie na zoznam schránok"
 
-#: src/Gui/Window.cpp:272
+#: src/Gui/Window.cpp:286
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
 msgstr "Presunúť zameranie na zoznam správ"
 
-#: src/Gui/Window.cpp:273
+#: src/Gui/Window.cpp:287
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
 msgstr "Rýchle hľadanie"
 
-#: src/Gui/Window.cpp:274
+#: src/Gui/Window.cpp:288
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &1st tag"
 msgstr "Označiť &1. značkou"
 
-#: src/Gui/Window.cpp:275
+#: src/Gui/Window.cpp:289
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &2nd tag"
 msgstr "Označiť &2. značkou"
 
-#: src/Gui/Window.cpp:276
+#: src/Gui/Window.cpp:290
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &3rd tag"
 msgstr "Označiť &3. značkou"
 
-#: src/Gui/Window.cpp:277
+#: src/Gui/Window.cpp:291
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &4th tag"
 msgstr "Označiť &4. značkou"
 
-#: src/Gui/Window.cpp:278
+#: src/Gui/Window.cpp:292
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &5th tag"
 msgstr "Označiť &5. značkou"
 
-#: src/Gui/Window.cpp:279
+#: src/Gui/Window.cpp:293
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &6th tag"
 msgstr "Označiť &6. značkou"
 
-#: src/Gui/Window.cpp:280
+#: src/Gui/Window.cpp:294
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &7th tag"
 msgstr "Označiť &7. značkou"
 
-#: src/Gui/Window.cpp:281
+#: src/Gui/Window.cpp:295
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &8th tag"
 msgstr "Označiť &8. značkou"
 
-#: src/Gui/Window.cpp:282
+#: src/Gui/Window.cpp:296
 msgctxt "Gui::MainWindow|"
 msgid "Tag with &9th tag"
 msgstr "Označiť &9. značkou"
 
-#: src/Gui/Window.cpp:310
+#: src/Gui/Window.cpp:324
 msgctxt "Gui::MainWindow|"
 msgid "Navigation"
 msgstr "Navigácia"
 
-#: src/Gui/Window.cpp:313
+#: src/Gui/Window.cpp:327
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
 msgstr "Akt&ualizovať zoznam poštových schránok potomkov"
 
-#: src/Gui/Window.cpp:316
+#: src/Gui/Window.cpp:330
 msgctxt "Gui::MainWindow|"
 msgid "Check for &New Messages"
 msgstr "Skontrolovať &nové správy"
 
-#: src/Gui/Window.cpp:319
+#: src/Gui/Window.cpp:333
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
 msgstr "&Znovu načítať všetko"
 
-#: src/Gui/Window.cpp:323
+#: src/Gui/Window.cpp:337
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
 msgstr "Ukončiť aplikáciu"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
-#: src/Gui/Window.cpp:342
+#: src/Gui/Window.cpp:356
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
 msgstr "Ukázať plné okno s&tromu"
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
-#: src/Gui/Window.cpp:348
+#: src/Gui/Window.cpp:362
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
 msgstr "Ukázať st&rom ImapTask"
 
 #. a debugging tool showing the mime tree of the current message
-#: src/Gui/Window.cpp:354
+#: src/Gui/Window.cpp:368
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
 msgstr "Ukázať st&rom ImapTask"
 
-#: src/Gui/Window.cpp:359
+#: src/Gui/Window.cpp:373
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
 msgstr "Ukázať záznam IMAP protoko&lu"
 
 #. file to save the debug log into
-#: src/Gui/Window.cpp:365
+#: src/Gui/Window.cpp:379
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
 msgstr "&Záznam do %1"
 
-#: src/Gui/Window.cpp:370
+#: src/Gui/Window.cpp:384
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
 msgstr "Informácia IMAP servera..."
 
-#: src/Gui/Window.cpp:379
+#: src/Gui/Window.cpp:393
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
 msgstr "Zobraziť panel &nástrojov"
 
-#: src/Gui/Window.cpp:385
+#: src/Gui/Window.cpp:399
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
 msgstr "Nastavenia..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:482
+#: src/Gui/Window.cpp:496
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
 msgstr "&Vytvoriť poštovú schránku potomka..."
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:486
+#: src/Gui/Window.cpp:500
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
 msgstr "Vytvoriť &novú poštovú schránku..."
 
-#: src/Gui/Window.cpp:489
+#: src/Gui/Window.cpp:503
 msgctxt "Gui::MainWindow|"
 msgid "&Mark Mailbox as Read"
 msgstr "&Označiť poštovú schránku ako prečítanú"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
-#: src/Gui/Window.cpp:493
+#: src/Gui/Window.cpp:507
 msgctxt "Gui::MainWindow|"
 msgid "&Remove Mailbox"
 msgstr "Odst&rániť poštovú schránku"
 
-#: src/Gui/Window.cpp:511
+#: src/Gui/Window.cpp:525
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
 msgstr "&Ukazovať správy vo vláknach"
 
-#: src/Gui/Window.cpp:522
+#: src/Gui/Window.cpp:536
 msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
 msgstr "Vz&ostupne"
 
-#: src/Gui/Window.cpp:525
+#: src/Gui/Window.cpp:539
 msgctxt "Gui::MainWindow|"
 msgid "&Descending"
 msgstr "Zos&tupne"
 
-#: src/Gui/Window.cpp:533
+#: src/Gui/Window.cpp:547
 msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
 msgstr "Netriediť"
 
-#: src/Gui/Window.cpp:535
+#: src/Gui/Window.cpp:549
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
 msgstr "Zoradené podľa zaradenia do vlákna"
 
-#: src/Gui/Window.cpp:537
+#: src/Gui/Window.cpp:551
 msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
 msgstr "Príchod"
 
-#: src/Gui/Window.cpp:539
+#: src/Gui/Window.cpp:553
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
 msgstr "&Cc (Carbon Copy)"
 
-#: src/Gui/Window.cpp:541
+#: src/Gui/Window.cpp:555
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
 msgstr "&Dátum z hlavičiek správy"
 
-#: src/Gui/Window.cpp:543
+#: src/Gui/Window.cpp:557
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
 msgstr "Adresa od"
 
-#: src/Gui/Window.cpp:545
+#: src/Gui/Window.cpp:559
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
 msgstr "&Veľkosť"
 
-#: src/Gui/Window.cpp:547
+#: src/Gui/Window.cpp:561
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
 msgstr "P&redmet"
 
-#: src/Gui/Window.cpp:549
+#: src/Gui/Window.cpp:563
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
 msgstr "Adresa pre"
 
-#: src/Gui/Window.cpp:554
+#: src/Gui/Window.cpp:568
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
 msgstr "Skryť prečítané správy"
 
-#: src/Gui/Window.cpp:563
+#: src/Gui/Window.cpp:577
 msgctxt "Gui::MainWindow|"
 msgid "&Compact"
 msgstr "Kompaktný"
 
-#: src/Gui/Window.cpp:567
+#: src/Gui/Window.cpp:581
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
 msgstr "Široké"
 
-#: src/Gui/Window.cpp:570
+#: src/Gui/Window.cpp:584
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
 msgstr "P&o jednom"
 
-#: src/Gui/Window.cpp:575
+#: src/Gui/Window.cpp:589
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
 msgstr "&Ukazovať iba schválené priečinky"
 
-#: src/Gui/Window.cpp:579
+#: src/Gui/Window.cpp:593
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
 msgstr "&Schválené"
 
-#: src/Gui/Window.cpp:584
+#: src/Gui/Window.cpp:598
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "O Trojitá..."
 
-#: src/Gui/Window.cpp:587
+#: src/Gui/Window.cpp:601
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
 msgstr "Prispieť na projekt"
 
-#: src/Gui/Window.cpp:592
+#: src/Gui/Window.cpp:606
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "Vytvoriť mail"
 
-#: src/Gui/Window.cpp:692
+#: src/Gui/Window.cpp:706
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr "&Aplikácia"
 
-#: src/Gui/Window.cpp:694
+#: src/Gui/Window.cpp:708
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr "Sieťový prístup"
 
-#: src/Gui/Window.cpp:698
+#: src/Gui/Window.cpp:712
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "Ladenie"
 
-#: src/Gui/Window.cpp:718
+#: src/Gui/Window.cpp:732
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "&Zobraziť"
 
-#: src/Gui/Window.cpp:721
+#: src/Gui/Window.cpp:735
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "&Rozloženie"
 
-#: src/Gui/Window.cpp:728
+#: src/Gui/Window.cpp:742
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "Poštová schránka:"
 
-#: src/Gui/Window.cpp:729
+#: src/Gui/Window.cpp:743
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "Triedenie"
 
-#: src/Gui/Window.cpp:753
+#: src/Gui/Window.cpp:767
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "&Správa"
 
-#: src/Gui/Window.cpp:832
+#: src/Gui/Window.cpp:846
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "Cieľ odkazu: %1"
 
-#: src/Gui/Window.cpp:841
+#: src/Gui/Window.cpp:855
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "Všetko"
 
-#: src/Gui/Window.cpp:849
+#: src/Gui/Window.cpp:863
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "IMAP úlohy"
 
-#: src/Gui/Window.cpp:856
+#: src/Gui/Window.cpp:870
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr "Strom MIME"
 
-#: src/Gui/Window.cpp:867
+#: src/Gui/Window.cpp:881
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "Ukázať záznam IMAP protoko&lu"
 
-#: src/Gui/Window.cpp:948
+#: src/Gui/Window.cpp:962
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
@@ -3349,13 +3359,13 @@ msgstr[0] "Pokus o opätovné pripojenie za %n sekundu.."
 msgstr[1] "Pokus o opätovné pripojenie za %n sekundy.."
 msgstr[2] "Pokus o opätovné pripojenie za %n sekúnd.."
 
-#: src/Gui/Window.cpp:1001
+#: src/Gui/Window.cpp:1015
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "&Koniec"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1118
+#: src/Gui/Window.cpp:1132
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3365,17 +3375,17 @@ msgstr[1] " - %n neprečítané správy"
 msgstr[2] " - %n neprečítaných správ"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1121
+#: src/Gui/Window.cpp:1135
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - nepripojený"
 
-#: src/Gui/Window.cpp:1130 src/Gui/Window.cpp:2579
+#: src/Gui/Window.cpp:1144 src/Gui/Window.cpp:2586
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1131
+#: src/Gui/Window.cpp:1145
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3384,27 +3394,27 @@ msgstr ""
 "Aplikácia bude pokračovať v systémovej lište. Toto možno zakázať v nastavení."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1342
+#: src/Gui/Window.cpp:1356
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "IMAP výstraha"
 
-#: src/Gui/Window.cpp:1347
+#: src/Gui/Window.cpp:1361
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "Chyba IMAP protokolu"
 
-#: src/Gui/Window.cpp:1355
+#: src/Gui/Window.cpp:1369
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Chyba siete"
 
-#: src/Gui/Window.cpp:1376
+#: src/Gui/Window.cpp:1390
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "Chyba vyrovnávacej pamäte IMAP"
 
-#: src/Gui/Window.cpp:1377
+#: src/Gui/Window.cpp:1391
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3419,79 +3429,79 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:1388
+#: src/Gui/Window.cpp:1402
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "Nepripojený"
 
-#: src/Gui/Window.cpp:1434
+#: src/Gui/Window.cpp:1448
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "Žiadna konfigurácia"
 
-#: src/Gui/Window.cpp:1435
+#: src/Gui/Window.cpp:1449
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 "Žiadny IMAP účet nie je nakonfigurovaný. Trojitá nemôže urobiť veľa bez "
 "žiadneho."
 
-#: src/Gui/Window.cpp:1460
+#: src/Gui/Window.cpp:1474
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "Nepodarilo sa vytvoriť priečinok %1"
 
-#: src/Gui/Window.cpp:1478
+#: src/Gui/Window.cpp:1492
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "Vyžaduje sa overenie"
 
-#: src/Gui/Window.cpp:1479
+#: src/Gui/Window.cpp:1493
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 "<p>Prosím, zadajte IMAP heslo pre užívateľa <b>%1</b> na <b>%2</b>:</p>"
 
-#: src/Gui/Window.cpp:1535
+#: src/Gui/Window.cpp:1549
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Upraviť koncept"
 
-#: src/Gui/Window.cpp:1662
+#: src/Gui/Window.cpp:1676
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "Zlyhalo overenie verzie"
 
-#: src/Gui/Window.cpp:1712
+#: src/Gui/Window.cpp:1726
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "Vytvoriť podpriečinok %1"
 
-#: src/Gui/Window.cpp:1713
+#: src/Gui/Window.cpp:1727
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "Vytvoriť poštovú schránku najvyššej úrovne"
 
-#: src/Gui/Window.cpp:1740
+#: src/Gui/Window.cpp:1754
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Vymazať poštovú schránku"
 
-#: src/Gui/Window.cpp:1741
+#: src/Gui/Window.cpp:1755
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "Ste si istí, že chcete vymazať poštovú schránku %1?"
 
-#: src/Gui/Window.cpp:2054
+#: src/Gui/Window.cpp:2061
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Nemôžem vymazať poštovú schránku"
 
-#: src/Gui/Window.cpp:2055
+#: src/Gui/Window.cpp:2062
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3501,12 +3511,12 @@ msgstr ""
 "Vymazávanie poštovej schránky \"%1\" zlyhalo s nasledovnou správou:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2060
+#: src/Gui/Window.cpp:2067
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Nemôžem vytvoriť poštovú schránku"
 
-#: src/Gui/Window.cpp:2061
+#: src/Gui/Window.cpp:2068
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3516,12 +3526,12 @@ msgstr ""
 "Vytváranie poštovej schránky \"%1\" zlyhalo s nasledovnou správou:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2066
+#: src/Gui/Window.cpp:2073
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Nie je možné otvoriť poštovú schránku"
 
-#: src/Gui/Window.cpp:2067
+#: src/Gui/Window.cpp:2074
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3531,45 +3541,45 @@ msgstr ""
 "Otváranie poštovej schránky \"%1\" zlyhalo s nasledovnou správou:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2116
+#: src/Gui/Window.cpp:2123
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Cieľ odkazu: %1"
 
-#: src/Gui/Window.cpp:2131
+#: src/Gui/Window.cpp:2138
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "Moduly"
 
-#: src/Gui/Window.cpp:2138
+#: src/Gui/Window.cpp:2145
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Podpísaná správa"
 
-#: src/Gui/Window.cpp:2145
+#: src/Gui/Window.cpp:2152
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "Aktivujem kompresiu..."
 
-#: src/Gui/Window.cpp:2156
+#: src/Gui/Window.cpp:2163
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: podporované</li>"
 
-#: src/Gui/Window.cpp:2157
+#: src/Gui/Window.cpp:2164
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>zakázané</strong></li>"
 
-#: src/Gui/Window.cpp:2215
+#: src/Gui/Window.cpp:2222
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Nie je možné uložiť do súboru"
 
-#: src/Gui/Window.cpp:2216
+#: src/Gui/Window.cpp:2223
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3579,63 +3589,63 @@ msgstr ""
 "Nemožno uložiť do súboru. Chyba:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2221
+#: src/Gui/Window.cpp:2228
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Uložiť správy"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2237
+#: src/Gui/Window.cpp:2244
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "Zdroj správy UID %1 v %2"
 
-#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
+#: src/Gui/Window.cpp:2259 src/Gui/Window.cpp:2281
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Zavrieť"
 
-#: src/Gui/Window.cpp:2254 src/Gui/Window.cpp:2276
+#: src/Gui/Window.cpp:2261 src/Gui/Window.cpp:2283
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2497
+#: src/Gui/Window.cpp:2504
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2505
+#: src/Gui/Window.cpp:2512
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Neznáme"
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2526
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2521
+#: src/Gui/Window.cpp:2528
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Server: %1 %2"
 
-#: src/Gui/Window.cpp:2523
+#: src/Gui/Window.cpp:2530
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Server: %1"
 
-#: src/Gui/Window.cpp:2526
+#: src/Gui/Window.cpp:2533
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2537
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -3643,41 +3653,41 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " na %1 %2"
 
-#: src/Gui/Window.cpp:2532
+#: src/Gui/Window.cpp:2539
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " na %1"
 
-#: src/Gui/Window.cpp:2534
+#: src/Gui/Window.cpp:2541
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2536
+#: src/Gui/Window.cpp:2543
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>IMAP server nevrátil použiteľné informácie o sebe.</p>"
 
-#: src/Gui/Window.cpp:2540
+#: src/Gui/Window.cpp:2547
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2542
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2544
+#: src/Gui/Window.cpp:2551
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr "<p>Server neposkytol informácie o jeho verzii softvéru.</p>"
 
-#: src/Gui/Window.cpp:2551
+#: src/Gui/Window.cpp:2558
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3687,7 +3697,7 @@ msgstr ""
 "%1\n"
 "<p>Nasledujúce schopnosti sú momentálne oznamované:</p>"
 
-#: src/Gui/Window.cpp:2553
+#: src/Gui/Window.cpp:2560
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3695,7 +3705,7 @@ msgid ""
 "%1</ul>"
 msgstr "<li>%1</li>"
 
-#: src/Gui/Window.cpp:2573
+#: src/Gui/Window.cpp:2580
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -3704,13 +3714,13 @@ msgstr[0] "%1 - %n neprečítaná - Trojitá"
 msgstr[1] "%1 - %n neprečítané - Trojitá"
 msgstr[2] "%1 - %n neprečítaných - Trojitá"
 
-#: src/Gui/Window.cpp:2576
+#: src/Gui/Window.cpp:2583
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - Trojitá"
 
-#: src/Gui/Window.cpp:3001
+#: src/Gui/Window.cpp:3008
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
