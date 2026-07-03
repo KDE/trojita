@@ -4,13 +4,13 @@
 #
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2012, 2013, 2014, 2015, 2016, 2019, 2020.
 # Luiz Fernando Ranghetti <elchevive68@gmail.com>, 2016, 2018, 2019, 2020, 2021.
-# SPDX-FileCopyrightText: 2025, 2026 Marcus Gama <marcus.gama@gmail.com>
+# SPDX-FileCopyrightText: 2025-2026 Marcus Gama <marcus.gama@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2012-11-28 02:35+0200\n"
-"PO-Revision-Date: 2026-01-12 08:42-0300\n"
+"PO-Revision-Date: 2026-07-02 08:20-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.0\n"
+"X-Generator: Lokalize 26.04.2\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
@@ -1346,20 +1346,12 @@ msgid "Error: Registering IPC instance failed: %1"
 msgstr "Erro: O registro da instância IPC falhou: %1"
 
 #: src/Gui/MessageActionHandler.cpp:103
-#, fuzzy
-#| msgctxt "MessageView|"
-#| msgid "you"
 msgctxt "MessageActionHandler|"
 msgid "you"
 msgstr "você"
 
 #: src/Gui/MessageActionHandler.cpp:107
-#, fuzzy, qt-format
-#| msgctxt "MessageView|"
-#| msgid ""
-#| "On %1, %2 sent an encrypted message:\n"
-#| "> ...\n"
-#| "\n"
+#, qt-format
 msgctxt "MessageActionHandler|"
 msgid ""
 "On %1, %2 sent an encrypted message:\n"
@@ -1371,9 +1363,7 @@ msgstr ""
 "\n"
 
 #: src/Gui/MessageActionHandler.cpp:115
-#, fuzzy, qt-format
-#| msgctxt "MessageView|"
-#| msgid "On %1, %2 wrote:\n"
+#, qt-format
 msgctxt "MessageActionHandler|"
 msgid "On %1, %2 wrote:\n"
 msgstr "Em %1, %2 escreveu:\n"

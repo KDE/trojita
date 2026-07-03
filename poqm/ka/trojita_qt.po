@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -1333,20 +1333,12 @@ msgid "Error: Registering IPC instance failed: %1"
 msgstr "შეცდომა: IPC გაშვებული ასლის რეგისტრაცია ჩავარდა: %1"
 
 #: src/Gui/MessageActionHandler.cpp:103
-#, fuzzy
-#| msgctxt "MessageView|"
-#| msgid "you"
 msgctxt "MessageActionHandler|"
 msgid "you"
 msgstr "თქვენ"
 
 #: src/Gui/MessageActionHandler.cpp:107
-#, fuzzy, qt-format
-#| msgctxt "MessageView|"
-#| msgid ""
-#| "On %1, %2 sent an encrypted message:\n"
-#| "> ...\n"
-#| "\n"
+#, qt-format
 msgctxt "MessageActionHandler|"
 msgid ""
 "On %1, %2 sent an encrypted message:\n"
@@ -1358,9 +1350,7 @@ msgstr ""
 "\n"
 
 #: src/Gui/MessageActionHandler.cpp:115
-#, fuzzy, qt-format
-#| msgctxt "MessageView|"
-#| msgid "On %1, %2 wrote:\n"
+#, qt-format
 msgctxt "MessageActionHandler|"
 msgid "On %1, %2 wrote:\n"
 msgstr "%1-ზე %2-მა დაწერა:\n"
