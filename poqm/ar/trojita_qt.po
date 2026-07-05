@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-01-24 12:37+0400\n"
+"PO-Revision-Date: 2026-07-04 21:14+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -1323,20 +1323,12 @@ msgid "Error: Registering IPC instance failed: %1"
 msgstr "خطأ: فشل تسجيل نسخة IPC: ‏%1"
 
 #: src/Gui/MessageActionHandler.cpp:103
-#, fuzzy
-#| msgctxt "MessageView|"
-#| msgid "you"
 msgctxt "MessageActionHandler|"
 msgid "you"
 msgstr "أنت"
 
 #: src/Gui/MessageActionHandler.cpp:107
-#, fuzzy, qt-format
-#| msgctxt "MessageView|"
-#| msgid ""
-#| "On %1, %2 sent an encrypted message:\n"
-#| "> ...\n"
-#| "\n"
+#, qt-format
 msgctxt "MessageActionHandler|"
 msgid ""
 "On %1, %2 sent an encrypted message:\n"
@@ -1348,9 +1340,7 @@ msgstr ""
 "\n"
 
 #: src/Gui/MessageActionHandler.cpp:115
-#, fuzzy, qt-format
-#| msgctxt "MessageView|"
-#| msgid "On %1, %2 wrote:\n"
+#, qt-format
 msgctxt "MessageActionHandler|"
 msgid "On %1, %2 wrote:\n"
 msgstr "كتب %2 في %1:\n"
