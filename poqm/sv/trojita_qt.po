@@ -1,17 +1,17 @@
-# SPDX-FileCopyrightText: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2025, 2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# SPDX-FileCopyrightText: 2012-2020, 2025-2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-26 02:57+0200\n"
-"PO-Revision-Date: 2026-01-23 20:24+0100\n"
+"PO-Revision-Date: 2026-07-05 16:30+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 26.04.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Qt-Contexts: true\n"
 
@@ -1338,20 +1338,12 @@ msgid "Error: Registering IPC instance failed: %1"
 msgstr "Fel: Registrering av IPC-instans misslyckades: %1"
 
 #: src/Gui/MessageActionHandler.cpp:103
-#, fuzzy
-#| msgctxt "MessageView|"
-#| msgid "you"
 msgctxt "MessageActionHandler|"
 msgid "you"
 msgstr "du"
 
 #: src/Gui/MessageActionHandler.cpp:107
-#, fuzzy, qt-format
-#| msgctxt "MessageView|"
-#| msgid ""
-#| "On %1, %2 sent an encrypted message:\n"
-#| "> ...\n"
-#| "\n"
+#, qt-format
 msgctxt "MessageActionHandler|"
 msgid ""
 "On %1, %2 sent an encrypted message:\n"
@@ -1363,9 +1355,7 @@ msgstr ""
 "\n"
 
 #: src/Gui/MessageActionHandler.cpp:115
-#, fuzzy, qt-format
-#| msgctxt "MessageView|"
-#| msgid "On %1, %2 wrote:\n"
+#, qt-format
 msgctxt "MessageActionHandler|"
 msgid "On %1, %2 wrote:\n"
 msgstr "%1 skrev %2:\n"
