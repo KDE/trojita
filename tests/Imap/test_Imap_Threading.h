@@ -41,6 +41,7 @@ private slots:
     void testDynamicSorting();
     void testDynamicSortingContext();
     void testDynamicSearch();
+    void testThreadingEmptySearch();
     void testIncrementalThreading();
     void testRemovingRootWithThreadingInFlight();
     void testMultipleExpunges();

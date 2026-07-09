@@ -587,7 +587,8 @@ void ThreadingMsgListModel::wantThreading(const SkipSortSearch skipSortSearch)
             }
             return;
         }
-        // Required due to incremental updates
+        if (m_currentSortResult.isEmpty())
+            return;
         highestUidInMailbox = *std::max_element(m_currentSortResult.constBegin(), m_currentSortResult.constEnd());
     } else {
         scope = QLatin1String("mailbox");

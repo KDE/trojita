@@ -1235,6 +1235,70 @@ void ImapModelThreadingTest::testDynamicSearch()
     justKeepTask();
 }
 
+void ImapModelThreadingTest::testThreadingEmptySearch()
+{
+    /*
+       Reproducer for a segfault that occurred when a search with an empty
+       result was combined with active threading. With threading enabled,
+       ThreadingMsgListModel::wantThreading() would dereference
+       std::max_element() over an empty m_currentSortResult.
+    */
+    FakeCapabilitiesInjector injector(model);
+    injector.injectCapability(QStringLiteral("QRESYNC"));
+    injector.injectCapability(QStringLiteral("ESEARCH"));
+
+    Imap::Mailbox::SyncState sync;
+    sync.setExists(3);
+    sync.setUidValidity(666);
+    sync.setUidNext(15);
+    sync.setHighestModSeq(33);
+    sync.setUnSeenCount(3);
+    sync.setRecent(0);
+    Imap::Uids uidMap;
+    uidMap << 6 << 9 << 10;
+    model->cache()->setMailboxSyncState(QStringLiteral("a"), sync);
+    model->cache()->setUidMapping(QStringLiteral("a"), uidMap);
+    model->cache()->setMsgFlags(QStringLiteral("a"), 6, QStringList() << QStringLiteral("x"));
+    model->cache()->setMsgFlags(QStringLiteral("a"), 9, QStringList() << QStringLiteral("y"));
+    model->cache()->setMsgFlags(QStringLiteral("a"), 10, QStringList() << QStringLiteral("z"));
+    threadingModel->setUserWantsThreading(false);
+    msgListModel->setMailbox(QStringLiteral("a"));
+    cClient(t.mk("SELECT a (QRESYNC (666 33 (2 9)))\r\n"));
+    cServer("* 3 EXISTS\r\n"
+            "* OK [UIDVALIDITY 666] .\r\n"
+            "* OK [UIDNEXT 15] .\r\n"
+            "* OK [HIGHESTMODSEQ 33] .\r\n"
+            );
+    cServer(t.last("OK selected\r\n"));
+    cEmpty();
+
+    // Turn threading on BEFORE the search so that wantThreading() actually
+    // runs the path that dereferences m_currentSortResult.
+    threadingModel->setUserWantsThreading(true);
+    cClient(t.mk("UID THREAD REFS utf-8 ALL\r\n"));
+    cServer(QByteArray("* THREAD (6)(9 10)\r\n") + t.last("OK thread\r\n"));
+    QCOMPARE(treeToThreading(QModelIndex()), QByteArray("(6)(9 10)"));
+
+    // Now change the search. With threading on, both a SEARCH and a THREAD
+    // for the new conditions are queued up.
+    threadingModel->setUserSearchingSortingPreference(
+                QStringList() << QStringLiteral("SUBJECT") << QStringLiteral("foobar"),
+                threadingModel->currentSortCriterium(), threadingModel->currentSortOrder());
+    auto q = t.mk(QStringLiteral("UID SEARCH RETURN (ALL) CHARSET utf-8 SUBJECT foobar\r\n").toLocal8Bit().data());
+    QByteArray searchTag = t.last();
+    q.append(t.mk(QStringLiteral("UID THREAD REFS utf-8 SUBJECT foobar\r\n").toLocal8Bit().data()));
+    QByteArray threadTag = t.last();
+    cClient(q);
+    // Empty ESEARCH first - this clears m_currentSortResult but leaves
+    // m_searchValidity = RESULT_FRESH.
+    cServer("* ESEARCH (TAG \"" + searchTag + "\") UID\r\n" + t.prev("OK searched\r\n"));
+    // Empty THREAD response triggers wantThreading() which crashes.
+    cServer(QByteArray("* THREAD\r\n") + t.last("OK thread\r\n"));
+
+    cEmpty();
+    justKeepTask();
+}
+
 QByteArray ImapModelThreadingTest::prepareHugeUntaggedThread(const uint num)
 {
     QString sampleThread = QStringLiteral("(%1 (%2 %3 (%4)(%5 %6 %7))(%8 %9 %10))");
