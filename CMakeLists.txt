@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(trojita)
 
-set(QT_REQUIRED_VERSION 6.7.0)
+set(QT_REQUIRED_VERSION "6.7.0")
 
 set(SONNET_LIB_VERSION "6.21.0")
 
