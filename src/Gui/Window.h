@@ -179,7 +179,6 @@ private slots:
     void showConnectionStatus(uint parserId, Imap::ConnectionState state);
     void slotShowLinkTarget(const QString &link);
     void slotShowAboutTrojita();
-    void slotDonateToTrojita();
 
     void slotSaveCurrentMessageBody();
     void slotViewMsgSource();
@@ -320,7 +319,6 @@ private:
     QAction *createTopMailbox;
     QAction *deleteCurrentMailbox;
     QAction *aboutTrojita;
-    QAction *donateToTrojita;
 
     QAction *tag1;
     QAction *tag2;

@@ -598,9 +598,6 @@ void MainWindow::createActions()
     aboutTrojita = new QAction(tr("&About Trojitá..."), this);
     connect(aboutTrojita, &QAction::triggered, this, &MainWindow::slotShowAboutTrojita);
 
-    donateToTrojita = new QAction(tr("&Donate to the project"), this);
-    connect(donateToTrojita, &QAction::triggered, this, &MainWindow::slotDonateToTrojita);
-
     connectModelActions();
 
     m_composeMenu = new QMenu(tr("Compose Mail"), this);
@@ -725,7 +722,6 @@ void MainWindow::createMenus()
         ADD_ACTION(applicationMenu, ShortcutHandler::instance()->shortcutConfigAction());
         applicationMenu->addSeparator();
         ADD_ACTION(applicationMenu, aboutTrojita);
-        ADD_ACTION(applicationMenu, donateToTrojita);
         applicationMenu->addSeparator();
         ADD_ACTION(applicationMenu, exitAction);
 
@@ -2184,11 +2180,6 @@ void MainWindow::slotShowAboutTrojita()
     ui.credits->setTextFormat(Qt::PlainText);
     ui.credits->setText(copyright.join(QStringLiteral("\n")));
     widget->show();
-}
-
-void MainWindow::slotDonateToTrojita()
-{
-    QDesktopServices::openUrl(QStringLiteral("https://sourceforge.net/p/trojita/donate/"));
 }
 
 void MainWindow::slotSaveCurrentMessageBody()
