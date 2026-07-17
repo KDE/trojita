@@ -65,7 +65,7 @@
        <item>
         <widget class="QLabel" name="wwwLabel">
          <property name="text">
-          <string notr="true">&lt;a href=&quot;http://trojita.flaska.net/&quot;&gt;http://trojita.flaska.net/&lt;/a&gt;</string>
+          <string notr="true">&lt;a href=&quot;http://apps.kde.org/trojita/&quot;&gt;http://apps.kde.org/trojita/&lt;/a&gt;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignHCenter|Qt::AlignTop</set>
