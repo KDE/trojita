@@ -38,6 +38,7 @@
 #include <QToolButton>
 #include <QUrlQuery>
 
+#include "configure.cmake.h"
 #include "ui_ComposeWidget.h"
 #include "Composer/ExistingMessageComposer.h"
 #include "Composer/MessageComposer.h"

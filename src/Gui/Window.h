@@ -28,6 +28,7 @@
 #include <QPointer>
 #include <QSystemTrayIcon>
 
+#include "configure.cmake.h"
 #include "Composer/Recipients.h"
 #include "Imap/ConnectionState.h"
 #include "Imap/Model/Cache.h"
