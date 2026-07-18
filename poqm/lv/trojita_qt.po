@@ -1047,17 +1047,17 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr "Ievietot kā citātu"
 
-#: src/Gui/ComposeWidget.cpp:127
+#: src/Gui/ComposeWidget.cpp:128
 msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Pārtraukt ..."
 
-#: src/Gui/ComposeWidget.cpp:127
+#: src/Gui/ComposeWidget.cpp:128
 msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "Pārtraukt"
 
-#: src/Gui/ComposeWidget.cpp:196
+#: src/Gui/ComposeWidget.cpp:197
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Send"
@@ -1065,7 +1065,7 @@ msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Nosūtīt"
 
-#: src/Gui/ComposeWidget.cpp:235
+#: src/Gui/ComposeWidget.cpp:236
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "New Thread"
@@ -1073,7 +1073,7 @@ msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr "Jauns pavediens"
 
-#: src/Gui/ComposeWidget.cpp:238
+#: src/Gui/ComposeWidget.cpp:239
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1086,7 +1086,7 @@ msgid ""
 msgstr ""
 "Šī vēstule tiks sūtīta kā jauna.<hr/>Izmani, ja jāsūta kā atbilde esošai."
 
-#: src/Gui/ComposeWidget.cpp:239
+#: src/Gui/ComposeWidget.cpp:240
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Threaded"
@@ -1094,7 +1094,7 @@ msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Ar pavedieniem"
 
-#: src/Gui/ComposeWidget.cpp:359
+#: src/Gui/ComposeWidget.cpp:360
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Error"
@@ -1102,7 +1102,7 @@ msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Kļūda"
 
-#: src/Gui/ComposeWidget.cpp:359
+#: src/Gui/ComposeWidget.cpp:360
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Please set appropriate settings for outgoing messages."
@@ -1110,7 +1110,7 @@ msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr "Lūdzu izveido izsūtāmai vēstulei atbilstošus iestatījums."
 
-#: src/Gui/ComposeWidget.cpp:512
+#: src/Gui/ComposeWidget.cpp:513
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1124,7 +1124,7 @@ msgstr ""
 "Neizskatās, ka šī vēstule būtu domāta vēstkopai. Lūdzu pievieno saņēmējus "
 "pats."
 
-#: src/Gui/ComposeWidget.cpp:515
+#: src/Gui/ComposeWidget.cpp:516
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1140,7 +1140,7 @@ msgstr ""
 "Trojitá-i neizdevās noteikt vēstules rakstītāja patieso e-pastu. Mēģini "
 "atbildēt visiem un saīsini piedāvāto adrešu sarakstu pats."
 
-#: src/Gui/ComposeWidget.cpp:520
+#: src/Gui/ComposeWidget.cpp:521
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot Determine Recipients"
@@ -1148,7 +1148,7 @@ msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Nevar noteikt saņēmējus"
 
-#: src/Gui/ComposeWidget.cpp:567
+#: src/Gui/ComposeWidget.cpp:568
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Sender"
@@ -1156,7 +1156,7 @@ msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Sūtītājs"
 
-#: src/Gui/ComposeWidget.cpp:573
+#: src/Gui/ComposeWidget.cpp:574
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resend Mail: %1"
@@ -1164,7 +1164,7 @@ msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "Atkārtoti izsūtīt pastu: %1"
 
-#: src/Gui/ComposeWidget.cpp:573
+#: src/Gui/ComposeWidget.cpp:574
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "(no subject)"
@@ -1172,7 +1172,7 @@ msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(bez temata)"
 
-#: src/Gui/ComposeWidget.cpp:587
+#: src/Gui/ComposeWidget.cpp:588
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no subject"
@@ -1180,7 +1180,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "Vēstulei nav temata"
 
-#: src/Gui/ComposeWidget.cpp:590
+#: src/Gui/ComposeWidget.cpp:591
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The Message-ID header is missing"
@@ -1188,7 +1188,7 @@ msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "Vēstules galviņā trūkst ID"
 
-#: src/Gui/ComposeWidget.cpp:593
+#: src/Gui/ComposeWidget.cpp:594
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no date"
@@ -1196,7 +1196,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "Vēstulei nav datuma"
 
-#: src/Gui/ComposeWidget.cpp:596
+#: src/Gui/ComposeWidget.cpp:597
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Nothing in the From field"
@@ -1204,7 +1204,7 @@ msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr "Nekā nav „Sūtītāja” laukā"
 
-#: src/Gui/ComposeWidget.cpp:599
+#: src/Gui/ComposeWidget.cpp:600
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "No recipients in the To field"
@@ -1212,7 +1212,7 @@ msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr "Nav saņēmēju „Kam” laukā"
 
-#: src/Gui/ComposeWidget.cpp:602
+#: src/Gui/ComposeWidget.cpp:603
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1224,7 +1224,7 @@ msgid ""
 "</b>"
 msgstr "<b>Šī vēstule nav pareizi noformēta. Izlabo pirms sūtīšanas.</b>"
 
-#: src/Gui/ComposeWidget.cpp:691
+#: src/Gui/ComposeWidget.cpp:692
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Authentication Required"
@@ -1232,7 +1232,7 @@ msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Nepieciešama pieteikšanās"
 
-#: src/Gui/ComposeWidget.cpp:692
+#: src/Gui/ComposeWidget.cpp:693
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -1240,7 +1240,7 @@ msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>Ievadi SMTP servera <b>%2</b> lietotāja <b>%1</b> paroli:</p>"
 
-#: src/Gui/ComposeWidget.cpp:726
+#: src/Gui/ComposeWidget.cpp:727
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save Draft?"
@@ -1248,7 +1248,7 @@ msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Saglabāt melnrakstu?"
 
-#: src/Gui/ComposeWidget.cpp:727
+#: src/Gui/ComposeWidget.cpp:728
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The mail has not been sent.<br>Do you want to save the draft?"
@@ -1256,7 +1256,7 @@ msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "Vēstule nav nosūtīta.<br>Saglabāt kā melnrakstu?"
 
-#: src/Gui/ComposeWidget.cpp:729
+#: src/Gui/ComposeWidget.cpp:730
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1270,13 +1270,13 @@ msgstr ""
 "<br><span style=\"color:red\">Brīdinājums: pielikumi melnrakstos <b>netiek</"
 "b> saglabāti!</span>"
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1547
-#: src/Gui/Window.cpp:1549
+#: src/Gui/ComposeWidget.cpp:741 src/Gui/Window.cpp:1543
+#: src/Gui/Window.cpp:1545
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Melnraksti"
 
-#: src/Gui/ComposeWidget.cpp:750
+#: src/Gui/ComposeWidget.cpp:751
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save as"
@@ -1284,7 +1284,7 @@ msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Saglabāt kā"
 
-#: src/Gui/ComposeWidget.cpp:751
+#: src/Gui/ComposeWidget.cpp:752
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Drafts"
@@ -1292,7 +1292,7 @@ msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Melnraksti"
 
-#: src/Gui/ComposeWidget.cpp:780
+#: src/Gui/ComposeWidget.cpp:781
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1304,7 +1304,7 @@ msgid ""
 "%1"
 msgstr "Nevar noteikt saņēmējus: %1"
 
-#: src/Gui/ComposeWidget.cpp:784
+#: src/Gui/ComposeWidget.cpp:785
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any recipients"
@@ -1312,7 +1312,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Nav neviena saņēmēja"
 
-#: src/Gui/ComposeWidget.cpp:792
+#: src/Gui/ComposeWidget.cpp:793
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The From: address does not look like a valid one"
@@ -1320,7 +1320,7 @@ msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "Sūtītāja adrese neizskatās derīga"
 
-#: src/Gui/ComposeWidget.cpp:799
+#: src/Gui/ComposeWidget.cpp:800
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any subject. Cannot send such a mail, sorry."
@@ -1328,7 +1328,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr "Vēstulei nav temata. Šādu vēstuli nevar nosūtīt."
 
-#: src/Gui/ComposeWidget.cpp:831
+#: src/Gui/ComposeWidget.cpp:832
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot prepare this e-mail for sending: some parts are not available"
@@ -1336,7 +1336,7 @@ msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr "Neizdodas sagatavot vēstuli nosūtīšanai, jo trūkst dažas no tās daļām"
 
-#: src/Gui/ComposeWidget.cpp:922 src/Gui/ComposeWidget.cpp:1809
+#: src/Gui/ComposeWidget.cpp:923 src/Gui/ComposeWidget.cpp:1810
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "This mail will be marked as a response<hr/>%1"
@@ -1344,7 +1344,7 @@ msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Šī vēstule tiks atzīmēta kā atbilde uz<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1100
+#: src/Gui/ComposeWidget.cpp:1101
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -1352,7 +1352,7 @@ msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Kam (To)"
 
-#: src/Gui/ComposeWidget.cpp:1101
+#: src/Gui/ComposeWidget.cpp:1102
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -1360,7 +1360,7 @@ msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Kam (Cc)"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1103
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -1368,7 +1368,7 @@ msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Kam (Bcc)"
 
-#: src/Gui/ComposeWidget.cpp:1104
+#: src/Gui/ComposeWidget.cpp:1105
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-To"
@@ -1376,7 +1376,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Nesenais kam (To)"
 
-#: src/Gui/ComposeWidget.cpp:1105
+#: src/Gui/ComposeWidget.cpp:1106
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Cc"
@@ -1384,7 +1384,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Nesenais kam (Cc)"
 
-#: src/Gui/ComposeWidget.cpp:1106
+#: src/Gui/ComposeWidget.cpp:1107
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Bcc"
@@ -1392,7 +1392,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Nesenais kam (Bcc)"
 
-#: src/Gui/ComposeWidget.cpp:1390
+#: src/Gui/ComposeWidget.cpp:1391
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -1400,7 +1400,7 @@ msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Vēstuli nevar nosūtīt"
 
-#: src/Gui/ComposeWidget.cpp:1417
+#: src/Gui/ComposeWidget.cpp:1418
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Can't parse \"%1\" as an e-mail address."
@@ -1408,7 +1408,7 @@ msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "\"%1\" nav atpazīstama kā adrese."
 
-#: src/Gui/ComposeWidget.cpp:1616
+#: src/Gui/ComposeWidget.cpp:1617
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Attach File..."
@@ -1416,7 +1416,7 @@ msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Pievieno datni ..."
 
-#: src/Gui/ComposeWidget.cpp:1810
+#: src/Gui/ComposeWidget.cpp:1811
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<br/>"
@@ -1424,7 +1424,7 @@ msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
-#: src/Gui/ComposeWidget.cpp:1853
+#: src/Gui/ComposeWidget.cpp:1854
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1432,7 +1432,7 @@ msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Rakstīt vēstuli"
 
-#: src/Gui/ComposeWidget.cpp:1855
+#: src/Gui/ComposeWidget.cpp:1856
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "%1 - Compose Mail"
@@ -3758,83 +3758,78 @@ msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "Par &Trojitá ..."
 
-#: src/Gui/Window.cpp:601
-msgctxt "Gui::MainWindow|"
-msgid "&Donate to the project"
-msgstr "&Ziedot projektam"
-
-#: src/Gui/Window.cpp:606
+#: src/Gui/Window.cpp:603
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "&Rakstīt vēstuli"
 
-#: src/Gui/Window.cpp:706
+#: src/Gui/Window.cpp:703
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr "&Programma"
 
-#: src/Gui/Window.cpp:708
+#: src/Gui/Window.cpp:705
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr "&Tīkla piekļuve"
 
-#: src/Gui/Window.cpp:712
+#: src/Gui/Window.cpp:709
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "At&kļūdošana"
 
-#: src/Gui/Window.cpp:732
+#: src/Gui/Window.cpp:728
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "&Skats"
 
-#: src/Gui/Window.cpp:735
+#: src/Gui/Window.cpp:731
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "&Izkārtojums"
 
-#: src/Gui/Window.cpp:742
+#: src/Gui/Window.cpp:738
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "Pasta &mape"
 
-#: src/Gui/Window.cpp:743
+#: src/Gui/Window.cpp:739
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "&Kārtot"
 
-#: src/Gui/Window.cpp:767
+#: src/Gui/Window.cpp:763
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "&Vēstule"
 
-#: src/Gui/Window.cpp:846
+#: src/Gui/Window.cpp:842
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "Saistītais mērķis: %1"
 
-#: src/Gui/Window.cpp:855
+#: src/Gui/Window.cpp:851
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "Viss"
 
-#: src/Gui/Window.cpp:863
+#: src/Gui/Window.cpp:859
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "IMAP uzdevumi"
 
-#: src/Gui/Window.cpp:870
+#: src/Gui/Window.cpp:866
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr "MIME koks"
 
-#: src/Gui/Window.cpp:881
+#: src/Gui/Window.cpp:877
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr "Savienojuma žurnāls"
 
-#: src/Gui/Window.cpp:962
+#: src/Gui/Window.cpp:958
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Attempting to reconnect in %n seconds.."
@@ -3846,13 +3841,13 @@ msgstr[0] "Mēģinās atkārtoti pieslēgties pēc %n sekundēm.."
 msgstr[1] "Mēģinās atkārtoti pieslēgties pēc %n sekundes.."
 msgstr[2] "Mēģinās atkārtoti pieslēgties pēc %n sekundēm.."
 
-#: src/Gui/Window.cpp:1015
+#: src/Gui/Window.cpp:1011
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "I&ziet"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1132
+#: src/Gui/Window.cpp:1128
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3862,17 +3857,17 @@ msgstr[1] " - %n nelasīta vēstule"
 msgstr[2] " - %n nelasītas vēstules"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1135
+#: src/Gui/Window.cpp:1131
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - nesaistē"
 
-#: src/Gui/Window.cpp:1144 src/Gui/Window.cpp:2586
+#: src/Gui/Window.cpp:1140 src/Gui/Window.cpp:2577
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1145
+#: src/Gui/Window.cpp:1141
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3880,27 +3875,27 @@ msgid ""
 msgstr "Šī programma saglabāsies sistēmas joslā. Iestatījumos to var atspējot."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1356
+#: src/Gui/Window.cpp:1352
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "IMAP brīdinājums"
 
-#: src/Gui/Window.cpp:1361
+#: src/Gui/Window.cpp:1357
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "IMAP protokola kļūda"
 
-#: src/Gui/Window.cpp:1369
+#: src/Gui/Window.cpp:1365
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Tīkla kļūda"
 
-#: src/Gui/Window.cpp:1390
+#: src/Gui/Window.cpp:1386
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "IMAP pieglabājumu kļūda"
 
-#: src/Gui/Window.cpp:1391
+#: src/Gui/Window.cpp:1387
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3914,76 +3909,76 @@ msgstr ""
 "\n"
 "%1"
 
-#: src/Gui/Window.cpp:1402
+#: src/Gui/Window.cpp:1398
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "Nesaiste"
 
-#: src/Gui/Window.cpp:1448
+#: src/Gui/Window.cpp:1444
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "Nav kontu"
 
-#: src/Gui/Window.cpp:1449
+#: src/Gui/Window.cpp:1445
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr "Nav izveidots neviens IMAP konts. Bez tā daudz neko nevari pasākt."
 
-#: src/Gui/Window.cpp:1474
+#: src/Gui/Window.cpp:1470
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr "Neizdevās ielasīt saglabāto paroli: %1"
 
-#: src/Gui/Window.cpp:1492
+#: src/Gui/Window.cpp:1488
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "Nepieciešama pieteikšanās"
 
-#: src/Gui/Window.cpp:1493
+#: src/Gui/Window.cpp:1489
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>Ievadi IMAP servera <b>%2</b> lietotāja <b>%1</b> paroli:</p>"
 
-#: src/Gui/Window.cpp:1549
+#: src/Gui/Window.cpp:1545
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Labot melnrakstu"
 
-#: src/Gui/Window.cpp:1676
+#: src/Gui/Window.cpp:1672
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr "Arhivācija neizdevās"
 
-#: src/Gui/Window.cpp:1726
+#: src/Gui/Window.cpp:1722
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "Veidot apakšmapi zem %1"
 
-#: src/Gui/Window.cpp:1727
+#: src/Gui/Window.cpp:1723
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "Veidot pamatlīmeņa vēstuļu mapi"
 
-#: src/Gui/Window.cpp:1754
+#: src/Gui/Window.cpp:1750
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Izdzēst vēstuļu mapi"
 
-#: src/Gui/Window.cpp:1755
+#: src/Gui/Window.cpp:1751
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "Vai tiešām gribi izdzēst vēstuļu mapi %1?"
 
-#: src/Gui/Window.cpp:2061
+#: src/Gui/Window.cpp:2057
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Nevar izdzēst vēstuļu mapi"
 
-#: src/Gui/Window.cpp:2062
+#: src/Gui/Window.cpp:2058
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3993,12 +3988,12 @@ msgstr ""
 "Neizdevās izdzēst vēstuļu mapi \"%1\", jo:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2067
+#: src/Gui/Window.cpp:2063
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Neizdevās izveidot vēstuļu mapi"
 
-#: src/Gui/Window.cpp:2068
+#: src/Gui/Window.cpp:2064
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4008,12 +4003,12 @@ msgstr ""
 "Vēstuļu mapes \"%1\" izveides kļūda, jo:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2073
+#: src/Gui/Window.cpp:2069
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Neizdevās atvērt vēstuļu mapi"
 
-#: src/Gui/Window.cpp:2074
+#: src/Gui/Window.cpp:2070
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4023,45 +4018,45 @@ msgstr ""
 "Neizdevās atvērt vēstuļu mapi \"%1\", jo:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2123
+#: src/Gui/Window.cpp:2119
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Saistītais mērķis: %1"
 
-#: src/Gui/Window.cpp:2138
+#: src/Gui/Window.cpp:2134
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "Spraudņi"
 
-#: src/Gui/Window.cpp:2145
+#: src/Gui/Window.cpp:2141
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "\"sifrētas un parakstītas vēstules"
 
-#: src/Gui/Window.cpp:2152
+#: src/Gui/Window.cpp:2148
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "IMAP kompresija"
 
-#: src/Gui/Window.cpp:2163
+#: src/Gui/Window.cpp:2159
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: atbalstīts</li>"
 
-#: src/Gui/Window.cpp:2164
+#: src/Gui/Window.cpp:2160
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>neatbalstīts</strong></li>"
 
-#: src/Gui/Window.cpp:2222
+#: src/Gui/Window.cpp:2213
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Neizdevās saglabāt datnē"
 
-#: src/Gui/Window.cpp:2223
+#: src/Gui/Window.cpp:2214
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4071,63 +4066,63 @@ msgstr ""
 "Neizdevās saglabāt datnē. Kļūda:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2228
+#: src/Gui/Window.cpp:2219
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Saglabāt vēstuli"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2244
+#: src/Gui/Window.cpp:2235
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "Vēstules UID %1 pirmteksts, %2"
 
-#: src/Gui/Window.cpp:2259 src/Gui/Window.cpp:2281
+#: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Aizvērt"
 
-#: src/Gui/Window.cpp:2261 src/Gui/Window.cpp:2283
+#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2504
+#: src/Gui/Window.cpp:2495
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2512
+#: src/Gui/Window.cpp:2503
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Nezināms"
 
-#: src/Gui/Window.cpp:2526
+#: src/Gui/Window.cpp:2517
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2528
+#: src/Gui/Window.cpp:2519
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Serveris: %1 %2"
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2521
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Serveris: %1"
 
-#: src/Gui/Window.cpp:2533
+#: src/Gui/Window.cpp:2524
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2537
+#: src/Gui/Window.cpp:2528
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -4135,41 +4130,41 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " (darbina %1 - %2)"
 
-#: src/Gui/Window.cpp:2539
+#: src/Gui/Window.cpp:2530
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " (darbina %1)"
 
-#: src/Gui/Window.cpp:2541
+#: src/Gui/Window.cpp:2532
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2543
+#: src/Gui/Window.cpp:2534
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>IMAP serveris neko sakarīgu par sevi nepateica.</p>"
 
-#: src/Gui/Window.cpp:2547
+#: src/Gui/Window.cpp:2538
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2549
+#: src/Gui/Window.cpp:2540
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2551
+#: src/Gui/Window.cpp:2542
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr "<p>Serveris nerāda savas programmatūras versiju.</p>"
 
-#: src/Gui/Window.cpp:2558
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4179,7 +4174,7 @@ msgstr ""
 "%1\n"
 "<p>Pašlaik pieejamas sekojošas iespējas:</p>"
 
-#: src/Gui/Window.cpp:2560
+#: src/Gui/Window.cpp:2551
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4189,7 +4184,7 @@ msgstr ""
 "<ul>\n"
 "%1</ul>"
 
-#: src/Gui/Window.cpp:2580
+#: src/Gui/Window.cpp:2571
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -4198,13 +4193,13 @@ msgstr[0] "%1 - %n nelasītas- Trojitá"
 msgstr[1] "%1 - %n nelasīta - Trojitá"
 msgstr[2] "%1 - %n nelasītas- Trojitá"
 
-#: src/Gui/Window.cpp:2583
+#: src/Gui/Window.cpp:2574
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - Trojitá"
 
-#: src/Gui/Window.cpp:3008
+#: src/Gui/Window.cpp:2999
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
@@ -6259,6 +6254,10 @@ msgstr "Saglabā paroles no %1 spraudņa ..."
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "Paroles ar %1 spraudi ierakstīt nevar"
+
+#~ msgctxt "Gui::MainWindow|"
+#~ msgid "&Donate to the project"
+#~ msgstr "&Ziedot projektam"
 
 #~ msgctxt "Gui::ProtocolLoggerWidget|"
 #~ msgid ""

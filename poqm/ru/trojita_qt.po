@@ -868,25 +868,25 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr "Вставить как цитируемый текст"
 
-#: src/Gui/ComposeWidget.cpp:127
+#: src/Gui/ComposeWidget.cpp:128
 #, fuzzy
 msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Отмена"
 
-#: src/Gui/ComposeWidget.cpp:127
+#: src/Gui/ComposeWidget.cpp:128
 #, fuzzy
 msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "Отмена"
 
-#: src/Gui/ComposeWidget.cpp:196
+#: src/Gui/ComposeWidget.cpp:197
 #, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Отправить"
 
-#: src/Gui/ComposeWidget.cpp:235
+#: src/Gui/ComposeWidget.cpp:236
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "New Thread"
@@ -894,7 +894,7 @@ msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr "Создать обсуждение"
 
-#: src/Gui/ComposeWidget.cpp:238
+#: src/Gui/ComposeWidget.cpp:239
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -908,19 +908,19 @@ msgstr ""
 "Это письмо будет отправлено как отдельное сообщение.<hr/>Изменить для "
 "сохранения иерархии ответов."
 
-#: src/Gui/ComposeWidget.cpp:239
+#: src/Gui/ComposeWidget.cpp:240
 #, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Обсуждения"
 
-#: src/Gui/ComposeWidget.cpp:359
+#: src/Gui/ComposeWidget.cpp:360
 #, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Ошибка"
 
-#: src/Gui/ComposeWidget.cpp:359
+#: src/Gui/ComposeWidget.cpp:360
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Please set appropriate settings for outgoing messages."
@@ -928,7 +928,7 @@ msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr "Установите нужные параметры для исходящих сообщений."
 
-#: src/Gui/ComposeWidget.cpp:512
+#: src/Gui/ComposeWidget.cpp:513
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -942,7 +942,7 @@ msgstr ""
 "Это сообщение не похоже на список рассылки. Пожалуйста, заполните "
 "получателей вручную."
 
-#: src/Gui/ComposeWidget.cpp:515
+#: src/Gui/ComposeWidget.cpp:516
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -959,7 +959,7 @@ msgstr ""
 "Вы можете использовать функцию \"Ответить всем\" или указать список адресов "
 "вручную."
 
-#: src/Gui/ComposeWidget.cpp:520
+#: src/Gui/ComposeWidget.cpp:521
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot Determine Recipients"
@@ -967,19 +967,19 @@ msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Невозможно определить получателей"
 
-#: src/Gui/ComposeWidget.cpp:567
+#: src/Gui/ComposeWidget.cpp:568
 #, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Отправитель"
 
-#: src/Gui/ComposeWidget.cpp:573
+#: src/Gui/ComposeWidget.cpp:574
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:573
+#: src/Gui/ComposeWidget.cpp:574
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "(no subject)"
@@ -987,7 +987,7 @@ msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(без темы)"
 
-#: src/Gui/ComposeWidget.cpp:587
+#: src/Gui/ComposeWidget.cpp:588
 #, fuzzy
 #| msgctxt "Composer::Submission|"
 #| msgid "Message sent"
@@ -995,7 +995,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "Сообщение отправлено"
 
-#: src/Gui/ComposeWidget.cpp:590
+#: src/Gui/ComposeWidget.cpp:591
 #, fuzzy
 #| msgctxt "Imap::Mailbox::ThreadingMsgListModel|"
 #| msgid "[Message is missing]"
@@ -1003,7 +1003,7 @@ msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "[Сообщение отсутствует]"
 
-#: src/Gui/ComposeWidget.cpp:593
+#: src/Gui/ComposeWidget.cpp:594
 #, fuzzy
 #| msgctxt "Composer::Submission|"
 #| msgid "Message sent"
@@ -1011,24 +1011,24 @@ msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "Сообщение отправлено"
 
-#: src/Gui/ComposeWidget.cpp:596
+#: src/Gui/ComposeWidget.cpp:597
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:599
+#: src/Gui/ComposeWidget.cpp:600
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:602
+#: src/Gui/ComposeWidget.cpp:603
 msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
 "</b>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:691
+#: src/Gui/ComposeWidget.cpp:692
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Authentication Required"
@@ -1036,7 +1036,7 @@ msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Требуется аутентификация"
 
-#: src/Gui/ComposeWidget.cpp:692
+#: src/Gui/ComposeWidget.cpp:693
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -1045,7 +1045,7 @@ msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 "<p>Предоставьте SMTP пароль для пользователя <b>%1</b> on <b>%2</b>:</p>"
 
-#: src/Gui/ComposeWidget.cpp:726
+#: src/Gui/ComposeWidget.cpp:727
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save Draft?"
@@ -1053,7 +1053,7 @@ msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Сохранить черновик?"
 
-#: src/Gui/ComposeWidget.cpp:727
+#: src/Gui/ComposeWidget.cpp:728
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The mail has not been sent.<br>Do you want to save the draft?"
@@ -1061,7 +1061,7 @@ msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "Почта не была отправлена.<br> Хотите сохранить проект?"
 
-#: src/Gui/ComposeWidget.cpp:729
+#: src/Gui/ComposeWidget.cpp:730
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1075,19 +1075,19 @@ msgstr ""
 "<br><span style=\"color:red\">Предупреждение: вложения <b>не</b>сохраняются "
 "этот проект!</span>"
 
-#: src/Gui/ComposeWidget.cpp:740 src/Gui/Window.cpp:1547
-#: src/Gui/Window.cpp:1549
+#: src/Gui/ComposeWidget.cpp:741 src/Gui/Window.cpp:1543
+#: src/Gui/Window.cpp:1545
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Черновики"
 
-#: src/Gui/ComposeWidget.cpp:750
+#: src/Gui/ComposeWidget.cpp:751
 #, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Сохранить как"
 
-#: src/Gui/ComposeWidget.cpp:751
+#: src/Gui/ComposeWidget.cpp:752
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Drafts"
@@ -1095,7 +1095,7 @@ msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Черновики"
 
-#: src/Gui/ComposeWidget.cpp:780
+#: src/Gui/ComposeWidget.cpp:781
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1109,7 +1109,7 @@ msgstr ""
 "Не удается обработать получателей:\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:784
+#: src/Gui/ComposeWidget.cpp:785
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any recipients"
@@ -1117,7 +1117,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Вы еще не ввели никаких получателей"
 
-#: src/Gui/ComposeWidget.cpp:792
+#: src/Gui/ComposeWidget.cpp:793
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The From: address does not look like a valid one"
@@ -1125,7 +1125,7 @@ msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "От: адрес не похож на действительный"
 
-#: src/Gui/ComposeWidget.cpp:799
+#: src/Gui/ComposeWidget.cpp:800
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any subject. Cannot send such a mail, sorry."
@@ -1134,12 +1134,12 @@ msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
 "Вы не указали никакой темы. Не могу отправить такую почту, к сожалению."
 
-#: src/Gui/ComposeWidget.cpp:831
+#: src/Gui/ComposeWidget.cpp:832
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:922 src/Gui/ComposeWidget.cpp:1809
+#: src/Gui/ComposeWidget.cpp:923 src/Gui/ComposeWidget.cpp:1810
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "This mail will be marked as a response<hr/>%1"
@@ -1147,13 +1147,13 @@ msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Это письмо будет помечено как ответ<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1100
+#: src/Gui/ComposeWidget.cpp:1101
 #, fuzzy
 msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Кому"
 
-#: src/Gui/ComposeWidget.cpp:1101
+#: src/Gui/ComposeWidget.cpp:1102
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -1161,7 +1161,7 @@ msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Копия"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1103
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -1169,25 +1169,25 @@ msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Скрытая копия"
 
-#: src/Gui/ComposeWidget.cpp:1104
+#: src/Gui/ComposeWidget.cpp:1105
 #, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Получатель"
 
-#: src/Gui/ComposeWidget.cpp:1105
+#: src/Gui/ComposeWidget.cpp:1106
 #, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Получатель"
 
-#: src/Gui/ComposeWidget.cpp:1106
+#: src/Gui/ComposeWidget.cpp:1107
 #, fuzzy
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Получатель"
 
-#: src/Gui/ComposeWidget.cpp:1390
+#: src/Gui/ComposeWidget.cpp:1391
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -1195,7 +1195,7 @@ msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Ошибка отправки электронной почты"
 
-#: src/Gui/ComposeWidget.cpp:1417
+#: src/Gui/ComposeWidget.cpp:1418
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Can't parse \"%1\" as an e-mail address."
@@ -1203,7 +1203,7 @@ msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "Не могу разобрать «%1» в качестве электронной почты."
 
-#: src/Gui/ComposeWidget.cpp:1616
+#: src/Gui/ComposeWidget.cpp:1617
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Attach File..."
@@ -1211,12 +1211,12 @@ msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Вложить файл..."
 
-#: src/Gui/ComposeWidget.cpp:1810
+#: src/Gui/ComposeWidget.cpp:1811
 msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1853
+#: src/Gui/ComposeWidget.cpp:1854
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1224,7 +1224,7 @@ msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Создать почтовое сообщение"
 
-#: src/Gui/ComposeWidget.cpp:1855
+#: src/Gui/ComposeWidget.cpp:1856
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "%1 - Compose Mail"
@@ -3519,89 +3519,84 @@ msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr "&О программе..."
 
-#: src/Gui/Window.cpp:601
-msgctxt "Gui::MainWindow|"
-msgid "&Donate to the project"
-msgstr "&Жертвовать проекту"
-
-#: src/Gui/Window.cpp:606
+#: src/Gui/Window.cpp:603
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
 msgstr "Создать почтовое сообщение"
 
-#: src/Gui/Window.cpp:706
+#: src/Gui/Window.cpp:703
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Application"
 msgstr "Приложение"
 
-#: src/Gui/Window.cpp:708
+#: src/Gui/Window.cpp:705
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr "&Сетевой доступ"
 
-#: src/Gui/Window.cpp:712
+#: src/Gui/Window.cpp:709
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "Отла&дка"
 
-#: src/Gui/Window.cpp:732
+#: src/Gui/Window.cpp:728
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "&Вид"
 
-#: src/Gui/Window.cpp:735
+#: src/Gui/Window.cpp:731
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "&Внешний вид"
 
-#: src/Gui/Window.cpp:742
+#: src/Gui/Window.cpp:738
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
 msgstr "&Почтовый ящик"
 
-#: src/Gui/Window.cpp:743
+#: src/Gui/Window.cpp:739
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "&Сортировка"
 
-#: src/Gui/Window.cpp:767
+#: src/Gui/Window.cpp:763
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Message"
 msgstr "Сообщение"
 
-#: src/Gui/Window.cpp:846
+#: src/Gui/Window.cpp:842
 #, qt-format
 msgctxt "QObject|"
 msgid "Link target: %1"
 msgstr "Ссылка на: %1"
 
-#: src/Gui/Window.cpp:855
+#: src/Gui/Window.cpp:851
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Everything"
 msgstr "Все"
 
-#: src/Gui/Window.cpp:863
+#: src/Gui/Window.cpp:859
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
 msgstr "Задачи IMAP"
 
-#: src/Gui/Window.cpp:870
+#: src/Gui/Window.cpp:866
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
 msgstr ""
 
-#: src/Gui/Window.cpp:881
+#: src/Gui/Window.cpp:877
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
 msgstr ""
 
-#: src/Gui/Window.cpp:962
+#: src/Gui/Window.cpp:958
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
@@ -3611,14 +3606,14 @@ msgstr[1] "Попытка повторного подключения через
 msgstr[2] "Попытка повторного подключения через %n секунд..."
 msgstr[3] ""
 
-#: src/Gui/Window.cpp:1015
+#: src/Gui/Window.cpp:1011
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr "В&ыход"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1132
+#: src/Gui/Window.cpp:1128
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -3629,17 +3624,17 @@ msgstr[2] ""
 msgstr[3] ""
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: src/Gui/Window.cpp:1135
+#: src/Gui/Window.cpp:1131
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - не в сети"
 
-#: src/Gui/Window.cpp:1144 src/Gui/Window.cpp:2586
+#: src/Gui/Window.cpp:1140 src/Gui/Window.cpp:2577
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:1145
+#: src/Gui/Window.cpp:1141
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -3649,28 +3644,28 @@ msgstr ""
 "отключено в настройках параметров."
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: src/Gui/Window.cpp:1356
+#: src/Gui/Window.cpp:1352
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr "Тревога IMAP"
 
-#: src/Gui/Window.cpp:1361
+#: src/Gui/Window.cpp:1357
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr "Ошибка протокола IMAP"
 
-#: src/Gui/Window.cpp:1369
+#: src/Gui/Window.cpp:1365
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr "Ошибка сети"
 
-#: src/Gui/Window.cpp:1390
+#: src/Gui/Window.cpp:1386
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr "Ошибка кэша IMAP"
 
-#: src/Gui/Window.cpp:1391
+#: src/Gui/Window.cpp:1387
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3680,36 +3675,36 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1402
+#: src/Gui/Window.cpp:1398
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr "Автономный режим"
 
-#: src/Gui/Window.cpp:1448
+#: src/Gui/Window.cpp:1444
 msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "Нет конфигурации"
 
-#: src/Gui/Window.cpp:1449
+#: src/Gui/Window.cpp:1445
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 "Нет настроенной учетной записи IMAP. Trojitá не может ничего сделать без "
 "хотя бы одной одной."
 
-#: src/Gui/Window.cpp:1474
+#: src/Gui/Window.cpp:1470
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:1492
+#: src/Gui/Window.cpp:1488
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr "Требуется аутентификация"
 
-#: src/Gui/Window.cpp:1493
+#: src/Gui/Window.cpp:1489
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -3717,44 +3712,44 @@ msgstr ""
 "<p>Пожалуйста, предоставьте пароль IMAP для пользователя <b>%1</b> на <b>%2</"
 "b>:</p>"
 
-#: src/Gui/Window.cpp:1549
+#: src/Gui/Window.cpp:1545
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr "Изменить черновик"
 
-#: src/Gui/Window.cpp:1676
+#: src/Gui/Window.cpp:1672
 msgctxt "Gui::MainWindow|"
 msgid "Failed to archive"
 msgstr ""
 
-#: src/Gui/Window.cpp:1726
+#: src/Gui/Window.cpp:1722
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr "Создать вложенную папку %1"
 
-#: src/Gui/Window.cpp:1727
+#: src/Gui/Window.cpp:1723
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr "Создать почтовый ящик верхнего уровня"
 
-#: src/Gui/Window.cpp:1754
+#: src/Gui/Window.cpp:1750
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr "Удалить почтовый ящик"
 
-#: src/Gui/Window.cpp:1755
+#: src/Gui/Window.cpp:1751
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "Вы действительно хотите удалить почтовый ящик %1?"
 
-#: src/Gui/Window.cpp:2061
+#: src/Gui/Window.cpp:2057
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Не удалось удалить почтовый ящик"
 
-#: src/Gui/Window.cpp:2062
+#: src/Gui/Window.cpp:2058
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3764,12 +3759,12 @@ msgstr ""
 "Удаление почтового ящика «%1» не удалось со следующим сообщением:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2067
+#: src/Gui/Window.cpp:2063
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Не удалось создать почтовый ящик"
 
-#: src/Gui/Window.cpp:2068
+#: src/Gui/Window.cpp:2064
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3779,12 +3774,12 @@ msgstr ""
 "Создание почтового ящика «%1» не удалось со следующим сообщением:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2073
+#: src/Gui/Window.cpp:2069
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Не удалось открыть почтовый ящик"
 
-#: src/Gui/Window.cpp:2074
+#: src/Gui/Window.cpp:2070
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3794,46 +3789,46 @@ msgstr ""
 "Открытие почтового ящика «%1» не удалось со следующим сообщением:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2123
+#: src/Gui/Window.cpp:2119
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Ссылка на: %1"
 
-#: src/Gui/Window.cpp:2138
+#: src/Gui/Window.cpp:2134
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "Модули"
 
-#: src/Gui/Window.cpp:2145
+#: src/Gui/Window.cpp:2141
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr ""
 
-#: src/Gui/Window.cpp:2152
+#: src/Gui/Window.cpp:2148
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr ""
 
-#: src/Gui/Window.cpp:2163
+#: src/Gui/Window.cpp:2159
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2164
+#: src/Gui/Window.cpp:2160
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "Отключено"
 
-#: src/Gui/Window.cpp:2222
+#: src/Gui/Window.cpp:2213
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Не удалось сохранить файл сведений"
 
-#: src/Gui/Window.cpp:2223
+#: src/Gui/Window.cpp:2214
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3843,65 +3838,65 @@ msgstr ""
 "Не удается сохранить файл. Ошибка:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2228
+#: src/Gui/Window.cpp:2219
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Сохранить письма"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2244
+#: src/Gui/Window.cpp:2235
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "Исходный код сообщений UID %1 в %2"
 
-#: src/Gui/Window.cpp:2259 src/Gui/Window.cpp:2281
+#: src/Gui/Window.cpp:2250 src/Gui/Window.cpp:2272
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Закрыть"
 
-#: src/Gui/Window.cpp:2261 src/Gui/Window.cpp:2283
+#: src/Gui/Window.cpp:2252 src/Gui/Window.cpp:2274
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2504
+#: src/Gui/Window.cpp:2495
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "N"
 
-#: src/Gui/Window.cpp:2512
+#: src/Gui/Window.cpp:2503
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#: src/Gui/Window.cpp:2526
+#: src/Gui/Window.cpp:2517
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2528
+#: src/Gui/Window.cpp:2519
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Сервер:"
 
-#: src/Gui/Window.cpp:2530
+#: src/Gui/Window.cpp:2521
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Сервер:"
 
-#: src/Gui/Window.cpp:2533
+#: src/Gui/Window.cpp:2524
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr ""
 
-#: src/Gui/Window.cpp:2537
+#: src/Gui/Window.cpp:2528
 #, fuzzy, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -3909,42 +3904,42 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr "%1 на %2"
 
-#: src/Gui/Window.cpp:2539
+#: src/Gui/Window.cpp:2530
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr "%1 на %2"
 
-#: src/Gui/Window.cpp:2541
+#: src/Gui/Window.cpp:2532
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2543
+#: src/Gui/Window.cpp:2534
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>Сервер IMAP не вернул о себе полезной информации.</p>"
 
-#: src/Gui/Window.cpp:2547
+#: src/Gui/Window.cpp:2538
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2549
+#: src/Gui/Window.cpp:2540
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2551
+#: src/Gui/Window.cpp:2542
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr ""
 "<p>Сервер не предоставил информацию о версии программного обеспечения.</p>"
 
-#: src/Gui/Window.cpp:2558
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3952,7 +3947,7 @@ msgid ""
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2560
+#: src/Gui/Window.cpp:2551
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3960,7 +3955,7 @@ msgid ""
 "%1</ul>"
 msgstr "N"
 
-#: src/Gui/Window.cpp:2580
+#: src/Gui/Window.cpp:2571
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -3970,13 +3965,13 @@ msgstr[1] "%1 - %n непрочитанных"
 msgstr[2] "%1 - %n непрочитанных"
 msgstr[3] ""
 
-#: src/Gui/Window.cpp:2583
+#: src/Gui/Window.cpp:2574
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - Trojitá"
 
-#: src/Gui/Window.cpp:3008
+#: src/Gui/Window.cpp:2999
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
@@ -6013,6 +6008,10 @@ msgstr "Сохранение пароля через модуль %1..."
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr "Не могу сохранить пароль через модуль %1"
+
+#~ msgctxt "Gui::MainWindow|"
+#~ msgid "&Donate to the project"
+#~ msgstr "&Жертвовать проекту"
 
 #, fuzzy
 #~ msgctxt "Imap::Mailbox::NetworkWatcher|"
