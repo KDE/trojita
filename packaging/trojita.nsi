@@ -45,7 +45,7 @@
 !define NAME_UNICODE "Trojitá"
 !define VERSION "${TROJITA_VERSION}"
 !define DESCRIPTION "Qt IMAP e-mail client"
-!define HOMEPAGE "http://trojita.flaska.net/"
+!define HOMEPAGE "http://apps.kde.org/trojita"
 !define LICENSE "GPLv2/GPLv3"
 !define COPYRIGHT "https://commits.kde.org/trojita?path=LICENSE"
 
