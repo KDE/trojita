@@ -42,8 +42,6 @@
 
 #define KIMAP_EXPORT
 
-class QTextCodec;
-
 namespace KIMAP {
 
   /**
