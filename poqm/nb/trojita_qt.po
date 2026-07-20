@@ -5541,7 +5541,3 @@ msgstr ""
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
 msgstr ""
-
-#~ msgctxt "Gui::MainWindow|"
-#~ msgid "&Donate to the project"
-#~ msgstr "&Gi en gave til prosjektet"
