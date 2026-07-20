@@ -21,7 +21,6 @@
 */
 #ifndef IMAP_PARSER_H
 #define IMAP_PARSER_H
-#include <QLinkedList>
 #include <QSharedPointer>
 #include "Command.h"
 #include "Response.h"

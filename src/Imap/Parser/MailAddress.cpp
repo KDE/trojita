@@ -27,7 +27,6 @@
 #include <QTextDocument>
 #include <QUrl>
 #include <QUrlQuery>
-#include <QTextCodec>
 #include "MailAddress.h"
 #include "../Model/MailboxTree.h"
 #include "../Encoders.h"

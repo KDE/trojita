@@ -24,7 +24,6 @@
 
 #include <QTextDocument>
 #include <QUrl>
-#include <QTextCodec>
 #include "Message.h"
 #include "MailAddress.h"
 #include "LowLevelParser.h"

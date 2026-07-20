@@ -41,7 +41,6 @@
 #include <QBuffer>
 #include <QByteArray>
 #include <QLatin1Char>
-#include <QTextCodec>
 
 #include "kcodecs.h"
 
