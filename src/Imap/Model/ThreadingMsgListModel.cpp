@@ -75,7 +75,7 @@ namespace Mailbox
 
 ThreadingMsgListModel::ThreadingMsgListModel(QObject *parent):
     QAbstractProxyModel(parent), threadingHelperLastId(0), modelResetInProgress(false), threadingInFlight(false),
-    m_shallBeThreading(false), m_filteredBySearch(false), m_sortTask(nullptr), m_sortReverse(false), m_currentSortingCriteria(SORT_NONE),
+    m_shallBeThreading(false), m_filteredBySearch(false), m_sortTask(nullptr), m_sortReverse(false), m_currentSortingCriteria(SortCriterium::SORT_NONE),
     m_searchValidity(RESULT_INVALIDATED)
 {
     m_delayedPrune = new QTimer(this);
@@ -1366,28 +1366,28 @@ bool ThreadingMsgListModel::searchSortPreferenceImplementation(const QStringList
 
     QStringList sortOptions;
     switch (criterium) {
-    case SORT_ARRIVAL:
+    case SortCriterium::SORT_ARRIVAL:
         sortOptions << QStringLiteral("ARRIVAL");
         break;
-    case SORT_CC:
+    case SortCriterium::SORT_CC:
         sortOptions << QStringLiteral("CC");
         break;
-    case SORT_DATE:
+    case SortCriterium::SORT_DATE:
         sortOptions << QStringLiteral("DATE");
         break;
-    case SORT_FROM:
+    case SortCriterium::SORT_FROM:
         sortOptions << (hasDisplaySort ? QStringLiteral("DISPLAYFROM") : QStringLiteral("FROM"));
         break;
-    case SORT_SIZE:
+    case SortCriterium::SORT_SIZE:
         sortOptions << QStringLiteral("SIZE");
         break;
-    case SORT_SUBJECT:
+    case SortCriterium::SORT_SUBJECT:
         sortOptions << QStringLiteral("SUBJECT");
         break;
-    case SORT_TO:
+    case SortCriterium::SORT_TO:
         sortOptions << (hasDisplaySort ? QStringLiteral("DISPLAYTO") : QStringLiteral("TO"));
         break;
-    case SORT_NONE:
+    case SortCriterium::SORT_NONE:
         if (m_sortTask && m_sortTask->isPersistent() &&
                 (m_currentSearchConditions != searchConditions || m_currentSortingCriteria != criterium)) {
             // Any change shall result in us killing that sort task

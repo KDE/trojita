@@ -209,7 +209,7 @@ void PrettyMsgListModel::sort(int column, Qt::SortOrder order)
     ThreadingMsgListModel *threadingModel = qobject_cast<ThreadingMsgListModel*>(sourceModel());
     Q_ASSERT(threadingModel);
 
-    ThreadingMsgListModel::SortCriterium criterium = ThreadingMsgListModel::SORT_NONE;
+    ThreadingMsgListModel::SortCriterium criterium = ThreadingMsgListModel::SortCriterium::SORT_NONE;
     switch (column) {
     case MsgListModel::SEEN:
     case MsgListModel::FLAGGED:
@@ -217,28 +217,28 @@ void PrettyMsgListModel::sort(int column, Qt::SortOrder order)
     case MsgListModel::COLUMN_COUNT:
     case MsgListModel::BCC:
     case -1:
-        criterium = ThreadingMsgListModel::SORT_NONE;
+        criterium = ThreadingMsgListModel::SortCriterium::SORT_NONE;
         break;
     case MsgListModel::SUBJECT:
-        criterium = ThreadingMsgListModel::SORT_SUBJECT;
+        criterium = ThreadingMsgListModel::SortCriterium::SORT_SUBJECT;
         break;
     case MsgListModel::FROM:
-        criterium = ThreadingMsgListModel::SORT_FROM;
+        criterium = ThreadingMsgListModel::SortCriterium::SORT_FROM;
         break;
     case MsgListModel::TO:
-        criterium = ThreadingMsgListModel::SORT_TO;
+        criterium = ThreadingMsgListModel::SortCriterium::SORT_TO;
         break;
     case MsgListModel::CC:
-        criterium = ThreadingMsgListModel::SORT_CC;
+        criterium = ThreadingMsgListModel::SortCriterium::SORT_CC;
         break;
     case MsgListModel::DATE:
-        criterium = ThreadingMsgListModel::SORT_DATE;
+        criterium = ThreadingMsgListModel::SortCriterium::SORT_DATE;
         break;
     case MsgListModel::RECEIVED_DATE:
-        criterium = ThreadingMsgListModel::SORT_ARRIVAL;
+        criterium = ThreadingMsgListModel::SortCriterium::SORT_ARRIVAL;
         break;
     case MsgListModel::SIZE:
-        criterium = ThreadingMsgListModel::SORT_SIZE;
+        criterium = ThreadingMsgListModel::SortCriterium::SORT_SIZE;
         break;
     }
 
@@ -246,7 +246,7 @@ void PrettyMsgListModel::sort(int column, Qt::SortOrder order)
 
     // Now let the view know about whether we accept such a sorting criteria.
     // This is needed because the QHeaderView doesn't offer a way to say "hey, you cannot sort in columns XYZ, only on ABC".
-    if (criterium != ThreadingMsgListModel::SORT_NONE && willSort)
+    if (criterium != ThreadingMsgListModel::SortCriterium::SORT_NONE && willSort)
         emit sortingPreferenceChanged(column, order);
     else
         emit sortingPreferenceChanged(-1, order);

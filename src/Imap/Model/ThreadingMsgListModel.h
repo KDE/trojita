@@ -93,7 +93,7 @@ public:
     Trojitá will automatically upgrade to the display-based search criteria from RFC 5957 if support for that RFC is indicated by
     the server.
     */
-    typedef enum {
+    enum class SortCriterium {
         /** @short Don't do any explicit sorting
 
         If threading is not active, the order of messages represnets the order in which they appear in the IMAP mailbox.
@@ -121,7 +121,7 @@ public:
 
         /** @short Recipient of the message, either their mailbox or their display name */
         SORT_TO
-    } SortCriterium;
+    };
 
     explicit ThreadingMsgListModel(QObject *parent);
     void setSourceModel(QAbstractItemModel *sourceModel) override;
