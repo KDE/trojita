@@ -82,7 +82,6 @@ the pruneTree() method, except that we might not know the UID of the message in 
 class ThreadingMsgListModel: public QAbstractProxyModel
 {
     Q_OBJECT
-    Q_ENUMS(SortCriterium)
 
 public:
 
@@ -122,6 +121,7 @@ public:
         /** @short Recipient of the message, either their mailbox or their display name */
         SORT_TO
     };
+    Q_ENUM(SortCriterium)
 
     explicit ThreadingMsgListModel(QObject *parent);
     void setSourceModel(QAbstractItemModel *sourceModel) override;

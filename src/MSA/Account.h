@@ -43,7 +43,6 @@ class Account : public QObject
     Q_PROPERTY(QString sentMailboxName READ sentMailboxName WRITE setSentMailboxName NOTIFY sentMailboxNameChanged)
     Q_PROPERTY(bool useBurl READ useBurl WRITE setUseBurl NOTIFY useBurlChanged)
     Q_PROPERTY(Method submissionMethod READ submissionMethod WRITE setSubmissionMethod NOTIFY submissionMethodChanged)
-    Q_ENUMS(Method)
 
 public:
     Account(QObject *parent, QSettings *settings, const QString &accountName);
@@ -55,6 +54,7 @@ public:
         SENDMAIL, /**< Use a local Sendmail compatible transfer agent */
         IMAP_SENDMAIL, /**< Uses the IMAP SENDMAIL Extension */
     };
+    Q_ENUM(Method)
 
     Method submissionMethod() const;
     QString server() const;
@@ -121,7 +121,5 @@ private:
 };
 
 }
-
-Q_DECLARE_METATYPE(MSA::Account::Method)
 
 #endif // MSA_ACCOUNT_H
