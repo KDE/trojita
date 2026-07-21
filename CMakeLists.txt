@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.16)
 project(trojita)
 
 set(QT_REQUIRED_VERSION "6.7.0")
+set(KF_MIN_VERSION "6.26.0")
 
 set(SONNET_LIB_VERSION "6.21.0")
 
@@ -33,6 +34,7 @@ endif()
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
+include(KDEInstallDirs)
 include(TrojitaOption)
 
 # ECMPoQMTools includes QtVersionOption which creates an option to build against either
@@ -88,6 +90,13 @@ trojita_plugin_option(WITH_QTKEYCHAIN_PLUGIN "Build Qtkeychain password plugin" 
 trojita_plugin_option(WITH_SONNET_PLUGIN "Build a plugin for spellchecking via KDE's Sonnet" "WITH_DESKTOP")
 
 trojita_find_package(Git "" "" "" "")
+
+find_package(KF6DocTools ${KF_MIN_VERSION})
+set_package_properties(KF6DocTools PROPERTIES
+    URL "https://invent.kde.org/frameworks/kdoctools/"
+    DESCRIPTION "Tools to generate documentation from docbook files"
+    TYPE OPTIONAL
+)
 
 trojita_find_package(Mimetic "" "http://www.codesink.org/mimetic_mime_library.html" "C++ MIME Library" "Required for client-side MIME parsing" WITH_MIMETIC)
 trojita_find_package(Gpgmepp "1.24.0" "https://gnupg.org/related_software/gpgme/index.html" "C++ bindings for gpgme" "Needed for encrypted/signed e-mails" WITH_GPGMEPP)
@@ -848,6 +857,11 @@ if(WITH_DESKTOP)
             UiUtils
             ${STATIC_PLUGINS}
     )
+
+    if(KF6DocTools_FOUND)
+        kdoctools_install(po)
+        kdoctools_create_handbook(${CMAKE_CURRENT_SOURCE_DIR}/docs/index.docbook INSTALL_DESTINATION ${KDE_INSTALL_DOCBUNDLEDIR}/en SUBDIR trojita)
+    endif()
 
     install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/docs/trojita.1 DESTINATION ${CMAKE_INSTALL_MANDIR}/man1)
 endif()
