@@ -149,8 +149,8 @@ void QwwSmtpClientPrivate::_q_readFromSocket() {
     while (socket->canReadLine()) {
         QString line = socket->readLine();
         emit q->logReceived(line.toUtf8());
-        QRegularExpression rx("(*ANYCRLF)^(\\d+)-(.*)$", QRegularExpression::MultilineOption);        // multiline response (aka 250-XYZ)
-        QRegularExpression rxlast("(*ANYCRLF)^(\\d+) (.*)$", QRegularExpression::MultilineOption);    // single or last line response (aka 250 XYZ)
+        static const QRegularExpression rx("(*ANYCRLF)^(\\d+)-(.*)$", QRegularExpression::MultilineOption);        // multiline response (aka 250-XYZ)
+        static const QRegularExpression rxlast("(*ANYCRLF)^(\\d+) (.*)$", QRegularExpression::MultilineOption);    // single or last line response (aka 250 XYZ)
         // multiline
         QRegularExpressionMatch mid_match = rx.match(line);
         if (mid_match.hasMatch()) {

@@ -278,7 +278,7 @@ namespace {
     /** @short Decode a header in the RFC 2047 format into a unicode string */
     static QString decodeWordSequence(const QByteArray& input)
     {
-        QRegularExpression whitespace(QLatin1String("^\\s+$"));
+        static const QRegularExpression whitespace(QLatin1String("^\\s+$"));
 
         // the regexp library operates on unicode strings, unfortunately
         QString str = QString::fromUtf8(input);
@@ -287,7 +287,7 @@ namespace {
 
         // This wasn't matching for QRegExp, but perhaps it does work for QRegularExpression
         //QRegularExpression encodedWord("\\b=\\?\\S+\\?\\S+\\?\\S*\\?=\\b");
-        QRegularExpression encodedWord(QLatin1String("\"?=\\?(\\S+)\\?(\\S+)\\?(.*)\\?=\"?"),
+        static const QRegularExpression encodedWord(QLatin1String("\"?=\\?(\\S+)\\?(\\S+)\\?(.*)\\?=\"?"),
                                        QRegularExpression::InvertedGreedinessOption);
         // we set InvertedGreedinessOption, to match sequences which do not have white space in between 2 encoded words; otherwise by default greedy matching is performed
         // eg. "Sm=?ISO-8859-1?B?9g==?=rg=?ISO-8859-1?B?5Q==?=sbord" will match "=?ISO-8859-1?B?9g==?=rg=?ISO-8859-1?B?5Q==?=" as a single encoded word without InvertedGreedinessOption

@@ -747,7 +747,8 @@ void ComposeWidget::closeEvent(QCloseEvent *ce)
                 // Some characters are best avoided in file names. This is probably not a definitive list, but the hope is that
                 // it's going to be more readable than an unformatted hash or similar stuff.  The list of characters was taken
                 // from http://en.wikipedia.org/wiki/Filename#Reserved_characters_and_words .
-                filename.replace(QRegularExpression(QLatin1String("[/\\\\:\"|<>*?]")), QStringLiteral("_"));
+                static const QRegularExpression re(QLatin1String("[/\\\\:\"|<>*?]"));
+                filename.replace(re, QStringLiteral("_"));
                 path = QFileDialog::getSaveFileName(this, tr("Save as"), path + QLatin1Char('/') + filename + QLatin1String(".draft"),
                                                     tr("Drafts") + QLatin1String(" (*.draft)"));
                 if (path.isEmpty()) { // cancelled save

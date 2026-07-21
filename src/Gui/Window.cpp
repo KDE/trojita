@@ -2196,8 +2196,9 @@ QStringList MainWindow::copyrightHolders(QFile *file) const
         const QString prefix(QStringLiteral("Copyright (C) "));
         if (line.startsWith(prefix)) {
             const int pos = prefix.size();
+            static const QRegularExpression re(QLatin1String("(\\d) - (\\d)"));
             ret << QChar(0xa9 /* COPYRIGHT SIGN */) + QLatin1Char(' ') +
-                        line.mid(pos).replace(QRegularExpression(QLatin1String("(\\d) - (\\d)")),
+                        line.mid(pos).replace(re,
                         QLatin1String("\\1") + QChar(0x2014 /* EM DASH */) + QLatin1String("\\2"));
         }
     }
