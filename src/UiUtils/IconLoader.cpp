@@ -62,7 +62,7 @@ QIcon loadIcon(const QString &name)
         return *it;
 
     auto overrideIcon = QStringLiteral(":/icons/%1/%2.svg").arg(QIcon::themeName(), name);
-    if (QFileInfo(overrideIcon).exists()) {
+    if (QFileInfo::exists(overrideIcon)) {
         QIcon icon(overrideIcon);
         iconDict()->insert(name, icon);
         return icon;
