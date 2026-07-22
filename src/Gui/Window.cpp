@@ -2529,12 +2529,12 @@ void MainWindow::slotShowImapInfo()
         IMAP_ID_FIELD(os, "os");
         IMAP_ID_FIELD(osVersion, "os-version");
         IMAP_ID_FIELD(vendor, "vendor");
-        IMAP_ID_FIELD(supportUrl, "support-url");
-        IMAP_ID_FIELD(address, "address");
-        IMAP_ID_FIELD(date, "date");
-        IMAP_ID_FIELD(command, "command");
-        IMAP_ID_FIELD(arguments, "arguments");
-        IMAP_ID_FIELD(environment, "environment");
+        //IMAP_ID_FIELD(supportUrl, "support-url");
+        //IMAP_ID_FIELD(address, "address");
+        //IMAP_ID_FIELD(date, "date");
+        //IMAP_ID_FIELD(command, "command");
+        //IMAP_ID_FIELD(arguments, "arguments");
+        //IMAP_ID_FIELD(environment, "environment");
 #undef IMAP_ID_FIELD
         if (has_serverName) {
             idString = tr("<p>");
