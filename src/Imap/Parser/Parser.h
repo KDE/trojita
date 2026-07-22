@@ -89,17 +89,17 @@ public:
 public slots:
 
     /** @short CAPABILITY, RFC 3501 section 6.1.1 */
-    CommandHandle capability();
+    Imap::CommandHandle capability();
 
     /** @short NOOP, RFC 3501 section 6.1.2 */
-    CommandHandle noop();
+    Imap::CommandHandle noop();
 
     /** @short LOGOUT, RFC3501 section 6.1.3 */
-    CommandHandle logout();
+    Imap::CommandHandle logout();
 
 
     /** @short STARTTLS, RFC3051 section 6.2.1 */
-    CommandHandle startTls();
+    Imap::CommandHandle startTls();
 
 #if 0
     /** @short AUTHENTICATE, RFC3501 section 6.2.2 */
@@ -107,116 +107,116 @@ public slots:
 #endif
 
     /** @short LOGIN, RFC3501 section 6.2.3 */
-    CommandHandle login(const QString &user, const QString &pass);
+    Imap::CommandHandle login(const QString &user, const QString &pass);
 
 
     /** @short SELECT, RFC3501 section 6.3.1 */
-    CommandHandle select(const QString &mailbox, const QList<QByteArray> &params = QList<QByteArray>());
+    Imap::CommandHandle select(const QString &mailbox, const QList<QByteArray> &params = QList<QByteArray>());
 
     /** @short SELECT extended according to RFC 5162 section 3.1 */
-    CommandHandle selectQresync(const QString &mailbox, const uint uidValidity,
-                                const quint64 highestModSeq, const Sequence &knownUids = Sequence(),
-                                const Sequence &sequenceSnapshot = Sequence(), const Sequence &uidSnapshot = Sequence());
+    Imap::CommandHandle selectQresync(const QString &mailbox, const uint uidValidity,
+                                const quint64 highestModSeq, const Imap::Sequence &knownUids = Sequence(),
+                                const Imap::Sequence &sequenceSnapshot = Sequence(), const Imap::Sequence &uidSnapshot = Sequence());
 
     /** @short EXAMINE, RFC3501 section 6.3.2 */
-    CommandHandle examine(const QString &mailbox, const QList<QByteArray> &params = QList<QByteArray>());
+    Imap::CommandHandle examine(const QString &mailbox, const QList<QByteArray> &params = QList<QByteArray>());
 
     /** @short CREATE, RFC3501 section 6.3.3 */
-    CommandHandle create(const QString &mailbox);
+    Imap::CommandHandle create(const QString &mailbox);
 
     /** @short DELETE, RFC3501 section 6.3.4 */
-    CommandHandle deleteMailbox(const QString &mailbox);
+    Imap::CommandHandle deleteMailbox(const QString &mailbox);
 
     /** @short RENAME, RFC3501 section 6.3.5 */
-    CommandHandle rename(const QString &oldName, const QString &newName);
+    Imap::CommandHandle rename(const QString &oldName, const QString &newName);
 
     /** @short SUBSCRIBE, RFC3501 section 6.3.6 */
-    CommandHandle subscribe(const QString &mailbox);
+    Imap::CommandHandle subscribe(const QString &mailbox);
 
     /** @short UNSUBSCRIBE, RFC3501 section 6.3.7 */
-    CommandHandle unSubscribe(const QString &mailbox);
+    Imap::CommandHandle unSubscribe(const QString &mailbox);
 
     /** @short LIST, RFC3501 section 6.3.8, as extended by RFC5258 */
-    CommandHandle list(const QString &reference, const QString &mailbox, const QStringList &returnOptions = QStringList());
+    Imap::CommandHandle list(const QString &reference, const QString &mailbox, const QStringList &returnOptions = QStringList());
 
     /** @short LSUB, RFC3501 section 6.3.9 */
-    CommandHandle lSub(const QString &reference, const QString &mailbox);
+    Imap::CommandHandle lSub(const QString &reference, const QString &mailbox);
 
     /** @short STATUS, RFC3501 section 6.3.10 */
-    CommandHandle status(const QString &mailbox, const QStringList &fields);
+    Imap::CommandHandle status(const QString &mailbox, const QStringList &fields);
 
     /** @short APPEND, RFC3501 section 6.3.11 */
-    CommandHandle append(const QString &mailbox, const QByteArray &message,
+    Imap::CommandHandle append(const QString &mailbox, const QByteArray &message,
                          const QStringList &flags = QStringList(), const QDateTime &timestamp = QDateTime());
 
     /** @short APPEND CATENATE, RFC 4469 */
-    CommandHandle appendCatenate(const QString &mailbox, const QList<Imap::Mailbox::CatenatePair> &data,
+    Imap::CommandHandle appendCatenate(const QString &mailbox, const QList<Imap::Mailbox::CatenatePair> &data,
                                  const QStringList &flags = QStringList(), const QDateTime &timestamp = QDateTime());
 
 
     /** @short CHECK, RFC3501 sect 6.4.1 */
-    CommandHandle check();
+    Imap::CommandHandle check();
 
     /** @short CLOSE, RFC3501 sect 6.4.2 */
-    CommandHandle close();
+    Imap::CommandHandle close();
 
     /** @short EXPUNGE, RFC3501 sect 6.4.3 */
-    CommandHandle expunge();
+    Imap::CommandHandle expunge();
 
     /** @short SEARCH, RFC3501 sect 6.4.4 */
-    CommandHandle search(const QStringList &criteria, const QByteArray &charset = QByteArray()) {
+    Imap::CommandHandle search(const QStringList &criteria, const QByteArray &charset = QByteArray()) {
         return searchHelper("SEARCH", criteria, charset);
     };
 
     /** @short FETCH, RFC3501 sect 6.4.5 */
-    CommandHandle fetch(const Sequence &seq, const QStringList &items,
+    Imap::CommandHandle fetch(const Imap::Sequence &seq, const QStringList &items,
                         const QMap<QByteArray, quint64> &uint64Modifiers = MapByteArrayUint64());
 
     /** @short STORE, RFC3501 sect 6.4.6 */
-    CommandHandle store(const Sequence &seq, const QString &item, const QString &value);
+    Imap::CommandHandle store(const Imap::Sequence &seq, const QString &item, const QString &value);
 
     /** @short COPY, RFC3501 sect 6.4.7 */
-    CommandHandle copy(const Sequence &seq, const QString &mailbox);
+    Imap::CommandHandle copy(const Imap::Sequence &seq, const QString &mailbox);
 
     /** @short UID command (FETCH), RFC3501 sect 6.4.8 */
-    CommandHandle uidFetch(const Sequence &seq, const QList<QByteArray> &items);
+    Imap::CommandHandle uidFetch(const Imap::Sequence &seq, const QList<QByteArray> &items);
 
     /** @short UID command (STORE), RFC3501 sect 6.4.8 */
-    CommandHandle uidStore(const Sequence &seq, const QString &item, const QString &value);
+    Imap::CommandHandle uidStore(const Imap::Sequence &seq, const QString &item, const QString &value);
 
     /** @short UID command (COPY), RFC3501 sect 6.4.8 */
-    CommandHandle uidCopy(const Sequence &seq, const QString &mailbox);
+    Imap::CommandHandle uidCopy(const Imap::Sequence &seq, const QString &mailbox);
 
     /** @short UID XMOVE, draft-gulbrandsen-imap-move-01 as implemented by fastmail.fm */
-    CommandHandle uidMove(const Sequence &seq, const QString &mailbox);
+    Imap::CommandHandle uidMove(const Imap::Sequence &seq, const QString &mailbox);
 
     /** @short UID EXPUNGE from the UIDPLUS extension, RFC 2359 section 4.1 */
-    CommandHandle uidExpunge(const Sequence &seq);
+    Imap::CommandHandle uidExpunge(const Imap::Sequence &seq);
 
     /** @short UID command (SEARCH), RFC3501 sect 6.4.8 */
-    CommandHandle uidSearch(const QStringList &criteria, const QByteArray &charset = QByteArray()) {
+    Imap::CommandHandle uidSearch(const QStringList &criteria, const QByteArray &charset = QByteArray()) {
         return searchHelper("UID SEARCH", criteria, charset);
     }
 
     /** @short A special case of the "UID SEARCH UID" command */
-    CommandHandle uidSearchUid(const QByteArray &sequence);
+    Imap::CommandHandle uidSearchUid(const QByteArray &sequence);
 
     /** @short Perform the UID ESEARCH command with the specified UID set */
-    CommandHandle uidESearchUid(const QByteArray &sequence);
+    Imap::CommandHandle uidESearchUid(const QByteArray &sequence);
 
 
     /** @short X<atom>, RFC3501 sect 6.5.1 */
-    CommandHandle xAtom(const Commands::Command &commands);
+    Imap::CommandHandle xAtom(const Imap::Commands::Command &commands);
 
 
     /** @short UNSELECT, RFC3691 */
-    CommandHandle unSelect();
+    Imap::CommandHandle unSelect();
 
     /** @short IDLE, RFC2177
 
       The IDLE command has to be explicitly terminated by calling idleDone().
      */
-    CommandHandle idle();
+    Imap::CommandHandle idle();
 
     /** @short The DONE for terminating the IDLE state, RFC2177 */
     void idleDone();
@@ -229,54 +229,54 @@ public slots:
 
 
     /** @short NAMESPACE, RFC 2342 */
-    CommandHandle namespaceCommand();
+    Imap::CommandHandle namespaceCommand();
 
     /** SORT, RFC5256 */
-    CommandHandle sort(const QStringList &sortCriteria, const QByteArray &charset, const QStringList &searchCriteria);
+    Imap::CommandHandle sort(const QStringList &sortCriteria, const QByteArray &charset, const QStringList &searchCriteria);
     /** UID SORT, RFC5256 */
-    CommandHandle uidSort(const QStringList &sortCriteria, const QByteArray &charset, const QStringList &searchCriteria);
+    Imap::CommandHandle uidSort(const QStringList &sortCriteria, const QByteArray &charset, const QStringList &searchCriteria);
     /** THREAD, RFC5256 */
-    CommandHandle thread(const QByteArray &algo, const QByteArray &charset, const QStringList &searchCriteria);
+    Imap::CommandHandle thread(const QByteArray &algo, const QByteArray &charset, const QStringList &searchCriteria);
     /** UID THREAD, RFC5256 */
-    CommandHandle uidThread(const QByteArray &algo, const QByteArray &charset, const QStringList &searchCriteria);
+    Imap::CommandHandle uidThread(const QByteArray &algo, const QByteArray &charset, const QStringList &searchCriteria);
 
     /** @short ESORT, the extended UID SORT from RFC 5267, section 3.1 */
-    CommandHandle uidESort(const QStringList &sortCriteria, const QByteArray &charset, const QStringList &searchCriteria,
+    Imap::CommandHandle uidESort(const QStringList &sortCriteria, const QByteArray &charset, const QStringList &searchCriteria,
                            const QStringList &returnOptions);
 
     /** @short ESEARCH, the extended UID SEARCH with support for ESEARCH return options from RFC 5267 */
-    CommandHandle uidESearch(const QByteArray &charset, const QStringList &searchCriteria, const QStringList &returnOptions);
+    Imap::CommandHandle uidESearch(const QByteArray &charset, const QStringList &searchCriteria, const QStringList &returnOptions);
 
 
-    CommandHandle uidEThread(const QByteArray &algo, const QByteArray &charset, const QStringList &searchCriteria,
+    Imap::CommandHandle uidEThread(const QByteArray &algo, const QByteArray &charset, const QStringList &searchCriteria,
                              const QStringList &returnOptions);
 
     /** @short CANCELUPDATE, tell the server that it shall stop sending any ESEARCH responses associated with the given tag */
-    CommandHandle cancelUpdate(const CommandHandle &tag);
+    Imap::CommandHandle cancelUpdate(const Imap::CommandHandle &tag);
 
     /** @short ID, RFC 2971 section 3.1
 
     This variant will send the ID NIL command.
     */
-    CommandHandle idCommand();
+    Imap::CommandHandle idCommand();
 
     /** @short ID, RFC 2971 section 3.1
 
     This variant of the idCommand() sends an arbitrary list of arguments to the server.
     */
-    CommandHandle idCommand(const QMap<QByteArray,QByteArray> &args);
+    Imap::CommandHandle idCommand(const QMap<QByteArray,QByteArray> &args);
 
     /** @short ENABLE command, RFC 6151 */
-    CommandHandle enable(const QList<QByteArray> &extensions);
+    Imap::CommandHandle enable(const QList<QByteArray> &extensions);
 
     /** @short COMPRESS DEFLATE, RFC 4978 */
-    CommandHandle compressDeflate();
+    Imap::CommandHandle compressDeflate();
 
     /** @short GENURLAUTH, RFC 4467 */
-    CommandHandle genUrlAuth(const QByteArray &url, const QByteArray mechanism);
+    Imap::CommandHandle genUrlAuth(const QByteArray &url, const QByteArray mechanism);
 
     /** @short UID SENDMAIL, jkt's draft-imap-sendmail */
-    CommandHandle uidSendmail(const uint uid, const Mailbox::UidSubmitOptionsList &submissionOptions);
+    Imap::CommandHandle uidSendmail(const uint uid, const Imap::Mailbox::UidSubmitOptionsList &submissionOptions);
 
     void slotSocketStateChanged(const Imap::ConnectionState connState, const QString &message);
 

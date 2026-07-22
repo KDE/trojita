@@ -59,11 +59,11 @@ public:
 
 public slots:
     void slotSomeTaskDestroyed();
-    void slotTaskGotReparented(const ImapTask *const task);
-    void slotTaskMighHaveChanged(ImapTask *task);
+    void slotTaskGotReparented(const Imap::Mailbox::ImapTask *const task);
+    void slotTaskMighHaveChanged(Imap::Mailbox::ImapTask *task);
 
-    void slotParserCreated(Parser *parser);
-    void slotParserDeleted(Parser *parser);
+    void slotParserCreated(Imap::Parser *parser);
+    void slotParserDeleted(Imap::Parser *parser);
 
 private:
     Model *m_model;

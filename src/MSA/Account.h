@@ -88,7 +88,7 @@ signals:
     void settingsRestored();
 
 public slots:
-    void setSubmissionMethod(const Method method);
+    void setSubmissionMethod(const MSA::Account::Method method);
     void setServer(const QString &server);
     void setPort(const quint16 port);
     void setUsername(const QString &username);

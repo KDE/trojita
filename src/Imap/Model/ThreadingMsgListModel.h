@@ -181,10 +181,10 @@ public slots:
     /** @short Enable or disable threading */
     void setUserWantsThreading(bool enable);
 
-    Q_INVOKABLE bool setUserSearchingSortingPreference(const QStringList &searchConditions, const SortCriterium criterium,
+    Q_INVOKABLE bool setUserSearchingSortingPreference(const QStringList &searchConditions, const Imap::Mailbox::ThreadingMsgListModel::SortCriterium criterium,
                                            const Qt::SortOrder order = Qt::AscendingOrder);
 
-    void slotIncrementalThreadingAvailable(const Responses::ESearch::IncrementalThreadingData_t &data);
+    void slotIncrementalThreadingAvailable(const Imap::Responses::ESearch::IncrementalThreadingData_t &data);
     void slotIncrementalThreadingFailed();
 
     void delayedPrune();

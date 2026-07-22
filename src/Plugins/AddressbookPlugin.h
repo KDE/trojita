@@ -112,12 +112,12 @@ public slots:
      *  @p ignores is list of strings which are NOT included in result
      *  @p max is the demanded maximum reply length, negative value means "uncapped"
      */
-    virtual AddressbookCompletionJob *requestCompletion(const QString &input, const QStringList &ignores = QStringList(), int max = -1) = 0;
+    virtual Plugins::AddressbookCompletionJob *requestCompletion(const QString &input, const QStringList &ignores = QStringList(), int max = -1) = 0;
 
     /** @short Request a list of display names matching the given e-mail address and return AddressbookJob
      *  @p email is e-mail address
      */
-    virtual AddressbookNamesJob *requestPrettyNamesForAddress(const QString &email) = 0;
+    virtual Plugins::AddressbookNamesJob *requestPrettyNamesForAddress(const QString &email) = 0;
 
     /** @short Open window for addressbook manager */
     virtual void openAddressbookWindow() = 0;

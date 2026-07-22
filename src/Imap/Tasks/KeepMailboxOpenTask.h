@@ -179,7 +179,7 @@ private slots:
     bool handleFetch(const Imap::Responses::Fetch *const resp) override;
     bool handleStateHelper(const Imap::Responses::State *const resp) override;
     bool handleFlags(const Imap::Responses::Flags *const resp) override;
-    bool handleVanished(const Responses::Vanished *const resp) override;
+    bool handleVanished(const Imap::Responses::Vanished *const resp) override;
     bool handleResponseCodeInsideState(const Imap::Responses::State *const resp);
 
     void slotPerformNoop();

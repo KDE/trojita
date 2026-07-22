@@ -51,7 +51,7 @@ public:
     void setActionDescriptions(const QHash<QString, ActionDescription> &actionDescriptions);
 
 Q_SIGNALS:
-    void shortcutsChanged(const QHash<QString, ActionDescription> &actionDescriptions);
+    void shortcutsChanged(const QHash<QString, Gui::ActionDescription> &actionDescriptions);
 
 protected Q_SLOTS:
     void accept() override;

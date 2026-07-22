@@ -59,8 +59,8 @@ public:
     QStandardItemModel *model() const;
 
 public slots:
-    AddressbookCompletionJob *requestCompletion(const QString &input, const QStringList &ignores = QStringList(), int max = -1) override;
-    AddressbookNamesJob *requestPrettyNamesForAddress(const QString &email) override;
+    Plugins::AddressbookCompletionJob *requestCompletion(const QString &input, const QStringList &ignores = QStringList(), int max = -1) override;
+    Plugins::AddressbookNamesJob *requestPrettyNamesForAddress(const QString &email) override;
     void openAddressbookWindow() override;
     void openContactWindow(const QString &email, const QString &displayName) override;
 

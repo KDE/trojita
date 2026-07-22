@@ -79,7 +79,7 @@ signals:
     void done(bool);
     void connected();
     void disconnected();
-    void stateChanged(State);
+    void stateChanged(QwwSmtpClient::State);
     void commandFinished(int, bool error);
     void commandStarted(int);
     void tlsStarted();

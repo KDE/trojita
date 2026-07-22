@@ -77,13 +77,13 @@ public:
 
 public slots:
     /** @short Request password associated with accountId and accountType and return PasswordJob */
-    virtual PasswordJob *requestPassword(const QString &accountId, const QString &accountType) = 0;
+    virtual Plugins::PasswordJob *requestPassword(const QString &accountId, const QString &accountType) = 0;
 
     /** @short Save password for accountId and accountType and return PasswordJob */
-    virtual PasswordJob *storePassword(const QString &accountId, const QString &accountType, const QString &password) = 0;
+    virtual Plugins::PasswordJob *storePassword(const QString &accountId, const QString &accountType, const QString &password) = 0;
 
     /** @short Delete password for accountId and accountType and return PasswordJob */
-    virtual PasswordJob *deletePassword(const QString &accountId, const QString &accountType) = 0;
+    virtual Plugins::PasswordJob *deletePassword(const QString &accountId, const QString &accountType) = 0;
 
 protected:
     PasswordPlugin(QObject *parent);

@@ -56,7 +56,7 @@ public:
     bool needsMailbox() const override {return true;}
 signals:
     /** @short An incremental update to the threading as per draft-imap-incthread */
-    void incrementalThreadingAvailable(const Responses::ESearch::IncrementalThreadingData_t &update);
+    void incrementalThreadingAvailable(const Imap::Responses::ESearch::IncrementalThreadingData_t &update);
 protected:
     void _failed(const QString &errorMessage) override;
 private:

@@ -64,9 +64,9 @@ public:
     Features features() const override;
 
 public slots:
-    PasswordJob *requestPassword(const QString &accountId, const QString &accountType) override;
-    PasswordJob *storePassword(const QString &accountId, const QString &accountType, const QString &password) override;
-    PasswordJob *deletePassword(const QString &accountId, const QString &accountType) override;
+    Plugins::PasswordJob *requestPassword(const QString &accountId, const QString &accountType) override;
+    Plugins::PasswordJob *storePassword(const QString &accountId, const QString &accountType, const QString &password) override;
+    Plugins::PasswordJob *deletePassword(const QString &accountId, const QString &accountType) override;
 
 private:
     QSettings *m_settings;

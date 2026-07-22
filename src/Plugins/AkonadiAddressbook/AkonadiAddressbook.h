@@ -46,8 +46,8 @@ public:
     virtual AddressbookPlugin::Features features() const;
 
 public slots:
-    virtual AddressbookCompletionJob *requestCompletion(const QString &input, const QStringList &ignores = QStringList(), int max = -1);
-    virtual AddressbookNamesJob *requestPrettyNamesForAddress(const QString &email);
+    virtual Plugins::AddressbookCompletionJob *requestCompletion(const QString &input, const QStringList &ignores = QStringList(), int max = -1);
+    virtual Plugins::AddressbookNamesJob *requestPrettyNamesForAddress(const QString &email);
     virtual void openAddressbookWindow();
     virtual void openContactWindow(const QString &email, const QString &displayName);
 };

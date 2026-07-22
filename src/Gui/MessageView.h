@@ -110,14 +110,14 @@ private slots:
     void deleteLabelAction(const QString &tag);
     void partContextMenuRequested(const QPoint &point);
     void partLinkHovered(const QString &link, const QString &title, const QString &textContent);
-    void triggerSearchDialogBy(EmbeddedWebView *w);
+    void triggerSearchDialogBy(Gui::EmbeddedWebView *w);
     void onWebViewLoadStarted();
     void onWebViewLoadFinished();
 signals:
     void messageChanged();
     void messageModelChanged(QAbstractItemModel *model);
     void linkHovered(const QString &url);
-    void searchRequestedBy(EmbeddedWebView *webView);
+    void searchRequestedBy(Gui::EmbeddedWebView *webView);
     void transferError(const QString &errorString);
 private:
     bool eventFilter(QObject *object, QEvent *event) override;

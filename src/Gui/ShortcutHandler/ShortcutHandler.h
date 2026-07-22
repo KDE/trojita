@@ -329,7 +329,7 @@ public:
     void readSettings();
 
 private Q_SLOTS:
-    void changeShortcuts(const QHash<QString, ActionDescription> &actionDescriptions);
+    void changeShortcuts(const QHash<QString, Gui::ActionDescription> &actionDescriptions);
     void openShortcutConfigDialog();
 
 private:

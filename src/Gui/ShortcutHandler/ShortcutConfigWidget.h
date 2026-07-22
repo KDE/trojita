@@ -71,7 +71,7 @@ public:
     void reject();
 
 Q_SIGNALS:
-    void shortcutsChanged(const QHash<QString, ActionDescription> &actionDescriptions);
+    void shortcutsChanged(const QHash<QString, Gui::ActionDescription> &actionDescriptions);
 
 protected:
     bool eventFilter(QObject *obj, QEvent *event) override;
