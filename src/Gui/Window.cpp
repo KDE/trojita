@@ -2842,7 +2842,7 @@ QString MainWindow::layoutToString(const LayoutMode layout) const
     }
 
     Q_ASSERT(false);
-    return QStringLiteral("");
+    return QString();
 }
 
 void MainWindow::convertSizesAndStateSettings()
