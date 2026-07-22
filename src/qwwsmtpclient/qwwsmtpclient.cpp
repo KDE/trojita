@@ -558,7 +558,7 @@ void QwwSmtpClientPrivate::parseOption(const QString &buffer){
     if(buffer.toLower()=="pipelining"){                     options |= QwwSmtpClient::PipeliningOption;     }
     else if(buffer.toLower()=="starttls"){                  options |= QwwSmtpClient::StartTlsOption;       }
     else if(buffer.toLower()=="8bitmime"){                  options |= QwwSmtpClient::EightBitMimeOption;   }
-    else if(buffer.toLower().startsWith("auth ")){          options |= QwwSmtpClient::AuthOption;
+    else if(buffer.startsWith("auth ", Qt::CaseInsensitive)){          options |= QwwSmtpClient::AuthOption;
         // parse auth modes
         QStringList slist = buffer.mid(5).split(" ");
         foreach(const QString &s, slist){
