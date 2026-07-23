@@ -131,7 +131,7 @@ void FetchMsgPartTask::doForAllParts(const std::function<void(TreeItemPart *, co
     Q_ASSERT(mailbox);
     const auto messages = model->findMessagesByUids(mailbox, uids);
     for(auto message: messages) {
-        for (const auto &partId: parts) {
+        for (const auto &partId: std::as_const(parts)) {
             auto part = mailbox->partIdToPtr(model, static_cast<TreeItemMessage *>(message), partId);
             f(part, partId, message->uid());
         }

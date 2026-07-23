@@ -1229,7 +1229,7 @@ void ComposeWidget::updateRecipientList()
 void ComposeWidget::gotoNextInputLineFrom(QWidget *w)
 {
     bool wFound = false;
-    for(Recipient recipient : m_recipients) {
+    for(const auto &recipient : std::as_const(m_recipients)) {
         if (wFound) {
             recipient.second->setFocus();
             return;

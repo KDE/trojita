@@ -182,7 +182,7 @@ void MailBoxTreeView::setDesiredExpansion(const QStringList &mailboxNames)
 void MailBoxTreeView::resetWatchedMailboxes()
 {
     if (m_mailboxFinder) {
-        for (const auto &mailbox: m_desiredExpansionState) {
+        for (const auto &mailbox: std::as_const(m_desiredExpansionState)) {
             m_mailboxFinder->addMailbox(mailbox);
         }
     }
