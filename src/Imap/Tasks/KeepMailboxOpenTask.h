@@ -159,6 +159,12 @@ public:
 
     bool hasItsOwnActivity() const;
 
+    bool handleStateHelper(const Imap::Responses::State *const resp) override;
+    bool handleNumberResponse(const Imap::Responses::NumberResponse *const resp) override;
+    bool handleFlags(const Imap::Responses::Flags *const resp) override;
+    bool handleFetch(const Imap::Responses::Fetch *const resp) override;
+    bool handleVanished(const Imap::Responses::Vanished *const resp) override;
+
 private slots:
     void slotTaskDeleted(QObject *object);
 
@@ -174,13 +180,6 @@ private slots:
 
     /** @short The synchronization is done, let's start working now */
     void slotSyncHasCompleted() { perform(); }
-
-    bool handleNumberResponse(const Imap::Responses::NumberResponse *const resp) override;
-    bool handleFetch(const Imap::Responses::Fetch *const resp) override;
-    bool handleStateHelper(const Imap::Responses::State *const resp) override;
-    bool handleFlags(const Imap::Responses::Flags *const resp) override;
-    bool handleVanished(const Imap::Responses::Vanished *const resp) override;
-    bool handleResponseCodeInsideState(const Imap::Responses::State *const resp);
 
     void slotPerformNoop();
     void slotActivateTasks() { activateTasks(); }
@@ -198,6 +197,8 @@ private slots:
     void syncingTimeout();
 
 private:
+    bool handleResponseCodeInsideState(const Imap::Responses::State *const resp);
+
     /** @short Activate the dependent tasks while also limiting the rate */
     void activateTasks();
 
