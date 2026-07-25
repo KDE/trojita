@@ -57,13 +57,12 @@ public:
     int columnCount(const QModelIndex &parent) const override;
     QVariant data(const QModelIndex &index, int role) const override;
 
-public slots:
-    void slotSomeTaskDestroyed();
-    void slotTaskGotReparented(const Imap::Mailbox::ImapTask *const task);
-    void slotTaskMighHaveChanged(Imap::Mailbox::ImapTask *task);
+    void taskDestroyed();
+    void taskGotReparented(const Imap::Mailbox::ImapTask *const task);
+    void taskMighHaveChanged(Imap::Mailbox::ImapTask *task);
 
-    void slotParserCreated(Imap::Parser *parser);
-    void slotParserDeleted(Imap::Parser *parser);
+    void parserCreated(Imap::Parser *parser);
+    void parserDeleted(Imap::Parser *parser);
 
 private:
     Model *m_model;

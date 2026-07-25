@@ -1555,7 +1555,7 @@ void Model::removeDeletedTasks(const QList<ImapTask *> &deletedTasks, QList<Imap
         (*deletedIt)->deleteLater();
         activeTasks.removeOne(*deletedIt);
         // It isn't destroyed yet, but should be removed from the model nonetheless
-        m_taskModel->slotSomeTaskDestroyed();
+        m_taskModel->taskDestroyed();
     }
 }
 
@@ -1670,7 +1670,7 @@ void Model::slotTaskDying(QObject *obj)
     std::for_each(m_parsers.begin(), m_parsers.end(), [obj](ParserState &state) {
         state.activeTasks.removeOne(reinterpret_cast<ImapTask*>(obj));
     });
-    m_taskModel->slotSomeTaskDestroyed();
+    m_taskModel->taskDestroyed();
 }
 
 TreeItemMailbox *Model::mailboxForSomeItem(QModelIndex index)

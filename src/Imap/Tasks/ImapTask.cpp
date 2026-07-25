@@ -64,7 +64,7 @@ void ImapTask::updateParentTask(ImapTask *newParent)
     Q_ASSERT(newParent);
     parentTask = newParent;
     CHECK_TASK_TREE
-    model->m_taskModel->slotTaskGotReparented(this);
+    model->m_taskModel->taskGotReparented(this);
     if (parser) {
         Q_ASSERT(!model->accessParser(parser).activeTasks.contains(this));
         //log(tr("Reparented to %1").arg(newParent->debugIdentification()));
@@ -90,7 +90,7 @@ void ImapTask::markAsActiveTask(const TaskActivatingPosition place)
     }
     // As we're an active task, we no longer have a parent task
     parentTask = nullptr;
-    model->m_taskModel->slotTaskGotReparented(this);
+    model->m_taskModel->taskGotReparented(this);
 
     if (model->accessParser(parser).maintainingTask && model->accessParser(parser).maintainingTask != this) {
         // Got to inform the currently responsible maintaining task about our demise
@@ -306,7 +306,7 @@ void ImapTask::log(const QString &message, const Common::LogKind kind)
         dbg.prepend(QLatin1Char(' '));
     }
     model->logTrace(parser ? parser->parserId() : 0, kind, QString::fromUtf8(metaObject()->className()) + dbg, message);
-    model->m_taskModel->slotTaskMighHaveChanged(this);
+    model->m_taskModel->taskMighHaveChanged(this);
 }
 
 }

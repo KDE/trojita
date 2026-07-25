@@ -113,7 +113,7 @@ bool SortTask::handleStateHelper(const Imap::Responses::State *const resp)
             Q_ASSERT(untaggedTag);
             if (untaggedTag->data.toUtf8() == sortTag) {
                 m_persistentSearch = false;
-                model->m_taskModel->slotTaskMighHaveChanged(this);
+                model->m_taskModel->taskMighHaveChanged(this);
 
                 if (m_firstCommandCompleted) {
                     // The server decided that it will no longer inform us about the updated SORT order, and the original
@@ -138,7 +138,7 @@ bool SortTask::handleStateHelper(const Imap::Responses::State *const resp)
                 _completed();
             } else {
                 // got to prod the TaskPresentationModel
-                model->m_taskModel->slotTaskMighHaveChanged(this);
+                model->m_taskModel->taskMighHaveChanged(this);
 
                 // Even though we aren't "finished" at this point, the KeepMailboxOpenTask is now free to issue its IDLE thing,
                 // as that won't interfere with our mode of operation. Let's kick it around.
@@ -152,7 +152,7 @@ bool SortTask::handleStateHelper(const Imap::Responses::State *const resp)
         return true;
     } else if (resp->tag == cancelUpdateTag) {
         m_persistentSearch = false;
-        model->m_taskModel->slotTaskMighHaveChanged(this);
+        model->m_taskModel->taskMighHaveChanged(this);
         _completed();
         return true;
     } else {

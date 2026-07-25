@@ -48,7 +48,7 @@ OpenConnectionTask::OpenConnectionTask(Model *model) :
     connect(parser, &Parser::lineReceived, model, &Model::slotParserLineReceived);
     connect(parser, &Parser::lineSent, model, &Model::slotParserLineSent);
     model->m_parsers[ parser ] = parserState;
-    model->m_taskModel->slotParserCreated(parser);
+    model->m_taskModel->parserCreated(parser);
     markAsActiveTask();
 }
 

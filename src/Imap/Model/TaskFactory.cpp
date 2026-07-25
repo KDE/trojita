@@ -222,7 +222,7 @@ Parser *TestingTaskFactory::newParser(Model *model)
     QObject::connect(parser, &Parser::lineReceived, model, &Model::slotParserLineReceived);
     QObject::connect(parser, &Parser::lineSent, model, &Model::slotParserLineSent);
     model->m_parsers[ parser ] = parserState;
-    model->m_taskModel->slotParserCreated(parser);
+    model->m_taskModel->parserCreated(parser);
     return parser;
 }
 

@@ -38,7 +38,7 @@ OfflineConnectionTask::OfflineConnectionTask(Model *model) : ImapTask(model)
     ParserState parserState(parser);
     parserState.connState = CONN_STATE_LOGOUT;
     model->m_parsers[parser] = parserState;
-    model->m_taskModel->slotParserCreated(parser);
+    model->m_taskModel->parserCreated(parser);
     markAsActiveTask();
     QTimer::singleShot(0, this, SLOT(slotPerform()));
 }
@@ -63,7 +63,7 @@ void OfflineConnectionTask::slotDie()
     deleteLater();
     model->killParser(parser, Model::PARSER_KILL_EXPECTED);
     model->m_parsers.remove(parser);
-    model->m_taskModel->slotParserDeleted(parser);
+    model->m_taskModel->parserDeleted(parser);
 }
 
 /** @short This is an internal task */

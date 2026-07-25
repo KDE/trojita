@@ -472,7 +472,7 @@ bool KeepMailboxOpenTask::handleNumberResponse(const Imap::Responses::NumberResp
                                                 // but prevent a possible invalid 0:*
                                                 qMax(mailbox->syncState.uidNext(), 1u)
                                             ), QList<QByteArray>() << "FLAGS"));
-        model->m_taskModel->slotTaskMighHaveChanged(this);
+        model->m_taskModel->taskMighHaveChanged(this);
         return true;
     } else if (resp->kind == Imap::Responses::RECENT) {
         mailbox->syncState.setRecent(resp->number);
@@ -600,7 +600,7 @@ bool KeepMailboxOpenTask::handleStateHelper(const Imap::Responses::State *const 
         }
         // Don't forget to resume IDLE, if desired; that's easiest by simply behaving as if a "task" has just finished
         slotTaskDeleted(nullptr);
-        model->m_taskModel->slotTaskMighHaveChanged(this);
+        model->m_taskModel->taskMighHaveChanged(this);
         return true;
     } else if (resp->tag == tagClose) {
         tagClose.clear();

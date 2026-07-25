@@ -216,7 +216,7 @@ QVariant TaskPresentationModel::data(const QModelIndex &index, int role) const
 The ImapTask might be in various stages of destruction at this point, so it is not advisable to access its contents from
 this function.
 */
-void TaskPresentationModel::slotSomeTaskDestroyed()
+void TaskPresentationModel::taskDestroyed()
 {
     CHECK_TASK_TREE
     beginResetModel();
@@ -228,7 +228,7 @@ void TaskPresentationModel::slotSomeTaskDestroyed()
 
 We don't bother with proper fine-grained signals here.
 */
-void TaskPresentationModel::slotParserCreated(Parser *parser)
+void TaskPresentationModel::parserCreated(Parser *parser)
 {
     Q_UNUSED(parser);
     CHECK_TASK_TREE
@@ -241,7 +241,7 @@ void TaskPresentationModel::slotParserCreated(Parser *parser)
 
 We don't bother with proper fine-grained signals here.
 */
-void TaskPresentationModel::slotParserDeleted(Parser *parser)
+void TaskPresentationModel::parserDeleted(Parser *parser)
 {
     Q_UNUSED(parser);
     CHECK_TASK_TREE
@@ -254,7 +254,7 @@ void TaskPresentationModel::slotParserDeleted(Parser *parser)
 
 The task might or might not have been present in the model before.  We don't know.
 */
-void TaskPresentationModel::slotTaskGotReparented(const ImapTask *const task)
+void TaskPresentationModel::taskGotReparented(const ImapTask *const task)
 {
     Q_UNUSED(task);
     CHECK_TASK_TREE
@@ -264,7 +264,7 @@ void TaskPresentationModel::slotTaskGotReparented(const ImapTask *const task)
 }
 
 /** @short The textual description, the state or something else related to this task might have changed */
-void TaskPresentationModel::slotTaskMighHaveChanged(ImapTask *task)
+void TaskPresentationModel::taskMighHaveChanged(ImapTask *task)
 {
     CHECK_TASK_TREE
     if (task->isFinished()) {
