@@ -228,7 +228,7 @@ MainWindow::MainWindow(QSettings *settings): QMainWindow(), m_imapAccess(nullptr
     delayedResize->setSingleShot(true);
     delayedResize->setInterval(500);
     connect(delayedResize, &QTimer::timeout, this, &MainWindow::desktopGeometryChanged);
-    connect(QGuiApplication::primaryScreen(), &QScreen::availableGeometry, delayedResize, static_cast<void (QTimer::*)()>(&QTimer::start));
+    connect(QGuiApplication::primaryScreen(), &QScreen::availableGeometryChanged, delayedResize, static_cast<void (QTimer::*)()>(&QTimer::start));
     m_skipSavingOfUI = false;
 }
 
