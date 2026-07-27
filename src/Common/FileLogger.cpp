@@ -25,7 +25,6 @@
 #include <QFile>
 #include <QTextStream>
 #include "FileLogger.h"
-#include "../Imap/Model/Utils.h"
 
 namespace Common
 {
