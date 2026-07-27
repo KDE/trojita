@@ -29,6 +29,7 @@
 #include <QTimer>
 #include <QVBoxLayout>
 #include "ProtocolLoggerWidget.h"
+#include "Util.h"
 #include "Common/FileLogger.h"
 #include "Imap/Model/Utils.h"
 
@@ -62,15 +63,21 @@ void ProtocolLoggerWidget::slotSetPersistentLogging(const bool enabled)
 {
     if (enabled == !!m_fileLogger)
         return;
-
-    if (enabled) {
-        Q_ASSERT(!m_fileLogger);
-        m_fileLogger.reset(new Common::FileLogger(nullptr));
-        m_fileLogger->setFileLogging(true, Imap::Mailbox::persistentLogFileName());
-        m_fileLogger->setAutoFlush(true);
-    } else {
+    try {
+        if (enabled) {
+            Q_ASSERT(!m_fileLogger);
+            m_fileLogger.reset(new Common::FileLogger(nullptr));
+            m_fileLogger->setFileLogging(true, Imap::Mailbox::persistentLogFileName());
+            m_fileLogger->setAutoFlush(true);
+        } else {
+            m_fileLogger.reset();
+        }
+    }
+    catch (std::runtime_error &err) {
+        Util::messageBoxCritical(this, tr("Failed to open file"), QString::fromStdString(err.what()));
         m_fileLogger.reset();
     }
+
     emit persistentLoggingChanged(!!m_fileLogger);
 }
 

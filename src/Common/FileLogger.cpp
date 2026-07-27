@@ -23,6 +23,7 @@
 #include <QDateTime>
 #include <QDebug>
 #include <QFile>
+#include <stdexcept>
 #include "FileLogger.h"
 
 namespace Common
@@ -45,7 +46,14 @@ void FileLogger::setFileLogging(const bool enabled, const QString &fileName)
     }
 
     auto logFile = std::make_unique<QFile>(fileName, nullptr);
-    logFile->open(QIODevice::Truncate | QIODevice::WriteOnly);
+    if (!logFile->open(QIODevice::Truncate | QIODevice::WriteOnly)) {
+        //: Translators: %1 is the filename of the logfile
+        //: %2 is the detailed error description from Qt, ready for human consumption
+        throw std::runtime_error(tr("Failed to open logfile \"%1\" for writing: %2")
+                                    .arg(fileName, logFile->errorString()).toStdString());
+        return;
+    }
+
     m_fileLog = LogFilePtr(new QTextStream(logFile.release()));
 }
 
