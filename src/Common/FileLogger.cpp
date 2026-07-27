@@ -23,39 +23,30 @@
 #include <QDateTime>
 #include <QDebug>
 #include <QFile>
-#include <QTextStream>
 #include "FileLogger.h"
 
 namespace Common
 {
 
 FileLogger::FileLogger(QObject *parent) :
-    QObject(parent), m_fileLog(nullptr), m_consoleLog(false), m_autoFlush(false)
+    QObject(parent), m_consoleLog(false), m_autoFlush(false)
 {
 }
 
 void FileLogger::setFileLogging(const bool enabled, const QString &fileName)
 {
-    if (enabled) {
-        if (m_fileLog)
-            return;
-
-        QFile *logFile = new QFile(fileName, this);
-        logFile->open(QIODevice::Truncate | QIODevice::WriteOnly);
-        m_fileLog = new QTextStream(logFile);
-    } else {
-        if (m_fileLog) {
-            QIODevice *dev = m_fileLog->device();
-            delete m_fileLog;
-            delete dev;
-            m_fileLog = nullptr;
-        }
+    if (!enabled) {
+        m_fileLog.reset(nullptr);
+        return;
     }
-}
 
-FileLogger::~FileLogger()
-{
-    delete m_fileLog;
+    if (m_fileLog) {
+        return;
+    }
+
+    auto logFile = std::make_unique<QFile>(fileName, nullptr);
+    logFile->open(QIODevice::Truncate | QIODevice::WriteOnly);
+    m_fileLog = LogFilePtr(new QTextStream(logFile.release()));
 }
 
 void FileLogger::escapeCrLf(QString &s)

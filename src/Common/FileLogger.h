@@ -24,9 +24,11 @@
 #define COMMON_FILELOGGER_H
 
 #include <QObject>
-#include "Logging.h"
 
-class QTextStream;
+#include <QIODevice>
+#include <QTextStream>
+#include "Logging.h"
+#include <memory>
 
 namespace Common
 {
@@ -36,7 +38,6 @@ class FileLogger : public QObject
     Q_OBJECT
 public:
     explicit FileLogger(QObject *parent = nullptr);
-    ~FileLogger() override;
 
 public slots:
     /** @short A connection handler wants to log something */
@@ -53,7 +54,8 @@ private:
     QString formatMessage(uint parser, const Common::LogMessage &message) const;
     void escapeCrLf(QString &s);
 
-    QTextStream *m_fileLog;
+    using LogFilePtr = std::unique_ptr<QTextStream, decltype([](QTextStream *stream) { stream->device()->deleteLater(); })>;
+    LogFilePtr m_fileLog;
 
     bool m_consoleLog;
     bool m_autoFlush;
