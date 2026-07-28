@@ -49,7 +49,7 @@ public slots:
 
     void setAutoFlush(const bool autoFlush);
 
-protected:
+private:
     QString formatMessage(uint parser, const Common::LogMessage &message) const;
     void escapeCrLf(QString &s);
 
