@@ -39,7 +39,7 @@ ConnectionLog::ConnectionLog(): widget(nullptr), buffer(Common::RingBuffer<Commo
 }
 
 ProtocolLoggerWidget::ProtocolLoggerWidget(QWidget *parent) :
-    QWidget(parent), loggingActive(false), m_fileLogger(nullptr)
+    QWidget(parent), loggingActive(false)
 {
     QVBoxLayout *layout = new QVBoxLayout(this);
     tabs = new QTabWidget(this);
@@ -65,12 +65,11 @@ void ProtocolLoggerWidget::slotSetPersistentLogging(const bool enabled)
 
     if (enabled) {
         Q_ASSERT(!m_fileLogger);
-        m_fileLogger = new Common::FileLogger(this);
+        m_fileLogger.reset(new Common::FileLogger(nullptr));
         m_fileLogger->setFileLogging(true, Imap::Mailbox::persistentLogFileName());
         m_fileLogger->setAutoFlush(true);
     } else {
-        delete m_fileLogger;
-        m_fileLogger = nullptr;
+        m_fileLogger.reset();
     }
     emit persistentLoggingChanged(!!m_fileLogger);
 }

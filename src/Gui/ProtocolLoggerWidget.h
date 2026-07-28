@@ -24,6 +24,7 @@
 #ifndef GUI_PROTOCOLLOGGERWIDGET_H
 #define GUI_PROTOCOLLOGGERWIDGET_H
 
+#include <QScopedPointer>
 #include <QMap>
 #include <QWidget>
 #include "Common/FileLogger.h"
@@ -84,7 +85,7 @@ private:
     QPushButton *clearAll;
     bool loggingActive;
     QTimer *delayedDisplay;
-    Common::FileLogger *m_fileLogger;
+    QScopedPointer<Common::FileLogger, QScopedPointerDeleteLater> m_fileLogger;
 
     /** @short Return (possibly newly created) logger widget for a given parser */
     QPlainTextEdit *getLogger(const uint connectionId);
