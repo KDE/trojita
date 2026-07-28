@@ -35,10 +35,6 @@ class QTabWidget;
 class QPlainTextEdit;
 class QTimer;
 
-namespace Common {
-class FileLogger;
-}
-
 namespace Gui {
 
 /** @short Widget (etc) for a single connection */
