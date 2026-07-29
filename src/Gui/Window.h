@@ -36,6 +36,7 @@
 
 class QAuthenticator;
 class QCloseEvent;
+class QFile;
 class QItemSelection;
 class QLabel;
 class QMessageBox;
@@ -235,6 +236,7 @@ private:
     void createActions();
     void createWidgets();
     void setupModels();
+    QStringList copyrightHolders(QFile *file) const;
 
     void nukeModels();
     void connectModelActions();

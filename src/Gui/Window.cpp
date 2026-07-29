@@ -2162,25 +2162,32 @@ void MainWindow::slotShowAboutTrojita()
     featuresText += QStringLiteral("</ul>");
     ui.descriptionLabel->setText(ui.descriptionLabel->text() + featuresText);
 
-    QStringList copyright;
-    {
-        // Find the names of the authors and remove date codes from there
-        QFile license(QStringLiteral(":/LICENSE"));
-        license.open(QFile::ReadOnly);
-        const auto copyrightHolders = QString::fromUtf8(license.readAll()).split(QLatin1Char('\n'));
-        for (const auto &line : std::as_const(copyrightHolders)) {
-            const QString prefix(QStringLiteral("Copyright (C) "));
-            if (line.startsWith(prefix)) {
-                const int pos = prefix.size();
-                copyright << QChar(0xa9 /* COPYRIGHT SIGN */) + QLatin1Char(' ') +
-                             line.mid(pos).replace(QRegularExpression(QLatin1String("(\\d) - (\\d)")),
-                                                   QLatin1String("\\1") + QChar(0x2014 /* EM DASH */) + QLatin1String("\\2"));
-            }
-        }
-    }
+    // Find the names of the authors and remove date codes from there
+    QFile license(QStringLiteral(":/LICENSE"));
+    license.open(QFile::ReadOnly);
+    const QStringList copyright = copyrightHolders(&license);
+
     ui.credits->setTextFormat(Qt::PlainText);
     ui.credits->setText(copyright.join(QStringLiteral("\n")));
     widget->show();
+}
+
+QStringList MainWindow::copyrightHolders(QFile *file) const
+{
+    QStringList ret;
+
+    const auto copyrightHolders = QString::fromUtf8(file->readAll()).split(QLatin1Char('\n'));
+    for (const auto &line : std::as_const(copyrightHolders)) {
+        const QString prefix(QStringLiteral("Copyright (C) "));
+        if (line.startsWith(prefix)) {
+            const int pos = prefix.size();
+            ret << QChar(0xa9 /* COPYRIGHT SIGN */) + QLatin1Char(' ') +
+                        line.mid(pos).replace(QRegularExpression(QLatin1String("(\\d) - (\\d)")),
+                        QLatin1String("\\1") + QChar(0x2014 /* EM DASH */) + QLatin1String("\\2"));
+        }
+    }
+
+    return ret;
 }
 
 void MainWindow::slotSaveCurrentMessageBody()
