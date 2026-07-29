@@ -2167,8 +2167,9 @@ void MainWindow::slotShowAboutTrojita()
         // Find the names of the authors and remove date codes from there
         QFile license(QStringLiteral(":/LICENSE"));
         license.open(QFile::ReadOnly);
-        const QString prefix(QStringLiteral("Copyright (C) "));
-        Q_FOREACH(const QString &line, QString::fromUtf8(license.readAll()).split(QLatin1Char('\n'))) {
+        const auto copyrightHolders = QString::fromUtf8(license.readAll()).split(QLatin1Char('\n'));
+        for (const auto &line : std::as_const(copyrightHolders)) {
+            const QString prefix(QStringLiteral("Copyright (C) "));
             if (line.startsWith(prefix)) {
                 const int pos = prefix.size();
                 copyright << QChar(0xa9 /* COPYRIGHT SIGN */) + QLatin1Char(' ') +
