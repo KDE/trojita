@@ -2162,10 +2162,14 @@ void MainWindow::slotShowAboutTrojita()
     featuresText += QStringLiteral("</ul>");
     ui.descriptionLabel->setText(ui.descriptionLabel->text() + featuresText);
 
+    QStringList copyright;
     // Find the names of the authors and remove date codes from there
     QFile license(QStringLiteral(":/LICENSE"));
-    license.open(QFile::ReadOnly);
-    const QStringList copyright = copyrightHolders(&license);
+    if (license.open(QFile::ReadOnly)) {
+        copyright = copyrightHolders(&license);
+    } else {
+        copyright << tr("Failed to open license file.");
+    }
 
     ui.credits->setTextFormat(Qt::PlainText);
     ui.credits->setText(copyright.join(QStringLiteral("\n")));
