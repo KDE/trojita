@@ -1786,7 +1786,7 @@ msgid ""
 "view."
 msgstr ""
 "E-Mail-Ordner, die als abonniert markiert sind, werden in Benachrichtigungen "
-"berücksichtigt. Um eine Mailbox zu abonnieren, benutzen Sie das Kontextmenü "
+"berücksichtigt. Um eine Mailbox zu abonnieren, verwenden Sie das Kontextmenü "
 "der Mailbox-Ansicht."
 
 #: src/Gui/SettingsCachePage.ui:135
@@ -2151,7 +2151,7 @@ msgstr ""
 "<code>User-Agent</code>-Kopfzeile ausgehender E-Mails übermittelt.</"
 "p><p>Bitte beachten Sie, dass sowohl der Server, mit dem Trojitá "
 "kommuniziert, als auch die Personen, die Ihre E-Mails lesen, herausfinden "
-"können, dass Sie (irgendeine Version von) Trojitá benutzen, selbst wenn "
+"können, dass Sie (irgendeine Version von) Trojitá verwenden, selbst wenn "
 "diese Option deaktiviert ist.</p></body></html>"
 
 #: src/Gui/SettingsGeneralPage.ui:153
@@ -2696,7 +2696,7 @@ msgid ""
 "<p>Search interactively for shortcut names (e.g. Copy) or combination of "
 "keys (e.g. Ctrl+C) by typing them.</p>"
 msgstr ""
-"<p>Sie können interaktiv nach Tastenkürzel-Namen (z. B. für „Kopieren“) oder "
+"<p>Sie können interaktiv nach Tastenkürzel-Namen (z. B. für „Kopieren“) oder "
 "Tastenkombinationen (wie Strg+C) suchen, indem Sie sie hier eintippen.</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:49

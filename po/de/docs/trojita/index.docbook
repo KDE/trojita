@@ -87,7 +87,7 @@
 >&trojita; verwenden</title>
 
 <para
->Mit &trojita; können Sie E-Mails lesen, schreiben, verwalten, durchsuchen und versenden. Haben Sie ein IMAP-Postfach, können Sie mit &trojita; darauf zugreifen und es benutzen. IMAP ist ein Protokoll, bei dem die Nachrichten auf dem server bleiben und nicht auf den Lokalen Rechner heruntergeladen werden. Mit &trojita; werden jedoch Teile Ihrer Nachrichten heruntergeladen und sogar die vollständigen Nachrichten. Früher haben viele Personen POP3-Postfächer verwendet und Ihr E-Mail-Programm hat alle Nachrichten heruntergeladen und Sie auf dem Server gelöscht. Als Nachteil waren dann die Nachrichten von einem anderen Rechner nicht mehr zu erreichen. IMAP löst diese Problem, indem die Nachrichten auf dem Server verbleiben. Das Programm auf Ihren Rechner sendet nur Befehle wie „Auf diese E-Mail antworten“ oder „Diese E.Mail anzeigen“ &etc; zur Ausführung an den Server.</para>
+>Mit &trojita; können Sie E-Mails lesen, schreiben, verwalten, durchsuchen und versenden. Haben Sie ein IMAP-Postfach, können Sie mit &trojita; darauf zugreifen und es verwenden. IMAP ist ein Protokoll, bei dem die Nachrichten auf dem server bleiben und nicht auf den Lokalen Rechner heruntergeladen werden. Mit &trojita; werden jedoch Teile Ihrer Nachrichten heruntergeladen und sogar die vollständigen Nachrichten. Früher haben viele Personen POP3-Postfächer verwendet und Ihr E-Mail-Programm hat alle Nachrichten heruntergeladen und Sie auf dem Server gelöscht. Als Nachteil waren dann die Nachrichten von einem anderen Rechner nicht mehr zu erreichen. IMAP löst diese Problem, indem die Nachrichten auf dem Server verbleiben. Das Programm auf Ihren Rechner sendet nur Befehle wie „Auf diese E-Mail antworten“ oder „Diese E.Mail anzeigen“ &etc; zur Ausführung an den Server.</para>
 
 <para
 >Als erste benötigen Sie ein IMAP-Postfach. Es gibt viele Anbieter: <ulink url="http://fastmail.fm"
@@ -100,7 +100,7 @@
 >Exchange</application
 >-Server, den Sie verwenden, entsprechend eingerichtet, können Sie ebenfalls über IMAP auf <application
 >Exchange</application
-> zugreifen. Mit einem IMAP-Postfach brauchen Sie nur einen Benutzernamen und ein Passwort, dann können Sie &trojita; zum Zugriff darauf verwenden.</para>
+> zugreifen. Mit einem IMAP-Postfach benötigen Sie nur einen Benutzernamen und ein Passwort, dann können Sie &trojita; zum Zugriff darauf verwenden.</para>
 
 <para
 >Nicht alle alle IMAP-Anbieter sind vergleichbar und einige haben nur sehr langsame Dienste. Auch der <application
@@ -116,7 +116,7 @@
 > im Einrichtungsdialog. Fügen Sie Ihr IMAP-Postfach als neues Postfach mit diesen Parametern hinzu: <itemizedlist>
 <listitem
 ><para
->Vollständiger Name: Der Name, der in Ihren E-Mails angezeigt werden soll, z. B. der Vor- und Nachname.</para
+>Vollständiger Name: Der Name, der in Ihren E-Mails angezeigt werden soll, z. B. der Vor- und Nachname.</para
 ></listitem>
 <listitem
 ><para
@@ -239,7 +239,7 @@
 >E-Mails mit &trojita; lesen</title>
 
 <para
->&trojita; hat eine Schnittstelle mit drei Bereichen, wie Sie schon häufig benutzt wird. Auf der linken Seite befinden sich alle Ihre E-Mail-Ordner, unter anderem das Eingangspostfach und andere. Auf der rechten Seite befinden sich zwei Bereiche: Oben die Liste aller E-Mails im aktuellen Ordner und darunter der Inhalt der ausgewählten Nachricht. &Microsoft; Outlook, &kmail; und andere Programme haben das gleiche Layout. </para>
+>&trojita; hat eine Schnittstelle mit drei Bereichen, wie Sie schon häufig verwendet wird. Auf der linken Seite befinden sich alle Ihre E-Mail-Ordner, unter anderem das Eingangspostfach und andere. Auf der rechten Seite befinden sich zwei Bereiche: Oben die Liste aller E-Mails im aktuellen Ordner und darunter der Inhalt der ausgewählten Nachricht. &Microsoft; Outlook, &kmail; und andere Programme haben das gleiche Layout. </para>
 
 <para
 >Es gibt jedoch auch andere Layouts. Im Menü <guimenu
@@ -256,7 +256,7 @@
 >Wenn Sie eine Nachricht auswählen, wird der Inhalt unten angezeigt, Klicken Sie mit der &RMBn; auf eine Nachricht im oberen Bereich, dann können die Nachricht löschen, als Textdatei speichern oder alle Vorspannzeilen ansehen.</para>
 
 <para
->Um auf eine Nachricht zu antworten oder sie weiterzuleiten, benutzen Sie die Knöpfe in der Werkzeugleiste, da im Moment noch keine Kurzbefehle dafür definiert sind. Wählen Sie <guibutton
+>Um auf eine Nachricht zu antworten oder sie weiterzuleiten, verwenden Sie die Knöpfe in der Werkzeugleiste, da im Moment noch keine Kurzbefehle dafür definiert sind. Wählen Sie <guibutton
 >Private Antwort</guibutton
 >, um nur einem Absender zu antworten. Mit <guibutton
 >Allen antworten</guibutton
@@ -284,7 +284,7 @@
 >Adressbuch</title>
 
 <para
->Zurzeit benutzt &trojita; kein Adressbuchprogramm mit einer grafischen Bedienungsoberfläche, dies wird gerade erst entwickelt. In der Zwischenzeit gibt es eine effektive Möglichkeit, dies zu umgehen. Beim Start liest &trojita; ein Adressbuch <filename role="directory"
+>Zurzeit verwendet &trojita; kein Adressbuchprogramm mit einer grafischen Bedienungsoberfläche, dies wird gerade erst entwickelt. In der Zwischenzeit gibt es eine effektive Möglichkeit, dies zu umgehen. Beim Start liest &trojita; ein Adressbuch <filename role="directory"
 >~/.abook/</filename
 > ein, das Sie mit dem Konsolenprogramm <application
 >abook</application
@@ -382,7 +382,7 @@
 <listitem
 ><para
 ><action
->Verwenden Sie diese Einstellung, wenn Sie &trojita; auf einem Mobiltelefon oder einem anderen Gerät benutzen, wo der Netzwerkverkehr reduziert werden und effizient sein muss.</action
+>Verwenden Sie diese Einstellung, wenn Sie &trojita; auf einem Mobiltelefon oder einem anderen Gerät verwenden, wo der Netzwerkverkehr reduziert werden und effizient sein muss.</action
 ></para
 ></listitem>
 </varlistentry>
@@ -400,7 +400,7 @@
 <listitem
 ><para
 ><action
->Benutzen Sie diese Einstellung für einen Arbeitsflächenrechner mit unbegrenztem Internetzugriff. Dann kann &trojita; unbegrenzt Daten vorab herunterladen, also statt nur der Vorspannzeilen auch gleich eine Kopie der vollständigen Nachricht. </action
+>Verwenden Sie diese Einstellung für einen Arbeitsflächenrechner mit unbegrenztem Internetzugriff. Dann kann &trojita; unbegrenzt Daten vorab herunterladen, also statt nur der Vorspannzeilen auch gleich eine Kopie der vollständigen Nachricht. </action
 ></para
 ></listitem>
 </varlistentry>
