@@ -79,6 +79,7 @@ private:
 
     [[nodiscard]] QString abookDirPath() const;
     [[nodiscard]] QString configFileName() const;
+    [[nodiscard]] QString dbFileName() const;
 
     QFileSystemWatcher *m_filesystemWatcher;
     QTimer *m_updateTimer;

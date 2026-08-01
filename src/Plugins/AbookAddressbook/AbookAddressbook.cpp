@@ -121,7 +121,7 @@ AbookAddressbook::AbookAddressbook(QObject *parent): AddressbookPlugin(parent), 
     readAbook(false);
 
     m_filesystemWatcher = new QFileSystemWatcher(this);
-    m_filesystemWatcher->addPath(QDir::homePath() + QLatin1String("/.abook/addressbook"));
+    m_filesystemWatcher->addPath(dbFileName());
     connect (m_filesystemWatcher, &QFileSystemWatcher::fileChanged, this, &AbookAddressbook::scheduleAbookUpdate);
 }
 
@@ -169,7 +169,7 @@ QStandardItemModel *AbookAddressbook::model() const
 
 void AbookAddressbook::remonitorAdressbook()
 {
-    m_filesystemWatcher->addPath(QDir::homePath() + QLatin1String("/.abook/addressbook"));
+    m_filesystemWatcher->addPath(dbFileName());
 }
 
 QString AbookAddressbook::abookDirPath() const
@@ -180,6 +180,11 @@ QString AbookAddressbook::abookDirPath() const
 QString AbookAddressbook::configFileName() const
 {
     return abookDirPath() + QStringLiteral("/abookrc");
+}
+
+QString AbookAddressbook::dbFileName() const
+{
+    return abookDirPath() + QStringLiteral("/addressbook");
 }
 
 void AbookAddressbook::createAbookDir()
@@ -223,7 +228,7 @@ void AbookAddressbook::updateConfigFile() const
 
 void AbookAddressbook::createAbookDBFile() const
 {
-    QFile abookFile(QDir::homePath() + QLatin1String("/.abook/addressbook"));
+    QFile abookFile(dbFileName());
     if (!abookFile.exists()) {
         abookFile.open(QIODevice::WriteOnly);
     }
@@ -244,14 +249,14 @@ void AbookAddressbook::updateAbook()
 {
     readAbook(true);
     // QFileSystemWatcher will usually unhook from the file when it's re/written - the entire watcher ain't so great :-(
-    m_filesystemWatcher->addPath(QDir::homePath() + QLatin1String("/.abook/addressbook"));
+    m_filesystemWatcher->addPath(dbFileName());
 }
 
 void AbookAddressbook::readAbook(bool update)
 {
 //     QElapsedTimer profile;
 //     profile.start();
-    QSettings abook(QDir::homePath() + QLatin1String("/.abook/addressbook"), QSettings::IniFormat);
+    QSettings abook(dbFileName(), QSettings::IniFormat);
     QStringList contacts = abook.childGroups();
     foreach (const QString &contact, contacts) {
         Common::SettingsCategoryGuard guard(&abook, contact);
@@ -323,7 +328,7 @@ void AbookAddressbook::readAbook(bool update)
 void AbookAddressbook::saveContacts()
 {
     m_filesystemWatcher->blockSignals(true);
-    QSettings abook(QDir::homePath() + QLatin1String("/.abook/addressbook"), QSettings::IniFormat);
+    QSettings abook(dbFileName(), QSettings::IniFormat);
     abook.clear();
     for (int i = 0; i < m_contacts->rowCount(); ++i) {
         Common::SettingsCategoryGuard guard(&abook, QString::number(i));
