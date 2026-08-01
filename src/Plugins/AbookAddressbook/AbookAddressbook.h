@@ -78,6 +78,7 @@ private:
     void remonitorAdressbook();
 
     [[nodiscard]] QString abookDirPath() const;
+    [[nodiscard]] QString configFileName() const;
 
     QFileSystemWatcher *m_filesystemWatcher;
     QTimer *m_updateTimer;

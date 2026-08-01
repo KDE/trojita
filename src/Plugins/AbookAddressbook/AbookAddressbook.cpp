@@ -177,6 +177,11 @@ QString AbookAddressbook::abookDirPath() const
     return QDir::homePath() + QStringLiteral("/.abook");
 }
 
+QString AbookAddressbook::configFileName() const
+{
+    return abookDirPath() + QStringLiteral("/abookrc");
+}
+
 void AbookAddressbook::createAbookDir()
 {
     QDir dir(abookDirPath());
@@ -189,7 +194,7 @@ void AbookAddressbook::createAbookDir()
 
 void AbookAddressbook::updateConfigFile() const
 {
-    QFile file(QDir::homePath() + QLatin1String("/.abook/abookrc"));
+    QFile file(configFileName());
     QStringList abookrc;
     if (!file.exists()) {
         abookrc << QStringLiteral("field photo = Photo") << QStringLiteral("set preserve_fields=all");
