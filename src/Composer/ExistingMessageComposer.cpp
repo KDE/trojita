@@ -32,11 +32,11 @@
 namespace Composer {
 
 ExistingMessageComposer::ExistingMessageComposer(const QModelIndex& messageRoot)
-    : m_root(messageRoot)
+    : QObject(nullptr), m_root(messageRoot)
 {
     m_combiner.reset(new Imap::Mailbox::FullMessageCombiner(messageRoot, nullptr));
-    QObject::connect(m_combiner.get(), &Imap::Mailbox::FullMessageCombiner::failed,
-                     [this](const QString &message) { m_errorMessage = message; });
+    connect(m_combiner.get(), &Imap::Mailbox::FullMessageCombiner::failed,
+                     this, [this](const QString &message) { m_errorMessage = message; });
 }
 
 ExistingMessageComposer::~ExistingMessageComposer() = default;

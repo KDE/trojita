@@ -24,6 +24,7 @@
 
 #include <memory>
 #include <QDateTime>
+#include <QObject>
 #include <QPersistentModelIndex>
 #include "Composer/AbstractComposer.h"
 
@@ -35,8 +36,9 @@ class FullMessageCombiner;
 
 namespace Composer {
 
-class ExistingMessageComposer : public AbstractComposer
+class ExistingMessageComposer : public QObject, public AbstractComposer
 {
+    Q_OBJECT
 public:
 
     explicit ExistingMessageComposer(const QModelIndex &messageRoot);
