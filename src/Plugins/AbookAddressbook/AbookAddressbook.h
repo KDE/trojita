@@ -77,6 +77,8 @@ private:
     void createAbookDBFile() const;
     void remonitorAdressbook();
 
+    [[nodiscard]] QString abookDirPath() const;
+
     QFileSystemWatcher *m_filesystemWatcher;
     QTimer *m_updateTimer;
     QStandardItemModel *m_contacts;

@@ -172,11 +172,19 @@ void AbookAddressbook::remonitorAdressbook()
     m_filesystemWatcher->addPath(QDir::homePath() + QLatin1String("/.abook/addressbook"));
 }
 
+QString AbookAddressbook::abookDirPath() const
+{
+    return QDir::homePath() + QStringLiteral("/.abook");
+}
+
 void AbookAddressbook::createAbookDir()
 {
-    if (!QDir::home().exists(QStringLiteral(".abook"))) {
-        QDir::home().mkdir(QStringLiteral(".abook"));
+    QDir dir(abookDirPath());
+    if (dir.exists()) {
+        return;
     }
+
+    dir.mkpath(dir.absolutePath());
 }
 
 void AbookAddressbook::updateConfigFile() const
