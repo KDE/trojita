@@ -220,9 +220,7 @@ void PluginManager::setAddressbookPlugin(const QString &name)
     m_addressbookName = name;
     m_settings->setValue(m_addressbookKey, name);
 
-    if (m_addressbook) {
-        delete m_addressbook;
-    }
+    delete m_addressbook;
 
     auto plugin = m_availableAddressbookPlugins.find(name);
     if (plugin != m_availableAddressbookPlugins.end()) {
@@ -240,9 +238,7 @@ void PluginManager::setPasswordPlugin(const QString &name)
     m_passwordName = name;
     m_settings->setValue(m_passwordKey, name);
 
-    if (m_password) {
-        delete m_password;
-    }
+    delete m_password;
 
     auto plugin = m_availablePasswordPlugins.find(name);
     if (plugin != m_availablePasswordPlugins.end()) {
@@ -260,9 +256,7 @@ void PluginManager::setSpellcheckerPlugin(const QString &name)
     m_spellcheckerName = name;
     m_settings->setValue(m_spellcheckerKey, name);
 
-    if (m_spellchecker) {
-        delete m_spellchecker;
-    }
+    delete m_spellchecker;
 
     auto plugin = m_availableSpellcheckPlugins.find(name);
     if (plugin != m_availableSpellcheckPlugins.end()) {
