@@ -72,7 +72,9 @@ private slots:
     void scheduleAbookUpdate();
 
 private:
-    void ensureAbookPath();
+    void createAbookDir();
+    void updateConfigFile() const;
+    void createAbookDBFile() const;
     void remonitorAdressbook();
 
     QFileSystemWatcher *m_filesystemWatcher;

@@ -113,7 +113,9 @@ AbookAddressbook::AbookAddressbook(QObject *parent): AddressbookPlugin(parent), 
 
     m_contacts = new QStandardItemModel(this);
 
-    ensureAbookPath();
+    createAbookDir();
+    updateConfigFile();
+    createAbookDBFile();
 
     // read abook
     readAbook(false);
@@ -170,37 +172,45 @@ void AbookAddressbook::remonitorAdressbook()
     m_filesystemWatcher->addPath(QDir::homePath() + QLatin1String("/.abook/addressbook"));
 }
 
-void AbookAddressbook::ensureAbookPath()
+void AbookAddressbook::createAbookDir()
 {
     if (!QDir::home().exists(QStringLiteral(".abook"))) {
         QDir::home().mkdir(QStringLiteral(".abook"));
     }
-    QDir abook(QDir::homePath() + QLatin1String("/.abook/"));
-    QStringList abookrc;
+}
+
+void AbookAddressbook::updateConfigFile() const
+{
     QFile file(QDir::homePath() + QLatin1String("/.abook/abookrc"));
-    if (file.exists() && file.open(QIODevice::ReadWrite|QIODevice::Text)) {
+    QStringList abookrc;
+    if (!file.exists()) {
+        abookrc << QStringLiteral("field photo = Photo") << QStringLiteral("set preserve_fields=all");
+    } else {
+        file.open(QIODevice::ReadOnly|QIODevice::Text);
         abookrc = QString::fromLocal8Bit(file.readAll()).split(QStringLiteral("\n"));
+
         bool havePhoto = false;
         for (QStringList::iterator it = abookrc.begin(), end = abookrc.end(); it != end; ++it) {
-            if (it->contains(QLatin1String("preserve_fields")))
+            if (it->contains(QLatin1String("preserve_fields"))) {
                 *it = QStringLiteral("set preserve_fields=all");
-            else if (it->contains(QLatin1String("photo")) && it->contains(QLatin1String("field")))
+            } else if (it->contains(QLatin1String("photo")) && it->contains(QLatin1String("field"))) {
                 havePhoto = true;
+            }
         }
-        if (!havePhoto)
+
+        if (!havePhoto) {
             abookrc << QStringLiteral("field photo = Photo");
-    } else {
-        abookrc << QStringLiteral("field photo = Photo") << QStringLiteral("set preserve_fields=all");
-        file.open(QIODevice::WriteOnly|QIODevice::Text);
-    }
-    if (file.isOpen()) {
-        if (file.isWritable()) {
-            file.seek(0);
-            file.write(abookrc.join(QStringLiteral("\n")).toLocal8Bit());
         }
         file.close();
     }
-    QFile abookFile(abook.filePath(QStringLiteral("addressbook")));
+
+    file.open(QIODevice::WriteOnly|QIODevice::Truncate);
+    file.write(abookrc.join(QStringLiteral("\n")).toLocal8Bit());
+}
+
+void AbookAddressbook::createAbookDBFile() const
+{
+    QFile abookFile(QDir::homePath() + QLatin1String("/.abook/addressbook"));
     if (!abookFile.exists()) {
         abookFile.open(QIODevice::WriteOnly);
     }
