@@ -649,7 +649,7 @@ void MainWindow::createActions()
     m_menuFromToolBar->setPopupMode(QToolButton::MenuButtonPopup);
     connect(m_menuFromToolBar, &QAbstractButton::clicked, m_menuFromToolBar, &QToolButton::showMenu);
     m_mainToolbar->addWidget(m_menuFromToolBar);
-    connect(showMenuBar, &QAction::toggled, [this](const bool menuBarVisible) {
+    connect(showMenuBar, &QAction::toggled, this, [this](const bool menuBarVisible) {
         // https://bugreports.qt.io/browse/QTBUG-35768 , we have to work on the QAction, not QToolButton
         m_mainToolbar->actions().last()->setVisible(!menuBarVisible);
     });
