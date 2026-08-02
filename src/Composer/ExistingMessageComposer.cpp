@@ -25,7 +25,6 @@
 #include <QUrl>
 #include <QUuid>
 #include "Composer/ExistingMessageComposer.h"
-#include "Imap/Encoders.h"
 #include "Imap/Model/FullMessageCombiner.h"
 #include "Imap/Model/ItemRoles.h"
 #include "Imap/Model/Utils.h"
