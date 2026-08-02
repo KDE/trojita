@@ -227,7 +227,13 @@ void PluginManager::setAddressbookPlugin(const QString &name)
 #ifdef PLUGIN_DEBUG
         qDebug() << "Setting new address book plugin:" << (*plugin)->name();
 #endif
-        m_addressbook = (*plugin)->create(this, m_settings);
+        const QString description = (*plugin)->description();
+
+        try {
+            m_addressbook = (*plugin)->create(this, m_settings);
+        } catch (std::runtime_error &err) {
+            emit pluginCreateError(name, description, QString::fromStdString(err.what()));
+        }
     }
 
     emit pluginsChanged();
@@ -245,7 +251,13 @@ void PluginManager::setPasswordPlugin(const QString &name)
 #ifdef PLUGIN_DEBUG
         qDebug() << "Setting new password plugin:" << (*plugin)->name();
 #endif
-        m_password = (*plugin)->create(this, m_settings);
+        const QString description = (*plugin)->description();
+
+        try {
+            m_password = (*plugin)->create(this, m_settings);
+        } catch (std::runtime_error &err) {
+            emit pluginCreateError(name, description, QString::fromStdString(err.what()));
+        }
     }
 
     emit pluginsChanged();
@@ -263,7 +275,12 @@ void PluginManager::setSpellcheckerPlugin(const QString &name)
 #ifdef PLUGIN_DEBUG
         qDebug() << "Setting new spellchecker plugin:" << (*plugin)->name();
 #endif
-        m_spellchecker = (*plugin)->create(this, m_settings);
+        const QString description = (*plugin)->description();
+        try {
+            m_spellchecker = (*plugin)->create(this, m_settings);
+        } catch (std::runtime_error &err) {
+            emit pluginCreateError(name, description, QString::fromStdString(err.what()));
+        }
     }
 
     emit pluginsChanged();

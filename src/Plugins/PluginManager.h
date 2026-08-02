@@ -99,6 +99,7 @@ public:
 signals:
     void pluginsChanged();
     void pluginError(const QString &errorMessage);
+    void pluginCreateError(const QString &name, const QString &description, const QString &errorMessage);
 
 private slots:
     void loadPlugins();

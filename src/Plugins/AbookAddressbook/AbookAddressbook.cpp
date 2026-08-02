@@ -194,7 +194,11 @@ void AbookAddressbook::createAbookDir()
         return;
     }
 
-    dir.mkpath(dir.absolutePath());
+    if (!dir.mkpath(dir.absolutePath())) {
+        //: Translators: %1 is the filename of the abook dot directory
+        throw std::runtime_error(tr("Failed to create abook directory \"%1\": Do you have sufficient permissions?")
+                                    .arg(dir.absolutePath()).toStdString());
+    }
 }
 
 void AbookAddressbook::updateConfigFile() const
@@ -204,7 +208,13 @@ void AbookAddressbook::updateConfigFile() const
     if (!file.exists()) {
         abookrc << QStringLiteral("field photo = Photo") << QStringLiteral("set preserve_fields=all");
     } else {
-        file.open(QIODevice::ReadOnly|QIODevice::Text);
+        if (!file.open(QIODevice::ReadOnly|QIODevice::Text)) {
+            //: Translators: %1 is the filename of the abook config file
+            //: %2 is the detailed error description from Qt, ready for human consumption
+            throw std::runtime_error(tr("Failed to open abook configfile \"%1\" for reading: %2")
+                                        .arg(file.fileName(), file.errorString()).toStdString());
+        }
+
         abookrc = QString::fromLocal8Bit(file.readAll()).split(QStringLiteral("\n"));
 
         bool havePhoto = false;
@@ -222,15 +232,28 @@ void AbookAddressbook::updateConfigFile() const
         file.close();
     }
 
-    file.open(QIODevice::WriteOnly|QIODevice::Truncate);
+    if (!file.open(QIODevice::WriteOnly|QIODevice::Truncate)) {
+        //: Translators: %1 is the filename of the abook config file
+        //: %2 is the detailed error description from Qt, ready for human consumption
+        throw std::runtime_error(tr("Failed to open abook configfile \"%1\" for writing: %2")
+                                    .arg(file.fileName(), file.errorString()).toStdString());
+    }
     file.write(abookrc.join(QStringLiteral("\n")).toLocal8Bit());
 }
 
 void AbookAddressbook::createAbookDBFile() const
 {
     QFile abookFile(dbFileName());
-    if (!abookFile.exists()) {
-        abookFile.open(QIODevice::WriteOnly);
+    if (abookFile.exists()) {
+        return;
+    }
+
+    if (!abookFile.open(QIODevice::WriteOnly)) {
+        //: Translators: %1 is the filename of the abook database file
+        //: %2 is the detailed error description from Qt, ready for human consumption
+        throw std::runtime_error(tr("Failed to create abook database \"%1\": %2")
+                                    .arg(abookFile.fileName(), abookFile.errorString()).toStdString());
+
     }
 }
 

@@ -137,6 +137,17 @@ MainWindow::MainWindow(QSettings *settings): QMainWindow(), m_imapAccess(nullptr
                                             "You might want to update your system or report a bug to your vendor."
                                             "\n\n%1").arg(errorMessage));
     });
+
+    connect(m_pluginManager, &Plugins::PluginManager::pluginCreateError, this, [this](const QString &name, const QString &description, const QString &errorMessage) {
+        Gui::Util::messageBoxWarning(this, tr("Plugin Error"),
+                                     //: The %1 placeholder is the name of the plugin.
+                                     //: The %2 placeholder is the human readable description of the plugin.
+                                     //: The %3 placeholder is the detailed error message, ready for human consumption.
+                                     tr("The plugin \"%1 (%2)\" failed to load, therefore some functionality might be lost. "
+                                            "\n\n%3").arg(name, description, errorMessage));
+
+    });
+
 #ifdef TROJITA_HAVE_CRYPTO_MESSAGES
     Plugins::PluginManager::MimePartReplacers replacers;
 #ifdef TROJITA_HAVE_GPGMEPP
