@@ -92,7 +92,7 @@ msgctxt "MessageComposer|"
 msgid "%1, %2"
 msgstr "%1, %2"
 
-#: src/Composer/ExistingMessageComposer.cpp:78
+#: src/Composer/ExistingMessageComposer.cpp:77
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Cannot obtain IMAP URL for CATENATE"
 msgstr ""

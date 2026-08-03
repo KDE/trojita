@@ -71,7 +71,7 @@ msgctxt "MessageComposer|"
 msgid "%1, %2"
 msgstr ""
 
-#: src/Composer/ExistingMessageComposer.cpp:78
+#: src/Composer/ExistingMessageComposer.cpp:77
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Cannot obtain IMAP URL for CATENATE"
 msgstr "无法获取 CATENATE 的 IMAP URL"
