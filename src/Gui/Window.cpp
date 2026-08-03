@@ -1972,7 +1972,8 @@ void MainWindow::slotResend()
 
     auto recipients = QList<QPair<Composer::RecipientKind,QString>>();
     for (const auto &kind: {Imap::Mailbox::RoleMessageTo, Imap::Mailbox::RoleMessageCc, Imap::Mailbox::RoleMessageBcc}) {
-        for (const auto &oneAddr : index.data(kind).toList()) {
+        const auto addresses = index.data(kind).toList();
+        for (const auto &oneAddr : std::as_const(addresses)) {
             Q_ASSERT(oneAddr.typeId() == QMetaType::QStringList);
             QStringList item = oneAddr.toStringList();
             Q_ASSERT(item.size() == 4);
