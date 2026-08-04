@@ -7,7 +7,7 @@ msgstr ""
 "X-Language: en\n"
 "X-Qt-Contexts: true\n"
 
-#: ../src/Gui/Window.cpp:958
+#: ../src/Gui/Window.cpp:969
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
@@ -16,7 +16,7 @@ msgstr[0] "Attempting to reconnect in %n second"
 msgstr[1] "Attempting to reconnect in %n seconds"
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: ../src/Gui/Window.cpp:1128
+#: ../src/Gui/Window.cpp:1139
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " - %n unread message(s)"
@@ -24,7 +24,7 @@ msgid_plural " - %n unread message(s)"
 msgstr[0] "%n unread message"
 msgstr[1] "%n unread messages"
 
-#: ../src/Gui/Window.cpp:2571
+#: ../src/Gui/Window.cpp:2595
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -40,7 +40,7 @@ msgid_plural "+ %n additional item(s)"
 msgstr[0] "+ %n additional item"
 msgstr[1] "+ %n additional items"
 
-#: ../src/Gui/ProtocolLoggerWidget.cpp:174
+#: ../src/Gui/ProtocolLoggerWidget.cpp:180
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
@@ -48,7 +48,7 @@ msgid_plural "%n message(s)"
 msgstr[0] "%n message"
 msgstr[1] "%n messages"
 
-#: ../src/Gui/ProtocolLoggerWidget.cpp:218
+#: ../src/Gui/ProtocolLoggerWidget.cpp:224
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
