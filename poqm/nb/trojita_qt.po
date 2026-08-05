@@ -5070,8 +5070,6 @@ msgstr ""
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:254
 #, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
 msgstr "Klarte ikke å opprette mappe %1"

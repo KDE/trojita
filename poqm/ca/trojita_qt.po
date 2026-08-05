@@ -4,12 +4,12 @@
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2020 Antoni Bella Pérez <antonibella5@yahoo.com>
-# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2014-2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2026-07-02 08:20+0200\n"
+"PO-Revision-Date: 2026-08-04 09:23+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -19,14 +19,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 25.04.0\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #. Translators: %1 is the filename of the logfile %2 is the detailed error description from Qt, ready for human consumption
 #: src/Common/FileLogger.cpp:52
 #, qt-format
 msgctxt "Common::FileLogger|"
 msgid "Failed to open logfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "Ha fallat en obrir el fitxer de registre «%1» per a escriptura: %2"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -1686,12 +1686,9 @@ msgid "Clear all"
 msgstr "Neteja-ho tot"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:77
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Failed to open file"
-msgstr "Ha fallat en enviar el correu"
+msgstr "Ha fallat en obrir el fitxer"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:104
 #, qt-format
@@ -2852,13 +2849,7 @@ msgstr ""
 
 #. The %1 placeholder is the name of the plugin. The %2 placeholder is the human readable description of the plugin. The %3 placeholder is the detailed error message, ready for human consumption.
 #: src/Gui/Window.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid ""
-#| "A plugin failed to load, therefore some functionality might be lost. You "
-#| "might want to update your system or report a bug to your vendor.\n"
-#| "\n"
-#| "%1"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The plugin \"%1 (%2)\" failed to load, therefore some functionality might be "
@@ -2866,11 +2857,10 @@ msgid ""
 "\n"
 "%3"
 msgstr ""
-"Un connector ha fallat en carregar-se, per tant, podrien mancar diverses "
-"funcionalitats. Potser voldreu actualitzar el sistema o informar de l'error "
-"al distribuïdor.\n"
+"Un connector «%1 (%2)» ha fallat en carregar-se, per tant, podrien mancar "
+"algunes funcionalitats.\n"
 "\n"
-"%1"
+"%3"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
@@ -3624,12 +3614,9 @@ msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>Desactivat</strong></li>"
 
 #: src/Gui/Window.cpp:2182
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
-msgstr "Ha fallat en enviar el correu"
+msgstr "Ha fallat en obrir el fitxer de llicència."
 
 #: src/Gui/Window.cpp:2237
 msgctxt "Gui::MainWindow|"
@@ -5245,6 +5232,7 @@ msgctxt "AbookAddressbook|"
 msgid ""
 "Failed to create abook directory \"%1\": Do you have sufficient permissions?"
 msgstr ""
+"Ha fallat en crear el directori «abook» «%1»: Teniu els permisos necessaris?"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:214
@@ -5252,6 +5240,7 @@ msgstr ""
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for reading: %2"
 msgstr ""
+"Ha fallat en obrir el fitxer de configuració «abook» «%1» per lectura: %2"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:238
@@ -5259,15 +5248,14 @@ msgstr ""
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for writing: %2"
 msgstr ""
+"Ha fallat en obrir el fitxer de configuració «abook» «%1» per escriptura: %2"
 
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:254
-#, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
+#, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
-msgstr "Ha fallat en crear el directori %1"
+msgstr "Ha fallat en crear la base de dades «abook» «%1»: %2"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:449
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"

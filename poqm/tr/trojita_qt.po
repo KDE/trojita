@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-07-02 19:47+0300\n"
+"PO-Revision-Date: 2026-08-04 19:12+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,7 +20,7 @@ msgstr ""
 #, qt-format
 msgctxt "Common::FileLogger|"
 msgid "Failed to open logfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "“%1” günlük dosyası, yazmak için açılamadı: %2"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -31,7 +31,7 @@ msgid ""
 "(from %2)"
 msgstr ""
 "%1\n"
-"(kimden: %2)"
+"(eskisi %2 idi)"
 
 #: src/Composer/ComposerAttachments.cpp:157
 msgctxt "MessageComposer|"
@@ -1664,12 +1664,9 @@ msgid "Clear all"
 msgstr "Tümünü temizle"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:77
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Failed to open file"
-msgstr "Posta Gönderilemedi"
+msgstr "Dosya açılamadı"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:104
 #, qt-format
@@ -2770,7 +2767,7 @@ msgid ""
 "No tags were set because the following given tag(s) are reserved and have "
 "been disallowed from being set in this way: %1."
 msgstr ""
-"Hiçbir etiket ayarlanmadı; çükü aşağıda verilmiş olan künyeler özel kullanım "
+"Hiçbir künye ayarlanmadı; çükü aşağıda verilmiş olan künyeler özel kullanım "
 "için ayrılmışlardır ve bu şekilde ayarlanmaları engellenmiştir: %1."
 
 #: src/Gui/TagWidget.cpp:59
@@ -2819,13 +2816,7 @@ msgstr ""
 
 #. The %1 placeholder is the name of the plugin. The %2 placeholder is the human readable description of the plugin. The %3 placeholder is the detailed error message, ready for human consumption.
 #: src/Gui/Window.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid ""
-#| "A plugin failed to load, therefore some functionality might be lost. You "
-#| "might want to update your system or report a bug to your vendor.\n"
-#| "\n"
-#| "%1"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The plugin \"%1 (%2)\" failed to load, therefore some functionality might be "
@@ -2833,11 +2824,9 @@ msgid ""
 "\n"
 "%3"
 msgstr ""
-"Bir eklentinin yüklenmesinde hata oluştu, bazı özellikler kaybedilmiş "
-"olabilir. Sisteminizi güncellemek veya bir hata kaydı girmek "
-"isteyebilirsiniz.\n"
+"“%1 (%2)” eklentisi yüklenemedi; bazı özellikler kullanılamıyor olabilir.\n"
 "\n"
-"%1"
+"%3"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
@@ -3591,17 +3580,14 @@ msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>Devre dışı</strong></li>"
 
 #: src/Gui/Window.cpp:2182
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
-msgstr "Posta Gönderilemedi"
+msgstr "Lisans dosyası açılamadı"
 
 #: src/Gui/Window.cpp:2237
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
-msgstr "Dosyaya kaydedilemedi"
+msgstr "Dosyaya kaydedilemiyor"
 
 #: src/Gui/Window.cpp:2238
 #, qt-format
@@ -5183,29 +5169,29 @@ msgctxt "AbookAddressbook|"
 msgid ""
 "Failed to create abook directory \"%1\": Do you have sufficient permissions?"
 msgstr ""
+"“%1” abook dizini oluşturulamadı. Yeterli izinlere iye olduğunuzdan emin "
+"misiniz?"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:214
 #, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for reading: %2"
-msgstr ""
+msgstr "“%1” abook yapılandırma dosyası, okumak için açılamadı: %2"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:238
 #, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "“%1” abook yapılandırma dosyası, yazmak için açılamadı: %2"
 
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:254
-#, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
+#, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
-msgstr "%1 dizinini oluşturma işlemi başarısız"
+msgstr "“%1” abook veri tabanı oluşturulamadı: %2"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:449
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
@@ -5215,7 +5201,7 @@ msgstr "Adres defteri şurada ~/.abook/"
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:82
 msgctxt "BE::Contacts|"
 msgid "Filter"
-msgstr "Filtre "
+msgstr "Süz"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:162
 msgctxt "BE::Contacts|"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-07-02 06:56+0200\n"
+"PO-Revision-Date: 2026-08-04 07:22+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -25,7 +25,7 @@ msgstr ""
 #, qt-format
 msgctxt "Common::FileLogger|"
 msgid "Failed to open logfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "Neuspelo odpiranje dnevniške datoteke \"%1\" za pisanje: %2"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -1674,12 +1674,9 @@ msgid "Clear all"
 msgstr "Počisti vse"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:77
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Failed to open file"
-msgstr "Pošiljanje pošte ni uspelo"
+msgstr "Odpiranje datoteke ni uspelo"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:104
 #, qt-format
@@ -2833,13 +2830,7 @@ msgstr ""
 
 #. The %1 placeholder is the name of the plugin. The %2 placeholder is the human readable description of the plugin. The %3 placeholder is the detailed error message, ready for human consumption.
 #: src/Gui/Window.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid ""
-#| "A plugin failed to load, therefore some functionality might be lost. You "
-#| "might want to update your system or report a bug to your vendor.\n"
-#| "\n"
-#| "%1"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The plugin \"%1 (%2)\" failed to load, therefore some functionality might be "
@@ -2847,16 +2838,15 @@ msgid ""
 "\n"
 "%3"
 msgstr ""
-"Vtičnika ni bilo mogoče naložiti, zato je morda nekaj funkcionalnosti "
-"izgubljeno. Morda boste želeli posodobiti sistem ali ponudniku prijaviti "
-"napako.\n"
+"Vtičnika \"%1 (%2)\" ni bilo mogoče naložiti, zato je morda nekaj "
+"funkcionalnosti izgubljeno.\n"
 "\n"
-"%1"
+"%3"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
 msgid "E&xit"
-msgstr "&Izhod"
+msgstr "Izhod"
 
 #: src/Gui/Window.cpp:264
 msgctxt "Gui::MainWindow|"
@@ -2866,7 +2856,7 @@ msgstr "&Novo sporočilo …"
 #: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
-msgstr "&Uredi osnutek ..."
+msgstr "Ur&edi osnutek..."
 
 #: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
@@ -3607,12 +3597,9 @@ msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>onemogočeno</strong></li>"
 
 #: src/Gui/Window.cpp:2182
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
-msgstr "Pošiljanje pošte ni uspelo"
+msgstr "Odpiranje datoteke z licenco ni uspelo."
 
 #: src/Gui/Window.cpp:2237
 msgctxt "Gui::MainWindow|"
@@ -5211,29 +5198,28 @@ msgctxt "AbookAddressbook|"
 msgid ""
 "Failed to create abook directory \"%1\": Do you have sufficient permissions?"
 msgstr ""
+"Ustvarjanje imenika za abook \"%1\" ni uspelo: Ali imate zadostna dovoljenja?"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:214
 #, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for reading: %2"
-msgstr ""
+msgstr "Neuspelo odpiranje abook configfile \"%1\" za branje: %2"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:238
 #, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "Neuspelo odpiranje abook configfile \"%1\" za pisanje: %2"
 
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:254
-#, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
+#, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
-msgstr "Ustvarjanje mape %1 ni uspelo"
+msgstr "Neuspelo ustvarjanje baze podatkov abook \"%1\": %2"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:449
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
