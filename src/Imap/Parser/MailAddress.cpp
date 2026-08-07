@@ -65,7 +65,7 @@ static QRegularExpression mailishRx2(QLatin1String("\\s*<([\\w!#$%&'*+-/=?^_`{|}
 */
 bool MailAddress::parseOneAddress(Imap::Message::MailAddress &into, const QString &address, int &startOffset)
 {
-    for (QRegularExpression mailishRx : {mailishRx2, mailishRx1}) {
+    for (const auto &mailishRx : {mailishRx2, mailishRx1}) {
         QRegularExpressionMatch match = mailishRx.match(address, startOffset);
         int offset = match.capturedStart();
         if (match.hasMatch()) {
