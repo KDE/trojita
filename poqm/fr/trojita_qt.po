@@ -7,26 +7,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: trojita_common\n"
-"PO-Revision-Date: 2026-07-03 10:41+0200\n"
+"PO-Revision-Date: 2026-08-05 12:55+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 26.04.2\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+"X-Generator: Lokalize 26.04.3\n"
 "X-Qt-Contexts: true\n"
+"X-Text-Markup: kde4\n"
 
 #. Translators: %1 is the filename of the logfile %2 is the detailed error description from Qt, ready for human consumption
 #: src/Common/FileLogger.cpp:52
 #, qt-format
 msgctxt "Common::FileLogger|"
 msgid "Failed to open logfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "Impossible d'ouvrir le fichier de journal « %1 » en écriture : %2"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -1695,12 +1695,9 @@ msgid "Clear all"
 msgstr "Tout effacer"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:77
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Failed to open file"
-msgstr "Impossible d'envoyer le courriel"
+msgstr "Impossible d'ouvrir le fichier"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:104
 #, qt-format
@@ -2866,13 +2863,7 @@ msgstr ""
 
 #. The %1 placeholder is the name of the plugin. The %2 placeholder is the human readable description of the plugin. The %3 placeholder is the detailed error message, ready for human consumption.
 #: src/Gui/Window.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid ""
-#| "A plugin failed to load, therefore some functionality might be lost. You "
-#| "might want to update your system or report a bug to your vendor.\n"
-#| "\n"
-#| "%1"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The plugin \"%1 (%2)\" failed to load, therefore some functionality might be "
@@ -2880,11 +2871,9 @@ msgid ""
 "\n"
 "%3"
 msgstr ""
-"Un plug-in n'a pas pu s'initialiser. En conséquent, certaines "
-"fonctionnalités pourraient manquer. Vous pourriez vouloir mettre à jour "
-"votre système ou signaler un bogue à votre fournisseur.\n"
-"\n"
-"%1"
+"Il a été impossible de charger le module externe « %1 (%2) ». En conséquent, "
+"certaines fonctionnalités pourraient manquer.\n"
+"%3"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
@@ -3643,12 +3632,9 @@ msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>désactivé</strong></li>"
 
 #: src/Gui/Window.cpp:2182
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
-msgstr "Impossible d'envoyer le courriel"
+msgstr "Impossible d'ouvrir le fichier de licence."
 
 #: src/Gui/Window.cpp:2237
 msgctxt "Gui::MainWindow|"
@@ -5278,6 +5264,8 @@ msgctxt "AbookAddressbook|"
 msgid ""
 "Failed to create abook directory \"%1\": Do you have sufficient permissions?"
 msgstr ""
+"Impossible de créer le dossier « abook » « %1 » : disposez-vous de "
+"permissions suffisantes ?"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:214
@@ -5285,6 +5273,7 @@ msgstr ""
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for reading: %2"
 msgstr ""
+"Impossible d'ouvrir fichier de configuration « abook » « %1 » en lecture : %2"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:238
@@ -5292,15 +5281,15 @@ msgstr ""
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for writing: %2"
 msgstr ""
+"Impossible d'ouvrir fichier de configuration « abook » « %1 » en écriture : "
+"%2"
 
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:254
-#, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
+#, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
-msgstr "Impossible de créer le dossier %1"
+msgstr "Impossible de créer la base de données « abook » « %1 » : %2"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:449
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
