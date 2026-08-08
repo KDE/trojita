@@ -486,7 +486,7 @@ QSharedPointer<AbstractMessage> AbstractMessage::fromList(const QVariantList &it
         // In the meanwhile, it's critical to override the MIME type properly so that the upper layers don't assert
         // on, e.g., missing headers (or invalid indexes in there), etc.
 #define RETURN_ERROR_BINARY_PART \
-    qDebug() << "will return a fake raw part instead of a damaged " << QByteArray(mediaType + '/' + mediaSubType).data() << " part"; \
+    qDebug() << "will return a fake raw part instead of a damaged " << QByteArray(mediaType + '/' + mediaSubType) << " part"; \
     bodyFldParam["x-trojita-original-mime-type"] = mediaType + '/' + mediaSubType; \
     return QSharedPointer<AbstractMessage>(new BasicMessage("application", "x-trojita-malformed-part-from-imap-response", \
         bodyFldParam, bodyFldId, bodyFldDesc, bodyFldEnc, bodyFldOctets, \
