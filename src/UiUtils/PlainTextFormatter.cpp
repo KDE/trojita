@@ -577,7 +577,7 @@ QString htmlizedTextPart(const QModelIndex &partIndex, const QFontInfo &font, co
 
     QFile file(Common::writablePath(Common::LOCATION_DATA) + QLatin1String("message.css"));
     if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        const QString userSheet = QString::fromLocal8Bit(file.readAll().data());
+        const QString userSheet = QString::fromLocal8Bit(file.readAll().constData());
         stylesheet += QLatin1Char('\n') + userSheet;
         file.close();
     }
