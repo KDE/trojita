@@ -802,7 +802,7 @@ void MainWindow::createMenus()
     connect(netOnline, &QAction::toggled, this, &MainWindow::updateNetworkIndication);
 
     addToolBar(Qt::LeftToolBarArea, m_mainToolbar);
-    m_mainToolbar->actions().last()->setVisible(true); // initial state to complement the default of the QMenuBar's visibility
+    m_mainToolbar->actions().constLast()->setVisible(true); // initial state to complement the default of the QMenuBar's visibility
     menuBar()->hide();
 
 #undef ADD_ACTION
