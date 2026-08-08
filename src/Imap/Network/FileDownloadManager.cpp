@@ -167,7 +167,7 @@ void FileDownloadManager::onMessageDataTransferred()
         emit transferError(saving.errorString());
         return;
     }
-    if (saving.write(m_combiner->data().data()) == -1) {
+    if (saving.write(m_combiner->data().constData()) == -1) {
         emit transferError(saving.errorString());
         return;
     }
