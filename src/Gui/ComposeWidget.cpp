@@ -72,12 +72,12 @@
 namespace
 {
 enum { OFFSET_OF_FIRST_ADDRESSEE = 1, MIN_MAX_VISIBLE_RECIPIENTS = 4 };
+
+static constexpr QLatin1StringView trojita_opacityAnimation("trojita_opacityAnimation");
 }
 
 namespace Gui
 {
-
-static const QString trojita_opacityAnimation = QStringLiteral("trojita_opacityAnimation");
 
 /** @short Keep track of whether the document has been updated since the last save */
 class ComposerSaveState
