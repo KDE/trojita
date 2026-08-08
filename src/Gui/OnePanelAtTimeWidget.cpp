@@ -25,7 +25,6 @@
 #include <QLabel>
 #include <QMainWindow>
 #include <QToolBar>
-#include "CompleteMessageWidget.h"
 #include "MailBoxTreeView.h"
 #include "MessageListWidget.h"
 #include "MsgListView.h"

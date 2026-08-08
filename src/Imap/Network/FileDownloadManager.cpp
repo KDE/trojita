@@ -22,7 +22,6 @@
 #include "FileDownloadManager.h"
 #include "Imap/Model/FullMessageCombiner.h"
 #include "Imap/Model/ItemRoles.h"
-#include "Imap/Model/MailboxTree.h"
 
 #include <QDir>
 
