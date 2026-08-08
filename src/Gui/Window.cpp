@@ -662,7 +662,7 @@ void MainWindow::createActions()
     m_mainToolbar->addWidget(m_menuFromToolBar);
     connect(showMenuBar, &QAction::toggled, this, [this](const bool menuBarVisible) {
         // https://bugreports.qt.io/browse/QTBUG-35768 , we have to work on the QAction, not QToolButton
-        m_mainToolbar->actions().last()->setVisible(!menuBarVisible);
+        m_mainToolbar->actions().constLast()->setVisible(!menuBarVisible);
     });
 
     busyParsersIndicator->setFixedSize(m_mainToolbar->iconSize());
