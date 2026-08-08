@@ -129,7 +129,8 @@ void MemoryCache::setMsgFlags(const QString &mailbox, uint uid, const QStringLis
 
 QStringList MemoryCache::msgFlags(const QString &mailbox, const uint uid) const
 {
-    return flags[mailbox][uid];
+    const auto &messages = flags[mailbox];
+    return messages[uid];
 }
 
 Imap::Uids MemoryCache::uidMapping(const QString &mailbox) const
