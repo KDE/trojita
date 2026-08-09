@@ -519,9 +519,9 @@ QByteArray quotedString( const QByteArray& unquoted, QuotedStringStyle style )
    byte-sequence for use in a "structured" mail header (such as To:,
    From:, or Received:). The result will match the "phrase"
    production. */
-static QRegularExpression atomPhraseRx(QLatin1String("^[ \\tA-Za-z0-9!#$&'*+/=?^_`{}|~-]*$"));
 QByteArray encodeRFC2047Phrase(const QString &text)
 {
+    static const QRegularExpression atomPhraseRx(QLatin1String("^[ \\tA-Za-z0-9!#$&'*+/=?^_`{}|~-]*$"));
     /* We want to know if we can encode as ASCII. But bizarrely, Qt
        (on my system at least) doesn't have an ASCII codec. So we use
        the ISO-8859-1 superset, and check for any non-ASCII characters
