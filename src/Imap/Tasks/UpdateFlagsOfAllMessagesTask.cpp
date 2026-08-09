@@ -91,7 +91,7 @@ bool UpdateFlagsOfAllMessagesTask::handleStateHelper(const Imap::Responses::Stat
 
                     // emitting dataChanged() separately for each message in the mailbox:
                     // Trojita model assmues that dataChanged is emitted individually
-                    model->dataChanged(messageIndex, messageIndex);
+                    emit model->dataChanged(messageIndex, messageIndex);
                 }
             }
             model->emitMessageCountChanged(mailbox);
