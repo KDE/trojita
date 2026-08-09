@@ -28,9 +28,7 @@
 
 #include "IPC.h"
 
-namespace IPC {
-
-static QString path = QStringLiteral("/Trojita");
+namespace {
 
 QString service()
 {
@@ -38,6 +36,11 @@ QString service()
     QString profileName = QString::fromUtf8(qgetenv("TROJITA_PROFILE"));
     return profileName.isEmpty() ? str : str + QLatin1Char('-') + profileName;
 }
+}
+
+namespace IPC {
+
+static QString path = QStringLiteral("/Trojita");
 
 namespace Instance {
 
