@@ -34,7 +34,6 @@ namespace Gui
 class TagWidget : public QLabel
 {
     Q_OBJECT
-    Q_PROPERTY(QString tagName READ tagName USER true)
 public:
     static TagWidget *addingWidget();
     static TagWidget *userKeyword(const QString &tagName, Imap::Mailbox::FavoriteTagsModel *m_favoriteTags);
