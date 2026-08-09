@@ -48,12 +48,6 @@ bool MailAddress::fromPrettyString(MailAddress &into, const QString &address)
     return true;
 }
 
-/* Regexpes to match an address typed into the input field. */
-static QRegularExpression mailishRx1(QLatin1String("^\\s*([\\w!#$%&'*+-/=?^_`{|}~]+)\\s*\\@"
-                                                   "\\s*([\\w_.-]+|(?:\\[[^][\\\\\\\"\\s]+\\]))\\s*$"));
-static QRegularExpression mailishRx2(QLatin1String("\\s*<([\\w!#$%&'*+-/=?^_`{|}~]+)\\s*\\@"
-                                                   "\\s*([\\w_.-]+|(?:\\[[^][\\\\\\\"\\s]+\\]))>\\s*$"));
-
 /*
    This is of course far from complete, but at least catches "Real
    Name" <foo@bar>.  It needs to recognize the things people actually
@@ -62,6 +56,12 @@ static QRegularExpression mailishRx2(QLatin1String("\\s*<([\\w!#$%&'*+-/=?^_`{|}
 */
 bool MailAddress::parseOneAddress(Imap::Message::MailAddress &into, const QString &address, int &startOffset)
 {
+    /* Regexpes to match an address typed into the input field. */
+    static const QRegularExpression mailishRx1(QLatin1String("^\\s*([\\w!#$%&'*+-/=?^_`{|}~]+)\\s*\\@"
+                                                   "\\s*([\\w_.-]+|(?:\\[[^][\\\\\\\"\\s]+\\]))\\s*$"));
+    static const QRegularExpression mailishRx2(QLatin1String("\\s*<([\\w!#$%&'*+-/=?^_`{|}~]+)\\s*\\@"
+                                                   "\\s*([\\w_.-]+|(?:\\[[^][\\\\\\\"\\s]+\\]))>\\s*$"));
+
     for (const auto &mailishRx : {mailishRx2, mailishRx1}) {
         QRegularExpressionMatch match = mailishRx.match(address, startOffset);
         int offset = match.capturedStart();
@@ -164,11 +164,12 @@ QString MailAddress::prettyList(const QVariantList &list, FormattingMode mode)
     return buf.join(QStringLiteral(", "));
 }
 
-static QRegularExpression dotAtomRx(QLatin1String("^[A-Za-z0-9!#$&'*+/=?^_`{}|~-]+(?:\\.[A-Za-z0-9!#$&'*+/=?^_`{}|~-]+)*$"));
 
 /* This returns the address formatted for use in an SMTP MAIL or RCPT command; specifically, it matches the "Mailbox" production of RFC2821. The surrounding angle-brackets are not included. */
 QByteArray MailAddress::asSMTPMailbox() const
 {
+    static const QRegularExpression dotAtomRx(QLatin1String("^[A-Za-z0-9!#$&'*+/=?^_`{}|~-]+(?:\\.[A-Za-z0-9!#$&'*+/=?^_`{}|~-]+)*$"));
+
     QByteArray result;
 
     /* Check whether the local-part contains any characters
