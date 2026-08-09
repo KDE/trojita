@@ -36,6 +36,24 @@
 #include "Imap/Model/PrettyMsgListModel.h"
 #include "Imap/Model/ThreadingMsgListModel.h"
 
+#include <algorithm>
+#include <array>
+
+namespace {
+
+// left might collapse a thread, question is whether ending there (on closing the thread) should be
+// taken as mail loading request (i don't think so, but it's sth. that needs to be figured over time)
+// NOTICE: reasonably Triggers should be a (non strict) subset of Blockers (user changed his mind)
+
+// the list of key events which pot. lead to loading a new message.
+static constexpr auto gs_naviActivationTriggers = std::to_array<int>({ Qt::Key_Up, Qt::Key_Down, Qt::Key_Right, Qt::Key_Left,
+                                                                       Qt::Key_PageUp, Qt::Key_PageDown, Qt::Key_Home, Qt::Key_End});
+
+// the list of key events which cancel naviActivationTrigger induced action.
+static constexpr auto gs_naviActivationBlockers = std::to_array<int>({Qt::Key_Up, Qt::Key_Down, Qt::Key_Left, Qt::Key_PageUp,
+                                                                      Qt::Key_PageDown, Qt::Key_Home, Qt::Key_End});
+}
+
 namespace Gui
 {
 
@@ -68,38 +86,36 @@ MsgListView::MsgListView(QWidget *parent, Imap::Mailbox::FavoriteTagsModel *m_fa
     connect(m_naviActivationTimer, &QTimer::timeout, this, &MsgListView::slotCurrentActivated);
 }
 
-// left might collapse a thread, question is whether ending there (on closing the thread) should be
-// taken as mail loading request (i don't think so, but it's sth. that needs to be figured over time)
-// NOTICE: reasonably Triggers should be a (non strict) subset of Blockers (user changed his mind)
-
-// the list of key events which pot. lead to loading a new message.
-static QList<int> gs_naviActivationTriggers = QList<int>() << Qt::Key_Up << Qt::Key_Down << Qt::Key_Right << Qt::Key_Left
-                                                           << Qt::Key_PageUp << Qt::Key_PageDown
-                                                           << Qt::Key_Home << Qt::Key_End;
-// the list of key events which cancel naviActivationTrigger induced action.
-static QList<int> gs_naviActivationBlockers = QList<int>() << Qt::Key_Up << Qt::Key_Down << Qt::Key_Left
-                                                           << Qt::Key_PageUp << Qt::Key_PageDown
-                                                           << Qt::Key_Home << Qt::Key_End;
-
-
 void MsgListView::keyPressEvent(QKeyEvent *ke)
 {
-    if (gs_naviActivationBlockers.contains(ke->key()))
+    const bool hasNaviActivationBlocker = std::find(gs_naviActivationBlockers.begin(),
+                                                    gs_naviActivationBlockers.end(),
+                                                    ke->key()) != gs_naviActivationBlockers.end();
+
+    if (hasNaviActivationBlocker)
         m_naviActivationTimer->stop();
     QTreeView::keyPressEvent(ke);
 }
 
 void MsgListView::keyReleaseEvent(QKeyEvent *ke)
 {
-    if (ke->modifiers() == Qt::NoModifier && gs_naviActivationTriggers.contains(ke->key()))
+    const bool hasNaviActivationTrigger = std::find(gs_naviActivationTriggers.begin(),
+                                                    gs_naviActivationTriggers.end(),
+                                                    ke->key()) != gs_naviActivationTriggers.end();
+
+    if (ke->modifiers() == Qt::NoModifier && hasNaviActivationTrigger)
         m_naviActivationTimer->start(150); // few ms for the user to re-orientate. 150ms is not much
     QTreeView::keyReleaseEvent(ke);
 }
 
 bool MsgListView::event(QEvent *event)
 {
+    const bool hasNaviActivationBlocker = std::find(gs_naviActivationBlockers.begin(),
+                                                    gs_naviActivationBlockers.end(),
+                                                    static_cast<QKeyEvent *>(event)->key()) != gs_naviActivationBlockers.end();
+
     if (event->type() == QEvent::ShortcutOverride
-            && !gs_naviActivationBlockers.contains(static_cast<QKeyEvent*>(event)->key())
+            && !hasNaviActivationBlocker
             && m_naviActivationTimer->isActive()) {
         // Make sure that the delayed timer is broken ASAP when the key looks like something which might possibly be a shortcut
         m_naviActivationTimer->stop();
