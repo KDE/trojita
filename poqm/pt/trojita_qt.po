@@ -5102,41 +5102,41 @@ msgstr ""
 "caixa de correio seleccionada, ou então está em falta para o contexto de "
 "pesquisa actual."
 
-#: src/Imap/Network/FileDownloadManager.cpp:45
+#: src/Imap/Network/FileDownloadManager.cpp:44
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Cannot translate CID URL: message is gone"
 msgstr "Não é possível traduzir o URL do CID: a mensagem desapareceu"
 
-#: src/Imap/Network/FileDownloadManager.cpp:57
+#: src/Imap/Network/FileDownloadManager.cpp:56
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "CID not found (%1)"
 msgstr "CID não encontrado (%1)"
 
-#: src/Imap/Network/FileDownloadManager.cpp:60
+#: src/Imap/Network/FileDownloadManager.cpp:59
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Unsupported URL (%1)"
 msgstr "URL não suportado (%1)"
 
-#: src/Imap/Network/FileDownloadManager.cpp:74
+#: src/Imap/Network/FileDownloadManager.cpp:73
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1.eml"
 msgstr "mensagem_%1.eml"
 
-#: src/Imap/Network/FileDownloadManager.cpp:77
+#: src/Imap/Network/FileDownloadManager.cpp:76
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1_%2"
 msgstr "mensagem_%1_%2"
 
-#: src/Imap/Network/FileDownloadManager.cpp:89
+#: src/Imap/Network/FileDownloadManager.cpp:88
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadPart(): part has disappeared"
 msgstr "FileDownloadManager::downloadPart(): a componente desapareceu"
 
-#: src/Imap/Network/FileDownloadManager.cpp:118
+#: src/Imap/Network/FileDownloadManager.cpp:117
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadMessage(): message has disappeared"
 msgstr "FileDownloadManager::downloadMessage(): a mensagem desapareceu"

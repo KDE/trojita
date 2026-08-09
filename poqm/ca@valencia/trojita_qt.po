@@ -4537,41 +4537,41 @@ msgstr ""
 "està present a la bústia seleccionada o no es troba en el context de la "
 "busca actual."
 
-#: src/Imap/Network/FileDownloadManager.cpp:45
+#: src/Imap/Network/FileDownloadManager.cpp:44
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Cannot translate CID URL: message is gone"
 msgstr "No s'ha pogut traduir l'URL del CID: el missatge s'ha descartat"
 
-#: src/Imap/Network/FileDownloadManager.cpp:57
+#: src/Imap/Network/FileDownloadManager.cpp:56
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "CID not found (%1)"
 msgstr "No s'ha trobat el CID (%1)"
 
-#: src/Imap/Network/FileDownloadManager.cpp:60
+#: src/Imap/Network/FileDownloadManager.cpp:59
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Unsupported URL (%1)"
 msgstr "«URL» no acceptat (%1)"
 
-#: src/Imap/Network/FileDownloadManager.cpp:74
+#: src/Imap/Network/FileDownloadManager.cpp:73
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1.eml"
 msgstr "missatge_%1.eml"
 
-#: src/Imap/Network/FileDownloadManager.cpp:77
+#: src/Imap/Network/FileDownloadManager.cpp:76
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1_%2"
 msgstr "missatge_%1_%2"
 
-#: src/Imap/Network/FileDownloadManager.cpp:89
+#: src/Imap/Network/FileDownloadManager.cpp:88
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadPart(): part has disappeared"
 msgstr "La part «FileDownloadManager::downloadPart()» ha desaparegut"
 
-#: src/Imap/Network/FileDownloadManager.cpp:118
+#: src/Imap/Network/FileDownloadManager.cpp:117
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadMessage(): message has disappeared"
 msgstr "El missatge «FileDownloadManager::downloadPart():» ha desaparegut"

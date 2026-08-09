@@ -4379,41 +4379,41 @@ msgstr ""
 "Denne tråden henviser til en ekstra melding, men den meldingen finnes ikke i "
 "den valgte postkassa. eller mangler i den gjeldende søke-konteksten."
 
-#: src/Imap/Network/FileDownloadManager.cpp:45
+#: src/Imap/Network/FileDownloadManager.cpp:44
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Cannot translate CID URL: message is gone"
 msgstr ""
 
-#: src/Imap/Network/FileDownloadManager.cpp:57
+#: src/Imap/Network/FileDownloadManager.cpp:56
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "CID not found (%1)"
 msgstr ""
 
-#: src/Imap/Network/FileDownloadManager.cpp:60
+#: src/Imap/Network/FileDownloadManager.cpp:59
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Unsupported URL (%1)"
 msgstr ""
 
-#: src/Imap/Network/FileDownloadManager.cpp:74
+#: src/Imap/Network/FileDownloadManager.cpp:73
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1.eml"
 msgstr "msg_%1.eml"
 
-#: src/Imap/Network/FileDownloadManager.cpp:77
+#: src/Imap/Network/FileDownloadManager.cpp:76
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1_%2"
 msgstr "msg_%1_%2"
 
-#: src/Imap/Network/FileDownloadManager.cpp:89
+#: src/Imap/Network/FileDownloadManager.cpp:88
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadPart(): part has disappeared"
 msgstr "FileDownloadManager::downloadPart(): en del er forsvunnet"
 
-#: src/Imap/Network/FileDownloadManager.cpp:118
+#: src/Imap/Network/FileDownloadManager.cpp:117
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadMessage(): message has disappeared"
 msgstr "FileDownloadManager::downloadMessage(): meldinga er forsvunnet"

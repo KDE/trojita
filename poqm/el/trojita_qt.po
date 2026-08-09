@@ -5104,41 +5104,41 @@ msgstr ""
 "αυτό δε βρίσκεται στο επιλεγμένο γραμματοκιβώτιο, ή λείπει από το πλαίσιο "
 "της συγκεκριμένης αναζήτησης."
 
-#: src/Imap/Network/FileDownloadManager.cpp:45
+#: src/Imap/Network/FileDownloadManager.cpp:44
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Cannot translate CID URL: message is gone"
 msgstr "Αδύνατη η μετάφραση του CID URL: το μήνυμα εξαφανίστηκε"
 
-#: src/Imap/Network/FileDownloadManager.cpp:57
+#: src/Imap/Network/FileDownloadManager.cpp:56
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "CID not found (%1)"
 msgstr "Δεν βρέθηκε το CID (%1)"
 
-#: src/Imap/Network/FileDownloadManager.cpp:60
+#: src/Imap/Network/FileDownloadManager.cpp:59
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Unsupported URL (%1)"
 msgstr "Μη υποστηριζόμενο URL (%1)"
 
-#: src/Imap/Network/FileDownloadManager.cpp:74
+#: src/Imap/Network/FileDownloadManager.cpp:73
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1.eml"
 msgstr "msg_%1.eml"
 
-#: src/Imap/Network/FileDownloadManager.cpp:77
+#: src/Imap/Network/FileDownloadManager.cpp:76
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1_%2"
 msgstr "msg_%1_%2"
 
-#: src/Imap/Network/FileDownloadManager.cpp:89
+#: src/Imap/Network/FileDownloadManager.cpp:88
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadPart(): part has disappeared"
 msgstr "FileDownloadManager::downloadPart(): το τμήμα έχει εξαφανιστεί"
 
-#: src/Imap/Network/FileDownloadManager.cpp:118
+#: src/Imap/Network/FileDownloadManager.cpp:117
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadMessage(): message has disappeared"
 msgstr "FileDownloadManager::downloadMessage(): το τμήμα έχει εξαφανιστεί"

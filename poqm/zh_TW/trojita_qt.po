@@ -5044,18 +5044,18 @@ msgid ""
 msgstr ""
 "此串列指向外部信件，而該信件不在選取的信箱中，或是已從目前搜尋內文中消失。"
 
-#: src/Imap/Network/FileDownloadManager.cpp:45
+#: src/Imap/Network/FileDownloadManager.cpp:44
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Cannot translate CID URL: message is gone"
 msgstr ""
 
-#: src/Imap/Network/FileDownloadManager.cpp:57
+#: src/Imap/Network/FileDownloadManager.cpp:56
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "CID not found (%1)"
 msgstr ""
 
-#: src/Imap/Network/FileDownloadManager.cpp:60
+#: src/Imap/Network/FileDownloadManager.cpp:59
 #, fuzzy, qt-format
 #| msgctxt "MSA::AbstractMSA|"
 #| msgid "BURL is not supported by %1"
@@ -5063,7 +5063,7 @@ msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Unsupported URL (%1)"
 msgstr "%1 不支援 BURL"
 
-#: src/Imap/Network/FileDownloadManager.cpp:74
+#: src/Imap/Network/FileDownloadManager.cpp:73
 #, fuzzy, qt-format
 #| msgctxt "Imap::Network::FileDownloadManager|"
 #| msgid "msg_%1_%2"
@@ -5071,13 +5071,13 @@ msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1.eml"
 msgstr "msg_%1_%2"
 
-#: src/Imap/Network/FileDownloadManager.cpp:77
+#: src/Imap/Network/FileDownloadManager.cpp:76
 #, qt-format
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "msg_%1_%2"
 msgstr "msg_%1_%2"
 
-#: src/Imap/Network/FileDownloadManager.cpp:89
+#: src/Imap/Network/FileDownloadManager.cpp:88
 #, fuzzy
 #| msgctxt "Imap::Network::FileDownloadManager|"
 #| msgid "FileDownloadManager::slotDownloadNow(): part has disappeared"
@@ -5085,7 +5085,7 @@ msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadPart(): part has disappeared"
 msgstr "FileDownloadManager::slotDownloadNow(): 部件已消失"
 
-#: src/Imap/Network/FileDownloadManager.cpp:118
+#: src/Imap/Network/FileDownloadManager.cpp:117
 #, fuzzy
 #| msgctxt "Imap::Network::FileDownloadManager|"
 #| msgid "FileDownloadManager::slotDownloadNow(): part has disappeared"
