@@ -95,8 +95,8 @@ class Model: public QAbstractItemModel
 {
     Q_OBJECT
 
-    Q_PROPERTY(QString imapUser READ imapUser WRITE setImapUser)
-    Q_PROPERTY(QString imapPassword READ imapPassword WRITE setImapPassword RESET unsetImapPassword)
+    Q_PROPERTY(QString imapUser READ imapUser WRITE setImapUser NOTIFY imapUserChanged)
+    Q_PROPERTY(QString imapPassword READ imapPassword WRITE setImapPassword RESET unsetImapPassword NOTIFY imapPasswordChanged)
     Q_PROPERTY(QString imapAuthError READ imapAuthError NOTIFY imapAuthErrorChanged)
     Q_PROPERTY(bool isNetworkAvailable READ isNetworkAvailable NOTIFY networkPolicyChanged)
     Q_PROPERTY(bool isNetworkOnline READ isNetworkOnline NOTIFY networkPolicyChanged)
@@ -422,6 +422,10 @@ signals:
     void logged(uint parserId, const Common::LogMessage &message);
 
     void imapAuthErrorChanged(const QString &error);
+
+    void imapUserChanged();
+
+    void imapPasswordChanged();
 
 private:
     Model &operator=(const Model &);  // don't implement

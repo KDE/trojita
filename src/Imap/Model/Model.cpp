@@ -1823,7 +1823,12 @@ QStringList Model::normalizeFlags(const QStringList &source) const
 /** @short Set the IMAP username */
 void Model::setImapUser(const QString &imapUser)
 {
+    if (m_imapUser == imapUser) {
+        return;
+    }
+
     m_imapUser = imapUser;
+    emit imapUserChanged();
 }
 
 /** @short Username to use for login */
@@ -1835,9 +1840,14 @@ QString Model::imapUser() const
 /** @short Set the password that the user wants to use */
 void Model::setImapPassword(const QString &password)
 {
+    if (m_imapPassword == password) {
+        return;
+    }
+
     m_imapPassword = password;
     m_hasImapPassword = PasswordAvailability::AVAILABLE;
     informTasksAboutNewPassword();
+    emit imapPasswordChanged();
 }
 
 /** @short Return the user's password, if cached */
