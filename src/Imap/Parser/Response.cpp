@@ -1471,7 +1471,7 @@ bool Fetch::eq(const AbstractResponse &other) const
         const Fetch &f = dynamic_cast<const Fetch &>(other);
         if (number != f.number)
             return false;
-        if (data.keys() != f.data.keys())
+        if (data.size() != f.data.size())
             return false;
         for (dataType::const_iterator it = data.begin();
              it != data.end(); ++it)
