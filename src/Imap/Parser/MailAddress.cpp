@@ -20,17 +20,14 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <typeinfo>
-
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>
 #include <QTextDocument>
 #include <QUrl>
 #include <QUrlQuery>
 #include "MailAddress.h"
-#include "../Model/MailboxTree.h"
-#include "../Encoders.h"
-#include "../Parser/Rfc5322HeaderParser.h"
+#include "Imap/Encoders.h"
+#include "Imap/Exceptions.h"
 #include "UiUtils/Formatting.h"
 
 namespace Imap
