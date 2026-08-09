@@ -30,6 +30,8 @@
 
 namespace {
 
+static constexpr QLatin1StringView path("/Trojita");
+
 QString service()
 {
     QString str = QStringLiteral("net.flaska.trojita");
@@ -39,9 +41,6 @@ QString service()
 }
 
 namespace IPC {
-
-static QString path = QStringLiteral("/Trojita");
-
 namespace Instance {
 
 static QDBusInterface &interface()
