@@ -290,6 +290,15 @@ public:
 
     void setNumberRefreshInterval(const int interval);
 
+    /** @short Get a pointer to the model visualizing the state of the tasks
+
+    The returned object still belongs to this Imap::Mailbox::Model, and its internal working is implementation-specific.  The only
+    valid method of access is through the usual Qt Interview framework.
+    */
+    [[nodiscard]] QAbstractItemModel *taskModel() const;
+
+    QString imapAuthError() const;
+
 public slots:
     /** @short Ask for an updated list of mailboxes on the server */
     void reloadMailboxList();
@@ -302,18 +311,9 @@ public slots:
     */
     void switchToMailbox(const QModelIndex &mbox);
 
-    /** @short Get a pointer to the model visualizing the state of the tasks
-
-    The returned object still belongs to this Imap::Mailbox::Model, and its internal working is implementation-specific.  The only
-    valid method of access is through the usual Qt Interview framework.
-    */
-    QAbstractItemModel *taskModel() const;
-
     void setSslPolicy(const QList<QSslCertificate> &sslChain, const QList<QSslError> &sslErrors, bool proceed);
 
     void invalidateAllMessageCounts();
-
-    QString imapAuthError() const;
 
 private slots:
     /** @short Helper for low-level state change propagation */
