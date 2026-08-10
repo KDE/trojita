@@ -1053,17 +1053,17 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr "Asetamine tsiteeritud tekstina"
 
-#: src/Gui/ComposeWidget.cpp:128
+#: src/Gui/ComposeWidget.cpp:125
 msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Loobu ..."
 
-#: src/Gui/ComposeWidget.cpp:128
+#: src/Gui/ComposeWidget.cpp:125
 msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "Loobu"
 
-#: src/Gui/ComposeWidget.cpp:197
+#: src/Gui/ComposeWidget.cpp:194
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Send"
@@ -1071,7 +1071,7 @@ msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Saada"
 
-#: src/Gui/ComposeWidget.cpp:236
+#: src/Gui/ComposeWidget.cpp:233
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "New Thread"
@@ -1079,7 +1079,7 @@ msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr "Uus lõim"
 
-#: src/Gui/ComposeWidget.cpp:239
+#: src/Gui/ComposeWidget.cpp:236
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1093,7 +1093,7 @@ msgstr ""
 "See kiri saadetakse iseseisva kirjana.<hr/>Muuda vastuste hierarhia "
 "säilitamiseks."
 
-#: src/Gui/ComposeWidget.cpp:240
+#: src/Gui/ComposeWidget.cpp:237
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Threaded"
@@ -1101,7 +1101,7 @@ msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Lõimes"
 
-#: src/Gui/ComposeWidget.cpp:360
+#: src/Gui/ComposeWidget.cpp:357
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Error"
@@ -1109,7 +1109,7 @@ msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Tõrge"
 
-#: src/Gui/ComposeWidget.cpp:360
+#: src/Gui/ComposeWidget.cpp:357
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Please set appropriate settings for outgoing messages."
@@ -1117,7 +1117,7 @@ msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr "Palun määra saadetavatele kirjadele kohased seadistused."
 
-#: src/Gui/ComposeWidget.cpp:513
+#: src/Gui/ComposeWidget.cpp:510
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1129,7 +1129,7 @@ msgid ""
 "the recipients manually."
 msgstr "See ei tundu olevat kiri postiloendisse. Palun kirjuta saajad käsitsi."
 
-#: src/Gui/ComposeWidget.cpp:516
+#: src/Gui/ComposeWidget.cpp:513
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1146,7 +1146,7 @@ msgstr ""
 "aadressi. Võiks ehk kasutada võimalust \"Vasta kõigile\" ja kärpida saajate "
 "nimekirja käsitsi."
 
-#: src/Gui/ComposeWidget.cpp:521
+#: src/Gui/ComposeWidget.cpp:518
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot Determine Recipients"
@@ -1154,7 +1154,7 @@ msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Saajate määramine nurjus"
 
-#: src/Gui/ComposeWidget.cpp:568
+#: src/Gui/ComposeWidget.cpp:565
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Sender"
@@ -1162,7 +1162,7 @@ msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Saatja"
 
-#: src/Gui/ComposeWidget.cpp:574
+#: src/Gui/ComposeWidget.cpp:571
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resend Mail: %1"
@@ -1170,7 +1170,7 @@ msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "Kirja saatmine uuesti: %1"
 
-#: src/Gui/ComposeWidget.cpp:574
+#: src/Gui/ComposeWidget.cpp:571
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "(no subject)"
@@ -1178,7 +1178,7 @@ msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(teema puudub)"
 
-#: src/Gui/ComposeWidget.cpp:588
+#: src/Gui/ComposeWidget.cpp:585
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no subject"
@@ -1186,7 +1186,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "Kirjal ei ole teemat"
 
-#: src/Gui/ComposeWidget.cpp:591
+#: src/Gui/ComposeWidget.cpp:588
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The Message-ID header is missing"
@@ -1194,7 +1194,7 @@ msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "Kirja ID on puudu"
 
-#: src/Gui/ComposeWidget.cpp:594
+#: src/Gui/ComposeWidget.cpp:591
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Message has no date"
@@ -1202,7 +1202,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "Kirjal ei ole kuupäeva"
 
-#: src/Gui/ComposeWidget.cpp:597
+#: src/Gui/ComposeWidget.cpp:594
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Nothing in the From field"
@@ -1210,7 +1210,7 @@ msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr "Saatja väli on tühi"
 
-#: src/Gui/ComposeWidget.cpp:600
+#: src/Gui/ComposeWidget.cpp:597
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "No recipients in the To field"
@@ -1218,7 +1218,7 @@ msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr "Saaja väljal pole ühtegi saajat"
 
-#: src/Gui/ComposeWidget.cpp:603
+#: src/Gui/ComposeWidget.cpp:600
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1232,7 +1232,7 @@ msgstr ""
 "<b>See kiri paistab olevat vigane, palun vaata see hoolikalt üle, enne kui "
 "ära saadad.</b>"
 
-#: src/Gui/ComposeWidget.cpp:692
+#: src/Gui/ComposeWidget.cpp:689
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Authentication Required"
@@ -1240,7 +1240,7 @@ msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Vajalik on autentimine"
 
-#: src/Gui/ComposeWidget.cpp:693
+#: src/Gui/ComposeWidget.cpp:690
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -1248,7 +1248,7 @@ msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>Palun anna kasutaja <b>%1</b> SMTP parool masinas <b>%2</b>:</p>"
 
-#: src/Gui/ComposeWidget.cpp:727
+#: src/Gui/ComposeWidget.cpp:724
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save Draft?"
@@ -1256,7 +1256,7 @@ msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Kas salvestada mustand?"
 
-#: src/Gui/ComposeWidget.cpp:728
+#: src/Gui/ComposeWidget.cpp:725
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The mail has not been sent.<br>Do you want to save the draft?"
@@ -1264,7 +1264,7 @@ msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "See kiri on veel saatmata.<br>Kas salvestada see mustandina?"
 
-#: src/Gui/ComposeWidget.cpp:730
+#: src/Gui/ComposeWidget.cpp:727
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1278,13 +1278,13 @@ msgstr ""
 "<br><span style=\"color:red\">Hoiatus: manuseid mustandisse <b>ei</b> "
 "salvestata!</span>"
 
-#: src/Gui/ComposeWidget.cpp:741 src/Gui/Window.cpp:1554
+#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1554
 #: src/Gui/Window.cpp:1556
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Mustandid"
 
-#: src/Gui/ComposeWidget.cpp:752
+#: src/Gui/ComposeWidget.cpp:749
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save as"
@@ -1292,7 +1292,7 @@ msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Salvestamine"
 
-#: src/Gui/ComposeWidget.cpp:753
+#: src/Gui/ComposeWidget.cpp:750
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Drafts"
@@ -1300,7 +1300,7 @@ msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Mustandid"
 
-#: src/Gui/ComposeWidget.cpp:782
+#: src/Gui/ComposeWidget.cpp:779
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1314,7 +1314,7 @@ msgstr ""
 "Saajate parsimine nurjus:\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:786
+#: src/Gui/ComposeWidget.cpp:783
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any recipients"
@@ -1322,7 +1322,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Sa ei ole sisestanud ühtegi saajat"
 
-#: src/Gui/ComposeWidget.cpp:794
+#: src/Gui/ComposeWidget.cpp:791
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The From: address does not look like a valid one"
@@ -1330,7 +1330,7 @@ msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "Saatja aadress ei tundu olevat korrektne"
 
-#: src/Gui/ComposeWidget.cpp:801
+#: src/Gui/ComposeWidget.cpp:798
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any subject. Cannot send such a mail, sorry."
@@ -1339,7 +1339,7 @@ msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
 "Sa ei ole määranud mingit teemat. Andestust, aga sellist kirja ei saa saata."
 
-#: src/Gui/ComposeWidget.cpp:833
+#: src/Gui/ComposeWidget.cpp:830
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot prepare this e-mail for sending: some parts are not available"
@@ -1348,7 +1348,7 @@ msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
 "Seda kirja ei saa saatmiseks ette valmistada: mõningaid osasid ei ole saada"
 
-#: src/Gui/ComposeWidget.cpp:924 src/Gui/ComposeWidget.cpp:1811
+#: src/Gui/ComposeWidget.cpp:921 src/Gui/ComposeWidget.cpp:1808
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "This mail will be marked as a response<hr/>%1"
@@ -1356,7 +1356,7 @@ msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "See märgitakse vastuseks<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1099
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -1364,7 +1364,7 @@ msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Saaja"
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1100
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -1372,7 +1372,7 @@ msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Koopia"
 
-#: src/Gui/ComposeWidget.cpp:1104
+#: src/Gui/ComposeWidget.cpp:1101
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -1380,7 +1380,7 @@ msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Pimekoopia"
 
-#: src/Gui/ComposeWidget.cpp:1106
+#: src/Gui/ComposeWidget.cpp:1103
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-To"
@@ -1388,7 +1388,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Ümber suunatud aadressile"
 
-#: src/Gui/ComposeWidget.cpp:1107
+#: src/Gui/ComposeWidget.cpp:1104
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Cc"
@@ -1396,7 +1396,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Ümber suunatud koopia aadressile"
 
-#: src/Gui/ComposeWidget.cpp:1108
+#: src/Gui/ComposeWidget.cpp:1105
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Resent-Bcc"
@@ -1404,7 +1404,7 @@ msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Ümber suunatud pimekoopia aadressile"
 
-#: src/Gui/ComposeWidget.cpp:1392
+#: src/Gui/ComposeWidget.cpp:1389
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -1412,7 +1412,7 @@ msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Kirja saatmine nurjus"
 
-#: src/Gui/ComposeWidget.cpp:1419
+#: src/Gui/ComposeWidget.cpp:1416
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Can't parse \"%1\" as an e-mail address."
@@ -1420,7 +1420,7 @@ msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "\"%1\" parsimine e-posti aadressina nurjus."
 
-#: src/Gui/ComposeWidget.cpp:1618
+#: src/Gui/ComposeWidget.cpp:1615
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Attach File..."
@@ -1428,7 +1428,7 @@ msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Faili kaasamine ..."
 
-#: src/Gui/ComposeWidget.cpp:1812
+#: src/Gui/ComposeWidget.cpp:1809
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<br/>"
@@ -1436,7 +1436,7 @@ msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
-#: src/Gui/ComposeWidget.cpp:1855
+#: src/Gui/ComposeWidget.cpp:1852
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1444,7 +1444,7 @@ msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Kirja koostamine"
 
-#: src/Gui/ComposeWidget.cpp:1857
+#: src/Gui/ComposeWidget.cpp:1854
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "%1 - Compose Mail"
@@ -2009,17 +2009,17 @@ msgid ""
 msgstr "Kirja\\ ootamine ..."
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
-#: src/Gui/MsgListView.cpp:147
+#: src/Gui/MsgListView.cpp:163
 msgctxt "Gui::MsgListView|"
 msgid "Mon 10"
 msgstr "E 10"
 
-#: src/Gui/MsgListView.cpp:149
+#: src/Gui/MsgListView.cpp:165
 msgctxt "Gui::MsgListView|"
 msgid "88.8 kB"
 msgstr "88,8 kB"
 
-#: src/Gui/MsgListView.cpp:206
+#: src/Gui/MsgListView.cpp:222
 #, qt-format
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
@@ -2027,17 +2027,17 @@ msgid_plural "+ %n additional item(s)"
 msgstr[0] "+ %n lisaelementi"
 msgstr[1] "+ %n lisaelementi"
 
-#: src/Gui/MsgListView.cpp:338
+#: src/Gui/MsgListView.cpp:354
 msgctxt "Gui::MsgListView|"
 msgid "Seen status"
 msgstr "Nähtud olek"
 
-#: src/Gui/MsgListView.cpp:341
+#: src/Gui/MsgListView.cpp:357
 msgctxt "Gui::MsgListView|"
 msgid "Flagged status"
 msgstr "Tähistatud olek"
 
-#: src/Gui/MsgListView.cpp:344
+#: src/Gui/MsgListView.cpp:360
 msgctxt "Gui::MsgListView|"
 msgid "Attachment"
 msgstr "Manus"

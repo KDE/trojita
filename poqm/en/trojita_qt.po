@@ -32,7 +32,7 @@ msgid_plural "%1 - %n unread - Trojitá"
 msgstr[0] "%1 - %n unread - Trojitá"
 msgstr[1] "%1 - %n unread - Trojitá"
 
-#: ../src/Gui/MsgListView.cpp:206
+#: ../src/Gui/MsgListView.cpp:222
 #, qt-format
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"

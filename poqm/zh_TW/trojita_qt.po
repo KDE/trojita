@@ -930,7 +930,7 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:128
+#: src/Gui/ComposeWidget.cpp:125
 #, fuzzy
 #| msgctxt "Gui::MailBoxTreeView|"
 #| msgid "Cancel"
@@ -938,12 +938,12 @@ msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "取消"
 
-#: src/Gui/ComposeWidget.cpp:128
+#: src/Gui/ComposeWidget.cpp:125
 msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "取消"
 
-#: src/Gui/ComposeWidget.cpp:197
+#: src/Gui/ComposeWidget.cpp:194
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Send"
@@ -951,24 +951,24 @@ msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "傳送"
 
-#: src/Gui/ComposeWidget.cpp:236
+#: src/Gui/ComposeWidget.cpp:233
 msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:239
+#: src/Gui/ComposeWidget.cpp:236
 msgctxt "ComposeWidget|"
 msgid ""
 "This mail will be sent as a standalone message.<hr/>Change to preserve the "
 "reply hierarchy."
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:240
+#: src/Gui/ComposeWidget.cpp:237
 msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:360
+#: src/Gui/ComposeWidget.cpp:357
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Error"
@@ -976,12 +976,12 @@ msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/Gui/ComposeWidget.cpp:360
+#: src/Gui/ComposeWidget.cpp:357
 msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:513
+#: src/Gui/ComposeWidget.cpp:510
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -993,7 +993,7 @@ msgid ""
 "the recipients manually."
 msgstr "這封信看起來不像是送給郵件論壇的。請手動輸入收件者。"
 
-#: src/Gui/ComposeWidget.cpp:516
+#: src/Gui/ComposeWidget.cpp:513
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1009,7 +1009,7 @@ msgstr ""
 "Trojitá 無法安全地決定作者真實的電子郵件地址。您可能需要用「全部回覆」功能，"
 "並手動過濾位址。"
 
-#: src/Gui/ComposeWidget.cpp:521
+#: src/Gui/ComposeWidget.cpp:518
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot Determine Recipients"
@@ -1017,7 +1017,7 @@ msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "無法決定收件者"
 
-#: src/Gui/ComposeWidget.cpp:568
+#: src/Gui/ComposeWidget.cpp:565
 #, fuzzy
 #| msgctxt "Gui::MessageListWidget|"
 #| msgid "Senders"
@@ -1025,7 +1025,7 @@ msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "寄件者"
 
-#: src/Gui/ComposeWidget.cpp:574
+#: src/Gui/ComposeWidget.cpp:571
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::OpenConnectionTask|"
 #| msgid "Login failed: %1"
@@ -1033,7 +1033,7 @@ msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "登入失敗：%1"
 
-#: src/Gui/ComposeWidget.cpp:574
+#: src/Gui/ComposeWidget.cpp:571
 #, fuzzy
 #| msgctxt "Gui::MessageListWidget|"
 #| msgid "About subject"
@@ -1041,7 +1041,7 @@ msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "關於主旨"
 
-#: src/Gui/ComposeWidget.cpp:588
+#: src/Gui/ComposeWidget.cpp:585
 #, fuzzy
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -1049,7 +1049,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "信件"
 
-#: src/Gui/ComposeWidget.cpp:591
+#: src/Gui/ComposeWidget.cpp:588
 #, fuzzy
 #| msgctxt "Imap::Mailbox::ThreadingMsgListModel|"
 #| msgid "[Message is missing]"
@@ -1057,7 +1057,7 @@ msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "[信件已遺失]"
 
-#: src/Gui/ComposeWidget.cpp:594
+#: src/Gui/ComposeWidget.cpp:591
 #, fuzzy
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -1065,29 +1065,29 @@ msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "信件"
 
-#: src/Gui/ComposeWidget.cpp:597
+#: src/Gui/ComposeWidget.cpp:594
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:600
+#: src/Gui/ComposeWidget.cpp:597
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:603
+#: src/Gui/ComposeWidget.cpp:600
 msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
 "</b>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:692
+#: src/Gui/ComposeWidget.cpp:689
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:693
+#: src/Gui/ComposeWidget.cpp:690
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Please provide password for %1 on %2:"
@@ -1095,7 +1095,7 @@ msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "請提供 %1 於 %2 上的密碼："
 
-#: src/Gui/ComposeWidget.cpp:727
+#: src/Gui/ComposeWidget.cpp:724
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Safe Draft?"
@@ -1103,7 +1103,7 @@ msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "要儲存草稿嗎？"
 
-#: src/Gui/ComposeWidget.cpp:728
+#: src/Gui/ComposeWidget.cpp:725
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The mail has not been sent.<br>Do you want to save the draft?"
@@ -1111,7 +1111,7 @@ msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "郵件尚未傳送。<br/>您要儲存草稿嗎？"
 
-#: src/Gui/ComposeWidget.cpp:730
+#: src/Gui/ComposeWidget.cpp:727
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1124,13 +1124,13 @@ msgid ""
 msgstr ""
 "<br/><span style=\"color:red\">警告：附件並<b>不會</b>儲存在草稿中。</span>"
 
-#: src/Gui/ComposeWidget.cpp:741 src/Gui/Window.cpp:1554
+#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1554
 #: src/Gui/Window.cpp:1556
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "草稿資料夾"
 
-#: src/Gui/ComposeWidget.cpp:752
+#: src/Gui/ComposeWidget.cpp:749
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save as"
@@ -1138,7 +1138,7 @@ msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "另存新檔"
 
-#: src/Gui/ComposeWidget.cpp:753
+#: src/Gui/ComposeWidget.cpp:750
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Drafts"
@@ -1146,7 +1146,7 @@ msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "草稿資料夾"
 
-#: src/Gui/ComposeWidget.cpp:782
+#: src/Gui/ComposeWidget.cpp:779
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1160,7 +1160,7 @@ msgstr ""
 "無法剖析收件者：\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:786
+#: src/Gui/ComposeWidget.cpp:783
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any recipients"
@@ -1168,7 +1168,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "您尚未輸入任何收件人"
 
-#: src/Gui/ComposeWidget.cpp:794
+#: src/Gui/ComposeWidget.cpp:791
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The From: address does not look like a valid one"
@@ -1176,23 +1176,23 @@ msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "「寄件者」欄位看起來不合法"
 
-#: src/Gui/ComposeWidget.cpp:801
+#: src/Gui/ComposeWidget.cpp:798
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:833
+#: src/Gui/ComposeWidget.cpp:830
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:924 src/Gui/ComposeWidget.cpp:1811
+#: src/Gui/ComposeWidget.cpp:921 src/Gui/ComposeWidget.cpp:1808
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1099
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -1200,7 +1200,7 @@ msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "收件人"
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1100
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -1208,7 +1208,7 @@ msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "副本"
 
-#: src/Gui/ComposeWidget.cpp:1104
+#: src/Gui/ComposeWidget.cpp:1101
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -1216,22 +1216,22 @@ msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "密件副本"
 
-#: src/Gui/ComposeWidget.cpp:1106
+#: src/Gui/ComposeWidget.cpp:1103
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1107
+#: src/Gui/ComposeWidget.cpp:1104
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1108
+#: src/Gui/ComposeWidget.cpp:1105
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1392
+#: src/Gui/ComposeWidget.cpp:1389
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -1239,7 +1239,7 @@ msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "傳送郵件失敗"
 
-#: src/Gui/ComposeWidget.cpp:1419
+#: src/Gui/ComposeWidget.cpp:1416
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Can't parse \"%1\" as an e-mail address."
@@ -1247,7 +1247,7 @@ msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "無法剖析電子郵件地址 \"%1\"。"
 
-#: src/Gui/ComposeWidget.cpp:1618
+#: src/Gui/ComposeWidget.cpp:1615
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Attach File..."
@@ -1255,12 +1255,12 @@ msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "附加檔案..."
 
-#: src/Gui/ComposeWidget.cpp:1812
+#: src/Gui/ComposeWidget.cpp:1809
 msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1855
+#: src/Gui/ComposeWidget.cpp:1852
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1268,7 +1268,7 @@ msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "撰寫郵件"
 
-#: src/Gui/ComposeWidget.cpp:1857
+#: src/Gui/ComposeWidget.cpp:1854
 #, fuzzy, qt-format
 #| msgctxt "ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1841,29 +1841,29 @@ msgid ""
 msgstr "等待加密中..."
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
-#: src/Gui/MsgListView.cpp:147
+#: src/Gui/MsgListView.cpp:163
 msgctxt "Gui::MsgListView|"
 msgid "Mon 10"
 msgstr "一週內"
 
-#: src/Gui/MsgListView.cpp:149
+#: src/Gui/MsgListView.cpp:165
 msgctxt "Gui::MsgListView|"
 msgid "88.8 kB"
 msgstr "88.8 kB"
 
-#: src/Gui/MsgListView.cpp:206
+#: src/Gui/MsgListView.cpp:222
 #, qt-format
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
 msgid_plural "+ %n additional item(s)"
 msgstr[0] ""
 
-#: src/Gui/MsgListView.cpp:338
+#: src/Gui/MsgListView.cpp:354
 msgctxt "Gui::MsgListView|"
 msgid "Seen status"
 msgstr "已看狀態"
 
-#: src/Gui/MsgListView.cpp:341
+#: src/Gui/MsgListView.cpp:357
 #, fuzzy
 #| msgctxt "Gui::MsgListView|"
 #| msgid "Seen status"
@@ -1871,7 +1871,7 @@ msgctxt "Gui::MsgListView|"
 msgid "Flagged status"
 msgstr "已看狀態"
 
-#: src/Gui/MsgListView.cpp:344
+#: src/Gui/MsgListView.cpp:360
 #, fuzzy
 #| msgctxt "Gui::AttachmentView|"
 #| msgid "Save Attachment"

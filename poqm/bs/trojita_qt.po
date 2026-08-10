@@ -942,7 +942,7 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr "Zalijepite kao citirani tekst"
 
-#: src/Gui/ComposeWidget.cpp:128
+#: src/Gui/ComposeWidget.cpp:125
 #, fuzzy
 #| msgctxt "Gui::MailBoxTreeView|"
 #| msgid "Cancel"
@@ -950,7 +950,7 @@ msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Poništi"
 
-#: src/Gui/ComposeWidget.cpp:128
+#: src/Gui/ComposeWidget.cpp:125
 #, fuzzy
 #| msgctxt "Gui::MailBoxTreeView|"
 #| msgid "Cancel"
@@ -958,7 +958,7 @@ msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "Poništi"
 
-#: src/Gui/ComposeWidget.cpp:197
+#: src/Gui/ComposeWidget.cpp:194
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Send"
@@ -966,7 +966,7 @@ msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Pošaljite"
 
-#: src/Gui/ComposeWidget.cpp:236
+#: src/Gui/ComposeWidget.cpp:233
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "New Thread"
@@ -974,7 +974,7 @@ msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr "Nova nit"
 
-#: src/Gui/ComposeWidget.cpp:239
+#: src/Gui/ComposeWidget.cpp:236
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -988,7 +988,7 @@ msgstr ""
 "Ovaj mail će biti poslan kao nezavisna poruka.<hr/>Promijenite da bi održali "
 "hijerarhiju odgovora."
 
-#: src/Gui/ComposeWidget.cpp:240
+#: src/Gui/ComposeWidget.cpp:237
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Threaded"
@@ -996,7 +996,7 @@ msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Uvezano"
 
-#: src/Gui/ComposeWidget.cpp:360
+#: src/Gui/ComposeWidget.cpp:357
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Error"
@@ -1004,7 +1004,7 @@ msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Greška"
 
-#: src/Gui/ComposeWidget.cpp:360
+#: src/Gui/ComposeWidget.cpp:357
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Please set appropriate settings for outgoing messages."
@@ -1012,7 +1012,7 @@ msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr "Molimo označite odgovarajuće postavke za odlazeće poruke."
 
-#: src/Gui/ComposeWidget.cpp:513
+#: src/Gui/ComposeWidget.cpp:510
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1025,7 +1025,7 @@ msgid ""
 msgstr ""
 "Ovo ne izgleda kao poruka mailing listi. Molimo popunite primatelje ručno."
 
-#: src/Gui/ComposeWidget.cpp:516
+#: src/Gui/ComposeWidget.cpp:513
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1042,7 +1042,7 @@ msgstr ""
 "poruke. Možda želite koristiti opciju \"Odgovori svima\" i označiti listu "
 "adresa ručno."
 
-#: src/Gui/ComposeWidget.cpp:521
+#: src/Gui/ComposeWidget.cpp:518
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cannot Determine Recipients"
@@ -1050,7 +1050,7 @@ msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Nije moguće odrediti primatelje"
 
-#: src/Gui/ComposeWidget.cpp:568
+#: src/Gui/ComposeWidget.cpp:565
 #, fuzzy
 #| msgctxt "Gui::MessageListWidget|"
 #| msgid "Senders"
@@ -1058,7 +1058,7 @@ msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Pošiljaoci"
 
-#: src/Gui/ComposeWidget.cpp:574
+#: src/Gui/ComposeWidget.cpp:571
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::OpenConnectionTask|"
 #| msgid "Login failed: %1"
@@ -1066,7 +1066,7 @@ msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "Neuspjela prijava: %1"
 
-#: src/Gui/ComposeWidget.cpp:574
+#: src/Gui/ComposeWidget.cpp:571
 #, fuzzy
 #| msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 #| msgid "(no subject)"
@@ -1074,7 +1074,7 @@ msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(Nema predmeta)"
 
-#: src/Gui/ComposeWidget.cpp:588
+#: src/Gui/ComposeWidget.cpp:585
 #, fuzzy
 #| msgctxt "Imap::Mailbox::FullMessageCombiner|"
 #| msgid "Message is gone"
@@ -1082,7 +1082,7 @@ msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "Poruka je otišla"
 
-#: src/Gui/ComposeWidget.cpp:591
+#: src/Gui/ComposeWidget.cpp:588
 #, fuzzy
 #| msgctxt "Imap::Mailbox::ThreadingMsgListModel|"
 #| msgid "[Message is missing]"
@@ -1090,7 +1090,7 @@ msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "[Nedostaje poruka]"
 
-#: src/Gui/ComposeWidget.cpp:594
+#: src/Gui/ComposeWidget.cpp:591
 #, fuzzy
 #| msgctxt "Composer::Submission|"
 #| msgid "Message sent"
@@ -1098,24 +1098,24 @@ msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "Poruka poslana"
 
-#: src/Gui/ComposeWidget.cpp:597
+#: src/Gui/ComposeWidget.cpp:594
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:600
+#: src/Gui/ComposeWidget.cpp:597
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:603
+#: src/Gui/ComposeWidget.cpp:600
 msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
 "</b>"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:692
+#: src/Gui/ComposeWidget.cpp:689
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Authentication Required"
@@ -1123,7 +1123,7 @@ msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Potrebna provjera autentičnosti"
 
-#: src/Gui/ComposeWidget.cpp:693
+#: src/Gui/ComposeWidget.cpp:690
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
@@ -1131,7 +1131,7 @@ msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>Molimo navedite SMTP šifru za korisnika <b>%1</b> on <b>%2</b>:</p>"
 
-#: src/Gui/ComposeWidget.cpp:727
+#: src/Gui/ComposeWidget.cpp:724
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save Draft?"
@@ -1139,7 +1139,7 @@ msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Snimiti poruku?"
 
-#: src/Gui/ComposeWidget.cpp:728
+#: src/Gui/ComposeWidget.cpp:725
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The mail has not been sent.<br>Do you want to save the draft?"
@@ -1147,7 +1147,7 @@ msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "Mail nije poslan.<br> Želite li snimiti skicu?"
 
-#: src/Gui/ComposeWidget.cpp:730
+#: src/Gui/ComposeWidget.cpp:727
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1161,13 +1161,13 @@ msgstr ""
 "<br><span style=\"color:red\">Upozorenje: Prilozi <b>nisu</b> snimljeni sa "
 "skicom!</span>"
 
-#: src/Gui/ComposeWidget.cpp:741 src/Gui/Window.cpp:1554
+#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1554
 #: src/Gui/Window.cpp:1556
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Skice"
 
-#: src/Gui/ComposeWidget.cpp:752
+#: src/Gui/ComposeWidget.cpp:749
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save as"
@@ -1175,7 +1175,7 @@ msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Snimite kao"
 
-#: src/Gui/ComposeWidget.cpp:753
+#: src/Gui/ComposeWidget.cpp:750
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Drafts"
@@ -1183,7 +1183,7 @@ msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Skice"
 
-#: src/Gui/ComposeWidget.cpp:782
+#: src/Gui/ComposeWidget.cpp:779
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid ""
@@ -1197,7 +1197,7 @@ msgstr ""
 "Ne mogu se raščlaniti primatelji:\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:786
+#: src/Gui/ComposeWidget.cpp:783
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any recipients"
@@ -1205,7 +1205,7 @@ msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Niste unijeli nijednog primatelja"
 
-#: src/Gui/ComposeWidget.cpp:794
+#: src/Gui/ComposeWidget.cpp:791
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "The From: address does not look like a valid one"
@@ -1213,7 +1213,7 @@ msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "Adresa ne izgleda kao ispravna"
 
-#: src/Gui/ComposeWidget.cpp:801
+#: src/Gui/ComposeWidget.cpp:798
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "You haven't entered any subject. Cannot send such a mail, sorry."
@@ -1222,12 +1222,12 @@ msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
 "Niste unijeli nijedan predmet. Ne može se poslati takav mail, žao nam je."
 
-#: src/Gui/ComposeWidget.cpp:833
+#: src/Gui/ComposeWidget.cpp:830
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:924 src/Gui/ComposeWidget.cpp:1811
+#: src/Gui/ComposeWidget.cpp:921 src/Gui/ComposeWidget.cpp:1808
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "This mail will be marked as a response<hr/>%1"
@@ -1235,7 +1235,7 @@ msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Ovaj mail će biti označen kao odgovor<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1099
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -1243,7 +1243,7 @@ msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Za"
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1100
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -1251,7 +1251,7 @@ msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Cc"
 
-#: src/Gui/ComposeWidget.cpp:1104
+#: src/Gui/ComposeWidget.cpp:1101
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -1259,22 +1259,22 @@ msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Bcc"
 
-#: src/Gui/ComposeWidget.cpp:1106
+#: src/Gui/ComposeWidget.cpp:1103
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1107
+#: src/Gui/ComposeWidget.cpp:1104
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1108
+#: src/Gui/ComposeWidget.cpp:1105
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr ""
 
-#: src/Gui/ComposeWidget.cpp:1392
+#: src/Gui/ComposeWidget.cpp:1389
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -1282,7 +1282,7 @@ msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Neuspjelo slanje maila"
 
-#: src/Gui/ComposeWidget.cpp:1419
+#: src/Gui/ComposeWidget.cpp:1416
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Can't parse \"%1\" as an e-mail address."
@@ -1290,7 +1290,7 @@ msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "Ne može se raščlaniti \"%1\" kao e-mail adresa."
 
-#: src/Gui/ComposeWidget.cpp:1618
+#: src/Gui/ComposeWidget.cpp:1615
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Attach File..."
@@ -1298,7 +1298,7 @@ msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Priložite datoteku..."
 
-#: src/Gui/ComposeWidget.cpp:1812
+#: src/Gui/ComposeWidget.cpp:1809
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "<br/>"
@@ -1306,7 +1306,7 @@ msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
-#: src/Gui/ComposeWidget.cpp:1855
+#: src/Gui/ComposeWidget.cpp:1852
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Compose Mail"
@@ -1314,7 +1314,7 @@ msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Sastavite mail"
 
-#: src/Gui/ComposeWidget.cpp:1857
+#: src/Gui/ComposeWidget.cpp:1854
 #, fuzzy, qt-format
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "%1 - Compose Mail"
@@ -1916,17 +1916,17 @@ msgid ""
 msgstr "Čekam na drugi poštanski sandučić..."
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
-#: src/Gui/MsgListView.cpp:147
+#: src/Gui/MsgListView.cpp:163
 msgctxt "Gui::MsgListView|"
 msgid "Mon 10"
 msgstr "Pon 10"
 
-#: src/Gui/MsgListView.cpp:149
+#: src/Gui/MsgListView.cpp:165
 msgctxt "Gui::MsgListView|"
 msgid "88.8 kB"
 msgstr "88.8 kB"
 
-#: src/Gui/MsgListView.cpp:206
+#: src/Gui/MsgListView.cpp:222
 #, qt-format
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
@@ -1935,17 +1935,17 @@ msgstr[0] "+ %n dodatna) stavka"
 msgstr[1] "+ %n dodatne stavke"
 msgstr[2] "+ %n dodatnih stavki"
 
-#: src/Gui/MsgListView.cpp:338
+#: src/Gui/MsgListView.cpp:354
 msgctxt "Gui::MsgListView|"
 msgid "Seen status"
 msgstr "Status viđeno"
 
-#: src/Gui/MsgListView.cpp:341
+#: src/Gui/MsgListView.cpp:357
 msgctxt "Gui::MsgListView|"
 msgid "Flagged status"
 msgstr "Označen status"
 
-#: src/Gui/MsgListView.cpp:344
+#: src/Gui/MsgListView.cpp:360
 msgctxt "Gui::MsgListView|"
 msgid "Attachment"
 msgstr "Prilog"

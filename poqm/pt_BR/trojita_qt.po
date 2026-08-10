@@ -768,27 +768,27 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr "Colar como texto citado"
 
-#: src/Gui/ComposeWidget.cpp:128
+#: src/Gui/ComposeWidget.cpp:125
 msgctxt "QWidget|"
 msgid "Cancel..."
 msgstr "Cancelar..."
 
-#: src/Gui/ComposeWidget.cpp:128
+#: src/Gui/ComposeWidget.cpp:125
 msgctxt "QWidget|"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/Gui/ComposeWidget.cpp:197
+#: src/Gui/ComposeWidget.cpp:194
 msgctxt "ComposeWidget|"
 msgid "Send"
 msgstr "Enviar"
 
-#: src/Gui/ComposeWidget.cpp:236
+#: src/Gui/ComposeWidget.cpp:233
 msgctxt "ComposeWidget|"
 msgid "New Thread"
 msgstr "Nova discussão"
 
-#: src/Gui/ComposeWidget.cpp:239
+#: src/Gui/ComposeWidget.cpp:236
 msgctxt "ComposeWidget|"
 msgid ""
 "This mail will be sent as a standalone message.<hr/>Change to preserve the "
@@ -797,22 +797,22 @@ msgstr ""
 "Este e-mail será enviado como uma mensagem independente.<hr/>Mude para "
 "preservar a hierarquia da resposta."
 
-#: src/Gui/ComposeWidget.cpp:240
+#: src/Gui/ComposeWidget.cpp:237
 msgctxt "ComposeWidget|"
 msgid "Threaded"
 msgstr "Na discussão"
 
-#: src/Gui/ComposeWidget.cpp:360
+#: src/Gui/ComposeWidget.cpp:357
 msgctxt "ComposeWidget|"
 msgid "Error"
 msgstr "Erro"
 
-#: src/Gui/ComposeWidget.cpp:360
+#: src/Gui/ComposeWidget.cpp:357
 msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
 msgstr "Defina a configuração necessária para as mensagens enviadas."
 
-#: src/Gui/ComposeWidget.cpp:513
+#: src/Gui/ComposeWidget.cpp:510
 msgctxt "ComposeWidget|"
 msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
@@ -821,7 +821,7 @@ msgstr ""
 "Parece que esta mensagem não é para a lista de e-mails. Preencha os "
 "destinatários manualmente."
 
-#: src/Gui/ComposeWidget.cpp:516
+#: src/Gui/ComposeWidget.cpp:513
 msgctxt "ComposeWidget|"
 msgid ""
 "Trojitá was unable to safely determine the real e-mail address of the author "
@@ -832,53 +832,53 @@ msgstr ""
 "do autor da mensagem. Você pode querer usar a função \"Responder para todos"
 "\" e reduzir a lista de endereços manualmente."
 
-#: src/Gui/ComposeWidget.cpp:521
+#: src/Gui/ComposeWidget.cpp:518
 msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
 msgstr "Não é possível determinar os destinatários"
 
-#: src/Gui/ComposeWidget.cpp:568
+#: src/Gui/ComposeWidget.cpp:565
 msgctxt "ComposeWidget|"
 msgid "Sender"
 msgstr "Remetente"
 
-#: src/Gui/ComposeWidget.cpp:574
+#: src/Gui/ComposeWidget.cpp:571
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
 msgstr "Reenviar e-mail: %1"
 
-#: src/Gui/ComposeWidget.cpp:574
+#: src/Gui/ComposeWidget.cpp:571
 msgctxt "ComposeWidget|"
 msgid "(no subject)"
 msgstr "(sem assunto)"
 
-#: src/Gui/ComposeWidget.cpp:588
+#: src/Gui/ComposeWidget.cpp:585
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
 msgstr "A mensagem não tem assunto"
 
-#: src/Gui/ComposeWidget.cpp:591
+#: src/Gui/ComposeWidget.cpp:588
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
 msgstr "O cabeçalho Message-ID está faltando"
 
-#: src/Gui/ComposeWidget.cpp:594
+#: src/Gui/ComposeWidget.cpp:591
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
 msgstr "A mensagem não tem data"
 
-#: src/Gui/ComposeWidget.cpp:597
+#: src/Gui/ComposeWidget.cpp:594
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
 msgstr "Nada no campo 'De'"
 
-#: src/Gui/ComposeWidget.cpp:600
+#: src/Gui/ComposeWidget.cpp:597
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
 msgstr "Nenhum destinatário no campo 'Para'"
 
-#: src/Gui/ComposeWidget.cpp:603
+#: src/Gui/ComposeWidget.cpp:600
 msgctxt "ComposeWidget|"
 msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
@@ -887,28 +887,28 @@ msgstr ""
 "<b>Esta mensagem parece estar malformada, tenha cuidado antes de enviá-la.</"
 "b>"
 
-#: src/Gui/ComposeWidget.cpp:692
+#: src/Gui/ComposeWidget.cpp:689
 msgctxt "ComposeWidget|"
 msgid "Authentication Required"
 msgstr "Autenticação necessária"
 
-#: src/Gui/ComposeWidget.cpp:693
+#: src/Gui/ComposeWidget.cpp:690
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr "<p>Indique a senha SMTP do usuário <b>%1</b> em <b>%2</b>:</p>"
 
-#: src/Gui/ComposeWidget.cpp:727
+#: src/Gui/ComposeWidget.cpp:724
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
 msgstr "Salvar o rascunho?"
 
-#: src/Gui/ComposeWidget.cpp:728
+#: src/Gui/ComposeWidget.cpp:725
 msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr "A mensagem não foi enviada.<br>Deseja salvar o rascunho?"
 
-#: src/Gui/ComposeWidget.cpp:730
+#: src/Gui/ComposeWidget.cpp:727
 msgctxt "ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
@@ -917,23 +917,23 @@ msgstr ""
 "<br><span style=\"color:red\">Aviso: Os anexos <b>não</b> serão salvos com o "
 "rascunho!</span>"
 
-#: src/Gui/ComposeWidget.cpp:741 src/Gui/Window.cpp:1554
+#: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1554
 #: src/Gui/Window.cpp:1556
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr "Rascunhos"
 
-#: src/Gui/ComposeWidget.cpp:752
+#: src/Gui/ComposeWidget.cpp:749
 msgctxt "ComposeWidget|"
 msgid "Save as"
 msgstr "Salvar como"
 
-#: src/Gui/ComposeWidget.cpp:753
+#: src/Gui/ComposeWidget.cpp:750
 msgctxt "ComposeWidget|"
 msgid "Drafts"
 msgstr "Rascunhos"
 
-#: src/Gui/ComposeWidget.cpp:782
+#: src/Gui/ComposeWidget.cpp:779
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid ""
@@ -943,91 +943,91 @@ msgstr ""
 "Não é possível processar os destinatários:\n"
 "%1"
 
-#: src/Gui/ComposeWidget.cpp:786
+#: src/Gui/ComposeWidget.cpp:783
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr "Você não indicou nenhum destinatário"
 
-#: src/Gui/ComposeWidget.cpp:794
+#: src/Gui/ComposeWidget.cpp:791
 msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr "O endereço 'De:' parece ser inválido"
 
-#: src/Gui/ComposeWidget.cpp:801
+#: src/Gui/ComposeWidget.cpp:798
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr "Você não digitou nenhum assunto. Não é possível enviar a mensagem."
 
-#: src/Gui/ComposeWidget.cpp:833
+#: src/Gui/ComposeWidget.cpp:830
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
 "Não foi possível preparar este e-mail para envio: alguns componentes não "
 "estão disponíveis"
 
-#: src/Gui/ComposeWidget.cpp:924 src/Gui/ComposeWidget.cpp:1811
+#: src/Gui/ComposeWidget.cpp:921 src/Gui/ComposeWidget.cpp:1808
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
 msgstr "Este e-mail será marcado como uma resposta<hr/>%1"
 
-#: src/Gui/ComposeWidget.cpp:1102
+#: src/Gui/ComposeWidget.cpp:1099
 msgctxt "ComposeWidget|"
 msgid "To"
 msgstr "Para"
 
-#: src/Gui/ComposeWidget.cpp:1103
+#: src/Gui/ComposeWidget.cpp:1100
 msgctxt "ComposeWidget|"
 msgid "Cc"
 msgstr "Cc"
 
-#: src/Gui/ComposeWidget.cpp:1104
+#: src/Gui/ComposeWidget.cpp:1101
 msgctxt "ComposeWidget|"
 msgid "Bcc"
 msgstr "Cco"
 
-#: src/Gui/ComposeWidget.cpp:1106
+#: src/Gui/ComposeWidget.cpp:1103
 msgctxt "ComposeWidget|"
 msgid "Resent-To"
 msgstr "Reenviar-Para"
 
-#: src/Gui/ComposeWidget.cpp:1107
+#: src/Gui/ComposeWidget.cpp:1104
 msgctxt "ComposeWidget|"
 msgid "Resent-Cc"
 msgstr "Reenviar-Cc"
 
-#: src/Gui/ComposeWidget.cpp:1108
+#: src/Gui/ComposeWidget.cpp:1105
 msgctxt "ComposeWidget|"
 msgid "Resent-Bcc"
 msgstr "Reenviar-Cco"
 
-#: src/Gui/ComposeWidget.cpp:1392
+#: src/Gui/ComposeWidget.cpp:1389
 msgctxt "ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr "Não foi possível enviar o e-mail"
 
-#: src/Gui/ComposeWidget.cpp:1419
+#: src/Gui/ComposeWidget.cpp:1416
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr "Não foi possível processar o \"%1\" como um endereço de e-mail."
 
-#: src/Gui/ComposeWidget.cpp:1618
+#: src/Gui/ComposeWidget.cpp:1615
 msgctxt "ComposeWidget|"
 msgid "Attach File..."
 msgstr "Anexar arquivo..."
 
-#: src/Gui/ComposeWidget.cpp:1812
+#: src/Gui/ComposeWidget.cpp:1809
 msgctxt "ComposeWidget|"
 msgid "<br/>"
 msgstr "<br/>"
 
-#: src/Gui/ComposeWidget.cpp:1855
+#: src/Gui/ComposeWidget.cpp:1852
 msgctxt "ComposeWidget|"
 msgid "Compose Mail"
 msgstr "Compor e-mail"
 
-#: src/Gui/ComposeWidget.cpp:1857
+#: src/Gui/ComposeWidget.cpp:1854
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "%1 - Compose Mail"
@@ -1551,17 +1551,17 @@ msgstr ""
 "mensagem..."
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
-#: src/Gui/MsgListView.cpp:147
+#: src/Gui/MsgListView.cpp:163
 msgctxt "Gui::MsgListView|"
 msgid "Mon 10"
 msgstr "Seg 10"
 
-#: src/Gui/MsgListView.cpp:149
+#: src/Gui/MsgListView.cpp:165
 msgctxt "Gui::MsgListView|"
 msgid "88.8 kB"
 msgstr "88,8 kB"
 
-#: src/Gui/MsgListView.cpp:206
+#: src/Gui/MsgListView.cpp:222
 #, qt-format
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
@@ -1569,17 +1569,17 @@ msgid_plural "+ %n additional item(s)"
 msgstr[0] "+ %n item adicional"
 msgstr[1] "+ %n itens adicionais"
 
-#: src/Gui/MsgListView.cpp:338
+#: src/Gui/MsgListView.cpp:354
 msgctxt "Gui::MsgListView|"
 msgid "Seen status"
 msgstr "Status de visualização"
 
-#: src/Gui/MsgListView.cpp:341
+#: src/Gui/MsgListView.cpp:357
 msgctxt "Gui::MsgListView|"
 msgid "Flagged status"
 msgstr "Status assinalado"
 
-#: src/Gui/MsgListView.cpp:344
+#: src/Gui/MsgListView.cpp:360
 msgctxt "Gui::MsgListView|"
 msgid "Attachment"
 msgstr "Anexo"
