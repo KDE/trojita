@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-07-04 21:14+0400\n"
+"PO-Revision-Date: 2026-08-10 18:41+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.12.3\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 is the filename of the logfile %2 is the detailed error description from Qt, ready for human consumption
@@ -20,7 +20,7 @@ msgstr ""
 #, qt-format
 msgctxt "Common::FileLogger|"
 msgid "Failed to open logfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "فشل فتح ملف السجل ”%1“ للكتابة: %2"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -1657,12 +1657,9 @@ msgid "Clear all"
 msgstr "امحُ الكلّ"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:77
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Failed to open file"
-msgstr "فشل إرسال البريد"
+msgstr "أخفق في فتح الملف"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:104
 #, qt-format
@@ -2803,13 +2800,7 @@ msgstr ""
 
 #. The %1 placeholder is the name of the plugin. The %2 placeholder is the human readable description of the plugin. The %3 placeholder is the detailed error message, ready for human consumption.
 #: src/Gui/Window.cpp:146
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid ""
-#| "A plugin failed to load, therefore some functionality might be lost. You "
-#| "might want to update your system or report a bug to your vendor.\n"
-#| "\n"
-#| "%1"
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The plugin \"%1 (%2)\" failed to load, therefore some functionality might be "
@@ -2817,10 +2808,9 @@ msgid ""
 "\n"
 "%3"
 msgstr ""
-"فشل تحميل ملحق، لذلك قد تفقد بعض الوظائف. قد أردت تحديث نظامك أو أبلغ عن خطأ "
-"إلى بائعك.\n"
+"فشل تحميل الملحق ”%1 (%2)“، ولذلك قد تتعطل بعض الوظائف. \n"
 "\n"
-"%1"
+"%3"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
@@ -3577,12 +3567,9 @@ msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>معطّل</strong></li>"
 
 #: src/Gui/Window.cpp:2182
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
-msgstr "فشل إرسال البريد"
+msgstr "أخفق في فتح ملف الرخصة."
 
 #: src/Gui/Window.cpp:2237
 msgctxt "Gui::MainWindow|"
@@ -3916,7 +3903,7 @@ msgstr "فشل إنشاء الدّليل %1"
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to set safe permissions on cache directory %1"
-msgstr "فشل ضبط الأذونات الآمنة على دليل الخبيئة %1"
+msgstr "فشل ضبط الأذون الآمنة على دليل الخبيئة %1"
 
 #: src/Imap/Model/MailboxTree.cpp:1244
 msgctxt "Imap::Mailbox::Model|"
@@ -5179,30 +5166,28 @@ msgstr "BE::Contacts"
 msgctxt "AbookAddressbook|"
 msgid ""
 "Failed to create abook directory \"%1\": Do you have sufficient permissions?"
-msgstr ""
+msgstr "فشل إنشاء دليل abook ”%1“: هل لديك أذون كافية؟"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:214
 #, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for reading: %2"
-msgstr ""
+msgstr "فشل فتح ملف الضبط ”%1“ لـ abook للقراءة: %2"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:238
 #, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "فشل فتح ملف الضبط ”%1“ لكتابة البيانات: %2"
 
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:254
-#, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
+#, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
-msgstr "فشل إنشاء الدّليل %1"
+msgstr "فشل إنشاء قاعدة بيانات abook ”%1“: %2"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:449
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
