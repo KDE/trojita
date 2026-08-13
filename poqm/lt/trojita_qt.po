@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #. Translators: %1 is the filename of the logfile %2 is the detailed error description from Qt, ready for human consumption
 #: src/Common/FileLogger.cpp:52
@@ -1324,9 +1324,6 @@ msgid "Error: Registering IPC instance failed: %1"
 msgstr "Klaida: Nepavyko užregistruoti IPC egzemplioriaus: %1"
 
 #: src/Gui/MessageActionHandler.cpp:103
-#, fuzzy
-#| msgctxt "MessageView|"
-#| msgid "you"
 msgctxt "MessageActionHandler|"
 msgid "you"
 msgstr "jūs"
@@ -1641,12 +1638,9 @@ msgid "Clear all"
 msgstr ""
 
 #: src/Gui/ProtocolLoggerWidget.cpp:77
-#, fuzzy
-#| msgctxt "QObject|"
-#| msgid "Failed to verify version"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Failed to open file"
-msgstr "Nepavyko patikrinti versijos"
+msgstr "Nepavyko atverti failo"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:104
 #, qt-format
@@ -1941,7 +1935,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:1041
 msgctxt "Gui::OutgoingPage|"
 msgid "IMAP SENDMAIL Extension"
-msgstr ""
+msgstr "IMAP SENDMAIL plėtinys"
 
 #: src/Gui/SettingsDialog.cpp:1043
 msgctxt "Gui::OutgoingPage|"
@@ -1964,6 +1958,8 @@ msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
 "password here, Trojitá will prompt for one when needed."
 msgstr ""
+"Šis slaptažodis bus įrašytas šifruotoje saugykloje. Jeigu neįvesite čia "
+"slaptažodžio, Trojitá paprašys jį įvesti, kai jo prireiks."
 
 #: src/Gui/SettingsDialog.cpp:1193
 msgctxt "Gui::OutgoingPage|"
@@ -1971,6 +1967,8 @@ msgid ""
 "This password will be saved in clear text. If you do not enter password "
 "here, Trojitá will prompt for one when needed."
 msgstr ""
+"Šis slaptažodis bus įrašytas grynojo teksto pavidalu. Jeigu neįvesite čia "
+"slaptažodžio, Trojitá paprašys jį įvesti, kai jo prireiks."
 
 #: src/Gui/SettingsDialog.cpp:1287 src/Gui/SettingsDialog.cpp:1293
 msgctxt "Gui::OutgoingPage|"
@@ -2640,7 +2638,7 @@ msgstr[3] ""
 #: src/Gui/TaskProgressIndicator.cpp:88
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "IMAP connection idle"
-msgstr ""
+msgstr "IMAP ryšys neveiklus"
 
 #: src/Gui/Util.cpp:88
 msgctxt "Gui::MainWindow|"
@@ -2662,6 +2660,11 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
+"Nepavyko įkelti įskiepio, todėl gali būti prarastas tam tikras "
+"funkcionalumas. Galbūt, pageidautumėte atnaujinti savo sistemą arba pranešti "
+"tiekėjui apie klaidą.\n"
+"\n"
+"%1"
 
 #. The %1 placeholder is the name of the plugin. The %2 placeholder is the human readable description of the plugin. The %3 placeholder is the detailed error message, ready for human consumption.
 #: src/Gui/Window.cpp:146
@@ -2673,6 +2676,10 @@ msgid ""
 "\n"
 "%3"
 msgstr ""
+"Nepavyko įkelti įskiepio „%1 (%2)“, todėl gali būti prarastas tam tikras "
+"funkcionalumas. \n"
+"\n"
+"%3"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
@@ -3191,7 +3198,7 @@ msgstr ""
 #: src/Gui/Window.cpp:870
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Tasks"
-msgstr ""
+msgstr "IMAP užduotys"
 
 #: src/Gui/Window.cpp:877
 msgctxt "Gui::MainWindow|"
@@ -3245,7 +3252,7 @@ msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
 "settings."
-msgstr ""
+msgstr "Programa tęs darbą sistemos dėkle. Tai gali būti išjungta nuostatose."
 
 #. "ALERT" is a special warning which we're required to show to the user
 #: src/Gui/Window.cpp:1363
@@ -4312,6 +4319,8 @@ msgid ""
 "This thread refers to an extra message, but that message is not present in "
 "the selected mailbox, or is missing from the current search context."
 msgstr ""
+"Ši gija nurodo į papildomą laišką, bet to laiško nėra pasirinktoje pašto "
+"dėžutėje arba trūksta dabartiniame paieškos kontekste."
 
 #: src/Imap/Network/FileDownloadManager.cpp:44
 msgctxt "Imap::Network::FileDownloadManager|"
@@ -4391,13 +4400,13 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "The COPY operation has failed: %1"
-msgstr ""
+msgstr "COPY operacija patyrė nesėkmę: %1"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:123
 #, qt-format
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "The UID MOVE operation has failed: %1"
-msgstr ""
+msgstr "UID MOVE operacija patyrė nesėkmę: %1"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:133
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
@@ -4478,12 +4487,12 @@ msgstr ""
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:80
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "The IMAP server doesn't support the UIDPLUS extension"
-msgstr ""
+msgstr "IMAP serveris nepalaiko UIDPLUS plėtinio"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:95
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "UID EXPUNGE failed"
-msgstr ""
+msgstr "UID EXPUNGE patyrė nesėkmę"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:105
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
@@ -4498,12 +4507,12 @@ msgstr "handleFetch: pašto dėžutė išnyko"
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:80
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
 msgid "UID FETCH failed"
-msgstr ""
+msgstr "UID FETCH patyrė nesėkmę"
 
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:101
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
 msgid "Downloading headers"
-msgstr ""
+msgstr "Atsiunčiamos antraštės"
 
 #: src/Imap/Tasks/FetchMsgPartTask.cpp:59
 #: src/Imap/Tasks/FetchMsgPartTask.cpp:75
@@ -4855,7 +4864,7 @@ msgstr ""
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:110
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
 msgid "Saving mailbox state"
-msgstr ""
+msgstr "Įrašoma pašto dėžutės būsena"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:121
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
@@ -4922,7 +4931,7 @@ msgstr ""
 #, qt-format
 msgctxt "MSA::Sendmail|"
 msgid "The sendmail process has failed: %1"
-msgstr ""
+msgstr "Sendmail procesas patyrė nesėkmę: %1"
 
 #: src/MSA/Sendmail.cpp:107
 #, qt-format
@@ -4932,6 +4941,9 @@ msgid ""
 "%2\n"
 "%3"
 msgstr ""
+"Sendmail procesas patyrė nesėkmę (%1):\n"
+"%2\n"
+"%3"
 
 #: src/MSA/SMTP.cpp:54
 msgctxt "MSA::SMTP|"
@@ -4976,7 +4988,7 @@ msgstr "BE::Adresatai"
 msgctxt "AbookAddressbook|"
 msgid ""
 "Failed to create abook directory \"%1\": Do you have sufficient permissions?"
-msgstr ""
+msgstr "Nepavyko atverti abook katalogo „%1“: Ar turite pakankamai leidimų?"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:214
@@ -5521,7 +5533,7 @@ msgid ""
 msgstr ""
 "Šiame laiške yra per giliai vienas į kitą įdėtų MIME laiško dalių.\n"
 "Tam, kad būtų išvengta dėklo išsekimo ir jūsų galvos sprogimo,\n"
-"yra rodomi tik maždaug tūkstantis aukščiausių elementų"
+"yra rodomi tik maždaug tūkstantis aukščiausių elementų."
 
 #: src/UiUtils/PasswordWatcher.cpp:82
 #, qt-format
