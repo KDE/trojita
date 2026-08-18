@@ -291,7 +291,7 @@ msgstr ""
 #: src/Cryptography/GpgMe++.cpp:388
 msgctxt "GpgMePart|"
 msgid "Bad signature"
-msgstr ""
+msgstr "Blogas parašas"
 
 #: src/Cryptography/GpgMe++.cpp:391
 #, qt-format
@@ -303,7 +303,7 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature: %1"
-msgstr ""
+msgstr "Blogas parašas: %1"
 
 #: src/Cryptography/GpgMe++.cpp:394
 #, qt-format
@@ -518,7 +518,7 @@ msgstr "Tikėtasi 2 dalių, bet rasta %1."
 #: src/Cryptography/GpgMe++.cpp:619
 msgctxt "GpgMeSigned|"
 msgid "Cannot verify signature"
-msgstr ""
+msgstr "Nepavyksta patikrinti parašo"
 
 #: src/Cryptography/GpgMe++.cpp:620
 #, qt-format
@@ -540,17 +540,17 @@ msgstr "Duomenys neprieinami"
 msgctxt "GpgMeSigned|"
 msgid ""
 "Some data are not available, perhaps due to an offline network connection"
-msgstr ""
+msgstr "Kai kurie duomenys neprieinami, galbūt, dėl to, kad nėra tinklo ryšio"
 
 #: src/Cryptography/GpgMe++.cpp:673
 msgctxt "GpgMeSigned|"
 msgid "Verifying signature..."
-msgstr ""
+msgstr "Tikrinamas parašas..."
 
 #: src/Cryptography/GpgMe++.cpp:698
 msgctxt "GpgMeSigned|"
 msgid "No signatures in the signed message"
-msgstr ""
+msgstr "Pasirašytame laiške nėra jokių parašų"
 
 #: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
 msgctxt "GpgMeEncrypted|"
@@ -597,7 +597,7 @@ msgstr ""
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Unsupported PGP/MIME version. Expected \"Version: 1\", got \"%1\"."
-msgstr ""
+msgstr "Nepalaikoma PGP/MIME versija. Tikėtasi „Version: 1“, o gauta „%1“."
 
 #: src/Cryptography/GpgMe++.cpp:819
 msgctxt "GpgMeEncrypted|"
@@ -607,7 +607,7 @@ msgstr "Iššifruojama..."
 #: src/Cryptography/GpgMe++.cpp:862
 msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
-msgstr ""
+msgstr "Sugadintas šifruotas laiškas"
 
 #: src/Cryptography/GpgMe++.cpp:865
 #, qt-format
@@ -623,7 +623,7 @@ msgstr "Šifruotas laiškas"
 #: src/Cryptography/GpgMe++.cpp:874
 msgctxt "GpgMeEncrypted|"
 msgid "Wrong key usage, not for encryption"
-msgstr ""
+msgstr "Neteisingas rakto naudojimas, ne šifravimui"
 
 #: src/Cryptography/GpgMe++.cpp:878
 #, qt-format
@@ -1382,7 +1382,7 @@ msgstr ""
 #: src/Gui/MessageListWidget.cpp:65
 msgctxt "Gui::MessageListWidget|"
 msgid "Options for the IMAP search..."
-msgstr ""
+msgstr "IMAP paieškos parinkys..."
 
 #: src/Gui/MessageListWidget.cpp:68
 msgctxt "Gui::MessageListWidget|"
@@ -1879,6 +1879,8 @@ msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
 "password here, Trojitá will prompt for one when needed."
 msgstr ""
+"Šis slaptažodis bus įrašytas šifruotoje saugykloje. Jeigu neįvesite čia "
+"slaptažodžio, Trojitá paprašys jį įvesti, kai jo prireiks."
 
 #: src/Gui/SettingsDialog.cpp:831
 msgctxt "Gui::ImapPage|"
@@ -1886,6 +1888,8 @@ msgid ""
 "This password will be saved in clear text. If you do not enter password "
 "here, Trojitá will prompt for one when needed."
 msgstr ""
+"Šis slaptažodis bus įrašytas grynojo teksto pavidalu. Jeigu neįvesite čia "
+"slaptažodžio, Trojitá paprašys jį įvesti, kai jo prireiks."
 
 #: src/Gui/SettingsDialog.cpp:902
 msgctxt "Gui::ImapPage|"
@@ -3816,6 +3820,9 @@ msgid ""
 "sure you are connecting to the IMAP service. A typical port number for IMAP "
 "is 143 or 993.</p><p>The server said:</p><pre>%2</pre>"
 msgstr ""
+"<h2>Tai nėra IMAP serveris</h2>%1<p>Patikrinkite nuostatas, kad "
+"įsitikintumėte, jog jungiatės prie IMAP paslaugos. Įprastas IMAP prievado "
+"numeris yra 143 arba 993.</p><p>Serveris pranešė:</p><pre>%2</pre>"
 
 #: src/Imap/Model/Model.cpp:1173
 #, qt-format
@@ -3827,6 +3834,11 @@ msgid ""
 "the details:</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 msgstr ""
+"<p>IMAP serveris išsiuntė atsakymą, kurio nepavyko išnagrinėti. Tai gali "
+"reikšti, kad programos Trojitá kode yra klaida, arba kad IMAP serveris, prie "
+"kurio esate prisijungę, yra sugadintas. Bet kuriuo atveju prašome pranešti "
+"apie šią klaidą. Štai išsamesnė informacija:</p><p><b>%1</b>: %2</p><pre>%3\n"
+"%4</pre>"
 
 #: src/Imap/Model/Model.cpp:1231
 msgctxt "Imap::Mailbox::Model|"
@@ -3883,10 +3895,10 @@ msgstr "Dydis"
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Bandoma prisijungti iš naujo po %n sekundės"
+msgstr[1] "Bandoma prisijungti iš naujo po %n sekundžių"
+msgstr[2] "Bandoma prisijungti iš naujo po %n sekundžių"
+msgstr[3] "Bandoma prisijungti iš naujo po %n sekundės"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -4008,27 +4020,27 @@ msgstr ""
 #: src/Imap/Model/SQLCache.cpp:228
 msgctxt "QObject|"
 msgid "Can't store version info"
-msgstr ""
+msgstr "Nepavyksta saugoti informacijos apie versiją"
 
 #: src/Imap/Model/SQLCache.cpp:239
 msgctxt "QObject|"
 msgid "Can't create table child_mailboxes"
-msgstr ""
+msgstr "Nepavyksta sukurti lentelės child_mailboxes"
 
 #: src/Imap/Model/SQLCache.cpp:247
 msgctxt "QObject|"
 msgid "Can't create table uid_mapping"
-msgstr ""
+msgstr "Nepavyksta sukurti lentelės uid_mapping"
 
 #: src/Imap/Model/SQLCache.cpp:259
 msgctxt "QObject|"
 msgid "Can't create table flags"
-msgstr ""
+msgstr "Nepavyksta sukurti lentelės flags"
 
 #: src/Imap/Model/SQLCache.cpp:269
 msgctxt "QObject|"
 msgid "Can't create table parts"
-msgstr ""
+msgstr "Nepavyksta sukurti lentelės parts"
 
 #: src/Imap/Model/SQLCache.cpp:282
 msgctxt "QObject|"
@@ -4163,7 +4175,7 @@ msgstr "Nepavyko paruošti querySetMessageThreading"
 #: src/Imap/Model/SQLCache.cpp:465
 msgctxt "QObject|"
 msgid "Query queryChildMailboxes failed"
-msgstr ""
+msgstr "Užklausa queryChildMailboxes patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:476
 #, qt-format
@@ -4174,127 +4186,127 @@ msgstr ""
 #: src/Imap/Model/SQLCache.cpp:488
 msgctxt "QObject|"
 msgid "Query queryChildMailboxesFresh failed"
-msgstr ""
+msgstr "Užklausa queryChildMailboxesFresh patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:513
 msgctxt "QObject|"
 msgid "Query queryRemoveChildMailboxes failed"
-msgstr ""
+msgstr "Užklausa queryRemoveChildMailboxes patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:521
 msgctxt "QObject|"
 msgid "Query querySetChildMailboxes failed"
-msgstr ""
+msgstr "Užklausa querySetChildMailboxes patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:531
 msgctxt "QObject|"
 msgid "Query queryMailboxSyncState failed"
-msgstr ""
+msgstr "Užklausa queryMailboxSyncState patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:556
 msgctxt "QObject|"
 msgid "Query querySetMailboxSyncState failed"
-msgstr ""
+msgstr "Užklausa querySetMailboxSyncState patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:566
 msgctxt "QObject|"
 msgid "Query queryUidMapping failed"
-msgstr ""
+msgstr "Užklausa queryUidMapping patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:591
 msgctxt "QObject|"
 msgid "Query querySetUidMapping failed"
-msgstr ""
+msgstr "Užklausa querySetUidMapping patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:603
 msgctxt "QObject|"
 msgid "Query queryClearUidMapping failed"
-msgstr ""
+msgstr "Užklausa queryClearUidMapping patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:618
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages1 failed"
-msgstr ""
+msgstr "Užklausa queryClearAllMessages1 patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:621
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages2 failed"
-msgstr ""
+msgstr "Užklausa queryClearAllMessages2 patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:624
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages3 failed"
-msgstr ""
+msgstr "Užklausa queryClearAllMessages3 patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:627
 msgctxt "QObject|"
 msgid "Query queryClearAllMessages4 failed"
-msgstr ""
+msgstr "Užklausa queryClearAllMessages4 patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:645
 msgctxt "QObject|"
 msgid "Query queryClearMessage1 failed"
-msgstr ""
+msgstr "Užklausa queryClearMessage1 patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:648
 msgctxt "QObject|"
 msgid "Query queryClearMessage2 failed"
-msgstr ""
+msgstr "Užklausa queryClearMessage2 patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:651
 msgctxt "QObject|"
 msgid "Query queryClearMessage3 failed"
-msgstr ""
+msgstr "Užklausa queryClearMessage3 patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:661
 msgctxt "QObject|"
 msgid "Query queryMessageFlags failed"
-msgstr ""
+msgstr "Užklausa queryMessageFlags patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:687
 msgctxt "QObject|"
 msgid "Query querySetMessageFlags failed"
-msgstr ""
+msgstr "Užklausa querySetMessageFlags patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:697
 msgctxt "QObject|"
 msgid "Query queryMessageMetadata failed"
-msgstr ""
+msgstr "Užklausa queryMessageMetadata patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:715
 msgctxt "QObject|"
 msgid "Query queryAccessMessageMetadata failed"
-msgstr ""
+msgstr "Užklausa queryAccessMessageMetadata patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:741
 msgctxt "QObject|"
 msgid "Query querySetMessageMetadata failed"
-msgstr ""
+msgstr "Užklausa querySetMessageMetadata patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:752
 msgctxt "QObject|"
 msgid "Query queryMessagePart failed"
-msgstr ""
+msgstr "Užklausa queryMessagePart patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:773
 msgctxt "QObject|"
 msgid "Query querySetMessagePart failed"
-msgstr ""
+msgstr "Užklausa querySetMessagePart patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:787
 msgctxt "QObject|"
 msgid "Query queryForgetMessagePart failed"
-msgstr ""
+msgstr "Užklausa queryForgetMessagePart patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:796
 msgctxt "QObject|"
 msgid "Query queryMessageThreading failed"
-msgstr ""
+msgstr "Užklausa queryMessageThreading patyrė nesėkmę"
 
 #: src/Imap/Model/SQLCache.cpp:820
 msgctxt "QObject|"
 msgid "Query querySetMessageThreading failed"
-msgstr ""
+msgstr "Užklausa querySetMessageThreading patyrė nesėkmę"
 
 #: src/Imap/Model/TaskPresentationModel.cpp:194
 #, qt-format
@@ -4885,7 +4897,7 @@ msgstr ""
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "Sending mail plaintext is not supported by %1"
-msgstr ""
+msgstr "%1 nepalaiko pašto siuntimo grynojo teksto pavidalu"
 
 #: src/MSA/AbstractMSA.cpp:59
 #, qt-format
@@ -4910,6 +4922,8 @@ msgstr "%1 nepalaiko slaptažodžio nustatymo"
 msgctxt "Account|"
 msgid "This port is nonstandard. The default port for cleartext SMTP is %1."
 msgstr ""
+"Šis prievadas yra nestandartinis. Numatytasis prievadas, skirtas SMTP "
+"atvirajam tekstui, yra %1."
 
 #: src/MSA/Account.cpp:236
 #, qt-format
@@ -4918,6 +4932,8 @@ msgid ""
 "This port is nonstandard. The default port for SMTP submission secured via "
 "STARTTLS is %1."
 msgstr ""
+"Šis prievadas yra nestandartinis. Numatytasis prievadas, skirtas SMTP "
+"pateikimui, apsaugotam per STARTTLS, yra %1."
 
 #: src/MSA/Account.cpp:239
 #, qt-format
@@ -4926,6 +4942,8 @@ msgid ""
 "This port is nonstandard. The default port for SMTP over encrypted SSL/TLS "
 "connection is %1."
 msgstr ""
+"Šis prievadas yra nestandartinis. Numatytasis prievadas, skirtas SMTP per "
+"šifruotą SSL/TLS ryšį, yra %1."
 
 #: src/MSA/Sendmail.cpp:85
 #, qt-format
