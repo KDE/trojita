@@ -767,7 +767,7 @@ msgstr "Siųsti"
 #: src/Gui/ComposeWidget.cpp:233
 msgctxt "ComposeWidget|"
 msgid "New Thread"
-msgstr "Naujas gija"
+msgstr "Nauja gija"
 
 #: src/Gui/ComposeWidget.cpp:236
 msgctxt "ComposeWidget|"
