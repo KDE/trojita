@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-01-10 21:07+0200\n"
+"PO-Revision-Date: 2026-02-25 19:21+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -1686,10 +1686,7 @@ msgid "Connection %1"
 msgstr "Yhteys %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:180
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
@@ -1697,30 +1694,17 @@ msgstr[0] "%n viesti"
 msgstr[1] "%n viestiä"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:181
-#, fuzzy
-#| msgctxt "Gui::ProtocolLoggerWidget|"
-#| msgid ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
-#| msgid_plural ""
-#| "<p style=\"color: #bb0000\"><i><b>%n message(s)</b> were skipped because "
-#| "this widget was hidden.</i></p>"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
-"<p style='color: #bb0000'><i><b>%n viesti</b> ohitettiin, koska tämä "
-"elementti oli piilotettu.</i></p>"
+msgstr "sivuutettiin, koska tämä sovelma oli piilotettu."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:224
-#, fuzzy, qt-format
-#| msgctxt "UiUtils::Formatting|"
-#| msgid "%n bytes"
-#| msgid_plural "%n bytes"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] "%n tavu"
-msgstr[1] "%n tavua"
+msgstr[0] "+ %n tavu lisää"
+msgstr[1] "+ %n tavua lisää"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -2795,10 +2779,7 @@ msgid "Tag"
 msgstr "Luokitus"
 
 #: src/Gui/TaskProgressIndicator.cpp:86
-#, fuzzy, qt-format
-#| msgctxt "Gui::TaskProgressIndicator|"
-#| msgid "%n ongoing actions"
-#| msgid_plural "%n ongoing actions"
+#, qt-format
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
@@ -3388,10 +3369,7 @@ msgid "Protocol log"
 msgstr "Yhteyskäytäntöloki"
 
 #: src/Gui/Window.cpp:969
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
@@ -4080,15 +4058,12 @@ msgid "Size"
 msgstr "Koko"
 
 #: src/Imap/Model/NetworkWatcher.cpp:65
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid "Attempting to reconnect in %n seconds.."
-#| msgid_plural "Attempting to reconnect in %n seconds.."
+#, qt-format
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] "Yritetään yhdistää uudelleen %n sekunnin kuluttua…"
-msgstr[1] "Yritetään yhdistää uudelleen %n sekunnin kuluttua…"
+msgstr[0] "Yritetään yhdistää uudelleen %n sekunnin kuluttua"
+msgstr[1] "Yritetään yhdistää uudelleen %n sekunnin kuluttua"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -4103,10 +4078,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
-#| msgid "%n messages"
-#| msgid_plural "%n messages"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
