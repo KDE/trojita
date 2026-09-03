@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-28 02:35+0200\n"
-"PO-Revision-Date: 2026-07-17 16:54+0200\n"
+"PO-Revision-Date: 2026-09-02 15:51+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -1623,12 +1623,9 @@ msgid "Clear all"
 msgstr "Netta toto"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:77
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Failed to open file"
-msgstr "Falleva a inviar e-posta"
+msgstr "Falleva a aperir file"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:104
 #, qt-format
@@ -3384,12 +3381,9 @@ msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>dishabilitate</strong></li>"
 
 #: src/Gui/Window.cpp:2182
-#, fuzzy
-#| msgctxt "ComposeWidget|"
-#| msgid "Failed to Send Mail"
 msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
-msgstr "Falleva a inviar e-posta"
+msgstr "Falleva a aperir file de licentia."
 
 #: src/Gui/Window.cpp:2237
 msgctxt "Gui::MainWindow|"
@@ -4942,12 +4936,10 @@ msgstr ""
 
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:254
-#, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
+#, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
-msgstr "Il falleva a crear directorio %1"
+msgstr "Il falleva a crear un basede datos de libro \"%1\": %2"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:449
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
