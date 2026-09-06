@@ -3,7 +3,7 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2020 Antoni Bella Pérez <antonibella5@yahoo.com>
+# SPDX-FileCopyrightText: 2014-2018, 2020 Antoni Bella Pérez <antonibella5@yahoo.com>
 # SPDX-FileCopyrightText: 2014-2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
@@ -5252,8 +5252,8 @@ msgstr ""
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for reading: %2"
 msgstr ""
-"Ha fallat mentre s'obria el fitxer de configuració «abook» «%1» per lectura: "
-"%2"
+"Ha fallat mentre s'obria el fitxer de configuració «abook» «%1» per a "
+"lectura: %2"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:238
@@ -5261,7 +5261,7 @@ msgstr ""
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for writing: %2"
 msgstr ""
-"Ha fallat mentre s'obria el fitxer de configuració «abook» «%1» per "
+"Ha fallat mentre s'obria el fitxer de configuració «abook» «%1» per a "
 "escriptura: %2"
 
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
