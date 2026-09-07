@@ -6,15 +6,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-28 02:35+0200\n"
-"PO-Revision-Date: 2026-09-05 23:29+0200\n"
-"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
+"PO-Revision-Date: 2026-09-07 00:28+0200\n"
+"Last-Translator: Libor Filipek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Lokalize 26.08.0\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 is the filename of the logfile %2 is the detailed error description from Qt, ready for human consumption
@@ -648,25 +648,25 @@ msgstr "Nepodporovaný algoritmus: %1"
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Cannot extract recipient %1: %2"
-msgstr ""
+msgstr "Nelze extrahovat příjemce %1: %2"
 
 #: src/Cryptography/GpgMe++.cpp:891
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1 (%2)"
-msgstr ""
+msgstr "Zašifrováno na %1 (%2)"
 
 #: src/Cryptography/GpgMe++.cpp:895
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted to %1"
-msgstr ""
+msgstr "Zašifrováno na %1"
 
 #: src/Cryptography/GpgMe++.cpp:901
 #, qt-format
 msgctxt "GpgMeEncrypted|"
 msgid "Original filename: %1"
-msgstr ""
+msgstr "Původní název souboru: %1"
 
 #: src/Gui/AboutDialog.ui:14
 msgctxt "AboutDialog|"
@@ -677,17 +677,19 @@ msgstr "O aplikaci Trojitá"
 msgctxt "AboutDialog|"
 msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
 msgstr ""
+"<p>Toto je <b>Trojitá</b>, rychlý e-mailový klient pro protokol IMAP "
+"založený na Qt</p>"
 
 #: src/Gui/AddressRowWidget.cpp:131
 #, qt-format
 msgctxt "Expander|"
 msgid "Click to see %1 more items"
-msgstr ""
+msgstr "Klikněte zde a zobrazte dalších %1 položek"
 
 #: src/Gui/AddressRowWidget.cpp:131
 msgctxt "Expander|"
 msgid "Click to collapse"
-msgstr ""
+msgstr "Kliknutím skryjete obsah"
 
 #: src/Gui/AttachmentView.cpp:87
 msgctxt "Gui::AttachmentView|"
@@ -713,7 +715,7 @@ msgstr "Zobrazit zdrojový kód zprávy"
 #, qt-format
 msgctxt "Gui::AttachmentView|"
 msgid "IMAP Server error for this part: %1 (%2)"
-msgstr ""
+msgstr "Chyba serveru IMAP u této části: %1 (%2)"
 
 #: src/Gui/AttachmentView.cpp:163
 #, qt-format
@@ -729,12 +731,12 @@ msgstr "Uložit přílohu"
 #: src/Gui/AttachmentView.cpp:405
 msgctxt "Gui::AttachmentView|"
 msgid "Source of Attached Message"
-msgstr ""
+msgstr "Zdroj přiložené zprávy"
 
 #: src/Gui/ComposerAttachmentsList.cpp:48
 msgctxt "ComposerAttachmentsList|"
 msgid "Send Inline"
-msgstr ""
+msgstr "Odeslat jako vložené"
 
 #: src/Gui/ComposerAttachmentsList.cpp:53
 msgctxt "ComposerAttachmentsList|"
@@ -759,7 +761,7 @@ msgstr "Nový název"
 #: src/Gui/ComposerTextEdit.cpp:55
 msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
-msgstr ""
+msgstr "Vložit jako citovaný text"
 
 #: src/Gui/ComposeWidget.cpp:125
 msgctxt "QWidget|"
@@ -787,6 +789,8 @@ msgid ""
 "This mail will be sent as a standalone message.<hr/>Change to preserve the "
 "reply hierarchy."
 msgstr ""
+"Tento e-mail bude odeslán jako samostatná zpráva.<hr/>Proveďte změnu, aby "
+"byla zachována hierarchie odpovědí."
 
 #: src/Gui/ComposeWidget.cpp:237
 msgctxt "ComposeWidget|"
@@ -801,7 +805,7 @@ msgstr "Chyba"
 #: src/Gui/ComposeWidget.cpp:357
 msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
-msgstr ""
+msgstr "Nastavte prosím příslušná nastavení pro odchozí zprávy."
 
 #: src/Gui/ComposeWidget.cpp:510
 msgctxt "ComposeWidget|"
@@ -809,6 +813,8 @@ msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
 "the recipients manually."
 msgstr ""
+"Nevypadá to, že by se jednalo o zprávu určenou pro distribuční seznam. "
+"Zadejte prosím příjemce ručně."
 
 #: src/Gui/ComposeWidget.cpp:513
 msgctxt "ComposeWidget|"
@@ -817,11 +823,14 @@ msgid ""
 "of the message. You might want to use the \"Reply All\" function and trim "
 "the list of addresses manually."
 msgstr ""
+"Služba Trojitá nebyla schopna spolehlivě určit skutečnou e-mailovou adresu "
+"autora zprávy. Můžete zkusit použít funkci \"Odpovědět všem\" a seznam adres "
+"ručně zkrátit."
 
 #: src/Gui/ComposeWidget.cpp:518
 msgctxt "ComposeWidget|"
 msgid "Cannot Determine Recipients"
-msgstr ""
+msgstr "Nelze určit příjemce"
 
 #: src/Gui/ComposeWidget.cpp:565
 msgctxt "ComposeWidget|"
@@ -832,7 +841,7 @@ msgstr "Odesílatel"
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Resend Mail: %1"
-msgstr ""
+msgstr "Odeslat e-mail znovu: %1"
 
 #: src/Gui/ComposeWidget.cpp:571
 msgctxt "ComposeWidget|"
@@ -842,27 +851,27 @@ msgstr "(žádný předmět)"
 #: src/Gui/ComposeWidget.cpp:585
 msgctxt "ComposeWidget|"
 msgid "Message has no subject"
-msgstr ""
+msgstr "Zpráva nemá předmět"
 
 #: src/Gui/ComposeWidget.cpp:588
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
-msgstr ""
+msgstr "Chybí záhlaví Message-ID"
 
 #: src/Gui/ComposeWidget.cpp:591
 msgctxt "ComposeWidget|"
 msgid "Message has no date"
-msgstr ""
+msgstr "Zpráva nemá datum"
 
 #: src/Gui/ComposeWidget.cpp:594
 msgctxt "ComposeWidget|"
 msgid "Nothing in the From field"
-msgstr ""
+msgstr "Pole Od je prázdné"
 
 #: src/Gui/ComposeWidget.cpp:597
 msgctxt "ComposeWidget|"
 msgid "No recipients in the To field"
-msgstr ""
+msgstr "Pole Pro je prázdné"
 
 #: src/Gui/ComposeWidget.cpp:600
 msgctxt "ComposeWidget|"
@@ -870,6 +879,8 @@ msgid ""
 "<b>This message appears to be malformed, please be careful before sending it."
 "</b>"
 msgstr ""
+"<b>Tato zpráva se jeví jako nesprávně formátovaná, před jejím odesláním "
+"buďte prosím opatrní.</b>"
 
 #: src/Gui/ComposeWidget.cpp:689
 msgctxt "ComposeWidget|"
@@ -881,16 +892,17 @@ msgstr "Je vyžadováno ověření totožnosti"
 msgctxt "ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
+"<p>Zadejte prosím heslo SMTP pro uživatele <b>%1</b> na adrese <b>%2</b>:</p>"
 
 #: src/Gui/ComposeWidget.cpp:724
 msgctxt "ComposeWidget|"
 msgid "Save Draft?"
-msgstr ""
+msgstr "Uložit koncept?"
 
 #: src/Gui/ComposeWidget.cpp:725
 msgctxt "ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
-msgstr ""
+msgstr "E-mail nebyl odeslán.<br>Chcete uložit koncept?"
 
 #: src/Gui/ComposeWidget.cpp:727
 msgctxt "ComposeWidget|"
@@ -898,6 +910,8 @@ msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
 "the draft!</span>"
 msgstr ""
+"<br><span style=\"color:red\">Upozornění: Přílohy se <b>ne</b>ukládají spolu "
+"s konceptem!</span>"
 
 #: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1554
 #: src/Gui/Window.cpp:1556
@@ -922,32 +936,36 @@ msgid ""
 "Cannot parse recipients:\n"
 "%1"
 msgstr ""
+"Nelze zpracovat příjemce:\n"
+"%1"
 
 #: src/Gui/ComposeWidget.cpp:783
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any recipients"
-msgstr ""
+msgstr "Nezadali jste žádné příjemce"
 
 #: src/Gui/ComposeWidget.cpp:791
 msgctxt "ComposeWidget|"
 msgid "The From: address does not look like a valid one"
-msgstr ""
+msgstr "Adresa v poli Od: nevypadá jako platná"
 
 #: src/Gui/ComposeWidget.cpp:798
 msgctxt "ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
+"Nezadali jste žádný předmět. Takový e-mail nelze odeslat, omlouváme se."
 
 #: src/Gui/ComposeWidget.cpp:830
 msgctxt "ComposeWidget|"
 msgid "Cannot prepare this e-mail for sending: some parts are not available"
 msgstr ""
+"Tento e-mail nelze připravit k odeslání: některé části nejsou k dispozici"
 
 #: src/Gui/ComposeWidget.cpp:921 src/Gui/ComposeWidget.cpp:1808
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "This mail will be marked as a response<hr/>%1"
-msgstr ""
+msgstr "Tento e-mail bude označen jako odpověď <hr/>%1"
 
 #: src/Gui/ComposeWidget.cpp:1099
 msgctxt "ComposeWidget|"
@@ -988,7 +1006,7 @@ msgstr "Odeslání e-mailu selhalo"
 #, qt-format
 msgctxt "ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
-msgstr ""
+msgstr "Nelze zpracovat \"%1\" jako e-mailovou adresu."
 
 #: src/Gui/ComposeWidget.cpp:1615
 msgctxt "ComposeWidget|"
@@ -1051,6 +1069,8 @@ msgctxt "CreateMailboxDialog|"
 msgid ""
 "Check to add this mailbox to the server-side list of subscribed mailboxes"
 msgstr ""
+"Zaškrtněte toto políčko, chcete-li tuto poštovní schránku přidat do seznamu "
+"odběratelů na straně serveru"
 
 #: src/Gui/CreateMailboxDialog.ui:61
 msgctxt "CreateMailboxDialog|"
@@ -1111,12 +1131,12 @@ msgstr "Systémové barvy"
 #: src/Gui/EmbeddedWebView.cpp:362
 msgctxt "Gui::EmbeddedWebView|"
 msgid "System theme adjusted for better contrast"
-msgstr ""
+msgstr "Systémový motiv upravený pro lepší kontrast"
 
 #: src/Gui/EmbeddedWebView.cpp:363
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Black on white, forced"
-msgstr ""
+msgstr "Černá na bílém, vynucené"
 
 #: src/Gui/EnvelopeView.cpp:105
 msgctxt "Gui::EnvelopeView|"
@@ -1151,7 +1171,7 @@ msgstr "Komu"
 #: src/Gui/EnvelopeView.cpp:136
 msgctxt "Gui::EnvelopeView|"
 msgid "Cc'd to"
-msgstr ""
+msgstr "V kopii pro"
 
 #: src/Gui/EnvelopeView.cpp:138
 msgctxt "Gui::EnvelopeView|"
@@ -1161,7 +1181,7 @@ msgstr "Kopie"
 #: src/Gui/EnvelopeView.cpp:144
 msgctxt "Gui::EnvelopeView|"
 msgid "Bcc'd to"
-msgstr ""
+msgstr "Ve skryté kopii pro"
 
 #: src/Gui/EnvelopeView.cpp:146
 msgctxt "Gui::EnvelopeView|"
@@ -1238,12 +1258,12 @@ msgstr "Shift+F3"
 #: src/Gui/ImapInfoDialog.ui:14
 msgctxt "ImapInfoDialog|"
 msgid "IMAP Server Info"
-msgstr ""
+msgstr "Informace o serveru IMAP"
 
 #: src/Gui/ImapInfoDialog.ui:33
 msgctxt "ImapInfoDialog|"
 msgid "<html><head/><body><p>SERVERINFO Placeholder</p></body></html>"
-msgstr ""
+msgstr "<html><head/><body><p>Zástupný symbol SERVERINFO</p></body></html>"
 
 #: src/Gui/LoadablePartWidget.cpp:47
 #, qt-format
@@ -1259,7 +1279,7 @@ msgstr "Přesunout zde\tShift"
 #: src/Gui/MailBoxTreeView.cpp:144
 msgctxt "MailBoxTreeView|"
 msgid "Copy here\tCtrl"
-msgstr ""
+msgstr "Zkopírovat sem\tCtrl"
 
 #: src/Gui/MailBoxTreeView.cpp:145
 msgctxt "MailBoxTreeView|"
@@ -1270,7 +1290,7 @@ msgstr "Zrušit"
 #, qt-format
 msgctxt "QObject|"
 msgid "Trojitá %1 - fast Qt IMAP e-mail client"
-msgstr ""
+msgstr "Trojitá %1 – rychlý e-mailový klient pro protokol IMAP s rozhraním Qt"
 
 #: src/Gui/main.cpp:65
 msgctxt "QObject|"
@@ -1280,17 +1300,18 @@ msgstr "Zobrazit okno knihy adres."
 #: src/Gui/main.cpp:69
 msgctxt "QObject|"
 msgid "Compose new e-mail (default when url is provided)."
-msgstr ""
+msgstr "Vytvořit nový e-mail (výchozí nastavení, pokud je zadána URL adresa)."
 
 #: src/Gui/main.cpp:73
 msgctxt "QObject|"
 msgid "Activate debug traffic logging to disk by default."
-msgstr ""
+msgstr "Ve výchozím nastavení zapnout protokolování ladicího provozu na disk."
 
 #: src/Gui/main.cpp:77
 msgctxt "QObject|"
 msgid "Show main window (default when no option is provided)."
 msgstr ""
+"Zobrazit hlavní okno (výchozí nastavení, pokud není zadána žádná volba)."
 
 #: src/Gui/main.cpp:81
 msgctxt "QObject|"
@@ -1305,7 +1326,7 @@ msgstr "profil"
 #: src/Gui/main.cpp:84
 msgctxt "QObject|"
 msgid "Mailto: URL address for composing new e-mail."
-msgstr ""
+msgstr "Mailto: URL adresa pro vytvoření nové e-mailové zprávy."
 
 #: src/Gui/main.cpp:85
 msgctxt "QObject|"
@@ -1327,12 +1348,12 @@ msgstr "Neočekávané argumenty."
 #, qt-format
 msgctxt "QObject|"
 msgid "Error: Registering IPC instance failed: %1"
-msgstr ""
+msgstr "Chyba: Registrace instance IPC se nezdařila: %1"
 
 #: src/Gui/MessageActionHandler.cpp:103
 msgctxt "MessageActionHandler|"
 msgid "you"
-msgstr ""
+msgstr "vy"
 
 #: src/Gui/MessageActionHandler.cpp:107
 #, qt-format
@@ -1342,19 +1363,22 @@ msgid ""
 "> ...\n"
 "\n"
 msgstr ""
+"Dne %1 poslal %2 zašifrovanou zprávu:\n"
+"> ...\n"
+"\n"
 
 #: src/Gui/MessageActionHandler.cpp:115
 #, qt-format
 msgctxt "MessageActionHandler|"
 msgid "On %1, %2 wrote:\n"
-msgstr ""
+msgstr "Dne %1 napsal %2:\n"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
 #, qt-format
 msgctxt "MessageHeadersWidget|"
 msgid "Message headers of UID %1 in %2"
-msgstr ""
+msgstr "Záhlaví zpráv s UID %1 v %2"
 
 #: src/Gui/MessageHeadersWidget.cpp:55
 msgctxt "MessageHeadersWidget|"
@@ -1379,6 +1403,10 @@ msgid ""
 "message bodies, etc).<br/><hr/>Experts who have read RFC3501 can use the "
 "<code>:=</code> prefix and switch to a raw IMAP mode."
 msgstr ""
+"Zadejte text, který chcete v této poštovní schránce vyhledat. Pomocí ikony "
+"vlevo můžete omezit možnosti vyhledávání (například zda zahrnout adresy nebo "
+"text zpráv atd.).<br/><hr/>Odborníci, kteří si přečetli RFC 3501, mohou "
+"použít předponu <code>:=</code> a přepnout do režimu \"raw IMAP\"."
 
 #: src/Gui/MessageListWidget.cpp:57
 msgctxt "Gui::MessageListWidget|"
@@ -1468,7 +1496,7 @@ msgstr "Přečtená"
 #: src/Gui/MessageListWidget.cpp:100
 msgctxt "Gui::MessageListWidget|"
 msgid "Allow raw IMAP search"
-msgstr ""
+msgstr "Povolit vyhledávání v surových datech IMAP"
 
 #: src/Gui/MessageSourceWidget.cpp:49
 msgctxt "Gui::MessageSourceWidget|"
@@ -1515,6 +1543,9 @@ msgid ""
 "for\n"
 "Message..."
 msgstr ""
+"Čekání\n"
+"na\n"
+"zprávu..."
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
 #: src/Gui/MsgListView.cpp:163
@@ -1532,19 +1563,19 @@ msgstr "88.8 kB"
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
 msgid_plural "+ %n additional item(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "+ %n další položka"
+msgstr[1] "+ %n další položky"
+msgstr[2] "+ %n dalších položek"
 
 #: src/Gui/MsgListView.cpp:354
 msgctxt "Gui::MsgListView|"
 msgid "Seen status"
-msgstr ""
+msgstr "Stav zobrazení"
 
 #: src/Gui/MsgListView.cpp:357
 msgctxt "Gui::MsgListView|"
 msgid "Flagged status"
-msgstr ""
+msgstr "Stav označení"
 
 #: src/Gui/MsgListView.cpp:360
 msgctxt "Gui::MsgListView|"
@@ -1559,12 +1590,12 @@ msgstr ","
 #: src/Gui/OneEnvelopeAddress.cpp:130
 msgctxt "OneEnvelopeAddress|"
 msgid "(empty display name)"
-msgstr ""
+msgstr "(prázdný zobrazovaný název)"
 
 #: src/Gui/OneEnvelopeAddress.cpp:134
 msgctxt "OneEnvelopeAddress|"
 msgid "<hr/><b>Address Book:</b><br/>"
-msgstr ""
+msgstr "<hr/><b>Kniha adres:</b><br/>"
 
 #: src/Gui/OneEnvelopeAddress.cpp:141
 msgctxt "OneEnvelopeAddress|"
@@ -1591,12 +1622,12 @@ msgstr "HTML"
 #: src/Gui/PartWidget.cpp:153
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Cancelled Event"
-msgstr ""
+msgstr "Zrušená akce"
 
 #: src/Gui/PartWidget.cpp:155
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Meeting Request"
-msgstr ""
+msgstr "Žádost o schůzku"
 
 #: src/Gui/PartWidget.cpp:157
 msgctxt "Gui::MultipartAlternativeWidget|"
@@ -1606,12 +1637,12 @@ msgstr "Událost v kalendáři"
 #: src/Gui/PartWidget.cpp:159
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Calendar Reply"
-msgstr ""
+msgstr "Odpověď na událost v kalendáři"
 
 #: src/Gui/PartWidget.cpp:161
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "New Meeting"
-msgstr ""
+msgstr "Nová schůzka"
 
 #: src/Gui/PartWidget.cpp:211 src/Gui/PartWidget.cpp:256
 msgctxt "Gui::PartStatusWidget|"
@@ -1653,33 +1684,30 @@ msgstr "Soubor nelze otevřít"
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Connection %1"
-msgstr "Spojení %1"
+msgstr "Připojení %1"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:180
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid " - %n unread message(s)"
-#| msgid_plural " - %n unread message(s)"
+#, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "- %n nepřečtená zpráva"
-msgstr[1] "- %n nepřečtené zprávy"
-msgstr[2] "- %n nepřečtených zpráv"
+msgstr[0] "%n zpráva"
+msgstr[1] "%n zprávy"
+msgstr[2] "%n zpráv"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:181
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "were skipped because this widget was hidden."
-msgstr ""
+msgstr "byly přeskočeny, protože tento widget byl skrytý."
 
 #: src/Gui/ProtocolLoggerWidget.cpp:224
 #, qt-format
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "+ %n more byte(s)"
 msgid_plural "+ %n more byte(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "+ %n bajt navíc"
+msgstr[1] "+ %n bajty navíc"
+msgstr[2] "+ %n bajtů navíc"
 
 #: src/Gui/SettingsCachePage.ui:30
 msgctxt "CachePage|"
@@ -1689,7 +1717,7 @@ msgstr "Režim při odpojení"
 #: src/Gui/SettingsCachePage.ui:48
 msgctxt "CachePage|"
 msgid "&Don't use cache"
-msgstr "&Nepoužívat mezipaměť"
+msgstr "&Nepoužívat vyrovnávací paměť"
 
 #: src/Gui/SettingsCachePage.ui:61
 msgctxt "CachePage|"
@@ -1709,12 +1737,12 @@ msgstr "Upozornění"
 #: src/Gui/SettingsCachePage.ui:112
 msgctxt "CachePage|"
 msgid "Only the INBOX folder will be included for new message checking"
-msgstr ""
+msgstr "Při kontrole nových zpráv bude zahrnuta pouze složka INBOX"
 
 #: src/Gui/SettingsCachePage.ui:115
 msgctxt "CachePage|"
 msgid "&INBOX Only"
-msgstr ""
+msgstr "&Pouze INBOX"
 
 #: src/Gui/SettingsCachePage.ui:122
 msgctxt "CachePage|"
@@ -1722,11 +1750,14 @@ msgid ""
 "This might result in extremely slow operation in certain scenarios with "
 "shared mailboxes, rich folder hierarchies, or IMAP proxying, for example."
 msgstr ""
+"V určitých situacích, například při sdílených poštovních schránkách, "
+"složitých hierarchiích složek nebo při použití IMAP proxy, by to mohlo vést "
+"k extrémně pomalému chodu systému."
 
 #: src/Gui/SettingsCachePage.ui:125
 msgctxt "CachePage|"
 msgid "&All Mailboxes (use with care)"
-msgstr ""
+msgstr "&Všechny poštovní schránky (používejte s opatrností)"
 
 #: src/Gui/SettingsCachePage.ui:132
 msgctxt "CachePage|"
@@ -1735,11 +1766,14 @@ msgid ""
 "notifications. To subscribe a mailbox, use the context menu in the mailbox "
 "view."
 msgstr ""
+"Do oznámení budou zahrnuty e-mailové složky označené jako odebírané. Chcete-"
+"li odebírat určitou poštovní schránku, použijte kontextové menu v zobrazení "
+"poštovní schránky."
 
 #: src/Gui/SettingsCachePage.ui:135
 msgctxt "CachePage|"
 msgid "&Subscribed Mailboxes"
-msgstr ""
+msgstr "&Odběrované poštovní schránky"
 
 #: src/Gui/SettingsDialog.cpp:85
 msgctxt "Gui::SettingsDialog|"
@@ -1774,7 +1808,7 @@ msgstr "Oblíbené z&načky"
 #: src/Gui/SettingsDialog.cpp:212
 msgctxt "Gui::SettingsDialog|"
 msgid "Saving passwords failed"
-msgstr ""
+msgstr "Uložení hesel se nezdařilo"
 
 #: src/Gui/SettingsDialog.cpp:213
 #, qt-format
@@ -1783,6 +1817,8 @@ msgid ""
 "<p>Couldn't save passwords. These were the error messages:</p>\n"
 "<p>%1</p>"
 msgstr ""
+"<p>Nepodařilo se uložit hesla. Zobrazily se tyto chybové zprávy:</p>\n"
+"<p>%1</p>"
 
 #: src/Gui/SettingsDialog.cpp:309
 msgctxt "Gui::FavoriteTagsPage|"
@@ -1849,7 +1885,7 @@ msgstr "Opravdu chcete smazat identitu %1 <%2>?"
 #: src/Gui/SettingsDialog.cpp:566
 msgctxt "Gui::GeneralPage|"
 msgid "Please define some identities here"
-msgstr ""
+msgstr "Zde prosím definujte nějaké identity"
 
 #: src/Gui/SettingsDialog.cpp:663
 msgctxt "Gui::EditFavoriteTag|"
@@ -1902,7 +1938,7 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:902
 msgctxt "Gui::ImapPage|"
 msgid "The IMAP server hostname is missing here"
-msgstr ""
+msgstr "Zde chybí název hostitele serveru IMAP"
 
 #: src/Gui/SettingsDialog.cpp:908
 msgctxt "Gui::ImapPage|"
@@ -1910,6 +1946,8 @@ msgid ""
 "The command line to the IMAP server is missing here. Perhaps you need to use "
 "SSL or TCP?"
 msgstr ""
+"Chybí zde příkazový řádek pro připojení k serveru IMAP. Možná je třeba "
+"použít protokol SSL nebo TCP?"
 
 #: src/Gui/SettingsDialog.cpp:925
 #, qt-format
@@ -1918,6 +1956,8 @@ msgid ""
 "This port is nonstandard. The default port for IMAP secured over SSL/TLS is "
 "%1."
 msgstr ""
+"Tento port není standardní. Výchozí port pro protokol IMAP zabezpečený "
+"pomocí SSL/TLS je %1."
 
 #: src/Gui/SettingsDialog.cpp:929
 #, qt-format
@@ -1926,6 +1966,8 @@ msgid ""
 "This port is nonstandard. The default port for IMAP secured via STARTTLS is "
 "%1."
 msgstr ""
+"Tento port není standardní. Výchozí port pro protokol IMAP zabezpečený "
+"pomocí STARTTLS je %1."
 
 #: src/Gui/SettingsDialog.cpp:931
 #, qt-format
@@ -1933,6 +1975,8 @@ msgctxt "Gui::ImapPage|"
 msgid ""
 "This port is nonstandard. The default port for IMAP over cleartext is %1."
 msgstr ""
+"Tento port není standardní. Výchozí port pro protokol IMAP v nešifrovaném "
+"textu je %1."
 
 #: src/Gui/SettingsDialog.cpp:1039
 msgctxt "Gui::OutgoingPage|"
@@ -1985,22 +2029,22 @@ msgstr ""
 #: src/Gui/SettingsDialog.cpp:1287 src/Gui/SettingsDialog.cpp:1293
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP server hostname is missing here"
-msgstr ""
+msgstr "Zde chybí název hostitele SMTP serveru"
 
 #: src/Gui/SettingsDialog.cpp:1289
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP username is missing here"
-msgstr ""
+msgstr "Zde chybí uživatelské jméno pro SMTP"
 
 #: src/Gui/SettingsDialog.cpp:1300
 msgctxt "Gui::OutgoingPage|"
 msgid "Please specify the folder name here"
-msgstr ""
+msgstr "Zde prosím uveďte název složky"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:14
 msgctxt "FavoriteTagsPage|"
 msgid "ScrollArea"
-msgstr ""
+msgstr "Oblast posouvání"
 
 #: src/Gui/SettingsFavoriteTagsPage.ui:108
 msgctxt "FavoriteTagsPage|"
@@ -2020,7 +2064,7 @@ msgstr "Smazat"
 #: src/Gui/SettingsGeneralPage.ui:14
 msgctxt "GeneralPage|"
 msgid "ScrollArea"
-msgstr ""
+msgstr "Oblast posouvání"
 
 #: src/Gui/SettingsGeneralPage.ui:93
 msgctxt "GeneralPage|"
@@ -2074,11 +2118,21 @@ msgid ""
 "still be able to find out that you are using (some version of) Trojitá.</p></"
 "body></html>"
 msgstr ""
+"<html><head/><body><p>Výběrem této možnosti se do zprávy zahrnou informace o "
+"verzi aplikace Trojitá a o platformě, na které běží, včetně verze Qt a "
+"podrobností o operačním systému. Zvažte prosím, zda tuto možnost ponechat "
+"zapnutou, aby vývojáři mohli řešit hlášení o chybách, když dojde k nějakému "
+"problému.</p><p>Data jsou mimo jiné předávána prostřednictvím příkazu IMAP "
+"<code>ID</code> a prostřednictvím hlavičky <code>User-Agent</code> v "
+"odchozích e-mailech.</p><p>Upozorňujeme, že i když tuto možnost "
+"deaktivujete, servery, se kterými Trojitá komunikuje, a lidé, kteří čtou "
+"vaše e-maily, budou i nadále schopni zjistit, že používáte (nějakou verzi) "
+"aplikace Trojitá.</p></body></html>"
 
 #: src/Gui/SettingsGeneralPage.ui:153
 msgctxt "GeneralPage|"
 msgid "Reveal Trojitá's version and platform information"
-msgstr ""
+msgstr "Zobrazit informace o verzi a platformě aplikace Trojitá"
 
 #: src/Gui/SettingsGeneralPage.ui:165
 msgctxt "GeneralPage|"
@@ -2088,11 +2142,15 @@ msgid ""
 "override the action using modifier keys when dropping (control: copy, shift: "
 "move).</p>"
 msgstr ""
+"<p>Je-li tato funkce zapnutá, můžete nastavit výchozí akci pro přetahování "
+"ve stromu poštovních schránek.</p><p>Je-li tato funkce vypnutá, Trojitá se "
+"vás bude pokaždé ptát. Akci můžete při přetažení kdykoli přepsat pomocí "
+"modifikačních kláves (Ctrl: kopírovat, Shift: přesunout).</p>"
 
 #: src/Gui/SettingsGeneralPage.ui:168
 msgctxt "GeneralPage|"
 msgid "Default drop action for the mbox tree"
-msgstr ""
+msgstr "Výchozí akce při přetažení pro strom poštovních schránek"
 
 #: src/Gui/SettingsGeneralPage.ui:199
 msgctxt "GeneralPage|"
@@ -2165,6 +2223,34 @@ msgid ""
 "process which then either connects to the IMAP server, or acts as one. This "
 "option enables accessing your IMAP server via SSH.</p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap;}, { ... }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Zvolte <span style=\" font-"
+"style:italic;\">TCP</span>, pokud se chcete připojit přes standardní, "
+"nešifrované připojení a transparentně vyjednat šifrování před přihlášením.</"
+"p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Vyberte <span style=\" "
+"font-style:italic;\">SSL</span> pro připojení přes šifrovaný socket od "
+"samého začátku připojení.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Nakonec vyberte <span "
+"style=\" font-style:italic;\">Lokální proces</span>, pokud chcete spustit "
+"proces, který se poté buď připojí k serveru IMAP, nebo bude jako server IMAP "
+"fungovat. Tato možnost umožňuje přístup k vašemu IMAP serveru přes SSH.</p></"
+"body></html>"
 
 #: src/Gui/SettingsImapPage.ui:55
 msgctxt "ImapPage|"
@@ -2207,6 +2293,9 @@ msgid ""
 "Check if Trojitá should connect to a network in order to access this "
 "account. You will stay offline if there is no network connectivity."
 msgstr ""
+"Zkontrolujte, zda se aplikace Trojitá má připojit k síti, aby mohla "
+"přistupovat k tomuto účtu. Pokud nebude k dispozici připojení k síti, "
+"zůstanete offline."
 
 #: src/Gui/SettingsImapPage.ui:134
 msgctxt "ImapPage|"
@@ -2268,6 +2357,32 @@ msgid ""
 "password, Trojitá will prompt for one when it needs it, but only once per "
 "session.</p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap;}, { ... }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Heslo, které se má použít "
+"při připojení k serveru IMAP.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Toto heslo bude uloženo v "
+"tomto zařízení jako <span style=\" font-weight:600;\">prostý text</span> bez "
+"jakéhokoli šifrování. Pokud nepoužíváte velmi bezpečnou formu šifrování "
+"celého disku, není <span style=\" font-weight:600;\">dobrý nápad</span> "
+"ukládat si heslo zde.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Pokud heslo neuložíte, "
+"Trojitá se na něj zeptá, až ho bude potřebovat, ale pouze jednou za relaci.</"
+"p></body></html>"
 
 #: src/Gui/SettingsImapPage.ui:204
 msgctxt "ImapPage|"
@@ -2308,6 +2423,27 @@ msgid ""
 "to be absolutely non-interactive, and therefore you have to have your SSH "
 "set up to login without password, perhaps via the SSH keys.</p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Pokud pro připojení k "
+"serveru IMAP zvolíte možnost <span style=\" font-style:italic;\">Lokální "
+"proces</span>, toto pole určuje program, který se má spustit. Například pro "
+"připojení ke vzdálenému poštovnímu serveru přes SSH a spuštění instance "
+"Dovecotu na něm můžete použít následující:</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Courier New,courier';\">ssh mail.example.org dovecot --exec-mail "
+"imap</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Upozorňujeme, že tento "
+"příkaz musí být absolutně neinteraktivní, a proto musíte mít SSH nastavené "
+"pro přihlášení bez hesla, například pomocí SSH klíčů.</p></body></html>"
 
 #: src/Gui/SettingsImapPage.ui:256
 msgctxt "ImapPage|"
@@ -2328,6 +2464,11 @@ msgid ""
 "NAT gateways and other nasty annoyances.\n"
 "The default value is 29 minutes."
 msgstr ""
+"Jak často obnovovat IDLE sezení.\n"
+"Tato funkce je užitečná k zabránění vypršení časového limitu způsobeného "
+"nefunkčními nebo příliš agresivními síťovými zprostředkovateli,\n"
+"NAT bránami a dalšími nepříjemnými problémy.\n"
+"Výchozí hodnota je 29 minut."
 
 #: src/Gui/SettingsImapPage.ui:298
 msgctxt "ImapPage|"
@@ -2340,6 +2481,8 @@ msgid ""
 "How often to check for new emails in all IMAP folders.\n"
 "The default value is 300 seconds (5 minutes)."
 msgstr ""
+"Jak často kontrolovat nové e-maily ve všech složkách IMAP.\n"
+"Výchozí hodnota je 300 sekund (5 minut)."
 
 #: src/Gui/SettingsImapPage.ui:309
 msgctxt "ImapPage|"
@@ -2417,6 +2560,8 @@ msgid ""
 "Enable forward-without-download via BURL (RFC 4468) when the IMAP and ESMTP "
 "servers support it. Extra server-side configuration is required."
 msgstr ""
+"Povolit přeposílání bez stahování pomocí BURL (RFC 4468), pokud to servery "
+"IMAP a ESMTP podporují. Je nutn dodatečné nastavení na straně serveru."
 
 #: src/Gui/SettingsOutgoingPage.ui:198
 msgctxt "OutgoingPage|"
@@ -2476,6 +2621,8 @@ msgid ""
 "<p>The \"%1\" shortcut is ambiguous with the following shortcut:</p><p>%2</"
 "p><p>Do you want to assign an empty shortcut to this action?</p>"
 msgstr ""
+"<p>Zkratka \"%1\" je v rozporu s následující zkratkou:</p><p>%2</p><p>Chcete "
+"této akci přiřadit prázdnou zkratku?</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:14
 msgctxt "ShortcutConfigWidget|"
@@ -2496,6 +2643,11 @@ msgid ""
 "shortcuts cannot be used: \"Up\", \"Down\", \"Left\", \"Right\", \"Page Up"
 "\", \"Page Down\", \"Tab\", \"Shift+Tab\", \"Enter\" and \"Escape\".</p>"
 msgstr ""
+"<p>Vyberte akci (myší nebo pomocí šipek). Její klávesovou zkratku pak můžete "
+"změnit pouhým stisknutím nové klávesové zkratky.</p><p>Upozorňujeme, že "
+"některé klávesové zkratky nelze použít: \"Nahoru\", \"Dolů\", \"Vlevo\", "
+"\"Vpravo\", \"Page Up\", \"Page Down\", \"Tab\", \"Shift+Tab\", \"Enter\" a "
+"\"Escape\".</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:31
 msgctxt "ShortcutConfigWidget|"
@@ -2514,6 +2666,8 @@ msgid ""
 "<p>Search interactively for shortcut names (e.g. Copy) or combination of "
 "keys (e.g. Ctrl+C) by typing them.</p>"
 msgstr ""
+"<p>Interaktivně vyhledávat názvy klávesových zkratek (např. Kopírovat) nebo "
+"kombinace kláves (např. Ctrl+C) jejich zadáním.</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:49
 msgctxt "ShortcutConfigWidget|Label of search field"
@@ -2523,7 +2677,7 @@ msgstr "Hledat:"
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:74
 msgctxt "ShortcutConfigWidget|"
 msgid "<p>Remove the shortcut of the currently highlighted action.</p>"
-msgstr ""
+msgstr "<p>Odstranit zástupce aktuálně zvýrazněné akce.</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:77
 msgctxt "ShortcutConfigWidget|Action for clearing shortcut"
@@ -2535,6 +2689,7 @@ msgctxt "ShortcutConfigWidget|"
 msgid ""
 "<p>Restore the default shortcut for the currently highlighted action.</p>"
 msgstr ""
+"<p>Obnovit výchozí klávesovou zkratku pro aktuálně zvýrazněnou akci.</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:87
 msgctxt "ShortcutConfigWidget|Action for restoring default shortcut"
@@ -2617,7 +2772,7 @@ msgstr "Přidat značky"
 #: src/Gui/TagAddDialog.ui:26
 msgctxt "TagAddDialog|"
 msgid "Tag names (space-separated):"
-msgstr ""
+msgstr "Názvy značek (oddělené mezerami):"
 
 #: src/Gui/TagListWidget.cpp:107
 msgctxt "Gui::TagListWidget|"
@@ -2631,6 +2786,8 @@ msgid ""
 "No tags were set because the following given tag(s) are reserved and have "
 "been disallowed from being set in this way: %1."
 msgstr ""
+"Nebyly nastaveny žádné značky, protože následující uvedené značky jsou "
+"vyhrazené a jejich nastavení tímto způsobem je zakázáno: %1."
 
 #: src/Gui/TagWidget.cpp:59
 msgctxt "Gui::TagWidget|This is a verb!"
@@ -2642,14 +2799,14 @@ msgstr "Značka"
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "%n ongoing action(s)"
 msgid_plural "%n ongoing action(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%n probíhající akce"
+msgstr[1] "%n probíhající akce"
+msgstr[2] "%n probíhajících akcí"
 
 #: src/Gui/TaskProgressIndicator.cpp:88
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "IMAP connection idle"
-msgstr "Nečinné spojení IMAP"
+msgstr "Nečinné připojení IMAP"
 
 #: src/Gui/Util.cpp:88
 msgctxt "Gui::MainWindow|"
@@ -2671,6 +2828,10 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
+"Nepodařilo se načíst modul, proto mohou být některé funkce nefunkční. "
+"Doporučujeme aktualizovat systém nebo nahlásit chybu dodavateli.\n"
+"\n"
+"%1"
 
 #. The %1 placeholder is the name of the plugin. The %2 placeholder is the human readable description of the plugin. The %3 placeholder is the detailed error message, ready for human consumption.
 #: src/Gui/Window.cpp:146
@@ -2682,6 +2843,10 @@ msgid ""
 "\n"
 "%3"
 msgstr ""
+"Modul \"%1 (%2)\" se nepodařilo načíst, proto mohou být některé funkce "
+"nefunkční. \n"
+"\n"
+"%3"
 
 #: src/Gui/Window.cpp:263
 msgctxt "Gui::MainWindow|"
@@ -2816,7 +2981,7 @@ msgstr "Ctrl+L"
 #: src/Gui/Window.cpp:282
 msgctxt "Gui::MainWindow|"
 msgid "Reply by &Guess"
-msgstr ""
+msgstr "Odpověď pomocí &Guess"
 
 #: src/Gui/Window.cpp:282
 msgctxt "Gui::MainWindow|"
@@ -2856,7 +3021,7 @@ msgstr "&Odpojeno"
 #: src/Gui/Window.cpp:288
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
-msgstr "Drahé spoj&ení"
+msgstr "Drahé připoj&ení"
 
 #: src/Gui/Window.cpp:289
 msgctxt "Gui::MainWindow|"
@@ -2866,7 +3031,7 @@ msgstr "Volný příst&up"
 #: src/Gui/Window.cpp:290
 msgctxt "Gui::MainWindow|"
 msgid "Close Standalone Message Window"
-msgstr ""
+msgstr "Zavřít samostatné okno zprávy"
 
 #: src/Gui/Window.cpp:291
 msgctxt "Gui::MainWindow|"
@@ -2896,17 +3061,17 @@ msgstr "Původní velikost"
 #: src/Gui/Window.cpp:296
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
-msgstr ""
+msgstr "Přesunout zaměření na seznam poštovních schránek"
 
 #: src/Gui/Window.cpp:297
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Message List"
-msgstr ""
+msgstr "Přesunout zaměření na seznam zpráv"
 
 #: src/Gui/Window.cpp:298
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Quick Search"
-msgstr ""
+msgstr "Přesunout zaměření na rychlé vyhledávání"
 
 #: src/Gui/Window.cpp:299
 msgctxt "Gui::MainWindow|"
@@ -2961,7 +3126,7 @@ msgstr "Navigace"
 #: src/Gui/Window.cpp:338
 msgctxt "Gui::MainWindow|"
 msgid "&Update List of Child Mailboxes"
-msgstr ""
+msgstr "&Aktualizovat seznam podřízených poštovních schránek"
 
 #: src/Gui/Window.cpp:341
 msgctxt "Gui::MainWindow|"
@@ -2988,18 +3153,18 @@ msgstr "Zobrazi&t okno se všemi daty"
 #: src/Gui/Window.cpp:373
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
-msgstr ""
+msgstr "Zobrazit st&rom ImapTask"
 
 #. a debugging tool showing the mime tree of the current message
 #: src/Gui/Window.cpp:379
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
-msgstr ""
+msgstr "Zobrazit strom &MIME"
 
 #: src/Gui/Window.cpp:384
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
-msgstr ""
+msgstr "Zobrazit protokol &záznamu"
 
 #. file to save the debug log into
 #: src/Gui/Window.cpp:390
@@ -3124,7 +3289,7 @@ msgstr "Na šířku"
 #: src/Gui/Window.cpp:595
 msgctxt "Gui::MainWindow|"
 msgid "&One At a Time"
-msgstr ""
+msgstr "&Po jednom"
 
 #: src/Gui/Window.cpp:600
 msgctxt "Gui::MainWindow|"
@@ -3154,7 +3319,7 @@ msgstr "&Aplikace"
 #: src/Gui/Window.cpp:716
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
-msgstr "&Síťové spojení"
+msgstr "&Síťové připojení"
 
 #: src/Gui/Window.cpp:720
 msgctxt "Gui::MainWindow|"
@@ -3205,21 +3370,21 @@ msgstr "Úkoly IMAP"
 #: src/Gui/Window.cpp:877
 msgctxt "Gui::MainWindow|"
 msgid "MIME Tree"
-msgstr ""
+msgstr "Strom MIME"
 
 #: src/Gui/Window.cpp:888
 msgctxt "Gui::MainWindow|"
 msgid "Protocol log"
-msgstr ""
+msgstr "Protokol záznamu"
 
 #: src/Gui/Window.cpp:969
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Attempting to reconnect in %n second(s).."
 msgid_plural "Attempting to reconnect in %n second(s).."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Pokus o opětovné připojení za %n sekundu.."
+msgstr[1] "Pokus o opětovné připojení za %n sekundy.."
+msgstr[2] "Pokus o opětovné připojení za %n sekund.."
 
 #: src/Gui/Window.cpp:1022
 msgctxt "Gui::MainWindow|"
@@ -3253,6 +3418,8 @@ msgid ""
 "The application will continue in systray. This can be disabled within the "
 "settings."
 msgstr ""
+"Aplikace bude i nadále běžet v systémové liště. Tuto funkci lze deaktivovat "
+"v nastavení."
 
 #. "ALERT" is a special warning which we're required to show to the user
 #: src/Gui/Window.cpp:1363
@@ -3273,7 +3440,7 @@ msgstr "Chyba sítě"
 #: src/Gui/Window.cpp:1397
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
-msgstr "Chyba mezipaměti IMAP"
+msgstr "Chyba vyrovnávací paměti IMAP"
 
 #: src/Gui/Window.cpp:1398
 #, qt-format
@@ -3284,6 +3451,11 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
+"V subsystému pro ukládání do vyrovnávací paměti, který spravuje vyrovnávací "
+"paměť s daty již staženými ze serveru IMAP, došlo k potížím. Veškeré "
+"ukládání do vyrovnávací paměti bude deaktivováno.\n"
+"\n"
+"%1"
 
 #: src/Gui/Window.cpp:1409
 msgctxt "Gui::MainWindow|"
@@ -3298,7 +3470,7 @@ msgstr "Žádné nastavení"
 #: src/Gui/Window.cpp:1456
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
-msgstr ""
+msgstr "Není nastaven žádný účet IMAP. Bez něj toho Trojitá moc nezvládne."
 
 #: src/Gui/Window.cpp:1481
 #, qt-format
@@ -3430,7 +3602,7 @@ msgstr "<li>%1: <strong>vypnut</strong></li>"
 #: src/Gui/Window.cpp:2182
 msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
-msgstr ""
+msgstr "Nepodařilo se otevřít licenční soubor."
 
 #: src/Gui/Window.cpp:2237
 msgctxt "Gui::MainWindow|"
@@ -3552,6 +3724,8 @@ msgid ""
 "%1\n"
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
+"%1\n"
+"<p>V současné době jsou dostupné následující funkce:</p>"
 
 #: src/Gui/Window.cpp:2575
 #, qt-format
@@ -3692,7 +3866,7 @@ msgstr "Odhlášeno."
 #: src/Imap/Model/DiskPartCache.cpp:64
 msgctxt "QObject|"
 msgid "Unrecognized QFile error"
-msgstr ""
+msgstr "Neznámá chyba QFile"
 
 #: src/Imap/Model/DiskPartCache.cpp:85
 #, qt-format
@@ -3738,16 +3912,22 @@ msgstr "Zpráva je odeslána"
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached message data not available"
 msgstr ""
+"Režim offline: data zpráv, která nejsou uložena ve vyrovnávací paměti, "
+"nejsou k dispozici"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:93
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached header data not available"
 msgstr ""
+"Režim offline: data z hlavičky, která nejsou uložena ve vyrovnávací paměti, "
+"nejsou k dispozici"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:95
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached body data not available"
 msgstr ""
+"Režim offline: data v těle zprávy, která nejsou uložena ve vyrovnávací "
+"paměti, nejsou k dispozici"
 
 #: src/Imap/Model/ImapAccess.cpp:317
 #, qt-format
@@ -3759,7 +3939,7 @@ msgstr "Nelze vytvořit adresář %1"
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to set safe permissions on cache directory %1"
-msgstr "Nelze nastavit bezpečná oprávnění pro adresář mezipaměti %1"
+msgstr "Nelze nastavit bezpečná oprávnění pro adresář vyrovnávací paměti %1"
 
 #: src/Imap/Model/MailboxTree.cpp:1244
 msgctxt "Imap::Mailbox::Model|"
@@ -3802,6 +3982,7 @@ msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
 "</p>"
 msgstr ""
+"<p>Zdá se, že se připojujete k serveru POP3. To zde nebude fungovat.</p>"
 
 #: src/Imap/Model/Model.cpp:1164
 msgctxt "Imap::Mailbox::Model|"
@@ -3809,6 +3990,7 @@ msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
 "here.</p>"
 msgstr ""
+"<p>Zdá se, že se připojujete k serveru SMTP. To zde nebude fungovat.</p>"
 
 #: src/Imap/Model/Model.cpp:1166
 #, qt-format
@@ -3818,6 +4000,9 @@ msgid ""
 "sure you are connecting to the IMAP service. A typical port number for IMAP "
 "is 143 or 993.</p><p>The server said:</p><pre>%2</pre>"
 msgstr ""
+"<h2>Toto není server IMAP</h2>%1<p>Zkontrolujte prosím nastavení a ujistěte "
+"se, že se připojujete ke službě IMAP. Obvyklé číslo portu pro IMAP je 143 "
+"nebo 993.</p><p>Server odpověděl:</p><pre>%2</pre>"
 
 #: src/Imap/Model/Model.cpp:1173
 #, qt-format
@@ -3829,16 +4014,21 @@ msgid ""
 "the details:</p><p><b>%1</b>: %2</p><pre>%3\n"
 "%4</pre>"
 msgstr ""
+"<p>Server IMAP vám poslal odpověď, kterou se nám nepodařilo zpracovat. To "
+"může znamenat buď chybu v kódu programu Trojitá, nebo že server IMAP, ke "
+"kterému jste připojeni, nefunguje správně. V každém případě to prosím "
+"nahlaste jako chybu. Zde jsou podrobnosti:</p><p><b>%1</b>: %2</p><pre>%3\n"
+"%4</pre>"
 
 #: src/Imap/Model/Model.cpp:1231
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
-msgstr "Tohle není IMAP4 server"
+msgstr "Nekomunikujete se serverem IMAP4"
 
 #: src/Imap/Model/Model.cpp:1486
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
-msgstr ""
+msgstr "Připojení je přerušováno z neupřesněného důvodu"
 
 #: src/Imap/Model/MsgListModel.cpp:284
 msgctxt "MsgListModel|"
@@ -3885,9 +4075,9 @@ msgstr "Velikost"
 msgctxt "Imap::Mailbox::NetworkWatcher|"
 msgid "Attempting to reconnect in %n second(s)"
 msgid_plural "Attempting to reconnect in %n second(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Pokus o opětovné připojení za %n sekundu"
+msgstr[1] "Pokus o opětovné připojení za %n sekundy"
+msgstr[2] "Pokus o opětovné připojení za %n sekund"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:77
 #, qt-format
@@ -3902,34 +4092,31 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
-#, fuzzy, qt-format
-#| msgctxt "Gui::MainWindow|"
-#| msgid " - %n unread message(s)"
-#| msgid_plural " - %n unread message(s)"
+#, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n message(s)"
 msgid_plural "%n message(s)"
-msgstr[0] "- %n nepřečtená zpráva"
-msgstr[1] "- %n nepřečtené zprávy"
-msgstr[2] "- %n nepřečtených zpráv"
+msgstr[0] "%n zpráva"
+msgstr[1] "%n zprávy"
+msgstr[2] "%n zpráv"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:124
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n unread"
 msgid_plural "%n unread"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%n nepřečtená"
+msgstr[1] "%n nepřečtené"
+msgstr[2] "%n nepřečtených"
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:127
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n recent"
 msgid_plural "%n recent"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%n nejnovější"
+msgstr[1] "%n nejnovější"
+msgstr[2] "%n nejnovějších"
 
 #: src/Imap/Model/PrettyMsgListModel.cpp:108
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
@@ -3974,7 +4161,7 @@ msgstr "Nelze zjistit informace o verzi"
 #: src/Imap/Model/SQLCache.cpp:163
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
-msgstr "Aktualizace schématu mezipaměti z verze v1 na v2 selhala"
+msgstr "Aktualizace schématu vyrovnávací paměti z verze v1 na v2 selhala"
 
 #: src/Imap/Model/SQLCache.cpp:172
 msgctxt "QObject|"
@@ -3984,7 +4171,7 @@ msgstr "Nelze zahodit starou tabulku mailbox_sync_state"
 #: src/Imap/Model/SQLCache.cpp:178
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v2/v3 to v4"
-msgstr "Aktualizace schéma mezipaměti z verze v2/v3 na v4 selhala"
+msgstr "Aktualizace schématu vyrovnávací paměti z verze v2/v3 na v4 selhala"
 
 #: src/Imap/Model/SQLCache.cpp:191
 msgctxt "QObject|"
@@ -3994,12 +4181,12 @@ msgstr "Nelze zahodit starou tabulku msg_metadata"
 #: src/Imap/Model/SQLCache.cpp:197
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
-msgstr "Aktualizace schéma mezipaměti z verze v4/v5/v6 na v7 selhala"
+msgstr "Aktualizace schématu vyrovnávací paměti z verze v4/v5/v6 na v7 selhala"
 
 #: src/Imap/Model/SQLCache.cpp:203
 msgctxt "QObject|"
 msgid "Unknown version of sqlite cache"
-msgstr "Neznámá verze mezipaměti sqlite"
+msgstr "Neznámá verze vyrovnávací paměti sqlite"
 
 #: src/Imap/Model/SQLCache.cpp:224
 msgctxt "QObject|"
@@ -4171,6 +4358,8 @@ msgstr "Selhal dotaz queryChildMailboxes"
 msgctxt "QObject|"
 msgid "Corrupt data when reading child items for mailbox %1, line %2"
 msgstr ""
+"Poškozená data při čtení podřízených položek pro poštovní schránku %1, řádek "
+"%2"
 
 #: src/Imap/Model/SQLCache.cpp:488
 msgctxt "QObject|"
@@ -4320,11 +4509,13 @@ msgid ""
 "This thread refers to an extra message, but that message is not present in "
 "the selected mailbox, or is missing from the current search context."
 msgstr ""
+"Toto vlákno odkazuje na další zprávu, ale tato zpráva se ve vybrané poštovní "
+"schránce nenachází nebo chybí v aktuálním kontextu vyhledávání."
 
 #: src/Imap/Network/FileDownloadManager.cpp:44
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Cannot translate CID URL: message is gone"
-msgstr ""
+msgstr "Nelze přeložit URL CID: zpráva zmizela"
 
 #: src/Imap/Network/FileDownloadManager.cpp:56
 #, qt-format
@@ -4353,17 +4544,17 @@ msgstr "msg_%1_%2"
 #: src/Imap/Network/FileDownloadManager.cpp:88
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadPart(): part has disappeared"
-msgstr ""
+msgstr "FileDownloadManager::downloadPart(): část zmizela"
 
 #: src/Imap/Network/FileDownloadManager.cpp:117
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "FileDownloadManager::downloadMessage(): message has disappeared"
-msgstr ""
+msgstr "FileDownloadManager::downloadMessage(): zpráva zmizela"
 
 #: src/Imap/Network/ForbiddenReply.cpp:34
 msgctxt "Imap::Network::ForbiddenReply|"
 msgid "Remote Content Is Banned"
-msgstr ""
+msgstr "Vzdálený obsah je zakázán"
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:82
 msgctxt "Imap::Network::MsgPartNetworkReply|"
@@ -4373,7 +4564,7 @@ msgstr "Nelze přistupovat k datům"
 #: src/Imap/Network/MsgPartNetworkReply.cpp:85
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Uncached data not available when offline"
-msgstr "Data neuložená v mezipaměti nejsou dostupná při odpojení"
+msgstr "Data neuložená ve vyrovnávací paměti nejsou dostupná při odpojení"
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:87
 msgctxt "Imap::Network::MsgPartNetworkReply|"
@@ -4388,12 +4579,12 @@ msgstr "Odesílání zprávy"
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:83
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "All messages disappeared before we could have copied them"
-msgstr ""
+msgstr "Všechny zprávy zmizely, než se stačily zkopírovat"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:105
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "Dotaz na ukončení"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:116
 #, qt-format
@@ -4415,7 +4606,7 @@ msgstr "Kopírování zprávy"
 #: src/Imap/Tasks/CreateMailboxTask.cpp:64
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "Dotaz na ukončení"
 
 #: src/Imap/Tasks/CreateMailboxTask.cpp:71
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
@@ -4425,7 +4616,7 @@ msgstr "Schránku nelze vytvořit"
 #: src/Imap/Tasks/CreateMailboxTask.cpp:79
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Error with the LIST command after the CREATE"
-msgstr ""
+msgstr "Chyba při použití příkazu LIST po příkazu CREATE"
 
 #: src/Imap/Tasks/CreateMailboxTask.cpp:89
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
@@ -4447,16 +4638,17 @@ msgstr "Mazání složky"
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox %1 has pending activity, so it cannot be deleted now."
 msgstr ""
+"V poštovní schránce %1 probíhá nějaká operace, proto ji nyní nelze smazat."
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:116
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox has pending activity"
-msgstr ""
+msgstr "V poštovní schránce je nevyřízená aktivita"
 
 #: src/Imap/Tasks/EnableTask.cpp:75
 msgctxt "Imap::Mailbox::EnableTask|"
 msgid "ENABLE failed, strange"
-msgstr ""
+msgstr "ENABLE selhalo, zvláštní"
 
 #: src/Imap/Tasks/EnableTask.cpp:86
 msgctxt "Imap::Mailbox::EnableTask|"
@@ -4466,12 +4658,12 @@ msgstr "Povolování IMAP rozšíření"
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:49
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 msgid "Mailbox vanished before we could expunge it"
-msgstr ""
+msgstr "Poštovní schránka zmizela, než se stačila smazat"
 
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:68
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 msgid "Expunge failed"
-msgstr ""
+msgstr "Vymazání se nezdařilo"
 
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:78
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
@@ -4481,17 +4673,17 @@ msgstr "Odstraňování smazaných zpráv"
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:75
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "All messages are gone already"
-msgstr ""
+msgstr "Všechny zprávy už zmizely"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:80
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "The IMAP server doesn't support the UIDPLUS extension"
-msgstr ""
+msgstr "Server IMAP nepodporuje rozšíření UIDPLUS"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:95
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "UID EXPUNGE failed"
-msgstr ""
+msgstr "UID EXPUNGE selhalo"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:105
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
@@ -4501,12 +4693,12 @@ msgstr "Odstraňování některých smazaných zpráv"
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:60
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
 msgid "handleFetch: mailbox disappeared"
-msgstr ""
+msgstr "handleFetch: schránka zmizela"
 
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:80
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
 msgid "UID FETCH failed"
-msgstr ""
+msgstr "UID FETCH selhalo"
 
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:101
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
@@ -4527,12 +4719,12 @@ msgstr "Stahování zpráv"
 #: src/Imap/Tasks/GenUrlAuthTask.cpp:87
 msgctxt "Imap::Mailbox::GenUrlAuthTask|"
 msgid "Obtaining authentication token"
-msgstr ""
+msgstr "Získávání autentizačního tokenu"
 
 #: src/Imap/Tasks/IdTask.cpp:67
 msgctxt "Imap::Mailbox::IdTask|"
 msgid "ID failed, strange"
-msgstr ""
+msgstr "ID selhalo, zvláštní"
 
 #: src/Imap/Tasks/IdTask.cpp:84
 msgctxt "Imap::Mailbox::IdTask|"
@@ -4546,11 +4738,13 @@ msgid ""
 "The server sent the following ALERT:\n"
 "%1"
 msgstr ""
+"Server odeslal následující ALERT:\n"
+"%1"
 
 #: src/Imap/Tasks/ImapTask.h:191
 msgctxt "Imap::Mailbox::ImapTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "Dotaz na ukončení"
 
 #: src/Imap/Tasks/ImapTask.h:195
 msgctxt "Imap::Mailbox::ImapTask|"
@@ -4563,13 +4757,13 @@ msgstr "Přerušeno"
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:517
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "Dotaz na ukončení"
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:264
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:265
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Parser is gone"
-msgstr ""
+msgstr "Parser zmizel"
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:713
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
@@ -4580,16 +4774,18 @@ msgstr "Probíhá odhlašování..."
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "The UIDVALIDITY has changed while mailbox is open. Please reconnect."
 msgstr ""
+"Během otevření poštovní schránky došlo ke změně UIDVALIDITY. Zkuste se "
+"prosím znovu připojit."
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:948
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "UNSELECTed"
-msgstr ""
+msgstr "Nevybráno"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:59
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Mailbox vanished before we could ask for its children"
-msgstr ""
+msgstr "Poštovní schránka zmizela, než byl vyřízen dotaz na její podřízené"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:101
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
@@ -4599,22 +4795,22 @@ msgstr "LIST selhal"
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:105
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Mailbox no longer available -- weird timing?"
-msgstr ""
+msgstr "Poštovní schránka již není k dispozici – podivná náhoda?"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:151
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Listing mailboxes"
-msgstr ""
+msgstr "Seznam poštovních schránek"
 
 #: src/Imap/Tasks/NoopTask.cpp:63
 msgctxt "Imap::Mailbox::NoopTask|"
 msgid "NOOP failed, strange"
-msgstr ""
+msgstr "NOOP selhalo, zvláštní"
 
 #: src/Imap/Tasks/NoopTask.cpp:74
 msgctxt "Imap::Mailbox::NoopTask|"
 msgid "Checking for new messages"
-msgstr ""
+msgstr "Kontrola nových zpráv"
 
 #: src/Imap/Tasks/NumberOfMessagesTask.cpp:78
 msgctxt "Imap::Mailbox::NumberOfMessagesTask|"
@@ -4629,32 +4825,32 @@ msgstr "Vyhledávání zpráv"
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:72
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Asked to abort or die"
-msgstr ""
+msgstr "Dotaz na přerušení nebo ukončení"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:73
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Mailbox syncing dead or aborted"
-msgstr ""
+msgstr "Synchronizace poštovní schránky selhala nebo byla přerušena"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:146
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "Dotaz na ukončení"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1200
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Escaped from mailbox"
-msgstr ""
+msgstr "Odchod z poštovní schránky"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1205
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Synchronizing mailbox"
-msgstr "Synchronizace složky"
+msgstr "Synchronizace poštovní schránky"
 
 #: src/Imap/Tasks/OfflineConnectionTask.cpp:55
 msgctxt "Imap::Mailbox::OfflineConnectionTask|"
 msgid "We're offline"
-msgstr "Jsme odpojeni"
+msgstr "Jste odpojeni"
 
 #: src/Imap/Tasks/OfflineConnectionTask.cpp:62
 msgctxt "Imap::Mailbox::OfflineConnectionTask|"
@@ -4664,7 +4860,7 @@ msgstr "Odpojeno"
 #: src/Imap/Tasks/OpenConnectionTask.cpp:116
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "Dotaz na ukončení"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:163
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4673,11 +4869,17 @@ msgid ""
 "PREAUTH. Encryption cannot be established. If this configuration worked "
 "previously, someone is after your data and they are pretty smart."
 msgstr ""
+"Nastavení vyžaduje odeslání příkazu STARTTLS, ale server IMAP nás vítá "
+"příkazem PREAUTH. Nelze navázat šifrované spojení. Pokud tohle nastavení "
+"dříve fungovalo, někdo se snaží získat vaše data a je to docela chytrý "
+"člověk."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:195
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "This server gracefully refuses IMAP connections through a BYE response."
 msgstr ""
+"Tento server zdvořile odmítá připojení přes protokol IMAP pomocí odpovědi "
+"BYE."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:202
 #, qt-format
@@ -4686,11 +4888,13 @@ msgid ""
 "The server replied with the following BAD response:\n"
 "%1"
 msgstr ""
+"Server odpověděl následující chybovou odpovědí:\n"
+"%1"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:204
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server has greeted us with a BAD response"
-msgstr ""
+msgstr "Server nám vrátil odpověď BAD"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:236
 #, qt-format
@@ -4699,16 +4903,20 @@ msgid ""
 "Cannot establish a secure connection.\n"
 "The STARTTLS command failed: %1"
 msgstr ""
+"Nelze navázat zabezpečené připojení.\n"
+"Příkaz STARTTLS selhal: %1"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:265
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server error: Capabilities contain LOGINDISABLED even after STARTTLS"
-msgstr "Chyba serveru: Schopnosti obsahují LOGINDISABLED i po STARTTLS"
+msgstr ""
+"Chyba serveru: Mezi oprávněními je uvedeno LOGINDISABLED i po použití "
+"STARTTLS"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:301
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Temporary failure because a subsystem is down."
-msgstr ""
+msgstr "Dočasná porucha způsobená výpadkem subsystému."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:304
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4726,6 +4934,9 @@ msgid ""
 "server cannot or will not allow the authentication identity to act as the "
 "requested authorization identity."
 msgstr ""
+"Ověření pomocí ověřovací identity proběhlo úspěšně, ale server nemůže nebo "
+"nechce povolit, aby ověřovací identita fungovala jako požadovaná autorizační "
+"identita."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:312
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4734,11 +4945,14 @@ msgid ""
 "data; either way, access is no longer permitted using that passphrase.  You "
 "should get a new passphrase."
 msgstr ""
+"Buď se ověření podařilo, nebo server již neměl potřebná data; v každém "
+"případě již není přístup pomocí tohoto hesla povolen. Měli byste si nastavit "
+"nové heslo."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:317
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "The operation is not permitted due to a lack of privacy."
-msgstr ""
+msgstr "Tato operace není povolena z důvodu nedostatečného soukromí."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:320
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4763,21 +4977,23 @@ msgid ""
 "Server error: LOGINDISABLED but no STARTTLS capability. The login is "
 "effectively disabled entirely."
 msgstr ""
+"Chyba serveru: LOGINDISABLED, ale není k dispozici STARTTLS. Přihlášení je v "
+"podstatě zcela deaktivováno."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:403
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server error: did not get the required CAPABILITY response."
-msgstr ""
+msgstr "Chyba serveru: nebyla obdržena požadovaná odpověď CAPABILITY."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:407
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server error: The CAPABILITY request failed."
-msgstr ""
+msgstr "Chyba serveru: Požadavek CAPABILITY selhal."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:472
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Cannot login, you have not provided any credentials yet."
-msgstr ""
+msgstr "Nelze se přihlásit, dosud jste nezadali žádné přihlašovací údaje."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:484
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4787,18 +5003,19 @@ msgstr "Připojování k serveru pošty"
 #: src/Imap/Tasks/OpenConnectionTask.cpp:504
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "The security state of the SSL connection got rejected"
-msgstr ""
+msgstr "Stav zabezpečení SSL připojení byl zamítnut"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:513
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
 "The security state of the connection after a STARTTLS operation got rejected"
-msgstr ""
+msgstr "Stav zabezpečení připojení po odmítnutí operace STARTTLS"
 
 #: src/Imap/Tasks/SortTask.cpp:55
 msgctxt "Imap::Mailbox::SortTask|"
 msgid "Mailbox vanished before we could ask for threading info"
 msgstr ""
+"Poštovní schránka zmizela, než se stačilo požádat o informace o vláknech"
 
 #: src/Imap/Tasks/SortTask.cpp:150
 msgctxt "Imap::Mailbox::SortTask|"
@@ -4813,22 +5030,23 @@ msgstr "Řazení složky"
 #: src/Imap/Tasks/SubscribeUnsubscribeTask.cpp:94
 msgctxt "Imap::Mailbox::SubscribeUnsubscribeTask|"
 msgid "SUBSCRIBE/UNSUBSCRIBE has failed"
-msgstr ""
+msgstr "SUBSCRIBE/UNSUBSCRIBE selhalo"
 
 #: src/Imap/Tasks/SubscribeUnsubscribeTask.cpp:110
 msgctxt "Imap::Mailbox::SubscribeUnsubscribeTask|"
 msgid "Updating subscription information"
-msgstr ""
+msgstr "Aktualizace údajů o odběrech"
 
 #: src/Imap/Tasks/ThreadTask.cpp:53
 msgctxt "Imap::Mailbox::ThreadTask|"
 msgid "Mailbox vanished before we could ask for threading info"
 msgstr ""
+"Poštovní schránka zmizela, než se stačilo požádat o informace o vláknech"
 
 #: src/Imap/Tasks/ThreadTask.cpp:75
 msgctxt "Imap::Mailbox::ThreadTask|"
 msgid "Threading command has failed"
-msgstr ""
+msgstr "Příkaz pro vytvoření vlákna selhal"
 
 #: src/Imap/Tasks/ThreadTask.cpp:109
 msgctxt "Imap::Mailbox::ThreadTask|"
@@ -4849,12 +5067,12 @@ msgstr "Posílání pošty"
 #: src/Imap/Tasks/UnSelectTask.cpp:49 src/Imap/Tasks/UnSelectTask.cpp:67
 msgctxt "Imap::Mailbox::UnSelectTask|"
 msgid "Asked to die"
-msgstr ""
+msgstr "Dotaz na ukončení"
 
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:101
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
 msgid "Failed to update Mailbox FLAGS"
-msgstr ""
+msgstr "Nepodařilo se aktualizovat příznaky poštovní schránky"
 
 #: src/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:110
 msgctxt "Imap::Mailbox::UpdateFlagsOfAllMessagesTask|"
@@ -4865,11 +5083,13 @@ msgstr "Ukládání stavu schránky"
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
 msgid "All messages got removed before we could've updated their flags"
 msgstr ""
+"Všechny zprávy byly odstraněny dříve, než se stačilo aktualizovat jejich "
+"označení"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:138
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
 msgid "Failed to update FLAGS"
-msgstr ""
+msgstr "Aktualizace FLAGS se nezdařila"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:148
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
@@ -4905,6 +5125,8 @@ msgstr "%1 nepodporuje nastavení hesla"
 msgctxt "Account|"
 msgid "This port is nonstandard. The default port for cleartext SMTP is %1."
 msgstr ""
+"Tento port není standardní. Výchozí port pro SMTP s nešifrovaným textem je "
+"%1."
 
 #: src/MSA/Account.cpp:236
 #, qt-format
@@ -4913,6 +5135,8 @@ msgid ""
 "This port is nonstandard. The default port for SMTP submission secured via "
 "STARTTLS is %1."
 msgstr ""
+"Tento port není standardní. Výchozí port pro odesílání přes SMTP zabezpečený "
+"protokolem STARTTLS je %1."
 
 #: src/MSA/Account.cpp:239
 #, qt-format
@@ -4921,6 +5145,8 @@ msgid ""
 "This port is nonstandard. The default port for SMTP over encrypted SSL/TLS "
 "connection is %1."
 msgstr ""
+"Tento port není standardní. Výchozí port pro SMTP přes šifrované připojení "
+"SSL/TLS je %1."
 
 #: src/MSA/Sendmail.cpp:85
 #, qt-format
@@ -4963,6 +5189,8 @@ msgid ""
 "<p>Cannot send message due to an SSL/TLS error</p>\n"
 "%1"
 msgstr ""
+"<p>Zprávu nelze odeslat kvůli chybě SSL/TLS</p>\n"
+"%1"
 
 #: src/MSA/SMTP.cpp:139
 msgctxt "MSA::SMTP|"
@@ -4973,7 +5201,7 @@ msgstr "Neznámý režim SMTP"
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:153
 msgctxt "BE::Contacts|"
 msgid "BE::Contacts"
-msgstr ""
+msgstr "BE::Contacts"
 
 #. Translators: %1 is the filename of the abook dot directory
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:199
@@ -4982,29 +5210,28 @@ msgctxt "AbookAddressbook|"
 msgid ""
 "Failed to create abook directory \"%1\": Do you have sufficient permissions?"
 msgstr ""
+"Nepodařilo se vytvořit abook adresář \"%1\": Máte dostatečná oprávnění?"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:214
 #, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for reading: %2"
-msgstr ""
+msgstr "Nepodařilo se otevřít soubor nastavení abook \"%1\" pro čtení: %2"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:238
 #, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to open abook configfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "Nepodařilo se otevřít soubor nastavení abook \"%1\" pro zápis: %2"
 
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:254
-#, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
+#, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
-msgstr "Nelze vytvořit adresář %1"
+msgstr "Nepodařilo se vytvořit databázi abook \"%1\": %2"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:449
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
@@ -5191,7 +5418,7 @@ msgstr "Kniha adres KDE (Akonadi)"
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:79
 msgctxt "ClearTextPasswordJob|"
 msgid "This plugin only supports storing of IMAP and SMTP passwords"
-msgstr ""
+msgstr "Tento modul podporuje pouze ukládání hesel pro protokoly IMAP a SMTP"
 
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:123
 msgctxt "trojita_plugin_ClearTextPasswordPlugin|"
@@ -5201,7 +5428,7 @@ msgstr "Nastavení Trojité"
 #: src/Plugins/QtKeyChain/QtKeyChainPassword.cpp:129
 msgctxt "trojita_plugin_QtKeyChainPasswordPlugin|"
 msgid "Secure storage via QtKeychain"
-msgstr ""
+msgstr "Bezpečné úložiště pomocí QtKeychain"
 
 #: src/Plugins/SonnetSpellchecker/SonnetSpellchecker.cpp:46
 msgctxt "Plugins::trojita_plugin_SonnetSpellcheckerPlugin|"
@@ -5211,7 +5438,7 @@ msgstr "Sonnet"
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
 msgid "Unsupported or unknown authentication scheme"
-msgstr ""
+msgstr "Nepodporovaný nebo neznámý způsob ověřování"
 
 #: src/Streams/IODeviceSocket.cpp:178
 #, qt-format
@@ -5251,7 +5478,7 @@ msgstr ""
 #: src/Streams/IODeviceSocket.cpp:258
 msgctxt "Streams::SslTlsSocket|"
 msgid "Connection closed"
-msgstr "Spojení ukončeno"
+msgstr "Připojení ukončeno"
 
 #: src/Streams/IODeviceSocket.cpp:283
 #, qt-format
@@ -5310,7 +5537,7 @@ msgctxt "Streams::SslTlsSocket|"
 msgid ""
 "The underlying socket is having troubles when processing connection to %1:"
 "%2: %3"
-msgstr "Podpůrná vrstva má problémy při zpracování spojení %1:%2: %3"
+msgstr "Podpůrná vrstva má problémy při zpracování připojení k %1:%2: %3"
 
 #: src/UiUtils/Formatting.cpp:40
 msgctxt "Formatting|"
@@ -5377,6 +5604,11 @@ msgid ""
 "<b>SHA1</b>: %4,<br/>\n"
 "<b>MD5</b>: %5</li>"
 msgstr ""
+"<li><b>CN</b>: %1,<br/>\n"
+"<b>Organizace</b>: %2,<br/>\n"
+"<b>Sériové číslo</b>: %3,<br/>\n"
+"<b>SHA1</b>: %4,<br/>\n"
+"<b>MD5</b>: %5</li>"
 
 #: src/UiUtils/Formatting.cpp:145 src/UiUtils/Formatting.cpp:146
 msgctxt "Formatting|"
@@ -5386,7 +5618,7 @@ msgstr ", "
 #: src/UiUtils/Formatting.cpp:152
 msgctxt "Formatting|"
 msgid "<p>The remote side doesn't have a certificate.</p>\n"
-msgstr ""
+msgstr "<p>Vzdálená strana nemá certifikát.</p>\n"
 
 #: src/UiUtils/Formatting.cpp:153
 #, qt-format
@@ -5395,6 +5627,8 @@ msgid ""
 "<p>This is the certificate chain of the connection:</p>\n"
 "<ul>%1</ul>\n"
 msgstr ""
+"<p>Toto je řetězec certifikátů tohoto připojení:</p>\n"
+"<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
 msgctxt "Formatting|"
@@ -5411,6 +5645,7 @@ msgstr "<li>%1</li>"
 msgctxt "Formatting|"
 msgid "<p>According to your system's policy, this connection is secure.</p>\n"
 msgstr ""
+"<p>V souladu se zásadami vašeho systému je toto připojení zabezpečené.</p>\n"
 
 #: src/UiUtils/Formatting.cpp:164
 #, qt-format
@@ -5419,6 +5654,8 @@ msgid ""
 "<p>The connection triggered the following SSL errors:</p>\n"
 "<ul>%1</ul>\n"
 msgstr ""
+"<p>Při navazování připojení došlo k následujícím chybám SSL:</p>\n"
+"<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:175
 msgctxt "Formatting|"
@@ -5435,11 +5672,17 @@ msgid ""
 "%1\n"
 "<p>Would you like to connect and remember the new certificate?</p>"
 msgstr ""
+"<p>Veřejný klíč certifikátu SSL se změnil. K tomu by mělo dojít pouze v "
+"případě, že na vzdáleném serveru došlo k bezpečnostnímu incidentu. Vaše "
+"systémová konfigurace je nastavena tak, aby takové certifikáty přijímala v "
+"každém případě.</p>\n"
+"%1\n"
+"<p>Chcete se připojit a uložit si nový certifikát do paměti?</p>"
 
 #: src/UiUtils/Formatting.cpp:183
 msgctxt "Formatting|"
 msgid "SSL certificate looks fishy"
-msgstr ""
+msgstr "SSL certifikát vypadá podezřele"
 
 #: src/UiUtils/Formatting.cpp:184
 #, qt-format
@@ -5452,11 +5695,16 @@ msgid ""
 "%2\n"
 "<p>Would you like to connect anyway and remember the new certificate?</p>"
 msgstr ""
+"<p>Veřejný klíč SSL certifikátu serveru IMAP se od posledního připojení "
+"změnil a váš systém neuznává nový certifikát jako platný.</p>\n"
+"%1\n"
+"%2\n"
+"<p>Chcete se přesto připojit a uložit si nový certifikát?</p>"
 
 #: src/UiUtils/Formatting.cpp:193 src/UiUtils/Formatting.cpp:200
 msgctxt "Formatting|"
 msgid "Accept SSL connection?"
-msgstr ""
+msgstr "Přijmout SSL připojení?"
 
 #: src/UiUtils/Formatting.cpp:194
 #, qt-format
@@ -5469,6 +5717,12 @@ msgid ""
 "<p>Would you like to connect and remember this certificate's public key for "
 "the next time?</p>"
 msgstr ""
+"<p>Toto je vaše první připojení k tomuto serveru IMAP; tento systém považuje "
+"certifikát za důvěryhodný.</p>\n"
+"%1\n"
+"%2\n"
+"<p>Chcete se připojit a uložit si veřejný klíč tohoto certifikátu pro příště?"
+"</p>"
 
 #: src/UiUtils/Formatting.cpp:201
 #, qt-format
@@ -5482,6 +5736,13 @@ msgid ""
 "<p>Would you like to connect and remember this certificate's public key for "
 "the next time?</p>"
 msgstr ""
+"<p>Toto je vaše první připojení k tomuto serveru IMAP a ověření certifikátu "
+"serveru selhalo.</p>\n"
+"%1\n"
+"\n"
+"%2\n"
+"<p>Chcete se připojit a uložit veřejný klíč tohoto certifikátu pro příště?</"
+"p>"
 
 #: src/UiUtils/PartWalker_impl.h:44
 msgctxt "PartWalker|"
@@ -5490,12 +5751,15 @@ msgid ""
 "To prevent stack exhaustion and your head from exploding, only\n"
 "the top-most thousand items or so are shown."
 msgstr ""
+"Tato zpráva obsahuje příliš hluboké vnoření částí zprávy MIME.\n"
+"Aby se zabránilo vyčerpání zásobníku a tomu, že vám praskne\n"
+"hlava, zobrazuje se pouze asi tisíc položek z nejvyšší úrovně."
 
 #: src/UiUtils/PasswordWatcher.cpp:82
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Loading password from plugin %1..."
-msgstr ""
+msgstr "Načítání hesla z modulu %1..."
 
 #: src/UiUtils/PasswordWatcher.cpp:86
 #, qt-format
