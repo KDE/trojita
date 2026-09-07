@@ -93,6 +93,7 @@
     <p xml:lang="bs">Trojitá je email program ("klijent") specijaliziran u davanju brzog i efikasnog pristupa poštanskim kutijama preko IMAP protokola. IMAP poštanski server pohranjuje poruke i dopušta klijentima da uhvate poruke na lokalnom računaru kada zatraže.</p>
     <p xml:lang="ca">El Trojitá és un programa de correu electrònic («client») que s'especialitza a donar un accés ràpid i eficient a les bústies de correu a través del protocol IMAP. Un servidor de correu IMAP emmagatzema els missatges i permet als clients obtenir-los des de l'ordinador local.</p>
     <p xml:lang="ca-valencia">Trojitá és un programa de correu electrònic («client») que s'especialitza a donar un accés ràpid i eficient a les bústies de correu a través del protocol IMAP. Un servidor de correu IMAP emmagatzema els missatges i permet als clients obtindre'ls des de l'ordinador local.</p>
+    <p xml:lang="cs">Trojitá je e-mailový program ("klient"), který se specializuje na rychlý a efektivní přístup k poštovním schránkám prostřednictvím protokolu IMAP. IMAP poštovní server ukládá zprávy a umožňuje klientům stahovat si je na místní počítač na vyžádání.</p>
     <p xml:lang="da">Trojitá er et e-mail-program ("klient") der er specialiseret i at give hurtig og effektiv adgang til postkasser over IMAP-protokollen. En IMAP-mailserver lagrer breve og lader klienter hente breve til den lokale computer når der er behov for det.</p>
     <p xml:lang="de">Trojitá ist ein E-Mail-Programm („Client“), das auf schnellen und effizienten Zugriff auf Mailboxen über das IMAP-Protokoll zugeschnitten ist. Ein IMAP-Mailserver speichert die Nachtrichten und erlaubt es Clients, diese bei Bedarf auf den lokalen Rechner abzurufen.</p>
     <p xml:lang="el">Η Trojitá είναι ένα πρόγραμμα ηλεκτρονικού ταχυδρομείου («εφαρμογή-πελάτης») με ειδικότητα τη γρήγορη και αποτελεσματική πρόσβαση σε γραμματοκιβώτια με το πρωτόκολλο IMAP. Ένας διακομιστής IMAP ηλεκτρονικής αλληλογραφίας αποθηκεύει τα μηνύματα και επιτρέπει στις εφαρμογές να τα μεταφέρουν στον τοπικό υπολογιστή όταν τους ζητηθεί.</p>
@@ -132,7 +133,8 @@
     <p xml:lang="az">Effektivliyi, sürəti və açıq standartları digər hədəflərdən üstün tutur. Trojitá ayrıca çox platformalı olmağı hədəfləyir və böyük masaüstü kompüterlərdən kiçik mobil telefonlara qədər yaxşı işləyir. Trojitá müstəqil bir proqramdır, "şəxsi məlumatın idarə edilməsi" paketinin bir hissəsi deyil.</p>
     <p xml:lang="bs">Daje prednost efikasnosti, brzini i otvorenim standardima ispred drugih ciljeva. Trojitá također teži da bude višestruka platforma i da dobro funkcioniše na svemu, od velikih desktop računara do malih mobilnih uređaja. Trojitá je nezavisan program, nije dio "lično-informacijskog menadžerskog" paketa.</p>
     <p xml:lang="ca">Dona prioritat a l'eficiència, la velocitat i els estàndards oberts per sobre d'altres objectius. El Trojitá també aspira a ser multiplataforma, i funciona bé arreu, des d'ordinadors d'escriptori grans a telèfons mòbils petits. El Trojitá és un programa independent, no forma part d'una suite de «gestor de la informació personal» (PIM).</p>
-    <p xml:lang="ca-valencia">Dona prioritat a l'eficiència, la velocitat i els estàndards oberts per damunt d'altres objectius. Trojitá també aspira a ser multiplataforma, i treballa bé arreu, des d'ordinadors d'escriptori grans a telèfons mòbils petits. Trojitá és un programa independent, no forma part d'una suite de «gestor de la informació personal» (PIM).</p>
+    <p xml:lang="ca-valencia">Dona prioritat a l'eficiència, la velocitat i els estàndards oberts per damunt d'altres objectius. Trojitá també aspira a ser multiplataforma, i funciona bé arreu, des d'ordinadors d'escriptori grans a telèfons mòbils petits. Trojitá és un programa independent, no forma part d'una suite de «gestor de la informació personal» (PIM).</p>
+    <p xml:lang="cs">Upřednostňuje efektivitu, rychlost a otevřené standardy před ostatními cíli. Trojitá se také zaměřuje na multiplatformní provoz a funguje dobře na všech zařízeních, od velkých stolních počítačů až po malé mobilní telefony. Trojitá je samostatný program, který není součástí sady "správců osobních informací".</p>
     <p xml:lang="da">Den prioriterer effektivitet, hastighed og åbne standarder over andre mål. Trojitá har også som mål at virke på flere platforme, og fungere godt på alt fra store skrivebordscomputere til små mobiltelefoner. Trojitá er et selvstændigt program, som ikk er en del af en samling til håndtering af personlig information.</p>
     <p xml:lang="de">Es priorisiert Effizienz, Geschwindigkeit und offene Standards über alles andere. Trojitá unterstützt außerdem mehrere Plattformen und läuft gut auf großen Desktoprechnern bis hin zu kleinen Mobilgeräten. Trojitá ist ein eigenständiges Programm und nicht Teil eines „Persönliche Informationen Management“-Systems.</p>
     <p xml:lang="el">Δίνει προτεραιότητα σε αποτελεσματικότητα, ταχύτητα και στα ανοιχτά πρότυπα πάνω απ' όλα. Η Trojitá επίσης στοχεύει να έχει υλοποίηση για πολλές πλατφόρμες και να λειτουργεί καλά σε οτιδήποτε από μεγάλους υπολογιστές γραφείου μέχρι μικρά κινητά τηλέφωνα. Η Trojitá είναι ένα ανεξάρτητο πρόγραμμα, όχι τμήμα κάποιας σουίτας «διαχείρισης προσωπικών πληροφοριών».</p>
@@ -244,6 +246,7 @@
       <li xml:lang="bs">Standardna usklađenost je cilj dizajna</li>
       <li xml:lang="ca">El compliment dels estàndards és un objectiu en el disseny</li>
       <li xml:lang="ca-valencia">El compliment dels estàndards és un objectiu en el disseny</li>
+      <li xml:lang="cs">Soulad s normami je jedním z cílů návrhu</li>
       <li xml:lang="da">Standardoverholdelse er et designmål</li>
       <li xml:lang="de">Standardkonformität als Entwurfsziel</li>
       <li xml:lang="el">Η συμμόρφωση με τα πρότυπα είναι σχεδιαστικός στόχος</li>
@@ -280,6 +283,7 @@
       <li xml:lang="bs">Lista poruka na zahtjev i učitavanje dijela tijela ("lijeno učitavanje")</li>
       <li xml:lang="ca">Llista els missatges en demanar-ho i carrega la part del cos («càrrega retardada»)</li>
       <li xml:lang="ca-valencia">Llista els missatges en demanar-ho i carrega la part del cos («càrrega retardada»)</li>
+      <li xml:lang="cs">Načítání seznamu zpráv a obsahu zpráv na vyžádání ("lazy loading")</li>
       <li xml:lang="da">Indlæsning af brevliste og brevkrop efter behov ("doven indlæsning")</li>
       <li xml:lang="de">Abrufen der Nachrichtenliste und -teile auf Nachfrage („lazy loading“)</li>
       <li xml:lang="el">Κατ' απαίτηση λίστα μηνυμάτων και φόρτωση κειμένου («καθυστερημένη φόρτωση»)</li>
@@ -316,7 +320,7 @@
       <li xml:lang="bs">Podrška za izvanmrežni IMAP</li>
       <li xml:lang="ca">Permet IMAP desconnectat</li>
       <li xml:lang="ca-valencia">Permet IMAP desconnectat</li>
-      <li xml:lang="cs">Offline podpora IMAP</li>
+      <li xml:lang="cs">Podpora offline IMAP</li>
       <li xml:lang="da">Understøttelse af offline-IMAP</li>
       <li xml:lang="de">Unterstützung für Offline-IMAP</li>
       <li xml:lang="el">Εκτός δικτύου υποστήριξη IMAP</li>
@@ -354,6 +358,7 @@
       <li xml:lang="bs">Podrška za režim snimanja propusnosti ciljan za korisnike mobilnih uređaja za skupom konekcijom</li>
       <li xml:lang="ca">Permet el mode d'estalvi de l'amplada de banda destinat als usuaris de mòbils amb una connexió cara</li>
       <li xml:lang="ca-valencia">Permet el mode d'estalvi de l'amplada de banda destinat als usuaris de mòbils amb una connexió cara</li>
+      <li xml:lang="cs">Podpora režimu úspory šířky pásma určeného pro mobilní uživatele s drahým připojením</li>
       <li xml:lang="da">Understøttelse af båndbreddebesparende tilstand til mobile brugere med dyr forbindelse</li>
       <li xml:lang="de">Unterstützung eines bandbreitesparenden Modus’ für Nutzer mobiler Geräte mit teurer Verbindung</li>
       <li xml:lang="el">Υποστήριξη λειτουργίας μείωσης της ευρυζωνικής κατανάλωσης για χρήστες κινητών με ακριβές συνδέσεις</li>
@@ -390,6 +395,7 @@
       <li xml:lang="bs">IMAP prije SSH -- umjesto ići preko SSL priključka, serveru se može pristupiti preko SSH</li>
       <li xml:lang="ca">IMAP a través de SSH: en comptes d'anar a través d'un sòcol de SSL, el servidor pot accedir a través de SSH</li>
       <li xml:lang="ca-valencia">IMAP a través de SSH: en comptes d'anar a través d'un sòcol de SSL, el servidor pot accedir a través de SSH</li>
+      <li xml:lang="cs">IMAP přes SSH – namísto připojení přes SSL soket je možné se k serveru připojit přes SSH</li>
       <li xml:lang="da">IMAP over SSH -- i stedet for at gå over en SSL-sokkel, kan serveren tilgås via SSH</li>
       <li xml:lang="de">IMAP über SSH – statt über einen SSL-Sockets kann der Server über SSH erreicht werden</li>
       <li xml:lang="el">IMAP πάνω από SSH -- αντί πάνω από SSL υποδοχή, η πρόσβαση στο διακομιστή γίνεται με SSH</li>
@@ -426,6 +432,7 @@
       <li xml:lang="bs">Sigurno i čvrsto poslovanje sa HTML mail-om</li>
       <li xml:lang="ca">Manté un tracte segur i robust amb el correu HTML</li>
       <li xml:lang="ca-valencia">Manté un tracte segur i robust amb el correu HTML</li>
+      <li xml:lang="cs">Bezpečné a spolehlivé zpracování e-mailů ve formátu HTML</li>
       <li xml:lang="da">Sikker og robust håndtering af HTML-e-mails</li>
       <li xml:lang="de">Sicherer und robuster Umgang mit HTML-E-Mails</li>
       <li xml:lang="el">Ασφαλής και σταθερή ανταπόκριση με μηνύματα σε HTML</li>
@@ -470,6 +477,7 @@
       <caption xml:lang="az">Mətn həddindən artıq olduqda yığılır</caption>
       <caption xml:lang="ca">El text citat excessivament es redueix</caption>
       <caption xml:lang="ca-valencia">El text citat excessivament es reduïx</caption>
+      <caption xml:lang="cs">Text, který je příliš často citován, se automaticky sbalí</caption>
       <caption xml:lang="da">Automatisk sammenfoldning af tekst med mange citeringer</caption>
       <caption xml:lang="de">Überbordende Textzitate werden automatisch eingeklappt</caption>
       <caption xml:lang="el">Το υπέρμετρο κείμενο σε παράθεση συμπτύσσεται αυτόματα</caption>
@@ -508,6 +516,7 @@
       <caption xml:lang="az">Sadə bir dildə yazılan şifrələnmiş və imzalanmış e-məktublar dəstəklənir</caption>
       <caption xml:lang="ca">Funciona amb correu electrònic encriptat i signat, amb l'estat indicat en anglès</caption>
       <caption xml:lang="ca-valencia">Funciona amb correu electrònic encriptat i signat, amb l'estat indicat en anglés</caption>
+      <caption xml:lang="cs">Podporovány jsou šifrované a podepsané e-maily, přičemž stav je uveden srozumitelným jazykem</caption>
       <caption xml:lang="da">Understøttelse af krypteret og signeret e-mail, med status i ren engelsk</caption>
       <caption xml:lang="de">Es werden verschlüsselte und signierte E-Mails unterstützt, der Status wird in normaler Sprache ausgegeben</caption>
       <caption xml:lang="el">Υποστήριξη υπογεγραμμένων μηνυμάτων· η κατάσταση εμφανίζεται σε ανεπεξέργαστο κείμενο στην Αγγλική γλώσσα.</caption>
