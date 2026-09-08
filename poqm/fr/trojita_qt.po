@@ -1069,7 +1069,7 @@ msgstr "Créer une boite aux lettres"
 #: src/Gui/CreateMailboxDialog.ui:22
 msgctxt "CreateMailboxDialog|"
 msgid "&Mailbox:"
-msgstr "&Boîte aux lettres :"
+msgstr "&Boite aux lettres :"
 
 #: src/Gui/CreateMailboxDialog.ui:39
 msgctxt "CreateMailboxDialog|"
@@ -1761,7 +1761,7 @@ msgstr ""
 #: src/Gui/SettingsCachePage.ui:115
 msgctxt "CachePage|"
 msgid "&INBOX Only"
-msgstr "Boîte de récept&ion uniquement"
+msgstr "Boite de récept&ion uniquement"
 
 #: src/Gui/SettingsCachePage.ui:122
 msgctxt "CachePage|"
@@ -1792,7 +1792,7 @@ msgstr ""
 #: src/Gui/SettingsCachePage.ui:135
 msgctxt "CachePage|"
 msgid "&Subscribed Mailboxes"
-msgstr "&Boîtes aux lettres souscrites"
+msgstr "&Boites aux lettres souscrites"
 
 #: src/Gui/SettingsDialog.cpp:85
 msgctxt "Gui::SettingsDialog|"
@@ -3366,7 +3366,7 @@ msgstr "&Disposition"
 #: src/Gui/Window.cpp:749
 msgctxt "Gui::MainWindow|"
 msgid "Mail&box"
-msgstr "&Boîte aux lettres"
+msgstr "&Boite aux lettres"
 
 #: src/Gui/Window.cpp:750
 msgctxt "Gui::MainWindow|"
@@ -3879,7 +3879,7 @@ msgstr "Synchronisation de la boite aux lettres..."
 #: src/Imap/ConnectionState.cpp:69
 msgctxt "QObject|"
 msgid "Mailbox opened."
-msgstr "Boîte aux lettres ouverte."
+msgstr "Boite aux lettres ouverte."
 
 #: src/Imap/ConnectionState.cpp:71
 msgctxt "QObject|"
@@ -4754,7 +4754,7 @@ msgstr "Téléchargement des en-têtes"
 #: src/Imap/Tasks/FetchMsgPartTask.cpp:75
 msgctxt "Imap::Mailbox::FetchMsgPartTask|"
 msgid "Mailbox disappeared"
-msgstr "Boîte aux lettres disparue."
+msgstr "Boite aux lettres disparue."
 
 #: src/Imap/Tasks/FetchMsgPartTask.cpp:121
 msgctxt "Imap::Mailbox::FetchMsgPartTask|"
