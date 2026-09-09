@@ -529,7 +529,7 @@ msgstr "Nepavyko inicijuoti GpgME (%1)"
 #: src/Cryptography/GpgMe++.cpp:640
 msgctxt "GpgMeSigned|"
 msgid "Signed message is gone"
-msgstr ""
+msgstr "Pasirašyto laiško nebėra"
 
 #: src/Cryptography/GpgMe++.cpp:652
 msgctxt "GpgMeSigned|"
@@ -577,7 +577,7 @@ msgstr "Nepavyko inicijuoti GpgME (%1)"
 #: src/Cryptography/GpgMe++.cpp:785 src/Cryptography/GpgMe++.cpp:921
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
-msgstr ""
+msgstr "Šifruoto laiško nebėra"
 
 #: src/Cryptography/GpgMe++.cpp:795
 msgctxt "GpgMeEncrypted|"
@@ -1341,7 +1341,7 @@ msgstr ""
 #, qt-format
 msgctxt "MessageActionHandler|"
 msgid "On %1, %2 wrote:\n"
-msgstr ""
+msgstr "%1, %2 rašė:\n"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
@@ -1861,7 +1861,7 @@ msgstr "Vietinis procesas"
 #: src/Gui/SettingsDialog.cpp:703
 msgctxt "Gui::ImapPage|"
 msgid "No encryption"
-msgstr ""
+msgstr "Be šifravimo"
 
 #: src/Gui/SettingsDialog.cpp:704
 msgctxt "Gui::ImapPage|"
@@ -1871,7 +1871,7 @@ msgstr "Naudoti šifravimą (STARTTLS)"
 #: src/Gui/SettingsDialog.cpp:705
 msgctxt "Gui::ImapPage|"
 msgid "Force encryption (TLS)"
-msgstr ""
+msgstr "Priverstinis šifravimas (TLS)"
 
 #: src/Gui/SettingsDialog.cpp:827
 msgctxt "Gui::ImapPage|"
@@ -3734,7 +3734,7 @@ msgstr "Spalva"
 #: src/Imap/Model/FullMessageCombiner.cpp:79
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Message is gone"
-msgstr ""
+msgstr "Laiško nebėra"
 
 #: src/Imap/Model/FullMessageCombiner.cpp:91
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
@@ -3950,7 +3950,7 @@ msgstr "Įkeliama..."
 #: src/Imap/Model/PrettyMsgListModel.cpp:113
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
 msgid "(no subject)"
-msgstr ""
+msgstr "(Be temos)"
 
 #: src/Imap/Model/SQLCache.cpp:97
 msgctxt "QObject|"
@@ -4337,7 +4337,7 @@ msgstr ""
 #: src/Imap/Network/FileDownloadManager.cpp:44
 msgctxt "Imap::Network::FileDownloadManager|"
 msgid "Cannot translate CID URL: message is gone"
-msgstr ""
+msgstr "Nepavyksta išversti CID URL: laiško nebėra"
 
 #: src/Imap/Network/FileDownloadManager.cpp:56
 #, qt-format
@@ -4753,7 +4753,7 @@ msgstr ""
 #: src/Imap/Tasks/OpenConnectionTask.cpp:317
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "The operation is not permitted due to a lack of privacy."
-msgstr ""
+msgstr "Operacija neleidžiama dėl privatumo stokos."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:320
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
