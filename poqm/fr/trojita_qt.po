@@ -498,7 +498,7 @@ msgstr "La validité de la signature est inconnue."
 #: src/Cryptography/GpgMe++.cpp:523
 msgctxt "GpgMePart|"
 msgid "Trust chain:"
-msgstr "Chaîne de confiance :"
+msgstr "Chaine de confiance :"
 
 #: src/Cryptography/GpgMe++.cpp:529
 #, qt-format
