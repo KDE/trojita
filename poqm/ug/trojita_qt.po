@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-08-26 01:57+0000\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -764,7 +764,7 @@ msgstr ""
 #: src/Gui/ComposeWidget.cpp:237
 msgctxt "ComposeWidget|"
 msgid "Threaded"
-msgstr ""
+msgstr "كۆپ جەريانچاق"
 
 #: src/Gui/ComposeWidget.cpp:357
 msgctxt "ComposeWidget|"
@@ -1179,7 +1179,7 @@ msgstr "ھەممىنى يورۇت(&H)"
 #: src/Gui/FindBar.cpp:62
 msgctxt "Gui::FindBar|"
 msgid "Esc"
-msgstr "Esc"
+msgstr ""
 
 #: src/Gui/FindBar.cpp:68
 msgctxt "Gui::FindBar|"
@@ -1194,7 +1194,7 @@ msgstr "كېيىنكى(&N)"
 #: src/Gui/FindBar.cpp:82
 msgctxt "Gui::FindBar|"
 msgid "F3"
-msgstr "F3"
+msgstr ""
 
 #: src/Gui/FindBar.cpp:83
 msgctxt "Gui::FindBar|"
@@ -1282,7 +1282,7 @@ msgstr ""
 #: src/Gui/main.cpp:85
 msgctxt "QObject|"
 msgid "[url]"
-msgstr "[url]"
+msgstr ""
 
 #: src/Gui/main.cpp:108
 #, qt-format
@@ -1552,7 +1552,7 @@ msgstr "ساپ تېكىست"
 #: src/Gui/PartWidget.cpp:147
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "HTML"
-msgstr "HTML"
+msgstr ""
 
 #: src/Gui/PartWidget.cpp:153
 msgctxt "Gui::MultipartAlternativeWidget|"
@@ -1613,7 +1613,7 @@ msgstr "ھەممىنى تازىلا"
 #: src/Gui/ProtocolLoggerWidget.cpp:77
 msgctxt "Gui::ProtocolLoggerWidget|"
 msgid "Failed to open file"
-msgstr ""
+msgstr "ھۆججەتنى ئاچالمىدى"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:104
 #, qt-format
@@ -1998,7 +1998,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:122
 msgctxt "GeneralPage|"
 msgid " s"
-msgstr " s"
+msgstr ""
 
 #. The action will happen *after* user-provided timeout in seconds
 #: src/Gui/SettingsGeneralPage.ui:125
@@ -2822,7 +2822,7 @@ msgstr ""
 #: src/Gui/Window.cpp:292
 msgctxt "Gui::MainWindow|"
 msgid "Navigate Back"
-msgstr ""
+msgstr "كەينىگە قايت"
 
 #: src/Gui/Window.cpp:293
 msgctxt "Gui::MainWindow|"
@@ -3407,7 +3407,7 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
-msgstr "<li>%1</li>\n"
+msgstr ""
 
 #: src/Gui/Window.cpp:2527
 msgctxt "Gui::MainWindow|"
@@ -3471,7 +3471,7 @@ msgstr ""
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
-msgstr "<ul>%1</ul>"
+msgstr ""
 
 #: src/Gui/Window.cpp:2566
 msgctxt "Gui::MainWindow|"
@@ -3646,7 +3646,7 @@ msgstr ""
 #: src/Imap/Model/FavoriteTagsModel.cpp:124
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
 msgid "#"
-msgstr "#"
+msgstr ""
 
 #: src/Imap/Model/FavoriteTagsModel.cpp:126
 msgctxt "Imap::Mailbox::FavoriteTagsModel|"
@@ -3826,7 +3826,7 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%1 (%2)"
-msgstr "%1 (%2)"
+msgstr ""
 
 #: src/Imap/Model/PrettyMailboxModel.cpp:121
 #, qt-format
@@ -4225,7 +4225,7 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::Mailbox::TaskPresentationModel|"
 msgid "%1: %2"
-msgstr "%1: %2"
+msgstr ""
 
 #: src/Imap/Model/ThreadingMsgListModel.cpp:328
 msgctxt "Imap::Mailbox::ThreadingMsgListModel|"
@@ -4634,6 +4634,7 @@ msgid ""
 "Authentication failed.  This often happens due to bad password or wrong user "
 "name."
 msgstr ""
+"دەلىللىيەلمىدى.  This often happens due to bad password or wrong user name."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:307
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4671,7 +4672,7 @@ msgstr ""
 #, qt-format
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:383
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4912,12 +4913,10 @@ msgstr ""
 
 #. Translators: %1 is the filename of the abook database file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:254
-#, fuzzy, qt-format
-#| msgctxt "Imap::ImapAccess|"
-#| msgid "Failed to create directory %1"
+#, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
-msgstr "%1 مۇندەرىجە قۇرالمىدى"
+msgstr ""
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:449
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
@@ -5225,33 +5224,33 @@ msgstr ""
 #: src/UiUtils/Formatting.cpp:40
 msgctxt "Formatting|"
 msgid "B"
-msgstr "B"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:41
 msgctxt "Formatting|"
 msgid "kB"
-msgstr "kB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:42
 msgctxt "Formatting|"
 msgid "MB"
-msgstr "MB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:43
 msgctxt "Formatting|"
 msgid "GB"
-msgstr "GB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:44
 msgctxt "Formatting|"
 msgid "TB"
-msgstr "TB"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:67
 #, qt-format
 msgctxt "Formatting|"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:86
 msgctxt ""
@@ -5315,7 +5314,7 @@ msgstr "\n"
 #, qt-format
 msgctxt "Formatting|"
 msgid "<li>%1</li>"
-msgstr "<li>%1</li>"
+msgstr ""
 
 #: src/UiUtils/Formatting.cpp:163
 msgctxt "Formatting|"
