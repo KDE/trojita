@@ -24,7 +24,7 @@ msgid_plural " - %n unread message(s)"
 msgstr[0] "%n unread message"
 msgstr[1] "%n unread messages"
 
-#: ../src/Gui/Window.cpp:2595
+#: ../src/Gui/Window.cpp:2596
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"

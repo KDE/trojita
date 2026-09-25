@@ -3774,7 +3774,7 @@ msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr "Deconectat"
 
-#: src/Gui/Window.cpp:1151 src/Gui/Window.cpp:2601
+#: src/Gui/Window.cpp:1151 src/Gui/Window.cpp:2602
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
@@ -3893,12 +3893,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr ""
 
-#: src/Gui/Window.cpp:2068
+#: src/Gui/Window.cpp:2069
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:2069
+#: src/Gui/Window.cpp:2070
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3906,12 +3906,12 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2074
+#: src/Gui/Window.cpp:2075
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr ""
 
-#: src/Gui/Window.cpp:2075
+#: src/Gui/Window.cpp:2076
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3919,7 +3919,7 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2080
+#: src/Gui/Window.cpp:2081
 #, fuzzy
 #| msgctxt "CreateMailboxDialog|"
 #| msgid "Create Mailbox"
@@ -3927,7 +3927,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Creează cutie poștală"
 
-#: src/Gui/Window.cpp:2081
+#: src/Gui/Window.cpp:2082
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3935,18 +3935,18 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2130
+#: src/Gui/Window.cpp:2131
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr ""
 
-#: src/Gui/Window.cpp:2145
+#: src/Gui/Window.cpp:2146
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr ""
 
-#: src/Gui/Window.cpp:2152
+#: src/Gui/Window.cpp:2153
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -3954,12 +3954,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Mesaj semnat"
 
-#: src/Gui/Window.cpp:2159
+#: src/Gui/Window.cpp:2160
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr ""
 
-#: src/Gui/Window.cpp:2170
+#: src/Gui/Window.cpp:2171
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::CertificateUtils|"
 #| msgid "<li>%1</li>"
@@ -3967,13 +3967,13 @@ msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1</li>"
 
-#: src/Gui/Window.cpp:2171
+#: src/Gui/Window.cpp:2172
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2182
+#: src/Gui/Window.cpp:2183
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -3981,7 +3981,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
 msgstr "Expedierea poștei a eșuat"
 
-#: src/Gui/Window.cpp:2237
+#: src/Gui/Window.cpp:2238
 #, fuzzy
 #| msgctxt "Gui::AttachmentView|"
 #| msgid "Can't save attachment"
@@ -3989,7 +3989,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Atașamentul nu poate fi salvat"
 
-#: src/Gui/Window.cpp:2238
+#: src/Gui/Window.cpp:2239
 #, fuzzy, qt-format
 #| msgctxt "Gui::AttachmentView|"
 #| msgid ""
@@ -4003,63 +4003,63 @@ msgstr ""
 "Atașamentul nu poate fi salvat. Eroare:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2243
+#: src/Gui/Window.cpp:2244
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Salvează mesajul"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2259
+#: src/Gui/Window.cpp:2260
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr ""
 
-#: src/Gui/Window.cpp:2274 src/Gui/Window.cpp:2296
+#: src/Gui/Window.cpp:2275 src/Gui/Window.cpp:2297
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Închide"
 
-#: src/Gui/Window.cpp:2276 src/Gui/Window.cpp:2298
+#: src/Gui/Window.cpp:2277 src/Gui/Window.cpp:2299
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2520
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2527
+#: src/Gui/Window.cpp:2528
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Necunoscut"
 
-#: src/Gui/Window.cpp:2541
+#: src/Gui/Window.cpp:2542
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2543
+#: src/Gui/Window.cpp:2544
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Server: %1 %2"
 
-#: src/Gui/Window.cpp:2545
+#: src/Gui/Window.cpp:2546
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Server: %1"
 
-#: src/Gui/Window.cpp:2548
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2552
+#: src/Gui/Window.cpp:2553
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid " on %1 %2"
@@ -4069,7 +4069,7 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " la %1 %2"
 
-#: src/Gui/Window.cpp:2554
+#: src/Gui/Window.cpp:2555
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid " on %1 %2"
@@ -4077,35 +4077,35 @@ msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " la %1 %2"
 
-#: src/Gui/Window.cpp:2556
+#: src/Gui/Window.cpp:2557
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2558
+#: src/Gui/Window.cpp:2559
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2562
+#: src/Gui/Window.cpp:2563
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2564
+#: src/Gui/Window.cpp:2565
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2566
+#: src/Gui/Window.cpp:2567
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2573
+#: src/Gui/Window.cpp:2574
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4113,7 +4113,7 @@ msgid ""
 "<p>The following capabilities are currently advertised:</p>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2575
+#: src/Gui/Window.cpp:2576
 #, fuzzy, qt-format
 #| msgctxt "Imap::Mailbox::CertificateUtils|"
 #| msgid "<li>%1</li>"
@@ -4123,7 +4123,7 @@ msgid ""
 "%1</ul>"
 msgstr "<li>%1</li>"
 
-#: src/Gui/Window.cpp:2595
+#: src/Gui/Window.cpp:2596
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Trojitá"
@@ -4134,7 +4134,7 @@ msgstr[0] "Trojitá"
 msgstr[1] "Trojitá"
 msgstr[2] "Trojitá"
 
-#: src/Gui/Window.cpp:2598
+#: src/Gui/Window.cpp:2599
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Trojitá"
@@ -4142,7 +4142,7 @@ msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "Trojitá"
 
-#: src/Gui/Window.cpp:3023
+#: src/Gui/Window.cpp:3024
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""

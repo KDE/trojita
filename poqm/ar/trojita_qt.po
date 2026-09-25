@@ -3377,7 +3377,7 @@ msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr " - غير متّصل"
 
-#: src/Gui/Window.cpp:1151 src/Gui/Window.cpp:2601
+#: src/Gui/Window.cpp:1151 src/Gui/Window.cpp:2602
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "تروجيتا"
@@ -3488,12 +3488,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "أمتأكّد من حذف صندوق البريد %1؟"
 
-#: src/Gui/Window.cpp:2068
+#: src/Gui/Window.cpp:2069
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "تعذّر حذف صندوق البريد"
 
-#: src/Gui/Window.cpp:2069
+#: src/Gui/Window.cpp:2070
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3503,12 +3503,12 @@ msgstr ""
 "فشل حذف صندوق البريد \"%1\" بالرّسالة الآتية:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2074
+#: src/Gui/Window.cpp:2075
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "تعذّر إنشاء صندوق البريد"
 
-#: src/Gui/Window.cpp:2075
+#: src/Gui/Window.cpp:2076
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3518,12 +3518,12 @@ msgstr ""
 "فشل إنشاء صندوق البريد \"%1\" بالرّسالة الآتية:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2080
+#: src/Gui/Window.cpp:2081
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "تعذّر فتح صندوق البريد"
 
-#: src/Gui/Window.cpp:2081
+#: src/Gui/Window.cpp:2082
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3533,50 +3533,50 @@ msgstr ""
 "فشل فتح صندوق البريد \"%1\" بالرّسالة الآتية:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2130
+#: src/Gui/Window.cpp:2131
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "هدف الارتباط: %1"
 
-#: src/Gui/Window.cpp:2145
+#: src/Gui/Window.cpp:2146
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr "الملحقات"
 
-#: src/Gui/Window.cpp:2152
+#: src/Gui/Window.cpp:2153
 msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "رسائل معمّاة وموَقَّعة"
 
-#: src/Gui/Window.cpp:2159
+#: src/Gui/Window.cpp:2160
 msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "ضغط IMAP"
 
-#: src/Gui/Window.cpp:2170
+#: src/Gui/Window.cpp:2171
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: مدعوم</li>"
 
-#: src/Gui/Window.cpp:2171
+#: src/Gui/Window.cpp:2172
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr "<li>%1: <strong>معطّل</strong></li>"
 
-#: src/Gui/Window.cpp:2182
+#: src/Gui/Window.cpp:2183
 msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
 msgstr "أخفق في فتح ملف الرخصة."
 
-#: src/Gui/Window.cpp:2237
+#: src/Gui/Window.cpp:2238
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "تعذّر الحفظ إلى الملفّ"
 
-#: src/Gui/Window.cpp:2238
+#: src/Gui/Window.cpp:2239
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3586,63 +3586,63 @@ msgstr ""
 "تعذّر الحفظ إلى الملفّ. خطأ:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2243
+#: src/Gui/Window.cpp:2244
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "احفظ الرّسالة"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2259
+#: src/Gui/Window.cpp:2260
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "مصدر رسالة UID %1 في %2"
 
-#: src/Gui/Window.cpp:2274 src/Gui/Window.cpp:2296
+#: src/Gui/Window.cpp:2275 src/Gui/Window.cpp:2297
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "أغلق"
 
-#: src/Gui/Window.cpp:2276 src/Gui/Window.cpp:2298
+#: src/Gui/Window.cpp:2277 src/Gui/Window.cpp:2299
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2520
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2527
+#: src/Gui/Window.cpp:2528
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "مجهول"
 
-#: src/Gui/Window.cpp:2541
+#: src/Gui/Window.cpp:2542
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2543
+#: src/Gui/Window.cpp:2544
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "الخادم: %1 %2"
 
-#: src/Gui/Window.cpp:2545
+#: src/Gui/Window.cpp:2546
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "الخادم: %1"
 
-#: src/Gui/Window.cpp:2548
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2552
+#: src/Gui/Window.cpp:2553
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -3650,41 +3650,41 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " على %1 %2"
 
-#: src/Gui/Window.cpp:2554
+#: src/Gui/Window.cpp:2555
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr "على %1"
 
-#: src/Gui/Window.cpp:2556
+#: src/Gui/Window.cpp:2557
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2558
+#: src/Gui/Window.cpp:2559
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>لم يرجع خادم IMAP معلومات عنه.</p>"
 
-#: src/Gui/Window.cpp:2562
+#: src/Gui/Window.cpp:2563
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2564
+#: src/Gui/Window.cpp:2565
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2566
+#: src/Gui/Window.cpp:2567
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr "<p>لم يوفّر الخادم معلومات عن إصدار برمجيّته.</p>"
 
-#: src/Gui/Window.cpp:2573
+#: src/Gui/Window.cpp:2574
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3694,7 +3694,7 @@ msgstr ""
 "%1\n"
 "<p>الإمكانيات التالية مُعلَن عنها حاليًا:</p>"
 
-#: src/Gui/Window.cpp:2575
+#: src/Gui/Window.cpp:2576
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -3704,7 +3704,7 @@ msgstr ""
 "<ul>\n"
 "%1</ul>"
 
-#: src/Gui/Window.cpp:2595
+#: src/Gui/Window.cpp:2596
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -3716,13 +3716,13 @@ msgstr[3] "%1 - %n غير مقروءة - تروجيتا"
 msgstr[4] "%1 - %n غير مقروءة - تروجيتا"
 msgstr[5] "%1 - %n غير مقروءة - تروجيتا"
 
-#: src/Gui/Window.cpp:2598
+#: src/Gui/Window.cpp:2599
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - تروجيتا"
 
-#: src/Gui/Window.cpp:3023
+#: src/Gui/Window.cpp:3024
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""

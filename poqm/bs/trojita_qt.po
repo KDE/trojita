@@ -3874,7 +3874,7 @@ msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr "Offline"
 
-#: src/Gui/Window.cpp:1151 src/Gui/Window.cpp:2601
+#: src/Gui/Window.cpp:1151 src/Gui/Window.cpp:2602
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr "Trojitá"
@@ -3991,12 +3991,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr "Jeste li sigurni da želite obrisati sandučić %1?"
 
-#: src/Gui/Window.cpp:2068
+#: src/Gui/Window.cpp:2069
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr "Nije mogao obrisati sandučić"
 
-#: src/Gui/Window.cpp:2069
+#: src/Gui/Window.cpp:2070
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4006,12 +4006,12 @@ msgstr ""
 "Brisanje sandučića \"%1\" neuspjelo sa sljedećom porukom:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2074
+#: src/Gui/Window.cpp:2075
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr "Nije mogao kreirati sandučić"
 
-#: src/Gui/Window.cpp:2075
+#: src/Gui/Window.cpp:2076
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4021,12 +4021,12 @@ msgstr ""
 "Kreiranje sandučića \"%1\" neuspjelo sa sljedećom porukom:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2080
+#: src/Gui/Window.cpp:2081
 msgctxt "Gui::MainWindow|"
 msgid "Can't open mailbox"
 msgstr "Otvoriti poštanski sandučić nije moguće"
 
-#: src/Gui/Window.cpp:2081
+#: src/Gui/Window.cpp:2082
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4036,18 +4036,18 @@ msgstr ""
 "Otvaranje poštanskog sandučića \"%1\" nije uspjelo sa sljedećom porukom:\n"
 "%2"
 
-#: src/Gui/Window.cpp:2130
+#: src/Gui/Window.cpp:2131
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr "Link meta: %1"
 
-#: src/Gui/Window.cpp:2145
+#: src/Gui/Window.cpp:2146
 msgctxt "Gui::MainWindow|"
 msgid "Plugins"
 msgstr ""
 
-#: src/Gui/Window.cpp:2152
+#: src/Gui/Window.cpp:2153
 #, fuzzy
 #| msgctxt "Gui::MultipartSignedWidget|"
 #| msgid "Signed Message"
@@ -4055,7 +4055,7 @@ msgctxt "Gui::MainWindow|"
 msgid "Encrypted and signed messages"
 msgstr "Potpisana poruka"
 
-#: src/Gui/Window.cpp:2159
+#: src/Gui/Window.cpp:2160
 #, fuzzy
 #| msgctxt "QObject|"
 #| msgid "Activating compression..."
@@ -4063,7 +4063,7 @@ msgctxt "Gui::MainWindow|"
 msgid "IMAP compression"
 msgstr "Aktiviranje kompresije..."
 
-#: src/Gui/Window.cpp:2170
+#: src/Gui/Window.cpp:2171
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "<li>%1: %2</li>"
@@ -4071,13 +4071,13 @@ msgctxt "Gui::MainWindow|"
 msgid "<li>%1: supported</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2171
+#: src/Gui/Window.cpp:2172
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: <strong>disabled</strong></li>"
 msgstr ""
 
-#: src/Gui/Window.cpp:2182
+#: src/Gui/Window.cpp:2183
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Failed to Send Mail"
@@ -4085,12 +4085,12 @@ msgctxt "Gui::MainWindow|"
 msgid "Failed to open license file."
 msgstr "Neuspjelo slanje maila"
 
-#: src/Gui/Window.cpp:2237
+#: src/Gui/Window.cpp:2238
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr "Nije mogao snimiti u datoteku"
 
-#: src/Gui/Window.cpp:2238
+#: src/Gui/Window.cpp:2239
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -4100,63 +4100,63 @@ msgstr ""
 "Neuspješno snimanje u datoteku. Greška:\n"
 "%1"
 
-#: src/Gui/Window.cpp:2243
+#: src/Gui/Window.cpp:2244
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr "Snimite poruku"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
-#: src/Gui/Window.cpp:2259
+#: src/Gui/Window.cpp:2260
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr "Izvor poruke UID %1 u %2"
 
-#: src/Gui/Window.cpp:2274 src/Gui/Window.cpp:2296
+#: src/Gui/Window.cpp:2275 src/Gui/Window.cpp:2297
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "Zatvorite"
 
-#: src/Gui/Window.cpp:2276 src/Gui/Window.cpp:2298
+#: src/Gui/Window.cpp:2277 src/Gui/Window.cpp:2299
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: src/Gui/Window.cpp:2519
+#: src/Gui/Window.cpp:2520
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: src/Gui/Window.cpp:2527
+#: src/Gui/Window.cpp:2528
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "Nepoznato"
 
-#: src/Gui/Window.cpp:2541
+#: src/Gui/Window.cpp:2542
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: src/Gui/Window.cpp:2543
+#: src/Gui/Window.cpp:2544
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "Server: %1 %2"
 
-#: src/Gui/Window.cpp:2545
+#: src/Gui/Window.cpp:2546
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "Server: %1"
 
-#: src/Gui/Window.cpp:2548
+#: src/Gui/Window.cpp:2549
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: src/Gui/Window.cpp:2552
+#: src/Gui/Window.cpp:2553
 #, qt-format
 msgctxt ""
 "Gui::MainWindow|%1 is the operating system of an IMAP server and %2 is its "
@@ -4164,41 +4164,41 @@ msgctxt ""
 msgid " on %1 %2"
 msgstr " na %1 %2"
 
-#: src/Gui/Window.cpp:2554
+#: src/Gui/Window.cpp:2555
 #, qt-format
 msgctxt "Gui::MainWindow|%1 is the operationg system of an IMAP server."
 msgid " on %1"
 msgstr " na %1"
 
-#: src/Gui/Window.cpp:2556
+#: src/Gui/Window.cpp:2557
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: src/Gui/Window.cpp:2558
+#: src/Gui/Window.cpp:2559
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr "<p>IMAP server nije dao povratnu informaciju o sebi.</p>"
 
-#: src/Gui/Window.cpp:2562
+#: src/Gui/Window.cpp:2563
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr "<li>%1: %2</li>"
 
-#: src/Gui/Window.cpp:2564
+#: src/Gui/Window.cpp:2565
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2566
+#: src/Gui/Window.cpp:2567
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr "<p>Server nije dao informaciju o svojoj verziji softvera.</p>"
 
-#: src/Gui/Window.cpp:2573
+#: src/Gui/Window.cpp:2574
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid ""
@@ -4214,7 +4214,7 @@ msgstr ""
 "<ul>\n"
 "%2</ul>"
 
-#: src/Gui/Window.cpp:2575
+#: src/Gui/Window.cpp:2576
 #, fuzzy, qt-format
 #| msgctxt "Gui::MainWindow|"
 #| msgid "<ul>%1</ul>"
@@ -4224,7 +4224,7 @@ msgid ""
 "%1</ul>"
 msgstr "<ul>%1</ul>"
 
-#: src/Gui/Window.cpp:2595
+#: src/Gui/Window.cpp:2596
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %n unread - Trojitá"
@@ -4233,13 +4233,13 @@ msgstr[0] "%1 - %n nepročitano - Trojitá"
 msgstr[1] "%1 - %n nepročitano - Trojitá"
 msgstr[2] "%1 - %n nepročitano - Trojitá"
 
-#: src/Gui/Window.cpp:2598
+#: src/Gui/Window.cpp:2599
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr "%1 - Trojitá"
 
-#: src/Gui/Window.cpp:3023
+#: src/Gui/Window.cpp:3024
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Tag with \"%1\""
