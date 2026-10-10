@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-09-26 10:00+0200\n"
+"PO-Revision-Date: 2026-10-09 21:05+0200\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -106,7 +106,7 @@ msgstr "Имя"
 #: src/Composer/SenderIdentitiesModel.cpp:96
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "E-mail"
-msgstr "Адрес эл. почты"
+msgstr "Адрес электронной почты"
 
 #: src/Composer/SenderIdentitiesModel.cpp:98
 msgctxt "Composer::SenderIdentitiesModel|"
@@ -201,12 +201,12 @@ msgstr ""
 #, qt-format
 msgctxt "Submission|"
 msgid "APPEND failed: %1"
-msgstr "Не удалось добавить: %1"
+msgstr "Не удалось выполнить APPEND: %1"
 
 #: src/Composer/Submission.cpp:391
 msgctxt "Submission|"
 msgid "The URLAUTH response does not contain a proper URL"
-msgstr "Ошибка: ответ URLAUTH не содержит корректного URL"
+msgstr "Ответ URLAUTH не содержит корректного URL"
 
 #: src/Cryptography/GpgMe++.cpp:54
 #, qt-format
@@ -316,7 +316,7 @@ msgstr "Неверная подпись: %1"
 #, qt-format
 msgctxt "GpgMePart|"
 msgid "Bad signature by %1 on %2"
-msgstr "Неверная подпись от %1, созданная %2"
+msgstr "Неверная подпись от %1, создана %2"
 
 #: src/Cryptography/GpgMe++.cpp:397
 msgctxt "GpgMePart|"
@@ -563,7 +563,7 @@ msgstr "В подписанном сообщении нет подписей"
 #: src/Cryptography/GpgMe++.cpp:738 src/Cryptography/GpgMe++.cpp:812
 msgctxt "GpgMeEncrypted|"
 msgid "Malformed Encrypted Message"
-msgstr "Некорректное зашифрованное письмо"
+msgstr "Некорректное зашифрованное сообщение"
 
 #: src/Cryptography/GpgMe++.cpp:739
 #, qt-format
@@ -585,7 +585,7 @@ msgstr "Не удалось инициализировать GpgME (%1)"
 #: src/Cryptography/GpgMe++.cpp:785 src/Cryptography/GpgMe++.cpp:921
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message is gone"
-msgstr "Зашифрованное письмо отсутствует"
+msgstr "Зашифрованное сообщение отсутствует"
 
 #: src/Cryptography/GpgMe++.cpp:795
 msgctxt "GpgMeEncrypted|"
@@ -598,7 +598,7 @@ msgid ""
 "Cannot decrypt. Some data are not available, perhaps due to an offline "
 "network connection."
 msgstr ""
-"Не удалось расшифровать. Некоторые данные недоступны, возможно, из-за "
+"Не удалось расшифровать. Некоторые данные недоступны — возможно, из-за "
 "отсутствия подключения к сети."
 
 #: src/Cryptography/GpgMe++.cpp:813
@@ -616,7 +616,7 @@ msgstr "Расшифровка…"
 #: src/Cryptography/GpgMe++.cpp:862
 msgctxt "GpgMeEncrypted|"
 msgid "Broken encrypted message"
-msgstr "Повреждённое зашифрованное письмо"
+msgstr "Повреждённое зашифрованное сообщение"
 
 #: src/Cryptography/GpgMe++.cpp:865
 #, qt-format
@@ -627,7 +627,7 @@ msgstr "Ошибка расшифровки: %1"
 #: src/Cryptography/GpgMe++.cpp:868
 msgctxt "GpgMeEncrypted|"
 msgid "Encrypted message"
-msgstr "Зашифрованное письмо"
+msgstr "Зашифрованное сообщение"
 
 #: src/Cryptography/GpgMe++.cpp:874
 msgctxt "GpgMeEncrypted|"
@@ -667,23 +667,23 @@ msgstr "Исходное имя файла: %1"
 #: src/Gui/AboutDialog.ui:14
 msgctxt "AboutDialog|"
 msgid "About Trojitá"
-msgstr "О программе"
+msgstr "О Trojitá"
 
 #: src/Gui/AboutDialog.ui:152
 msgctxt "AboutDialog|"
 msgid "<p>This is <b>Trojitá</b>, a fast Qt IMAP e-mail client</p>"
-msgstr "<p>Эта <b>Trojitá</b>, первый Qt IMAP почтовый клиент</p>"
+msgstr "<p>Это <b>Trojitá</b>, быстрый почтовый клиент IMAP на Qt</p>"
 
 #: src/Gui/AddressRowWidget.cpp:131
 #, qt-format
 msgctxt "Expander|"
 msgid "Click to see %1 more items"
-msgstr "Щёлкните, чтобы показать ещё %1 элементов"
+msgstr "Щёлкните, чтобы показать ещё элементы: %1"
 
 #: src/Gui/AddressRowWidget.cpp:131
 msgctxt "Expander|"
 msgid "Click to collapse"
-msgstr "Нажмите, чтобы свернуть"
+msgstr "Щёлкните, чтобы свернуть"
 
 #: src/Gui/AttachmentView.cpp:87
 msgctxt "Gui::AttachmentView|"
@@ -698,7 +698,7 @@ msgstr "Открыть напрямую"
 #: src/Gui/AttachmentView.cpp:93
 msgctxt "Gui::AttachmentView|"
 msgid "Show Preview"
-msgstr "Показать предварительный просмотр"
+msgstr "Предварительный просмотр"
 
 #: src/Gui/AttachmentView.cpp:100
 msgctxt "Gui::AttachmentView|"
@@ -775,7 +775,7 @@ msgstr "Отправить"
 #: src/Gui/ComposeWidget.cpp:233
 msgctxt "ComposeWidget|"
 msgid "New Thread"
-msgstr "Создать обсуждение"
+msgstr "Новое обсуждение"
 
 #: src/Gui/ComposeWidget.cpp:236
 msgctxt "ComposeWidget|"
@@ -783,13 +783,13 @@ msgid ""
 "This mail will be sent as a standalone message.<hr/>Change to preserve the "
 "reply hierarchy."
 msgstr ""
-"Это письмо будет отправлено как отдельное сообщение.<hr/>Изменить для "
-"сохранения иерархии ответов."
+"Это письмо будет отправлено как отдельное сообщение.<hr/>Переключите, чтобы "
+"сохранить иерархию ответов."
 
 #: src/Gui/ComposeWidget.cpp:237
 msgctxt "ComposeWidget|"
 msgid "Threaded"
-msgstr "Обсуждения"
+msgstr "В обсуждении"
 
 #: src/Gui/ComposeWidget.cpp:357
 msgctxt "ComposeWidget|"
@@ -799,7 +799,7 @@ msgstr "Ошибка"
 #: src/Gui/ComposeWidget.cpp:357
 msgctxt "ComposeWidget|"
 msgid "Please set appropriate settings for outgoing messages."
-msgstr "Установите нужные параметры для исходящих сообщений."
+msgstr "Задайте параметры для исходящих сообщений."
 
 #: src/Gui/ComposeWidget.cpp:510
 msgctxt "ComposeWidget|"
@@ -903,8 +903,8 @@ msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
 "the draft!</span>"
 msgstr ""
-"<br><span style=\"color:red\">Предупреждение: вложения <b>не</b>сохраняются "
-"этот проект!</span>"
+"<br><span style=\"color:red\">Внимание: вложения <b>не</b> сохраняются в "
+"черновике.</span>"
 
 #: src/Gui/ComposeWidget.cpp:738 src/Gui/Window.cpp:1554
 #: src/Gui/Window.cpp:1556
@@ -1033,7 +1033,7 @@ msgstr "Тема"
 #: src/Gui/ComposeWidget.ui:121
 msgctxt "ComposeWidget|"
 msgid "Attach..."
-msgstr "Вложение..."
+msgstr "Вложить…"
 
 #: src/Gui/CreateMailboxDialog.ui:14
 msgctxt "CreateMailboxDialog|"
@@ -1043,7 +1043,7 @@ msgstr "Создать почтовый ящик"
 #: src/Gui/CreateMailboxDialog.ui:22
 msgctxt "CreateMailboxDialog|"
 msgid "&Mailbox:"
-msgstr "&Почтовая папка:"
+msgstr "&Почтовый ящик:"
 
 #: src/Gui/CreateMailboxDialog.ui:39
 msgctxt "CreateMailboxDialog|"
@@ -1060,12 +1060,12 @@ msgctxt "CreateMailboxDialog|"
 msgid ""
 "Check to add this mailbox to the server-side list of subscribed mailboxes"
 msgstr ""
-"Проверка чтобы добавить этот почтовый ящик в список подписанных папок сервера"
+"Отметьте, чтобы добавить этот почтовый ящик в список подписок на сервере"
 
 #: src/Gui/CreateMailboxDialog.ui:61
 msgctxt "CreateMailboxDialog|"
 msgid "&Subscribe"
-msgstr "П&одписка"
+msgstr "П&одписаться"
 
 #: src/Gui/EditFavoriteTag.ui:20
 msgctxt "EditFavoriteTag|"
@@ -1095,7 +1095,7 @@ msgstr "Настоящее имя"
 #: src/Gui/EditIdentity.ui:39
 msgctxt "EditIdentity|"
 msgid "E-mail"
-msgstr "Адрес эл. почты"
+msgstr "Адрес электронной почты"
 
 #: src/Gui/EditIdentity.ui:52
 msgctxt "EditIdentity|"
@@ -1135,7 +1135,7 @@ msgstr "От"
 #: src/Gui/EnvelopeView.cpp:110
 msgctxt "Gui::EnvelopeView|"
 msgid "sent via"
-msgstr "Отправлено через"
+msgstr "отправлено через"
 
 #: src/Gui/EnvelopeView.cpp:112
 msgctxt "Gui::EnvelopeView|"
@@ -1145,7 +1145,7 @@ msgstr "Отправитель"
 #: src/Gui/EnvelopeView.cpp:118
 msgctxt "Gui::EnvelopeView|"
 msgid "replies to"
-msgstr "Ответы"
+msgstr "ответы на"
 
 #: src/Gui/EnvelopeView.cpp:120
 msgctxt "Gui::EnvelopeView|"
@@ -1160,7 +1160,7 @@ msgstr "Кому"
 #: src/Gui/EnvelopeView.cpp:136
 msgctxt "Gui::EnvelopeView|"
 msgid "Cc'd to"
-msgstr "Адресаты копии"
+msgstr "копия для"
 
 #: src/Gui/EnvelopeView.cpp:138
 msgctxt "Gui::EnvelopeView|"
@@ -1170,7 +1170,7 @@ msgstr "Копия"
 #: src/Gui/EnvelopeView.cpp:144
 msgctxt "Gui::EnvelopeView|"
 msgid "Bcc'd to"
-msgstr "Скрытая копия для"
+msgstr "скрытая копия для"
 
 #: src/Gui/EnvelopeView.cpp:146
 msgctxt "Gui::EnvelopeView|"
@@ -1201,7 +1201,7 @@ msgstr "Загрузить"
 #: src/Gui/ExternalElementsWidget.cpp:36
 msgctxt "Gui::ExternalElementsWidget|"
 msgid "This e-mail wants to load external entities from the Internet"
-msgstr "Эта электронная почта хочет загрузить внешние объекты из интернета"
+msgstr "Это письмо пытается загрузить внешние объекты из Интернета"
 
 #: src/Gui/FindBar.cpp:49
 msgctxt "Gui::FindBar|"
@@ -1284,7 +1284,7 @@ msgstr "Trojitá %1 — быстрый почтовый клиент IMAP на Q
 #: src/Gui/main.cpp:65
 msgctxt "QObject|"
 msgid "Show addressbook window."
-msgstr "Показывать окно адресной книги."
+msgstr "Показать окно адресной книги."
 
 #: src/Gui/main.cpp:69
 msgctxt "QObject|"
@@ -1294,12 +1294,12 @@ msgstr "Создать новое письмо (по умолчанию, есл�
 #: src/Gui/main.cpp:73
 msgctxt "QObject|"
 msgid "Activate debug traffic logging to disk by default."
-msgstr "Включать по умолчанию журналирование отладочного трафика на диск."
+msgstr "Включить по умолчанию запись отладочного журнала трафика на диск."
 
 #: src/Gui/main.cpp:77
 msgctxt "QObject|"
 msgid "Show main window (default when no option is provided)."
-msgstr "Показывать главное окно (по умолчанию, если параметр не указан)."
+msgstr "Показать главное окно (по умолчанию, если параметр не указан)."
 
 #: src/Gui/main.cpp:81
 msgctxt "QObject|"
@@ -1314,7 +1314,7 @@ msgstr "профиль"
 #: src/Gui/main.cpp:84
 msgctxt "QObject|"
 msgid "Mailto: URL address for composing new e-mail."
-msgstr "Адрес URL mailto: для создания нового письма."
+msgstr "Адрес mailto: для создания нового письма."
 
 #: src/Gui/main.cpp:85
 msgctxt "QObject|"
@@ -1325,7 +1325,7 @@ msgstr "[адрес]"
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected argument '%1'."
-msgstr "Предупреждение: Недопустимый аргумент «%1»."
+msgstr "Непредвиденный аргумент «%1»."
 
 #: src/Gui/main.cpp:113
 msgctxt "QObject|"
@@ -1351,7 +1351,7 @@ msgid ""
 "> ...\n"
 "\n"
 msgstr ""
-"%1 %2 отправил зашифрованное письмо:\n"
+"%1 %2 отправил(а) зашифрованное письмо:\n"
 "> ...\n"
 "\n"
 
@@ -1359,7 +1359,7 @@ msgstr ""
 #, qt-format
 msgctxt "MessageActionHandler|"
 msgid "On %1, %2 wrote:\n"
-msgstr "%1 %2 писал:\n"
+msgstr "%1 %2 написал(а):\n"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/MessageHeadersWidget.cpp:44
@@ -1391,11 +1391,11 @@ msgid ""
 "message bodies, etc).<br/><hr/>Experts who have read RFC3501 can use the "
 "<code>:=</code> prefix and switch to a raw IMAP mode."
 msgstr ""
-"Введите текст для поиска в этом почтовом ящике. Значок слева может "
-"использоваться, чтобы ограничить параметры поиска (например, следует ли "
-"включать адреса или тело сообщения, и т. д.).<br/><hr/>Специалисты, которые "
-"читали RFC3501 могут использовать префикс <code>:=</code> и переключиться на "
-"необработанный режим IMAP."
+"Введите текст для поиска в этом почтовом ящике. Значок слева позволяет "
+"ограничить параметры поиска (например, искать ли в адресах или в тексте "
+"сообщений и т. д.).<br/><hr/>Специалисты, знакомые с RFC3501, могут "
+"использовать префикс <code>:=</code> и переключиться в режим прямых запросов "
+"IMAP."
 
 #: src/Gui/MessageListWidget.cpp:57
 msgctxt "Gui::MessageListWidget|"
@@ -1445,7 +1445,7 @@ msgstr "Не …"
 #: src/Gui/MessageListWidget.cpp:87
 msgctxt "Gui::MessageListWidget|"
 msgid "Either... or..."
-msgstr "Либо... или..."
+msgstr "Либо… либо…"
 
 #: src/Gui/MessageListWidget.cpp:89
 msgctxt "Gui::MessageListWidget|"
@@ -1460,12 +1460,12 @@ msgstr "Для получателя"
 #: src/Gui/MessageListWidget.cpp:92
 msgctxt "Gui::MessageListWidget|"
 msgid "About subject"
-msgstr "О теме"
+msgstr "По теме"
 
 #: src/Gui/MessageListWidget.cpp:93
 msgctxt "Gui::MessageListWidget|"
 msgid "Message contains ..."
-msgstr "Сообщение содержит..."
+msgstr "Сообщение содержит…"
 
 #: src/Gui/MessageListWidget.cpp:95
 msgctxt "Gui::MessageListWidget|"
@@ -1480,12 +1480,12 @@ msgstr "Начиная с даты"
 #: src/Gui/MessageListWidget.cpp:98
 msgctxt "Gui::MessageListWidget|"
 msgid "Has been seen"
-msgstr "Был замечен"
+msgstr "Прочитано"
 
 #: src/Gui/MessageListWidget.cpp:100
 msgctxt "Gui::MessageListWidget|"
 msgid "Allow raw IMAP search"
-msgstr "Разрешить необработанный поиск IMAP"
+msgstr "Разрешить прямые запросы IMAP"
 
 #: src/Gui/MessageSourceWidget.cpp:49
 msgctxt "Gui::MessageSourceWidget|"
@@ -1494,7 +1494,7 @@ msgid ""
 "Message"
 msgstr ""
 "Получение\n"
-"Сообщение"
+"сообщения"
 
 #: src/Gui/MessageSourceWidget.cpp:58
 msgctxt "Gui::MessageSourceWidget|"
@@ -1523,7 +1523,7 @@ msgid ""
 "Message"
 msgstr ""
 "Получение\n"
-"письма"
+"сообщения"
 
 #: src/Gui/MessageView.cpp:218
 msgctxt "MessageView|"
@@ -1533,8 +1533,7 @@ msgid ""
 "Message..."
 msgstr ""
 "Ожидание\n"
-"письма\n"
-"…"
+"сообщения…"
 
 #. Translators: use a text which is returned for e-mails older than one day but newer than one week (see UiUtils::Formatting::prettyDate() for the string formats); the idea here is to have a text which is "wide enough" in a typical UI font. The English version uses "Mon" because of the M letter; you should use something similar.
 #: src/Gui/MsgListView.cpp:163
@@ -1545,26 +1544,26 @@ msgstr "Пн 10"
 #: src/Gui/MsgListView.cpp:165
 msgctxt "Gui::MsgListView|"
 msgid "88.8 kB"
-msgstr "88.8 КБ"
+msgstr "88,8 КБ"
 
 #: src/Gui/MsgListView.cpp:222
 #, qt-format
 msgctxt "Gui::MsgListView|"
 msgid "+ %n additional item(s)"
 msgid_plural "+ %n additional item(s)"
-msgstr[0] "+ %n дополнительный пункт"
-msgstr[1] "+ %n дополнительных пункта"
-msgstr[2] "+ %n дополнительных пунктов"
+msgstr[0] "+ ещё %n элемент"
+msgstr[1] "+ ещё %n элемента"
+msgstr[2] "+ ещё %n элементов"
 
 #: src/Gui/MsgListView.cpp:354
 msgctxt "Gui::MsgListView|"
 msgid "Seen status"
-msgstr "Статус"
+msgstr "Прочтение"
 
 #: src/Gui/MsgListView.cpp:357
 msgctxt "Gui::MsgListView|"
 msgid "Flagged status"
-msgstr "Помечено флажком"
+msgstr "Отметка флажком"
 
 #: src/Gui/MsgListView.cpp:360
 msgctxt "Gui::MsgListView|"
@@ -1579,7 +1578,7 @@ msgstr ","
 #: src/Gui/OneEnvelopeAddress.cpp:130
 msgctxt "OneEnvelopeAddress|"
 msgid "(empty display name)"
-msgstr "(отображаемое имя пусто)"
+msgstr "(без отображаемого имени)"
 
 #: src/Gui/OneEnvelopeAddress.cpp:134
 msgctxt "OneEnvelopeAddress|"
@@ -1600,7 +1599,7 @@ msgstr "Копировать текст"
 #: src/Gui/PartWidget.cpp:144
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "Plaintext"
-msgstr "Открытым текстом"
+msgstr "Обычный текст"
 
 #. Translators: caption of the tab which shows a HTML version of the mail. Use some short, compact text here.
 #: src/Gui/PartWidget.cpp:147
@@ -1631,7 +1630,7 @@ msgstr "Ответ в календаре"
 #: src/Gui/PartWidget.cpp:161
 msgctxt "Gui::MultipartAlternativeWidget|"
 msgid "New Meeting"
-msgstr "Создать встречу"
+msgstr "Новая встреча"
 
 #: src/Gui/PartWidget.cpp:211 src/Gui/PartWidget.cpp:256
 msgctxt "Gui::PartStatusWidget|"
@@ -1646,7 +1645,7 @@ msgstr "Скрыть подробности"
 #: src/Gui/PartWidget.cpp:386
 msgctxt "Gui::MultipartSignedEncryptedWidget|"
 msgid "[Encrypted message]"
-msgstr "[Зашифрованное письмо]"
+msgstr "[Зашифрованное сообщение]"
 
 #: src/Gui/PasswordDialog.ui:14
 msgctxt "PasswordDialog|"
@@ -1657,7 +1656,7 @@ msgstr "Требуется аутентификация"
 #, qt-format
 msgctxt "PasswordDialog|"
 msgid "<p>Please provide password for %1 on %2.</p>"
-msgstr "<p>Пожалуйста, предоставьте пароль для %1 на %2.</p>"
+msgstr "<p>Введите пароль для %1 на %2.</p>"
 
 #: src/Gui/ProtocolLoggerWidget.cpp:52
 msgctxt "Gui::ProtocolLoggerWidget|"
@@ -1711,12 +1710,12 @@ msgstr "&Не использовать кэш"
 #: src/Gui/SettingsCachePage.ui:61
 msgctxt "CachePage|"
 msgid "&Remember messages for X days"
-msgstr "&Помнить сообщения указанное число дней"
+msgstr "&Хранить сообщения заданное число дней"
 
 #: src/Gui/SettingsCachePage.ui:90
 msgctxt "CachePage|"
 msgid "Store &forever"
-msgstr "Хранить &вечно"
+msgstr "Хранить &всегда"
 
 #: src/Gui/SettingsCachePage.ui:106
 msgctxt "CachePage|"
@@ -1726,7 +1725,7 @@ msgstr "Уведомления"
 #: src/Gui/SettingsCachePage.ui:112
 msgctxt "CachePage|"
 msgid "Only the INBOX folder will be included for new message checking"
-msgstr "Для проверки новых сообщений будет включена только папка INBOX"
+msgstr "Новые сообщения будут проверяться только в папке «Входящие»"
 
 #: src/Gui/SettingsCachePage.ui:115
 msgctxt "CachePage|"
@@ -1755,14 +1754,14 @@ msgid ""
 "notifications. To subscribe a mailbox, use the context menu in the mailbox "
 "view."
 msgstr ""
-"Папки электронной почты, отмеченные как подписанные, будут включены в "
-"уведомления. Чтобы подписаться на почтовый ящик, воспользуйтесь контекстным "
-"меню в списке почтовых ящиков."
+"Папки, на которые оформлена подписка, учитываются в уведомлениях. Чтобы "
+"подписаться на почтовый ящик, воспользуйтесь контекстным меню в списке "
+"почтовых ящиков."
 
 #: src/Gui/SettingsCachePage.ui:135
 msgctxt "CachePage|"
 msgid "&Subscribed Mailboxes"
-msgstr "&Подписанные почтовые ящики"
+msgstr "&Почтовые ящики с подпиской"
 
 #: src/Gui/SettingsDialog.cpp:85
 msgctxt "Gui::SettingsDialog|"
@@ -1797,7 +1796,7 @@ msgstr "Избранные &метки"
 #: src/Gui/SettingsDialog.cpp:212
 msgctxt "Gui::SettingsDialog|"
 msgid "Saving passwords failed"
-msgstr "Сохранение пароля не удалось"
+msgstr "Не удалось сохранить пароли"
 
 #: src/Gui/SettingsDialog.cpp:213
 #, qt-format
@@ -1806,13 +1805,13 @@ msgid ""
 "<p>Couldn't save passwords. These were the error messages:</p>\n"
 "<p>%1</p>"
 msgstr ""
-"<p>Не удалось сохранить пароли. Это было сообщение об ошибках:</p>\n"
+"<p>Не удалось сохранить пароли. Сообщения об ошибках:</p>\n"
 "<p>%1</p>"
 
 #: src/Gui/SettingsDialog.cpp:309
 msgctxt "Gui::FavoriteTagsPage|"
 msgid "Add New Tag"
-msgstr "Создать метку…"
+msgstr "Добавить метку"
 
 #: src/Gui/SettingsDialog.cpp:317
 msgctxt "Gui::FavoriteTagsPage|"
@@ -1843,7 +1842,7 @@ msgstr "Отключить проверку орфографии"
 #: src/Gui/SettingsDialog.cpp:419
 msgctxt "Gui::GeneralPage|"
 msgid "Move"
-msgstr "Перемещение"
+msgstr "Переместить"
 
 #: src/Gui/SettingsDialog.cpp:422
 msgctxt "Gui::GeneralPage|"
@@ -1869,12 +1868,12 @@ msgstr "Удалить профиль?"
 #, qt-format
 msgctxt "Gui::GeneralPage|"
 msgid "Are you sure you want to delete identity %1 <%2>?"
-msgstr "Удалить всю информацию этого профиля %1 <%2>?"
+msgstr "Удалить профиль %1 <%2>?"
 
 #: src/Gui/SettingsDialog.cpp:566
 msgctxt "Gui::GeneralPage|"
 msgid "Please define some identities here"
-msgstr "Пожалуйста, определите некоторые тождества профиля здесь"
+msgstr "Создайте здесь хотя бы один профиль"
 
 #: src/Gui/SettingsDialog.cpp:663
 msgctxt "Gui::EditFavoriteTag|"
@@ -1912,8 +1911,8 @@ msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
 "password here, Trojitá will prompt for one when needed."
 msgstr ""
-"Этот пароль будет сохранен в зашифрованном хранилище. Если Вы не введете "
-"пароль здесь, Trojitá будет запрашивать его при необходимости."
+"Этот пароль будет сохранён в зашифрованном хранилище. Если не ввести пароль "
+"здесь, Trojitá будет запрашивать его при необходимости."
 
 #: src/Gui/SettingsDialog.cpp:831
 msgctxt "Gui::ImapPage|"
@@ -1921,13 +1920,13 @@ msgid ""
 "This password will be saved in clear text. If you do not enter password "
 "here, Trojitá will prompt for one when needed."
 msgstr ""
-"Этот пароль будет сохранен в не шифрованном виде. Если Вы не введете пароль "
+"Этот пароль будет сохранён в незашифрованном виде. Если не ввести пароль "
 "здесь, Trojitá будет запрашивать его при необходимости."
 
 #: src/Gui/SettingsDialog.cpp:902
 msgctxt "Gui::ImapPage|"
 msgid "The IMAP server hostname is missing here"
-msgstr "Здесь не хватает имени IMAP сервера"
+msgstr "Не указано имя сервера IMAP"
 
 #: src/Gui/SettingsDialog.cpp:908
 msgctxt "Gui::ImapPage|"
@@ -1935,8 +1934,8 @@ msgid ""
 "The command line to the IMAP server is missing here. Perhaps you need to use "
 "SSL or TCP?"
 msgstr ""
-"Здесь не хватает командной строки к серверу IMAP. Возможно, вам нужно "
-"использовать протокол SSL или TCP?"
+"Не указана командная строка для подключения к серверу IMAP. Возможно, нужно "
+"использовать SSL или TCP?"
 
 #: src/Gui/SettingsDialog.cpp:925
 #, qt-format
@@ -2002,8 +2001,8 @@ msgid ""
 "This password will be saved in encrypted storage. If you do not enter "
 "password here, Trojitá will prompt for one when needed."
 msgstr ""
-"Этот пароль будет сохранен в зашифрованном хранилище. Если Вы не введете "
-"пароль здесь, Trojitá будет запрашивать его при необходимости."
+"Этот пароль будет сохранён в зашифрованном хранилище. Если не ввести пароль "
+"здесь, Trojitá будет запрашивать его при необходимости."
 
 #: src/Gui/SettingsDialog.cpp:1193
 msgctxt "Gui::OutgoingPage|"
@@ -2011,18 +2010,18 @@ msgid ""
 "This password will be saved in clear text. If you do not enter password "
 "here, Trojitá will prompt for one when needed."
 msgstr ""
-"Этот пароль будет сохранен в не шифрованном виде. Если Вы не введете пароль "
+"Этот пароль будет сохранён в незашифрованном виде. Если не ввести пароль "
 "здесь, Trojitá будет запрашивать его при необходимости."
 
 #: src/Gui/SettingsDialog.cpp:1287 src/Gui/SettingsDialog.cpp:1293
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP server hostname is missing here"
-msgstr "Здесь не хватает имени SMTP сервера"
+msgstr "Не указано имя сервера SMTP"
 
 #: src/Gui/SettingsDialog.cpp:1289
 msgctxt "Gui::OutgoingPage|"
 msgid "The SMTP username is missing here"
-msgstr "Здесь не хватает имени пользователя SMTP"
+msgstr "Не указано имя пользователя SMTP"
 
 #: src/Gui/SettingsDialog.cpp:1300
 msgctxt "Gui::OutgoingPage|"
@@ -2062,7 +2061,7 @@ msgstr "Запускать свёрнутым"
 #: src/Gui/SettingsGeneralPage.ui:100
 msgctxt "GeneralPage|"
 msgid "Show plaintext e-mails instead of the HTML version"
-msgstr "Показывать письма открытым текстом вместо HTML-версии"
+msgstr "Показывать письма в виде обычного текста вместо HTML"
 
 #: src/Gui/SettingsGeneralPage.ui:112
 msgctxt "GeneralPage|"
@@ -2073,7 +2072,7 @@ msgstr "Автоматически помечать сообщения как п
 #: src/Gui/SettingsGeneralPage.ui:119
 msgctxt "GeneralPage|"
 msgid "immediately"
-msgstr "Сразу"
+msgstr "сразу"
 
 #. A suffix "seconds" inside a QDoubleSpinBox for configuring a time delay. Please keep this short so that the window is reasonably narrow.
 #: src/Gui/SettingsGeneralPage.ui:122
@@ -2085,7 +2084,7 @@ msgstr " с"
 #: src/Gui/SettingsGeneralPage.ui:125
 msgctxt "GeneralPage|"
 msgid "after "
-msgstr "после "
+msgstr "через "
 
 #: src/Gui/SettingsGeneralPage.ui:143
 msgctxt "GeneralPage|"
@@ -2120,7 +2119,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:153
 msgctxt "GeneralPage|"
 msgid "Reveal Trojitá's version and platform information"
-msgstr "Выявлять версию Trojitá и сведения о платформе"
+msgstr "Сообщать версию Trojitá и сведения о платформе"
 
 #: src/Gui/SettingsGeneralPage.ui:165
 msgctxt "GeneralPage|"
@@ -2139,7 +2138,7 @@ msgstr ""
 #: src/Gui/SettingsGeneralPage.ui:168
 msgctxt "GeneralPage|"
 msgid "Default drop action for the mbox tree"
-msgstr "Действие по умолчанию при сбросе в дереве mbox"
+msgstr "Действие по умолчанию при перетаскивании в дереве почтовых ящиков"
 
 #: src/Gui/SettingsGeneralPage.ui:199
 msgctxt "GeneralPage|"
@@ -2174,7 +2173,7 @@ msgstr "Проверка орфографии"
 #: src/Gui/SettingsImapPage.ui:27
 msgctxt "ImapPage|"
 msgid "M&ethod"
-msgstr "&Метод"
+msgstr "&Способ"
 
 #: src/Gui/SettingsImapPage.ui:37
 msgctxt "ImapPage|"
@@ -2222,24 +2221,24 @@ msgstr ""
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Выберите <span style=\" "
 "font-style:italic;\">TCP</span>, если требуется подключиться через "
-"стандартное незашифрованное соединение и прозрачно согласовать шифрование до "
-"входа в систему.</p>\n"
+"стандартное незашифрованное подключение и прозрачно согласовать шифрование "
+"до входа в систему.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
 "p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Выберите <span style=\" "
 "font-style:italic;\">SSL</span>, чтобы подключиться через зашифрованный "
-"сокет с самого начала соединения.</p>\n"
+"сокет с самого начала подключения.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
 "p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Наконец, выберите <span "
-"style=\" font-style:italic;\">Local process</span>, если требуется запустить "
-"процесс, который затем либо подключается к серверу IMAP, либо выступает в "
-"его роли. Этот параметр позволяет получить доступ к серверу IMAP через SSH.</"
-"p></body></html>"
+"style=\" font-style:italic;\">Локальный процесс</span>, если требуется "
+"запустить процесс, который затем либо подключается к серверу IMAP, либо "
+"выступает в его роли. Этот параметр позволяет получить доступ к серверу IMAP "
+"через SSH.</p></body></html>"
 
 #: src/Gui/SettingsImapPage.ui:55
 msgctxt "ImapPage|"
@@ -2259,7 +2258,7 @@ msgstr "Имя сервера IMAP"
 #: src/Gui/SettingsImapPage.ui:78
 msgctxt "ImapPage|"
 msgid "This is the name of the IMAP server that Trojitá should connect to."
-msgstr "Это имя сервера IMAP к которому Trojitá должна подключиться."
+msgstr "Имя сервера IMAP, к которому подключается Trojitá."
 
 #: src/Gui/SettingsImapPage.ui:88
 msgctxt "ImapPage|"
@@ -2274,7 +2273,7 @@ msgstr "Номер порта на сервере IMAP"
 #: src/Gui/SettingsImapPage.ui:118
 msgctxt "ImapPage|"
 msgid "Use System Proxy Settings"
-msgstr "Использовать системные настройки прокси"
+msgstr "Использовать системные параметры прокси-сервера"
 
 #: src/Gui/SettingsImapPage.ui:131
 msgctxt "ImapPage|"
@@ -2282,9 +2281,9 @@ msgid ""
 "Check if Trojitá should connect to a network in order to access this "
 "account. You will stay offline if there is no network connectivity."
 msgstr ""
-"Проверьте, как Trojitá должна подключаться к сети, чтобы получить доступ к "
-"этой учетной записи. Вы будете в автономном режиме при отсутствии "
-"подключения к сети."
+"Отметьте, если для доступа к этой учётной записи Trojitá должна подключаться "
+"к сети. При отсутствии подключения к сети будет использоваться автономный "
+"режим."
 
 #: src/Gui/SettingsImapPage.ui:134
 msgctxt "ImapPage|"
@@ -2379,8 +2378,8 @@ msgid ""
 "The password will be stored in plaintext. Leave it blank for Trojitá to "
 "prompt when needed."
 msgstr ""
-"Пароль будет сохранён в незашифрованном виде. Оставьте поле пустым, чтобы "
-"Trojitá запрашивал его при необходимости."
+"Пароль будет сохранён в незашифрованном виде. Оставьте поле пустым, и пароль "
+"будет запрашиваться при необходимости."
 
 #: src/Gui/SettingsImapPage.ui:230
 msgctxt "ImapPage|"
@@ -2437,12 +2436,12 @@ msgstr ""
 #: src/Gui/SettingsImapPage.ui:256
 msgctxt "ImapPage|"
 msgid "Extension &Blacklist"
-msgstr "Расширение &чёрный списка"
+msgstr "&Чёрный список расширений"
 
 #: src/Gui/SettingsImapPage.ui:269
 msgctxt "ImapPage|"
 msgid "Timeout of IMAP IDLE"
-msgstr "Таймаут простоя IMAP"
+msgstr "Время ожидания IMAP IDLE"
 
 #: src/Gui/SettingsImapPage.ui:282
 msgctxt "ImapPage|"
@@ -2454,9 +2453,9 @@ msgid ""
 "The default value is 29 minutes."
 msgstr ""
 "Как часто обновлять сеанс IDLE.\n"
-"Это помогает предотвратить таймауты из-за неисправных или слишком "
-"агрессивных промежуточных сетевых устройств,\n"
-"шлюзов NAT и других досадных помех.\n"
+"Это помогает избежать разрывов по времени ожидания из-за неисправных или "
+"слишком агрессивных промежуточных сетевых устройств,\n"
+"шлюзов NAT и прочих неприятностей.\n"
 "Значение по умолчанию — 29 минут."
 
 #: src/Gui/SettingsImapPage.ui:298
@@ -2471,12 +2470,12 @@ msgid ""
 "The default value is 300 seconds (5 minutes)."
 msgstr ""
 "Как часто проверять наличие новых сообщений во всех папках IMAP.\n"
-"Значение по умолчанию 300 секунд (5 минут)."
+"Значение по умолчанию — 300 секунд (5 минут)."
 
 #: src/Gui/SettingsImapPage.ui:309
 msgctxt "ImapPage|"
 msgid " seconds"
-msgstr " секунд"
+msgstr " с"
 
 #: src/Gui/SettingsImapPage.ui:325
 msgctxt "ImapPage|"
@@ -2496,7 +2495,7 @@ msgstr "&Имя архивной папки"
 #: src/Gui/SettingsOutgoingPage.ui:27
 msgctxt "OutgoingPage|"
 msgid "&Method"
-msgstr "&Метод"
+msgstr "&Способ"
 
 #: src/Gui/SettingsOutgoingPage.ui:40
 msgctxt "OutgoingPage|"
@@ -2536,12 +2535,12 @@ msgstr "Исполняемый &файл sendmail"
 #: src/Gui/SettingsOutgoingPage.ui:169
 msgctxt "OutgoingPage|"
 msgid "Save Ou&tgoing Mail"
-msgstr "Сохранить ис&ходящую почту"
+msgstr "Сохранять ис&ходящую почту"
 
 #: src/Gui/SettingsOutgoingPage.ui:182
 msgctxt "OutgoingPage|"
 msgid "Sent Folder &Name"
-msgstr "&Имя папки Отправленные"
+msgstr "&Имя папки отправленных"
 
 #: src/Gui/SettingsOutgoingPage.ui:195
 msgctxt "OutgoingPage|"
@@ -2556,17 +2555,17 @@ msgstr ""
 #: src/Gui/SettingsOutgoingPage.ui:198
 msgctxt "OutgoingPage|"
 msgid "Send with &BURL"
-msgstr "Отправить с &BURL"
+msgstr "Отправлять с &помощью BURL"
 
 #: src/Gui/SettingsOutgoingPage.ui:218
 msgctxt "OutgoingPage|"
 msgid "Use IMAP Credentials"
-msgstr "Использовать параметры доступа IMAP"
+msgstr "Использовать учётные данные IMAP"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
 msgid "Configure Shortcuts"
-msgstr "Комбинации клавиш"
+msgstr "Настройка комбинаций клавиш"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigDialog.cpp:37
 msgctxt "Gui::ShortcutConfigDialog|"
@@ -2576,7 +2575,7 @@ msgstr "Trojitá"
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:41
 msgctxt "Gui::ShortcutConfigWidget|"
 msgid "Configure Shortcuts"
-msgstr "Комбинации клавиш"
+msgstr "Настройка комбинаций клавиш"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:41
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:203
@@ -2587,17 +2586,17 @@ msgstr "Trojitá"
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:177
 msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
 msgid "Ctrl+"
-msgstr "Ctrl"
+msgstr "Ctrl+"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:179
 msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
 msgid "Alt+"
-msgstr "Alt"
+msgstr "Alt+"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:181
 msgctxt "Gui::ShortcutConfigWidget|Shortcut modifier"
 msgid "Shift+"
-msgstr "Shift"
+msgstr "Shift+"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.cpp:203
 msgctxt "Gui::ShortcutConfigWidget|"
@@ -2611,19 +2610,18 @@ msgid ""
 "<p>The \"%1\" shortcut is ambiguous with the following shortcut:</p><p>%2</"
 "p><p>Do you want to assign an empty shortcut to this action?</p>"
 msgstr ""
-"<p>Комбинация клавиш «%1» не очевидна с помощью следующих клавиш:</p><p>%2</"
-"p><p>Хотите назначить пустую комбинацию клавиш для этого действия?</p>"
+"<p>Комбинация клавиш «%1» конфликтует со следующей комбинацией:</p><p>%2</"
+"p><p>Назначить этому действию пустую комбинацию клавиш?</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:14
 msgctxt "ShortcutConfigWidget|"
 msgid "Configure Shortcuts"
-msgstr "Комбинации клавиш"
+msgstr "Настройка комбинаций клавиш"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:20
 msgctxt "ShortcutConfigWidget|"
 msgid "Select an action and press a key combination to change its shortcut:"
-msgstr ""
-"Выберите действие и нажмите комбинацию клавиш для изменения комбинации:"
+msgstr "Выберите действие и нажмите новую комбинацию клавиш:"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:27
 msgctxt "ShortcutConfigWidget|"
@@ -2633,11 +2631,10 @@ msgid ""
 "shortcuts cannot be used: \"Up\", \"Down\", \"Left\", \"Right\", \"Page Up"
 "\", \"Page Down\", \"Tab\", \"Shift+Tab\", \"Enter\" and \"Escape\".</p>"
 msgstr ""
-"<p>Выберите действие (с помощью мыши или клавиш со стрелками). Его "
-"комбинацию клавиш можно затем изменить простым нажатием клавиш.</"
-"p><p>Отметим, что несколько клавиш не могут быть использованы: \"Up\", \"Down"
-"\", \"Left\", \"Right\", \"Page Up\", \"Page Down\", \"Tab\", \"Shift+Tab\", "
-"\"Enter\" и \"Escape\".</p>"
+"<p>Выберите действие (мышью или клавишами со стрелками). Затем его "
+"комбинацию клавиш можно изменить, просто нажав новую.</p><p>Некоторые "
+"клавиши использовать нельзя: «Up», «Down», «Left», «Right», «Page Up», «Page "
+"Down», «Tab», «Shift+Tab», «Enter» и «Escape».</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:31
 msgctxt "ShortcutConfigWidget|"
@@ -2656,8 +2653,8 @@ msgid ""
 "<p>Search interactively for shortcut names (e.g. Copy) or combination of "
 "keys (e.g. Ctrl+C) by typing them.</p>"
 msgstr ""
-"<p>Поиск в интерактивном режиме для сочетаний имен (например, копировать) "
-"или комбинаций клавиши (например, Ctrl+C), вводя их здесь</p>"
+"<p>Интерактивный поиск по названиям действий (например, «Копировать») или по "
+"комбинациям клавиш (например, Ctrl+C): просто начните вводить.</p>"
 
 #: src/Gui/ShortcutHandler/ShortcutConfigWidget.ui:49
 msgctxt "ShortcutConfigWidget|Label of search field"
@@ -2695,7 +2692,7 @@ msgstr "Главное окно"
 #: src/Gui/ShortcutHandler/ShortcutHandler.cpp:144
 msgctxt "Gui::ShortcutHandler|"
 msgid "Configure S&hortcuts..."
-msgstr "Комбинации к&лавиш…"
+msgstr "Настроить комбинации к&лавиш…"
 
 #: src/Gui/ShortcutHandler/ShortcutHandler.h:45
 #: src/Gui/ShortcutHandler/ShortcutHandler.h:309
@@ -2707,12 +2704,12 @@ msgstr "Главное окно"
 #: src/Gui/SimplePartWidget.cpp:78
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save this message part..."
-msgstr "Сохранить эту часть сообщения..."
+msgstr "Сохранить эту часть сообщения…"
 
 #: src/Gui/SimplePartWidget.cpp:82
 msgctxt "Gui::SimplePartWidget|"
 msgid "Save whole message..."
-msgstr "Сохранить сообщение целиком..."
+msgstr "Сохранить сообщение целиком…"
 
 #: src/Gui/SimplePartWidget.cpp:86
 msgctxt "Gui::SimplePartWidget|"
@@ -2732,7 +2729,7 @@ msgstr "Сохранить вложение"
 #: src/Gui/SimplePartWidget.cpp:207
 msgctxt "Gui::SimplePartWidget|"
 msgid "Color scheme"
-msgstr "Цвета"
+msgstr "Цветовая схема"
 
 #: src/Gui/SimplePartWidget.cpp:221
 msgctxt "Gui::SimplePartWidget|"
@@ -2796,7 +2793,7 @@ msgstr[2] "%n текущих действий"
 #: src/Gui/TaskProgressIndicator.cpp:88
 msgctxt "Gui::TaskProgressIndicator|"
 msgid "IMAP connection idle"
-msgstr "Подключение IMAP неактивно"
+msgstr "Подключение IMAP бездействует"
 
 #: src/Gui/Util.cpp:88
 msgctxt "Gui::MainWindow|"
@@ -2851,7 +2848,7 @@ msgstr "Со&здать сообщение…"
 #: src/Gui/Window.cpp:265
 msgctxt "Gui::MainWindow|"
 msgid "&Edit Draft..."
-msgstr "&Изменить черновик..."
+msgstr "&Изменить черновик…"
 
 #: src/Gui/Window.cpp:266
 msgctxt "Gui::MainWindow|"
@@ -2911,17 +2908,17 @@ msgstr "Отметить как не &спам"
 #: src/Gui/Window.cpp:275
 msgctxt "Gui::MainWindow|"
 msgid "&Save Message..."
-msgstr "&Сохранить сообщение..."
+msgstr "&Сохранить сообщение…"
 
 #: src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Source..."
-msgstr "Просмотр исходного кода &сообщения.."
+msgstr "Просмотр исходного кода &сообщения…"
 
 #: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
 msgid "View Message &Headers..."
-msgstr "Просмотр заголовка &сообщения..."
+msgstr "Просмотр заголовков &сообщения…"
 
 #: src/Gui/Window.cpp:277
 msgctxt "Gui::MainWindow|"
@@ -2931,7 +2928,7 @@ msgstr "Ctrl+U"
 #: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
 msgid "&Private Reply"
-msgstr "&Приватный ответ"
+msgstr "&Личный ответ"
 
 #: src/Gui/Window.cpp:278
 msgctxt "Gui::MainWindow|"
@@ -2991,7 +2988,7 @@ msgstr "Ctrl+Shift+F"
 #: src/Gui/Window.cpp:284
 msgctxt "Gui::MainWindow|"
 msgid "Resend..."
-msgstr "Повторная отправка…"
+msgstr "Отправить повторно…"
 
 #: src/Gui/Window.cpp:285
 msgctxt "Gui::MainWindow|"
@@ -3001,7 +2998,7 @@ msgstr "&Архивировать"
 #: src/Gui/Window.cpp:286
 msgctxt "Gui::MainWindow|"
 msgid "Address Book..."
-msgstr "Адресная книга..."
+msgstr "Адресная книга…"
 
 #: src/Gui/Window.cpp:287
 msgctxt "Gui::MainWindow|"
@@ -3011,12 +3008,12 @@ msgstr "&Автономный режим"
 #: src/Gui/Window.cpp:288
 msgctxt "Gui::MainWindow|"
 msgid "&Expensive Connection"
-msgstr "&Дорогая связь"
+msgstr "&Лимитное подключение"
 
 #: src/Gui/Window.cpp:289
 msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
-msgstr "&Свободный доступ"
+msgstr "&Безлимитное подключение"
 
 #: src/Gui/Window.cpp:290
 msgctxt "Gui::MainWindow|"
@@ -3051,7 +3048,7 @@ msgstr "Исходный размер"
 #: src/Gui/Window.cpp:296
 msgctxt "Gui::MainWindow|"
 msgid "Move Focus to Mailbox List"
-msgstr "Перевести фокус на список почтовых ящиков"
+msgstr "Переместить фокус в список почтовых ящиков"
 
 #: src/Gui/Window.cpp:297
 msgctxt "Gui::MainWindow|"
@@ -3126,47 +3123,47 @@ msgstr "Проверить &почту"
 #: src/Gui/Window.cpp:344
 msgctxt "Gui::MainWindow|"
 msgid "&Reload Everything"
-msgstr "&Перезагрузить все"
+msgstr "&Обновить всё"
 
 #: src/Gui/Window.cpp:348
 msgctxt "Gui::MainWindow|"
 msgid "Exit the application"
-msgstr "Выход из программы"
+msgstr "Выйти из приложения"
 
 #. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
 #: src/Gui/Window.cpp:367
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
-msgstr "Показывать полное &дерево окна"
+msgstr "Показать окно полного &дерева"
 
 #. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
 #: src/Gui/Window.cpp:373
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
-msgstr "Показать дерево &ImapTask"
+msgstr "Показать де&рево ImapTask"
 
 #. a debugging tool showing the mime tree of the current message
 #: src/Gui/Window.cpp:379
 msgctxt "Gui::MainWindow|"
 msgid "Show &MIME tree"
-msgstr "Показать &MIME-дерево"
+msgstr "Показать дер&ево MIME"
 
 #: src/Gui/Window.cpp:384
 msgctxt "Gui::MainWindow|"
 msgid "Show protocol &log"
-msgstr "Показывать &журнал протокола"
+msgstr "Показать &журнал протокола"
 
 #. file to save the debug log into
 #: src/Gui/Window.cpp:390
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
-msgstr "Сведения &журнала %1"
+msgstr "Записывать &журнал в %1"
 
 #: src/Gui/Window.cpp:395
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
-msgstr "Сведения о IMAP &сервере..."
+msgstr "Сведения о &сервере IMAP…"
 
 #: src/Gui/Window.cpp:404
 msgctxt "Gui::MainWindow|"
@@ -3176,19 +3173,19 @@ msgstr "Показывать &панель инструментов"
 #: src/Gui/Window.cpp:410
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
-msgstr "&Настройка…"
+msgstr "&Параметры…"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:507
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
-msgstr "Создать &дочерний почтовый ящик..."
+msgstr "Создать &дочерний почтовый ящик…"
 
 #. "mailbox" as a "folder of messages", not as a "mail account"
 #: src/Gui/Window.cpp:511
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
-msgstr "Создать &почтовый ящик..."
+msgstr "Создать &почтовый ящик…"
 
 #: src/Gui/Window.cpp:514
 msgctxt "Gui::MainWindow|"
@@ -3204,7 +3201,7 @@ msgstr "&Удалить почтовый ящик"
 #: src/Gui/Window.cpp:536
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
-msgstr "Показывать &сообщения обсуждений"
+msgstr "Группировать по &обсуждениям"
 
 #: src/Gui/Window.cpp:547
 msgctxt "Gui::MainWindow|"
@@ -3224,7 +3221,7 @@ msgstr "&Без сортировки"
 #: src/Gui/Window.cpp:560
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
-msgstr "По &обсуждению"
+msgstr "По &обсуждениям"
 
 #: src/Gui/Window.cpp:562
 msgctxt "Gui::MainWindow|"
@@ -3234,37 +3231,37 @@ msgstr "По &получению"
 #: src/Gui/Window.cpp:564
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
-msgstr "&Cc (Копия)"
+msgstr "По &копии (Cc)"
 
 #: src/Gui/Window.cpp:566
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
-msgstr "По данным из &заголовков сообщений"
+msgstr "По &дате из заголовков сообщений"
 
 #: src/Gui/Window.cpp:568
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
-msgstr "&Адресу отправителя"
+msgstr "По &адресу отправителя"
 
 #: src/Gui/Window.cpp:570
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
-msgstr "&Размер"
+msgstr "По &размеру"
 
 #: src/Gui/Window.cpp:572
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
-msgstr "&Тема"
+msgstr "По &теме"
 
 #: src/Gui/Window.cpp:574
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
-msgstr "&Адресу получателя"
+msgstr "По адресу &получателя"
 
 #: src/Gui/Window.cpp:579
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
-msgstr "&Скрыть прочитанные"
+msgstr "&Скрывать прочитанные"
 
 #: src/Gui/Window.cpp:588
 msgctxt "Gui::MainWindow|"
@@ -3284,22 +3281,22 @@ msgstr "&По одному"
 #: src/Gui/Window.cpp:600
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
-msgstr "Показывать &только подписанные папки"
+msgstr "Показывать только папки с &подпиской"
 
 #: src/Gui/Window.cpp:604
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
-msgstr "П&одписанные"
+msgstr "&С подпиской"
 
 #: src/Gui/Window.cpp:609
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
-msgstr "&О программе..."
+msgstr "&О Trojitá…"
 
 #: src/Gui/Window.cpp:614
 msgctxt "Gui::MainWindow|"
 msgid "Compose Mail"
-msgstr "Создать почтовое сообщение"
+msgstr "Создать письмо"
 
 #: src/Gui/Window.cpp:714
 msgctxt "Gui::MainWindow|"
@@ -3324,7 +3321,7 @@ msgstr "&Вид"
 #: src/Gui/Window.cpp:742
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
-msgstr "&Внешний вид"
+msgstr "&Расположение"
 
 #: src/Gui/Window.cpp:749
 msgctxt "Gui::MainWindow|"
@@ -3395,7 +3392,7 @@ msgstr[2] " — %n непрочитанных сообщений"
 #: src/Gui/Window.cpp:1142
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
-msgstr " - не в сети"
+msgstr " — не в сети"
 
 #: src/Gui/Window.cpp:1151 src/Gui/Window.cpp:2602
 msgctxt "Gui::MainWindow|"
@@ -3408,14 +3405,14 @@ msgid ""
 "The application will continue in systray. This can be disabled within the "
 "settings."
 msgstr ""
-"Приложение будет продолжать работу в системном лотке. Это может быть "
-"отключено в настройках параметров."
+"Приложение продолжит работу в системном лотке. Это можно отключить в "
+"параметрах."
 
 #. "ALERT" is a special warning which we're required to show to the user
 #: src/Gui/Window.cpp:1363
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
-msgstr "Тревога IMAP"
+msgstr "Предупреждение сервера IMAP"
 
 #: src/Gui/Window.cpp:1368
 msgctxt "Gui::MainWindow|"
@@ -3460,14 +3457,13 @@ msgstr "Нет конфигурации"
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
-"Нет настроенной учетной записи IMAP. Trojitá не может ничего сделать без "
-"хотя бы одной одной."
+"Нет настроенной учётной записи IMAP. Без неё Trojitá почти ничего не может."
 
 #: src/Gui/Window.cpp:1481
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to retrieve password from the store: %1"
-msgstr "При получении пароля из хранилища произошла ошибка: %1"
+msgstr "Не удалось получить пароль из хранилища: %1"
 
 #: src/Gui/Window.cpp:1499
 msgctxt "Gui::MainWindow|"
@@ -3478,9 +3474,7 @@ msgstr "Требуется аутентификация"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
-msgstr ""
-"<p>Пожалуйста, предоставьте пароль IMAP для пользователя <b>%1</b> на <b>%2</"
-"b>:</p>"
+msgstr "<p>Введите пароль IMAP для пользователя <b>%1</b> на <b>%2</b>:</p>"
 
 #: src/Gui/Window.cpp:1556
 msgctxt "Gui::MainWindow|"
@@ -3496,23 +3490,23 @@ msgstr "Не удалось архивировать"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
-msgstr "Создать вложенную папку %1"
+msgstr "Создание вложенной папки в %1"
 
 #: src/Gui/Window.cpp:1734
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
-msgstr "Создать почтовый ящик верхнего уровня"
+msgstr "Создание почтового ящика верхнего уровня"
 
 #: src/Gui/Window.cpp:1761
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
-msgstr "Удалить почтовый ящик"
+msgstr "Удаление почтового ящика"
 
 #: src/Gui/Window.cpp:1762
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
-msgstr "Вы действительно хотите удалить почтовый ящик %1?"
+msgstr "Удалить почтовый ящик %1?"
 
 #: src/Gui/Window.cpp:2069
 msgctxt "Gui::MainWindow|"
@@ -3526,7 +3520,7 @@ msgid ""
 "Deleting mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
-"Удаление почтового ящика «%1» не удалось со следующим сообщением:\n"
+"Не удалось удалить почтовый ящик «%1». Сообщение сервера:\n"
 "%2"
 
 #: src/Gui/Window.cpp:2075
@@ -3541,7 +3535,7 @@ msgid ""
 "Creating mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
-"Создание почтового ящика «%1» не удалось со следующим сообщением:\n"
+"Не удалось создать почтовый ящик «%1». Сообщение сервера:\n"
 "%2"
 
 #: src/Gui/Window.cpp:2081
@@ -3556,7 +3550,7 @@ msgid ""
 "Opening mailbox \"%1\" failed with the following message:\n"
 "%2"
 msgstr ""
-"Открытие почтового ящика «%1» не удалось со следующим сообщением:\n"
+"Не удалось открыть почтовый ящик «%1». Сообщение сервера:\n"
 "%2"
 
 #: src/Gui/Window.cpp:2131
@@ -3600,7 +3594,7 @@ msgstr "Не удалось открыть файл лицензии."
 #: src/Gui/Window.cpp:2238
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
-msgstr "Не удалось сохранить файл сведений"
+msgstr "Не удалось сохранить в файл"
 
 #: src/Gui/Window.cpp:2239
 #, qt-format
@@ -3609,20 +3603,20 @@ msgid ""
 "Unable to save into file. Error:\n"
 "%1"
 msgstr ""
-"Не удается сохранить файл. Ошибка:\n"
+"Не удалось сохранить в файл. Ошибка:\n"
 "%1"
 
 #: src/Gui/Window.cpp:2244
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
-msgstr "Сохранить письма"
+msgstr "Сохранение сообщения"
 
 #. Translators: %1 is the UID of a message (a number) and %2 is the name of a mailbox.
 #: src/Gui/Window.cpp:2260
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
-msgstr "Исходный код сообщений UID %1 в %2"
+msgstr "Исходный код сообщения UID %1 в %2"
 
 #: src/Gui/Window.cpp:2275 src/Gui/Window.cpp:2297
 msgctxt "Gui::MainWindow|"
@@ -3744,7 +3738,7 @@ msgstr[2] "%1 — %n непрочитанных — Trojitá"
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
-msgstr "%1 - Trojitá"
+msgstr "%1 — Trojitá"
 
 #: src/Gui/Window.cpp:3024
 #, qt-format
@@ -3755,52 +3749,52 @@ msgstr "Пометить меткой «%1»"
 #: src/Imap/ConnectionState.cpp:35
 msgctxt "QObject|"
 msgid "Resolving hostname..."
-msgstr "Определение хоста..."
+msgstr "Определение имени узла…"
 
 #: src/Imap/ConnectionState.cpp:37
 msgctxt "QObject|"
 msgid "Connecting to the IMAP server..."
-msgstr "Соединение с сервером IMAP..."
+msgstr "Подключение к серверу IMAP…"
 
 #: src/Imap/ConnectionState.cpp:39
 msgctxt "QObject|"
 msgid "Starting encryption (SSL)..."
-msgstr "Запуск шифрования (STARTTLS)..."
+msgstr "Запуск шифрования (SSL)…"
 
 #: src/Imap/ConnectionState.cpp:41
 msgctxt "QObject|"
 msgid "Checking certificates (SSL)..."
-msgstr "Проверка сертификатов (SSL)..."
+msgstr "Проверка сертификатов (SSL)…"
 
 #: src/Imap/ConnectionState.cpp:43
 msgctxt "QObject|"
 msgid "Checking capabilities..."
-msgstr "Проверка возможностей..."
+msgstr "Проверка возможностей…"
 
 #: src/Imap/ConnectionState.cpp:45
 msgctxt "QObject|"
 msgid "Waiting for encryption..."
-msgstr "Ожидание шифрования..."
+msgstr "Ожидание шифрования…"
 
 #: src/Imap/ConnectionState.cpp:47
 msgctxt "QObject|"
 msgid "Asking for encryption..."
-msgstr "Запрос шифрования..."
+msgstr "Запрос шифрования…"
 
 #: src/Imap/ConnectionState.cpp:49
 msgctxt "QObject|"
 msgid "Starting encryption (STARTTLS)..."
-msgstr "Использовать шифрование (STARTTLS)..."
+msgstr "Запуск шифрования (STARTTLS)…"
 
 #: src/Imap/ConnectionState.cpp:51
 msgctxt "QObject|"
 msgid "Checking certificates (STARTTLS)..."
-msgstr "Проверка сертификатов (STARTTLS)..."
+msgstr "Проверка сертификатов (STARTTLS)…"
 
 #: src/Imap/ConnectionState.cpp:53
 msgctxt "QObject|"
 msgid "Checking capabilities (after STARTTLS)..."
-msgstr "Проверка возможностей (после STARTTLS)..."
+msgstr "Проверка возможностей (после STARTTLS)…"
 
 #: src/Imap/ConnectionState.cpp:55
 msgctxt "QObject|"
@@ -3810,12 +3804,12 @@ msgstr "Выполняется вход…"
 #: src/Imap/ConnectionState.cpp:57
 msgctxt "QObject|"
 msgid "Checking capabilities (after login)..."
-msgstr "Проверка возможностей (после входа)..."
+msgstr "Проверка возможностей (после входа)…"
 
 #: src/Imap/ConnectionState.cpp:59
 msgctxt "QObject|"
 msgid "Activating compression..."
-msgstr "Активация сжатия..."
+msgstr "Активация сжатия…"
 
 #: src/Imap/ConnectionState.cpp:61
 msgctxt "QObject|"
@@ -3825,17 +3819,17 @@ msgstr "Вход выполнен."
 #: src/Imap/ConnectionState.cpp:63
 msgctxt "QObject|"
 msgid "Waiting for another mailbox..."
-msgstr "В ожидании другого почтового ящика"
+msgstr "Ожидание другого почтового ящика…"
 
 #: src/Imap/ConnectionState.cpp:65
 msgctxt "QObject|"
 msgid "Opening mailbox..."
-msgstr "Открытие почтового ящика..."
+msgstr "Открытие почтового ящика…"
 
 #: src/Imap/ConnectionState.cpp:67
 msgctxt "QObject|"
 msgid "Synchronizing mailbox..."
-msgstr "Синхронизация почтового ящика..."
+msgstr "Синхронизация почтового ящика…"
 
 #: src/Imap/ConnectionState.cpp:69
 msgctxt "QObject|"
@@ -3845,12 +3839,12 @@ msgstr "Почтовый ящик открыт."
 #: src/Imap/ConnectionState.cpp:71
 msgctxt "QObject|"
 msgid "Downloading message..."
-msgstr "Загрузка сообщений..."
+msgstr "Загрузка сообщения…"
 
 #: src/Imap/ConnectionState.cpp:73
 msgctxt "QObject|"
 msgid "Downloading message structure..."
-msgstr "Загрузка структуры сообщений..."
+msgstr "Загрузка структуры сообщения…"
 
 #: src/Imap/ConnectionState.cpp:75
 msgctxt "QObject|"
@@ -3866,13 +3860,13 @@ msgstr "Неизвестная ошибка QFile"
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1 for mailbox %2"
-msgstr "Не получилось удалить файл %1 для почтового ящика %2"
+msgstr "Не удалось удалить файл %1 для почтового ящика %2"
 
 #: src/Imap/Model/DiskPartCache.cpp:95
 #, qt-format
 msgctxt "QObject|"
 msgid "Couldn't remove file %1 for message %2, mailbox %3"
-msgstr "Не получилось удалить файл %1 для сообщения %2, почтового ящика %3"
+msgstr "Не удалось удалить файл %1 для сообщения %2, почтовый ящик %3"
 
 #: src/Imap/Model/DiskPartCache.cpp:117
 #, qt-format
@@ -3922,13 +3916,13 @@ msgstr "Автономный режим: некэшированные данны
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to create directory %1"
-msgstr "Ошибка при создании каталога %1"
+msgstr "Не удалось создать папку %1"
 
 #: src/Imap/Model/ImapAccess.cpp:326
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to set safe permissions on cache directory %1"
-msgstr "Не удалось установить безопасные разрешения на каталог кэша %1"
+msgstr "Не удалось установить безопасные разрешения для папки кэша %1"
 
 #: src/Imap/Model/MailboxTree.cpp:1244
 msgctxt "Imap::Mailbox::Model|"
@@ -3963,7 +3957,7 @@ msgstr "[Загрузка %1: %2…]"
 #: src/Imap/Model/Model.cpp:1088
 msgctxt "Imap::Mailbox::Model|"
 msgid "Going offline"
-msgstr "Перейти в автономный режим"
+msgstr "Переход в автономный режим"
 
 #: src/Imap/Model/Model.cpp:1162
 msgctxt "Imap::Mailbox::Model|"
@@ -3971,7 +3965,7 @@ msgid ""
 "<p>It appears that you are connecting to a POP3 server. That won't work here."
 "</p>"
 msgstr ""
-"<p>Похоже, что вы подключаетесь к серверу POP3. Это не будет здесь работать."
+"<p>Похоже, выполняется подключение к серверу POP3. Так работать не получится."
 "</p>"
 
 #: src/Imap/Model/Model.cpp:1164
@@ -3980,7 +3974,7 @@ msgid ""
 "<p>It appears that you are connecting to an SMTP server. That won't work "
 "here.</p>"
 msgstr ""
-"<p>Похоже, что вы подключаетесь к серверу SMTP. Это не будет здесь работать."
+"<p>Похоже, выполняется подключение к серверу SMTP. Так работать не получится."
 "</p>"
 
 #: src/Imap/Model/Model.cpp:1166
@@ -3991,9 +3985,9 @@ msgid ""
 "sure you are connecting to the IMAP service. A typical port number for IMAP "
 "is 143 or 993.</p><p>The server said:</p><pre>%2</pre>"
 msgstr ""
-"<h2>Это не сервер IMAP</h2>%1<p>Проверьте свои настройки, чтобы быть "
-"уверенным, что вы подключаетесь к службе IMAP. Типичный номер порта для IMAP "
-"это 143 или 993.</p><p>Сервер сказал:</p><pre>%2</pre>"
+"<h2>Это не сервер IMAP</h2>%1<p>Проверьте параметры и убедитесь, что "
+"подключение выполняется к службе IMAP. Обычно IMAP использует порт 143 или "
+"993.</p><p>Ответ сервера:</p><pre>%2</pre>"
 
 #: src/Imap/Model/Model.cpp:1173
 #, qt-format
@@ -4014,12 +4008,12 @@ msgstr ""
 #: src/Imap/Model/Model.cpp:1231
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
-msgstr "Соединение установлено не с сервером IMAP4"
+msgstr "Подключение установлено не с сервером IMAP4"
 
 #: src/Imap/Model/Model.cpp:1486
 msgctxt "Imap::Mailbox::Model|"
 msgid "The connection is being killed for unspecified reason"
-msgstr "Соединение убивается по неустановленным причинам"
+msgstr "Подключение принудительно разрывается по неизвестной причине"
 
 #: src/Imap/Model/MsgListModel.cpp:284
 msgctxt "MsgListModel|"
@@ -4105,9 +4099,9 @@ msgstr[2] "%n непрочитанных"
 msgctxt "Imap::Mailbox::PrettyMailboxModel|"
 msgid "%n recent"
 msgid_plural "%n recent"
-msgstr[0] "%n последнее"
-msgstr[1] "%n последних"
-msgstr[2] "%n последних"
+msgstr[0] "%n новое"
+msgstr[1] "%n новых"
+msgstr[2] "%n новых"
 
 #: src/Imap/Model/PrettyMsgListModel.cpp:108
 msgctxt "Imap::Mailbox::PrettyMsgListModel|"
@@ -4122,22 +4116,22 @@ msgstr "(без темы)"
 #: src/Imap/Model/SQLCache.cpp:97
 msgctxt "QObject|"
 msgid "Can't create table msg_threading"
-msgstr "Не удаётся создать таблицу msg_threading"
+msgstr "Не удалось создать таблицу msg_threading"
 
 #: src/Imap/Model/SQLCache.cpp:106
 msgctxt "QObject|"
 msgid "Can't create table mailbox_sync_state"
-msgstr "Не удаётся создать таблицу mailbox_sync_state"
+msgstr "Не удалось создать таблицу mailbox_sync_state"
 
 #: src/Imap/Model/SQLCache.cpp:118
 msgctxt "QObject|"
 msgid "Can't create table msg_metadata"
-msgstr "Не удаётся создать таблицу msg_metadata"
+msgstr "Не удалось создать таблицу msg_metadata"
 
 #: src/Imap/Model/SQLCache.cpp:133
 msgctxt "QObject|"
 msgid "Can't open database"
-msgstr "не удалось открыть базу данных"
+msgstr "Не удалось открыть базу данных"
 
 #: src/Imap/Model/SQLCache.cpp:148
 msgctxt "QObject|"
@@ -4192,22 +4186,22 @@ msgstr "Не удалось сохранить сведения о версии"
 #: src/Imap/Model/SQLCache.cpp:239
 msgctxt "QObject|"
 msgid "Can't create table child_mailboxes"
-msgstr "Не удаётся создать таблицу child_mailboxes"
+msgstr "Не удалось создать таблицу child_mailboxes"
 
 #: src/Imap/Model/SQLCache.cpp:247
 msgctxt "QObject|"
 msgid "Can't create table uid_mapping"
-msgstr "Не удаётся создать таблицу uid_mapping"
+msgstr "Не удалось создать таблицу uid_mapping"
 
 #: src/Imap/Model/SQLCache.cpp:259
 msgctxt "QObject|"
 msgid "Can't create table flags"
-msgstr "Не удаётся создать таблицу флагов"
+msgstr "Не удалось создать таблицу flags"
 
 #: src/Imap/Model/SQLCache.cpp:269
 msgctxt "QObject|"
 msgid "Can't create table parts"
-msgstr "Не удаётся создать таблицу частей"
+msgstr "Не удалось создать таблицу parts"
 
 #: src/Imap/Model/SQLCache.cpp:282
 msgctxt "QObject|"
@@ -4545,7 +4539,7 @@ msgstr "FileDownloadManager::downloadMessage(): сообщение исчезл�
 #: src/Imap/Network/ForbiddenReply.cpp:34
 msgctxt "Imap::Network::ForbiddenReply|"
 msgid "Remote Content Is Banned"
-msgstr "Удаленный контент запрещён"
+msgstr "Внешнее содержимое запрещено"
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:82
 msgctxt "Imap::Network::MsgPartNetworkReply|"
@@ -4570,7 +4564,7 @@ msgstr "Передача сообщения"
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:83
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "All messages disappeared before we could have copied them"
-msgstr "Все сообщения исчезли прежде чем мы могли их скопировать"
+msgstr "Все сообщения исчезли до того, как их удалось скопировать"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:105
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
@@ -4581,7 +4575,7 @@ msgstr "Запрошено завершение"
 #, qt-format
 msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "The COPY operation has failed: %1"
-msgstr "Операция копирования не удалась: %1"
+msgstr "Не удалось выполнить операцию COPY: %1"
 
 #: src/Imap/Tasks/CopyMoveMessagesTask.cpp:123
 #, qt-format
@@ -4602,7 +4596,7 @@ msgstr "Запрошено завершение"
 #: src/Imap/Tasks/CreateMailboxTask.cpp:71
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Cannot create mailbox"
-msgstr "Не удается создать почтовый ящик"
+msgstr "Не удалось создать почтовый ящик"
 
 #: src/Imap/Tasks/CreateMailboxTask.cpp:79
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
@@ -4617,7 +4611,7 @@ msgstr "Создание почтового ящика"
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:99
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Couldn't delete mailbox"
-msgstr "Не получилось удалить почтовый ящик"
+msgstr "Не удалось удалить почтовый ящик"
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:109
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
@@ -4628,44 +4622,42 @@ msgstr "Удаление почтового ящика"
 #, qt-format
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox %1 has pending activity, so it cannot be deleted now."
-msgstr ""
-"Почтовый ящик %1 имеет отложенное действие, поэтому он не может быть удален "
-"в настоящее время."
+msgstr "Почтовый ящик %1 ещё используется, поэтому сейчас его удалить нельзя."
 
 #: src/Imap/Tasks/DeleteMailboxTask.cpp:116
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Mailbox has pending activity"
-msgstr "Почтовый ящик в ожидании активности"
+msgstr "Почтовый ящик ещё используется"
 
 #: src/Imap/Tasks/EnableTask.cpp:75
 msgctxt "Imap::Mailbox::EnableTask|"
 msgid "ENABLE failed, strange"
-msgstr "Не удалось включить, странно"
+msgstr "Не удалось выполнить ENABLE, странно"
 
 #: src/Imap/Tasks/EnableTask.cpp:86
 msgctxt "Imap::Mailbox::EnableTask|"
 msgid "Enabling IMAP extensions"
-msgstr "Включение расширения IMAP"
+msgstr "Включение расширений IMAP"
 
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:49
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 msgid "Mailbox vanished before we could expunge it"
-msgstr "Почтовый ящик пропал до того, как удалось уничтожить сообщения"
+msgstr "Почтовый ящик исчез до того, как удалось стереть удалённые сообщения"
 
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:68
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 msgid "Expunge failed"
-msgstr "Не удалось уничтожить"
+msgstr "Не удалось выполнить EXPUNGE"
 
 #: src/Imap/Tasks/ExpungeMailboxTask.cpp:78
 msgctxt "Imap::Mailbox::ExpungeMailboxTask|"
 msgid "Removing deleted messages"
-msgstr "Удаление удаленных сообщений"
+msgstr "Стирание удалённых сообщений"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:75
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "All messages are gone already"
-msgstr "Все сообщения уже пропали"
+msgstr "Все сообщения уже исчезли"
 
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:80
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
@@ -4680,7 +4672,7 @@ msgstr "Не удалось выполнить UID EXPUNGE"
 #: src/Imap/Tasks/ExpungeMessagesTask.cpp:105
 msgctxt "Imap::Mailbox::ExpungeMessagesTask|"
 msgid "Removing some of the deleted messages"
-msgstr "Удаление некоторых из удаленных сообщений"
+msgstr "Стирание некоторых удалённых сообщений"
 
 #: src/Imap/Tasks/FetchMsgMetadataTask.cpp:60
 msgctxt "Imap::Mailbox::FetchMsgMetadataTask|"
@@ -4711,7 +4703,7 @@ msgstr "Загрузка сообщений"
 #: src/Imap/Tasks/GenUrlAuthTask.cpp:87
 msgctxt "Imap::Mailbox::GenUrlAuthTask|"
 msgid "Obtaining authentication token"
-msgstr "Получение маркера проверки подлинности"
+msgstr "Получение токена аутентификации"
 
 #: src/Imap/Tasks/IdTask.cpp:67
 msgctxt "Imap::Mailbox::IdTask|"
@@ -4730,7 +4722,7 @@ msgid ""
 "The server sent the following ALERT:\n"
 "%1"
 msgstr ""
-"Сервер послал следующее предупреждение:\n"
+"Сервер прислал предупреждение (ALERT):\n"
 "%1"
 
 #: src/Imap/Tasks/ImapTask.h:191
@@ -4760,7 +4752,7 @@ msgstr "Синтаксический анализатор отсутствует
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:713
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Logging off..."
-msgstr "Выполняется выход..."
+msgstr "Выполняется выход…"
 
 #: src/Imap/Tasks/KeepMailboxOpenTask.cpp:920
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
@@ -4776,7 +4768,7 @@ msgstr "Команда UNSELECT выполнена"
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Mailbox vanished before we could ask for its children"
 msgstr ""
-"Почтовый ящик исчез, прежде чем мы могли запросить его дочерние почтовые "
+"Почтовый ящик исчез до того, как удалось запросить его дочерние почтовые "
 "ящики"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:101
@@ -4787,12 +4779,12 @@ msgstr "Не удалось выполнить LIST"
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:105
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Mailbox no longer available -- weird timing?"
-msgstr "Почтовый ящик не доступен -- странные сроки?"
+msgstr "Почтовый ящик больше недоступен — неудачное совпадение по времени?"
 
 #: src/Imap/Tasks/ListChildMailboxesTask.cpp:151
 msgctxt "Imap::Mailbox::ListChildMailboxesTask|"
 msgid "Listing mailboxes"
-msgstr "Список почтовых ящиков"
+msgstr "Получение списка почтовых ящиков"
 
 #: src/Imap/Tasks/NoopTask.cpp:63
 msgctxt "Imap::Mailbox::NoopTask|"
@@ -4812,7 +4804,7 @@ msgstr "Не удалось выполнить STATUS"
 #: src/Imap/Tasks/NumberOfMessagesTask.cpp:99
 msgctxt "Imap::Mailbox::NumberOfMessagesTask|"
 msgid "Looking for messages"
-msgstr "Просмотр сообщения"
+msgstr "Подсчёт сообщений"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:72
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
@@ -4832,7 +4824,7 @@ msgstr "Запрошено завершение"
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1200
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Escaped from mailbox"
-msgstr "Отключился от почтового ящика"
+msgstr "Выход из почтового ящика"
 
 #: src/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1205
 msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
@@ -4863,7 +4855,7 @@ msgid ""
 msgstr ""
 "Конфигурация требует отправки STARTTLS, но сервер IMAP приветствует ответом "
 "PREAUTH. Не удаётся установить шифрование. Если эта конфигурация работала "
-"раньше, кто-то охотится за данными, и он довольно умён."
+"раньше, кто-то охотится за вашими данными, и весьма умело."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:195
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4892,7 +4884,7 @@ msgid ""
 "Cannot establish a secure connection.\n"
 "The STARTTLS command failed: %1"
 msgstr ""
-"Не удалось установить защищённое соединение.\n"
+"Не удалось установить защищённое подключение.\n"
 "Не удалось выполнить команду STARTTLS: %1"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:265
@@ -4905,7 +4897,7 @@ msgstr ""
 #: src/Imap/Tasks/OpenConnectionTask.cpp:301
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Temporary failure because a subsystem is down."
-msgstr "Временные неудачи, потому что подсистема не работает."
+msgstr "Временный сбой: одна из подсистем не работает."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:304
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4923,9 +4915,9 @@ msgid ""
 "server cannot or will not allow the authentication identity to act as the "
 "requested authorization identity."
 msgstr ""
-"Аутентификация успешно выполнялась в использовании проверки подлинности, но "
-"сервер не может или не хочет разрешить аутентификацию запроса авторизации "
-"личности."
+"Аутентификация с этими учётными данными прошла успешно, но сервер не может "
+"или не хочет разрешить действовать от имени запрошенного идентификатора "
+"авторизации."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:312
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4934,9 +4926,9 @@ msgid ""
 "data; either way, access is no longer permitted using that passphrase.  You "
 "should get a new passphrase."
 msgstr ""
-"Либо аутентификации завершена, или сервер больше не имеет необходимых "
-"данных: в любом случае для доступа больше не разрешается использовать эту "
-"фразу. Вы должны получить новый пароль."
+"Либо аутентификация уже выполнена, либо у сервера больше нет нужных данных; "
+"в любом случае доступ по этой парольной фразе больше не разрешён. Необходимо "
+"получить новую парольную фразу."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:317
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4946,8 +4938,7 @@ msgstr "Операция не разрешена из-за отсутствия 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:320
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "You should contact the system administrator or support desk."
-msgstr ""
-"Вам следует связаться с системным администратором или службой поддержки."
+msgstr "Обратитесь к системному администратору или в службу поддержки."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:327
 #, qt-format
@@ -4983,7 +4974,7 @@ msgstr "Ошибка сервера: не удалось выполнить за
 #: src/Imap/Tasks/OpenConnectionTask.cpp:472
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Cannot login, you have not provided any credentials yet."
-msgstr "Не удаётся войти, вы не предоставили еще никаких параметров доступа."
+msgstr "Не удалось войти: учётные данные ещё не указаны."
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:484
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
@@ -4993,29 +4984,29 @@ msgstr "Подключение к почтовому серверу"
 #: src/Imap/Tasks/OpenConnectionTask.cpp:504
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "The security state of the SSL connection got rejected"
-msgstr "Ошибка: состояние защиты соединения SSL отклонено"
+msgstr "Состояние защиты подключения SSL отклонено"
 
 #: src/Imap/Tasks/OpenConnectionTask.cpp:513
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
 "The security state of the connection after a STARTTLS operation got rejected"
-msgstr "Состояние защиты соединения после операции STARTTLS было отклонено"
+msgstr "Состояние защиты подключения после операции STARTTLS отклонено"
 
 #: src/Imap/Tasks/SortTask.cpp:55
 msgctxt "Imap::Mailbox::SortTask|"
 msgid "Mailbox vanished before we could ask for threading info"
 msgstr ""
-"Не удалось запросить сведения о цепочках сообщений: почтовый ящик исчез"
+"Почтовый ящик исчез до того, как удалось запросить сведения об обсуждениях"
 
 #: src/Imap/Tasks/SortTask.cpp:150
 msgctxt "Imap::Mailbox::SortTask|"
 msgid "Sorting command has failed"
-msgstr "Команда сортировки провалилась"
+msgstr "Не удалось выполнить команду сортировки"
 
 #: src/Imap/Tasks/SortTask.cpp:243
 msgctxt "Imap::Mailbox::SortTask|"
 msgid "Sorting mailbox"
-msgstr "Сортировка почтовых ящиков"
+msgstr "Сортировка почтового ящика"
 
 #: src/Imap/Tasks/SubscribeUnsubscribeTask.cpp:94
 msgctxt "Imap::Mailbox::SubscribeUnsubscribeTask|"
@@ -5025,7 +5016,7 @@ msgstr "Не удалось выполнить SUBSCRIBE/UNSUBSCRIBE"
 #: src/Imap/Tasks/SubscribeUnsubscribeTask.cpp:110
 msgctxt "Imap::Mailbox::SubscribeUnsubscribeTask|"
 msgid "Updating subscription information"
-msgstr "Обновление информации о подписке"
+msgstr "Обновление сведений о подписке"
 
 #: src/Imap/Tasks/ThreadTask.cpp:53
 msgctxt "Imap::Mailbox::ThreadTask|"
@@ -5036,12 +5027,12 @@ msgstr ""
 #: src/Imap/Tasks/ThreadTask.cpp:75
 msgctxt "Imap::Mailbox::ThreadTask|"
 msgid "Threading command has failed"
-msgstr "Команда группировки по обсуждениям провалилась"
+msgstr "Не удалось выполнить команду группировки по обсуждениям"
 
 #: src/Imap/Tasks/ThreadTask.cpp:109
 msgctxt "Imap::Mailbox::ThreadTask|"
 msgid "Fetching conversations"
-msgstr "Получение разговоров"
+msgstr "Получение обсуждений"
 
 #: src/Imap/Tasks/UidSubmitTask.cpp:55
 #, qt-format
@@ -5072,7 +5063,7 @@ msgstr "Сохранение состояния почтового ящика"
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:121
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
 msgid "All messages got removed before we could've updated their flags"
-msgstr "Все сообщения удалены прежде чем мы смогли обновить свои флаги"
+msgstr "Все сообщения удалены до того, как удалось обновить их флаги"
 
 #: src/Imap/Tasks/UpdateFlagsTask.cpp:138
 msgctxt "Imap::Mailbox::UpdateFlagsTask|"
@@ -5088,25 +5079,25 @@ msgstr "Сохранение состояния сообщения"
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "Sending mail plaintext is not supported by %1"
-msgstr "Отправка почты открытым текстом не поддерживается %1"
+msgstr "Отправка почты открытым текстом не поддерживается в %1"
 
 #: src/MSA/AbstractMSA.cpp:59
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "BURL is not supported by %1"
-msgstr "BURL не поддерживается по %1"
+msgstr "BURL не поддерживается в %1"
 
 #: src/MSA/AbstractMSA.cpp:68
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "IMAP sending is not supported by %1"
-msgstr "Отправка не поддерживается IMAP %1"
+msgstr "Отправка через IMAP не поддерживается в %1"
 
 #: src/MSA/AbstractMSA.cpp:74
 #, qt-format
 msgctxt "MSA::AbstractMSA|"
 msgid "Setting password is not supported by %1"
-msgstr "Установка пароля не поддерживается %1"
+msgstr "Установка пароля не поддерживается в %1"
 
 #: src/MSA/Account.cpp:233
 #, qt-format
@@ -5133,7 +5124,7 @@ msgid ""
 "connection is %1."
 msgstr ""
 "Этот порт нестандартный. Порт по умолчанию для SMTP через зашифрованное "
-"соединение SSL/TLS — %1."
+"подключение SSL/TLS — %1."
 
 #: src/MSA/Sendmail.cpp:85
 #, qt-format
@@ -5161,13 +5152,13 @@ msgstr "Отправка сообщения была отменена"
 #: src/MSA/SMTP.cpp:69
 msgctxt "MSA::SMTP|"
 msgid "Sending of the message failed."
-msgstr "Отправка сообщения не удалась."
+msgstr "Не удалось отправить сообщение."
 
 #: src/MSA/SMTP.cpp:71
 #, qt-format
 msgctxt "MSA::SMTP|"
 msgid "Sending of the message failed with the following error: %1"
-msgstr "При отправке сообщения произошли следующие ошибки: %1"
+msgstr "Не удалось отправить сообщение: %1"
 
 #: src/MSA/SMTP.cpp:85
 #, qt-format
@@ -5196,7 +5187,7 @@ msgstr "Контакты"
 msgctxt "AbookAddressbook|"
 msgid ""
 "Failed to create abook directory \"%1\": Do you have sufficient permissions?"
-msgstr "Не удалось создать каталог abook «%1»: достаточно ли прав доступа?"
+msgstr "Не удалось создать папку abook «%1»: достаточно ли прав доступа?"
 
 #. Translators: %1 is the filename of the abook config file %2 is the detailed error description from Qt, ready for human consumption
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:214
@@ -5217,7 +5208,7 @@ msgstr "Не удалось открыть файл конфигурации abo
 #, qt-format
 msgctxt "AbookAddressbook|"
 msgid "Failed to create abook database \"%1\": %2"
-msgstr "Ошибка при создании базы данных abook «%1»: %2"
+msgstr "Не удалось создать базу данных abook «%1»: %2"
 
 #: src/Plugins/AbookAddressbook/AbookAddressbook.cpp:449
 msgctxt "trojita_plugin_AbookAddressbookPlugin|"
@@ -5242,12 +5233,12 @@ msgstr "Сохранить изменения?"
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:276
 msgctxt "BE::Contacts|"
 msgid "[New Contact]"
-msgstr "[Создать контакт]"
+msgstr "[Новый контакт]"
 
 #: src/Plugins/AbookAddressbook/be-contacts.cpp:457
 msgctxt "BE::Contacts|"
 msgid "[name]"
-msgstr "[Имя]"
+msgstr "[имя]"
 
 #: src/Plugins/AbookAddressbook/be-contacts.ui:14
 msgctxt "Contacts|"
@@ -5272,12 +5263,12 @@ msgstr "<имя>"
 #: src/Plugins/AbookAddressbook/onecontact.ui:50
 msgctxt "OneContact|"
 msgid "<Mail>"
-msgstr "<Mail>"
+msgstr "<почта>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:69
 msgctxt "OneContact|"
 msgid "<Internet>"
-msgstr "<Internet>"
+msgstr "<веб-сайт>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:84
 msgctxt "OneContact|"
@@ -5287,27 +5278,27 @@ msgstr "Адрес"
 #: src/Plugins/AbookAddressbook/onecontact.ui:105
 msgctxt "OneContact|"
 msgid "<country>"
-msgstr "<country>"
+msgstr "<страна>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:124
 msgctxt "OneContact|"
 msgid "<state>"
-msgstr "<state>"
+msgstr "<область>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:149
 msgctxt "OneContact|"
 msgid "<city>"
-msgstr "<city>"
+msgstr "<город>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:168
 msgctxt "OneContact|"
 msgid "<zip>"
-msgstr "<zip>"
+msgstr "<индекс>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:187
 msgctxt "OneContact|"
 msgid "<address>"
-msgstr "<address>"
+msgstr "<адрес>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:203
 msgctxt "OneContact|"
@@ -5367,7 +5358,7 @@ msgstr "Псевдоним"
 #: src/Plugins/AbookAddressbook/onecontact.ui:383
 msgctxt "OneContact|"
 msgid "<nick>"
-msgstr "<nick>"
+msgstr "<псевдоним>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:396
 msgctxt "OneContact|"
@@ -5377,7 +5368,7 @@ msgstr "Годовщина"
 #: src/Plugins/AbookAddressbook/onecontact.ui:415
 msgctxt "OneContact|"
 msgid "<anniversary>"
-msgstr "<anniversary>"
+msgstr "<годовщина>"
 
 #: src/Plugins/AbookAddressbook/onecontact.ui:428
 msgctxt "OneContact|"
@@ -5424,7 +5415,7 @@ msgstr "Sonnet"
 #: src/qwwsmtpclient/qwwsmtpclient.cpp:449
 msgctxt "QwwSmtpClient|"
 msgid "Unsupported or unknown authentication scheme"
-msgstr "Не поддерживаемая или неизвестная схема аутентификации"
+msgstr "Неподдерживаемая или неизвестная схема аутентификации"
 
 #: src/Streams/IODeviceSocket.cpp:178
 #, qt-format
@@ -5464,7 +5455,7 @@ msgstr ""
 #: src/Streams/IODeviceSocket.cpp:258
 msgctxt "Streams::SslTlsSocket|"
 msgid "Connection closed"
-msgstr "Соединение закрыто"
+msgstr "Подключение закрыто"
 
 #: src/Streams/IODeviceSocket.cpp:283
 #, qt-format
@@ -5488,13 +5479,13 @@ msgstr " (через прокси HTTP %1)"
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid "Looking up %1%2..."
-msgstr "Просмотр %1%2..."
+msgstr "Поиск адреса %1%2…"
 
 #: src/Streams/IODeviceSocket.cpp:299
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid "Connecting to %1:%2%3%4..."
-msgstr "Подключение к %1:%2%3%4..."
+msgstr "Подключение к %1:%2%3%4…"
 
 #: src/Streams/IODeviceSocket.cpp:300
 msgctxt "Streams::SslTlsSocket|"
@@ -5509,13 +5500,13 @@ msgstr "Подключено"
 #: src/Streams/IODeviceSocket.cpp:311
 msgctxt "Streams::SslTlsSocket|"
 msgid "Negotiating encryption..."
-msgstr "Шифрование переговоров"
+msgstr "Согласование шифрования…"
 
 #: src/Streams/IODeviceSocket.cpp:316
 #, qt-format
 msgctxt "Streams::SslTlsSocket|"
 msgid "Socket is disconnected: %1"
-msgstr "Разъем отсоединился: %1"
+msgstr "Сокет отключён: %1"
 
 #: src/Streams/IODeviceSocket.cpp:328 src/Streams/IODeviceSocket.cpp:380
 #, qt-format
@@ -5523,8 +5514,7 @@ msgctxt "Streams::SslTlsSocket|"
 msgid ""
 "The underlying socket is having troubles when processing connection to %1:"
 "%2: %3"
-msgstr ""
-"В основном сокете возникли проблемы при обработке соединения в %1:%2: %3"
+msgstr "Ошибка базового сокета при обработке подключения к %1:%2: %3"
 
 #: src/UiUtils/Formatting.cpp:40
 msgctxt "Formatting|"
@@ -5555,7 +5545,7 @@ msgstr "ТБ"
 #, qt-format
 msgctxt "Formatting|"
 msgid "%1 %2"
-msgstr "%1 на %2"
+msgstr "%1 %2"
 
 #: src/UiUtils/Formatting.cpp:86
 msgctxt ""
@@ -5579,7 +5569,7 @@ msgctxt ""
 "their order or the separator to follow the local conventions. For valid "
 "specifiers see http://doc.qt.io/qt-5/qdatetime.html#toString"
 msgid "d MMM hh:mm"
-msgstr "чч:мм"
+msgstr "d MMM hh:mm"
 
 #: src/UiUtils/Formatting.cpp:142
 #, qt-format
@@ -5593,7 +5583,7 @@ msgid ""
 msgstr ""
 "<li><b>CN</b>: %1,<br/>\n"
 "<b>Организация</b>: %2,<br/>\n"
-"<b>Серийный</b>: %3,<br/>\n"
+"<b>Серийный номер</b>: %3,<br/>\n"
 "<b>SHA1</b>: %4,<br/>\n"
 "<b>MD5</b>: %5</li>"
 
@@ -5614,7 +5604,7 @@ msgid ""
 "<p>This is the certificate chain of the connection:</p>\n"
 "<ul>%1</ul>\n"
 msgstr ""
-"<p>Это цепочка сертификатов соединения:</p>\n"
+"<p>Цепочка сертификатов подключения:</p>\n"
 "<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:153 src/UiUtils/Formatting.cpp:164
@@ -5631,7 +5621,7 @@ msgstr "<li>%1</li>"
 #: src/UiUtils/Formatting.cpp:163
 msgctxt "Formatting|"
 msgid "<p>According to your system's policy, this connection is secure.</p>\n"
-msgstr "<p>В соответствии с политикой системы это соединение защищено.</p>\n"
+msgstr "<p>В соответствии с политикой системы это подключение защищено.</p>\n"
 
 #: src/UiUtils/Formatting.cpp:164
 #, qt-format
@@ -5640,7 +5630,7 @@ msgid ""
 "<p>The connection triggered the following SSL errors:</p>\n"
 "<ul>%1</ul>\n"
 msgstr ""
-"<p>При соединении возникли следующие ошибки SSL:</p>\n"
+"<p>При подключении возникли следующие ошибки SSL:</p>\n"
 "<ul>%1</ul>\n"
 
 #: src/UiUtils/Formatting.cpp:175
@@ -5689,7 +5679,7 @@ msgstr ""
 #: src/UiUtils/Formatting.cpp:193 src/UiUtils/Formatting.cpp:200
 msgctxt "Formatting|"
 msgid "Accept SSL connection?"
-msgstr "Принять соединение SSL?"
+msgstr "Принять подключение SSL?"
 
 #: src/UiUtils/Formatting.cpp:194
 #, qt-format
@@ -5744,42 +5734,42 @@ msgstr ""
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Loading password from plugin %1..."
-msgstr "Загрузка пароля из модуля %1..."
+msgstr "Загрузка пароля из модуля %1…"
 
 #: src/UiUtils/PasswordWatcher.cpp:86
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot read password via plugin %1"
-msgstr "Не могу прочитать пароль через модуль %1"
+msgstr "Не удалось прочитать пароль через модуль %1"
 
 #: src/UiUtils/PasswordWatcher.cpp:89 src/UiUtils/PasswordWatcher.cpp:175
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password plugin is not available."
-msgstr "Модуль пароля не доступен."
+msgstr "Модуль хранения паролей недоступен."
 
 #: src/UiUtils/PasswordWatcher.cpp:120
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password reading failed: %1"
-msgstr "При чтении пароля произошла ошибка: %1"
+msgstr "Не удалось прочитать пароль: %1"
 
 #: src/UiUtils/PasswordWatcher.cpp:149
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Password writing failed: %1"
-msgstr "При записи пароля произошла ошибка: %1"
+msgstr "Не удалось записать пароль: %1"
 
 #: src/UiUtils/PasswordWatcher.cpp:168
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Saving password from plugin %1..."
-msgstr "Сохранение пароля через модуль %1..."
+msgstr "Сохранение пароля через модуль %1…"
 
 #: src/UiUtils/PasswordWatcher.cpp:172
 #, qt-format
 msgctxt "UiUtils::PasswordWatcher|"
 msgid "Cannot save password via plugin %1"
-msgstr "Не могу сохранить пароль через модуль %1"
+msgstr "Не удалось сохранить пароль через модуль %1"
 
 #~ msgctxt "Gui::MainWindow|"
 #~ msgid "&Donate to the project"
