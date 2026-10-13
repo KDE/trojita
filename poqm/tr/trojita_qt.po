@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-08-04 19:12+0300\n"
+"PO-Revision-Date: 2026-10-12 11:37+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.08.0\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 is the filename of the logfile %2 is the detailed error description from Qt, ready for human consumption
@@ -848,7 +848,7 @@ msgstr "İletinin konusu yok"
 #: src/Gui/ComposeWidget.cpp:588
 msgctxt "ComposeWidget|"
 msgid "The Message-ID header is missing"
-msgstr "Message-ID üstbilgisi eksik"
+msgstr "Message-ID üst bilgisi eksik"
 
 #: src/Gui/ComposeWidget.cpp:591
 msgctxt "ComposeWidget|"
@@ -1367,7 +1367,7 @@ msgstr "%2, %1 tarihinde yazdı:\n"
 #, qt-format
 msgctxt "MessageHeadersWidget|"
 msgid "Message headers of UID %1 in %2"
-msgstr "%2 içindeki UID %1 ileti üstbilgileri"
+msgstr "%2 içindeki UID %1 ileti üst bilgileri"
 
 #: src/Gui/MessageHeadersWidget.cpp:55
 msgctxt "MessageHeadersWidget|"
@@ -5371,7 +5371,7 @@ msgstr "Fotoğraf"
 #: src/Plugins/AkonadiAddressbook/AkonadiAddressbook.cpp:67
 msgctxt "trojita_plugin_AkonadiAddressbookPlugin|"
 msgid "KDE Addressbook (Akonadi)"
-msgstr "K Adres Defteri (Akonadi)"
+msgstr "KAddressbook (Akonadi)"
 
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:51
 #: src/Plugins/ClearTextPassword/ClearTextPassword.cpp:67
