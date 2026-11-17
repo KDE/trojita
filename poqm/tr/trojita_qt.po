@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-10-12 11:37+0300\n"
+"PO-Revision-Date: 2026-11-16 19:05+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.2\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 is the filename of the logfile %2 is the detailed error description from Qt, ready for human consumption
@@ -696,7 +696,7 @@ msgstr "Doğrudan Aç"
 #: src/Gui/AttachmentView.cpp:93
 msgctxt "Gui::AttachmentView|"
 msgid "Show Preview"
-msgstr "Önizlemeyi Göster"
+msgstr "Ön İzlemeyi Göster"
 
 #: src/Gui/AttachmentView.cpp:100
 msgctxt "Gui::AttachmentView|"
