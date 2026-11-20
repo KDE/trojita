@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-11-16 19:05+0300\n"
+"PO-Revision-Date: 2026-11-19 19:21+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -1703,7 +1703,7 @@ msgstr "Çevrim dışı kip"
 #: src/Gui/SettingsCachePage.ui:48
 msgctxt "CachePage|"
 msgid "&Don't use cache"
-msgstr "&Önbelleği kullanma"
+msgstr "&Ön belleği kullanma"
 
 #: src/Gui/SettingsCachePage.ui:61
 msgctxt "CachePage|"
@@ -3417,7 +3417,7 @@ msgstr "Bağlantı Hatası"
 #: src/Gui/Window.cpp:1397
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
-msgstr "IMAP Önbelleği Hatası"
+msgstr "IMAP Ön Belleği Hatası"
 
 #: src/Gui/Window.cpp:1398
 #, qt-format
@@ -3428,8 +3428,8 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
-"Önbellekleme alt sistemi sorunlu bir IMAP sunucusundan indirilmiş bir "
-"önbellek verisini yönetiyor. Tüm önbellekleme işlemleri kapatılacak.\n"
+"Ön bellek alt sistemi, sorunlu bir IMAP sunucusundan indirilmiş bir ön "
+"bellek verisini yönetiyor. Tüm ön belleğe alma işlemleri kapatılacak.\n"
 "\n"
 "%1"
 
@@ -3891,17 +3891,17 @@ msgstr "İleti gitmiş"
 #: src/Imap/Model/FullMessageCombiner.cpp:91
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached message data not available"
-msgstr "Çevrim dışı kip: Önbelleğe işlenmemiş ileti verisine ulaşılamaz"
+msgstr "Çevrim dışı kip: Ön belleğe işlenmemiş ileti verisine ulaşılamaz."
 
 #: src/Imap/Model/FullMessageCombiner.cpp:93
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached header data not available"
-msgstr "Çevrim dışı kip: önbelleğe işlenmemiş başlık verisine ulaşılamaz"
+msgstr "Çevrim dışı kip: Ön belleğe işlenmemiş başlık verisine ulaşılamaz."
 
 #: src/Imap/Model/FullMessageCombiner.cpp:95
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Offline mode: uncached body data not available"
-msgstr "Çevrim dışı kip: önbelleğe işlenmemiş gövde verisine ulaşılamaz"
+msgstr "Çevrim dışı kip: Ön belleğe işlenmemiş gövde verisine ulaşılamaz."
 
 #: src/Imap/Model/ImapAccess.cpp:317
 #, qt-format
@@ -3913,7 +3913,7 @@ msgstr "%1 dizinini oluşturma işlemi başarısız"
 #, qt-format
 msgctxt "Imap::ImapAccess|"
 msgid "Failed to set safe permissions on cache directory %1"
-msgstr "%1 önbellek dizininde güvenli izinleri ayarlama işlemi başarısız oldu"
+msgstr "%1 ön bellek dizininde güvenli izinleri ayarlama işlemi başarısız oldu"
 
 #: src/Imap/Model/MailboxTree.cpp:1244
 msgctxt "Imap::Mailbox::Model|"
@@ -4132,7 +4132,8 @@ msgstr "Sürüm bilgisi belirlenemiyor"
 #: src/Imap/Model/SQLCache.cpp:163
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v1 to v2"
-msgstr "Önbellek veri tabanı şemasını v1’den v2’ye güncelleme işlemi başarısız"
+msgstr ""
+"Ön bellek veri tabanı şemasını v1’den v2’ye güncelleme işlemi başarısız"
 
 #: src/Imap/Model/SQLCache.cpp:172
 msgctxt "QObject|"
@@ -4142,8 +4143,7 @@ msgstr "Eski mailbox_sync_state tablosunu bırakma başarısız"
 #: src/Imap/Model/SQLCache.cpp:178
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v2/v3 to v4"
-msgstr ""
-"Önbellek veri tabanı şemasını v2/v3’den v4’e güncelleme işlemi başarısız"
+msgstr "Ön bellek veri tabanı şemasını v2/v3’den v4’e güncelleme yapılamadı."
 
 #: src/Imap/Model/SQLCache.cpp:191
 msgctxt "QObject|"
@@ -4154,12 +4154,12 @@ msgstr "msg_metadata eski tablosunu bırakma başarısız"
 msgctxt "QObject|"
 msgid "Failed to update cache DB scheme from v4/v5/v6 to v7"
 msgstr ""
-"Önbellek veri tabanı şemasını v4/v5/v6’dan v7’ye güncelleme işlemi başarısız"
+"Ön bellek veri tabanı şemasını v4/v5/v6’dan v7’ye güncelleme yapılamadı."
 
 #: src/Imap/Model/SQLCache.cpp:203
 msgctxt "QObject|"
 msgid "Unknown version of sqlite cache"
-msgstr "Bilinmeyen sqlite önbellek sürümü"
+msgstr "Bilinmeyen sqlite ön bellek sürümü"
 
 #: src/Imap/Model/SQLCache.cpp:224
 msgctxt "QObject|"
@@ -4535,7 +4535,7 @@ msgstr "Veriye erişilemedi"
 #: src/Imap/Network/MsgPartNetworkReply.cpp:85
 msgctxt "Imap::Network::MsgPartNetworkReply|"
 msgid "Uncached data not available when offline"
-msgstr "Önbellekte olmayan veri çevrim dışı kullanılamaz"
+msgstr "Ön bellekte olmayan veri çevrim dışı kullanılamaz."
 
 #: src/Imap/Network/MsgPartNetworkReply.cpp:87
 msgctxt "Imap::Network::MsgPartNetworkReply|"
