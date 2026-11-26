@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trojita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2026-08-04 09:23+0200\n"
+"PO-Revision-Date: 2026-11-25 17:11+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 26.04.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #. Translators: %1 is the filename of the logfile %2 is the detailed error description from Qt, ready for human consumption
 #: src/Common/FileLogger.cpp:52
@@ -1186,7 +1186,7 @@ msgstr "CC"
 #: src/Gui/EnvelopeView.cpp:144
 msgctxt "Gui::EnvelopeView|"
 msgid "Bcc'd to"
-msgstr "copiat ocult a"
+msgstr "Amb còpia oculta a"
 
 #: src/Gui/EnvelopeView.cpp:146
 msgctxt "Gui::EnvelopeView|"
@@ -1759,9 +1759,9 @@ msgid ""
 "This might result in extremely slow operation in certain scenarios with "
 "shared mailboxes, rich folder hierarchies, or IMAP proxying, for example."
 msgstr ""
-"Això podria resultar en un funcionament extremadament lent en certs "
-"escenaris amb bústies compartides, jerarquies riques en carpetes o un "
-"servidor intermediari IMAP, per exemple."
+"Això podria provocar un funcionament extremadament lent en certs escenaris "
+"amb bústies compartides, jerarquies riques en carpetes o un servidor "
+"intermediari IMAP, per exemple."
 
 #: src/Gui/SettingsCachePage.ui:125
 msgctxt "CachePage|"
